@@ -1,0 +1,3047 @@
+{
+	"Name": "raid_lvl_65",
+	"RaidDetails": {
+		"raidId": "raid_lvl_65",
+		"rows": 9,
+		"columns": 7,
+		"isOperation": false,
+		"map": [["A1",
+		"A2",
+		"A3",
+		"A4",
+		"A5",
+		"",
+		""],
+		["B1",
+		"B2",
+		"B3",
+		"B4",
+		"B5",
+		"B6",
+		""],
+		["C1",
+		"C2",
+		"C3",
+		"C4",
+		"C5",
+		"C6",
+		"C7"],
+		["D1",
+		"D2",
+		"D3",
+		"D4",
+		"D5",
+		"D6",
+		"D7"],
+		["E1",
+		"E2",
+		"E3",
+		"",
+		"E5",
+		"E6",
+		"E7"],
+		["F1",
+		"F2",
+		"F3",
+		"F4",
+		"F5",
+		"F6",
+		"F7"],
+		["G1",
+		"G2",
+		"G3",
+		"G4",
+		"G5",
+		"G6",
+		"G7"],
+		["H1",
+		"H2",
+		"H3",
+		"H4",
+		"H5",
+		"H6",
+		""],
+		["I1",
+		"I2",
+		"I3",
+		"I4",
+		"I5",
+		"",
+		""]],
+		"rooms": {
+			"E1": {
+				"roomId": "E1",
+				"name": "raid_ult06_st",
+				"starting": true,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E2",
+				"D1",
+				"F1"]
+			},
+			"E2": {
+				"roomId": "E2",
+				"name": "raid_ult06_xx",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E3",
+				"D2",
+				"F2"]
+			},
+			"D1": {
+				"roomId": "D1",
+				"name": "raid_ult06_xx",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"C1",
+				null]
+			},
+			"F1": {
+				"roomId": "F1",
+				"name": "raid_ult06_xx",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"G1"]
+			},
+			"C1": {
+				"roomId": "C1",
+				"name": "raid_ult06_01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_01",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C2",
+				"B1",
+				null]
+			},
+			"B1": {
+				"roomId": "B1",
+				"name": "raid_ult06_02",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_02",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B2",
+				"A1",
+				null]
+			},
+			"G1": {
+				"roomId": "G1",
+				"name": "raid_ult06_01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_01",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G2",
+				null,
+				"H1"]
+			},
+			"H1": {
+				"roomId": "H1",
+				"name": "raid_ult06_02",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_02",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["H2",
+				null,
+				"I1"]
+			},
+			"I1": {
+				"roomId": "I1",
+				"name": "raid_ult06_03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_03",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["I2",
+				null,
+				null]
+			},
+			"A1": {
+				"roomId": "A1",
+				"name": "raid_ult06_03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_03",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A2",
+				null,
+				null]
+			},
+			"D2": {
+				"roomId": "D2",
+				"name": "raid_ult06_04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_04",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"C2",
+				null]
+			},
+			"C2": {
+				"roomId": "C2",
+				"name": "raid_ult06_05",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_05",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C3",
+				"B2",
+				null]
+			},
+			"B2": {
+				"roomId": "B2",
+				"name": "raid_ult06_06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_06",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B3",
+				"A2",
+				null]
+			},
+			"A2": {
+				"roomId": "A2",
+				"name": "raid_ult06_mb01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb01",
+						"icon": "Portrait_LukeCage",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A3",
+				null,
+				null]
+			},
+			"I2": {
+				"roomId": "I2",
+				"name": "raid_ult06_mb02",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb02",
+						"icon": "Portrait_Thor",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["I3",
+				null,
+				null]
+			},
+			"H2": {
+				"roomId": "H2",
+				"name": "raid_ult06_06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_06",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["H3",
+				null,
+				"I2"]
+			},
+			"G2": {
+				"roomId": "G2",
+				"name": "raid_ult06_05",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_05",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G3",
+				null,
+				"H2"]
+			},
+			"F2": {
+				"roomId": "F2",
+				"name": "raid_ult06_04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_04",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"G2"]
+			},
+			"A3": {
+				"roomId": "A3",
+				"name": "raid_ult06_10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_10",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A4",
+				null,
+				null]
+			},
+			"B3": {
+				"roomId": "B3",
+				"name": "raid_ult06_mb03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb03",
+						"icon": "Portrait_SpiderMan",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B4",
+				"A3",
+				null]
+			},
+			"C3": {
+				"roomId": "C3",
+				"name": "raid_ult06_09",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_09",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"B3",
+				null]
+			},
+			"D3": {
+				"roomId": "D3",
+				"name": "raid_ult06_08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_08",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"C3",
+				null]
+			},
+			"E3": {
+				"roomId": "E3",
+				"name": "raid_ult06_07",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_07",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"D3",
+				"F3"]
+			},
+			"F3": {
+				"roomId": "F3",
+				"name": "raid_ult06_08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_08",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"G3"]
+			},
+			"G3": {
+				"roomId": "G3",
+				"name": "raid_ult06_09",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_09",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"H3"]
+			},
+			"H3": {
+				"roomId": "H3",
+				"name": "raid_ult06_mb04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb04",
+						"icon": "Portrait_RedSkull",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["H4",
+				null,
+				"I3"]
+			},
+			"I3": {
+				"roomId": "I3",
+				"name": "raid_ult06_10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_10",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["I4",
+				null,
+				null]
+			},
+			"A4": {
+				"roomId": "A4",
+				"name": "raid_ult06_11",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_11",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A5",
+				null,
+				null]
+			},
+			"B4": {
+				"roomId": "B4",
+				"name": "raid_ult06_12",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_12",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"C4"]
+			},
+			"C4": {
+				"roomId": "C4",
+				"name": "raid_ult06_13",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_13",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C5",
+				null,
+				"D4"]
+			},
+			"D4": {
+				"roomId": "D4",
+				"name": "raid_ult06_14",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_14",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D5",
+				null,
+				null]
+			},
+			"F4": {
+				"roomId": "F4",
+				"name": "raid_ult06_14",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_14",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F5",
+				null,
+				null]
+			},
+			"G4": {
+				"roomId": "G4",
+				"name": "raid_ult06_13",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_13",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G5",
+				"F4",
+				null]
+			},
+			"H4": {
+				"roomId": "H4",
+				"name": "raid_ult06_12",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_12",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"G4",
+				null]
+			},
+			"I4": {
+				"roomId": "I4",
+				"name": "raid_ult06_11",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_11",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["I5",
+				null,
+				null]
+			},
+			"A5": {
+				"roomId": "A5",
+				"name": "raid_ult06_15",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_15",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"B5"]
+			},
+			"B5": {
+				"roomId": "B5",
+				"name": "raid_ult06_mb05",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb05",
+						"icon": "Portrait_BaronMordo",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B6",
+				null,
+				null]
+			},
+			"C5": {
+				"roomId": "C5",
+				"name": "raid_ult06_16",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_16",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"B5",
+				"D5"]
+			},
+			"D5": {
+				"roomId": "D5",
+				"name": "raid_ult06_mb06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb06",
+						"icon": "Portrait_DoctorStrange",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"E5"]
+			},
+			"E5": {
+				"roomId": "E5",
+				"name": "raid_ult06_17",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_17",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E6",
+				null,
+				null]
+			},
+			"F5": {
+				"roomId": "F5",
+				"name": "raid_ult06_mb07",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb07",
+						"icon": "Portrait_Cable",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"E5",
+				null]
+			},
+			"G5": {
+				"roomId": "G5",
+				"name": "raid_ult06_16",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_16",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"F5",
+				"H5"]
+			},
+			"H5": {
+				"roomId": "H5",
+				"name": "raid_ult06_mb08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb08",
+						"icon": "Portrait_Elektra",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["H6",
+				null,
+				null]
+			},
+			"I5": {
+				"roomId": "I5",
+				"name": "raid_ult06_15",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_15",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"H5",
+				null]
+			},
+			"B6": {
+				"roomId": "B6",
+				"name": "raid_ult06_18",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_18",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"C6"]
+			},
+			"C6": {
+				"roomId": "C6",
+				"name": "raid_ult06_19",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_19",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C7",
+				null,
+				"D6"]
+			},
+			"D6": {
+				"roomId": "D6",
+				"name": "raid_ult06_20",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_20",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D7",
+				null,
+				null]
+			},
+			"E6": {
+				"roomId": "E6",
+				"name": "raid_ult06_21",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_21",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"D6",
+				"F6"]
+			},
+			"F6": {
+				"roomId": "F6",
+				"name": "raid_ult06_20",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_20",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F7",
+				null,
+				null]
+			},
+			"G6": {
+				"roomId": "G6",
+				"name": "raid_ult06_19",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_19",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G7",
+				"F6",
+				null]
+			},
+			"H6": {
+				"roomId": "H6",
+				"name": "raid_ult06_18",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_18",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"G6",
+				null]
+			},
+			"C7": {
+				"roomId": "C7",
+				"name": "raid_ult06_22",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_22",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"D7"]
+			},
+			"D7": {
+				"roomId": "D7",
+				"name": "raid_ult06_mb09",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb09",
+						"icon": "Portrait_Crossbones",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"E7"]
+			},
+			"E7": {
+				"roomId": "E7",
+				"name": "raid_ult06_fb01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_fb01",
+						"icon": "Portrait_Ultimus",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_3_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				null]
+			},
+			"F7": {
+				"roomId": "F7",
+				"name": "raid_ult06_mb10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_mb10",
+						"icon": "Portrait_StarLord",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_2_temp",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"E7",
+				null]
+			},
+			"G7": {
+				"roomId": "G7",
+				"name": "raid_ult06_22",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "raid_ult06_22",
+						"icon": "raid_Icon_Ultimus.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_battledrops_lvl65_1",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"F7",
+				null]
+			}
+		},
+		"startingRoomId": "E1"
+	}
+}

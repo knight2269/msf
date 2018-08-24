@@ -1,0 +1,2015 @@
+{
+	"Name": "raid_deadpool_lvl_40",
+	"RaidDetails": {
+		"raidId": "raid_deadpool_lvl_40",
+		"rows": 7,
+		"columns": 7,
+		"isOperation": false,
+		"map": [["",
+		"A2",
+		"A3",
+		"A4",
+		"A5",
+		"A6",
+		""],
+		["B1",
+		"B2",
+		"B3",
+		"B4",
+		"B5",
+		"B6",
+		"B7"],
+		["C1",
+		"C2",
+		"C3",
+		"",
+		"C5",
+		"C6",
+		""],
+		["D1",
+		"D2",
+		"D3",
+		"",
+		"",
+		"",
+		""],
+		["E1",
+		"E2",
+		"E3",
+		"",
+		"E5",
+		"E6",
+		""],
+		["F1",
+		"F2",
+		"F3",
+		"F4",
+		"F5",
+		"F6",
+		"F7"],
+		["",
+		"G2",
+		"G3",
+		"G4",
+		"G5",
+		"G6",
+		""]],
+		"rooms": {
+			"D1": {
+				"roomId": "D1",
+				"name": "dp02_raid_start",
+				"starting": true,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D2",
+				"C1",
+				"E1"]
+			},
+			"C1": {
+				"roomId": "C1",
+				"name": "dp02_raid_empty",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C2",
+				"B1",
+				""]
+			},
+			"E1": {
+				"roomId": "E1",
+				"name": "dp02_raid_empty",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E2",
+				"",
+				"F1"]
+			},
+			"B1": {
+				"roomId": "B1",
+				"name": "evr_dp02_01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_01",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B2",
+				"",
+				""]
+			},
+			"F1": {
+				"roomId": "F1",
+				"name": "evr_dp02_01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_01",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F2",
+				"",
+				""]
+			},
+			"A2": {
+				"roomId": "A2",
+				"name": "evr_dp02_02b_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_02b_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A3",
+				"",
+				null]
+			},
+			"B2": {
+				"roomId": "B2",
+				"name": "evr_dp02_03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_03",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B3",
+				"A2",
+				""]
+			},
+			"C2": {
+				"roomId": "C2",
+				"name": "evr_dp02_04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_04",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C3",
+				"",
+				""]
+			},
+			"D2": {
+				"roomId": "D2",
+				"name": "evr_dp02_05",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_05",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D3",
+				"",
+				""]
+			},
+			"E2": {
+				"roomId": "E2",
+				"name": "evr_dp02_04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_04",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E3",
+				"",
+				""]
+			},
+			"F2": {
+				"roomId": "F2",
+				"name": "evr_dp02_03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_03",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F3",
+				"",
+				"G2"]
+			},
+			"G2": {
+				"roomId": "G2",
+				"name": "evr_dp02_03b_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_03b_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G3",
+				"",
+				null]
+			},
+			"A3": {
+				"roomId": "A3",
+				"name": "evr_dp02_06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_06",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A4",
+				"",
+				null]
+			},
+			"B3": {
+				"roomId": "B3",
+				"name": "evr_dp02_20_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_20_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B4",
+				"",
+				""]
+			},
+			"C3": {
+				"roomId": "C3",
+				"name": "evr_dp02_08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_08",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"B3",
+				""]
+			},
+			"D3": {
+				"roomId": "D3",
+				"name": "evr_dp02_09",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_09",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"C3",
+				"E3"]
+			},
+			"E3": {
+				"roomId": "E3",
+				"name": "evr_dp02_08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_08",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				"F3"]
+			},
+			"F3": {
+				"roomId": "F3",
+				"name": "evr_dp02_23_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_23_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F4",
+				"",
+				""]
+			},
+			"G3": {
+				"roomId": "G3",
+				"name": "evr_dp02_06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_06",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G4",
+				"",
+				null]
+			},
+			"A4": {
+				"roomId": "A4",
+				"name": "evr_dp02_10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_10",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A5",
+				"",
+				"B4"]
+			},
+			"B4": {
+				"roomId": "B4",
+				"name": "evr_dp02_11",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_11",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B5",
+				"",
+				""]
+			},
+			"F4": {
+				"roomId": "F4",
+				"name": "evr_dp02_11",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_11",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F5",
+				"",
+				""]
+			},
+			"G4": {
+				"roomId": "G4",
+				"name": "evr_dp02_10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_10",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G5",
+				"F4",
+				null]
+			},
+			"A5": {
+				"roomId": "A5",
+				"name": "evr_dp02_12_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_12_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A6",
+				"",
+				null]
+			},
+			"B5": {
+				"roomId": "B5",
+				"name": "evr_dp02_13",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_13",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				"C5"]
+			},
+			"C5": {
+				"roomId": "C5",
+				"name": "evr_dp02_14_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_14_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C6",
+				"",
+				""]
+			},
+			"E5": {
+				"roomId": "E5",
+				"name": "evr_dp02_15_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_15_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E6",
+				"",
+				""]
+			},
+			"F5": {
+				"roomId": "F5",
+				"name": "evr_dp02_13",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_13",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"E5",
+				""]
+			},
+			"G5": {
+				"roomId": "G5",
+				"name": "evr_dp02_16_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_16_mb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G6",
+				"",
+				null]
+			},
+			"A6": {
+				"roomId": "A6",
+				"name": "evr_dp02_17",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_17",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				"B6"]
+			},
+			"B6": {
+				"roomId": "B6",
+				"name": "evr_dp02_18",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_18",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B7",
+				"",
+				""]
+			},
+			"C6": {
+				"roomId": "C6",
+				"name": "evr_dp02_19",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_19",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"B6",
+				""]
+			},
+			"E6": {
+				"roomId": "E6",
+				"name": "evr_dp02_19",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_19",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				"F6"]
+			},
+			"F6": {
+				"roomId": "F6",
+				"name": "evr_dp02_18",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_18",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F7",
+				"",
+				""]
+			},
+			"G6": {
+				"roomId": "G6",
+				"name": "evr_dp02_17",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_17",
+						"icon": "raid_Icon_Deadpool.png",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"F6",
+				null]
+			},
+			"B7": {
+				"roomId": "B7",
+				"name": "evr_dp02_21_fb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_21_fb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				null]
+			},
+			"F7": {
+				"roomId": "F7",
+				"name": "evr_dp02_23_mb",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_dp02_22_fb",
+						"icon": "Portrait_Deadpool",
+						"iconBgColor": null,
+						"rewards": [{
+							"m_rewardID": "raid_deadpool_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				"",
+				""]
+			}
+		},
+		"startingRoomId": "D1"
+	}
+}

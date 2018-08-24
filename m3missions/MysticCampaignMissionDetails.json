@@ -1,0 +1,9648 @@
+{
+	"Name": "MysticCampaignMissionDetails",
+	"MissionDetails": [{
+		"ID": "mys_1_1",
+		"locNameKey": "ID_MISSION_MYS_1_1_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_1_DESC",
+		"mapName": "Env_Forest_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_1_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 20110,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 20110,
+				"Level": 57,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_1_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 57,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 55792,
+			"CompactWave": [{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 8164,
+				"Level": 53,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 7361,
+				"Level": 53,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 6499,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 7397,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 6081,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Elektra",
+				"Power": 12110,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 8180,
+				"Level": 53,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandControl_HealBlock",
+						"level": 53,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Bonus",
+						"level": 53,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandSupport_Heal",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandTank_Stealth",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 65,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Elektra",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandDmg_Bonus",
+						"level": 53,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_1_2",
+		"locNameKey": "ID_MISSION_MYS_1_2_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_2_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"storyTellingEvents": {
+					"-1": "mys_1_2_info_3",
+					"-2": "mys_1_2_info_2",
+					"-3": "mys_1_2_info_1"
+				},
+				"ObjectiveEndStory": "mys_1_2_end",
+				"TargetState": 0,
+				"RelativeToStateMax": true,
+				"CantPersist": true,
+				"Type": "EnvObject"
+			},
+			{
+				"ObjectiveEndStory": "mys_1_2_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 2707,
+			"CompactWave": [{
+				"HeroId": "DoctorStrangeOperator",
+				"Power": 2707,
+				"Level": 57,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_2_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "DoctorStrangeOperator",
+						"level": 57,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_2_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 85335,
+			"CompactWave": [{
+				"HeroId": "HandTank_Stealth",
+				"Power": 6391,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 5547,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 5571,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 6374,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 5566,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 10930,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Nobu",
+				"Power": 8413,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 4771,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 5577,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 7397,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 6035,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 5991,
+				"Level": 51,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 6772,
+				"Level": 51,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandTank_Stealth",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 60,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandSupport_Heal",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 60,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandDmg_Bonus",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandControl_HealBlock",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetOperator",
+						"hero_id": "Daredevil",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Nobu",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandControl_HealBlock",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 60,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Bonus",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandSupport_Heal",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 65,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandTank_Stealth",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 75,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetOperator",
+						"hero_id": "HandDmg_Bonus",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}],
+		"Extra": [{
+			"Prefab": "IntObj_Portal_player_noframe_04S",
+			"Position": {
+				"x": 0,
+				"y": 0,
+				"z": 9.25
+			},
+			"Rotation": {
+				"x": 0,
+				"y": 125,
+				"z": 0
+			}
+		}]
+	},
+	{
+		"ID": "mys_1_3",
+		"locNameKey": "ID_MISSION_MYS_1_3_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_3_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_3_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 25116,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 25116,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_3_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 76079,
+			"CompactWave": [{
+				"HeroId": "BlackPanther",
+				"Power": 7737,
+				"Level": 56,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 8597,
+				"Level": 56,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 6877,
+				"Level": 56,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 1614,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 4036,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Elektra",
+				"Power": 16339,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 3763,
+				"Level": 56,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Loki",
+				"Power": 24688,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 2428,
+				"Level": 52,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "BlackPanther",
+						"level": 56,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"dmg_percent": 70,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "BlackPanther",
+						"level": 56,
+						"loyalty": 4,
+						"tier": 8,
+						"dmg_percent": 70,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "BlackPanther",
+						"level": 56,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"dmg_percent": 70,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandDmg_Bonus",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 20,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Bonus",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 50,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Elektra",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 120,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandSupport_Heal",
+						"level": 56,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 40,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Loki",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 150,
+						"dmg_percent": 120,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandTank_Stealth",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 30,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_1_4",
+		"locNameKey": "ID_MISSION_MYS_1_4_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_4_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_4_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 25116,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 25116,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_4_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 91680,
+			"CompactWave": [{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 6894,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 8395,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Groot",
+				"Power": 13372,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 7453,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Yondu",
+				"Power": 13495,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 6895,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 7493,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 7931,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Taunt",
+				"Power": 1693,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_Single",
+				"Power": 8743,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 9316,
+				"Level": 55,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "RavagerTank_Taunt",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercDmg_General",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Groot",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Yondu",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercSupport_Buffs",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 75,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercTank_Debuff",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercTank_Taunt",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercDmg_Single",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 95,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_1_5",
+		"locNameKey": "ID_MISSION_MYS_1_5_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_5_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_5_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 25116,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 25116,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_5_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"storyTellingEvents": {
+					"-1": "mys_1_5_info_3",
+					"-2": "mys_1_5_info_2",
+					"-3": "mys_1_5_info_1"
+				},
+				"ObjectiveEndStory": "mys_1_5_fail",
+				"TargetState": 0,
+				"RelativeToStateMax": true,
+				"CantPersist": true,
+				"Type": "EnvObject"
+			},
+			{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 97757,
+			"CompactWave": [{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 8385,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 6458,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Wolverine",
+				"Power": 13615,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercOperator",
+				"Power": 1726,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RocketRaccoon",
+				"Power": 13455,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 6888,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercOperator",
+				"Power": 1624,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Taunt",
+				"Power": 1599,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 8861,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercOperator",
+				"Power": 1828,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 6987,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 6458,
+				"Level": 52,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_Single",
+				"Power": 7823,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 8395,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercOperator",
+				"Power": 1929,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercOperator",
+				"Power": 1726,
+				"Level": 58,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercTank_Debuff",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "Wolverine",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "MercOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RocketRaccoon",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "MercOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "MercTank_Taunt",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercDmg_General",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 95,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "MercOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 75,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "MercTank_Debuff",
+						"level": 52,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercDmg_Single",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercDmg_General",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "MercOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 95,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "MercOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}],
+		"Extra": [{
+			"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+			"Position": {
+				"x": 2,
+				"y": 0,
+				"z": 6.6
+			},
+			"Rotation": {
+				"x": 0,
+				"y": 120,
+				"z": 0
+			}
+		}]
+	},
+	{
+		"ID": "mys_1_6",
+		"locNameKey": "ID_MISSION_MYS_1_6_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_6_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_6_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 26551,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 26551,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_6_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 159927,
+			"CompactWave": [{
+				"HeroId": "MercTank_Taunt",
+				"Power": 1731,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 7769,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 8773,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Drax",
+				"Power": 11600,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Loki",
+				"Power": 15675,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Kingpin",
+				"Power": 58536,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 6695,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 7318,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Taunt",
+				"Power": 1629,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_Single",
+				"Power": 8140,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 7284,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 7799,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 8241,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 8737,
+				"Level": 58,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercTank_Taunt",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercTank_Debuff",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "Drax",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 70,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Loki",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 95,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Kingpin",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 150,
+						"max_hp_percent": 150,
+						"dmg_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercSupport_Buffs",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerTank_Taunt",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 75,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercTank_Taunt",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercDmg_Single",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercTank_Debuff",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 75,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercDmg_General",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_1_7",
+		"locNameKey": "ID_MISSION_MYS_1_7_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_7_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_7_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 26551,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 26551,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_7_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 132228,
+			"CompactWave": [{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 8881,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 9412,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 14906,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 10043,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Nobu",
+				"Power": 15689,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 15015,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 8898,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 9371,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 9992,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 9454,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 9966,
+				"Level": 59,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 10601,
+				"Level": 59,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandControl_HealBlock",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 80,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandSupport_Heal",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "IronFist",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandTank_Stealth",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Nobu",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 95,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Daredevil",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandDmg_Bonus",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 80,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandControl_HealBlock",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						4,
+						4],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Bonus",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandSupport_Heal",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandTank_Stealth",
+						"level": 59,
+						"loyalty": 4,
+						"tier": 9,
+						"speed_percent": 95,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_1_8",
+		"locNameKey": "ID_MISSION_MYS_1_8_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_8_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_8_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 26551,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 26551,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_8_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"storyTellingEvents": {
+					"-1": "mys_1_8_info_3",
+					"-2": "mys_1_8_info_2",
+					"-3": "mys_1_8_info_1"
+				},
+				"ObjectiveEndStory": "mys_1_8_fail",
+				"TargetState": 0,
+				"RelativeToStateMax": true,
+				"CantPersist": true,
+				"Type": "EnvObject"
+			},
+			{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 96396,
+			"CompactWave": [{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 12769,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Nebula",
+				"Power": 16677,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "BlackWidow",
+				"Power": 16834,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 13502,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "JessicaJones",
+				"Power": 16782,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Elektra",
+				"Power": 14971,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandOperator",
+				"Power": 4861,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandControl_HealBlock",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "Nebula",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "BlackWidow",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandSupport_Heal",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "JessicaJones",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Elektra",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "HandOperator",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}],
+		"Extra": [{
+			"Prefab": "IntObj_Portal_enemy",
+			"Position": {
+				"x": -0.7,
+				"y": 0,
+				"z": 7.3
+			},
+			"Rotation": {
+				"x": 0,
+				"y": 125,
+				"z": 0
+			}
+		}]
+	},
+	{
+		"ID": "mys_1_9",
+		"locNameKey": "ID_MISSION_MYS_1_9_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_1_9_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_1_9_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 28351,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 28351,
+				"Level": 64,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_1_9_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 165237,
+			"CompactWave": [{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 6261,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 6583,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 11301,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 6272,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Elektra",
+				"Power": 17586,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 11597,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "BaronMordo",
+				"Power": 23534,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 6341,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 6261,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Nobu",
+				"Power": 17457,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 17659,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 6218,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 6602,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 6641,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 6998,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 7926,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 7,
+					"MinSlotReq": 2,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandControl_HealBlock",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 50,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandSupport_Heal",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 95,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Bonus",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Elektra",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandTank_Stealth",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "BaronMordo",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 145,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 5,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandTank_Stealth",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 80,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandControl_HealBlock",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Nobu",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "Daredevil",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandSupport_Heal",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandDmg_Bonus",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandControl_HealBlock",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 95,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandTank_Stealth",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_1",
+		"locNameKey": "ID_MISSION_MYS_2_1_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_1_DESC",
+		"mapName": "Env_Jungle_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_1_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 31816,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 26551,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 5265,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_1_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "Hawkeye",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"cur_hp_percent": 30,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_1_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 165529,
+			"CompactWave": [{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 14963,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 14915,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 12634,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 15098,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 15082,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 15855,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 14963,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercDmg_Single",
+				"Power": 15927,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 15082,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 15997,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 15013,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraTank_Taunt",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "HydraDmg_Buff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercSupport_Buffs",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercTank_Debuff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercDmg_General",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "HydraDmg_Single",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraTank_Taunt",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "MercDmg_Single",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercDmg_General",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraSupport_Heal",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraDmg_AoE",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_2",
+		"locNameKey": "ID_MISSION_MYS_2_2_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_2_DESC",
+		"mapName": "Env_Jungle_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_2_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 37720,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 28351,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 9369,
+				"Level": 64,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_2_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "Hawkeye",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"cur_hp_percent": 50,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_2_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 177521,
+			"CompactWave": [{
+				"HeroId": "MercTank_Taunt",
+				"Power": 3162,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 15906,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 16117,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 16026,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Bullseye",
+				"Power": 16587,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercDmg_General",
+				"Power": 16021,
+				"Level": 61,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 15860,
+				"Level": 61,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 15826,
+				"Level": 61,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 12611,
+				"Level": 61,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 15906,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 15997,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Punisher",
+				"Power": 17502,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercTank_Taunt",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercSupport_Buffs",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraDmg_AoE",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						5,
+						5],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						0],
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "Bullseye",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercDmg_General",
+						"level": 61,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraTank_Taunt",
+						"level": 61,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HydraDmg_Buff",
+						"level": 61,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraDmg_AoE",
+						"level": 61,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "MercSupport_Buffs",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraSupport_Heal",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "Punisher",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_3",
+		"locNameKey": "ID_MISSION_MYS_2_3_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_3_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_3_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 59955,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 36097,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 23858,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_3_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "Hawkeye",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_3_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 193670,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 16026,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 17371,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "NightNurse",
+				"Power": 18515,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Crossbones",
+				"Power": 61526,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 16221,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 15906,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 16117,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercDmg_Single",
+				"Power": 15927,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 16061,
+				"Level": 62,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 9,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraSupport_Heal",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "NightNurse",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						-1,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "Crossbones",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 250,
+						"dmg_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "MercTank_Debuff",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercSupport_Buffs",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "HydraDmg_AoE",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "MercDmg_Single",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraTank_Taunt",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_4",
+		"locNameKey": "ID_MISSION_MYS_2_4_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_4_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_4_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 59716,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 36097,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Quake",
+				"Power": 23619,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_4_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Quake",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"storyTellingEvents": {
+					"-1": "mys_2_4_info_3",
+					"-2": "mys_2_4_info_2",
+					"-3": "mys_2_4_info_1"
+				},
+				"ObjectiveEndStory": "mys_2_4_fail",
+				"TargetState": 0,
+				"RelativeToStateMax": true,
+				"CantPersist": true,
+				"Type": "EnvObject"
+			},
+			{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 160275,
+			"CompactWave": [{
+				"HeroId": "AimTank_Taunt",
+				"Power": 16357,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 772,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "AimControl_Infect",
+				"Power": 17631,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 16026,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "BlackWidow",
+				"Power": 28774,
+				"Level": 65,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 15997,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 15879,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 17403,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 1931,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 1287,
+				"Level": 62,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "WinterSoldier",
+				"Power": 28218,
+				"Level": 65,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "AimTank_Taunt",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraOperator",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 30,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "AimControl_Infect",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "BlackWidow",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraSupport_Heal",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HydraDmg_Buff",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraOperator",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 75,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraOperator",
+						"level": 62,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 50,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "WinterSoldier",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 10
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}],
+		"Extra": [{
+			"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+			"Position": {
+				"x": 1.5,
+				"y": 0,
+				"z": 7
+			},
+			"Rotation": {
+				"x": 0,
+				"y": 125,
+				"z": 0
+			}
+		}]
+	},
+	{
+		"ID": "mys_2_5",
+		"locNameKey": "ID_MISSION_MYS_2_5_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_5_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_5_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 41746,
+			"CompactWave": [{
+				"HeroId": "VIPMaleCOperator",
+				"Power": 7,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "VIPMaleCOperator",
+				"Power": 7,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "VIPMaleCOperator",
+				"Power": 7,
+				"Level": 58,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "DoctorStrange",
+				"Power": 20852,
+				"Level": 63,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Quake",
+				"Power": 20873,
+				"Level": 63,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_5_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "VIPMaleCOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 1,
+						"max_hp_percent": 30,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "VIPMaleCOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 1,
+						"max_hp_percent": 30,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "VIPMaleCOperator",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 1,
+						"max_hp_percent": 30,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 63,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 100,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Quake",
+						"level": 63,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_5_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 188733,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 16322,
+				"Level": 63,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "JessicaJones",
+				"Power": 18945,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 16229,
+				"Level": 63,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 17441,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Crossbones",
+				"Power": 19165,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 17441,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 14529,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 16229,
+				"Level": 63,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 16322,
+				"Level": 63,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 17403,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "WinterSoldier",
+				"Power": 18707,
+				"Level": 64,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetQuake",
+						"hero_id": "HydraDmg_AoE",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "JessicaJones",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetDoctorStrange",
+						"hero_id": "HydraDmg_Buff",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetOperator",
+						"hero_id": "HydraTank_Taunt",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						-1,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Crossbones",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 125,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraTank_Taunt",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "BlackPanther",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 150,
+						"cur_hp_percent": 50,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetOperator",
+						"hero_id": "HydraDmg_Buff",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetQuake",
+						"hero_id": "HydraDmg_AoE",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "WinterSoldier",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_6",
+		"locNameKey": "ID_MISSION_MYS_2_6_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_6_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_6_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 40487,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 20852,
+				"Level": 63,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Quake",
+				"Power": 19635,
+				"Level": 63,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_6_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 63,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Quake",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 327060,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 23037,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 23090,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 22866,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 69018,
+				"Level": 68,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "ShieldSupport_Stealth",
+				"Power": 23230,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 23090,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 23037,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Speed",
+				"Power": 23546,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 22791,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 18358,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 18245,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 18096,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Speed",
+				"Power": 18656,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraTank_Taunt",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercSupport_Buffs",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "NickFury",
+						"level": 68,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 200,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraTank_Taunt",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "AimDmg_Speed",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Single",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraDmg_AoE",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HydraSupport_Heal",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Single",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "AimDmg_Speed",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_7",
+		"locNameKey": "ID_MISSION_MYS_2_7_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_7_DESC",
+		"mapName": "Env_Snow_Exterior_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_7_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 61437,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 36991,
+				"Level": 68,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 24446,
+				"Level": 68,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_7_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Hawkeye",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"storyTellingEvents": {
+					"-1": "mys_2_7_info_3",
+					"-2": "mys_2_7_info_2",
+					"-3": "mys_2_7_info_1"
+				},
+				"ObjectiveEndStory": "mys_2_7_fail",
+				"TargetState": 0,
+				"RelativeToStateMax": true,
+				"CantPersist": true,
+				"Type": "EnvObject"
+			},
+			{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 216934,
+			"CompactWave": [{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 23090,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 2245,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 22791,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Bullseye",
+				"Power": 23833,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 23037,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "JessicaJones",
+				"Power": 24113,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 2726,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 19842,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 23037,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 22997,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronMan",
+				"Power": 24413,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 1603,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraOperator",
+				"Power": 3207,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraTank_Taunt",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "HydraOperator",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 70,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Single",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Bullseye",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "JessicaJones",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "HydraOperator",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 85,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 5,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraSupport_Heal",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "IronMan",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "HydraOperator",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 50,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "HydraOperator",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}],
+		"Extra": [{
+			"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+			"Position": {
+				"x": 1.5,
+				"y": 0,
+				"z": 7
+			},
+			"Rotation": {
+				"x": 0,
+				"y": 125,
+				"z": 0
+			}
+		}]
+	},
+	{
+		"ID": "mys_2_8",
+		"locNameKey": "ID_MISSION_MYS_2_8_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_8_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_8_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 61525,
+			"CompactWave": [{
+				"HeroId": "ShieldDmg_Defense",
+				"Power": 44,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "ShieldSupport_Heal",
+				"Power": 44,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "DoctorStrange",
+				"Power": 36991,
+				"Level": 68,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 24446,
+				"Level": 68,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_8_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "ShieldDmg_Defense",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 1,
+						"cur_hp_percent": 30,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"hero_id": "ShieldSupport_Heal",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 1,
+						"cur_hp_percent": 30,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Hawkeye",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_8_fail",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 287170,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 17625,
+				"Level": 65,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 23171,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 17441,
+				"Level": 64,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "UltronDmg_Offense",
+				"Power": 4014,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 21134,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "WinterSoldier",
+				"Power": 22717,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 21257,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Ultron",
+				"Power": 23783,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 21134,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 21257,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 21183,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 36322,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NightNurse",
+				"Power": 36132,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_AoE",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraTank_Taunt",
+						"level": 64,
+						"loyalty": 5,
+						"tier": 9,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "UltronDmg_Offense",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "WinterSoldier",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HydraDmg_AoE",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetQuake",
+						"hero_id": "Ultron",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 8,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "HydraDmg_Buff",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_AoE",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraTank_Taunt",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "NightNurse",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 150
+					}],
+					"StoryTellingID": "5",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_2_9",
+		"locNameKey": "ID_MISSION_MYS_2_9_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_2_9_DESC",
+		"mapName": "Env_Hydra_Base_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_2_9_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 74890,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 45096,
+				"Level": 71,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 29794,
+				"Level": 71,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_2_9_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Hawkeye",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 245602,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 11698,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 11677,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "BlackWidow",
+				"Power": 32899,
+				"Level": 71,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 11724,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 11698,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Crossbones",
+				"Power": 32595,
+				"Level": 71,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 11595,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 23951,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RedSkull",
+				"Power": 68060,
+				"Level": 71,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "Punisher",
+				"Power": 29705,
+				"Level": 71,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 50,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HydraSupport_Heal",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetHawkeye",
+						"hero_id": "BlackWidow",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_AoE",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 50,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HydraDmg_Buff",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 50,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Crossbones",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HydraDmg_Single",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 50,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HydraTank_Taunt",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetQuake",
+						"hero_id": "RedSkull",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 200,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Punisher",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_1",
+		"locNameKey": "ID_MISSION_MYS_3_1_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_1_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_1_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 45096,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 45096,
+				"Level": 71,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_1_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 363933,
+			"CompactWave": [{
+				"HeroId": "KreeTank_Counter",
+				"Power": 24527,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 24384,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeDmg_Offense",
+				"Power": 23831,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeSupport_HoT",
+				"Power": 24051,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 24022,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeDmg_Offense",
+				"Power": 23831,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 24107,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 24310,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeControl_Assist",
+				"Power": 24057,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 24310,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeControl_Assist",
+				"Power": 24057,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 24384,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeDmg_Offense",
+				"Power": 23831,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 26124,
+				"Level": 69,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 24107,
+				"Level": 69,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "KreeTank_Counter",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "KreeSupport_HoT",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Speed",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerTank_Taunt",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "KreeControl_Assist",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerTank_Taunt",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "KreeControl_Assist",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "IronFist",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_2",
+		"locNameKey": "ID_MISSION_MYS_3_2_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_2_DESC",
+		"mapName": "Env_Jungle_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_2_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 45096,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 45096,
+				"Level": 71,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_2_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Power": 215585,
+			"CompactWave": [{
+				"HeroId": "Drax",
+				"Power": 29744,
+				"Level": 71,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Groot",
+				"Power": 33067,
+				"Level": 71,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "CaptainAmerica",
+				"Power": 33272,
+				"Level": 71,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 15212,
+				"Level": 69,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 25028,
+				"Level": 69,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 26071,
+				"Level": 69,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 14451,
+				"Level": 69,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 14755,
+				"Level": 69,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 23985,
+				"Level": 69,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Drax",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "Groot",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "CaptainAmerica",
+						"level": 71,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						-1,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"speed_percent": 96,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						-1,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"speed_percent": 95,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						-1,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"speed_percent": 97
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "AimDmg_Offense",
+						"level": 69,
+						"loyalty": 6,
+						"tier": 11,
+						"speed_percent": 92
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_3",
+		"locNameKey": "ID_MISSION_MYS_3_3_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_3_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_3_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 55066,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 55066,
+				"Level": 74,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_3_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Power": 521836,
+			"CompactWave": [{
+				"HeroId": "Hulk",
+				"Power": 34857,
+				"Level": 73,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 31239,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Ronan",
+				"Power": 34001,
+				"Level": 73,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 27328,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 28767,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "LukeCage",
+				"Power": 125620,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 28767,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 31239,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 28767,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 31239,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 28767,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 31239,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 28767,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "IronFist",
+				"Power": 31239,
+				"Level": 72,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Hulk",
+						"level": 73,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "IronFist",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "Ronan",
+						"level": 73,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"speed_percent": 95,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "LukeCage",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"speed_percent": 150,
+						"max_hp_percent": 150,
+						"dmg_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "IronFist",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "IronFist",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "IronFist",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "AimDmg_Offense",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "IronFist",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_4",
+		"locNameKey": "ID_MISSION_MYS_3_4_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_4_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_4_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 55066,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 55066,
+				"Level": 74,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_4_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 203138,
+			"CompactWave": [{
+				"HeroId": "Gamora",
+				"Power": 30300,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 26966,
+				"Level": 70,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 26800,
+				"Level": 70,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 26964,
+				"Level": 70,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 34269,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 30569,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 27270,
+				"Level": 70,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Gamora",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "KreeDmg_Speed",
+						"level": 70,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 70,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandSupport_Heal",
+						"level": 70,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Daredevil",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"hero_id": "BlackPanther",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "HandTank_Stealth",
+						"level": 70,
+						"loyalty": 7,
+						"tier": 10
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_5",
+		"locNameKey": "ID_MISSION_MYS_3_5_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_5_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_5_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 55066,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 55066,
+				"Level": 74,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_5_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 479741,
+			"CompactWave": [{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 29206,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 29204,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 29025,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 29338,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 29539,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 29338,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 35299,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 35299,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 29206,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 35215,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 29206,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "Elektra",
+				"Power": 36456,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "BlackWidow",
+				"Power": 36904,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 29539,
+				"Level": 72,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "SpiderMan",
+				"Power": 36967,
+				"Level": 74,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "KreeDmg_Speed",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandSupport_Heal",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandDmg_Unbuff",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandDmg_Bonus",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandTank_Stealth",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandDmg_Bonus",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandControl_HealBlock",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"hero_id": "HandControl_HealBlock",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "KreeDmg_Speed",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandSupport_Heal",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Speed",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Elektra",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "BlackWidow",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						6,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "HandTank_Stealth",
+						"level": 72,
+						"loyalty": 7,
+						"tier": 10,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "SpiderMan",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_6",
+		"locNameKey": "ID_MISSION_MYS_3_6_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_6_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_6_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 66525,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 66525,
+				"Level": 77,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_6_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_6_fail",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 551185,
+			"CompactWave": [{
+				"HeroId": "Nobu",
+				"Power": 36640,
+				"Level": 75,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 28180,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "ShieldSupport_Stealth",
+				"Power": 28012,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 27918,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "Loki",
+				"Power": 151932,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 36836,
+				"Level": 75,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 27909,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 36836,
+				"Level": 75,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 27918,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 28062,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandControl_HealBlock",
+				"Power": 28008,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 27918,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 36836,
+				"Level": 75,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "HandTank_Stealth",
+				"Power": 28180,
+				"Level": 74,
+				"GearLevel": 11
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Nobu",
+						"level": 75,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "HandTank_Stealth",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Speed",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "Loki",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 150,
+						"max_hp_percent": 150,
+						"dmg_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Hawkeye",
+						"level": 75,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "HandSupport_Heal",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Hawkeye",
+						"level": 75,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Speed",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandDmg_Bonus",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "HandControl_HealBlock",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Speed",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Hawkeye",
+						"level": 75,
+						"loyalty": 7,
+						"tier": 11
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "HandTank_Stealth",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_7",
+		"locNameKey": "ID_MISSION_MYS_3_7_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_7_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_7_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 66525,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 66525,
+				"Level": 77,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_7_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 408337,
+			"CompactWave": [{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 35224,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 35768,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeTank_Counter",
+				"Power": 35977,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "Yondu",
+				"Power": 36859,
+				"Level": 75,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeSupport_HoT",
+				"Power": 35266,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeDmg_Offense",
+				"Power": 34936,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "RocketRaccoon",
+				"Power": 43832,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 35656,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "KreeControl_Assist",
+				"Power": 35277,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 35349,
+				"Level": 74,
+				"GearLevel": 11
+			},
+			{
+				"HeroId": "StarLord",
+				"Power": 44193,
+				"Level": 77,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "KreeDmg_Speed",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeTank_Counter",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Yondu",
+						"level": 75,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "KreeSupport_HoT",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "KreeDmg_Offense",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "RocketRaccoon",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "RavagerTank_Taunt",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "KreeControl_Assist",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						6,
+						6],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 74,
+						"loyalty": 7,
+						"tier": 11
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "StarLord",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_8",
+		"locNameKey": "ID_MISSION_MYS_3_8_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_8_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_8_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 66525,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 66525,
+				"Level": 77,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_8_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_8_fail",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 511306,
+			"CompactWave": [{
+				"HeroId": "LukeCage",
+				"Power": 102629,
+				"Level": 80,
+				"GearLevel": 13
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 39232,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "KreeTank_Counter",
+				"Power": 39908,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 39683,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 39232,
+				"Level": 77,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "Loki",
+				"Power": 44194,
+				"Level": 78,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "KreeDmg_Offense",
+				"Power": 38787,
+				"Level": 76,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "KreeTank_Counter",
+				"Power": 39908,
+				"Level": 76,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "BaronMordo",
+				"Power": 44520,
+				"Level": 78,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "DoctorStrange",
+				"Power": 43981,
+				"Level": 78,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 39232,
+				"Level": 76,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "LukeCage",
+						"level": 80,
+						"loyalty": 7,
+						"tier": 13,
+						"max_hp_percent": 150,
+						"dmg_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeTank_Counter",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "RavagerSupport_Heal",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "Loki",
+						"level": 78,
+						"loyalty": 7,
+						"tier": 12
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeDmg_Offense",
+						"level": 76,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBrawler",
+						"hero_id": "KreeTank_Counter",
+						"level": 76,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "BaronMordo",
+						"level": 78,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "DoctorStrange",
+						"level": 78,
+						"loyalty": 7,
+						"tier": 12,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						4,
+						5,
+						5],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "RavagerDmg_AoE",
+						"level": 76,
+						"loyalty": 7,
+						"tier": 12
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "mys_3_9",
+		"locNameKey": "ID_MISSION_MYS_3_9_NAME",
+		"locDescriptionName": "ID_MISSION_MYS_3_9_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_9_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 66525,
+			"CompactWave": [{
+				"HeroId": "DoctorStrange",
+				"Power": 66525,
+				"Level": 77,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "mys_3_9_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"hero_id": "DoctorStrange",
+						"level": 77,
+						"loyalty": 7,
+						"tier": 12,
+						"max_hp_percent": 150,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "mys_3_9_fail",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 1385945,
+			"CompactWave": [{
+				"HeroId": "Thor",
+				"Power": 1301040,
+				"Level": 80,
+				"GearLevel": 13
+			},
+			{
+				"HeroId": "BaronMordo",
+				"Power": 42474,
+				"Level": 80,
+				"GearLevel": 13
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 42431,
+				"Level": 80,
+				"GearLevel": 13
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						7,
+						7],
+						"procs_cnt": null,
+						"is_mission_target": true,
+						"ai_override": "Mission_TargetProtector",
+						"hero_id": "Thor",
+						"level": 80,
+						"loyalty": 7,
+						"tier": 13,
+						"speed_percent": 300,
+						"max_hp_percent": 500,
+						"dmg_percent": 150,
+						"resist_percent": 200,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetSupport",
+						"hero_id": "BaronMordo",
+						"level": 80,
+						"loyalty": 7,
+						"tier": 13,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						7,
+						5,
+						0,
+						0],
+						"procs_cnt": null,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "Hawkeye",
+						"level": 80,
+						"loyalty": 7,
+						"tier": 13,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	}]
+}

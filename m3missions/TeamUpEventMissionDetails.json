@@ -1,0 +1,3125 @@
+{
+	"Name": "TeamUpEventMissionDetails",
+	"MissionDetails": [{
+		"ID": "event_tu_am_wa_01",
+		"locNameKey": "ID_TU_AM_WA_01_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_01_DESC",
+		"mapName": "Env_Hydra_Base_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_01_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_01_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 4371,
+			"CompactWave": [{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 1465,
+				"Level": 25,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 1453,
+				"Level": 25,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraDmg_Single",
+				"Power": 1453,
+				"Level": 25,
+				"GearLevel": 4
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "HydraTank_Taunt",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Single",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Single",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_02",
+		"locNameKey": "ID_TU_AM_WA_02_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_02_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_02_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_02_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 9358,
+			"CompactWave": [{
+				"HeroId": "Drax",
+				"Power": 2274,
+				"Level": 35,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 2588,
+				"Level": 35,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 2570,
+				"Level": 35,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "ShieldDmg_Defense",
+				"Power": 1177,
+				"Level": 35,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "ShieldDmg_Defense",
+				"Power": 749,
+				"Level": 35,
+				"GearLevel": 5
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Drax",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5,
+						"speed_percent": 90,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "BlackPanther",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5,
+						"speed_percent": 80
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Daredevil",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5,
+						"speed_percent": 80
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "ShieldDmg_Defense",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5,
+						"speed_percent": 110,
+						"max_hp_percent": 40
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "ShieldDmg_Defense",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5,
+						"speed_percent": 70,
+						"max_hp_percent": 40
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_03",
+		"locNameKey": "ID_TU_AM_WA_03_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_03_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_03_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_03_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 16000,
+			"CompactWave": [{
+				"HeroId": "HandTank_Stealth",
+				"Power": 5277,
+				"Level": 40,
+				"GearLevel": 6
+			},
+			{
+				"HeroId": "HandSupport_Heal",
+				"Power": 5240,
+				"Level": 40,
+				"GearLevel": 6
+			},
+			{
+				"HeroId": "Nobu",
+				"Power": 5483,
+				"Level": 40,
+				"GearLevel": 6
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "HandTank_Stealth",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6,
+						"speed_percent": 105,
+						"max_hp_percent": 110
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "HandSupport_Heal",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6,
+						"speed_percent": 105,
+						"max_hp_percent": 110
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Nobu",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6,
+						"max_hp_percent": 110
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_04",
+		"locNameKey": "ID_TU_AM_WA_04_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_04_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_04_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_04_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 27689,
+			"CompactWave": [{
+				"HeroId": "LukeCage",
+				"Power": 8882,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Wolverine",
+				"Power": 3788,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "Deadpool",
+				"Power": 3297,
+				"Level": 55,
+				"GearLevel": 8
+			},
+			{
+				"HeroId": "ShieldSupport_Stealth",
+				"Power": 11722,
+				"Level": 55,
+				"GearLevel": 8
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "LukeCage",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 75,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Wolverine",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 80,
+						"max_hp_percent": 40,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Deadpool",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"speed_percent": 70,
+						"max_hp_percent": 40,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [3,
+						-1],
+						"desired_ability_cost": [3,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_05",
+		"locNameKey": "ID_TU_AM_WA_05_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_05_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_05_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_05_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 25841,
+			"CompactWave": [{
+				"HeroId": "MercTank_Debuff",
+				"Power": 5317,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercTank_Debuff",
+				"Power": 5037,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 5156,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Bullseye",
+				"Power": 5217,
+				"Level": 60,
+				"GearLevel": 9
+			},
+			{
+				"HeroId": "Kingpin",
+				"Power": 5114,
+				"Level": 60,
+				"GearLevel": 9
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "MercTank_Debuff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 95,
+						"max_hp_percent": 45,
+						"dmg_percent": 85,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"ai_override": "Mission_TargetController",
+						"hero_id": "MercTank_Debuff",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 90,
+						"max_hp_percent": 45,
+						"dmg_percent": 85,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "MercSupport_Buffs",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 105,
+						"max_hp_percent": 40,
+						"dmg_percent": 85,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"ai_override": "Mission_TargetBlaster",
+						"hero_id": "Bullseye",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 85,
+						"max_hp_percent": 40,
+						"dmg_percent": 95,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"hero_id": "Kingpin",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 9,
+						"speed_percent": 80,
+						"max_hp_percent": 40,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_06",
+		"locNameKey": "ID_TU_AM_WA_06_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_06_DESC",
+		"mapName": "Env_Bunker_Sub_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_06_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_06_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 39595,
+			"CompactWave": [{
+				"HeroId": "NickFury",
+				"Power": 3392,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 3957,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 4523,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 7296,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 7052,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 6809,
+				"Level": 66,
+				"GearLevel": 10
+			},
+			{
+				"HeroId": "NickFury",
+				"Power": 6566,
+				"Level": 66,
+				"GearLevel": 10
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						-1],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 60,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 70,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [3,
+						-1],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 80,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						4],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 90,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						4],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 87,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [2,
+						4],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 84,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [3,
+						2],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 66,
+						"loyalty": 6,
+						"tier": 10,
+						"speed_percent": 81,
+						"max_hp_percent": 70,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_am_wa_07",
+		"locNameKey": "ID_TU_AM_WA_07_NAME",
+		"locDescriptionName": "ID_TU_AM_WA_07_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_am_wa_07_end",
+				"CantPersist": false,
+				"Type": "KillTarget"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_am_wa_07_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 88259,
+			"CompactWave": [{
+				"HeroId": "Wasp",
+				"Power": 35451,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "Ultron",
+				"Power": 44797,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Defense",
+				"Power": 481,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Offense",
+				"Power": 477,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Speed",
+				"Power": 862,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronTank_Taunt",
+				"Power": 858,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Speed",
+				"Power": 460,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Offense",
+				"Power": 254,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronTank_Taunt",
+				"Power": 457,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronSupport_Heal",
+				"Power": 916,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Defense",
+				"Power": 308,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Offense",
+				"Power": 611,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Speed",
+				"Power": 460,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronSupport_Heal",
+				"Power": 458,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronTank_Taunt",
+				"Power": 550,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronSupport_Heal",
+				"Power": 551,
+				"Level": 65,
+				"GearLevel": 12
+			},
+			{
+				"HeroId": "UltronDmg_Defense",
+				"Power": 308,
+				"Level": 65,
+				"GearLevel": 12
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						0],
+						"desired_ability_cost": [6,
+						7],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"is_mission_target": true,
+						"hero_id": "Wasp",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 65,
+						"max_hp_percent": 300,
+						"dmg_percent": 50,
+						"resist_percent": 150,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						6,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						0],
+						"desired_ability_cost": [2,
+						4],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Ultron",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 45,
+						"max_hp_percent": 500,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Defense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 75,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Offense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 75,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 75,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [0,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronTank_Taunt",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 75,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 500,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Offense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 500,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronTank_Taunt",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronSupport_Heal",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 80,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 500,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Defense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 30,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Offense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 80,
+						"max_hp_percent": 30,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 500,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronSupport_Heal",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 25,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 500,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronTank_Taunt",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 30,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronSupport_Heal",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 30,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					},
+					{
+						"abilities": [7,
+						7,
+						-1,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"desired_starting_ability_energy": [1,
+						-1],
+						"desired_ability_cost": [2,
+						-1],
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Defense",
+						"level": 65,
+						"loyalty": 7,
+						"tier": 12,
+						"speed_percent": 40,
+						"max_hp_percent": 30,
+						"dmg_percent": 50,
+						"resist_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_01",
+		"locNameKey": "ID_TU_SW_MM_01_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_01_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_01_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_01_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 6017,
+			"CompactWave": [{
+				"HeroId": "ScientistSupreme",
+				"Power": 1381,
+				"Level": 18,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "AimControl_Infect",
+				"Power": 1158,
+				"Level": 18,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "AimDmg_Offense",
+				"Power": 1150,
+				"Level": 18,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "AimDmg_Speed",
+				"Power": 1171,
+				"Level": 18,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "AimSupport_Heal",
+				"Power": 1157,
+				"Level": 18,
+				"GearLevel": 4
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "ScientistSupreme",
+						"level": 18,
+						"loyalty": 3,
+						"tier": 4,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "AimControl_Infect",
+						"level": 18,
+						"loyalty": 3,
+						"tier": 4,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Offense",
+						"level": 18,
+						"loyalty": 3,
+						"tier": 4,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Speed",
+						"level": 18,
+						"loyalty": 3,
+						"tier": 4,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "AimSupport_Heal",
+						"level": 18,
+						"loyalty": 3,
+						"tier": 4,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_02",
+		"locNameKey": "ID_TU_SW_MM_02_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_02_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_02_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_02_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 11222,
+			"CompactWave": [{
+				"HeroId": "RavagerSupport_Heal",
+				"Power": 1549,
+				"Level": 27,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 1549,
+				"Level": 27,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 1549,
+				"Level": 27,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "Yondu",
+				"Power": 1807,
+				"Level": 28,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RavagerTank_Taunt",
+				"Power": 1594,
+				"Level": 28,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 1587,
+				"Level": 28,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RavagerDmg_AoE",
+				"Power": 1587,
+				"Level": 28,
+				"GearLevel": 4
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerSupport_Heal",
+						"level": 27,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 27,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 27,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 10,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Yondu",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerTank_Taunt",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_03",
+		"locNameKey": "ID_TU_SW_MM_03_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_03_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_03_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_03_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 15928,
+			"CompactWave": [{
+				"HeroId": "HandTank_Stealth",
+				"Power": 2187,
+				"Level": 36,
+				"GearLevel": 3
+			},
+			{
+				"HeroId": "HandDmg_Unbuff",
+				"Power": 2166,
+				"Level": 36,
+				"GearLevel": 3
+			},
+			{
+				"HeroId": "HandDmg_Bonus",
+				"Power": 2852,
+				"Level": 46,
+				"GearLevel": 3
+			},
+			{
+				"HeroId": "Bullseye",
+				"Power": 2996,
+				"Level": 38,
+				"GearLevel": 3
+			},
+			{
+				"HeroId": "JessicaJones",
+				"Power": 3036,
+				"Level": 38,
+				"GearLevel": 3
+			},
+			{
+				"HeroId": "ShieldTank_Stun",
+				"Power": 2691,
+				"Level": 38,
+				"GearLevel": 3
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 36,
+						"loyalty": 3,
+						"tier": 3,
+						"max_hp_percent": 85,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Unbuff",
+						"level": 36,
+						"loyalty": 3,
+						"tier": 3,
+						"max_hp_percent": 85,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 46,
+						"loyalty": 3,
+						"tier": 3,
+						"max_hp_percent": 85,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 10,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 38,
+						"loyalty": 3,
+						"tier": 3,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "JessicaJones",
+						"level": 38,
+						"loyalty": 3,
+						"tier": 3,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 38,
+						"loyalty": 3,
+						"tier": 3,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_04",
+		"locNameKey": "ID_TU_SW_MM_04_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_04_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_04_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_04_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 29861,
+			"CompactWave": [{
+				"HeroId": "MercSupport_Buffs",
+				"Power": 6616,
+				"Level": 51,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "Korath",
+				"Power": 6982,
+				"Level": 51,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "BlackPanther",
+				"Power": 4656,
+				"Level": 49,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "BlackWidow",
+				"Power": 4669,
+				"Level": 49,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "Crossbones",
+				"Power": 6938,
+				"Level": 51,
+				"GearLevel": 4
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "MercSupport_Buffs",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Korath",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "BlackPanther",
+						"level": 49,
+						"loyalty": 3,
+						"tier": 4,
+						"speed_percent": 85,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 49,
+						"loyalty": 3,
+						"tier": 4,
+						"speed_percent": 85,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 51,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_05",
+		"locNameKey": "ID_TU_SW_MM_05_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_05_DESC",
+		"mapName": "Env_Bunker_Sub_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_05_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_05_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 45322,
+			"CompactWave": [{
+				"HeroId": "Nebula",
+				"Power": 7176,
+				"Level": 54,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "ShieldSupport_Stealth",
+				"Power": 6620,
+				"Level": 54,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Daredevil",
+				"Power": 6923,
+				"Level": 52,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "KreeDmg_Speed",
+				"Power": 6345,
+				"Level": 52,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "SpiderMan",
+				"Power": 6392,
+				"Level": 50,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Ronan",
+				"Power": 6197,
+				"Level": 50,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "KreeControl_Assist",
+				"Power": 5669,
+				"Level": 50,
+				"GearLevel": 5
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Nebula",
+						"level": 54,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 54,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Daredevil",
+						"level": 52,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Speed",
+						"level": 52,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "SpiderMan",
+						"level": 50,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Ronan",
+						"level": 50,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "KreeControl_Assist",
+						"level": 50,
+						"loyalty": 3,
+						"tier": 5,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_06",
+		"locNameKey": "ID_TU_SW_MM_06_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_06_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_06_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_06_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 61898,
+			"CompactWave": [{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 8709,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraDmg_AoE",
+				"Power": 8709,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraSupport_Heal",
+				"Power": 8637,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraTank_Taunt",
+				"Power": 8675,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 8656,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "HydraDmg_Buff",
+				"Power": 8656,
+				"Level": 61,
+				"GearLevel": 4
+			},
+			{
+				"HeroId": "RedSkull",
+				"Power": 9856,
+				"Level": 63,
+				"GearLevel": 4
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 8,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 61,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "RedSkull",
+						"level": 63,
+						"loyalty": 4,
+						"tier": 4,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "event_tu_sw_mm_07",
+		"locNameKey": "ID_TU_SW_MM_07_NAME",
+		"locDescriptionName": "ID_TU_SW_MM_07_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			"Objectives": [{
+				"ObjectiveEndStory": "tu_sw_mm_07_end",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 0,
+			"CompactWave": [],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"StoryTellingID": "tu_sw_mm_07_start",
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		},
+		{
+			"Objectives": [{
+				"ObjectiveEndStory": "",
+				"CantPersist": false,
+				"Type": "KillAll"
+			}],
+			"Power": 67379,
+			"CompactWave": [{
+				"HeroId": "WinterSoldier",
+				"Power": 10782,
+				"Level": 63,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Wolverine",
+				"Power": 10877,
+				"Level": 63,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Deadpool",
+				"Power": 10843,
+				"Level": 63,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Quake",
+				"Power": 11545,
+				"Level": 65,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Hawkeye",
+				"Power": 11674,
+				"Level": 65,
+				"GearLevel": 5
+			},
+			{
+				"HeroId": "Cable",
+				"Power": 11658,
+				"Level": 65,
+				"GearLevel": 5
+			}],
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "WinterSoldier",
+						"level": 63,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Wolverine",
+						"level": 63,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Deadpool",
+						"level": 63,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 250,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 65,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 65,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 250,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 9,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"procs_cnt": null,
+						"custom_entity_visual": ["RedEyes"],
+						"useDefaultStats": false,
+						"hero_id": "Cable",
+						"level": 65,
+						"loyalty": 4,
+						"tier": 5,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	}]
+}

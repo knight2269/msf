@@ -1,0 +1,2064 @@
+{
+	"Name": "raid_thanos_lvl_50",
+	"RaidDetails": {
+		"raidId": "raid_thanos_lvl_50",
+		"rows": 7,
+		"columns": 10,
+		"isOperation": false,
+		"map": [["",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"A8",
+		"A9",
+		"A10"],
+		["",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"B8",
+		"B9",
+		"B10"],
+		["",
+		"C2",
+		"C3",
+		"C4",
+		"C5",
+		"C6",
+		"C7",
+		"C8",
+		"",
+		"C10"],
+		["D1",
+		"D2",
+		"D3",
+		"D4",
+		"D5",
+		"D6",
+		"D7",
+		"D8",
+		"D9",
+		"D10"],
+		["",
+		"E2",
+		"E3",
+		"E4",
+		"E5",
+		"E6",
+		"E7",
+		"E8",
+		"",
+		"E10"],
+		["",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"F8",
+		"F9",
+		"F10"],
+		["",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"G8",
+		"G9",
+		"G10"]],
+		"rooms": {
+			"D1": {
+				"roomId": "D1",
+				"name": "th02_raid_00",
+				"starting": true,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D2",
+				null,
+				null]
+			},
+			"D2": {
+				"roomId": "D2",
+				"name": "thXX_raid",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"C2",
+				"E2"]
+			},
+			"C2": {
+				"roomId": "C2",
+				"name": "thXX_raid",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C3",
+				null,
+				null]
+			},
+			"E2": {
+				"roomId": "E2",
+				"name": "thXX_raid",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E3",
+				null,
+				null]
+			},
+			"C3": {
+				"roomId": "C3",
+				"name": "th02_raid_01",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_01",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C4",
+				null,
+				"D3"]
+			},
+			"E3": {
+				"roomId": "E3",
+				"name": "th02_raid_02",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_01",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E4",
+				"D3",
+				null]
+			},
+			"D3": {
+				"roomId": "D3",
+				"name": "th02_raid_03",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_03_mb",
+						"icon": "Portrait_RedSkull",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D4",
+				null,
+				null]
+			},
+			"C4": {
+				"roomId": "C4",
+				"name": "th02_raid_04",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_04",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C5",
+				null,
+				null]
+			},
+			"D4": {
+				"roomId": "D4",
+				"name": "th02_raid_05",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_05",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D5",
+				null,
+				null]
+			},
+			"E4": {
+				"roomId": "E4",
+				"name": "th02_raid_06",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_06",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E5",
+				null,
+				null]
+			},
+			"C5": {
+				"roomId": "C5",
+				"name": "th02_raid_07",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_07",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C6",
+				null,
+				null]
+			},
+			"D5": {
+				"roomId": "D5",
+				"name": "th02_raid_08",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_08",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D6",
+				null,
+				null]
+			},
+			"E5": {
+				"roomId": "E5",
+				"name": "th02_raid_09",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_09",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E6",
+				null,
+				null]
+			},
+			"C6": {
+				"roomId": "C6",
+				"name": "th02_raid_10",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_10",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C7",
+				null,
+				""]
+			},
+			"D6": {
+				"roomId": "D6",
+				"name": "th02_raid_11",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_11_mb",
+						"icon": "Portrait_Thor",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D7",
+				"C6",
+				"E6"]
+			},
+			"E6": {
+				"roomId": "E6",
+				"name": "th02_raid_12",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_12",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E7",
+				null,
+				null]
+			},
+			"C7": {
+				"roomId": "C7",
+				"name": "th02_raid_13",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_13_mb",
+						"icon": "Portrait_Vision",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["C8",
+				null,
+				null]
+			},
+			"D7": {
+				"roomId": "D7",
+				"name": "th02_raid_14",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_14",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D8",
+				null,
+				null]
+			},
+			"E7": {
+				"roomId": "E7",
+				"name": "th02_raid_15",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_15_mb",
+						"icon": "Portrait_Elektra",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["E8",
+				null,
+				null]
+			},
+			"A8": {
+				"roomId": "A8",
+				"name": "th02_raid_16",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_16",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#bc4100",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A9",
+				null,
+				null]
+			},
+			"B8": {
+				"roomId": "B8",
+				"name": "th02_raid_17",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_17_mb",
+						"icon": "Portrait_BlackPanther",
+						"iconBgColor": "#a1000b",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B9",
+				"A8",
+				null]
+			},
+			"C8": {
+				"roomId": "C8",
+				"name": "th02_raid_18",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_18",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"B8",
+				"D8"]
+			},
+			"D8": {
+				"roomId": "D8",
+				"name": "th02_raid_19",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_19",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D9",
+				null,
+				null]
+			},
+			"E8": {
+				"roomId": "E8",
+				"name": "th02_raid_20",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_20",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"D8",
+				"F8"]
+			},
+			"F8": {
+				"roomId": "F8",
+				"name": "th02_raid_21",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_21_mb",
+						"icon": "Portrait_Bullseye",
+						"iconBgColor": "#6c238e",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F9",
+				null,
+				"G8"]
+			},
+			"G8": {
+				"roomId": "G8",
+				"name": "th02_raid_22",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_22",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#21ef24",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G9",
+				null,
+				null]
+			},
+			"A9": {
+				"roomId": "A9",
+				"name": "th02_raid_23",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_23",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#bc4100",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["A10",
+				null,
+				null]
+			},
+			"B9": {
+				"roomId": "B9",
+				"name": "th02_raid_24",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_24",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#a1000b",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["B10",
+				null,
+				null]
+			},
+			"D9": {
+				"roomId": "D9",
+				"name": "th02_raid_25",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_25_mb",
+						"icon": "Portrait_Nobu",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["D10",
+				null,
+				null]
+			},
+			"F9": {
+				"roomId": "F9",
+				"name": "th02_raid_26",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_26",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#6c238e",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["F10",
+				null,
+				null]
+			},
+			"G9": {
+				"roomId": "G9",
+				"name": "th02_raid_27",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_27",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#21ef24",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["G10",
+				null,
+				null]
+			},
+			"A10": {
+				"roomId": "A10",
+				"name": "th02_raid_28",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_28",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#bc4100",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": ["",
+				null,
+				"B10"]
+			},
+			"B10": {
+				"roomId": "B10",
+				"name": "th02_raid_29",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_29",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#a1000b",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"C10"]
+			},
+			"C10": {
+				"roomId": "C10",
+				"name": "th02_raid_30",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_30_mb",
+						"icon": "Portrait_BaronMordo",
+						"iconBgColor": "#fff200",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				"D10"]
+			},
+			"D10": {
+				"roomId": "D10",
+				"name": "th02_raid_31",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_31_fb",
+						"icon": "Portrait_Thanos",
+						"iconBgColor": "",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				null,
+				null]
+			},
+			"E10": {
+				"roomId": "E10",
+				"name": "th02_raid_32",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_32_mb",
+						"icon": "Portrait_DoctorStrange",
+						"iconBgColor": "#338aba",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": true
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"D10",
+				null]
+			},
+			"F10": {
+				"roomId": "F10",
+				"name": "th02_raid_33",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_33",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#6c238e",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"E10",
+				null]
+			},
+			"G10": {
+				"roomId": "G10",
+				"name": "th02_raid_34",
+				"starting": false,
+				"objective": false,
+				"missions": {
+					"1": {
+						"missionIndex": "1",
+						"ID": "evr_bunny02_34",
+						"icon": "raid_Icon_Thanos.png",
+						"iconBgColor": "#21ef24",
+						"rewards": [{
+							"m_rewardID": "raid_thanos_mid_battledrops",
+							"m_firstTimeOnly": false
+						}],
+						"cost": [{
+							"res": "ave_attack_energy",
+							"amount": 10
+						}],
+						"requirements": {
+							
+						},
+						"filters": {
+							"description": "",
+							"shortDescription": "",
+							"longDescription": "",
+							"quantity": 0,
+							"filters": {
+								
+							}
+						},
+						"characterLimit": 5,
+						"isBoss": false
+					}
+				},
+				"requirements": {
+					
+				},
+				"filters": {
+					"description": "",
+					"shortDescription": "",
+					"longDescription": "",
+					"quantity": 0,
+					"filters": {
+						
+					}
+				},
+				"roomOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"nextRooms": [null,
+				"F10",
+				null]
+			}
+		},
+		"startingRoomId": "D1"
+	}
+}

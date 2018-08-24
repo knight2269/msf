@@ -1,0 +1,7940 @@
+{
+	"Name": "ChallengeMissionDetails",
+	"MissionDetails": [{
+		"ID": "chal_ablmat_01",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE1_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE1_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandControl_HealBlock",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Unbuff",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_03",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE2_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE2_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Ultron",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"dmg_percent": 80
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"hero_id": "UltronDmg_Defense",
+						"level": 11,
+						"loyalty": 1,
+						"tier": 2,
+						"dmg_percent": 80
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"hero_id": "UltronDmg_Offense",
+						"level": 11,
+						"loyalty": 1,
+						"tier": 2,
+						"dmg_percent": 80
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"hero_id": "UltronDmg_Speed",
+						"level": 11,
+						"loyalty": 1,
+						"tier": 2,
+						"dmg_percent": 80
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"hero_id": "UltronTank_Taunt",
+						"level": 11,
+						"loyalty": 1,
+						"tier": 2,
+						"dmg_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_05",
+		"locNameKey": "ID_MISSION_CHAL_ABIL_MAT_5_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_ABIL_MAT_5_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraDmg_Buff",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraDmg_Single",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraDmg_AoE",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraTank_Taunt",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 200,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Bullseye",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "RedSkull",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Crossbones",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercSupport_Buffs",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_06",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE3_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE3_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HandDmg_Bonus",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HandDmg_Unbuff",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HandControl_HealBlock",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HandDmg_Unbuff",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HandSupport_Heal",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_08",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE4_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE4_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Gamora",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandControl_HealBlock",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Nebula",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandDmg_Bonus",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 50,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 200,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Nobu",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandSupport_Heal",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandTank_Stealth",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandDmg_Bonus",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_10",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE5_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE5_DESC",
+		"mapName": "Env_Kree_Bridge_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Unbuff",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandControl_HealBlock",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Elektra",
+						"level": 32,
+						"loyalty": 2,
+						"tier": 5,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Gamora",
+						"level": 32,
+						"loyalty": 2,
+						"tier": 5,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Nebula",
+						"level": 32,
+						"loyalty": 2,
+						"tier": 5,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 32,
+						"loyalty": 2,
+						"tier": 5,
+						"max_hp_percent": 70,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_12",
+		"locNameKey": "ID_CHAL_ABILITYMATS_STAGE6_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE6_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Unbuff",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Elektra",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Daredevil",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nobu",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "JessicaJones",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_lv48",
+		"locNameKey": "ID_CHAL_STAGE7_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE7_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Kingpin",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Taunt",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nobu",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RedSkull",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_lv55",
+		"locNameKey": "ID_CHAL_STAGE8_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE8_DESC",
+		"mapName": "Env_Snow_Exterior_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Gamora",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nebula",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeTank_Counter",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Yondu",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Korath",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_ablmat_lv65",
+		"locNameKey": "ID_CHAL_STAGE9_NAME",
+		"locDescriptionName": "ID_CHAL_ABILITYMATS_STAGE9_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "DoctorStrange",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimControl_Infect",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BaronMordo",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ScientistSupreme",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Vision",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Wasp",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AntMan",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 1,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv18",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE1_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE1_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraDmg_Buff",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "HydraDmg_AoE",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "RedSkull",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv26",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE2_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE2_NAME",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Crossbones",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HydraDmg_AoE",
+						"level": 24,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HydraDmg_Buff",
+						"level": 24,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [2,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HydraDmg_Single",
+						"level": 24,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv34",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE3_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE3_NAME",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 1,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 80,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 80,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Single",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 80,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 0,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RedSkull",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 125,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 80,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 80,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv40",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE4_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE4_NAME",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Single",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_Defense",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 41,
+						"loyalty": 5,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_AoE",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 6,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 41,
+						"loyalty": 5,
+						"tier": 6,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv48",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE5_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE5_NAME",
+		"mapName": "Env_Hydra_Base_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "WinterSoldier",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_Buff",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 0,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_Single",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RedSkull",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 7,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv55",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE6_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE6_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 54,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 54,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 54,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 54,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Heal",
+						"level": 54,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 500,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "SpiderMan",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 8,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 8,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "CaptainAmerica",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 8,
+						"dmg_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackPanther",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 8,
+						"dmg_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_catalyst_lv65",
+		"locNameKey": "ID_CHAL_CATALYST_STAGE7_NAME",
+		"locDescriptionName": "ID_CHAL_CATALYST_STAGE7_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Vision",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "StarLord",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Korath",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronFist",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Groot",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Drax",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 2,
+					"MinSlotReq": 6,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RocketRaccoon",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Loki",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_1",
+		"locNameKey": "ID_MISSION_CHAL_FURY_1_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_1_DESC",
+		"mapName": "Env_HellsKitchen_Alleyway_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_General",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_Single",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_General",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercSupport_Buffs",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_Single",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercSupport_Buffs",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Crossbones",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Kingpin",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Bullseye",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_2",
+		"locNameKey": "ID_MISSION_CHAL_FURY_2_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_2_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						2,
+						2],
+						"hero_id": "HandDmg_Bonus",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						2,
+						2],
+						"hero_id": "HandControl_HealBlock",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						2,
+						2],
+						"hero_id": "HandControl_HealBlock",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						2,
+						2],
+						"hero_id": "HandTank_Stealth",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						2,
+						2],
+						"hero_id": "HandDmg_Unbuff",
+						"level": 20,
+						"loyalty": 2,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						2,
+						1,
+						1,
+						2,
+						2],
+						"hero_id": "HandSupport_Heal",
+						"level": 22,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						2,
+						2],
+						"hero_id": "Elektra",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						2,
+						2],
+						"hero_id": "Nobu",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						2,
+						2],
+						"hero_id": "Bullseye",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [2,
+						2,
+						1,
+						1,
+						2,
+						2],
+						"hero_id": "HandSupport_Heal",
+						"level": 22,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_3",
+		"locNameKey": "ID_MISSION_CHAL_FURY_3_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_3_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimDmg_Offense",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimSupport_Heal",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimTank_Taunt",
+						"level": 25,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimDmg_Offense",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimDmg_Speed",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimControl_Infect",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimControl_Infect",
+						"level": 30,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimSupport_Heal",
+						"level": 30,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimDmg_Offense",
+						"level": 30,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "ScientistSupreme",
+						"level": 30,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						3,
+						3],
+						"hero_id": "AimSupport_Heal",
+						"level": 30,
+						"loyalty": 2,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_4",
+		"locNameKey": "ID_MISSION_CHAL_FURY_4_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_4_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						4,
+						4],
+						"hero_id": "HydraDmg_AoE",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						4,
+						4],
+						"hero_id": "HydraDmg_Buff",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						1,
+						4,
+						4],
+						"hero_id": "HydraDmg_Single",
+						"level": 35,
+						"loyalty": 2,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraSupport_Heal",
+						"level": 38,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraDmg_AoE",
+						"level": 38,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraDmg_Single",
+						"level": 38,
+						"loyalty": 2,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraDmg_Buff",
+						"level": 38,
+						"loyalty": 2,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraDmg_Single",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "HydraSupport_Heal",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "Crossbones",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "RedSkull",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						4,
+						4],
+						"hero_id": "WinterSoldier",
+						"level": 40,
+						"loyalty": 3,
+						"tier": 6
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_5",
+		"locNameKey": "ID_MISSION_CHAL_FURY_5_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_5_DESC",
+		"mapName": "Env_HellsKitchen_RoofTop_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						5,
+						5],
+						"hero_id": "UltronDmg_Defense",
+						"level": 45,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						5,
+						5],
+						"hero_id": "UltronDmg_Offense",
+						"level": 45,
+						"loyalty": 3,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						5,
+						5],
+						"hero_id": "UltronDmg_Speed",
+						"level": 45,
+						"loyalty": 3,
+						"tier": 6
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronSupport_Heal",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronTank_Taunt",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronDmg_Offense",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronDmg_Speed",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 0,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronTank_Taunt",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "IronMan",
+						"level": 50,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "Ultron",
+						"level": 50,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronDmg_Offense",
+						"level": 50,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						5,
+						5],
+						"hero_id": "UltronSupport_Heal",
+						"level": 48,
+						"loyalty": 3,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_6",
+		"locNameKey": "ID_MISSION_CHAL_FURY_6_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_6_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "RavagerDmg_AoE",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "RavagerSupport_Heal",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "RavagerTank_Taunt",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "KreeDmg_Offense",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "KreeDmg_Speed",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "KreeSupport_HoT",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "KreeControl_Assist",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						6,
+						6],
+						"hero_id": "KreeTank_Counter",
+						"level": 55,
+						"loyalty": 4,
+						"tier": 8,
+						"max_hp_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "KreeControl_Assist",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "RavagerSupport_Heal",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "Gamora",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "Korath",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "Yondu",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "KreeTank_Counter",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "KreeControl_Assist",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "KreeSupport_HoT",
+						"level": 58,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "Nebula",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						3,
+						6,
+						6],
+						"hero_id": "Ronan",
+						"level": 60,
+						"loyalty": 5,
+						"tier": 8,
+						"max_hp_percent": 120
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_fury_7",
+		"locNameKey": "ID_MISSION_CHAL_FURY_7_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_FURY_7_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "ShieldTank_Stun",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "ShieldDmg_Defense",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [5,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 63,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "Quake",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "JessicaJones",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "Daredevil",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "IronFist",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "LukeCage",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						0,
+						0],
+						"hero_id": "NightNurse",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "CaptainAmerica",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "Hulk",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "Hawkeye",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "IronMan",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "BlackWidow",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						5,
+						5,
+						4,
+						6,
+						6],
+						"hero_id": "Thor",
+						"level": 65,
+						"loyalty": 5,
+						"tier": 9,
+						"max_hp_percent": 120
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						7,
+						7],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						7,
+						7],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						7,
+						7],
+						"hero_id": "NickFury",
+						"level": 70,
+						"loyalty": 7,
+						"tier": 10,
+						"max_hp_percent": 200
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						7,
+						7],
+						"hero_id": "ShieldDmg_Defense",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 120
+					},
+					{
+						"abilities": [6,
+						6,
+						5,
+						4,
+						7,
+						7],
+						"hero_id": "ShieldTank_Stun",
+						"level": 68,
+						"loyalty": 6,
+						"tier": 10,
+						"max_hp_percent": 120
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_1",
+		"locNameKey": "ID_CHAL_GOLD_STAGE1_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE1_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Debuff",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_General",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_General",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercSupport_Buffs",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Debuff",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_2",
+		"locNameKey": "ID_CHAL_GOLD_STAGE2_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE2_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Bullseye",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_Single",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_General",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercDmg_Single",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_3",
+		"locNameKey": "ID_CHAL_GOLD_STAGE3_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE3_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 8,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Kingpin",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "IronMan",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercSupport_Buffs",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "IronMan",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_4",
+		"locNameKey": "ID_CHAL_GOLD_STAGE4_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE4_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandSupport_Heal",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandDmg_Bonus",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "MercDmg_Single",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Nobu",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandSupport_Heal",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "MercSupport_Buffs",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "HandTank_Stealth",
+						"level": 28,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_5",
+		"locNameKey": "ID_CHAL_GOLD_STAGE5_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE5_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "JessicaJones",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "LukeCage",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nebula",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NightNurse",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Gamora",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_6",
+		"locNameKey": "ID_CHAL_GOLD_STAGE6_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE6_DESC",
+		"mapName": "Env_HellsKitchen_RoofTop_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Debuff",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercSupport_Buffs",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_Single",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_General",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Taunt",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Kingpin",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Elektra",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_7",
+		"locNameKey": "ID_CHAL_STAGE7_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE7_DESC",
+		"mapName": "Env_Bunker_Storage_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Debuff",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercSupport_Buffs",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerSupport_Heal",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "WinterSoldier",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Crossbones",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RocketRaccoon",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Korath",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": true
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_8",
+		"locNameKey": "ID_CHAL_STAGE8_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE8_DESC",
+		"mapName": "Env_Snow_Exterior_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Gamora",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RocketRaccoon",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Groot",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "SpiderMan",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "StarLord",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "LukeCage",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": true
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_gold_9",
+		"locNameKey": "ID_CHAL_STAGE9_NAME",
+		"locDescriptionName": "ID_CHAL_GOLD_STAGE9_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercTank_Taunt",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Cable",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Wolverine",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Deadpool",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Punisher",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 1000,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 7,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Thanos",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Gamora",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nebula",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"dmg_percent": 70,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": true
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_1",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_1_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_1_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NightNurse",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Heal",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1,
+						"max_hp_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_2",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_2_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_2_DESC",
+		"mapName": "Env_HellsKitchen_RoofTop_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Hulk",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "CaptainAmerica",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "SpiderMan",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2,
+						"max_hp_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_3",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_3_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_3_DESC",
+		"mapName": "Env_Warehouse_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "LukeCage",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Daredevil",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "IronFist",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "JessicaJones",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "NightNurse",
+						"level": 16,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 90
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_4",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_4_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_4_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "NickFury",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldTank_Stun",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 1,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Quake",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Hawkeye",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"dmg_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_5",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_5_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_5_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandControl_HealBlock",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 0,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nobu",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandTank_Stealth",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HandDmg_Bonus",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 60
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_6",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_6_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_6_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NightNurse",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "LukeCage",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronFist",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 6
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 41,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 40,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "CaptainAmerica",
+						"level": 41,
+						"loyalty": 5,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_7",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_7_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_7_DESC",
+		"mapName": "Env_Snow_Exterior_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerSupport_Heal",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeTank_Counter",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeSupport_HoT",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Speed",
+						"level": 47,
+						"loyalty": 5,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerSupport_Heal",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Yondu",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeSupport_HoT",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerDmg_AoE",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Offense",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_8",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_8_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_8_DESC",
+		"mapName": "Env_Bunker_Sub_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_Single",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "MercDmg_Single",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Elektra",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "CaptainAmerica",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_healthbucks_9",
+		"locNameKey": "ID_MISSION_CHAL_HEALTHBUCKS_9_NAME",
+		"locDescriptionName": "ID_MISSION_CHAL_HEALTHBUCKS_9_DESC",
+		"mapName": "Env_Jungle_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Speed",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"dmg_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeControl_Assist",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"dmg_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerTank_Taunt",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"dmg_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Ronan",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"dmg_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerTank_Taunt",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80,
+						"dmg_percent": 80,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Deadpool",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"dmg_percent": 80,
+						"desired_x_pos": 1,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Cable",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"dmg_percent": 80,
+						"desired_x_pos": 3,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Daredevil",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"dmg_percent": 80,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Wolverine",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"dmg_percent": 80,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv09",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE1_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE1_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Defense",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Offense",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronSupport_Heal",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv14",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE2_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE2_DESC",
+		"mapName": "Env_HellsKitchen_Docks_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Bullseye",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "BlackPanther",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Nebula",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Gamora",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv18",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE3_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE3_DESC",
+		"mapName": "Env_HellsKitchen_Alleyway_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "CaptainAmerica",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "NickFury",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "Hawkeye",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv26",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE4_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE4_DESC",
+		"mapName": "Env_DestroyedCity_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Hulk",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Drax",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "Groot",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "SpiderMan",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "JessicaJones",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv34",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE5_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE5_DESC",
+		"mapName": "Env_AIM_ChemLab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ScientistSupreme",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimTank_Taunt",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimSupport_Heal",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Speed",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Offense",
+						"level": 32,
+						"loyalty": 3,
+						"tier": 5
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv40",
+		"locNameKey": "ID_CHAL_SHARDS_STAGE6_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE6_DESC",
+		"mapName": "Env_Dojo_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "StarLord",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Gamora",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Nebula",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv48",
+		"locNameKey": "ID_CHAL_STAGE7_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE7_DESC",
+		"mapName": "Helicarrier_Ember_01_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronSupport_Heal",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronTank_Taunt",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 47,
+						"loyalty": 4,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 4,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Defense",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 49,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "UltronDmg_Speed",
+						"level": 48,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Ultron",
+						"level": 49,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv55",
+		"locNameKey": "ID_CHAL_STAGE8_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE8_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "IronMan",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "CaptainAmerica",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hawkeye",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hulk",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NightNurse",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": true
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_shards_lv65",
+		"locNameKey": "ID_CHAL_STAGE9_NAME",
+		"locDescriptionName": "ID_CHAL_SHARDS_STAGE9_DESC",
+		"mapName": "Env_Bunker_Sub_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 10,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Speed",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimTank_Taunt",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 70,
+						"desired_x_pos": 0,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimSupport_Heal",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimDmg_Offense",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 1,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "AimControl_Infect",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 3,
+						"desired_y_pos": 1
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ScientistSupreme",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 0,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "DoctorStrange",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 2,
+						"desired_y_pos": 0
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BaronMordo",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"desired_x_pos": 4,
+						"desired_y_pos": 0
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv09",
+		"locNameKey": "ID_CHAL_XP_STAGE1_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE1_DESC",
+		"mapName": "HellsKitchen_Ember_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_AoE",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_AoE",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Heal",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					},
+					{
+						"abilities": [1,
+						1,
+						-1,
+						-1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 7,
+						"loyalty": 1,
+						"tier": 1
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv14",
+		"locNameKey": "ID_CHAL_XP_STAGE2_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE2_DESC",
+		"mapName": "Env_Hydra_Base_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldTank_Stun",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 12,
+						"loyalty": 1,
+						"tier": 2
+					},
+					{
+						"abilities": [1,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 14,
+						"loyalty": 1,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv18",
+		"locNameKey": "ID_CHAL_XP_STAGE3_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE3_DESC",
+		"mapName": "Env_Jungle_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_Defense",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "BlackWidow",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3,
+						"max_hp_percent": 70
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "CaptainAmerica",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					},
+					{
+						"abilities": [2,
+						1,
+						1,
+						-1,
+						0,
+						0],
+						"hero_id": "NightNurse",
+						"level": 18,
+						"loyalty": 1,
+						"tier": 3
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv26",
+		"locNameKey": "ID_CHAL_XP_STAGE4_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE4_DESC",
+		"mapName": "Env_AlienRuins_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "MercTank_Debuff",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldTank_Stun",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Heal",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"InitialTurnFill": 200,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 3,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "NickFury",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [3,
+						2,
+						2,
+						1,
+						0,
+						0],
+						"hero_id": "ShieldDmg_AoE",
+						"level": 26,
+						"loyalty": 2,
+						"tier": 4,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv34",
+		"locNameKey": "ID_CHAL_XP_STAGE5_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE5_DESC",
+		"mapName": "Env_Bunker_Sub_merged",
+		"timeOfDay": "SUNSET",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "WinterSoldier",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_AoE",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5
+					},
+					{
+						"abilities": [3,
+						3,
+						2,
+						1,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldDmg_Defense",
+						"level": 34,
+						"loyalty": 3,
+						"tier": 5,
+						"max_hp_percent": 50
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv40",
+		"locNameKey": "ID_CHAL_XP_STAGE6_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE6_DESC",
+		"mapName": "Env_HellsKitchen_Alleyway_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7,
+						"speed_percent": 110
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Hulk",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					},
+					{
+						"abilities": [4,
+						3,
+						3,
+						2,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NightNurse",
+						"level": 40,
+						"loyalty": 4,
+						"tier": 7
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv48",
+		"locNameKey": "ID_CHAL_STAGE7_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE7_DESC",
+		"mapName": "Env_Hydra_Lab_merged",
+		"timeOfDay": "DAY",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 6,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Bullseye",
+						"level": 49,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "WinterSoldier",
+						"level": 49,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Yondu",
+						"level": 49,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraTank_Taunt",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraSupport_Heal",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					},
+					{
+						"abilities": [4,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "HydraDmg_AoE",
+						"level": 48,
+						"loyalty": 4,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv55",
+		"locNameKey": "ID_CHAL_STAGE8_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE8_DESC",
+		"mapName": "Env_HellsKitchen_Alleyway_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Elektra",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					},
+					{
+						"abilities": [5,
+						4,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldSupport_Stealth",
+						"level": 54,
+						"loyalty": 5,
+						"tier": 8
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "NickFury",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "JessicaJones",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "ShieldTank_Stun",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Quake",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					},
+					{
+						"abilities": [5,
+						5,
+						4,
+						3,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "BlackWidow",
+						"level": 55,
+						"loyalty": 5,
+						"tier": 9
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	},
+	{
+		"ID": "chal_xp_lv65",
+		"locNameKey": "ID_CHAL_STAGE9_NAME",
+		"locDescriptionName": "ID_CHAL_XP_STAGE9_DESC",
+		"mapName": "Env_Kree_Bridge_merged",
+		"timeOfDay": "NIGHT",
+		"Settings": [{
+			
+		},
+		{
+			"WaveLists": [{
+				"Description": null,
+				"Expanded": true,
+				"Waves": [{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeControl_Assist",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Offense",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeSupport_HoT",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Speed",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "RavagerTank_Taunt",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				},
+				{
+					"Expanded": true,
+					"NextWaveIf": "AfterAllDead",
+					"InitialTurnFill": 100,
+					"TurnSpeed": 1000,
+					"MaxSlotFill": 5,
+					"MinSlotReq": 0,
+					"Entries": [{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeControl_Assist",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11,
+						"max_hp_percent": 80
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Drax",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Loki",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "Thor",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11
+					},
+					{
+						"abilities": [6,
+						6,
+						6,
+						4,
+						0,
+						0],
+						"useDefaultStats": false,
+						"hero_id": "KreeDmg_Speed",
+						"level": 65,
+						"loyalty": 6,
+						"tier": 11
+					}],
+					"EmptyStoryDelay": 0,
+					"HoldSpawnStory": false
+				}]
+			}]
+		}]
+	}]
+}
