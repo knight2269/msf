@@ -6,157 +6,133 @@
 		"columns": 8,
 		"isOperation": false,
 		"map": [["",
-		"A2",
-		"A3",
-		"A4",
-		"A5",
-		"A6",
-		"A7",
-		""],
-		["",
-		"B2",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""],
-		["C1",
-		"C2",
-		"C3",
-		"C4",
-		"C5",
-		"C6",
-		"C7",
-		"C8"],
-		["",
-		"D2",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""],
-		["",
-		"E2",
-		"E3",
-		"E4",
-		"E5",
-		"E6",
-		"E7",
-		""]],
+				"A2",
+				"A3",
+				"A4",
+				"A5",
+				"A6",
+				"A7",
+				""],
+			["",
+				"B2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				""],
+			["C1",
+				"C2",
+				"C3",
+				"C4",
+				"C5",
+				"C6",
+				"C7",
+				"C8"],
+			["",
+				"D2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				""],
+			["",
+				"E2",
+				"E3",
+				"E4",
+				"E5",
+				"E6",
+				"E7",
+				""]],
 		"rooms": {
 			"C1": {
 				"roomId": "C1",
 				"name": "",
 				"starting": true,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C2",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C2": {
 				"roomId": "C2",
 				"name": "",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C3",
-				"B2",
-				"D2"]
+					"B2",
+					"D2"]
 			},
 			"B2": {
 				"roomId": "B2",
 				"name": null,
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				"A2",
-				null]
+					"A2",
+					null]
 			},
 			"D2": {
 				"roomId": "D2",
 				"name": null,
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				null,
-				"E2"]
+					null,
+					"E2"]
 			},
 			"A2": {
 				"roomId": "A2",
@@ -170,49 +146,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A3",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E2": {
 				"roomId": "E2",
@@ -226,49 +196,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E3",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C3": {
 				"roomId": "C3",
@@ -282,49 +246,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C4",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C4": {
 				"roomId": "C4",
@@ -338,49 +296,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C5",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C5": {
 				"roomId": "C5",
@@ -394,49 +346,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C6",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C6": {
 				"roomId": "C6",
@@ -450,49 +396,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C7",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C7": {
 				"roomId": "C7",
@@ -506,49 +446,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C8",
-				"",
-				""]
+					"",
+					""]
 			},
 			"C8": {
 				"roomId": "C8",
@@ -562,49 +496,43 @@
 						"icon": "Portrait_RedSkull",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				"",
-				null]
+					"",
+					null]
 			},
 			"A3": {
 				"roomId": "A3",
@@ -618,49 +546,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A4",
-				"",
-				null]
+					"",
+					null]
 			},
 			"E3": {
 				"roomId": "E3",
@@ -674,49 +596,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E4",
-				"",
-				null]
+					"",
+					null]
 			},
 			"A4": {
 				"roomId": "A4",
@@ -730,49 +646,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A5",
-				"",
-				null]
+					"",
+					null]
 			},
 			"A5": {
 				"roomId": "A5",
@@ -786,49 +696,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A6",
-				"",
-				null]
+					"",
+					null]
 			},
 			"A6": {
 				"roomId": "A6",
@@ -842,49 +746,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A7",
-				"",
-				null]
+					"",
+					null]
 			},
 			"A7": {
 				"roomId": "A7",
@@ -898,49 +796,43 @@
 						"icon": "Portrait_WinterSoldier",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				"",
-				null]
+					"",
+					null]
 			},
 			"E4": {
 				"roomId": "E4",
@@ -954,49 +846,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E5",
-				"",
-				null]
+					"",
+					null]
 			},
 			"E5": {
 				"roomId": "E5",
@@ -1010,49 +896,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E6",
-				"",
-				null]
+					"",
+					null]
 			},
 			"E6": {
 				"roomId": "E6",
@@ -1066,49 +946,43 @@
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E7",
-				"",
-				null]
+					"",
+					null]
 			},
 			"E7": {
 				"roomId": "E7",
@@ -1122,49 +996,43 @@
 						"icon": "Portrait_NickFury",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_battledrops_lvl25_1",
-							"m_firstTimeOnly": false,
-							"m_alternateOnly": false
-						}],
+								"m_rewardID": "raid_battledrops_lvl25_1",
+								"m_firstTimeOnly": false,
+								"m_alternateOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				"",
-				null]
+					"",
+					null]
 			}
 		},
 		"startingRoomId": "C1"

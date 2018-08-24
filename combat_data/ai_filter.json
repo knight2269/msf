@@ -2,84 +2,93 @@
 	"Data": {
 		"buff_remove": {
 			"entries": [{
-				"type": "has_buff"
-			}]
+					"type": "has_buff"
+				}
+			]
 		},
 		"heal_standard": {
 			"entries": [{
-				"health_pct": 75,
-				"type": "only_if_can_heal"
-			}]
+					"health_pct": 75,
+					"type": "only_if_can_heal"
+				}
+			]
 		},
 		"taunt": {
 			"entries": [{
-				"health_pct": 20,
-				"type": "only_if_health"
-			},
-			{
-				"type": "only_if_has_allies"
-			}]
+					"health_pct": 20,
+					"type": "only_if_health"
+				}, {
+					"type": "only_if_has_allies"
+				}
+			]
 		},
 		"heal_self_standard": {
 			"entries": [{
-				"health_pct": 75,
-				"type": "only_if_health_below"
-			}]
+					"health_pct": 75,
+					"type": "only_if_health_below"
+				}
+			]
 		},
 		"heal_99": {
 			"entries": [{
-				"health_pct": 99,
-				"type": "only_if_can_heal"
-			}]
+					"health_pct": 99,
+					"type": "only_if_can_heal"
+				}
+			]
 		},
 		"revive": {
 			"entries": [{
-				"type": "only_if_dead_allies"
-			}]
+					"type": "only_if_dead_allies"
+				}
+			]
 		},
 		"debuff_increase": {
 			"entries": [{
-				"allies": "true",
-				"type": "only_if_has_debuff"
-			}]
+					"allies": "true",
+					"type": "only_if_has_debuff"
+				}
+			]
 		},
 		"debuff_remove": {
 			"entries": [{
-				"allies": "true",
-				"type": "only_if_has_debuff"
-			}]
+					"allies": "true",
+					"type": "only_if_has_debuff"
+				}
+			]
 		},
 		"stealth": {
 			"entries": [{
-				"type": "only_if_has_allies"
-			}]
+					"type": "only_if_has_allies"
+				}
+			]
 		},
 		"debuff_remove_self": {
 			"entries": [{
-				"allies": "true",
-				"type": "only_if_has_debuff"
-			}]
+					"allies": "true",
+					"type": "only_if_has_debuff"
+				}
+			]
 		},
 		"taunt_protect_allies": {
 			"entries": [{
-				"health_pct": 80,
-				"type": "only_if_can_heal"
-			},
-			{
-				"health_pct": 50,
-				"type": "only_if_health"
-			}]
+					"health_pct": 80,
+					"type": "only_if_can_heal"
+				}, {
+					"health_pct": 50,
+					"type": "only_if_health"
+				}
+			]
 		},
 		"health_redistribute": {
 			"entries": [{
-				"health_pct": 50,
-				"type": "only_if_can_heal"
-			},
-			{
-				"health_pct": 50,
-				"type": "only_if_can_heal",
-				"greater": true
-			}]
+					"health_pct": 50,
+					"type": "only_if_can_heal"
+				}, {
+					"health_pct": 50,
+					"type": "only_if_can_heal",
+					"greater": true
+				}
+			]
 		}
 	},
 	"Name": "ai_filter"

@@ -3,9 +3,10 @@
 		"Slow": {
 			"category": "debuff",
 			"stat_modifier": [{
-				"stat": "speed_pct",
-				"delta": -50
-			}],
+					"stat": "speed_pct",
+					"delta": -50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "SpeedUp"
 		},
@@ -13,9 +14,10 @@
 			"category": "none",
 			"expiration_type": "end_of_any_turn",
 			"stat_modifier": [{
-				"stat": "assist_attack_pct",
-				"delta": 100
-			}]
+					"stat": "assist_attack_pct",
+					"delta": 100
+				}
+			]
 		},
 		"Counter": {
 			"category": "buff",
@@ -23,9 +25,10 @@
 			"opposite": "DoT",
 			"expiration_type": "on_counter",
 			"stat_modifier": [{
-				"stat": "counter_pct",
-				"delta": 100
-			}]
+					"stat": "counter_pct",
+					"delta": 100
+				}
+			]
 		},
 		"HealBlock": {
 			"category": "debuff",
@@ -37,9 +40,10 @@
 		"SpeedUp": {
 			"category": "buff",
 			"stat_modifier": [{
-				"stat": "speed_pct",
-				"delta": 50
-			}],
+					"stat": "speed_pct",
+					"delta": 50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "Slow"
 		},
@@ -49,9 +53,10 @@
 			"opposite": "DoT",
 			"expiration_type": "on_evade",
 			"stat_modifier": [{
-				"stat": "dodge_chance_pct",
-				"delta": 100
-			}]
+					"stat": "dodge_chance_pct",
+					"delta": 100
+				}
+			]
 		},
 		"Stealth": {
 			"category": "buff",
@@ -80,19 +85,19 @@
 			"remove_on_death": false,
 			"expiration_type": "on_never_expire",
 			"stat_modifier": [{
-				"stat": "max_hp_pct",
-				"delta": [-90,
-				-90,
-				-90,
-				-90,
-				-90,
-				-90,
-				-90]
-			},
-			{
-				"stat": "damage_pct",
-				"delta": -30
-			}]
+					"stat": "max_hp_pct",
+					"delta": [-90,
+						-90,
+						-90,
+						-90,
+						-90,
+						-90,
+						-90]
+				}, {
+					"stat": "damage_pct",
+					"delta": -30
+				}
+			]
 		},
 		"Charged": {
 			"category": "none",
@@ -104,26 +109,26 @@
 		"DefenseUp": {
 			"category": "buff",
 			"stat_modifier": [{
-				"stat": "damage_reduction_pct",
-				"delta": 50
-			},
-			{
-				"stat": "resistance_pct",
-				"delta": 50
-			}],
+					"stat": "damage_reduction_pct",
+					"delta": 50
+				}, {
+					"stat": "resistance_pct",
+					"delta": 50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "DefenseDown"
 		},
 		"DefenseDown": {
 			"category": "debuff",
 			"stat_modifier": [{
-				"stat": "damage_reduction_pct",
-				"delta": -50
-			},
-			{
-				"stat": "resistance_pct",
-				"delta": -50
-			}],
+					"stat": "damage_reduction_pct",
+					"delta": -50
+				}, {
+					"stat": "resistance_pct",
+					"delta": -50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "DefenseUp"
 		},
@@ -147,13 +152,13 @@
 			"opposite": "DoT",
 			"expiration_type": "on_block",
 			"stat_modifier": [{
-				"stat": "block_chance_pct",
-				"delta": 100
-			},
-			{
-				"stat": "block_amount_pct",
-				"delta": 0
-			}]
+					"stat": "block_chance_pct",
+					"delta": 100
+				}, {
+					"stat": "block_amount_pct",
+					"delta": 0
+				}
+			]
 		},
 		"HoT": {
 			"category": "buff",
@@ -166,47 +171,48 @@
 		"OffenseUp": {
 			"category": "buff",
 			"stat_modifier": [{
-				"stat": "damage_pct",
-				"delta": 50
-			},
-			{
-				"stat": "focus_pct",
-				"delta": 50
-			}],
+					"stat": "damage_pct",
+					"delta": 50
+				}, {
+					"stat": "focus_pct",
+					"delta": 50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "OffenseDown"
 		},
 		"AccuracyDown": {
 			"category": "debuff",
 			"stat_modifier": [{
-				"stat": "accuracy_pct",
-				"delta": -100
-			}],
+					"stat": "accuracy_pct",
+					"delta": -100
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "Stealth"
 		},
 		"OffenseDown": {
 			"category": "debuff",
 			"stat_modifier": [{
-				"stat": "damage_pct",
-				"delta": -50
-			},
-			{
-				"stat": "focus_pct",
-				"delta": -50
-			}],
+					"stat": "damage_pct",
+					"delta": -50
+				}, {
+					"stat": "focus_pct",
+					"delta": -50
+				}
+			],
 			"expiration_type": "end_of_turn",
 			"opposite": "OffenseUp"
 		},
 		"DoT": {
 			"category": "debuff",
 			"dot_damage_pct": [45,
-			65,
-			80,
-			100,
-			115,
-			135,
-			150],
+				65,
+				80,
+				100,
+				115,
+				135,
+				150],
 			"opposite": "HoT",
 			"stacking": true,
 			"type": "dot",

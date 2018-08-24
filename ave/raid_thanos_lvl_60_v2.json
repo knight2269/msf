@@ -6,216 +6,192 @@
 		"columns": 11,
 		"isOperation": false,
 		"map": [["",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"A10",
-		"A11"],
-		["",
-		"",
-		"",
-		"B4",
-		"B5",
-		"B6",
-		"B7",
-		"B8",
-		"B9",
-		"B10",
-		"B11"],
-		["",
-		"",
-		"C3",
-		"C4",
-		"C5",
-		"C6",
-		"C7",
-		"C8",
-		"C9",
-		"C10",
-		"C11"],
-		["",
-		"D2",
-		"D3",
-		"D4",
-		"D5",
-		"D6",
-		"D7",
-		"D8",
-		"D9",
-		"D10",
-		"D11"],
-		["E1",
-		"E2",
-		"E3",
-		"E4",
-		"E5",
-		"E6",
-		"E7",
-		"E8",
-		"E9",
-		"E10",
-		"E11"],
-		["",
-		"F2",
-		"F3",
-		"F4",
-		"F5",
-		"F6",
-		"F7",
-		"F8",
-		"F9",
-		"F10",
-		"F11"],
-		["",
-		"",
-		"G3",
-		"G4",
-		"G5",
-		"G6",
-		"G7",
-		"G8",
-		"G9",
-		"G10",
-		"G11"],
-		["",
-		"",
-		"",
-		"H4",
-		"H5",
-		"H6",
-		"H7",
-		"H8",
-		"H9",
-		"H10",
-		"H11"],
-		["",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"I10",
-		"I11"]],
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"A10",
+				"A11"],
+			["",
+				"",
+				"",
+				"B4",
+				"B5",
+				"B6",
+				"B7",
+				"B8",
+				"B9",
+				"B10",
+				"B11"],
+			["",
+				"",
+				"C3",
+				"C4",
+				"C5",
+				"C6",
+				"C7",
+				"C8",
+				"C9",
+				"C10",
+				"C11"],
+			["",
+				"D2",
+				"D3",
+				"D4",
+				"D5",
+				"D6",
+				"D7",
+				"D8",
+				"D9",
+				"D10",
+				"D11"],
+			["E1",
+				"E2",
+				"E3",
+				"E4",
+				"E5",
+				"E6",
+				"E7",
+				"E8",
+				"E9",
+				"E10",
+				"E11"],
+			["",
+				"F2",
+				"F3",
+				"F4",
+				"F5",
+				"F6",
+				"F7",
+				"F8",
+				"F9",
+				"F10",
+				"F11"],
+			["",
+				"",
+				"G3",
+				"G4",
+				"G5",
+				"G6",
+				"G7",
+				"G8",
+				"G9",
+				"G10",
+				"G11"],
+			["",
+				"",
+				"",
+				"H4",
+				"H5",
+				"H6",
+				"H7",
+				"H8",
+				"H9",
+				"H10",
+				"H11"],
+			["",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"I10",
+				"I11"]],
 		"rooms": {
 			"E1": {
 				"roomId": "E1",
 				"name": "th03_raid_start",
 				"starting": true,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E2",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E2": {
 				"roomId": "E2",
 				"name": "thXX_raid",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E3",
-				"D2",
-				"F2"]
+					"D2",
+					"F2"]
 			},
 			"D2": {
 				"roomId": "D2",
 				"name": "thXX_raid",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D3",
-				null,
-				null]
+					null,
+					null]
 			},
 			"F2": {
 				"roomId": "F2",
 				"name": "thXX_raid",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					
-				},
-				"requirements": {
-					
-				},
+				"missions": {},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F3",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C3": {
 				"roomId": "C3",
@@ -229,48 +205,42 @@
 						"icon": "Portrait_HandTank_Stealth",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C4",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D3": {
 				"roomId": "D3",
@@ -284,48 +254,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D4",
-				"C3",
-				null]
+					"C3",
+					null]
 			},
 			"E3": {
 				"roomId": "E3",
@@ -339,48 +303,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E4",
-				"D3",
-				"F3"]
+					"D3",
+					"F3"]
 			},
 			"F3": {
 				"roomId": "F3",
@@ -394,48 +352,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F4",
-				null,
-				"G3"]
+					null,
+					"G3"]
 			},
 			"G3": {
 				"roomId": "G3",
@@ -449,48 +401,42 @@
 						"icon": "Portrait_SpiderMan",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G4",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B4": {
 				"roomId": "B4",
@@ -504,48 +450,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B5",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C4": {
 				"roomId": "C4",
@@ -559,48 +499,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C5",
-				"B4",
-				"D4"]
+					"B4",
+					"D4"]
 			},
 			"D4": {
 				"roomId": "D4",
@@ -614,48 +548,42 @@
 						"icon": "Portrait_Wolverine",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D5",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E4": {
 				"roomId": "E4",
@@ -669,48 +597,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E5",
-				"D4",
-				"F4"]
+					"D4",
+					"F4"]
 			},
 			"F4": {
 				"roomId": "F4",
@@ -724,48 +646,42 @@
 						"icon": "Portrait_Korath",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F5",
-				null,
-				null]
+					null,
+					null]
 			},
 			"G4": {
 				"roomId": "G4",
@@ -779,48 +695,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G5",
-				"F4",
-				"H4"]
+					"F4",
+					"H4"]
 			},
 			"H4": {
 				"roomId": "H4",
@@ -834,48 +744,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H5",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B5": {
 				"roomId": "B5",
@@ -889,48 +793,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C5": {
 				"roomId": "C5",
@@ -944,16 +842,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -967,25 +865,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D5": {
 				"roomId": "D5",
@@ -999,48 +893,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E5": {
 				"roomId": "E5",
@@ -1054,48 +942,42 @@
 						"icon": "Portrait_Gamora",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"F5": {
 				"roomId": "F5",
@@ -1109,16 +991,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -1132,25 +1014,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"G5": {
 				"roomId": "G5",
@@ -1164,48 +1042,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"H5": {
 				"roomId": "H5",
@@ -1219,16 +1091,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -1242,25 +1114,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H6",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B6": {
 				"roomId": "B6",
@@ -1274,16 +1142,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -1297,25 +1165,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C6": {
 				"roomId": "C6",
@@ -1329,48 +1193,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D6": {
 				"roomId": "D6",
@@ -1384,16 +1242,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -1407,25 +1265,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E6": {
 				"roomId": "E6",
@@ -1439,48 +1293,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"F6": {
 				"roomId": "F6",
@@ -1494,48 +1342,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"G6": {
 				"roomId": "G6",
@@ -1549,16 +1391,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -1572,25 +1414,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"H6": {
 				"roomId": "H6",
@@ -1604,48 +1442,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H7",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B7": {
 				"roomId": "B7",
@@ -1659,48 +1491,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B8",
-				null,
-				"C7"]
+					null,
+					"C7"]
 			},
 			"C7": {
 				"roomId": "C7",
@@ -1714,48 +1540,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C8",
-				null,
-				"D7"]
+					null,
+					"D7"]
 			},
 			"D7": {
 				"roomId": "D7",
@@ -1769,48 +1589,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D8",
-				null,
-				"E7"]
+					null,
+					"E7"]
 			},
 			"E7": {
 				"roomId": "E7",
@@ -1824,48 +1638,42 @@
 						"icon": "Portrait_LukeCage",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E8",
-				null,
-				null]
+					null,
+					null]
 			},
 			"F7": {
 				"roomId": "F7",
@@ -1879,48 +1687,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F8",
-				"E7",
-				null]
+					"E7",
+					null]
 			},
 			"G7": {
 				"roomId": "G7",
@@ -1934,48 +1736,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G8",
-				"F7",
-				null]
+					"F7",
+					null]
 			},
 			"H7": {
 				"roomId": "H7",
@@ -1989,48 +1785,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H8",
-				"G7",
-				null]
+					"G7",
+					null]
 			},
 			"B8": {
 				"roomId": "B8",
@@ -2044,48 +1834,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B9",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C8": {
 				"roomId": "C8",
@@ -2099,16 +1883,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -2122,25 +1906,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C9",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D8": {
 				"roomId": "D8",
@@ -2154,48 +1934,42 @@
 						"icon": "Portrait_CaptainAmerica",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D9",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E8": {
 				"roomId": "E8",
@@ -2209,48 +1983,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["",
-				"D8",
-				null]
+					"D8",
+					null]
 			},
 			"F8": {
 				"roomId": "F8",
@@ -2264,16 +2032,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -2287,25 +2055,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F9",
-				"E8",
-				null]
+					"E8",
+					null]
 			},
 			"G8": {
 				"roomId": "G8",
@@ -2319,48 +2083,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G9",
-				null,
-				null]
+					null,
+					null]
 			},
 			"H8": {
 				"roomId": "H8",
@@ -2374,16 +2132,16 @@
 						"icon": "raid_Icon_Hydra.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_VILLAIN_CHARS",
 							"shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
@@ -2397,25 +2155,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H9",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B9": {
 				"roomId": "B9",
@@ -2429,16 +2183,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -2452,25 +2206,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["B10",
-				null,
-				null]
+					null,
+					null]
 			},
 			"C9": {
 				"roomId": "C9",
@@ -2484,48 +2234,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C10",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D9": {
 				"roomId": "D9",
@@ -2539,16 +2283,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -2562,25 +2306,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D10",
-				null,
-				"E9"]
+					null,
+					"E9"]
 			},
 			"E9": {
 				"roomId": "E9",
@@ -2594,48 +2334,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"F9"]
+					null,
+					"F9"]
 			},
 			"F9": {
 				"roomId": "F9",
@@ -2649,48 +2383,42 @@
 						"icon": "Portrait_Nebula",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F10",
-				null,
-				null]
+					null,
+					null]
 			},
 			"G9": {
 				"roomId": "G9",
@@ -2704,16 +2432,16 @@
 						"icon": "raid_Icon_Shield.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "ID_UI_ONLY_HERO_CHARS",
 							"shortDescription": "ID_UI_ONLY_HERO_CHARS",
@@ -2727,25 +2455,21 @@
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G10",
-				null,
-				null]
+					null,
+					null]
 			},
 			"H9": {
 				"roomId": "H9",
@@ -2759,48 +2483,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["H10",
-				null,
-				null]
+					null,
+					null]
 			},
 			"A10": {
 				"roomId": "A10",
@@ -2814,48 +2532,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["A11",
-				null,
-				null]
+					null,
+					null]
 			},
 			"B10": {
 				"roomId": "B10",
@@ -2869,48 +2581,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"A10",
-				null]
+					"A10",
+					null]
 			},
 			"C10": {
 				"roomId": "C10",
@@ -2924,48 +2630,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["C11",
-				null,
-				null]
+					null,
+					null]
 			},
 			"D10": {
 				"roomId": "D10",
@@ -2979,48 +2679,42 @@
 						"icon": "Portrait_Vision",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["D11",
-				null,
-				null]
+					null,
+					null]
 			},
 			"E10": {
 				"roomId": "E10",
@@ -3034,48 +2728,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["E11",
-				"D10",
-				null]
+					"D10",
+					null]
 			},
 			"F10": {
 				"roomId": "F10",
@@ -3089,48 +2777,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["F11",
-				"E10",
-				null]
+					"E10",
+					null]
 			},
 			"G10": {
 				"roomId": "G10",
@@ -3144,48 +2826,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["G11",
-				null,
-				null]
+					null,
+					null]
 			},
 			"H10": {
 				"roomId": "H10",
@@ -3199,48 +2875,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"I10"]
+					null,
+					"I10"]
 			},
 			"I10": {
 				"roomId": "I10",
@@ -3254,48 +2924,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": ["I11",
-				null,
-				null]
+					null,
+					null]
 			},
 			"A11": {
 				"roomId": "A11",
@@ -3309,48 +2973,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"B11"]
+					null,
+					"B11"]
 			},
 			"B11": {
 				"roomId": "B11",
@@ -3364,48 +3022,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"C11"]
+					null,
+					"C11"]
 			},
 			"C11": {
 				"roomId": "C11",
@@ -3419,48 +3071,42 @@
 						"icon": "Portrait_BlackWidow",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"D11"]
+					null,
+					"D11"]
 			},
 			"D11": {
 				"roomId": "D11",
@@ -3474,48 +3120,42 @@
 						"icon": "Portrait_ScientistSupreme",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				null,
-				"E11"]
+					null,
+					"E11"]
 			},
 			"E11": {
 				"roomId": "E11",
@@ -3529,48 +3169,42 @@
 						"icon": "Portrait_Thanos",
 						"iconBgColor": null,
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_3_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_3_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"",
-				null]
+					"",
+					null]
 			},
 			"F11": {
 				"roomId": "F11",
@@ -3584,48 +3218,42 @@
 						"icon": "Portrait_Gamora",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"E11",
-				null]
+					"E11",
+					null]
 			},
 			"G11": {
 				"roomId": "G11",
@@ -3639,48 +3267,42 @@
 						"icon": "Portrait_Yondu",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops_2_temp",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops_2_temp",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"F11",
-				null]
+					"F11",
+					null]
 			},
 			"H11": {
 				"roomId": "H11",
@@ -3694,48 +3316,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"G11",
-				null]
+					"G11",
+					null]
 			},
 			"I11": {
 				"roomId": "I11",
@@ -3749,48 +3365,42 @@
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "",
 						"rewards": [{
-							"m_rewardID": "raid_thanos_high_battledrops",
-							"m_firstTimeOnly": false
-						}],
+								"m_rewardID": "raid_thanos_high_battledrops",
+								"m_firstTimeOnly": false
+							}
+						],
 						"cost": [{
-							"res": "ave_attack_energy",
-							"amount": 10
-						}],
-						"requirements": {
-							
-						},
+								"res": "ave_attack_energy",
+								"amount": 10
+							}
+						],
+						"requirements": {},
 						"filters": {
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {
-								
-							}
+							"filters": {}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {
-					
-				},
+				"requirements": {},
 				"filters": {
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {
-						
-					}
+					"filters": {}
 				},
 				"roomOffset": {
 					"x": 0,
 					"y": 0
 				},
 				"nextRooms": [null,
-				"H11",
-				null]
+					"H11",
+					null]
 			}
 		},
 		"startingRoomId": "E1"
