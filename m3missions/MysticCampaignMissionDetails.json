@@ -1,15 +1,18 @@
 {
 	"Name": "MysticCampaignMissionDetails",
-	"MissionDetails": [
+	"MissionDetails":
+	[
 		{
 			"ID": "mys_1_1",
 			"locNameKey": "ID_MISSION_MYS_1_1_NAME",
 			"locDescriptionName": "ID_MISSION_MYS_1_1_DESC",
 			"mapName": "Env_Forest_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_1_end",
 							"CantPersist": false,
@@ -17,7 +20,8 @@
 						}
 					],
 					"Power": 20110,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 20110,
@@ -25,11 +29,13 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -45,9 +51,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -73,7 +81,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -81,7 +90,8 @@
 						}
 					],
 					"Power": 55792,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HandControl_HealBlock",
 							"Power": 8164,
@@ -125,20 +135,24 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -157,7 +171,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -177,7 +192,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -197,7 +213,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -217,7 +234,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -237,7 +255,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -255,7 +274,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -289,11 +309,14 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_2_DESC",
 			"mapName": "HellsKitchen_Ember_merged",
 			"timeOfDay": "NIGHT",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
-							"storyTellingEvents": {
+							"storyTellingEvents":
+							{
 								"-1": "mys_1_2_info_3",
 								"-2": "mys_1_2_info_2",
 								"-3": "mys_1_2_info_1"
@@ -311,7 +334,8 @@
 						}
 					],
 					"Power": 2707,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrangeOperator",
 							"Power": 2707,
@@ -319,11 +343,13 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -339,9 +365,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -369,7 +397,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_2_fail",
 							"CantPersist": false,
@@ -377,7 +406,8 @@
 						}
 					],
 					"Power": 85335,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HandTank_Stealth",
 							"Power": 6391,
@@ -457,19 +487,23 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -489,7 +523,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -509,7 +544,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -529,7 +565,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -549,7 +586,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -569,7 +607,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -588,7 +627,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -616,9 +656,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -636,7 +678,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -654,7 +697,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -672,7 +716,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -690,7 +735,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -708,7 +754,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -734,15 +781,18 @@
 					]
 				}
 			],
-			"Extra": [
+			"Extra":
+			[
 				{
 					"Prefab": "IntObj_Portal_player_noframe_04S",
-					"Position": {
+					"Position":
+					{
 						"x": 0,
 						"y": 0,
 						"z": 9.25
 					},
-					"Rotation": {
+					"Rotation":
+					{
 						"x": 0,
 						"y": 125,
 						"z": 0
@@ -756,9 +806,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_3_DESC",
 			"mapName": "Env_Warehouse_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_3_end",
 							"CantPersist": false,
@@ -766,7 +818,8 @@
 						}
 					],
 					"Power": 25116,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 25116,
@@ -774,11 +827,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -795,9 +850,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -823,7 +880,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -831,7 +889,8 @@
 						}
 					],
 					"Power": 76079,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "BlackPanther",
 							"Power": 7737,
@@ -887,19 +946,23 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -919,7 +982,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -938,7 +1002,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -958,7 +1023,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -978,7 +1044,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -998,7 +1065,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1017,7 +1085,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1037,7 +1106,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1057,7 +1127,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1092,9 +1163,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_4_DESC",
 			"mapName": "Env_DestroyedCity_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_4_end",
 							"CantPersist": false,
@@ -1102,7 +1175,8 @@
 						}
 					],
 					"Power": 25116,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 25116,
@@ -1110,11 +1184,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -1130,9 +1206,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1158,7 +1236,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -1166,7 +1245,8 @@
 						}
 					],
 					"Power": 91680,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "RavagerTank_Taunt",
 							"Power": 6894,
@@ -1234,19 +1314,23 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1266,7 +1350,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1286,7 +1371,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1304,7 +1390,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1324,7 +1411,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1342,7 +1430,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1371,9 +1460,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 5,
 									"MinSlotReq": 8,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1391,7 +1482,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1409,7 +1501,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1427,7 +1520,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1445,7 +1539,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1477,9 +1572,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_5_DESC",
 			"mapName": "Env_DestroyedCity_merged",
 			"timeOfDay": "NIGHT",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_5_end",
 							"CantPersist": false,
@@ -1487,7 +1584,8 @@
 						}
 					],
 					"Power": 25116,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 25116,
@@ -1495,11 +1593,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -1515,9 +1615,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1543,9 +1645,11 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
-							"storyTellingEvents": {
+							"storyTellingEvents":
+							{
 								"-1": "mys_1_5_info_3",
 								"-2": "mys_1_5_info_2",
 								"-3": "mys_1_5_info_1"
@@ -1563,7 +1667,8 @@
 						}
 					],
 					"Power": 97757,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "RavagerDmg_AoE",
 							"Power": 8385,
@@ -1661,19 +1766,23 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1693,7 +1802,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1713,7 +1823,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1731,7 +1842,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1751,7 +1863,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1769,7 +1882,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1789,7 +1903,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1817,9 +1932,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 4,
 									"MinSlotReq": 6,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1837,7 +1954,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1855,7 +1973,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1882,9 +2001,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 6,
 									"MinSlotReq": 8,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1902,7 +2023,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												4,
 												4,
@@ -1920,7 +2042,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1938,7 +2061,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -1956,7 +2080,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -1974,7 +2099,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2002,15 +2128,18 @@
 					]
 				}
 			],
-			"Extra": [
+			"Extra":
+			[
 				{
 					"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
-					"Position": {
+					"Position":
+					{
 						"x": 2,
 						"y": 0,
 						"z": 6.6
 					},
-					"Rotation": {
+					"Rotation":
+					{
 						"x": 0,
 						"y": 120,
 						"z": 0
@@ -2024,9 +2153,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_6_DESC",
 			"mapName": "Env_Bunker_Storage_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_6_end",
 							"CantPersist": false,
@@ -2034,7 +2165,8 @@
 						}
 					],
 					"Power": 26551,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 26551,
@@ -2042,11 +2174,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -2062,9 +2196,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2090,7 +2226,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -2098,7 +2235,8 @@
 						}
 					],
 					"Power": 159927,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "MercTank_Taunt",
 							"Power": 1731,
@@ -2184,19 +2322,23 @@
 							"GearLevel": 8
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2216,7 +2358,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2236,7 +2379,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2256,7 +2400,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2275,7 +2420,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2294,7 +2440,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2325,9 +2472,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 4,
 									"MinSlotReq": 6,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2345,7 +2494,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2363,7 +2513,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2381,7 +2532,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2399,7 +2551,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2417,7 +2570,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2435,7 +2589,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2453,7 +2608,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2486,9 +2642,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_7_DESC",
 			"mapName": "Env_HellsKitchen_Docks_merged",
 			"timeOfDay": "NIGHT",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_7_end",
 							"CantPersist": false,
@@ -2496,7 +2654,8 @@
 						}
 					],
 					"Power": 26551,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 26551,
@@ -2504,11 +2663,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -2524,9 +2685,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2552,7 +2715,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -2560,7 +2724,8 @@
 						}
 					],
 					"Power": 132228,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HandControl_HealBlock",
 							"Power": 8881,
@@ -2634,19 +2799,23 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2666,7 +2835,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2686,7 +2856,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2705,7 +2876,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2725,7 +2897,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2744,7 +2917,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2772,9 +2946,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2792,7 +2968,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2810,7 +2987,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2828,7 +3006,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2846,7 +3025,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2864,7 +3044,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2897,9 +3078,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_8_DESC",
 			"mapName": "Env_Dojo_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_8_end",
 							"CantPersist": false,
@@ -2907,7 +3090,8 @@
 						}
 					],
 					"Power": 26551,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 26551,
@@ -2915,11 +3099,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -2935,9 +3121,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -2963,9 +3151,11 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
-							"storyTellingEvents": {
+							"storyTellingEvents":
+							{
 								"-1": "mys_1_8_info_3",
 								"-2": "mys_1_8_info_2",
 								"-3": "mys_1_8_info_1"
@@ -2983,7 +3173,8 @@
 						}
 					],
 					"Power": 96396,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HandControl_HealBlock",
 							"Power": 12769,
@@ -3027,20 +3218,24 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3059,7 +3254,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3077,7 +3273,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3095,7 +3292,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3114,7 +3312,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3132,7 +3331,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3151,7 +3351,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3178,15 +3379,18 @@
 					]
 				}
 			],
-			"Extra": [
+			"Extra":
+			[
 				{
 					"Prefab": "IntObj_Portal_enemy",
-					"Position": {
+					"Position":
+					{
 						"x": -0.7,
 						"y": 0,
 						"z": 7.3
 					},
-					"Rotation": {
+					"Rotation":
+					{
 						"x": 0,
 						"y": 125,
 						"z": 0
@@ -3200,9 +3404,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_1_9_DESC",
 			"mapName": "Env_Bunker_Storage_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_1_9_end",
 							"CantPersist": false,
@@ -3210,7 +3416,8 @@
 						}
 					],
 					"Power": 28351,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 28351,
@@ -3218,11 +3425,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -3238,9 +3447,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -3266,7 +3477,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -3274,7 +3486,8 @@
 						}
 					],
 					"Power": 165237,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HandControl_HealBlock",
 							"Power": 6261,
@@ -3372,19 +3585,23 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 7,
 									"MinSlotReq": 2,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3404,7 +3621,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3424,7 +3642,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3444,7 +3663,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3464,7 +3684,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3481,7 +3702,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3501,7 +3723,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												4,
@@ -3530,9 +3753,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 5,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3550,7 +3775,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3568,7 +3794,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3584,7 +3811,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3600,7 +3828,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3618,7 +3847,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3636,7 +3866,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3654,7 +3885,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3672,7 +3904,8 @@
 											"max_hp_percent": 50
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3704,9 +3937,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_1_DESC",
 			"mapName": "Env_Jungle_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_1_end",
 							"CantPersist": false,
@@ -3714,7 +3949,8 @@
 						}
 					],
 					"Power": 31816,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 26551,
@@ -3728,11 +3964,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -3748,9 +3986,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3768,7 +4008,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3795,7 +4036,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_1_fail",
 							"CantPersist": false,
@@ -3803,7 +4045,8 @@
 						}
 					],
 					"Power": 165529,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraTank_Taunt",
 							"Power": 14963,
@@ -3871,20 +4114,24 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3902,7 +4149,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3920,7 +4168,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3947,9 +4196,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3967,7 +4218,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -3985,7 +4237,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4012,9 +4265,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 5,
 									"MinSlotReq": 8,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4032,7 +4287,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4050,7 +4306,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4068,7 +4325,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4086,7 +4344,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4119,9 +4378,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_2_DESC",
 			"mapName": "Env_Jungle_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_2_end",
 							"CantPersist": false,
@@ -4129,7 +4390,8 @@
 						}
 					],
 					"Power": 37720,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 28351,
@@ -4143,11 +4405,13 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -4163,9 +4427,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -4183,7 +4449,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -4210,7 +4477,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_2_fail",
 							"CantPersist": false,
@@ -4218,7 +4486,8 @@
 						}
 					],
 					"Power": 177521,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "MercTank_Taunt",
 							"Power": 3162,
@@ -4292,20 +4561,24 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4323,7 +4596,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4341,7 +4615,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4359,7 +4634,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4377,7 +4653,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4386,7 +4663,8 @@
 												5
 											],
 											"procs_cnt": null,
-											"desired_starting_ability_energy": [
+											"desired_starting_ability_energy":
+											[
 												0,
 												0
 											],
@@ -4407,9 +4685,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4425,7 +4705,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4441,7 +4722,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4457,7 +4739,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4474,7 +4757,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4490,7 +4774,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4506,7 +4791,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4537,9 +4823,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_3_DESC",
 			"mapName": "Env_DestroyedCity_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_3_end",
 							"CantPersist": false,
@@ -4547,7 +4835,8 @@
 						}
 					],
 					"Power": 59955,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 36097,
@@ -4561,11 +4850,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -4581,9 +4872,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -4601,7 +4894,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -4627,7 +4921,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_3_fail",
 							"CantPersist": false,
@@ -4635,7 +4930,8 @@
 						}
 					],
 					"Power": 193670,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraDmg_Buff",
 							"Power": 16026,
@@ -4691,19 +4987,23 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 9,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4721,7 +5021,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -4739,7 +5040,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -4757,7 +5059,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												-1,
 												5,
@@ -4778,7 +5081,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4804,9 +5108,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 4,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4824,7 +5130,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4842,7 +5149,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4860,7 +5168,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -4893,9 +5202,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_4_DESC",
 			"mapName": "Env_Bunker_Storage_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_4_end",
 							"CantPersist": false,
@@ -4903,7 +5214,8 @@
 						}
 					],
 					"Power": 59716,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 36097,
@@ -4917,11 +5229,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -4937,9 +5251,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -4957,7 +5273,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -4982,9 +5299,11 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
-							"storyTellingEvents": {
+							"storyTellingEvents":
+							{
 								"-1": "mys_2_4_info_3",
 								"-2": "mys_2_4_info_2",
 								"-3": "mys_2_4_info_1"
@@ -5002,7 +5321,8 @@
 						}
 					],
 					"Power": 160275,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "AimTank_Taunt",
 							"Power": 16357,
@@ -5070,20 +5390,24 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5101,7 +5425,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5122,7 +5447,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5140,7 +5466,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5158,7 +5485,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -5186,9 +5514,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 6,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5206,7 +5536,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5224,7 +5555,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5242,7 +5574,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5263,7 +5596,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5284,7 +5618,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -5309,15 +5644,18 @@
 					]
 				}
 			],
-			"Extra": [
+			"Extra":
+			[
 				{
 					"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
-					"Position": {
+					"Position":
+					{
 						"x": 1.5,
 						"y": 0,
 						"z": 7
 					},
-					"Rotation": {
+					"Rotation":
+					{
 						"x": 0,
 						"y": 125,
 						"z": 0
@@ -5331,9 +5669,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_5_DESC",
 			"mapName": "Env_HellsKitchen_Docks_merged",
 			"timeOfDay": "NIGHT",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_5_end",
 							"CantPersist": false,
@@ -5341,7 +5681,8 @@
 						}
 					],
 					"Power": 41746,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "VIPMaleCOperator",
 							"Power": 7,
@@ -5373,11 +5714,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -5393,9 +5736,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5415,7 +5760,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5435,7 +5781,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5455,7 +5802,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5473,7 +5821,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5498,7 +5847,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_5_fail",
 							"CantPersist": false,
@@ -5506,7 +5856,8 @@
 						}
 					],
 					"Power": 188733,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraDmg_AoE",
 							"Power": 16322,
@@ -5574,19 +5925,23 @@
 							"GearLevel": 9
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5604,7 +5959,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5622,7 +5978,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5640,7 +5997,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5658,7 +6016,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												-1,
 												5,
@@ -5686,9 +6045,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5706,7 +6067,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5726,7 +6088,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5744,7 +6107,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5760,7 +6124,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5776,7 +6141,8 @@
 											"tier": 9
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -5807,9 +6173,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_6_DESC",
 			"mapName": "Env_Hydra_Lab_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_6_end",
 							"CantPersist": false,
@@ -5817,7 +6185,8 @@
 						}
 					],
 					"Power": 40487,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 20852,
@@ -5831,11 +6200,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -5851,9 +6222,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5870,7 +6243,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -5895,7 +6269,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -5903,7 +6278,8 @@
 						}
 					],
 					"Power": 327060,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraDmg_Buff",
 							"Power": 23037,
@@ -5983,19 +6359,23 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6013,7 +6393,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6031,7 +6412,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6049,7 +6431,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -6070,7 +6453,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6096,9 +6480,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 2,
 									"MinSlotReq": 6,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6116,7 +6502,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6134,7 +6521,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6152,7 +6540,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6178,9 +6567,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6197,7 +6588,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6214,7 +6606,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6231,7 +6624,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6263,9 +6657,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_7_DESC",
 			"mapName": "Env_Snow_Exterior_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_7_end",
 							"CantPersist": false,
@@ -6273,7 +6669,8 @@
 						}
 					],
 					"Power": 61437,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 36991,
@@ -6287,11 +6684,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -6307,9 +6706,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6327,7 +6728,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6352,9 +6754,11 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
-							"storyTellingEvents": {
+							"storyTellingEvents":
+							{
 								"-1": "mys_2_7_info_3",
 								"-2": "mys_2_7_info_2",
 								"-3": "mys_2_7_info_1"
@@ -6372,7 +6776,8 @@
 						}
 					],
 					"Power": 216934,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraTank_Taunt",
 							"Power": 23090,
@@ -6452,19 +6857,23 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6482,7 +6891,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6502,7 +6912,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6520,7 +6931,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6538,7 +6950,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6564,9 +6977,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6584,7 +6999,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6604,7 +7020,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -6631,9 +7048,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 6,
 									"MinSlotReq": 8,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6649,7 +7068,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6665,7 +7085,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6681,7 +7102,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6699,7 +7121,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6724,15 +7147,18 @@
 					]
 				}
 			],
-			"Extra": [
+			"Extra":
+			[
 				{
 					"Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
-					"Position": {
+					"Position":
+					{
 						"x": 1.5,
 						"y": 0,
 						"z": 7
 					},
-					"Rotation": {
+					"Rotation":
+					{
 						"x": 0,
 						"y": 125,
 						"z": 0
@@ -6746,9 +7172,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_8_DESC",
 			"mapName": "Env_Bunker_Storage_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_8_end",
 							"CantPersist": false,
@@ -6756,7 +7184,8 @@
 						}
 					],
 					"Power": 61525,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "ShieldDmg_Defense",
 							"Power": 44,
@@ -6782,11 +7211,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -6802,9 +7233,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -6824,7 +7257,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												5,
 												5,
 												5,
@@ -6844,7 +7278,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6862,7 +7297,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -6887,7 +7323,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_8_fail",
 							"CantPersist": false,
@@ -6895,7 +7332,8 @@
 						}
 					],
 					"Power": 287170,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraDmg_Buff",
 							"Power": 17625,
@@ -6975,19 +7413,23 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7005,7 +7447,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -7023,7 +7466,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7049,9 +7493,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 5,
 									"MinSlotReq": 9,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -7069,7 +7515,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7087,7 +7534,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7105,7 +7553,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7123,7 +7572,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -7150,9 +7600,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 8,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7168,7 +7620,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7184,7 +7637,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												5,
 												5,
@@ -7200,7 +7654,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -7217,7 +7672,8 @@
 											"max_hp_percent": 150
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												5,
@@ -7250,9 +7706,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_2_9_DESC",
 			"mapName": "Env_Hydra_Base_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_2_9_end",
 							"CantPersist": false,
@@ -7260,7 +7718,8 @@
 						}
 					],
 					"Power": 74890,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 45096,
@@ -7274,11 +7733,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -7294,9 +7755,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7314,7 +7777,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7339,7 +7803,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -7347,7 +7812,8 @@
 						}
 					],
 					"Power": 245602,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "HydraDmg_Buff",
 							"Power": 11698,
@@ -7409,20 +7875,24 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7441,7 +7911,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7460,7 +7931,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7479,7 +7951,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7498,7 +7971,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7517,7 +7991,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7536,7 +8011,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7555,7 +8031,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7573,7 +8050,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7593,7 +8071,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7626,9 +8105,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_1_DESC",
 			"mapName": "Env_AlienRuins_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_1_end",
 							"CantPersist": false,
@@ -7636,7 +8117,8 @@
 						}
 					],
 					"Power": 45096,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 45096,
@@ -7644,11 +8126,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -7664,9 +8148,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7692,7 +8178,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -7700,7 +8187,8 @@
 						}
 					],
 					"Power": 363933,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "KreeTank_Counter",
 							"Power": 24527,
@@ -7792,20 +8280,24 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7823,7 +8315,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7841,7 +8334,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7859,7 +8353,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7886,9 +8381,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7906,7 +8403,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7924,7 +8422,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7942,7 +8441,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7960,7 +8460,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -7987,9 +8488,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8007,7 +8510,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8025,7 +8529,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8043,7 +8548,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8061,7 +8567,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8079,7 +8586,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8111,9 +8619,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_2_DESC",
 			"mapName": "Env_Jungle_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_2_end",
 							"CantPersist": false,
@@ -8121,7 +8631,8 @@
 						}
 					],
 					"Power": 45096,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 45096,
@@ -8129,11 +8640,13 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -8149,9 +8662,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8178,7 +8693,8 @@
 				},
 				{
 					"Power": 215585,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "Drax",
 							"Power": 29744,
@@ -8234,19 +8750,23 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8264,7 +8784,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8283,7 +8804,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8302,7 +8824,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												-1,
 												6,
@@ -8321,7 +8844,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8350,9 +8874,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 2,
 									"MinSlotReq": 6,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8371,7 +8897,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												-1,
 												6,
@@ -8391,7 +8918,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												-1,
 												6,
@@ -8409,7 +8937,8 @@
 											"speed_percent": 97
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -8442,9 +8971,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_3_DESC",
 			"mapName": "Env_AIM_ChemLab_merged",
 			"timeOfDay": "DAY",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_3_end",
 							"CantPersist": false,
@@ -8452,7 +8983,8 @@
 						}
 					],
 					"Power": 55066,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 55066,
@@ -8460,11 +8992,13 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -8480,9 +9014,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -8509,7 +9045,8 @@
 				},
 				{
 					"Power": 521836,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "Hulk",
 							"Power": 34857,
@@ -8595,19 +9132,23 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8625,7 +9166,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8643,7 +9185,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8661,7 +9204,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8680,7 +9224,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8698,7 +9243,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -8728,9 +9274,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 4,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8746,7 +9294,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8762,7 +9311,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8778,7 +9328,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8794,7 +9345,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8810,7 +9362,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8826,7 +9379,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8842,7 +9396,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -8873,9 +9428,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_4_DESC",
 			"mapName": "Env_Dojo_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_4_end",
 							"CantPersist": false,
@@ -8883,7 +9440,8 @@
 						}
 					],
 					"Power": 55066,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 55066,
@@ -8891,11 +9449,13 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -8911,9 +9471,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -8939,7 +9501,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -8947,7 +9510,8 @@
 						}
 					],
 					"Power": 203138,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "Gamora",
 							"Power": 30300,
@@ -8991,19 +9555,23 @@
 							"GearLevel": 10
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9022,7 +9590,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9040,7 +9609,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9058,7 +9628,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9076,7 +9647,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9102,9 +9674,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 2,
 									"MinSlotReq": 6,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9120,7 +9694,8 @@
 											"tier": 10
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												6,
 												6,
 												6,
@@ -9150,9 +9725,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_5_DESC",
 			"mapName": "Env_Dojo_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_5_end",
 							"CantPersist": false,
@@ -9160,7 +9737,8 @@
 						}
 					],
 					"Power": 55066,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 55066,
@@ -9168,11 +9746,13 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -9188,9 +9768,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9216,7 +9798,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -9224,7 +9807,8 @@
 						}
 					],
 					"Power": 479741,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "KreeDmg_Speed",
 							"Power": 29206,
@@ -9316,19 +9900,23 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9346,7 +9934,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9364,7 +9953,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9382,7 +9972,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9400,7 +9991,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9426,9 +10018,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 8,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9446,7 +10040,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9464,7 +10059,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9481,7 +10077,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9499,7 +10096,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9526,9 +10124,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9546,7 +10146,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9564,7 +10165,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9582,7 +10184,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												6,
 												6,
@@ -9600,7 +10203,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9633,9 +10237,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_6_DESC",
 			"mapName": "Env_Dojo_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_6_end",
 							"CantPersist": false,
@@ -9643,7 +10249,8 @@
 						}
 					],
 					"Power": 66525,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 66525,
@@ -9651,11 +10258,13 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -9671,9 +10280,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -9699,7 +10310,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_6_fail",
 							"CantPersist": false,
@@ -9707,7 +10319,8 @@
 						}
 					],
 					"Power": 551185,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "Nobu",
 							"Power": 36640,
@@ -9793,19 +10406,23 @@
 							"GearLevel": 11
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9823,7 +10440,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9842,7 +10460,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9861,7 +10480,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9880,7 +10500,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -9902,7 +10523,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9928,9 +10550,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 4,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9949,7 +10573,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9967,7 +10592,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -9984,7 +10610,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10001,7 +10628,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10018,7 +10646,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10035,7 +10664,8 @@
 											"max_hp_percent": 80
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10051,7 +10681,8 @@
 											"tier": 11
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10083,9 +10714,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_7_DESC",
 			"mapName": "Env_AlienRuins_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_7_end",
 							"CantPersist": false,
@@ -10093,7 +10726,8 @@
 						}
 					],
 					"Power": 66525,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 66525,
@@ -10101,11 +10735,13 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -10121,9 +10757,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10149,7 +10787,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "",
 							"CantPersist": false,
@@ -10157,7 +10796,8 @@
 						}
 					],
 					"Power": 408337,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "KreeDmg_Speed",
 							"Power": 35224,
@@ -10225,19 +10865,23 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10255,7 +10899,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10273,7 +10918,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10291,7 +10937,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10309,7 +10956,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10336,9 +10984,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10356,7 +11006,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10374,7 +11025,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10392,7 +11044,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10408,7 +11061,8 @@
 											"tier": 11
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												6,
@@ -10424,7 +11078,8 @@
 											"tier": 11
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10455,9 +11110,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_8_DESC",
 			"mapName": "Env_AlienRuins_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_8_end",
 							"CantPersist": false,
@@ -10465,7 +11122,8 @@
 						}
 					],
 					"Power": 66525,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 66525,
@@ -10473,11 +11131,13 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -10493,9 +11153,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10521,7 +11183,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_8_fail",
 							"CantPersist": false,
@@ -10529,7 +11192,8 @@
 						}
 					],
 					"Power": 511306,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "LukeCage",
 							"Power": 102629,
@@ -10597,19 +11261,23 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10629,7 +11297,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10647,7 +11316,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10665,7 +11335,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10681,7 +11352,8 @@
 											"tier": 12
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10706,9 +11378,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 3,
 									"MinSlotReq": 7,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10723,7 +11397,8 @@
 											"tier": 12
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10741,7 +11416,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10759,7 +11435,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10777,7 +11454,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10795,7 +11473,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10826,9 +11505,11 @@
 			"locDescriptionName": "ID_MISSION_MYS_3_9_DESC",
 			"mapName": "Env_AlienRuins_merged",
 			"timeOfDay": "SUNSET",
-			"Settings": [
+			"Settings":
+			[
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_9_end",
 							"CantPersist": false,
@@ -10836,7 +11517,8 @@
 						}
 					],
 					"Power": 66525,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "DoctorStrange",
 							"Power": 66525,
@@ -10844,11 +11526,13 @@
 							"GearLevel": 12
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"InitialTurnFill": 1000,
@@ -10865,9 +11549,11 @@
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10893,7 +11579,8 @@
 					]
 				},
 				{
-					"Objectives": [
+					"Objectives":
+					[
 						{
 							"ObjectiveEndStory": "mys_3_9_fail",
 							"CantPersist": false,
@@ -10901,7 +11588,8 @@
 						}
 					],
 					"Power": 1385945,
-					"CompactWave": [
+					"CompactWave":
+					[
 						{
 							"HeroId": "Thor",
 							"Power": 1301040,
@@ -10921,20 +11609,24 @@
 							"GearLevel": 13
 						}
 					],
-					"WaveLists": [
+					"WaveLists":
+					[
 						{
 							"Description": null,
 							"Expanded": true,
-							"Waves": [
+							"Waves":
+							[
 								{
 									"Expanded": true,
 									"NextWaveIf": "AfterAllDead",
 									"TurnSpeed": 1000,
 									"MaxSlotFill": 10,
 									"MinSlotReq": 0,
-									"Entries": [
+									"Entries":
+									[
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10957,7 +11649,8 @@
 											"desired_y_pos": 0
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,
@@ -10975,7 +11668,8 @@
 											"desired_y_pos": 1
 										},
 										{
-											"abilities": [
+											"abilities":
+											[
 												7,
 												7,
 												7,

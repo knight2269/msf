@@ -1,11 +1,13 @@
 {
 	"Name": "raid_lvl_25",
-	"RaidDetails": {
+	"RaidDetails":
+	{
 		"raidId": "raid_lvl_25",
 		"rows": 5,
 		"columns": 8,
 		"isOperation": false,
-		"map": [
+		"map":
+		[
 			[
 				"",
 				"A2",
@@ -57,1070 +59,1417 @@
 				""
 			]
 		],
-		"rooms": {
-			"C1": {
+		"rooms":
+		{
+			"C1":
+			{
 				"roomId": "C1",
 				"name": "",
 				"starting": true,
 				"objective": false,
-				"missions": {},
-				"requirements": {},
-				"filters": {
+				"missions":
+				{
+				},
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C2",
 					"",
 					""
 				]
 			},
-			"C2": {
+			"C2":
+			{
 				"roomId": "C2",
 				"name": "",
 				"starting": false,
 				"objective": false,
-				"missions": {},
-				"requirements": {},
-				"filters": {
+				"missions":
+				{
+				},
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C3",
 					"B2",
 					"D2"
 				]
 			},
-			"B2": {
+			"B2":
+			{
 				"roomId": "B2",
 				"name": null,
 				"starting": false,
 				"objective": false,
-				"missions": {},
-				"requirements": {},
-				"filters": {
+				"missions":
+				{
+				},
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"",
 					"A2",
 					null
 				]
 			},
-			"D2": {
+			"D2":
+			{
 				"roomId": "D2",
 				"name": null,
 				"starting": false,
 				"objective": false,
-				"missions": {},
-				"requirements": {},
-				"filters": {
+				"missions":
+				{
+				},
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"",
 					null,
 					"E2"
 				]
 			},
-			"A2": {
+			"A2":
+			{
 				"roomId": "A2",
 				"name": "Merc 20",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv20_mercs1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"A3",
 					null,
 					null
 				]
 			},
-			"E2": {
+			"E2":
+			{
 				"roomId": "E2",
 				"name": "Shield 20",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv20_global",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"E3",
 					null,
 					null
 				]
 			},
-			"C3": {
+			"C3":
+			{
 				"roomId": "C3",
 				"name": "Hydra 20",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv20_hydra1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C4",
 					"",
 					""
 				]
 			},
-			"C4": {
+			"C4":
+			{
 				"roomId": "C4",
 				"name": "Hydra 21",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv21_hydra1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C5",
 					"",
 					""
 				]
 			},
-			"C5": {
+			"C5":
+			{
 				"roomId": "C5",
 				"name": "Hydra 22",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv22_hydra1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C6",
 					"",
 					""
 				]
 			},
-			"C6": {
+			"C6":
+			{
 				"roomId": "C6",
 				"name": "Hydra  23",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv23_hydra1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C7",
 					"",
 					""
 				]
 			},
-			"C7": {
+			"C7":
+			{
 				"roomId": "C7",
 				"name": "Hydra 24",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv24_hydra1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"C8",
 					"",
 					""
 				]
 			},
-			"C8": {
+			"C8":
+			{
 				"roomId": "C8",
 				"name": "Red Skull 25",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv25_RedSkull",
 						"icon": "Portrait_RedSkull",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"",
 					"",
 					null
 				]
 			},
-			"A3": {
+			"A3":
+			{
 				"roomId": "A3",
 				"name": "Merc 21",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv21_mercs1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"A4",
 					"",
 					null
 				]
 			},
-			"E3": {
+			"E3":
+			{
 				"roomId": "E3",
 				"name": "Shield  21",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv21_global",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"E4",
 					"",
 					null
 				]
 			},
-			"A4": {
+			"A4":
+			{
 				"roomId": "A4",
 				"name": "Merc 22",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv22_mercs1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"A5",
 					"",
 					null
 				]
 			},
-			"A5": {
+			"A5":
+			{
 				"roomId": "A5",
 				"name": "Mercs 23",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv23_mercs1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"A6",
 					"",
 					null
 				]
 			},
-			"A6": {
+			"A6":
+			{
 				"roomId": "A6",
 				"name": "Merc 24",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv24_mercs1",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"A7",
 					"",
 					null
 				]
 			},
-			"A7": {
+			"A7":
+			{
 				"roomId": "A7",
 				"name": "Hydra 26",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv26_global",
 						"icon": "Portrait_WinterSoldier",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"",
 					"",
 					null
 				]
 			},
-			"E4": {
+			"E4":
+			{
 				"roomId": "E4",
 				"name": "Shield 22",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv22_global",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"E5",
 					"",
 					null
 				]
 			},
-			"E5": {
+			"E5":
+			{
 				"roomId": "E5",
 				"name": "Shield 23",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv23_global",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"E6",
 					"",
 					null
 				]
 			},
-			"E6": {
+			"E6":
+			{
 				"roomId": "E6",
 				"name": "Shield 24",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv24_global",
 						"icon": "raid_Icon_Ultimus.png",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": false
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"E7",
 					"",
 					null
 				]
 			},
-			"E7": {
+			"E7":
+			{
 				"roomId": "E7",
 				"name": "Shield 26",
 				"starting": false,
 				"objective": false,
-				"missions": {
-					"1": {
+				"missions":
+				{
+					"1":
+					{
 						"missionIndex": "1",
 						"ID": "raid_lv26_shield",
 						"icon": "Portrait_NickFury",
 						"iconBgColor": null,
-						"rewards": [
+						"rewards":
+						[
 							{
 								"m_rewardID": "raid_battledrops_lvl25_1",
 								"m_firstTimeOnly": false,
 								"m_alternateOnly": false
 							}
 						],
-						"cost": [
+						"cost":
+						[
 							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
 						],
-						"requirements": {},
-						"filters": {
+						"requirements":
+						{
+						},
+						"filters":
+						{
 							"description": "",
 							"shortDescription": "",
 							"longDescription": "",
 							"quantity": 0,
-							"filters": {}
+							"filters":
+							{
+							}
 						},
 						"characterLimit": 5,
 						"isBoss": true
 					}
 				},
-				"requirements": {},
-				"filters": {
+				"requirements":
+				{
+				},
+				"filters":
+				{
 					"description": "",
 					"shortDescription": "",
 					"longDescription": "",
 					"quantity": 0,
-					"filters": {}
+					"filters":
+					{
+					}
 				},
-				"roomOffset": {
+				"roomOffset":
+				{
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [
+				"nextRooms":
+				[
 					"",
 					"",
 					null

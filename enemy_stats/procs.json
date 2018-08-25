@@ -1,8 +1,11 @@
 {
-	"Data": {
-		"Slow": {
+	"Data":
+	{
+		"Slow":
+		{
 			"category": "debuff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "speed_pct",
 					"delta": -50
@@ -11,38 +14,45 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "SpeedUp"
 		},
-		"AssistNow": {
+		"AssistNow":
+		{
 			"category": "none",
 			"expiration_type": "end_of_any_turn",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "assist_attack_pct",
 					"delta": 100
 				}
 			]
 		},
-		"Counter": {
+		"Counter":
+		{
 			"category": "buff",
 			"on_use": true,
 			"opposite": "DoT",
 			"expiration_type": "on_counter",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "counter_pct",
 					"delta": 100
 				}
 			]
 		},
-		"HealBlock": {
+		"HealBlock":
+		{
 			"category": "debuff",
 			"state": "heal_block",
 			"type": "state",
 			"expiration_type": "end_of_turn",
 			"opposite": "Deathproof"
 		},
-		"SpeedUp": {
+		"SpeedUp":
+		{
 			"category": "buff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "speed_pct",
 					"delta": 50
@@ -51,26 +61,30 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "Slow"
 		},
-		"Evade": {
+		"Evade":
+		{
 			"category": "buff",
 			"on_use": true,
 			"opposite": "DoT",
 			"expiration_type": "on_evade",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "dodge_chance_pct",
 					"delta": 100
 				}
 			]
 		},
-		"Stealth": {
+		"Stealth":
+		{
 			"category": "buff",
 			"state": "stealthed",
 			"type": "state",
 			"expiration_type": "end_of_turn",
 			"opposite": "DoT"
 		},
-		"Deathproof": {
+		"Deathproof":
+		{
 			"category": "buff",
 			"on_use": true,
 			"opposite": "DoT",
@@ -78,21 +92,25 @@
 			"type": "state",
 			"expiration_type": "on_death_proof"
 		},
-		"Stun": {
+		"Stun":
+		{
 			"category": "debuff",
 			"state": "stunned",
 			"type": "state",
 			"expiration_type": "end_of_turn",
 			"opposite": "Counter"
 		},
-		"SummonedMinion": {
+		"SummonedMinion":
+		{
 			"category": "none",
 			"remove_on_death": false,
 			"expiration_type": "on_never_expire",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "max_hp_pct",
-					"delta": [
+					"delta":
+					[
 						-90,
 						-90,
 						-90,
@@ -108,16 +126,19 @@
 				}
 			]
 		},
-		"Charged": {
+		"Charged":
+		{
 			"category": "none",
 			"state": "charged",
 			"type": "state",
 			"expiration_type": "on_never_expire",
 			"persist": true
 		},
-		"DefenseUp": {
+		"DefenseUp":
+		{
 			"category": "buff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "damage_reduction_pct",
 					"delta": 50
@@ -130,9 +151,11 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "DefenseDown"
 		},
-		"DefenseDown": {
+		"DefenseDown":
+		{
 			"category": "debuff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "damage_reduction_pct",
 					"delta": -50
@@ -145,26 +168,30 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "DefenseUp"
 		},
-		"Taunt": {
+		"Taunt":
+		{
 			"category": "buff",
 			"state": "taunting",
 			"type": "state",
 			"expiration_type": "start_of_turn",
 			"opposite": "DoT"
 		},
-		"AbilityBlock": {
+		"AbilityBlock":
+		{
 			"category": "debuff",
 			"state": "ability_block",
 			"type": "state",
 			"expiration_type": "end_of_turn",
 			"opposite": "Evade"
 		},
-		"Deflect": {
+		"Deflect":
+		{
 			"category": "buff",
 			"on_use": true,
 			"opposite": "DoT",
 			"expiration_type": "on_block",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "block_chance_pct",
 					"delta": 100
@@ -175,7 +202,8 @@
 				}
 			]
 		},
-		"HoT": {
+		"HoT":
+		{
 			"category": "buff",
 			"opposite": "DoT",
 			"stacking": true,
@@ -183,9 +211,11 @@
 			"type": "hot",
 			"expiration_type": "start_of_turn"
 		},
-		"OffenseUp": {
+		"OffenseUp":
+		{
 			"category": "buff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "damage_pct",
 					"delta": 50
@@ -198,9 +228,11 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "OffenseDown"
 		},
-		"AccuracyDown": {
+		"AccuracyDown":
+		{
 			"category": "debuff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "accuracy_pct",
 					"delta": -100
@@ -209,9 +241,11 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "Stealth"
 		},
-		"OffenseDown": {
+		"OffenseDown":
+		{
 			"category": "debuff",
-			"stat_modifier": [
+			"stat_modifier":
+			[
 				{
 					"stat": "damage_pct",
 					"delta": -50
@@ -224,9 +258,11 @@
 			"expiration_type": "end_of_turn",
 			"opposite": "OffenseUp"
 		},
-		"DoT": {
+		"DoT":
+		{
 			"category": "debuff",
-			"dot_damage_pct": [
+			"dot_damage_pct":
+			[
 				45,
 				65,
 				80,

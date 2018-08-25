@@ -1,8 +1,14 @@
 {
-	"HEALTH": {
-		"SkillHealth": {
-			"traits": [ "Skill" ],
-			"level": [
+	"HEALTH":
+	{
+		"SkillHealth":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 50,
@@ -29,9 +35,14 @@
 				}
 			]
 		},
-		"BioHealthMult": {
-			"traits": [ "Bio" ],
-			"level": [
+		"BioHealthMult":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 10,
 					"additiveBoost": 0,
@@ -58,9 +69,14 @@
 				}
 			]
 		},
-		"TechHealth": {
-			"traits": [ "Tech" ],
-			"level": [
+		"TechHealth":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 50,
@@ -87,9 +103,14 @@
 				}
 			]
 		},
-		"MysticHealth": {
-			"traits": [ "Mystic" ],
-			"level": [
+		"MysticHealth":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 50,
@@ -117,10 +138,16 @@
 			]
 		}
 	},
-	"DAMAGE": {
-		"SkillDamage": {
-			"traits": [ "Skill" ],
-			"level": [
+	"DAMAGE":
+	{
+		"SkillDamage":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -163,9 +190,14 @@
 				}
 			]
 		},
-		"BioDamage": {
-			"traits": [ "Bio" ],
-			"level": [
+		"BioDamage":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -208,9 +240,14 @@
 				}
 			]
 		},
-		"TechDamage": {
-			"traits": [ "Tech" ],
-			"level": [
+		"TechDamage":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -253,191 +290,14 @@
 				}
 			]
 		},
-		"MysticDamage": {
-			"traits": [ "Mystic" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 7
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 8
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 9
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 10
-				}
-			]
-		}
-	},
-	"ARMOR": {
-		"SkillArmor": {
-			"traits": [ "Skill" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 2
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 3
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 4
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 5
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				}
-			]
-		},
-		"BioArmor": {
-			"traits": [ "Bio" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 7
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 8
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 9
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 10
-				}
-			]
-		},
-		"TechArmor": {
-			"traits": [ "Tech" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 2
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 3
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 4
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 5
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				}
-			]
-		},
-		"MysticArmor": {
-			"traits": [ "Mystic" ],
-			"level": [
+		"MysticDamage":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -481,10 +341,16 @@
 			]
 		}
 	},
-	"FOCUS": {
-		"SkillFocus": {
-			"traits": [ "Skill" ],
-			"level": [
+	"ARMOR":
+	{
+		"SkillArmor":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -527,9 +393,14 @@
 				}
 			]
 		},
-		"BioFocus": {
-			"traits": [ "Bio" ],
-			"level": [
+		"BioArmor":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -572,9 +443,14 @@
 				}
 			]
 		},
-		"TechFocus": {
-			"traits": [ "Tech" ],
-			"level": [
+		"TechArmor":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -617,191 +493,14 @@
 				}
 			]
 		},
-		"MysticFocus": {
-			"traits": [ "Mystic" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 7
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 8
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 9
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 10
-				}
-			]
-		}
-	},
-	"RESISTANCE": {
-		"SkillResistance": {
-			"traits": [ "Skill" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 2
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 3
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 4
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 5
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				}
-			]
-		},
-		"BioResistance": {
-			"traits": [ "Bio" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 7
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 8
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 9
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 10
-				}
-			]
-		},
-		"TechResistance": {
-			"traits": [ "Tech" ],
-			"level": [
-				{
-					"percentBoost": 0,
-					"additiveBoost": 5,
-					"costType": "ac",
-					"costAmount": 5,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 2
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 10,
-					"costType": "ac",
-					"costAmount": 10,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 3
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 15,
-					"costType": "ac",
-					"costAmount": 15,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 4
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 20,
-					"costType": "ac",
-					"costAmount": 20,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 5
-				},
-				{
-					"percentBoost": 0,
-					"additiveBoost": 25,
-					"costType": "ac",
-					"costAmount": 25,
-					"unlockRoom": "Bridge",
-					"unlockRoomLevel": 6
-				}
-			]
-		},
-		"MysticResistance": {
-			"traits": [ "Mystic" ],
-			"level": [
+		"MysticArmor":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -845,10 +544,16 @@
 			]
 		}
 	},
-	"SPEED": {
-		"SkillSpeed": {
-			"traits": [ "Skill" ],
-			"level": [
+	"FOCUS":
+	{
+		"SkillFocus":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -891,9 +596,14 @@
 				}
 			]
 		},
-		"BioSpeed": {
-			"traits": [ "Bio" ],
-			"level": [
+		"BioFocus":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -936,9 +646,14 @@
 				}
 			]
 		},
-		"TechSpeed": {
-			"traits": [ "Tech" ],
-			"level": [
+		"TechFocus":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -981,9 +696,14 @@
 				}
 			]
 		},
-		"MysticSpeed": {
-			"traits": [ "Mystic" ],
-			"level": [
+		"MysticFocus":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -1027,10 +747,16 @@
 			]
 		}
 	},
-	"ACCURACY": {
-		"SkillAccuracy": {
-			"traits": [ "Skill" ],
-			"level": [
+	"RESISTANCE":
+	{
+		"SkillResistance":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -1073,9 +799,14 @@
 				}
 			]
 		},
-		"BioAccuracy": {
-			"traits": [ "Bio" ],
-			"level": [
+		"BioResistance":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -1118,9 +849,14 @@
 				}
 			]
 		},
-		"TechAccuracy": {
-			"traits": [ "Tech" ],
-			"level": [
+		"TechResistance":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
@@ -1163,9 +899,420 @@
 				}
 			]
 		},
-		"MysticAccuracy": {
-			"traits": [ "Mystic" ],
-			"level": [
+		"MysticResistance":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 7
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 8
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 9
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 10
+				}
+			]
+		}
+	},
+	"SPEED":
+	{
+		"SkillSpeed":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 2
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 3
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 4
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 5
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				}
+			]
+		},
+		"BioSpeed":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 7
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 8
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 9
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 10
+				}
+			]
+		},
+		"TechSpeed":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 2
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 3
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 4
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 5
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				}
+			]
+		},
+		"MysticSpeed":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 7
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 8
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 9
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 10
+				}
+			]
+		}
+	},
+	"ACCURACY":
+	{
+		"SkillAccuracy":
+		{
+			"traits":
+			[
+				"Skill"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 2
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 3
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 4
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 5
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				}
+			]
+		},
+		"BioAccuracy":
+		{
+			"traits":
+			[
+				"Bio"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 7
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 8
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 9
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 10
+				}
+			]
+		},
+		"TechAccuracy":
+		{
+			"traits":
+			[
+				"Tech"
+			],
+			"level":
+			[
+				{
+					"percentBoost": 0,
+					"additiveBoost": 5,
+					"costType": "ac",
+					"costAmount": 5,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 2
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 10,
+					"costType": "ac",
+					"costAmount": 10,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 3
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 15,
+					"costType": "ac",
+					"costAmount": 15,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 4
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 20,
+					"costType": "ac",
+					"costAmount": 20,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 5
+				},
+				{
+					"percentBoost": 0,
+					"additiveBoost": 25,
+					"costType": "ac",
+					"costAmount": 25,
+					"unlockRoom": "Bridge",
+					"unlockRoomLevel": 6
+				}
+			]
+		},
+		"MysticAccuracy":
+		{
+			"traits":
+			[
+				"Mystic"
+			],
+			"level":
+			[
 				{
 					"percentBoost": 0,
 					"additiveBoost": 5,
