@@ -5,7 +5,9 @@
 		"rows": 9,
 		"columns": 11,
 		"isOperation": false,
-		"map": [["",
+		"map": [
+			[
+				"",
 				"",
 				"",
 				"",
@@ -15,8 +17,10 @@
 				"",
 				"",
 				"A10",
-				"A11"],
-			["",
+				"A11"
+			],
+			[
+				"",
 				"",
 				"",
 				"B4",
@@ -26,8 +30,10 @@
 				"B8",
 				"B9",
 				"B10",
-				"B11"],
-			["",
+				"B11"
+			],
+			[
+				"",
 				"",
 				"C3",
 				"C4",
@@ -37,8 +43,10 @@
 				"C8",
 				"C9",
 				"C10",
-				"C11"],
-			["",
+				"C11"
+			],
+			[
+				"",
 				"D2",
 				"D3",
 				"D4",
@@ -48,8 +56,10 @@
 				"D8",
 				"D9",
 				"D10",
-				"D11"],
-			["E1",
+				"D11"
+			],
+			[
+				"E1",
 				"E2",
 				"E3",
 				"E4",
@@ -59,8 +69,10 @@
 				"E8",
 				"E9",
 				"E10",
-				"E11"],
-			["",
+				"E11"
+			],
+			[
+				"",
 				"F2",
 				"F3",
 				"F4",
@@ -70,8 +82,10 @@
 				"F8",
 				"F9",
 				"F10",
-				"F11"],
-			["",
+				"F11"
+			],
+			[
+				"",
 				"",
 				"G3",
 				"G4",
@@ -81,8 +95,10 @@
 				"G8",
 				"G9",
 				"G10",
-				"G11"],
-			["",
+				"G11"
+			],
+			[
+				"",
 				"",
 				"",
 				"H4",
@@ -92,8 +108,10 @@
 				"H8",
 				"H9",
 				"H10",
-				"H11"],
-			["",
+				"H11"
+			],
+			[
+				"",
 				"",
 				"",
 				"",
@@ -103,7 +121,9 @@
 				"",
 				"",
 				"I10",
-				"I11"]],
+				"I11"
+			]
+		],
 		"rooms": {
 			"E1": {
 				"roomId": "E1",
@@ -123,9 +143,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E2",
+				"nextRooms": [
+					"E2",
 					null,
-					null]
+					null
+				]
 			},
 			"E2": {
 				"roomId": "E2",
@@ -145,9 +167,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E3",
+				"nextRooms": [
+					"E3",
 					"D2",
-					"F2"]
+					"F2"
+				]
 			},
 			"D2": {
 				"roomId": "D2",
@@ -167,9 +191,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D3",
+				"nextRooms": [
+					"D3",
 					null,
-					null]
+					null
+				]
 			},
 			"F2": {
 				"roomId": "F2",
@@ -189,9 +215,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F3",
+				"nextRooms": [
+					"F3",
 					null,
-					null]
+					null
+				]
 			},
 			"C3": {
 				"roomId": "C3",
@@ -204,12 +232,14 @@
 						"ID": "evr_bunny03_01_mb",
 						"icon": "Portrait_HandTank_Stealth",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -238,9 +268,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C4",
+				"nextRooms": [
+					"C4",
 					null,
-					null]
+					null
+				]
 			},
 			"D3": {
 				"roomId": "D3",
@@ -253,12 +285,14 @@
 						"ID": "evr_bunny03_02",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -287,9 +321,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D4",
+				"nextRooms": [
+					"D4",
 					"C3",
-					null]
+					null
+				]
 			},
 			"E3": {
 				"roomId": "E3",
@@ -302,12 +338,14 @@
 						"ID": "evr_bunny03_03",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -336,9 +374,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E4",
+				"nextRooms": [
+					"E4",
 					"D3",
-					"F3"]
+					"F3"
+				]
 			},
 			"F3": {
 				"roomId": "F3",
@@ -351,12 +391,14 @@
 						"ID": "evr_bunny03_04",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -385,9 +427,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F4",
+				"nextRooms": [
+					"F4",
 					null,
-					"G3"]
+					"G3"
+				]
 			},
 			"G3": {
 				"roomId": "G3",
@@ -400,12 +444,14 @@
 						"ID": "evr_bunny03_05_mb",
 						"icon": "Portrait_SpiderMan",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -434,9 +480,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G4",
+				"nextRooms": [
+					"G4",
 					null,
-					null]
+					null
+				]
 			},
 			"B4": {
 				"roomId": "B4",
@@ -449,12 +497,14 @@
 						"ID": "evr_bunny03_06",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -483,9 +533,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B5",
+				"nextRooms": [
+					"B5",
 					null,
-					null]
+					null
+				]
 			},
 			"C4": {
 				"roomId": "C4",
@@ -498,12 +550,14 @@
 						"ID": "evr_bunny03_07",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -532,9 +586,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C5",
+				"nextRooms": [
+					"C5",
 					"B4",
-					"D4"]
+					"D4"
+				]
 			},
 			"D4": {
 				"roomId": "D4",
@@ -547,12 +603,14 @@
 						"ID": "evr_bunny03_08_mb",
 						"icon": "Portrait_Wolverine",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -581,9 +639,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D5",
+				"nextRooms": [
+					"D5",
 					null,
-					null]
+					null
+				]
 			},
 			"E4": {
 				"roomId": "E4",
@@ -596,12 +656,14 @@
 						"ID": "evr_bunny03_09",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -630,9 +692,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E5",
+				"nextRooms": [
+					"E5",
 					"D4",
-					"F4"]
+					"F4"
+				]
 			},
 			"F4": {
 				"roomId": "F4",
@@ -645,12 +709,14 @@
 						"ID": "evr_bunny03_10_mb",
 						"icon": "Portrait_Korath",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -679,9 +745,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F5",
+				"nextRooms": [
+					"F5",
 					null,
-					null]
+					null
+				]
 			},
 			"G4": {
 				"roomId": "G4",
@@ -694,12 +762,14 @@
 						"ID": "evr_bunny03_07",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -728,9 +798,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G5",
+				"nextRooms": [
+					"G5",
 					"F4",
-					"H4"]
+					"H4"
+				]
 			},
 			"H4": {
 				"roomId": "H4",
@@ -743,12 +815,14 @@
 						"ID": "evr_bunny03_06",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -777,9 +851,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H5",
+				"nextRooms": [
+					"H5",
 					null,
-					null]
+					null
+				]
 			},
 			"B5": {
 				"roomId": "B5",
@@ -792,12 +868,14 @@
 						"ID": "evr_bunny03_13",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -826,9 +904,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B6",
+				"nextRooms": [
+					"B6",
 					null,
-					null]
+					null
+				]
 			},
 			"C5": {
 				"roomId": "C5",
@@ -841,12 +921,14 @@
 						"ID": "evr_bunny03_14",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -875,9 +957,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C6",
+				"nextRooms": [
+					"C6",
 					null,
-					null]
+					null
+				]
 			},
 			"D5": {
 				"roomId": "D5",
@@ -890,12 +974,14 @@
 						"ID": "evr_bunny03_15",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -924,9 +1010,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D6",
+				"nextRooms": [
+					"D6",
 					null,
-					null]
+					null
+				]
 			},
 			"E5": {
 				"roomId": "E5",
@@ -939,12 +1027,14 @@
 						"ID": "evr_bunny03_16_mb",
 						"icon": "Portrait_Gamora",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -973,9 +1063,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E6",
+				"nextRooms": [
+					"E6",
 					null,
-					null]
+					null
+				]
 			},
 			"F5": {
 				"roomId": "F5",
@@ -988,12 +1080,14 @@
 						"ID": "evr_bunny03_15",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1022,9 +1116,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F6",
+				"nextRooms": [
+					"F6",
 					null,
-					null]
+					null
+				]
 			},
 			"G5": {
 				"roomId": "G5",
@@ -1037,12 +1133,14 @@
 						"ID": "evr_bunny03_14",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1071,9 +1169,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G6",
+				"nextRooms": [
+					"G6",
 					null,
-					null]
+					null
+				]
 			},
 			"H5": {
 				"roomId": "H5",
@@ -1086,12 +1186,14 @@
 						"ID": "evr_bunny03_13",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1120,9 +1222,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H6",
+				"nextRooms": [
+					"H6",
 					null,
-					null]
+					null
+				]
 			},
 			"B6": {
 				"roomId": "B6",
@@ -1135,12 +1239,14 @@
 						"ID": "evr_bunny03_20",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1169,9 +1275,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B7",
+				"nextRooms": [
+					"B7",
 					null,
-					null]
+					null
+				]
 			},
 			"C6": {
 				"roomId": "C6",
@@ -1184,12 +1292,14 @@
 						"ID": "evr_bunny03_21",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1218,9 +1328,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C7",
+				"nextRooms": [
+					"C7",
 					null,
-					null]
+					null
+				]
 			},
 			"D6": {
 				"roomId": "D6",
@@ -1233,12 +1345,14 @@
 						"ID": "evr_bunny03_22",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1267,9 +1381,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D7",
+				"nextRooms": [
+					"D7",
 					null,
-					null]
+					null
+				]
 			},
 			"E6": {
 				"roomId": "E6",
@@ -1282,12 +1398,14 @@
 						"ID": "evr_bunny03_23",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1316,9 +1434,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E7",
+				"nextRooms": [
+					"E7",
 					null,
-					null]
+					null
+				]
 			},
 			"F6": {
 				"roomId": "F6",
@@ -1331,12 +1451,14 @@
 						"ID": "evr_bunny03_22",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1365,9 +1487,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F7",
+				"nextRooms": [
+					"F7",
 					null,
-					null]
+					null
+				]
 			},
 			"G6": {
 				"roomId": "G6",
@@ -1380,12 +1504,14 @@
 						"ID": "evr_bunny03_21",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1414,9 +1540,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G7",
+				"nextRooms": [
+					"G7",
 					null,
-					null]
+					null
+				]
 			},
 			"H6": {
 				"roomId": "H6",
@@ -1429,12 +1557,14 @@
 						"ID": "evr_bunny03_20",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1463,9 +1593,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H7",
+				"nextRooms": [
+					"H7",
 					null,
-					null]
+					null
+				]
 			},
 			"B7": {
 				"roomId": "B7",
@@ -1478,12 +1610,14 @@
 						"ID": "evr_bunny03_27",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1512,9 +1646,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B8",
+				"nextRooms": [
+					"B8",
 					null,
-					"C7"]
+					"C7"
+				]
 			},
 			"C7": {
 				"roomId": "C7",
@@ -1527,12 +1663,14 @@
 						"ID": "evr_bunny03_28",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1561,9 +1699,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C8",
+				"nextRooms": [
+					"C8",
 					null,
-					"D7"]
+					"D7"
+				]
 			},
 			"D7": {
 				"roomId": "D7",
@@ -1576,12 +1716,14 @@
 						"ID": "evr_bunny03_29",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1610,9 +1752,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D8",
+				"nextRooms": [
+					"D8",
 					null,
-					"E7"]
+					"E7"
+				]
 			},
 			"E7": {
 				"roomId": "E7",
@@ -1625,12 +1769,14 @@
 						"ID": "evr_bunny03_30_mb",
 						"icon": "Portrait_LukeCage",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1659,9 +1805,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E8",
+				"nextRooms": [
+					"E8",
 					null,
-					null]
+					null
+				]
 			},
 			"F7": {
 				"roomId": "F7",
@@ -1674,12 +1822,14 @@
 						"ID": "evr_bunny03_29",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1708,9 +1858,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F8",
+				"nextRooms": [
+					"F8",
 					"E7",
-					null]
+					null
+				]
 			},
 			"G7": {
 				"roomId": "G7",
@@ -1723,12 +1875,14 @@
 						"ID": "evr_bunny03_28",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1757,9 +1911,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G8",
+				"nextRooms": [
+					"G8",
 					"F7",
-					null]
+					null
+				]
 			},
 			"H7": {
 				"roomId": "H7",
@@ -1772,12 +1928,14 @@
 						"ID": "evr_bunny03_27",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1806,9 +1964,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H8",
+				"nextRooms": [
+					"H8",
 					"G7",
-					null]
+					null
+				]
 			},
 			"B8": {
 				"roomId": "B8",
@@ -1821,12 +1981,14 @@
 						"ID": "evr_bunny03_34",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1855,9 +2017,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B9",
+				"nextRooms": [
+					"B9",
 					null,
-					null]
+					null
+				]
 			},
 			"C8": {
 				"roomId": "C8",
@@ -1870,12 +2034,14 @@
 						"ID": "evr_bunny03_35",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1904,9 +2070,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C9",
+				"nextRooms": [
+					"C9",
 					null,
-					null]
+					null
+				]
 			},
 			"D8": {
 				"roomId": "D8",
@@ -1919,12 +2087,14 @@
 						"ID": "evr_bunny03_36_mb",
 						"icon": "Portrait_CaptainAmerica",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1953,9 +2123,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D9",
+				"nextRooms": [
+					"D9",
 					null,
-					null]
+					null
+				]
 			},
 			"E8": {
 				"roomId": "E8",
@@ -1968,12 +2140,14 @@
 						"ID": "evr_bunny03_37",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2002,9 +2176,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"D8",
-					null]
+					null
+				]
 			},
 			"F8": {
 				"roomId": "F8",
@@ -2017,12 +2193,14 @@
 						"ID": "evr_bunny03_38",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2051,9 +2229,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F9",
+				"nextRooms": [
+					"F9",
 					"E8",
-					null]
+					null
+				]
 			},
 			"G8": {
 				"roomId": "G8",
@@ -2066,12 +2246,14 @@
 						"ID": "evr_bunny03_35",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2100,9 +2282,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G9",
+				"nextRooms": [
+					"G9",
 					null,
-					null]
+					null
+				]
 			},
 			"H8": {
 				"roomId": "H8",
@@ -2115,12 +2299,14 @@
 						"ID": "evr_bunny03_34",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2149,9 +2335,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H9",
+				"nextRooms": [
+					"H9",
 					null,
-					null]
+					null
+				]
 			},
 			"B9": {
 				"roomId": "B9",
@@ -2164,12 +2352,14 @@
 						"ID": "evr_bunny03_41",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2198,9 +2388,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B10",
+				"nextRooms": [
+					"B10",
 					null,
-					null]
+					null
+				]
 			},
 			"C9": {
 				"roomId": "C9",
@@ -2213,12 +2405,14 @@
 						"ID": "evr_bunny03_42",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2247,9 +2441,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C10",
+				"nextRooms": [
+					"C10",
 					null,
-					null]
+					null
+				]
 			},
 			"D9": {
 				"roomId": "D9",
@@ -2262,12 +2458,14 @@
 						"ID": "evr_bunny03_43",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2296,9 +2494,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D10",
+				"nextRooms": [
+					"D10",
 					null,
-					"E9"]
+					"E9"
+				]
 			},
 			"E9": {
 				"roomId": "E9",
@@ -2311,12 +2511,14 @@
 						"ID": "evr_bunny03_44",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2345,9 +2547,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"F9"]
+					null,
+					"F9"
+				]
 			},
 			"F9": {
 				"roomId": "F9",
@@ -2360,12 +2564,14 @@
 						"ID": "evr_bunny03_45_mb",
 						"icon": "Portrait_Nebula",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2394,9 +2600,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F10",
+				"nextRooms": [
+					"F10",
 					null,
-					null]
+					null
+				]
 			},
 			"G9": {
 				"roomId": "G9",
@@ -2409,12 +2617,14 @@
 						"ID": "evr_bunny03_42",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2443,9 +2653,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G10",
+				"nextRooms": [
+					"G10",
 					null,
-					null]
+					null
+				]
 			},
 			"H9": {
 				"roomId": "H9",
@@ -2458,12 +2670,14 @@
 						"ID": "evr_bunny03_41",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2492,9 +2706,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H10",
+				"nextRooms": [
+					"H10",
 					null,
-					null]
+					null
+				]
 			},
 			"A10": {
 				"roomId": "A10",
@@ -2507,12 +2723,14 @@
 						"ID": "evr_bunny03_48",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2541,9 +2759,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["A11",
+				"nextRooms": [
+					"A11",
 					null,
-					null]
+					null
+				]
 			},
 			"B10": {
 				"roomId": "B10",
@@ -2556,12 +2776,14 @@
 						"ID": "evr_bunny03_49",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2590,9 +2812,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"A10",
-					null]
+					null
+				]
 			},
 			"C10": {
 				"roomId": "C10",
@@ -2605,12 +2829,14 @@
 						"ID": "evr_bunny03_50",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2639,9 +2865,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C11",
+				"nextRooms": [
+					"C11",
 					null,
-					null]
+					null
+				]
 			},
 			"D10": {
 				"roomId": "D10",
@@ -2654,12 +2882,14 @@
 						"ID": "evr_bunny03_51_mb",
 						"icon": "Portrait_Vision",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2688,9 +2918,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D11",
+				"nextRooms": [
+					"D11",
 					null,
-					null]
+					null
+				]
 			},
 			"E10": {
 				"roomId": "E10",
@@ -2703,12 +2935,14 @@
 						"ID": "evr_bunny03_52",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2737,9 +2971,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E11",
+				"nextRooms": [
+					"E11",
 					"D10",
-					null]
+					null
+				]
 			},
 			"F10": {
 				"roomId": "F10",
@@ -2752,12 +2988,14 @@
 						"ID": "evr_bunny03_53",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2786,9 +3024,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F11",
+				"nextRooms": [
+					"F11",
 					"E10",
-					null]
+					null
+				]
 			},
 			"G10": {
 				"roomId": "G10",
@@ -2801,12 +3041,14 @@
 						"ID": "evr_bunny03_50",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2835,9 +3077,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G11",
+				"nextRooms": [
+					"G11",
 					null,
-					null]
+					null
+				]
 			},
 			"H10": {
 				"roomId": "H10",
@@ -2850,12 +3094,14 @@
 						"ID": "evr_bunny03_49",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2884,9 +3130,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"I10"]
+					null,
+					"I10"
+				]
 			},
 			"I10": {
 				"roomId": "I10",
@@ -2899,12 +3147,14 @@
 						"ID": "evr_bunny03_48",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2933,9 +3183,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["I11",
+				"nextRooms": [
+					"I11",
 					null,
-					null]
+					null
+				]
 			},
 			"A11": {
 				"roomId": "A11",
@@ -2948,12 +3200,14 @@
 						"ID": "evr_bunny03_57",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2982,9 +3236,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"B11"]
+					null,
+					"B11"
+				]
 			},
 			"B11": {
 				"roomId": "B11",
@@ -2997,12 +3253,14 @@
 						"ID": "evr_bunny03_58",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#bc4100",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3031,9 +3289,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"C11"]
+					null,
+					"C11"
+				]
 			},
 			"C11": {
 				"roomId": "C11",
@@ -3046,12 +3306,14 @@
 						"ID": "evr_bunny03_59_mb",
 						"icon": "Portrait_BlackWidow",
 						"iconBgColor": "#a1000b",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3080,9 +3342,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"D11"]
+					null,
+					"D11"
+				]
 			},
 			"D11": {
 				"roomId": "D11",
@@ -3095,12 +3359,14 @@
 						"ID": "evr_bunny03_60_mb",
 						"icon": "Portrait_ScientistSupreme",
 						"iconBgColor": "#fff200",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3129,9 +3395,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"E11"]
+					null,
+					"E11"
+				]
 			},
 			"E11": {
 				"roomId": "E11",
@@ -3144,12 +3412,14 @@
 						"ID": "evr_bunny03_61_fb",
 						"icon": "Portrait_Thanos",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3178,9 +3448,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"",
-					null]
+					null
+				]
 			},
 			"F11": {
 				"roomId": "F11",
@@ -3193,12 +3465,14 @@
 						"ID": "evr_bunny03_62_mb",
 						"icon": "Portrait_Gamora",
 						"iconBgColor": "#338aba",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3227,9 +3501,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"E11",
-					null]
+					null
+				]
 			},
 			"G11": {
 				"roomId": "G11",
@@ -3242,12 +3518,14 @@
 						"ID": "evr_bunny03_63_mb",
 						"icon": "Portrait_Yondu",
 						"iconBgColor": "#6c238e",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3276,9 +3554,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"F11",
-					null]
+					null
+				]
 			},
 			"H11": {
 				"roomId": "H11",
@@ -3291,12 +3571,14 @@
 						"ID": "evr_bunny03_58",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3325,9 +3607,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"G11",
-					null]
+					null
+				]
 			},
 			"I11": {
 				"roomId": "I11",
@@ -3340,12 +3624,14 @@
 						"ID": "evr_bunny03_57",
 						"icon": "raid_Icon_Thanos.png",
 						"iconBgColor": "#21ef24",
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_thanos_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -3374,9 +3660,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"H11",
-					null]
+					null
+				]
 			}
 		},
 		"startingRoomId": "E1"

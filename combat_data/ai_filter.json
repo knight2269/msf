@@ -1,89 +1,104 @@
 {
 	"Data": {
 		"buff_remove": {
-			"entries": [{
+			"entries": [
+				{
 					"type": "has_buff"
 				}
 			]
 		},
 		"heal_standard": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 75,
 					"type": "only_if_can_heal"
 				}
 			]
 		},
 		"taunt": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 20,
 					"type": "only_if_health"
-				}, {
+				},
+				{
 					"type": "only_if_has_allies"
 				}
 			]
 		},
 		"heal_self_standard": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 75,
 					"type": "only_if_health_below"
 				}
 			]
 		},
 		"heal_99": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 99,
 					"type": "only_if_can_heal"
 				}
 			]
 		},
 		"revive": {
-			"entries": [{
+			"entries": [
+				{
 					"type": "only_if_dead_allies"
 				}
 			]
 		},
 		"debuff_increase": {
-			"entries": [{
+			"entries": [
+				{
 					"allies": "true",
 					"type": "only_if_has_debuff"
 				}
 			]
 		},
 		"debuff_remove": {
-			"entries": [{
+			"entries": [
+				{
 					"allies": "true",
 					"type": "only_if_has_debuff"
 				}
 			]
 		},
 		"stealth": {
-			"entries": [{
+			"entries": [
+				{
 					"type": "only_if_has_allies"
 				}
 			]
 		},
 		"debuff_remove_self": {
-			"entries": [{
+			"entries": [
+				{
 					"allies": "true",
 					"type": "only_if_has_debuff"
 				}
 			]
 		},
 		"taunt_protect_allies": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 80,
 					"type": "only_if_can_heal"
-				}, {
+				},
+				{
 					"health_pct": 50,
 					"type": "only_if_health"
 				}
 			]
 		},
 		"health_redistribute": {
-			"entries": [{
+			"entries": [
+				{
 					"health_pct": 50,
 					"type": "only_if_can_heal"
-				}, {
+				},
+				{
 					"health_pct": 50,
 					"type": "only_if_can_heal",
 					"greater": true

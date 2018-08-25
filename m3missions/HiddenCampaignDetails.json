@@ -2,22 +2,52 @@
 	"Name": "HiddenCampaignDetails",
 	"GameData": {
 		"NUE_CAMPAIGN": {
-			"m_chapterList": [{
-				"m_missionList": [{
-					"m_missionID": "NUE1",
-					"m_energyCost": 0,
-					"m_storyTellingID": "",
-					"m_nodeYPosition": 0,
-					"m_characterLimit": 0,
-					"m_hideStars": true,
-					"m_isBoss": false,
-					"m_isBonus": false,
-					"m_rewardsIDList": [{
-						"m_rewardID": "m_nue_01_01",
-						"m_firstTimeOnly": false
-					}],
+			"m_chapterList": [
+				{
+					"m_missionList": [
+						{
+							"m_missionID": "NUE1",
+							"m_energyCost": 0,
+							"m_storyTellingID": "",
+							"m_nodeYPosition": 0,
+							"m_characterLimit": 0,
+							"m_hideStars": true,
+							"m_isBoss": false,
+							"m_isBonus": false,
+							"m_rewardsIDList": [
+								{
+									"m_rewardID": "m_nue_01_01",
+									"m_firstTimeOnly": false
+								}
+							],
+							"m_requirements": {
+
+							},
+							"m_heroFilters": {
+								"description": "",
+								"shortDescription": "",
+								"longDescription": "",
+								"quantity": 0,
+								"filters": {
+
+								}
+							},
+							"m_name": "ID_MISSION_HER_1_0_NAME",
+							"m_description": "ID_MISSION_HER_1_0_DESC",
+							"m_flavorText": "",
+							"m_image": "",
+							"m_nodeImage": "",
+							"m_catalystGearID": "",
+							"m_gameStatID": "",
+							"m_dailyLimit": 0,
+							"m_mustHaveHeroes": [],
+							"m_mustHaveHeroesDesc": "",
+							"m_unlockedDesc": ""
+						}
+					],
+					"m_rewardsIDList": [],
 					"m_requirements": {
-						
+
 					},
 					"m_heroFilters": {
 						"description": "",
@@ -25,11 +55,11 @@
 						"longDescription": "",
 						"quantity": 0,
 						"filters": {
-							
+
 						}
 					},
-					"m_name": "ID_MISSION_HER_1_0_NAME",
-					"m_description": "ID_MISSION_HER_1_0_DESC",
+					"m_name": "",
+					"m_description": "",
 					"m_flavorText": "",
 					"m_image": "",
 					"m_nodeImage": "",
@@ -39,32 +69,8 @@
 					"m_mustHaveHeroes": [],
 					"m_mustHaveHeroesDesc": "",
 					"m_unlockedDesc": ""
-				}],
-				"m_rewardsIDList": [],
-				"m_requirements": {
-					
-				},
-				"m_heroFilters": {
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters": {
-						
-					}
-				},
-				"m_name": "",
-				"m_description": "",
-				"m_flavorText": "",
-				"m_image": "",
-				"m_nodeImage": "",
-				"m_catalystGearID": "",
-				"m_gameStatID": "",
-				"m_dailyLimit": 0,
-				"m_mustHaveHeroes": [],
-				"m_mustHaveHeroesDesc": "",
-				"m_unlockedDesc": ""
-			}],
+				}
+			],
 			"m_index": 0,
 			"m_isEvent": false,
 			"m_timesBeatable": -1,
@@ -77,7 +83,7 @@
 			"m_nodeNameShort": null,
 			"m_rewardsIDList": [],
 			"m_requirements": {
-				
+
 			},
 			"m_heroFilters": {
 				"description": "",
@@ -85,7 +91,7 @@
 				"longDescription": "",
 				"quantity": 0,
 				"filters": {
-					
+
 				}
 			},
 			"m_name": "",

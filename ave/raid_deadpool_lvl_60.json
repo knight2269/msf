@@ -5,76 +5,98 @@
 		"rows": 10,
 		"columns": 7,
 		"isOperation": false,
-		"map": [["",
+		"map": [
+			[
+				"",
 				"",
 				"A3",
 				"A4",
 				"A5",
 				"",
-				""],
-			["",
+				""
+			],
+			[
+				"",
 				"B2",
 				"B3",
 				"B4",
 				"B5",
 				"B6",
-				""],
-			["C1",
+				""
+			],
+			[
+				"C1",
 				"C2",
 				"C3",
 				"C4",
 				"C5",
 				"C6",
-				"C7"],
-			["D1",
+				"C7"
+			],
+			[
+				"D1",
 				"D2",
 				"D3",
 				"D4",
 				"D5",
 				"D6",
-				"D7"],
-			["E1",
+				"D7"
+			],
+			[
+				"E1",
 				"E2",
 				"",
 				"E4",
 				"",
 				"",
-				"E7"],
-			["F1",
+				"E7"
+			],
+			[
+				"F1",
 				"F2",
 				"",
 				"F4",
 				"",
 				"",
-				"F7"],
-			["G1",
+				"F7"
+			],
+			[
+				"G1",
 				"G2",
 				"G3",
 				"G4",
 				"G5",
 				"G6",
-				"G7"],
-			["H1",
+				"G7"
+			],
+			[
+				"H1",
 				"H2",
 				"H3",
 				"H4",
 				"H5",
 				"H6",
-				"H7"],
-			["",
+				"H7"
+			],
+			[
+				"",
 				"I2",
 				"I3",
 				"I4",
 				"I5",
 				"I6",
-				""],
-			["",
+				""
+			],
+			[
+				"",
 				"",
 				"J3",
 				"J4",
 				"J5",
 				"",
-				""]],
+				""
+			]
+		],
 		"rooms": {
 			"H1": {
 				"roomId": "H1",
@@ -87,12 +109,14 @@
 						"ID": "evr_dp03_01",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -121,9 +145,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H2",
+				"nextRooms": [
+					"H2",
 					null,
-					null]
+					null
+				]
 			},
 			"G1": {
 				"roomId": "G1",
@@ -136,12 +162,14 @@
 						"ID": "evr_dp03_02",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -170,9 +198,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"H1"]
+					null,
+					"H1"
+				]
 			},
 			"D1": {
 				"roomId": "D1",
@@ -185,12 +215,14 @@
 						"ID": "evr_dp03_02",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -219,9 +251,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"C1",
-					null]
+					null
+				]
 			},
 			"C1": {
 				"roomId": "C1",
@@ -234,12 +268,14 @@
 						"ID": "evr_dp03_01",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -268,9 +304,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C2",
+				"nextRooms": [
+					"C2",
 					null,
-					null]
+					null
+				]
 			},
 			"F1": {
 				"roomId": "F1",
@@ -290,9 +328,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["F2",
+				"nextRooms": [
+					"F2",
 					"E1",
-					"G1"]
+					"G1"
+				]
 			},
 			"E1": {
 				"roomId": "E1",
@@ -312,9 +352,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["E2",
+				"nextRooms": [
+					"E2",
 					"D1",
-					null]
+					null
+				]
 			},
 			"B2": {
 				"roomId": "B2",
@@ -327,12 +369,14 @@
 						"ID": "evr_dp03_03b_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -361,9 +405,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B3",
+				"nextRooms": [
+					"B3",
 					null,
-					null]
+					null
+				]
 			},
 			"C2": {
 				"roomId": "C2",
@@ -376,12 +422,14 @@
 						"ID": "evr_dp03_04",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -410,9 +458,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C3",
+				"nextRooms": [
+					"C3",
 					"B2",
-					null]
+					null
+				]
 			},
 			"D2": {
 				"roomId": "D2",
@@ -425,12 +475,14 @@
 						"ID": "evr_dp03_05",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -459,9 +511,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D3",
+				"nextRooms": [
+					"D3",
 					"C2",
-					null]
+					null
+				]
 			},
 			"E2": {
 				"roomId": "E2",
@@ -474,12 +528,14 @@
 						"ID": "evr_dp03_06",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -508,9 +564,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"D2",
-					null]
+					null
+				]
 			},
 			"F2": {
 				"roomId": "F2",
@@ -523,12 +581,14 @@
 						"ID": "evr_dp03_06",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -557,9 +617,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"G2"]
+					null,
+					"G2"
+				]
 			},
 			"G2": {
 				"roomId": "G2",
@@ -572,12 +634,14 @@
 						"ID": "evr_dp03_05",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -606,9 +670,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G3",
+				"nextRooms": [
+					"G3",
 					null,
-					"H2"]
+					"H2"
+				]
 			},
 			"H2": {
 				"roomId": "H2",
@@ -621,12 +687,14 @@
 						"ID": "evr_dp03_04",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -655,9 +723,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H3",
+				"nextRooms": [
+					"H3",
 					null,
-					"I2"]
+					"I2"
+				]
 			},
 			"I2": {
 				"roomId": "I2",
@@ -670,12 +740,14 @@
 						"ID": "evr_dp03_03c_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -704,9 +776,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["I3",
+				"nextRooms": [
+					"I3",
 					null,
-					null]
+					null
+				]
 			},
 			"A3": {
 				"roomId": "A3",
@@ -719,12 +793,14 @@
 						"ID": "evr_dp03_07",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -753,9 +829,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["A4",
+				"nextRooms": [
+					"A4",
 					null,
-					null]
+					null
+				]
 			},
 			"B3": {
 				"roomId": "B3",
@@ -768,12 +846,14 @@
 						"ID": "evr_dp03_08",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -802,9 +882,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B4",
+				"nextRooms": [
+					"B4",
 					"A3",
-					null]
+					null
+				]
 			},
 			"C3": {
 				"roomId": "C3",
@@ -817,12 +899,14 @@
 						"ID": "evr_dp03_09b_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -851,9 +935,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"B3",
-					null]
+					null
+				]
 			},
 			"D3": {
 				"roomId": "D3",
@@ -866,12 +952,14 @@
 						"ID": "evr_dp03_10",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -900,9 +988,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"C3",
-					null]
+					null
+				]
 			},
 			"G3": {
 				"roomId": "G3",
@@ -915,12 +1005,14 @@
 						"ID": "evr_dp03_10",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -949,9 +1041,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G4",
+				"nextRooms": [
+					"G4",
 					"",
-					"H3"]
+					"H3"
+				]
 			},
 			"H3": {
 				"roomId": "H3",
@@ -964,12 +1058,14 @@
 						"ID": "evr_dp03_09c_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -998,9 +1094,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					null,
-					"I3"]
+					"I3"
+				]
 			},
 			"I3": {
 				"roomId": "I3",
@@ -1013,12 +1111,14 @@
 						"ID": "evr_dp03_08",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1047,9 +1147,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["I4",
+				"nextRooms": [
+					"I4",
 					null,
-					"J3"]
+					"J3"
+				]
 			},
 			"J3": {
 				"roomId": "J3",
@@ -1062,12 +1164,14 @@
 						"ID": "evr_dp03_07",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1096,9 +1200,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["J4",
+				"nextRooms": [
+					"J4",
 					null,
-					null]
+					null
+				]
 			},
 			"A4": {
 				"roomId": "A4",
@@ -1111,12 +1217,14 @@
 						"ID": "evr_dp03_03",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1145,9 +1253,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["A5",
+				"nextRooms": [
+					"A5",
 					null,
-					null]
+					null
+				]
 			},
 			"B4": {
 				"roomId": "B4",
@@ -1160,12 +1270,14 @@
 						"ID": "evr_dp03_09",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1194,9 +1306,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					null,
-					"C4"]
+					"C4"
+				]
 			},
 			"C4": {
 				"roomId": "C4",
@@ -1209,12 +1323,14 @@
 						"ID": "evr_dp03_13",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1243,9 +1359,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C5",
+				"nextRooms": [
+					"C5",
 					null,
-					null]
+					null
+				]
 			},
 			"D4": {
 				"roomId": "D4",
@@ -1258,12 +1376,14 @@
 						"ID": "evr_dp03_14",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1292,9 +1412,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D5",
+				"nextRooms": [
+					"D5",
 					"C4",
-					null]
+					null
+				]
 			},
 			"E4": {
 				"roomId": "E4",
@@ -1307,12 +1429,14 @@
 						"ID": "evr_dp03_21",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1341,9 +1465,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"D4",
-					null]
+					null
+				]
 			},
 			"F4": {
 				"roomId": "F4",
@@ -1356,12 +1482,14 @@
 						"ID": "evr_dp03_23",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1390,9 +1518,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"E4",
-					null]
+					null
+				]
 			},
 			"G4": {
 				"roomId": "G4",
@@ -1405,12 +1535,14 @@
 						"ID": "evr_dp03_17",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1439,9 +1571,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G5",
+				"nextRooms": [
+					"G5",
 					"F4",
-					null]
+					null
+				]
 			},
 			"H4": {
 				"roomId": "H4",
@@ -1454,12 +1588,14 @@
 						"ID": "evr_dp03_13",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1488,9 +1624,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H5",
+				"nextRooms": [
+					"H5",
 					"G4",
-					null]
+					null
+				]
 			},
 			"I4": {
 				"roomId": "I4",
@@ -1503,12 +1641,14 @@
 						"ID": "evr_dp03_09",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1537,9 +1677,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"H4",
-					null]
+					null
+				]
 			},
 			"J4": {
 				"roomId": "J4",
@@ -1552,12 +1694,14 @@
 						"ID": "evr_dp03_03",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1586,9 +1730,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["J5",
+				"nextRooms": [
+					"J5",
 					null,
-					null]
+					null
+				]
 			},
 			"A5": {
 				"roomId": "A5",
@@ -1601,12 +1747,14 @@
 						"ID": "evr_dp03_20",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1635,9 +1783,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"B5"]
+					null,
+					"B5"
+				]
 			},
 			"B5": {
 				"roomId": "B5",
@@ -1650,12 +1800,14 @@
 						"ID": "evr_dp03_21b_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1684,9 +1836,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["B6",
+				"nextRooms": [
+					"B6",
 					null,
-					""]
+					""
+				]
 			},
 			"C5": {
 				"roomId": "C5",
@@ -1699,12 +1853,14 @@
 						"ID": "evr_dp03_22",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1733,9 +1889,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"B5",
-					"D5"]
+					"D5"
+				]
 			},
 			"D5": {
 				"roomId": "D5",
@@ -1748,12 +1906,14 @@
 						"ID": "evr_dp03_23b_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1782,9 +1942,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["D6",
+				"nextRooms": [
+					"D6",
 					null,
-					null]
+					null
+				]
 			},
 			"G5": {
 				"roomId": "G5",
@@ -1797,12 +1959,14 @@
 						"ID": "evr_dp03_23c_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1831,9 +1995,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["G6",
+				"nextRooms": [
+					"G6",
 					null,
-					""]
+					""
+				]
 			},
 			"H5": {
 				"roomId": "H5",
@@ -1846,12 +2012,14 @@
 						"ID": "evr_dp03_22",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1880,9 +2048,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"G5",
-					"I5"]
+					"I5"
+				]
 			},
 			"I5": {
 				"roomId": "I5",
@@ -1895,12 +2065,14 @@
 						"ID": "evr_dp03_21c_mb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1929,9 +2101,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["I6",
+				"nextRooms": [
+					"I6",
 					"",
-					null]
+					null
+				]
 			},
 			"J5": {
 				"roomId": "J5",
@@ -1944,12 +2118,14 @@
 						"ID": "evr_dp03_20",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -1978,9 +2154,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"I5",
-					null]
+					null
+				]
 			},
 			"B6": {
 				"roomId": "B6",
@@ -1993,12 +2171,14 @@
 						"ID": "evr_dp03_24",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2027,9 +2207,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"C6"]
+					null,
+					"C6"
+				]
 			},
 			"C6": {
 				"roomId": "C6",
@@ -2042,12 +2224,14 @@
 						"ID": "evr_dp03_25",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2076,9 +2260,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["C7",
+				"nextRooms": [
+					"C7",
 					null,
-					null]
+					null
+				]
 			},
 			"D6": {
 				"roomId": "D6",
@@ -2091,12 +2277,14 @@
 						"ID": "evr_dp03_26",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2125,9 +2313,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
+					"",
 					"C6",
-					""]
+					""
+				]
 			},
 			"G6": {
 				"roomId": "G6",
@@ -2140,12 +2330,14 @@
 						"ID": "evr_dp03_26",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2174,9 +2366,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["",
+				"nextRooms": [
 					"",
-					"H6"]
+					"",
+					"H6"
+				]
 			},
 			"H6": {
 				"roomId": "H6",
@@ -2189,12 +2383,14 @@
 						"ID": "evr_dp03_25",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2223,9 +2419,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": ["H7",
+				"nextRooms": [
+					"H7",
 					null,
-					null]
+					null
+				]
 			},
 			"I6": {
 				"roomId": "I6",
@@ -2238,12 +2436,14 @@
 						"ID": "evr_dp03_24",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2272,9 +2472,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"H6",
-					null]
+					null
+				]
 			},
 			"C7": {
 				"roomId": "C7",
@@ -2287,12 +2489,14 @@
 						"ID": "evr_dp03_27",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2321,9 +2525,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"D7"]
+					null,
+					"D7"
+				]
 			},
 			"D7": {
 				"roomId": "D7",
@@ -2336,12 +2542,14 @@
 						"ID": "evr_dp03_29",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2370,9 +2578,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					"E7"]
+					null,
+					"E7"
+				]
 			},
 			"E7": {
 				"roomId": "E7",
@@ -2385,12 +2595,14 @@
 						"ID": "evr_dp03_30_fb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2419,9 +2631,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					null]
+					null,
+					null
+				]
 			},
 			"F7": {
 				"roomId": "F7",
@@ -2434,12 +2648,14 @@
 						"ID": "evr_dp03_31_fb",
 						"icon": "Portrait_Deadpool",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2468,9 +2684,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
 					null,
-					null]
+					null,
+					null
+				]
 			},
 			"G7": {
 				"roomId": "G7",
@@ -2483,12 +2701,14 @@
 						"ID": "evr_dp03_29",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2517,9 +2737,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"F7",
-					null]
+					null
+				]
 			},
 			"H7": {
 				"roomId": "H7",
@@ -2532,12 +2754,14 @@
 						"ID": "evr_dp03_27",
 						"icon": "raid_Icon_Deadpool.png",
 						"iconBgColor": null,
-						"rewards": [{
+						"rewards": [
+							{
 								"m_rewardID": "raid_deadpool_high_battledrops",
 								"m_firstTimeOnly": false
 							}
 						],
-						"cost": [{
+						"cost": [
+							{
 								"res": "ave_attack_energy",
 								"amount": 10
 							}
@@ -2566,9 +2790,11 @@
 					"x": 0,
 					"y": 0
 				},
-				"nextRooms": [null,
+				"nextRooms": [
+					null,
 					"G7",
-					null]
+					null
+				]
 			}
 		},
 		"startingRoomId": "F1"
