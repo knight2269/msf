@@ -3652,7 +3652,7 @@
 									370,
 									440,
 									440,
-									510
+									480
 								]
 							}
 						]
@@ -3676,7 +3676,7 @@
 									370,
 									440,
 									440,
-									510
+									480
 								]
 							}
 						]
@@ -4299,9 +4299,6 @@
 				"actions":
 				[
 					{
-						"assist":
-						{
-						},
 						"stat_modifier":
 						[
 							{
@@ -4320,6 +4317,9 @@
 						]
 					},
 					{
+						"assist":
+						{
+						},
 						"target":
 						{
 							"filter":
@@ -4449,6 +4449,19 @@
 			],
 			"special":
 			{
+				"stat_lock":
+				[
+					{
+						"on": "primary",
+						"stat": "counter_pct",
+						"value": 0
+					},
+					{
+						"on": "secondary",
+						"stat": "counter_pct",
+						"value": 0
+					}
+				],
 				"cost": 3,
 				"power_mul":
 				[
@@ -4482,9 +4495,6 @@
 					},
 					{
 						"action": "proc",
-						"assist":
-						{
-						},
 						"procs":
 						[
 							{
@@ -4554,17 +4564,10 @@
 									"t": 3,
 									"f": 2
 								},
-								{
-									"t": 3,
-									"f": 2
-								}
+								3
 							],
 							"type": "direct_neighbor",
-							"primary_selection": "exclude_from_pool",
-							"stop_if_outcome":
-							[
-								"counter_attack"
-							]
+							"primary_selection": "exclude_from_pool"
 						},
 						"stat_modifier":
 						[
@@ -4586,7 +4589,9 @@
 					{
 						"action": "proc",
 						"action_cond": "if_prev_ran",
-						"counter": false,
+						"assist":
+						{
+						},
 						"procs":
 						[
 							{
@@ -4612,7 +4617,8 @@
 								],
 								"proc": "DefenseDown"
 							}
-						]
+						],
+						"counter": true
 					}
 				],
 				"start_energy": 3
@@ -15097,6 +15103,41 @@
 						]
 					},
 					{
+						"action": "proc_remove",
+						"category": "debuff",
+						"action_pct":
+						[
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							100
+						],
+						"count":
+						[
+							1
+						],
+						"target":
+						{
+							"filter":
+							{
+								"traits":
+								{
+									"has_any":
+									[
+										"Avenger"
+									]
+								}
+							},
+							"type": "random",
+							"limit": 10,
+							"relation": "ally",
+							"primary_selection": "exclude_from_pool"
+						}
+					},
+					{
 						"action": "proc",
 						"assist":
 						{
@@ -15152,7 +15193,7 @@
 									30,
 									60,
 									60,
-									80
+									60
 								],
 								"proc": "SpeedUp"
 							}
@@ -19731,7 +19772,7 @@
 									100,
 									110,
 									120,
-									130
+									150
 								]
 							}
 						]
@@ -19782,10 +19823,7 @@
 									"t": 4,
 									"f": 3
 								},
-								{
-									"t": 4,
-									"f": 3
-								}
+								4
 							],
 							"stop_if_outcome":
 							[
@@ -19804,7 +19842,7 @@
 									70,
 									80,
 									90,
-									100
+									120
 								]
 							}
 						]
@@ -21507,7 +21545,7 @@
 							2300,
 							3600,
 							5000,
-							5600
+							8000
 						],
 						"assist":
 						{
@@ -21995,7 +22033,7 @@
 									140,
 									150,
 									180,
-									190,
+									220,
 									220
 								]
 							}
@@ -22029,7 +22067,8 @@
 							{
 								"t": 2,
 								"f": 1
-							}
+							},
+							2
 						],
 						"action": "proc",
 						"procs":
@@ -27329,10 +27368,6 @@
 					},
 					{
 						"action": "proc",
-						"assist":
-						{
-							"passive_assist": "nonattack"
-						},
 						"action_pct":
 						[
 							0,
@@ -27350,7 +27385,7 @@
 								3,
 								3,
 								4,
-								10
+								4
 							]
 						},
 						"procs":
@@ -27358,6 +27393,34 @@
 							{
 								"use_count": 1,
 								"proc": "Evade"
+							}
+						]
+					},
+					{
+						"action": "proc",
+						"assist":
+						{
+							"passive_assist": "nonattack"
+						},
+						"action_pct":
+						[
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							100
+						],
+						"target":
+						{
+							"relation": "ally"
+						},
+						"procs":
+						[
+							{
+								"use_count": 1,
+								"proc": "Deflect"
 							}
 						]
 					},
@@ -32374,7 +32437,7 @@
 									190,
 									270,
 									270,
-									360
+									320
 								]
 							}
 						]
