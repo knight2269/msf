@@ -1,2636 +1,2008 @@
 {
-	"Name": "raid_lvl_30",
-	"RaidDetails":
-	{
-		"raidId": "raid_lvl_30",
-		"rows": 7,
-		"columns": 7,
-		"isOperation": false,
-		"map":
-		[
-			[
-				"A1",
-				"A2",
-				"A3",
-				"A4",
-				"A5",
-				"A6",
-				""
-			],
-			[
-				"B1",
-				"B2",
-				"B3",
-				"B4",
-				"",
-				"B6",
-				""
-			],
-			[
-				"C1",
-				"C2",
-				"C3",
-				"",
-				"C5",
-				"C6",
-				"C7"
-			],
-			[
-				"D1",
-				"D2",
-				"D3",
-				"D4",
-				"D5",
-				"",
-				""
-			],
-			[
-				"E1",
-				"E2",
-				"",
-				"",
-				"E5",
-				"E6",
-				"E7"
-			],
-			[
-				"F1",
-				"F2",
-				"F3",
-				"F4",
-				"",
-				"F6",
-				""
-			],
-			[
-				"G1",
-				"G2",
-				"G3",
-				"G4",
-				"G5",
-				"G6",
-				""
-			]
-		],
-		"rooms":
-		{
-			"C1":
-			{
-				"roomId": "C1",
-				"name": "Start",
-				"starting": true,
-				"objective": false,
-				"icon": null,
-				"missions":
-				{
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"C2",
-					"B1",
-					"D1"
-				]
-			},
-			"C2":
-			{
-				"roomId": "C2",
-				"name": "Red Skull 25",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv25_RedSkull",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"C3",
-					"",
-					""
-				]
-			},
-			"B2":
-			{
-				"roomId": "B2",
-				"name": "Shield 26",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv26_shield",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"B3",
-					"",
-					null
-				]
-			},
-			"D2":
-			{
-				"roomId": "D2",
-				"name": "Global 25",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv25_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					"E2"
-				]
-			},
-			"E2":
-			{
-				"roomId": "E2",
-				"name": "Global 26",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv26_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					null,
-					"F2"
-				]
-			},
-			"F2":
-			{
-				"roomId": "F2",
-				"name": "Defenders 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_defenders",
-						"icon": "Portrait_LukeCage",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": true
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"F3",
-					null,
-					""
-				]
-			},
-			"B3":
-			{
-				"roomId": "B3",
-				"name": "Kree 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_kree",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"B4",
-					"",
-					""
-				]
-			},
-			"F3":
-			{
-				"roomId": "F3",
-				"name": "Merc 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_mercs1",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"F4",
-					"",
-					""
-				]
-			},
-			"D3":
-			{
-				"roomId": "D3",
-				"name": "Global 30",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv30_global",
-						"icon": "Portrait_NickFury",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": true
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"D4",
-					"",
-					""
-				]
-			},
-			"A4":
-			{
-				"roomId": "A4",
-				"name": "Cosmic 30",
-				"starting": false,
-				"objective": false,
-				"icon": "Portrait_Groot",
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv30_cosmic",
-						"icon": "Portrait_Groot",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": true
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"A5",
-					null,
-					null
-				]
-			},
-			"B4":
-			{
-				"roomId": "B4",
-				"name": "Ravagers 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_ravagers",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"A4",
-					""
-				]
-			},
-			"D4":
-			{
-				"roomId": "D4",
-				"name": "Global 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"D5",
-					"",
-					""
-				]
-			},
-			"F4":
-			{
-				"roomId": "F4",
-				"name": "Hand 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_hand",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					"G4"
-				]
-			},
-			"G4":
-			{
-				"roomId": "G4",
-				"name": "Merc 28",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv28_mercs1",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"G5",
-					null,
-					null
-				]
-			},
-			"D5":
-			{
-				"roomId": "D5",
-				"name": "Hydra 30",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv30_hydra",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"C5",
-					"E5"
-				]
-			},
-			"A5":
-			{
-				"roomId": "A5",
-				"name": "Comsic 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_cosmic",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"A6",
-					"",
-					null
-				]
-			},
-			"C5":
-			{
-				"roomId": "C5",
-				"name": "Global 28",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv28_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"C6",
-					"",
-					null
-				]
-			},
-			"E5":
-			{
-				"roomId": "E5",
-				"name": "Global 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"E6",
-					null,
-					""
-				]
-			},
-			"G5":
-			{
-				"roomId": "G5",
-				"name": "Ninjas 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_ninjas",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"G6",
-					"",
-					null
-				]
-			},
-			"C7":
-			{
-				"roomId": "C7",
-				"name": "Global 32",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv32_global",
-						"icon": "Portrait_Hulk",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": true
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					null,
-					"",
-					null
-				]
-			},
-			"E7":
-			{
-				"roomId": "E7",
-				"name": "Hand 32",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv32_hand",
-						"icon": "Portrait_Elektra",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": true
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					null
-				]
-			},
-			"A6":
-			{
-				"roomId": "A6",
-				"name": "Cosmic 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_cosmic",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					"B6"
-				]
-			},
-			"B6":
-			{
-				"roomId": "B6",
-				"name": "Guardians 30",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv30_guardians",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					null,
-					"C6"
-				]
-			},
-			"C6":
-			{
-				"roomId": "C6",
-				"name": "Kree 31",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv31_kree",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"C7",
-					null,
-					""
-				]
-			},
-			"E6":
-			{
-				"roomId": "E6",
-				"name": "Street 31",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv31_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"E7",
-					"",
-					""
-				]
-			},
-			"F6":
-			{
-				"roomId": "F6",
-				"name": "Street 30",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv30_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"E6",
-					""
-				]
-			},
-			"G6":
-			{
-				"roomId": "G6",
-				"name": "Street 29",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv29_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"F6",
-					null
-				]
-			},
-			"D1":
-			{
-				"roomId": "D1",
-				"name": "Space",
-				"starting": false,
-				"objective": false,
-				"icon": null,
-				"missions":
-				{
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"D2",
-					null,
-					"E1"
-				]
-			},
-			"B1":
-			{
-				"roomId": "B1",
-				"name": "Space",
-				"starting": false,
-				"objective": false,
-				"icon": null,
-				"missions":
-				{
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"B2",
-					"A1",
-					null
-				]
-			},
-			"C3":
-			{
-				"roomId": "C3",
-				"name": "Global 26",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv26_global",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					"D3"
-				]
-			},
-			"A2":
-			{
-				"roomId": "A2",
-				"name": "Cosmic 26",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv26_cosmic",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"A3",
-					null,
-					null
-				]
-			},
-			"A3":
-			{
-				"roomId": "A3",
-				"name": "Cosmic 28",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv28_cosmic",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"A4",
-					null,
-					null
-				]
-			},
-			"E1":
-			{
-				"roomId": "E1",
-				"name": "Street 25",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv25_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"",
-					"F1"
-				]
-			},
-			"F1":
-			{
-				"roomId": "F1",
-				"name": "Street 26",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv26_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					null,
-					"G1"
-				]
-			},
-			"A1":
-			{
-				"roomId": "A1",
-				"name": "Cosmic 25",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv25_cosmic",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"A2",
-					"",
-					null
-				]
-			},
-			"G1":
-			{
-				"roomId": "G1",
-				"name": "Street 27",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv27_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"G2",
-					null,
-					""
-				]
-			},
-			"G2":
-			{
-				"roomId": "G2",
-				"name": "Street 28",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv28_street",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"G3",
-					"",
-					null
-				]
-			},
-			"G3":
-			{
-				"roomId": "G3",
-				"name": "Kingpin 28",
-				"starting": false,
-				"objective": false,
-				"missions":
-				{
-					"1":
-					{
-						"missionIndex": "1",
-						"ID": "raid_lv28_mercBoss",
-						"icon": "raid_Icon_Ultimus.png",
-						"rewards":
-						[
-							{
-								"m_rewardID": "raid_battledrops_lvl30_1",
-								"m_firstTimeOnly": false,
-								"m_alternateOnly": false
-							}
-						],
-						"cost":
-						[
-							{
-								"res": "ave_attack_energy",
-								"amount": 10
-							}
-						],
-						"requirements":
-						{
-						},
-						"filters":
-						{
-							"description": "",
-							"shortDescription": "",
-							"longDescription": "",
-							"quantity": 0,
-							"filters":
-							{
-							}
-						},
-						"characterLimit": 5,
-						"isBoss": false
-					}
-				},
-				"requirements":
-				{
-				},
-				"filters":
-				{
-					"description": "",
-					"shortDescription": "",
-					"longDescription": "",
-					"quantity": 0,
-					"filters":
-					{
-					}
-				},
-				"roomOffset":
-				{
-					"x": 0,
-					"y": 0
-				},
-				"nextRooms":
-				[
-					"",
-					"F3",
-					null
-				]
-			}
-		},
-		"startingRoomId": "C1"
-	}
+  "Name": "raid_lvl_30",
+  "RaidDetails": {
+    "raidId": "raid_lvl_30",
+    "rows": 7,
+    "columns": 7,
+    "isOperation": false,
+    "map": [
+      [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        ""
+      ],
+      [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "",
+        "B6",
+        ""
+      ],
+      [
+        "C1",
+        "C2",
+        "C3",
+        "",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "",
+        ""
+      ],
+      [
+        "E1",
+        "E2",
+        "",
+        "",
+        "E5",
+        "E6",
+        "E7"
+      ],
+      [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "",
+        "F6",
+        ""
+      ],
+      [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        ""
+      ]
+    ],
+    "rooms": {
+      "C1": {
+        "roomId": "C1",
+        "name": "Start",
+        "starting": true,
+        "objective": false,
+        "icon": null,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C2",
+          "B1",
+          "D1"
+        ]
+      },
+      "C2": {
+        "roomId": "C2",
+        "name": "Red Skull 25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv25_RedSkull",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C3",
+          "",
+          ""
+        ]
+      },
+      "B2": {
+        "roomId": "B2",
+        "name": "Shield 26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv26_shield",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B3",
+          "",
+          null
+        ]
+      },
+      "D2": {
+        "roomId": "D2",
+        "name": "Global 25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv25_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "E2"
+        ]
+      },
+      "E2": {
+        "roomId": "E2",
+        "name": "Global 26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv26_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          "F2"
+        ]
+      },
+      "F2": {
+        "roomId": "F2",
+        "name": "Defenders 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_defenders",
+            "icon": "Portrait_LukeCage",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F3",
+          null,
+          ""
+        ]
+      },
+      "B3": {
+        "roomId": "B3",
+        "name": "Kree 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_kree",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B4",
+          "",
+          ""
+        ]
+      },
+      "F3": {
+        "roomId": "F3",
+        "name": "Merc 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_mercs1",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F4",
+          "",
+          ""
+        ]
+      },
+      "D3": {
+        "roomId": "D3",
+        "name": "Global 30",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv30_global",
+            "icon": "Portrait_NickFury",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D4",
+          "",
+          ""
+        ]
+      },
+      "A4": {
+        "roomId": "A4",
+        "name": "Cosmic 30",
+        "starting": false,
+        "objective": false,
+        "icon": "Portrait_Groot",
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv30_cosmic",
+            "icon": "Portrait_Groot",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A5",
+          null,
+          null
+        ]
+      },
+      "B4": {
+        "roomId": "B4",
+        "name": "Ravagers 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_ravagers",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "A4",
+          ""
+        ]
+      },
+      "D4": {
+        "roomId": "D4",
+        "name": "Global 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D5",
+          "",
+          ""
+        ]
+      },
+      "F4": {
+        "roomId": "F4",
+        "name": "Hand 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_hand",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "G4"
+        ]
+      },
+      "G4": {
+        "roomId": "G4",
+        "name": "Merc 28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv28_mercs1",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G5",
+          null,
+          null
+        ]
+      },
+      "D5": {
+        "roomId": "D5",
+        "name": "Hydra 30",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv30_hydra",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "C5",
+          "E5"
+        ]
+      },
+      "A5": {
+        "roomId": "A5",
+        "name": "Comsic 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_cosmic",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A6",
+          "",
+          null
+        ]
+      },
+      "C5": {
+        "roomId": "C5",
+        "name": "Global 28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv28_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C6",
+          "",
+          null
+        ]
+      },
+      "E5": {
+        "roomId": "E5",
+        "name": "Global 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E6",
+          null,
+          ""
+        ]
+      },
+      "G5": {
+        "roomId": "G5",
+        "name": "Ninjas 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_ninjas",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G6",
+          "",
+          null
+        ]
+      },
+      "C7": {
+        "roomId": "C7",
+        "name": "Global 32",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv32_global",
+            "icon": "Portrait_Hulk",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "",
+          null
+        ]
+      },
+      "E7": {
+        "roomId": "E7",
+        "name": "Hand 32",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv32_hand",
+            "icon": "Portrait_Elektra",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          null
+        ]
+      },
+      "A6": {
+        "roomId": "A6",
+        "name": "Cosmic 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_cosmic",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "B6"
+        ]
+      },
+      "B6": {
+        "roomId": "B6",
+        "name": "Guardians 30",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv30_guardians",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          "C6"
+        ]
+      },
+      "C6": {
+        "roomId": "C6",
+        "name": "Kree 31",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv31_kree",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C7",
+          null,
+          ""
+        ]
+      },
+      "E6": {
+        "roomId": "E6",
+        "name": "Street 31",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv31_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E7",
+          "",
+          ""
+        ]
+      },
+      "F6": {
+        "roomId": "F6",
+        "name": "Street 30",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv30_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "E6",
+          ""
+        ]
+      },
+      "G6": {
+        "roomId": "G6",
+        "name": "Street 29",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv29_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "F6",
+          null
+        ]
+      },
+      "D1": {
+        "roomId": "D1",
+        "name": "Space",
+        "starting": false,
+        "objective": false,
+        "icon": null,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D2",
+          null,
+          "E1"
+        ]
+      },
+      "B1": {
+        "roomId": "B1",
+        "name": "Space",
+        "starting": false,
+        "objective": false,
+        "icon": null,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B2",
+          "A1",
+          null
+        ]
+      },
+      "C3": {
+        "roomId": "C3",
+        "name": "Global 26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv26_global",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "D3"
+        ]
+      },
+      "A2": {
+        "roomId": "A2",
+        "name": "Cosmic 26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv26_cosmic",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A3",
+          null,
+          null
+        ]
+      },
+      "A3": {
+        "roomId": "A3",
+        "name": "Cosmic 28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv28_cosmic",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A4",
+          null,
+          null
+        ]
+      },
+      "E1": {
+        "roomId": "E1",
+        "name": "Street 25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv25_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "F1"
+        ]
+      },
+      "F1": {
+        "roomId": "F1",
+        "name": "Street 26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv26_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          "G1"
+        ]
+      },
+      "A1": {
+        "roomId": "A1",
+        "name": "Cosmic 25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv25_cosmic",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A2",
+          "",
+          null
+        ]
+      },
+      "G1": {
+        "roomId": "G1",
+        "name": "Street 27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv27_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G2",
+          null,
+          ""
+        ]
+      },
+      "G2": {
+        "roomId": "G2",
+        "name": "Street 28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv28_street",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G3",
+          "",
+          null
+        ]
+      },
+      "G3": {
+        "roomId": "G3",
+        "name": "Kingpin 28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "raid_lv28_mercBoss",
+            "icon": "raid_Icon_Ultimus.png",
+            "rewards": [
+              {
+                "m_rewardID": "raid_battledrops_lvl30_1",
+                "m_firstTimeOnly": false,
+                "m_alternateOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "F3",
+          null
+        ]
+      }
+    },
+    "startingRoomId": "C1"
+  }
 }

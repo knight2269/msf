@@ -1,88 +1,70 @@
 {
-	"Name": "PlayerClasses",
-	"MaxPlayerClassEnergy": 10,
-	"ClassAbilities":
-	{
-		"HealSquad":
-		{
-			"cost": 3,
-			"cooldown": 120,
-			"amount": 100,
-			"path": "heal_squad"
-		},
-		"GiveAttack":
-		{
-			"cost": 4,
-			"cooldown": 180,
-			"amount": 1,
-			"path": "give_attack"
-		},
-		"GiveEnergy":
-		{
-			"cost": 2,
-			"cooldown": 120,
-			"amount": 1,
-			"path": "give_energy"
-		},
-		"SniperShot":
-		{
-			"cost": 10,
-			"cooldown": 600,
-			"amount": 1,
-			"path": "sniper_shot"
-		},
-		"ShieldRoom":
-		{
-			"cost": 8,
-			"cooldown": 480,
-			"amount": 600,
-			"path": "shield_room"
-		},
-		"BreachRoom":
-		{
-			"cost": 6,
-			"cooldown": 360,
-			"amount": 180,
-			"path": "breach_room"
-		}
-	},
-	"PlayerClasses":
-	{
-		"Healer":
-		{
-			"Abilities":
-			[
-				"HealSquad"
-			]
-		},
-		"Agent":
-		{
-			"Abilities":
-			[
-				"GiveAttack",
-				"GiveEnergy"
-			]
-		},
-		"Sniper":
-		{
-			"Abilities":
-			[
-				"SniperShot"
-			]
-		},
-		"Shield":
-		{
-			"Abilities":
-			[
-				"ShieldRoom"
-			]
-		},
-		"Breacher":
-		{
-			"Abilities":
-			[
-				"BreachRoom"
-			]
-		}
-	}
+  "Name": "PlayerClasses",
+  "MaxPlayerClassEnergy": 10,
+  "ClassAbilities": {
+    "HealSquad": {
+      "cost": 3,
+      "cooldown": 120,
+      "amount": 100,
+      "path": "heal_squad"
+    },
+    "GiveAttack": {
+      "cost": 4,
+      "cooldown": 180,
+      "amount": 1,
+      "path": "give_attack"
+    },
+    "GiveEnergy": {
+      "cost": 2,
+      "cooldown": 120,
+      "amount": 1,
+      "path": "give_energy"
+    },
+    "SniperShot": {
+      "cost": 10,
+      "cooldown": 600,
+      "amount": 1,
+      "path": "sniper_shot"
+    },
+    "ShieldRoom": {
+      "cost": 8,
+      "cooldown": 480,
+      "amount": 600,
+      "path": "shield_room"
+    },
+    "BreachRoom": {
+      "cost": 6,
+      "cooldown": 360,
+      "amount": 180,
+      "path": "breach_room"
+    }
+  },
+  "PlayerClasses": {
+    "Healer": {
+      "Abilities": [
+        "HealSquad"
+      ]
+    },
+    "Agent": {
+      "Abilities": [
+        "GiveAttack",
+        "GiveEnergy"
+      ]
+    },
+    "Sniper": {
+      "Abilities": [
+        "SniperShot"
+      ]
+    },
+    "Shield": {
+      "Abilities": [
+        "ShieldRoom"
+      ]
+    },
+    "Breacher": {
+      "Abilities": [
+        "BreachRoom"
+      ]
+    }
+  }
 }

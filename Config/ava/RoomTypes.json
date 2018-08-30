@@ -1,3299 +1,3056 @@
 {
-	"Name": "RoomTypes",
-	"Rooms":
-	{
-		"MedBay":
-		{
-			"id": "MedBay",
-			"name": "ID_ALLIANCE_ROOM_MEDBAY",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_MEDBAY_DESC",
-			"image": "AVA_Room_Medical",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_DESC",
-					"unlockLevel": 0
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_DESC",
-					"unlockLevel": 1
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 50
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 60
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_STAT_POST_COMBAT",
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_1",
-						"modifiers":
-						[
-							{
-								"data": "HEALTH",
-								"quantity": 5,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 70
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_STAT_POST_COMBAT",
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "HEALTH",
-								"quantity": 5,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 80
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_STAT_POST_COMBAT",
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_3",
-						"modifiers":
-						[
-							{
-								"data": "HEALTH",
-								"quantity": 6,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 90
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_STAT_POST_COMBAT",
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_4",
-						"modifiers":
-						[
-							{
-								"data": "HEALTH",
-								"quantity": 6,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_6",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-raid-cur",
-								"quantity": 100
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_STAT_POST_COMBAT",
-						"desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_5",
-						"modifiers":
-						[
-							{
-								"data": "HEALTH",
-								"quantity": 7,
-								"percentage": true
-							}
-						]
-					}
-				]
-			]
-		},
-		"Armory":
-		{
-			"id": "Armory",
-			"name": "ID_ALLIANCE_ROOM_ARMORY",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_ARMORY_DESC",
-			"image": "AVA_Room_Armory",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			]
-		},
-		"Weap":
-		{
-			"id": "Weap",
-			"name": "ID_ALLIANCE_ROOM_WEAP",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_WEAP_DESC",
-			"image": "AVA_Room_Medical",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			]
-		},
-		"Bridge":
-		{
-			"id": "Bridge",
-			"name": "ID_ALLIANCE_ROOM_BRIDGE",
-			"score": 10,
-			"description": "ID_ALLIANCE_ROOM_BRIDGE_DESC",
-			"image": "AVA_Room_Bridge",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			]
-		},
-		"Hangar":
-		{
-			"id": "Hangar",
-			"name": "ID_ALLIANCE_ROOM_HANGAR",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_HANGAR_DESC",
-			"image": "AVA_Room_Hangar",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			]
-		},
-		"Reactor":
-		{
-			"id": "Reactor",
-			"name": "ID_ALLIANCE_ROOM_REACTOR",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_REACTOR_DESC",
-			"image": "AVA_Room_Generator",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_DESC",
-					"unlockLevel": 1
-				},
-				"war1":
-				{
-					"type": "WAR_DISABLE_ABILITIES",
-					"name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_DESC",
-					"unlockLevel": 1
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "asb",
-								"data": "helicarrier_armory_1",
-								"quantity": 1
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "HARVEST_DISABLE_ABILITIES",
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_1",
-						"rate": 30
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "asb",
-								"data": "helicarrier_armory_2",
-								"quantity": 1
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "HARVEST_DISABLE_ABILITIES",
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_2",
-						"rate": 30
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "asb",
-								"data": "helicarrier_armory_3",
-								"quantity": 1
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "HARVEST_DISABLE_ABILITIES",
-						"desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_3",
-						"rate": 30
-					}
-				]
-			]
-		},
-		"Barracks":
-		{
-			"id": "Barracks",
-			"name": "ID_ALLIANCE_ROOM_BARRACKS",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_BARRACKS_DESC",
-			"image": "AVA_Room_Barracks",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			]
-		},
-		"Cargo":
-		{
-			"id": "Cargo",
-			"name": "ID_ALLIANCE_ROOM_CARGO",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_CARGO_DESC",
-			"image": "AVA_Room_Storage",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_DESC",
-					"unlockLevel": 1
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_DESC",
-					"unlockLevel": 1
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "gs",
-								"data": "crate_premium",
-								"quantity": 10
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "gs",
-								"data": "crate_premium",
-								"quantity": 15
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_ABILITY_ENERGY",
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_1",
-						"chance": 0.05,
-						"modifiers":
-						[
-							{
-								"data": "INITIAL_ENERGY",
-								"quantity": 10,
-								"percentage": true,
-								"heroCount": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "gs",
-								"data": "crate_premium",
-								"quantity": 20
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_ABILITY_ENERGY",
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_2",
-						"chance": 0.05,
-						"modifiers":
-						[
-							{
-								"data": "INITIAL_ENERGY",
-								"quantity": 10,
-								"percentage": true,
-								"heroCount": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "gs",
-								"data": "crate_premium",
-								"quantity": 25
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_ABILITY_ENERGY",
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_3",
-						"chance": 0.1,
-						"modifiers":
-						[
-							{
-								"data": "INITIAL_ENERGY",
-								"quantity": 10,
-								"percentage": true,
-								"heroCount": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "gs",
-								"data": "crate_premium",
-								"quantity": 30
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_ABILITY_ENERGY",
-						"desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_4",
-						"chance": 0.1,
-						"modifiers":
-						[
-							{
-								"data": "INITIAL_ENERGY",
-								"quantity": 10,
-								"percentage": true,
-								"heroCount": 1
-							}
-						]
-					}
-				]
-			]
-		},
-		"Deck1":
-		{
-			"id": "Deck1",
-			"name": "ID_ALLIANCE_ROOM_DECK1",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_DECK1_DESC",
-			"image": "AVA_Room_Deck002",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_DESC",
-					"unlockLevel": 0
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_DESC",
-					"unlockLevel": 0
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 15
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 20
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 10,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 25
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_3",
-						"modifiers":
-						[
-							{
-								"data": "ACCURACY",
-								"quantity": 5
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 30
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_4",
-						"modifiers":
-						[
-							{
-								"data": "STAMINA",
-								"quantity": 5
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 35
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_5",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 10,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_6",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 40
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_6",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 10,
-								"percentage": true
-							}
-						]
-					}
-				]
-			]
-		},
-		"Deck2":
-		{
-			"id": "Deck2",
-			"name": "ID_ALLIANCE_ROOM_DECK2",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_DECK2_DESC",
-			"image": "AVA_Room_Deck003",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_DESC",
-					"unlockLevel": 0
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_DESC",
-					"unlockLevel": 0
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 15
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 2
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 20
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 25
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_3",
-						"modifiers":
-						[
-							{
-								"data": "ACCURACY",
-								"quantity": 6
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 30
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_4",
-						"modifiers":
-						[
-							{
-								"data": "STAMINA",
-								"quantity": 6
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 35
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_5",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_6",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 40
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_6",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				]
-			]
-		},
-		"Deck3":
-		{
-			"id": "Deck3",
-			"name": "ID_ALLIANCE_ROOM_DECK3",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_DECK3_DESC",
-			"image": "AVA_Room_Deck003",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_DESC",
-					"unlockLevel": 0
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_DESC",
-					"unlockLevel": 0
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 15
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 2
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 20
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 25
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_3",
-						"modifiers":
-						[
-							{
-								"data": "ACCURACY",
-								"quantity": 6
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 30
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_4",
-						"modifiers":
-						[
-							{
-								"data": "STAMINA",
-								"quantity": 6
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 35
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_5",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_6",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "energy-campaign-cur",
-								"quantity": 40
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_TURRET_STAT",
-						"desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_6",
-						"modifiers":
-						[
-							{
-								"data": "DAMAGE",
-								"quantity": 15,
-								"percentage": true
-							}
-						]
-					}
-				]
-			]
-		},
-		"SciLab":
-		{
-			"id": "SciLab",
-			"name": "ID_ALLIANCE_ROOM_SCILAB",
-			"score": 5,
-			"description": "ID_ALLIANCE_ROOM_SCILAB_DESC",
-			"image": "AVA_Room_Hacker",
-			"contributions":
-			[
-				{
-					"level": 1,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 1
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 2,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 2
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 2
-						}
-					],
-					"xpRewardAmount": 10
-				},
-				{
-					"level": 3,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 3
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 3
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 4,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 4
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 4
-						}
-					],
-					"xpRewardAmount": 20
-				},
-				{
-					"level": 5,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 5
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 5
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 6,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 6
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 6
-						}
-					],
-					"xpRewardAmount": 30
-				},
-				{
-					"level": 7,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 7
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 7
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 8,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 8
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 8
-						}
-					],
-					"xpRewardAmount": 40
-				},
-				{
-					"level": 9,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 9
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 9
-						}
-					],
-					"xpRewardAmount": 50
-				},
-				{
-					"level": 10,
-					"userCost":
-					[
-						{
-							"t": "inv",
-							"n": "helimat_Common",
-							"q": 10
-						},
-						{
-							"t": "inv",
-							"n": "helimat_VeryRare",
-							"q": 10
-						}
-					],
-					"xpRewardAmount": 50
-				}
-			],
-			"abilities":
-			{
-				"eco1":
-				{
-					"type": "ECONOMY",
-					"name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_DESC",
-					"unlockLevel": 0
-				},
-				"war1":
-				{
-					"type": "WAR",
-					"name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_NAME",
-					"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_DESC",
-					"unlockLevel": 1
-				}
-			},
-			"ability_level_upgrades":
-			[
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_1",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 50
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_2",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 60
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_BUFF",
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_1",
-						"chance": 0.5,
-						"modifiers":
-						[
-							{
-								"data": "Proc_Pos_OffenseUp",
-								"quantity": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_3",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 70
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_BUFF",
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_2",
-						"chance": 1,
-						"modifiers":
-						[
-							{
-								"data": "Proc_Pos_OffenseUp",
-								"quantity": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_4",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 80
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_BUFF",
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_3",
-						"chance": 0.15,
-						"modifiers":
-						[
-							{
-								"data": "Proc_Pos_OffenseUp",
-								"quantity": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_5",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 90
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_BUFF",
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_4",
-						"chance": 0.15,
-						"modifiers":
-						[
-							{
-								"data": "Proc_Pos_OffenseUp",
-								"quantity": 1
-							}
-						]
-					}
-				],
-				[
-					{
-						"abilityId": "eco1",
-						"type": "HARVEST_ITEM",
-						"rate": 28800,
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_6",
-						"items":
-						[
-							{
-								"type": "res",
-								"data": "heal-arena-cur",
-								"quantity": 100
-							}
-						]
-					},
-					{
-						"abilityId": "war1",
-						"type": "MODIFIER_BUFF",
-						"desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_5",
-						"chance": 0.2,
-						"modifiers":
-						[
-							{
-								"data": "Proc_Pos_OffenseUp",
-								"quantity": 1
-							}
-						]
-					}
-				]
-			]
-		}
-	}
+  "Name": "RoomTypes",
+  "Rooms": {
+    "MedBay": {
+      "id": "MedBay",
+      "name": "ID_ALLIANCE_ROOM_MEDBAY",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_MEDBAY_DESC",
+      "image": "AVA_Room_Medical",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_DESC",
+          "unlockLevel": 0
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_DESC",
+          "unlockLevel": 1
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 50
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 60
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_STAT_POST_COMBAT",
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_1",
+            "modifiers": [
+              {
+                "data": "HEALTH",
+                "quantity": 5,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 70
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_STAT_POST_COMBAT",
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "HEALTH",
+                "quantity": 5,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 80
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_STAT_POST_COMBAT",
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_3",
+            "modifiers": [
+              {
+                "data": "HEALTH",
+                "quantity": 6,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 90
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_STAT_POST_COMBAT",
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_4",
+            "modifiers": [
+              {
+                "data": "HEALTH",
+                "quantity": 6,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_6",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-raid-cur",
+                "quantity": 100
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_STAT_POST_COMBAT",
+            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_5",
+            "modifiers": [
+              {
+                "data": "HEALTH",
+                "quantity": 7,
+                "percentage": true
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Armory": {
+      "id": "Armory",
+      "name": "ID_ALLIANCE_ROOM_ARMORY",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_ARMORY_DESC",
+      "image": "AVA_Room_Armory",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ]
+    },
+    "Weap": {
+      "id": "Weap",
+      "name": "ID_ALLIANCE_ROOM_WEAP",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_WEAP_DESC",
+      "image": "AVA_Room_Medical",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ]
+    },
+    "Bridge": {
+      "id": "Bridge",
+      "name": "ID_ALLIANCE_ROOM_BRIDGE",
+      "score": 10,
+      "description": "ID_ALLIANCE_ROOM_BRIDGE_DESC",
+      "image": "AVA_Room_Bridge",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ]
+    },
+    "Hangar": {
+      "id": "Hangar",
+      "name": "ID_ALLIANCE_ROOM_HANGAR",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_HANGAR_DESC",
+      "image": "AVA_Room_Hangar",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ]
+    },
+    "Reactor": {
+      "id": "Reactor",
+      "name": "ID_ALLIANCE_ROOM_REACTOR",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_REACTOR_DESC",
+      "image": "AVA_Room_Generator",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_DESC",
+          "unlockLevel": 1
+        },
+        "war1": {
+          "type": "WAR_DISABLE_ABILITIES",
+          "name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_DESC",
+          "unlockLevel": 1
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "asb",
+                "data": "helicarrier_armory_1",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "HARVEST_DISABLE_ABILITIES",
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_1",
+            "rate": 30
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "asb",
+                "data": "helicarrier_armory_2",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "HARVEST_DISABLE_ABILITIES",
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_2",
+            "rate": 30
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "asb",
+                "data": "helicarrier_armory_3",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "HARVEST_DISABLE_ABILITIES",
+            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_3",
+            "rate": 30
+          }
+        ]
+      ]
+    },
+    "Barracks": {
+      "id": "Barracks",
+      "name": "ID_ALLIANCE_ROOM_BARRACKS",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_BARRACKS_DESC",
+      "image": "AVA_Room_Barracks",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ]
+    },
+    "Cargo": {
+      "id": "Cargo",
+      "name": "ID_ALLIANCE_ROOM_CARGO",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_CARGO_DESC",
+      "image": "AVA_Room_Storage",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_DESC",
+          "unlockLevel": 1
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_DESC",
+          "unlockLevel": 1
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "gs",
+                "data": "crate_premium",
+                "quantity": 10
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "gs",
+                "data": "crate_premium",
+                "quantity": 15
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_ABILITY_ENERGY",
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_1",
+            "chance": 0.05,
+            "modifiers": [
+              {
+                "data": "INITIAL_ENERGY",
+                "quantity": 10,
+                "percentage": true,
+                "heroCount": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "gs",
+                "data": "crate_premium",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_ABILITY_ENERGY",
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_2",
+            "chance": 0.05,
+            "modifiers": [
+              {
+                "data": "INITIAL_ENERGY",
+                "quantity": 10,
+                "percentage": true,
+                "heroCount": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "gs",
+                "data": "crate_premium",
+                "quantity": 25
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_ABILITY_ENERGY",
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_3",
+            "chance": 0.1,
+            "modifiers": [
+              {
+                "data": "INITIAL_ENERGY",
+                "quantity": 10,
+                "percentage": true,
+                "heroCount": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "gs",
+                "data": "crate_premium",
+                "quantity": 30
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_ABILITY_ENERGY",
+            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_4",
+            "chance": 0.1,
+            "modifiers": [
+              {
+                "data": "INITIAL_ENERGY",
+                "quantity": 10,
+                "percentage": true,
+                "heroCount": 1
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Deck1": {
+      "id": "Deck1",
+      "name": "ID_ALLIANCE_ROOM_DECK1",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_DECK1_DESC",
+      "image": "AVA_Room_Deck002",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_DESC",
+          "unlockLevel": 0
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_DESC",
+          "unlockLevel": 0
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 15
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 10,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 25
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_3",
+            "modifiers": [
+              {
+                "data": "ACCURACY",
+                "quantity": 5
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 30
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_4",
+            "modifiers": [
+              {
+                "data": "STAMINA",
+                "quantity": 5
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 35
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_5",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 10,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_6",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 40
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_6",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 10,
+                "percentage": true
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Deck2": {
+      "id": "Deck2",
+      "name": "ID_ALLIANCE_ROOM_DECK2",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_DECK2_DESC",
+      "image": "AVA_Room_Deck003",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_DESC",
+          "unlockLevel": 0
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_DESC",
+          "unlockLevel": 0
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 15
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 2
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 25
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_3",
+            "modifiers": [
+              {
+                "data": "ACCURACY",
+                "quantity": 6
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 30
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_4",
+            "modifiers": [
+              {
+                "data": "STAMINA",
+                "quantity": 6
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 35
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_5",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_6",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 40
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_6",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Deck3": {
+      "id": "Deck3",
+      "name": "ID_ALLIANCE_ROOM_DECK3",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_DECK3_DESC",
+      "image": "AVA_Room_Deck003",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_DESC",
+          "unlockLevel": 0
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_DESC",
+          "unlockLevel": 0
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 15
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 2
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 25
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_3",
+            "modifiers": [
+              {
+                "data": "ACCURACY",
+                "quantity": 6
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 30
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_4",
+            "modifiers": [
+              {
+                "data": "STAMINA",
+                "quantity": 6
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 35
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_5",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_6",
+            "items": [
+              {
+                "type": "res",
+                "data": "energy-campaign-cur",
+                "quantity": 40
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_TURRET_STAT",
+            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_6",
+            "modifiers": [
+              {
+                "data": "DAMAGE",
+                "quantity": 15,
+                "percentage": true
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "SciLab": {
+      "id": "SciLab",
+      "name": "ID_ALLIANCE_ROOM_SCILAB",
+      "score": 5,
+      "description": "ID_ALLIANCE_ROOM_SCILAB_DESC",
+      "image": "AVA_Room_Hacker",
+      "contributions": [
+        {
+          "level": 1,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 1
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 2,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 2
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 2
+            }
+          ],
+          "xpRewardAmount": 10
+        },
+        {
+          "level": 3,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 3
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 3
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 4,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 4
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 4
+            }
+          ],
+          "xpRewardAmount": 20
+        },
+        {
+          "level": 5,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 5
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 5
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 6,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 6
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 6
+            }
+          ],
+          "xpRewardAmount": 30
+        },
+        {
+          "level": 7,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 7
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 7
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 8,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 8
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 8
+            }
+          ],
+          "xpRewardAmount": 40
+        },
+        {
+          "level": 9,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 9
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 9
+            }
+          ],
+          "xpRewardAmount": 50
+        },
+        {
+          "level": 10,
+          "userCost": [
+            {
+              "t": "inv",
+              "n": "helimat_Common",
+              "q": 10
+            },
+            {
+              "t": "inv",
+              "n": "helimat_VeryRare",
+              "q": 10
+            }
+          ],
+          "xpRewardAmount": 50
+        }
+      ],
+      "abilities": {
+        "eco1": {
+          "type": "ECONOMY",
+          "name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_DESC",
+          "unlockLevel": 0
+        },
+        "war1": {
+          "type": "WAR",
+          "name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_NAME",
+          "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_DESC",
+          "unlockLevel": 1
+        }
+      },
+      "ability_level_upgrades": [
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_1",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 50
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_2",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 60
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_BUFF",
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_1",
+            "chance": 0.5,
+            "modifiers": [
+              {
+                "data": "Proc_Pos_OffenseUp",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_3",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 70
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_BUFF",
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_2",
+            "chance": 1,
+            "modifiers": [
+              {
+                "data": "Proc_Pos_OffenseUp",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_4",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 80
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_BUFF",
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_3",
+            "chance": 0.15,
+            "modifiers": [
+              {
+                "data": "Proc_Pos_OffenseUp",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_5",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 90
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_BUFF",
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_4",
+            "chance": 0.15,
+            "modifiers": [
+              {
+                "data": "Proc_Pos_OffenseUp",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "abilityId": "eco1",
+            "type": "HARVEST_ITEM",
+            "rate": 28800,
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_6",
+            "items": [
+              {
+                "type": "res",
+                "data": "heal-arena-cur",
+                "quantity": 100
+              }
+            ]
+          },
+          {
+            "abilityId": "war1",
+            "type": "MODIFIER_BUFF",
+            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_5",
+            "chance": 0.2,
+            "modifiers": [
+              {
+                "data": "Proc_Pos_OffenseUp",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  }
 }
