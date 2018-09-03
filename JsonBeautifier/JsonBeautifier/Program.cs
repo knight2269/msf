@@ -17,6 +17,8 @@ namespace JsonBeautifier
 
             ProcessDirectory(rootDir);
 
+            Console.WriteLine("done!");
+
             Console.ReadKey();
         }
 
