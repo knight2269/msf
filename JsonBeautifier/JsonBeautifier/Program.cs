@@ -11,7 +11,7 @@ namespace JsonBeautifier
         {
             string rootDir = Directory.GetCurrentDirectory();
 
-            rootDir = @"d:\Repositories\msf\Config\";
+            rootDir = @"..\..\..\..\..\Config\";
 
             Console.WriteLine("parsing dir: {0}", rootDir);
 
