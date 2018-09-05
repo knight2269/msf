@@ -83,8 +83,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_30",
@@ -416,6 +415,102 @@
       },
       "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_45_60",
       "player_limit": 24,
+      "group": "test_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": "",
+      "strikeTeamImages": [
+        "Ultimus_Raid5",
+        "Ultimus_Raid5",
+        "Ultimus_Raid5"
+      ],
+      "cost": [
+        {
+          "res": "ave_key_ultimus",
+          "amount": 11500
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_participation_50",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_lvl50_rnk01_mdl1",
+            "r_ctrb_lvl50_rnk01_mdl2",
+            "r_ctrb_lvl50_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_lvl50_rnk02_mdl1",
+            "r_ctrb_lvl50_rnk02_mdl2",
+            "r_ctrb_lvl50_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_lvl50_rnk03_mdl1",
+            "r_ctrb_lvl50_rnk03_mdl2",
+            "r_ctrb_lvl50_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_lvl50_rnk04_mdl1",
+            "r_ctrb_lvl50_rnk04_mdl2",
+            "r_ctrb_lvl50_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      },
+      "isEvent": true
+    },
+    {
+      "raidId": "raid_lvl_50_v2",
+      "name": "ID_RAIDS_LEVEL_50_NAME",
+      "duration": 24,
+      "total_rooms": 59,
+      "total_missions": 51,
+      "description": "ID_RAIDS_LEVEL_50_DESC",
+      "details": "ID_RAIDS_LEVEL_50_DETAILS",
+      "image": "Ultimus_Raid5",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "startNodePosition": {
+        "x": -700,
+        "y": -400
+      },
+      "scrollBoundarySize": {
+        "x": 4096,
+        "y": 2400
+      },
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_45_60",
+      "player_limit": 24,
       "group": "hydra_raids",
       "isOperation": false,
       "stCount": 3,
@@ -488,101 +583,6 @@
         "filters": {}
       },
       "isEvent": false
-    },
-    {
-      "raidId": "raid_lvl_50_v2",
-      "name": "ID_RAIDS_LEVEL_50_NAME",
-      "duration": 24,
-      "total_rooms": 59,
-      "total_missions": 51,
-      "description": "ID_RAIDS_LEVEL_50_DESC",
-      "details": "ID_RAIDS_LEVEL_50_DETAILS",
-      "image": "Ultimus_Raid5",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 2400
-      },
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_45_60",
-      "player_limit": 24,
-      "group": "test_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [
-        "Ultimus_Raid5",
-        "Ultimus_Raid5",
-        "Ultimus_Raid5"
-      ],
-      "cost": [
-        {
-          "res": "ave_key_ultimus",
-          "amount": 11500
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_participation_50",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_lvl50_rnk01_mdl1",
-            "r_ctrb_lvl50_rnk01_mdl2",
-            "r_ctrb_lvl50_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_lvl50_rnk02_mdl1",
-            "r_ctrb_lvl50_rnk02_mdl2",
-            "r_ctrb_lvl50_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_lvl50_rnk03_mdl1",
-            "r_ctrb_lvl50_rnk03_mdl2",
-            "r_ctrb_lvl50_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_lvl50_rnk04_mdl1",
-            "r_ctrb_lvl50_rnk04_mdl2",
-            "r_ctrb_lvl50_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
     },
     {
       "raidId": "raid_lvl_65",

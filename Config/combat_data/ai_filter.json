@@ -7,6 +7,14 @@
         }
       ]
     },
+    "debuff_remove": {
+      "entries": [
+        {
+          "allies": "true",
+          "type": "only_if_has_debuff"
+        }
+      ]
+    },
     "heal_standard": {
       "entries": [
         {
@@ -57,11 +65,30 @@
         }
       ]
     },
-    "debuff_remove": {
+    "has_5_charged": {
       "entries": [
         {
-          "allies": "true",
-          "type": "only_if_has_debuff"
+          "type": "only_if_proc_duration",
+          "duration_proc": "Charged",
+          "min_duration": 5
+        }
+      ]
+    },
+    "has_5_charged_or_about_to_die": {
+      "entries": [
+        {
+          "type": "or",
+          "any": [
+            {
+              "type": "only_if_proc_duration",
+              "duration_proc": "Charged",
+              "min_duration": 5
+            },
+            {
+              "health_pct": 50,
+              "type": "only_if_health_below"
+            }
+          ]
         }
       ]
     },
@@ -80,15 +107,12 @@
         }
       ]
     },
-    "taunt_protect_allies": {
+    "has_2_charged": {
       "entries": [
         {
-          "health_pct": 80,
-          "type": "only_if_can_heal"
-        },
-        {
-          "health_pct": 50,
-          "type": "only_if_health"
+          "type": "only_if_proc_duration",
+          "duration_proc": "Charged",
+          "min_duration": 2
         }
       ]
     },
@@ -102,6 +126,18 @@
           "health_pct": 50,
           "type": "only_if_can_heal",
           "greater": true
+        }
+      ]
+    },
+    "taunt_protect_allies": {
+      "entries": [
+        {
+          "health_pct": 80,
+          "type": "only_if_can_heal"
+        },
+        {
+          "health_pct": 50,
+          "type": "only_if_health"
         }
       ]
     }

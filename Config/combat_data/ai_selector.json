@@ -26,12 +26,12 @@
         }
       ]
     },
-    "Mission_TargetGroot": {
+    "Mission_TargetMsMarvel": {
       "entries": [
         {
           "filter": {
             "character": [
-              "Groot"
+              "MsMarvel"
             ]
           },
           "type": "characters",
@@ -177,16 +177,38 @@
         }
       ]
     },
-    "Mission_TargetScientistSupreme": {
+    "purge_healers": {
       "entries": [
         {
           "filter": {
             "character": [
-              "ScientistSupreme"
+              "DoctorStrange"
             ]
           },
           "type": "characters",
-          "weight": 50
+          "weight": 1000
+        },
+        {
+          "filter": {
+            "character": [
+              "NightNurse"
+            ]
+          },
+          "type": "characters",
+          "weight": 400
+        },
+        {
+          "filter": {
+            "has_any": [
+              "Support"
+            ]
+          },
+          "type": "traits",
+          "weight": 77
+        },
+        {
+          "type": "lowest_health",
+          "weight": 22
         }
       ]
     },
@@ -251,6 +273,19 @@
             ]
           },
           "type": "traits",
+          "weight": 50
+        }
+      ]
+    },
+    "Mission_TargetGroot": {
+      "entries": [
+        {
+          "filter": {
+            "character": [
+              "Groot"
+            ]
+          },
+          "type": "characters",
           "weight": 50
         }
       ]
@@ -424,6 +459,19 @@
         }
       ]
     },
+    "Mission_TargetScientistSupreme": {
+      "entries": [
+        {
+          "filter": {
+            "character": [
+              "ScientistSupreme"
+            ]
+          },
+          "type": "characters",
+          "weight": 50
+        }
+      ]
+    },
     "Mission_TargetRocketRaccoon": {
       "entries": [
         {
@@ -454,7 +502,8 @@
       "entries": [
         {
           "stat": "damage",
-          "type": "highest_stat"
+          "type": "highest_stat",
+          "weight": 99
         }
       ]
     },
@@ -510,6 +559,14 @@
         }
       ]
     },
+    "aoe_center": {
+      "entries": [
+        {
+          "type": "max_neighbors",
+          "weight": 99
+        }
+      ]
+    },
     "Mission_TargetKorath": {
       "entries": [
         {
@@ -546,6 +603,14 @@
           },
           "type": "characters",
           "weight": 50
+        }
+      ]
+    },
+    "cull_wounded": {
+      "entries": [
+        {
+          "type": "lowest_health",
+          "weight": 99
         }
       ]
     },

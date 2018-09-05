@@ -2950,7 +2950,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 19,
+      "m_index": 20,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": false,
@@ -7452,6 +7452,397 @@
       "m_mustHaveHeroesDesc": "",
       "m_unlockedDesc": ""
     },
+    "FEM_CITYHEROES": {
+      "m_chapterList": [
+        {
+          "m_missionList": [
+            {
+              "m_missionID": "event_fl_cityheroes_01",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_01_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t1_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t1",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L1",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L1",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ]
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_01_NAME",
+              "m_description": "ID_FL_CITY_HERO_01_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L1",
+              "m_image": "ID_FL_CITY_HERO_01_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_02",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_02_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t2_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t2",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L2",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L2",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 2
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_02_NAME",
+              "m_description": "ID_FL_CITY_HERO_02_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L2",
+              "m_image": "ID_FL_CITY_HERO_02_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_03",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_03_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t3_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t3",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L3",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L3",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 3
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_03_NAME",
+              "m_description": "ID_FL_CITY_HERO_03_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L3",
+              "m_image": "ID_FL_CITY_HERO_03_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_04",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_04_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t4_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t4",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L4",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L4",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 4
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_04_NAME",
+              "m_description": "ID_FL_CITY_HERO_04_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L4",
+              "m_image": "ID_FL_CITY_HERO_04_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_05",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_05_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t5_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t5",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {
+                "level": [
+                  51
+                ],
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_51"
+              },
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L5",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L5",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 5
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_05_NAME",
+              "m_description": "ID_FL_CITY_HERO_05_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L5",
+              "m_image": "ID_FL_CITY_HERO_05_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_06",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_06_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t6_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t6",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {
+                "level": [
+                  60
+                ],
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_60"
+              },
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L6",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L6",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 6
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_06_NAME",
+              "m_description": "ID_FL_CITY_HERO_06_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L6",
+              "m_image": "ID_FL_CITY_HERO_06_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_fl_cityheroes_07",
+              "m_energyCost": 0,
+              "m_storyTellingID": "fl_city_hero_07_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "event_flash_cityhero_t7_firsttime",
+                  "m_firstTimeOnly": true
+                },
+                {
+                  "m_rewardID": "event_flash_cityhero_t7",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {
+                "level": [
+                  60
+                ],
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_60"
+              },
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_CITY_HERO_5_L7",
+                "shortDescription": "ID_REQUIRES_CITY_HERO_5_L7",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Hero",
+                    "City"
+                  ],
+                  "loyalty": 7
+                }
+              },
+              "m_name": "ID_FL_CITY_HERO_07_NAME",
+              "m_description": "ID_FL_CITY_HERO_07_DESC",
+              "m_flavorText": "ID_REQUIRES_CITY_HERO_5_L7",
+              "m_image": "ID_FL_CITY_HERO_07_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            }
+          ],
+          "m_rewardsIDList": [],
+          "m_requirements": {},
+          "m_heroFilters": {
+            "description": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "quantity": 0,
+            "filters": {}
+          },
+          "m_name": "",
+          "m_description": "",
+          "m_flavorText": "",
+          "m_image": "",
+          "m_nodeImage": "",
+          "m_catalystGearID": "",
+          "m_gameStatID": "",
+          "m_dailyLimit": 0,
+          "m_mustHaveHeroes": [],
+          "m_mustHaveHeroesDesc": "",
+          "m_unlockedDesc": ""
+        }
+      ],
+      "m_index": 22,
+      "m_isEvent": true,
+      "m_timesBeatable": -1,
+      "m_refreshable": false,
+      "m_hideFromDisplay": false,
+      "m_statsToTrack": [],
+      "m_energyConsumptionStat": "",
+      "m_highestMissionStat": "",
+      "m_ctaData": null,
+      "m_nodeNameShort": null,
+      "m_rewardsIDList": [],
+      "m_requirements": {
+        "level": [
+          15
+        ]
+      },
+      "m_heroFilters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      },
+      "m_name": "ID_FL_CITY_HERO_NAME",
+      "m_description": "ID_FL_CITY_HERO_DESC",
+      "m_flavorText": "ID_ABILITY_MATS",
+      "m_image": "ID_FL_CITY_HERO_NAME",
+      "m_nodeImage": "",
+      "m_catalystGearID": "",
+      "m_gameStatID": "",
+      "m_dailyLimit": 3,
+      "m_mustHaveHeroes": [],
+      "m_mustHaveHeroesDesc": "",
+      "m_unlockedDesc": ""
+    },
     "FEM_HAND": {
       "m_chapterList": [
         {
@@ -7801,7 +8192,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 20,
+      "m_index": 21,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": false,
@@ -8171,7 +8562,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 21,
+      "m_index": 23,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": true,
@@ -8577,7 +8968,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 22,
+      "m_index": 24,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": true,
@@ -8933,7 +9324,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 18,
+      "m_index": 19,
       "m_isEvent": true,
       "m_timesBeatable": 1,
       "m_refreshable": false,
