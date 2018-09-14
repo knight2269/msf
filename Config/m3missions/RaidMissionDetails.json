@@ -6310,15 +6310,17 @@
                         1,
                         1,
                         -1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "ShieldDmg_AoE",
                       "level": 20,
                       "loyalty": 2,
-                      "tier": 3
+                      "tier": 3,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6326,15 +6328,17 @@
                         1,
                         1,
                         -1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 20,
                       "loyalty": 2,
-                      "tier": 3
+                      "tier": 3,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6342,8 +6346,8 @@
                         2,
                         2,
                         1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
@@ -6353,7 +6357,9 @@
                       "tier": 4,
                       "speed_percent": 110,
                       "max_hp_percent": 110,
-                      "dmg_percent": 110
+                      "dmg_percent": 110,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6361,14 +6367,16 @@
                         1,
                         1,
                         -1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldTank_Stun",
                       "level": 20,
                       "loyalty": 2,
-                      "tier": 3
+                      "tier": 3,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6376,14 +6384,16 @@
                         1,
                         1,
                         -1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 20,
                       "loyalty": 2,
-                      "tier": 3
+                      "tier": 3,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -6402,15 +6412,17 @@
                         2,
                         2,
                         1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "SpiderMan",
                       "level": 26,
                       "loyalty": 2,
                       "tier": 4,
-                      "speed_percent": 90
+                      "speed_percent": 90,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6418,15 +6430,17 @@
                         2,
                         2,
                         1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 26,
                       "loyalty": 2,
                       "tier": 4,
-                      "speed_percent": 90
+                      "speed_percent": 90,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6434,15 +6448,17 @@
                         2,
                         2,
                         1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "CaptainAmerica",
                       "level": 26,
                       "loyalty": 2,
                       "tier": 4,
-                      "speed_percent": 90
+                      "speed_percent": 90,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6450,8 +6466,8 @@
                         2,
                         2,
                         1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "NickFury",
@@ -6460,7 +6476,9 @@
                       "tier": 4,
                       "speed_percent": 110,
                       "max_hp_percent": 110,
-                      "dmg_percent": 110
+                      "dmg_percent": 110,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -6468,15 +6486,17 @@
                         1,
                         1,
                         -1,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 20,
                       "loyalty": 2,
                       "tier": 3,
-                      "speed_percent": 90
+                      "speed_percent": 90,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -6663,16 +6683,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeControl_Assist",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -6680,16 +6698,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Offense",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -6697,16 +6713,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerSupport_Heal",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -6714,16 +6728,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerDmg_AoE",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -6731,16 +6743,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeSupport_HoT",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -6748,16 +6758,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "StarLord",
                       "level": 27,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -8569,16 +8577,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Daredevil",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -8586,16 +8592,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Bonus",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -8603,16 +8607,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -8620,16 +8622,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandSupport_Heal",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -8637,16 +8637,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandTank_Stealth",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     },
                     {
                       "abilities": [
@@ -8654,16 +8652,14 @@
                         2,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Unbuff",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 4,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 4
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -19920,14 +19916,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercTank_Debuff",
                       "level": 39,
                       "loyalty": 2,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -19935,14 +19933,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercDmg_Single",
                       "level": 39,
                       "loyalty": 2,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -19950,14 +19950,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercSupport_Buffs",
                       "level": 39,
                       "loyalty": 2,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -19965,14 +19967,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 39,
                       "loyalty": 2,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -19992,14 +19996,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Elektra",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -20007,14 +20013,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Daredevil",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -20022,14 +20030,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "IronFist",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -20037,14 +20047,16 @@
                         3,
                         3,
                         2,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "NightNurse",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6
+                      "tier": 6,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -20105,16 +20117,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "UltronDmg_Speed",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20122,16 +20132,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "UltronDmg_Defense",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20139,16 +20147,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20156,16 +20162,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "UltronSupport_Heal",
                       "level": 40,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20173,17 +20177,15 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Ultron",
                       "level": 42,
                       "loyalty": 3,
                       "tier": 6,
-                      "max_hp_percent": 120,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 120
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -20203,16 +20205,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeSupport_HoT",
                       "level": 41,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20220,16 +20220,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeControl_Assist",
                       "level": 41,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20237,16 +20235,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Korath",
                       "level": 41,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     },
                     {
                       "abilities": [
@@ -20254,8 +20250,8 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "desired_starting_ability_energy": [
@@ -20271,9 +20267,7 @@
                       "level": 43,
                       "loyalty": 3,
                       "tier": 6,
-                      "max_hp_percent": 150,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 150
                     },
                     {
                       "abilities": [
@@ -20281,16 +20275,14 @@
                         3,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 41,
                       "loyalty": 3,
-                      "tier": 6,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 6
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -21481,17 +21473,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "CaptainAmerica",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -21499,17 +21489,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldDmg_AoE",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -21517,17 +21505,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -21535,17 +21521,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "BlackWidow",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -21553,17 +21537,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Hawkeye",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -21571,17 +21553,15 @@
                         4,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldDmg_Defense",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -22500,16 +22480,14 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Crossbones",
                       "level": 44,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22517,16 +22495,14 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercSupport_Buffs",
                       "level": 44,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22534,16 +22510,14 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercDmg_General",
                       "level": 44,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22551,16 +22525,14 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercDmg_Single",
                       "level": 44,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22568,16 +22540,14 @@
                         4,
                         3,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Daredevil",
                       "level": 44,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -22597,16 +22567,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Bonus",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22614,16 +22582,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandTank_Stealth",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22631,16 +22597,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Unbuff",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22648,16 +22612,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandSupport_Heal",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22665,16 +22627,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "IronFist",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -22878,16 +22838,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "StarLord",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22895,16 +22853,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Gamora",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22912,16 +22868,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Nebula",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22929,16 +22883,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22946,16 +22898,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeControl_Assist",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -22963,16 +22913,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Yondu",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -23233,16 +23181,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "NickFury",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -23250,16 +23196,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "BlackWidow",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -23267,16 +23211,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldTank_Stun",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -23284,16 +23226,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -23301,16 +23241,14 @@
                         4,
                         4,
                         2,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     },
                     {
                       "abilities": [
@@ -23318,16 +23256,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Quake",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 7
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -23587,14 +23523,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Punisher",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -23602,14 +23540,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "IronFist",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -23617,14 +23557,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Elektra",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -23632,14 +23574,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "LukeCage",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -23647,14 +23591,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "NightNurse",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -23662,14 +23608,16 @@
                         4,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "Daredevil",
                       "level": 48,
                       "loyalty": 3,
-                      "tier": 7
+                      "tier": 7,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -25665,16 +25613,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Bonus",
                       "level": 50,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25682,16 +25628,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandControl_HealBlock",
                       "level": 50,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25699,16 +25643,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercSupport_Buffs",
                       "level": 50,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25716,16 +25658,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandTank_Stealth",
                       "level": 50,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25733,16 +25673,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandDmg_Bonus",
                       "level": 50,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -25761,17 +25699,15 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandSupport_Heal",
                       "level": 54,
                       "loyalty": 4,
                       "tier": 8,
-                      "max_hp_percent": 120,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 120
                     },
                     {
                       "abilities": [
@@ -25779,16 +25715,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercDmg_General",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25796,17 +25730,15 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercTank_Debuff",
                       "level": 54,
                       "loyalty": 4,
                       "tier": 8,
-                      "max_hp_percent": 120,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 120
                     },
                     {
                       "abilities": [
@@ -25814,16 +25746,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "HandSupport_Heal",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -25831,17 +25761,15 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "MercDmg_Single",
                       "level": 54,
                       "loyalty": 4,
                       "tier": 8,
-                      "max_hp_percent": 120,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 120
                     },
                     {
                       "abilities": [
@@ -25849,17 +25777,15 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Daredevil",
                       "level": 54,
                       "loyalty": 4,
                       "tier": 8,
-                      "max_hp_percent": 120,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "max_hp_percent": 120
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -26613,16 +26539,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26630,16 +26554,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26647,16 +26569,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26664,16 +26584,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26681,16 +26599,14 @@
                         4,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 54,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -26710,16 +26626,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerDmg_AoE",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26727,16 +26641,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerSupport_Heal",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26744,16 +26656,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26761,16 +26671,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerSupport_Heal",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26778,16 +26686,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerDmg_AoE",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -26807,16 +26713,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Korath",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26824,16 +26728,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26841,16 +26743,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "Ronan",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26858,16 +26758,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeControl_Assist",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -26875,16 +26773,14 @@
                         5,
                         4,
                         3,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -27190,14 +27086,16 @@
                         5,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27205,14 +27103,16 @@
                         5,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27220,14 +27120,16 @@
                         5,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27235,14 +27137,16 @@
                         5,
                         4,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Speed",
                       "level": 55,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27250,14 +27154,16 @@
                         5,
                         5,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeDmg_Offense",
                       "level": 57,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27265,14 +27171,16 @@
                         5,
                         5,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeSupport_HoT",
                       "level": 57,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27280,14 +27188,16 @@
                         5,
                         5,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "KreeTank_Counter",
                       "level": 57,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     },
                     {
                       "abilities": [
@@ -27295,14 +27205,16 @@
                         5,
                         5,
                         3,
-                        0,
-                        0
+                        1,
+                        1
                       ],
                       "procs_cnt": null,
                       "hero_id": "RavagerSupport_Heal",
                       "level": 57,
                       "loyalty": 4,
-                      "tier": 8
+                      "tier": 8,
+                      "hp": -1,
+                      "cur_hp_percent": 0
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -27363,17 +27275,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Hawkeye",
                       "level": 58,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27381,17 +27291,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27399,17 +27307,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldTank_Stun",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27417,17 +27323,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "BlackWidow",
                       "level": 58,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27435,17 +27339,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -27464,17 +27366,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Quake",
                       "level": 58,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27482,17 +27382,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "CaptainAmerica",
                       "level": 58,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27500,17 +27398,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NickFury",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27518,17 +27414,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "IronMan",
                       "level": 58,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27536,17 +27430,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     },
                     {
                       "abilities": [
@@ -27554,17 +27446,15 @@
                         5,
                         4,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldTank_Stun",
                       "level": 56,
                       "loyalty": 4,
-                      "tier": 8,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 8
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -27872,17 +27762,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NickFury",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -27890,17 +27778,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -27908,17 +27794,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldTank_Stun",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -27926,17 +27810,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "BlackPanther",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -27944,17 +27826,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Heal",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -27974,17 +27854,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "LukeCage",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -27992,17 +27870,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "BlackWidow",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -28010,17 +27886,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NightNurse",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -28028,17 +27902,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NickFury",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -28046,17 +27918,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     },
                     {
                       "abilities": [
@@ -28064,17 +27934,15 @@
                         5,
                         5,
                         4,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "ShieldTank_Stun",
                       "level": 60,
                       "loyalty": 5,
-                      "tier": 9,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "tier": 9
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -31889,8 +31757,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -31903,9 +31771,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -31913,8 +31779,8 @@
                         6,
                         -1,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -31927,9 +31793,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 2,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -31937,8 +31801,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -31951,9 +31815,7 @@
                       "loyalty": 7,
                       "tier": 11,
                       "desired_x_pos": 0,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -31961,8 +31823,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -31975,9 +31837,7 @@
                       "loyalty": 7,
                       "tier": 11,
                       "desired_x_pos": 2,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -31985,8 +31845,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -31999,9 +31859,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 2,
-                      "desired_y_pos": 1,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 1
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -32019,8 +31877,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -32033,9 +31891,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 3,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -32043,8 +31899,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -32057,9 +31913,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 1,
-                      "desired_y_pos": 0,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 0
                     },
                     {
                       "abilities": [
@@ -32067,8 +31921,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -32081,9 +31935,7 @@
                       "loyalty": 7,
                       "tier": 12,
                       "desired_x_pos": 0,
-                      "desired_y_pos": 1,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 1
                     },
                     {
                       "abilities": [
@@ -32091,8 +31943,8 @@
                         6,
                         6,
                         5,
-                        1,
-                        1
+                        0,
+                        0
                       ],
                       "procs_cnt": null,
                       "custom_entity_visual": [
@@ -32105,9 +31957,7 @@
                       "loyalty": 7,
                       "tier": 11,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 1,
-                      "hp": -1,
-                      "cur_hp_percent": 0
+                      "desired_y_pos": 1
                     }
                   ],
                   "EmptyStoryDelay": 0,

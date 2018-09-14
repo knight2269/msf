@@ -27225,14 +27225,14 @@
           "actions": [
             {
               "action": "turn_meter",
-              "change_pct": 100,
+              "change_pct": 15,
               "target": {
                 "relation": "ally"
               }
             },
             {
               "action": "turn_meter",
-              "change_pct": 50,
+              "change_pct": 10,
               "target": {
                 "filter": {
                   "traits": {
@@ -27320,6 +27320,43 @@
             ]
           },
           {
+            "action": "proc",
+            "action_pct": [
+              0,
+              0,
+              0,
+              100
+            ],
+            "target": {
+              "filter": {
+                "not": {
+                  "character": [
+                    "Loki",
+                    "LokiMinion"
+                  ]
+                }
+              },
+              "type": "random",
+              "limit": 10,
+              "relation": "ally",
+              "primary_selection": "exclude_from_pool"
+            },
+            "procs": [
+              {
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ],
+                "proc": "Stealth"
+              }
+            ]
+          },
+          {
             "count": [
               1,
               {
@@ -27347,6 +27384,9 @@
             "gear_tier": 0,
             "assist": {
               "passive_assist": "nonattack"
+            },
+            "target": {
+              "relation": "ally"
             },
             "pool": [
               {
@@ -27401,7 +27441,7 @@
             "counter": false
           }
         ],
-        "start_energy": 3
+        "start_energy": 4
       },
       "basic": {
         "power_mul": [
@@ -27498,13 +27538,13 @@
               {
                 "stat": "damage_pct",
                 "delta": [
-                  20,
-                  20,
-                  30,
-                  30,
-                  40,
-                  40,
-                  40
+                  10,
+                  10,
+                  15,
+                  15,
+                  25,
+                  25,
+                  25
                 ]
               }
             ],
