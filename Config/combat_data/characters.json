@@ -15452,13 +15452,123 @@
           "stat": "damage_pct",
           "apply_if": {
             "traits": {
-              "has_any": [
-                "City"
+              "and": [
+                {
+                  "has_any": [
+                    "City"
+                  ]
+                },
+                {
+                  "not": {
+                    "has_any": [
+                      "Hero"
+                    ]
+                  }
+                }
               ]
             },
             "relationship": "ally"
           },
           "delta": 5
+        },
+        {
+          "stat": "damage_pct",
+          "apply_if": {
+            "traits": {
+              "and": [
+                {
+                  "has_any": [
+                    "City"
+                  ]
+                },
+                {
+                  "has_any": [
+                    "Hero"
+                  ]
+                }
+              ]
+            },
+            "relationship": "ally"
+          },
+          "delta": 10
+        },
+        {
+          "stat": "damage_pct",
+          "target_apply_if": {
+            "traits": {
+              "has_any": [
+                "Villain"
+              ]
+            }
+          },
+          "apply_if": {
+            "traits": {
+              "and": [
+                {
+                  "has_any": [
+                    "City"
+                  ]
+                },
+                {
+                  "has_any": [
+                    "Hero"
+                  ]
+                }
+              ]
+            },
+            "relationship": "ally"
+          },
+          "delta": [
+            0,
+            30,
+            30,
+            30,
+            30
+          ]
+        }
+      ],
+      "passive": [
+        {
+          "exec_for": {
+            "character": [
+              "Daredevil"
+            ],
+            "relationship": "ally"
+          },
+          "actions": [
+            {
+              "visualid": "basic",
+              "action_pct": [
+                0,
+                0,
+                0,
+                100
+              ],
+              "stat_modifier": [
+                {
+                  "stat": "ability_damage_pct",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    160,
+                    200
+                  ]
+                },
+                {
+                  "stat": "armor_pierce_pct",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    10,
+                    10
+                  ]
+                }
+              ]
+            }
+          ],
+          "exec": "on_attacked"
         }
       ],
       "traits": [
@@ -15533,13 +15643,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  50,
-                  70,
-                  90,
-                  100,
+                  60,
+                  80,
+                  110,
                   120,
-                  140,
-                  170
+                  150,
+                  170,
+                  200
                 ]
               },
               {
@@ -15582,15 +15692,14 @@
         ],
         "actions": [
           {
-            "assist": {},
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
                 "delta": [
                   70,
-                  100,
-                  130,
-                  150,
+                  90,
+                  120,
+                  140,
                   170,
                   200,
                   240
@@ -15623,6 +15732,7 @@
           },
           {
             "counter": true,
+            "assist": {},
             "target": {
               "filter": {
                 "not": {
@@ -15682,11 +15792,11 @@
                 "delta": [
                   60,
                   80,
-                  100,
-                  120,
+                  110,
+                  130,
                   130,
                   160,
-                  190
+                  200
                 ]
               },
               {
@@ -15722,8 +15832,8 @@
           "delta": [
             0,
             0,
-            5,
-            5,
+            10,
+            10,
             10
           ]
         },
@@ -15731,9 +15841,55 @@
           "stat": "passive_number",
           "delta": [
             0,
+            30,
+            30,
+            50,
+            50
+          ]
+        },
+        {
+          "for_any": {
+            "traits": {
+              "and": [
+                {
+                  "has_any": [
+                    "City"
+                  ]
+                },
+                {
+                  "has_any": [
+                    "Hero"
+                  ]
+                }
+              ]
+            },
+            "relationship": "ally",
+            "owner_ok": "not_same_id"
+          },
+          "stat": "assist_nonattack_pct",
+          "delta": [
+            0,
+            0,
             10,
             10,
-            20,
+            20
+          ]
+        },
+        {
+          "stat": "assist_nonattack_pct",
+          "for_each": {
+            "traits": {
+              "has_any": [
+                "Defender"
+              ]
+            },
+            "relationship": "ally"
+          },
+          "delta": [
+            0,
+            0,
+            10,
+            10,
             20
           ]
         }
@@ -15762,13 +15918,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  50,
-                  70,
-                  90,
-                  110,
-                  130,
-                  150,
-                  180
+                  60,
+                  80,
+                  100,
+                  120,
+                  140,
+                  180,
+                  200
                 ]
               },
               {
@@ -15801,13 +15957,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  35,
-                  50,
-                  70,
-                  85,
+                  40,
+                  60,
+                  80,
                   100,
                   120,
-                  140
+                  140,
+                  160
                 ]
               },
               {
@@ -22039,16 +22195,45 @@
           "apply_if": {
             "traits": {
               "has_any": [
-                "City"
+                "Defender"
+              ]
+            },
+            "relationship": "ally"
+          },
+          "delta": [
+            20,
+            20,
+            30,
+            30,
+            40
+          ]
+        },
+        {
+          "stat": "resistance_pct",
+          "apply_if": {
+            "traits": {
+              "and": [
+                {
+                  "has_any": [
+                    "City"
+                  ]
+                },
+                {
+                  "not": {
+                    "has_any": [
+                      "Defender"
+                    ]
+                  }
+                }
               ]
             },
             "relationship": "ally"
           },
           "delta": [
             10,
-            10,
             15,
             15,
+            20,
             20
           ]
         },
@@ -22130,12 +22315,12 @@
                 "stat": "ability_damage_pct",
                 "delta": [
                   120,
-                  160,
-                  180,
-                  220,
-                  240,
-                  280,
-                  300
+                  170,
+                  210,
+                  260,
+                  300,
+                  350,
+                  400
                 ]
               }
             ]
@@ -22145,17 +22330,11 @@
             "count": [
               1,
               1,
-              {
-                "t": 2,
-                "f": 1
-              },
-              {
-                "t": 2,
-                "f": 1
-              },
               2,
               2,
-              100
+              3,
+              3,
+              1000
             ],
             "assist": {},
             "stat_modifier": [
@@ -22187,10 +22366,10 @@
                 "stat": "ability_damage_pct",
                 "delta": [
                   90,
-                  120,
+                  110,
                   130,
-                  160,
-                  190,
+                  150,
+                  170,
                   200,
                   220
                 ]
@@ -22198,18 +22377,51 @@
             ]
           },
           {
-            "count": 1,
-            "action_pct": [
-              0,
-              50
-            ],
-            "assist": {},
-            "visualid": "basic2",
             "action": "ability_energy",
             "recipient": {
               "type": "random_repeat",
               "relation": "ally"
-            }
+            },
+            "visualid": "basic2",
+            "action_pct": [
+              0,
+              50
+            ],
+            "count": 1
+          },
+          {
+            "action": "ability_energy",
+            "recipient": {
+              "filter": {
+                "and": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Defender"
+                      ]
+                    }
+                  },
+                  {
+                    "target": {
+                      "energy_level": "partial_energy"
+                    }
+                  }
+                ]
+              },
+              "type": "random_repeat",
+              "relation": "ally"
+            },
+            "visualid": "basic2",
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
+            "count": 1
           },
           {
             "action_pct": [
@@ -22242,11 +22454,11 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  75,
-                  90,
+                  80,
                   100,
                   120,
-                  150,
+                  140,
+                  160,
                   160,
                   170
                 ]
@@ -22256,6 +22468,7 @@
           {
             "count": 1,
             "action_cond": "if_prev_ran",
+            "assist": {},
             "action_pct": [
               0,
               50
@@ -22332,10 +22545,34 @@
                 4
               ],
               "type": "random_repeat"
+            }
+          },
+          {
+            "count": 1,
+            "counter": false,
+            "action_pct": [
+              0,
+              100
+            ],
+            "target": {
+              "primary_selection": "exclude_from_pool",
+              "places_from_primary": 10,
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Defender"
+                  ]
+                }
+              },
+              "limit": 10,
+              "relation": "ally",
+              "type": "random"
             },
             "assist": {
               "passive_assist": "nonattack"
-            }
+            },
+            "visualid": "special2",
+            "action": "ability_energy"
           }
         ],
         "cost": 4,
@@ -22491,6 +22728,15 @@
           {
             "action": "proc",
             "target": {
+              "filter": {
+                "traits": {
+                  "not": {
+                    "has_any": [
+                      "Defender"
+                    ]
+                  }
+                }
+              },
               "primary_selection": "exclude_from_pool",
               "relation": "ally",
               "limit": 10,
@@ -22498,7 +22744,36 @@
             },
             "procs": [
               {
-                "use_count": 1,
+                "proc": "DefenseUp"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Defender"
+                  ]
+                }
+              },
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "limit": 10,
+              "type": "random"
+            },
+            "procs": [
+              {
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ],
                 "proc": "DefenseUp"
               }
             ]
@@ -22516,7 +22791,6 @@
             },
             "procs": [
               {
-                "use_count": 1,
                 "proc": "Deathproof"
               }
             ]
@@ -22570,19 +22844,52 @@
         ],
         "actions": [
           {
-            "counter": true,
-            "assist": {
+            "action": "proc",
+            "visualid": "passive",
+            "action_pct": 30,
+            "target": {
               "filter": {
                 "traits": {
                   "has_any": [
                     "Hero"
                   ]
-                },
-                "owner_ok": false,
-                "relationship": "ally"
+                }
               },
-              "assist_call_pct": 30
+              "type": "random",
+              "relation": "ally",
+              "primary_selection": "exclude_from_pool"
             },
+            "procs": [
+              {
+                "proc": "AssistNow"
+              }
+            ]
+          },
+          {
+            "action_cond": "if_prev_ran",
+            "action_pct": [
+              0,
+              100
+            ],
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Defender"
+                ]
+              }
+            },
+            "visualid": "passive",
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "OffenseUp"
+              }
+            ]
+          },
+          {
+            "counter": true,
+            "assist": {},
+            "target": {},
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
@@ -22683,16 +22990,7 @@
             ]
           },
           {
-            "action_pct": [
-              0,
-              100
-            ],
-            "target": {
-              "relation": "ally"
-            },
-            "assist": {
-              "passive_assist": "nonattack"
-            },
+            "action": "proc",
             "apply_count": [
               1,
               1,
@@ -22702,14 +23000,47 @@
               2,
               2
             ],
-            "action": "proc",
+            "action_pct": [
+              0,
+              100
+            ],
+            "target": {
+              "relation": "ally"
+            },
             "procs": [
               {
-                "use_count": 1,
                 "proc": "HoT"
               },
               {
-                "use_count": 1,
+                "proc": "HoT"
+              }
+            ]
+          },
+          {
+            "counter": false,
+            "action_pct": [
+              0,
+              100
+            ],
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Defender"
+                  ]
+                }
+              },
+              "type": "random",
+              "relation": "ally",
+              "limit": 10
+            },
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "apply_count": 1,
+            "action": "proc",
+            "procs": [
+              {
                 "proc": "HoT"
               }
             ]
@@ -22887,7 +23218,13 @@
             },
             "relationship": "ally"
           },
-          "delta": 5
+          "delta": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ]
         }
       ],
       "traits": [
@@ -22943,17 +23280,16 @@
         ],
         "actions": [
           {
-            "assist": {},
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
                 "delta": [
                   170,
+                  210,
                   250,
-                  320,
-                  320,
-                  320,
-                  400,
+                  290,
+                  330,
+                  370,
                   400
                 ]
               }
@@ -22961,6 +23297,7 @@
           },
           {
             "counter": true,
+            "assist": {},
             "target": {
               "filter": {
                 "not": {
@@ -22973,40 +23310,27 @@
               },
               "type": "direct_neighbor",
               "limit": [
+                2,
+                2,
                 {
-                  "p": 40,
-                  "t": 2,
-                  "f": 0
-                },
-                {
-                  "p": 40,
-                  "t": 2,
-                  "f": 0
-                },
-                {
-                  "p": 40,
                   "t": 4,
-                  "f": 0
+                  "f": 2
                 },
                 {
-                  "p": 60,
                   "t": 4,
-                  "f": 0
+                  "f": 2
                 },
                 {
-                  "p": 60,
                   "t": 4,
-                  "f": 0
+                  "f": 3
                 },
                 {
-                  "p": 60,
                   "t": 4,
-                  "f": 0
+                  "f": 3
                 },
                 {
-                  "p": 60,
                   "t": 6,
-                  "f": 0
+                  "f": 4
                 }
               ],
               "primary_selection": "exclude_from_pool",
@@ -23018,13 +23342,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  130,
-                  190,
-                  190,
-                  190,
-                  250,
-                  250,
-                  300
+                  120,
+                  160,
+                  160,
+                  200,
+                  200,
+                  240,
+                  240
                 ]
               }
             ]
@@ -23049,11 +23373,11 @@
                 "stat": "ability_damage_pct",
                 "delta": [
                   90,
+                  120,
+                  150,
                   180,
-                  180,
-                  180,
-                  270,
-                  270,
+                  210,
+                  240,
                   270
                 ]
               }
@@ -23064,7 +23388,7 @@
               "traits": {
                 "not": {
                   "has_any": [
-                    "Hand"
+                    "Villain"
                   ]
                 }
               }
@@ -23085,13 +23409,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  70,
-                  70,
+                  80,
+                  110,
                   140,
                   140,
-                  140,
-                  210,
-                  210
+                  170,
+                  200,
+                  200
                 ]
               }
             ]
@@ -23099,13 +23423,13 @@
           {
             "assist": {},
             "action_pct": [
-              40,
-              40,
-              40,
-              50,
-              50,
-              50,
-              60
+              60,
+              60,
+              60,
+              80,
+              80,
+              80,
+              100
             ],
             "target": {
               "limit": 1
@@ -23114,13 +23438,13 @@
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  70,
-                  70,
+                  80,
+                  110,
                   140,
                   140,
-                  140,
-                  210,
-                  210
+                  170,
+                  200,
+                  200
                 ]
               }
             ],
@@ -23128,7 +23452,7 @@
             "only_if": {
               "traits": {
                 "has_any": [
-                  "Hand"
+                  "Villain"
                 ]
               }
             }
@@ -23138,12 +23462,25 @@
       "passive_stats": [
         {
           "stat": "dodge_chance_pct",
+          "for_each": {
+            "traits": {
+              "has_any": [
+                "Defender"
+              ]
+            },
+            "relationship": "ally",
+            "owner_ok": "not_same_id"
+          },
           "delta": [
             0,
-            5,
-            5,
-            5,
-            10
+            5
+          ]
+        },
+        {
+          "stat": "dodge_chance_pct",
+          "delta": [
+            0,
+            5
           ]
         },
         {
@@ -23182,18 +23519,29 @@
                 "stat": "ability_damage_pct",
                 "delta": [
                   80,
-                  110,
-                  110,
-                  110,
-                  110,
+                  100,
+                  120,
                   140,
-                  180
+                  160,
+                  180,
+                  200
                 ]
               }
             ]
           },
           {
+            "assist": {},
+            "action_pct": [
+              50,
+              50,
+              100
+            ],
             "target": {
+              "direct_neighbor_distance": 2,
+              "type": "direct_neighbor",
+              "stop_if_outcome": [
+                "dodge"
+              ],
               "filter": {
                 "not": {
                   "target": {
@@ -23203,71 +23551,79 @@
                   }
                 }
               },
-              "primary_selection": "exclude_from_pool",
-              "type": "direct_neighbor",
               "limit": [
+                1,
+                1,
+                1,
+                1,
                 {
-                  "p": 10,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 10,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 20,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 20,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 20,
                   "t": 2,
-                  "f": 0
+                  "f": 1
                 },
                 {
-                  "p": 30,
                   "t": 2,
-                  "f": 0
+                  "f": 1
                 },
-                {
-                  "p": 30,
-                  "t": 2,
-                  "f": 0
-                }
+                2
               ],
-              "stop_if_outcome": [
-                "dodge"
-              ]
+              "primary_selection": "exclude_from_pool"
             },
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
                 "delta": [
-                  60,
-                  60,
-                  100,
-                  100,
-                  100,
-                  150,
+                  70,
+                  90,
+                  90,
+                  110,
+                  110,
+                  130,
                   150
                 ]
               }
             ]
           },
           {
-            "counter": true,
-            "action_pct": 100,
+            "action": "proc",
+            "visualid": "special2",
             "target": {
               "relation": "ally"
             },
-            "assist": {},
+            "procs": [
+              {
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "proc": "Counter"
+              }
+            ]
+          },
+          {
+            "action_pct": [
+              0,
+              0,
+              100
+            ],
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Defender"
+                  ]
+                }
+              },
+              "type": "random",
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "limit": 10
+            },
+            "counter": true,
             "visualid": "special2",
             "action": "proc",
             "procs": [
@@ -27598,11 +27954,11 @@
             {
               "action": "heal",
               "action_pct": [
-                10,
-                10,
-                15,
-                15,
-                20
+                20,
+                20,
+                30,
+                30,
+                40
               ],
               "target": {
                 "relation": "ally"
@@ -27611,8 +27967,8 @@
                 10,
                 10,
                 10,
-                15,
-                15
+                20,
+                30
               ]
             },
             {
@@ -27636,12 +27992,143 @@
                 0,
                 10,
                 10,
-                15,
-                15
+                20,
+                30
+              ]
+            },
+            {
+              "action": "heal",
+              "action_cond": "if_prev_ran",
+              "visualid": "passive2",
+              "target": {
+                "filter": {
+                  "and": [
+                    {
+                      "not": {
+                        "traits": {
+                          "has_any": [
+                            "Defender"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "traits": {
+                        "has_any": [
+                          "Hero"
+                        ]
+                      }
+                    },
+                    {
+                      "traits": {
+                        "has_any": [
+                          "City"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "type": "random",
+                "limit": 10,
+                "relation": "ally",
+                "primary_selection": "exclude_from_pool"
+              },
+              "heal_pct": [
+                0,
+                0,
+                0,
+                10,
+                20
               ]
             }
           ],
           "exec": "on_turn"
+        },
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "target": {
+                "relation": "ally"
+              },
+              "heal_pct": [
+                20,
+                20,
+                20,
+                30,
+                30
+              ]
+            },
+            {
+              "action": "heal",
+              "visualid": "passive2",
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "Defender"
+                    ]
+                  }
+                },
+                "type": "random",
+                "limit": 10,
+                "relation": "ally",
+                "primary_selection": "exclude_from_pool"
+              },
+              "heal_pct": [
+                20,
+                20,
+                20,
+                30,
+                30
+              ]
+            },
+            {
+              "action": "heal",
+              "visualid": "passive2",
+              "target": {
+                "filter": {
+                  "and": [
+                    {
+                      "not": {
+                        "traits": {
+                          "has_any": [
+                            "Defender"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "traits": {
+                        "has_any": [
+                          "Hero"
+                        ]
+                      }
+                    },
+                    {
+                      "traits": {
+                        "has_any": [
+                          "City"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "type": "random",
+                "limit": 10,
+                "relation": "ally",
+                "primary_selection": "exclude_from_pool"
+              },
+              "heal_pct": [
+                0,
+                0,
+                0,
+                10,
+                10
+              ]
+            }
+          ],
+          "exec": "on_start"
         }
       ],
       "traits": [
@@ -27704,22 +28191,39 @@
         ],
         "actions": [
           {
-            "counter": true,
-            "assist": {},
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
                 "delta": [
                   300,
-                  360,
-                  420,
-                  480,
-                  480,
-                  540,
-                  600
+                  400,
+                  400,
+                  500,
+                  500,
+                  600,
+                  700
                 ]
               }
             ]
+          },
+          {
+            "category": "buff",
+            "count": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              3
+            ],
+            "counter": true,
+            "action_pct": [
+              0,
+              0,
+              100
+            ],
+            "assist": {},
+            "action": "proc_remove"
           },
           {
             "action": "proc",
@@ -27738,7 +28242,6 @@
             },
             "procs": [
               {
-                "use_count": 1,
                 "proc": "OffenseDown"
               }
             ]
@@ -27766,16 +28269,15 @@
         ],
         "actions": [
           {
-            "assist": {},
             "stat_modifier": [
               {
                 "stat": "ability_damage_pct",
                 "delta": [
                   90,
-                  130,
-                  130,
-                  170,
-                  170,
+                  110,
+                  140,
+                  160,
+                  190,
                   210,
                   250
                 ]
@@ -27784,6 +28286,12 @@
           },
           {
             "counter": true,
+            "assist": {},
+            "action_pct": [
+              50,
+              50,
+              100
+            ],
             "target": {
               "filter": {
                 "not": {
@@ -27796,41 +28304,19 @@
               },
               "type": "direct_neighbor",
               "limit": [
+                1,
+                1,
+                1,
+                1,
                 {
-                  "p": 50,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 50,
-                  "t": 1,
-                  "f": 0
-                },
-                {
-                  "p": 50,
                   "t": 2,
-                  "f": 0
+                  "f": 1
                 },
                 {
-                  "p": 50,
                   "t": 2,
-                  "f": 0
+                  "f": 1
                 },
-                {
-                  "p": 50,
-                  "t": 3,
-                  "f": 0
-                },
-                {
-                  "p": 50,
-                  "t": 3,
-                  "f": 0
-                },
-                {
-                  "p": 50,
-                  "t": 3,
-                  "f": 0
-                }
+                2
               ],
               "primary_selection": "exclude_from_pool",
               "stop_if_outcome": [
@@ -27842,18 +28328,31 @@
                 "stat": "ability_damage_pct",
                 "delta": [
                   70,
-                  100,
-                  100,
+                  90,
+                  90,
+                  110,
+                  110,
                   130,
-                  130,
-                  160,
-                  200
+                  130
                 ]
               }
             ]
           }
         ]
       },
+      "passive_stats": [
+        {
+          "stat": "damage_pct",
+          "for_each": {
+            "traits": {
+              "has_any": [
+                "Defender"
+              ]
+            }
+          },
+          "delta": 5
+        }
+      ],
       "passive_power_mul": [
         14,
         28,
@@ -27864,6 +28363,18 @@
       "special": {
         "actions": [
           {
+            "action": "proc_remove",
+            "category": "debuff",
+            "action_pct": [
+              0,
+              100
+            ],
+            "count": 1000,
+            "target": {
+              "relation": "ally"
+            }
+          },
+          {
             "action": "heal",
             "heal_amt": [
               400,
@@ -27872,7 +28383,7 @@
               1000,
               2500,
               5000,
-              7000
+              8000
             ],
             "target": {
               "relation": "ally"
@@ -27880,30 +28391,96 @@
             "heal_pct": 10
           },
           {
-            "category": "debuff",
-            "count": [
-              2,
-              2,
-              2,
-              1000,
-              1000,
-              1000,
-              1000
-            ],
+            "action": "turn_meter",
+            "change_pct": 30,
             "action_pct": [
               0,
               100
             ],
             "target": {
               "relation": "ally"
+            }
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              400,
+              400,
+              1000,
+              1000,
+              2500,
+              5000,
+              8000
+            ],
+            "action_pct": [
+              0,
+              0,
+              0,
+              100
+            ],
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Defender"
+                  ]
+                }
+              },
+              "type": "random",
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "limit": 10
+            },
+            "heal_pct": 10
+          },
+          {
+            "counter": false,
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
+            "target": {
+              "filter": {
+                "and": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Hero"
+                      ]
+                    }
+                  },
+                  {
+                    "traits": {
+                      "has_any": [
+                        "City"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "type": "by_least_health",
+              "relation": "ally"
             },
             "assist": {
               "passive_assist": "nonattack"
             },
-            "action": "proc_remove"
+            "heal_pct": 10,
+            "action": "heal",
+            "heal_amt": [
+              400,
+              400,
+              1000,
+              1000,
+              2500,
+              5000,
+              8000
+            ]
           }
         ],
-        "cost": 4,
+        "cost": 3,
         "power_mul": [
           0,
           28,
@@ -27913,8 +28490,8 @@
           136,
           163
         ],
-        "ai_filter": "heal_self_standard",
-        "start_energy": 4
+        "ai_filter": "heal_standard",
+        "start_energy": 3
       }
     },
     "StarLord": {
