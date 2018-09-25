@@ -6,14 +6,14 @@
       "modulePreReqID": "",
       "canRunParallel": false,
       "levelCap": 0,
-      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS, SYNERGY"
     },
     "nue_Tutorial_01": {
       "moduleID": "nue_Tutorial_01",
       "modulePreReqID": "nue_StartIntro_01,defaultModuleCompleted",
       "canRunParallel": false,
       "levelCap": 1,
-      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,COMBATPAUSEMENUCONTROLS"
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,COMBATPAUSEMENUCONTROLS, SYNERGY"
     },
     "nue_Targeting_01": {
       "moduleID": "nue_Targeting_01",
@@ -41,7 +41,7 @@
       "modulePreReqID": "nue_Tutorial_01",
       "canRunParallel": false,
       "levelCap": 2,
-      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,SYNERGY"
     },
     "nue_AllianceIntro_01": {
       "moduleID": "nue_AllianceIntro_01",
@@ -160,6 +160,27 @@
       "modulePreReqID": "nue_Tutorial_02",
       "canRunParallel": false,
       "levelCap": 35,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_Synergy_01": {
+      "moduleID": "nue_Synergy_01",
+      "modulePreReqID": "nue_Tutorial_02",
+      "canRunParallel": false,
+      "levelCap": 70,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarDonations_01": {
+      "moduleID": "nue_WarDonations_01",
+      "modulePreReqID": "nue_PunisherSquad_01",
+      "canRunParallel": false,
+      "levelCap": 70,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS, WARPOPUPS"
+    },
+    "nue_DD_01": {
+      "moduleID": "nue_DD_01",
+      "modulePreReqID": "nue_PunisherSquad_01",
+      "canRunParallel": false,
+      "levelCap": 70,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     }
   }

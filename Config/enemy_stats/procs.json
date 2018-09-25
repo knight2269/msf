@@ -1,5 +1,15 @@
 {
   "Data": {
+    "ReviveOnce": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "stat_modifier": [
+        {
+          "stat": "revive_pct",
+          "delta": 100
+        }
+      ]
+    },
     "Slow": {
       "category": "debuff",
       "stat_modifier": [
@@ -85,6 +95,29 @@
       "expiration_type": "end_of_turn",
       "opposite": "Counter"
     },
+    "UltronMinion": {
+      "category": "none",
+      "remove_on_death": false,
+      "expiration_type": "on_never_expire",
+      "stat_modifier": [
+        {
+          "stat": "max_hp_pct",
+          "delta": [
+            -45,
+            -45,
+            -45,
+            -45,
+            -45,
+            -45,
+            -45
+          ]
+        },
+        {
+          "stat": "damage_pct",
+          "delta": -30
+        }
+      ]
+    },
     "SummonedMinion": {
       "category": "none",
       "remove_on_death": false,
@@ -111,9 +144,10 @@
     "Charged": {
       "category": "none",
       "state": "charged",
+      "persist": true,
+      "remove_on_death": false,
       "type": "state",
-      "expiration_type": "on_never_expire",
-      "persist": true
+      "expiration_type": "on_never_expire"
     },
     "DefenseUp": {
       "category": "buff",

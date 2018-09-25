@@ -3632,6 +3632,82 @@
         "eventType": "DISPLAYOBJECT",
         "completionAction": "NONE"
       }
+    ],
+    "nue_Synergy_01": [
+      {
+        "moduleID": "nue_Synergy_01",
+        "eventID": "synergy_v1",
+        "nextEvent": null,
+        "savepoint": "synergy_v1",
+        "triggerData": "{\n  \"ObjectID\": \"Synergy\"\n}",
+        "storytellingID": "nue_synergy_01",
+        "eventData": "{\"ObjectID\":\"Synergy\",\"HighlightDirection\":\"TOP\",\"HideBackground\":\"TRUE\",\"HighlightDelay\":\"0\"}",
+        "completionActionData": "",
+        "rewardID": "",
+        "triggerType": "NUEOBJECTACTIVE",
+        "eventType": "HIGHLIGHTOBJECT",
+        "completionAction": "NONE"
+      }
+    ],
+    "nue_WarDonations_01": [
+      {
+        "moduleID": "nue_WarDonations_01",
+        "eventID": "warDonations_01",
+        "nextEvent": null,
+        "savepoint": "warDonations_01",
+        "triggerData": "{\"ObjectID\":\"ShellAllianceDonationMgr\"}",
+        "storytellingID": "nue_armory_01",
+        "eventData": "{\"HideBackground\":\"FALSE\"}",
+        "completionActionData": "",
+        "rewardID": "",
+        "triggerType": "UIELEMENTOPENED",
+        "eventType": "STORYTELLING",
+        "completionAction": "NONE"
+      },
+      {
+        "moduleID": "nue_WarDonations_01",
+        "eventID": "warDonations_02",
+        "nextEvent": null,
+        "savepoint": "",
+        "triggerData": "",
+        "storytellingID": "nue_armory_02",
+        "eventData": "{\"ObjectID\":\"VisitAllianceArmoryButton\",\"HighlightDirection\":\"TOP\",\"HideBackground\":\"FALSE\",\"HighlightDelay\":\"1\"}",
+        "completionActionData": "",
+        "rewardID": "",
+        "triggerType": "ONSTART",
+        "eventType": "HIGHLIGHTOBJECT",
+        "completionAction": "NONE"
+      },
+      {
+        "moduleID": "nue_WarDonations_01",
+        "eventID": "warDonations_03",
+        "nextEvent": null,
+        "savepoint": "",
+        "triggerData": "{\"ObjectID\":\"ShellAllianceArmoryMgr\"}",
+        "storytellingID": "nue_armory_03",
+        "eventData": "{\"HideBackground\":\"FALSE\"}",
+        "completionActionData": "",
+        "rewardID": "",
+        "triggerType": "UIELEMENTOPENED",
+        "eventType": "STORYTELLING",
+        "completionAction": "NONE"
+      }
+    ],
+    "nue_DD_01": [
+      {
+        "moduleID": "nue_DD_01",
+        "eventID": "dd_v1",
+        "nextEvent": null,
+        "savepoint": "dd_v1",
+        "triggerData": "{\n  \"ObjectID\": \"ShellInsanityTierSelectMgr\"\n}",
+        "storytellingID": "nue_dd_01",
+        "eventData": "{\"HideBackground\":\"FALSE\"}",
+        "completionActionData": "",
+        "rewardID": "",
+        "triggerType": "UIELEMENTOPENED",
+        "eventType": "STORYTELLING",
+        "completionAction": "NONE"
+      }
     ]
   }
 }

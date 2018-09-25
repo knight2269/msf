@@ -1,228 +1,106 @@
 {
   "Data": {
-    "Slow": {
+    "AbilityBlock": {
       "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "Evade",
+      "state": "ability_block",
+      "type": "state"
+    },
+    "AccuracyDown": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "Stealth",
       "stat_modifier": [
         {
-          "stat": "speed_pct",
-          "delta": -50
+          "delta": -100,
+          "stat": "accuracy_pct"
         }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "SpeedUp"
+      ]
     },
     "AssistNow": {
       "category": "none",
       "expiration_type": "end_of_any_turn",
       "stat_modifier": [
         {
-          "stat": "assist_attack_pct",
-          "delta": 100
-        }
-      ]
-    },
-    "Counter": {
-      "category": "buff",
-      "on_use": true,
-      "opposite": "DoT",
-      "expiration_type": "on_counter",
-      "stat_modifier": [
-        {
-          "stat": "counter_pct",
-          "delta": 100
-        }
-      ]
-    },
-    "HealBlock": {
-      "category": "debuff",
-      "state": "heal_block",
-      "type": "state",
-      "expiration_type": "end_of_turn",
-      "opposite": "Deathproof"
-    },
-    "SpeedUp": {
-      "category": "buff",
-      "stat_modifier": [
-        {
-          "stat": "speed_pct",
-          "delta": 50
-        }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "Slow"
-    },
-    "Evade": {
-      "category": "buff",
-      "on_use": true,
-      "opposite": "DoT",
-      "expiration_type": "on_evade",
-      "stat_modifier": [
-        {
-          "stat": "dodge_chance_pct",
-          "delta": 100
-        }
-      ]
-    },
-    "Stealth": {
-      "category": "buff",
-      "state": "stealthed",
-      "type": "state",
-      "expiration_type": "end_of_turn",
-      "opposite": "DoT"
-    },
-    "Deathproof": {
-      "category": "buff",
-      "on_use": true,
-      "opposite": "DoT",
-      "state": "death_proof",
-      "type": "state",
-      "expiration_type": "on_death_proof"
-    },
-    "Stun": {
-      "category": "debuff",
-      "state": "stunned",
-      "type": "state",
-      "expiration_type": "end_of_turn",
-      "opposite": "Counter"
-    },
-    "SummonedMinion": {
-      "category": "none",
-      "remove_on_death": false,
-      "expiration_type": "on_never_expire",
-      "stat_modifier": [
-        {
-          "stat": "max_hp_pct",
-          "delta": [
-            -90,
-            -90,
-            -90,
-            -90,
-            -90,
-            -90,
-            -90
-          ]
-        },
-        {
-          "stat": "damage_pct",
-          "delta": -30
+          "delta": 100,
+          "stat": "assist_attack_pct"
         }
       ]
     },
     "Charged": {
       "category": "none",
-      "state": "charged",
-      "type": "state",
       "expiration_type": "on_never_expire",
-      "persist": true
+      "persist": true,
+      "remove_on_death": false,
+      "state": "charged",
+      "type": "state"
     },
-    "DefenseUp": {
+    "Counter": {
       "category": "buff",
-      "stat_modifier": [
-        {
-          "stat": "damage_reduction_pct",
-          "delta": 50
-        },
-        {
-          "stat": "resistance_pct",
-          "delta": 50
-        }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "DefenseDown"
-    },
-    "DefenseDown": {
-      "category": "debuff",
-      "stat_modifier": [
-        {
-          "stat": "damage_reduction_pct",
-          "delta": -50
-        },
-        {
-          "stat": "resistance_pct",
-          "delta": -50
-        }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "DefenseUp"
-    },
-    "Taunt": {
-      "category": "buff",
-      "state": "taunting",
-      "type": "state",
-      "expiration_type": "start_of_turn",
-      "opposite": "DoT"
-    },
-    "AbilityBlock": {
-      "category": "debuff",
-      "state": "ability_block",
-      "type": "state",
-      "expiration_type": "end_of_turn",
-      "opposite": "Evade"
-    },
-    "Deflect": {
-      "category": "buff",
+      "expiration_type": "on_counter",
       "on_use": true,
       "opposite": "DoT",
-      "expiration_type": "on_block",
       "stat_modifier": [
         {
-          "stat": "block_chance_pct",
-          "delta": 100
-        },
-        {
-          "stat": "block_amount_pct",
-          "delta": 0
+          "delta": 100,
+          "stat": "counter_pct"
         }
       ]
     },
-    "HoT": {
+    "Deathproof": {
       "category": "buff",
+      "expiration_type": "on_death_proof",
+      "on_use": true,
       "opposite": "DoT",
-      "stacking": true,
-      "heal_pct": 10,
-      "type": "hot",
-      "expiration_type": "start_of_turn"
+      "state": "death_proof",
+      "type": "state"
     },
-    "OffenseUp": {
+    "DefenseDown": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "DefenseUp",
+      "stat_modifier": [
+        {
+          "delta": -50,
+          "stat": "damage_reduction_pct"
+        },
+        {
+          "delta": -50,
+          "stat": "resistance_pct"
+        }
+      ]
+    },
+    "DefenseUp": {
       "category": "buff",
+      "expiration_type": "end_of_turn",
+      "opposite": "DefenseDown",
       "stat_modifier": [
         {
-          "stat": "damage_pct",
-          "delta": 50
+          "delta": 50,
+          "stat": "damage_reduction_pct"
         },
         {
-          "stat": "focus_pct",
-          "delta": 50
+          "delta": 50,
+          "stat": "resistance_pct"
         }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "OffenseDown"
+      ]
     },
-    "AccuracyDown": {
-      "category": "debuff",
+    "Deflect": {
+      "category": "buff",
+      "expiration_type": "on_block",
+      "on_use": true,
+      "opposite": "DoT",
       "stat_modifier": [
         {
-          "stat": "accuracy_pct",
-          "delta": -100
-        }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "Stealth"
-    },
-    "OffenseDown": {
-      "category": "debuff",
-      "stat_modifier": [
-        {
-          "stat": "damage_pct",
-          "delta": -50
+          "delta": 100,
+          "stat": "block_chance_pct"
         },
         {
-          "stat": "focus_pct",
-          "delta": -50
+          "delta": 0,
+          "stat": "block_amount_pct"
         }
-      ],
-      "expiration_type": "end_of_turn",
-      "opposite": "OffenseUp"
+      ]
     },
     "DoT": {
       "category": "debuff",
@@ -235,10 +113,166 @@
         135,
         150
       ],
+      "expiration_type": "start_of_turn",
       "opposite": "HoT",
       "stacking": true,
-      "type": "dot",
-      "expiration_type": "start_of_turn"
+      "type": "dot"
+    },
+    "Evade": {
+      "category": "buff",
+      "expiration_type": "on_evade",
+      "on_use": true,
+      "opposite": "DoT",
+      "stat_modifier": [
+        {
+          "delta": 100,
+          "stat": "dodge_chance_pct"
+        }
+      ]
+    },
+    "HealBlock": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "Deathproof",
+      "state": "heal_block",
+      "type": "state"
+    },
+    "HoT": {
+      "category": "buff",
+      "expiration_type": "start_of_turn",
+      "heal_pct": 10,
+      "opposite": "DoT",
+      "stacking": true,
+      "type": "hot"
+    },
+    "OffenseDown": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "OffenseUp",
+      "stat_modifier": [
+        {
+          "delta": -50,
+          "stat": "damage_pct"
+        },
+        {
+          "delta": -50,
+          "stat": "focus_pct"
+        }
+      ]
+    },
+    "OffenseUp": {
+      "category": "buff",
+      "expiration_type": "end_of_turn",
+      "opposite": "OffenseDown",
+      "stat_modifier": [
+        {
+          "delta": 50,
+          "stat": "damage_pct"
+        },
+        {
+          "delta": 50,
+          "stat": "focus_pct"
+        }
+      ]
+    },
+    "ReviveOnce": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "stat_modifier": [
+        {
+          "delta": 100,
+          "stat": "revive_pct"
+        }
+      ]
+    },
+    "Slow": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "SpeedUp",
+      "stat_modifier": [
+        {
+          "delta": -50,
+          "stat": "speed_pct"
+        }
+      ]
+    },
+    "SpeedUp": {
+      "category": "buff",
+      "expiration_type": "end_of_turn",
+      "opposite": "Slow",
+      "stat_modifier": [
+        {
+          "delta": 50,
+          "stat": "speed_pct"
+        }
+      ]
+    },
+    "Stealth": {
+      "category": "buff",
+      "expiration_type": "end_of_turn",
+      "opposite": "DoT",
+      "state": "stealthed",
+      "type": "state"
+    },
+    "Stun": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "Counter",
+      "state": "stunned",
+      "type": "state"
+    },
+    "SummonedMinion": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "remove_on_death": false,
+      "stat_modifier": [
+        {
+          "delta": [
+            -90,
+            -90,
+            -90,
+            -90,
+            -90,
+            -90,
+            -90
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "delta": -30,
+          "stat": "damage_pct"
+        }
+      ]
+    },
+    "Taunt": {
+      "category": "buff",
+      "expiration_type": "start_of_turn",
+      "opposite": "DoT",
+      "state": "taunting",
+      "type": "state"
+    },
+    "UltronMinion": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "remove_on_death": false,
+      "stat_modifier": [
+        {
+          "delta": [
+            -45,
+            -45,
+            -45,
+            -45,
+            -45,
+            -45,
+            -45
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "delta": -30,
+          "stat": "damage_pct"
+        }
+      ]
     }
   },
   "Name": "procs"
