@@ -1,318 +1,133 @@
 {
-  "Name": "raid_deadpool_lvl_60",
+  "Name": "raid_thanos_lvl_60_v3",
   "RaidDetails": {
-    "raidId": "raid_deadpool_lvl_60",
-    "rows": 10,
-    "columns": 7,
+    "raidId": "raid_thanos_lvl_60_v3",
+    "rows": 9,
+    "columns": 11,
     "isOperation": false,
     "map": [
       [
         "",
         "",
-        "A3",
-        "A4",
-        "A5",
         "",
-        ""
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A10",
+        "A11"
       ],
       [
         "",
-        "B2",
-        "B3",
+        "",
+        "",
         "B4",
         "B5",
         "B6",
-        ""
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
       ],
       [
-        "C1",
-        "C2",
+        "",
+        "",
         "C3",
         "C4",
         "C5",
         "C6",
-        "C7"
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11"
       ],
       [
-        "D1",
+        "",
         "D2",
         "D3",
         "D4",
         "D5",
         "D6",
-        "D7"
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11"
       ],
       [
         "E1",
         "E2",
-        "",
+        "E3",
         "E4",
-        "",
-        "",
-        "E7"
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
       ],
       [
-        "F1",
+        "",
         "F2",
-        "",
+        "F3",
         "F4",
-        "",
-        "",
-        "F7"
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11"
       ],
       [
-        "G1",
-        "G2",
+        "",
+        "",
         "G3",
         "G4",
         "G5",
         "G6",
-        "G7"
+        "G7",
+        "G8",
+        "G9",
+        "G10",
+        "G11"
       ],
       [
-        "H1",
-        "H2",
-        "H3",
+        "",
+        "",
+        "",
         "H4",
         "H5",
         "H6",
-        "H7"
-      ],
-      [
-        "",
-        "I2",
-        "I3",
-        "I4",
-        "I5",
-        "I6",
-        ""
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11"
       ],
       [
         "",
         "",
-        "J3",
-        "J4",
-        "J5",
         "",
-        ""
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "I10",
+        "I11"
       ]
     ],
     "rooms": {
-      "H1": {
-        "roomId": "H1",
-        "name": "evr_dp03_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_01",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "H2",
-          null,
-          null
-        ]
-      },
-      "G1": {
-        "roomId": "G1",
-        "name": "evr_dp03_02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_02",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          null,
-          null,
-          "H1"
-        ]
-      },
-      "D1": {
-        "roomId": "D1",
-        "name": "evr_dp03_02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_02",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          null,
-          "C1",
-          null
-        ]
-      },
-      "C1": {
-        "roomId": "C1",
-        "name": "evr_dp03_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_01",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "C2",
-          null,
-          null
-        ]
-      },
-      "F1": {
-        "roomId": "F1",
-        "name": "dpXX_raid",
+      "E1": {
+        "roomId": "E1",
+        "name": "th03_raid_start",
         "starting": true,
         "objective": false,
         "missions": {},
@@ -329,14 +144,14 @@
           "y": 0
         },
         "nextRooms": [
-          "F2",
-          "E1",
-          "G1"
+          "E2",
+          null,
+          null
         ]
       },
-      "E1": {
-        "roomId": "E1",
-        "name": "dpXX_raid",
+      "E2": {
+        "roomId": "E2",
+        "name": "thXX_raid",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -353,152 +168,17 @@
           "y": 0
         },
         "nextRooms": [
-          "E2",
-          "D1",
-          null
-        ]
-      },
-      "B2": {
-        "roomId": "B2",
-        "name": "evr_dp03_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_03b_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "B3",
-          null,
-          null
-        ]
-      },
-      "C2": {
-        "roomId": "C2",
-        "name": "evr_dp03_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_04",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "C3",
-          "B2",
-          null
+          "E3",
+          "D2",
+          "F2"
         ]
       },
       "D2": {
         "roomId": "D2",
-        "name": "evr_dp03_05",
+        "name": "thXX_raid",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_05",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -513,98 +193,16 @@
         },
         "nextRooms": [
           "D3",
-          "C2",
-          null
-        ]
-      },
-      "E2": {
-        "roomId": "E2",
-        "name": "evr_dp03_06",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_06",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
           null,
-          "D2",
           null
         ]
       },
       "F2": {
         "roomId": "F2",
-        "name": "evr_dp03_06",
+        "name": "thXX_raid",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_06",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -618,290 +216,25 @@
           "y": 0
         },
         "nextRooms": [
+          "F3",
           null,
-          null,
-          "G2"
-        ]
-      },
-      "G2": {
-        "roomId": "G2",
-        "name": "evr_dp03_05",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_05",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G3",
-          null,
-          "H2"
-        ]
-      },
-      "H2": {
-        "roomId": "H2",
-        "name": "evr_dp03_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_04",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "H3",
-          null,
-          "I2"
-        ]
-      },
-      "I2": {
-        "roomId": "I2",
-        "name": "evr_dp03_03c_mb",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_03c_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I3",
-          null,
-          null
-        ]
-      },
-      "A3": {
-        "roomId": "A3",
-        "name": "evr_dp03_07",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_07",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "A4",
-          null,
-          null
-        ]
-      },
-      "B3": {
-        "roomId": "B3",
-        "name": "evr_dp03_08",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_08",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "B4",
-          "A3",
           null
         ]
       },
       "C3": {
         "roomId": "C3",
-        "name": "evr_dp03_09b_mb",
+        "name": "th03_raid_01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_09b_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_01_mb",
+            "icon": "Portrait_HandTank_Stealth",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -936,25 +269,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "B3",
+          "C4",
+          null,
           null
         ]
       },
       "D3": {
         "roomId": "D3",
-        "name": "evr_dp03_10",
+        "name": "th03_raid_02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_10",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_02",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -989,25 +322,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "D4",
           "C3",
           null
         ]
       },
-      "G3": {
-        "roomId": "G3",
-        "name": "evr_dp03_10",
+      "E3": {
+        "roomId": "E3",
+        "name": "th03_raid_03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_10",
-            "icon": "raid_Icon_Deadpool.png",
+            "ID": "evr_bunny03_03",
+            "icon": "raid_Icon_Thanos.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1027,6 +360,112 @@
             },
             "characterLimit": 5,
             "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E4",
+          "D3",
+          "F3"
+        ]
+      },
+      "F3": {
+        "roomId": "F3",
+        "name": "th03_raid_04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_04",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F4",
+          null,
+          "G3"
+        ]
+      },
+      "G3": {
+        "roomId": "G3",
+        "name": "th03_raid_05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_05_mb",
+            "icon": "Portrait_SpiderMan",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1043,236 +482,24 @@
         },
         "nextRooms": [
           "G4",
-          "",
-          "H3"
-        ]
-      },
-      "H3": {
-        "roomId": "H3",
-        "name": "evr_dp03_09c_mb",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_09c_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          null,
-          "I3"
-        ]
-      },
-      "I3": {
-        "roomId": "I3",
-        "name": "evr_dp03_08",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_08",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I4",
-          null,
-          "J3"
-        ]
-      },
-      "J3": {
-        "roomId": "J3",
-        "name": "evr_dp03_07",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_07",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "J4",
-          null,
-          null
-        ]
-      },
-      "A4": {
-        "roomId": "A4",
-        "name": "evr_dp03_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_03",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "A5",
           null,
           null
         ]
       },
       "B4": {
         "roomId": "B4",
-        "name": "evr_dp03_09",
+        "name": "th03_raid_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_09",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_06",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1284,11 +511,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1307,25 +538,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "B5",
           null,
-          "C4"
+          null
         ]
       },
       "C4": {
         "roomId": "C4",
-        "name": "evr_dp03_13",
+        "name": "th03_raid_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_13",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_07",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1337,11 +568,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1361,24 +596,24 @@
         },
         "nextRooms": [
           "C5",
-          null,
-          null
+          "B4",
+          "D4"
         ]
       },
       "D4": {
         "roomId": "D4",
-        "name": "evr_dp03_14",
+        "name": "th03_raid_08",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_14",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_08_mb",
+            "icon": "Portrait_Wolverine",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1397,7 +632,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1414,24 +649,24 @@
         },
         "nextRooms": [
           "D5",
-          "C4",
+          null,
           null
         ]
       },
       "E4": {
         "roomId": "E4",
-        "name": "evr_dp03_21",
+        "name": "th03_raid_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_21",
-            "icon": "raid_Icon_Deadpool.png",
+            "ID": "evr_bunny03_09",
+            "icon": "raid_Icon_Thanos.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1466,25 +701,25 @@
           "y": 0
         },
         "nextRooms": [
-          null,
+          "E5",
           "D4",
-          null
+          "F4"
         ]
       },
       "F4": {
         "roomId": "F4",
-        "name": "evr_dp03_23",
+        "name": "th03_raid_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_23",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_10_mb",
+            "icon": "Portrait_Korath",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1503,7 +738,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1519,25 +754,25 @@
           "y": 0
         },
         "nextRooms": [
+          "F5",
           null,
-          "E4",
           null
         ]
       },
       "G4": {
         "roomId": "G4",
-        "name": "evr_dp03_17",
+        "name": "th03_raid_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_17",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_07",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1549,11 +784,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1574,23 +813,23 @@
         "nextRooms": [
           "G5",
           "F4",
-          null
+          "H4"
         ]
       },
       "H4": {
         "roomId": "H4",
-        "name": "evr_dp03_13",
+        "name": "th03_raid_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_13",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_06",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1602,11 +841,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1626,183 +869,24 @@
         },
         "nextRooms": [
           "H5",
-          "G4",
-          null
-        ]
-      },
-      "I4": {
-        "roomId": "I4",
-        "name": "evr_dp03_09",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_09",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "H4",
-          null
-        ]
-      },
-      "J4": {
-        "roomId": "J4",
-        "name": "evr_dp03_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_03",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "J5",
           null,
           null
-        ]
-      },
-      "A5": {
-        "roomId": "A5",
-        "name": "evr_dp03_20",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_20",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          null,
-          null,
-          "B5"
         ]
       },
       "B5": {
         "roomId": "B5",
-        "name": "evr_dp03_21b_mb",
+        "name": "th03_raid_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_21b_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_13",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1814,14 +898,18 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": true
+            "isBoss": false
           }
         },
         "requirements": {},
@@ -1839,23 +927,23 @@
         "nextRooms": [
           "B6",
           null,
-          ""
+          null
         ]
       },
       "C5": {
         "roomId": "C5",
-        "name": "evr_dp03_22",
+        "name": "th03_raid_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_22",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_14",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1867,11 +955,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1890,25 +982,25 @@
           "y": 0
         },
         "nextRooms": [
+          "C6",
           null,
-          "B5",
-          "D5"
+          null
         ]
       },
       "D5": {
         "roomId": "D5",
-        "name": "evr_dp03_23b_mb",
+        "name": "th03_raid_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_23b_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_15",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1920,14 +1012,18 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": true
+            "isBoss": false
           }
         },
         "requirements": {},
@@ -1948,20 +1044,20 @@
           null
         ]
       },
-      "G5": {
-        "roomId": "G5",
-        "name": "evr_dp03_23c_mb",
+      "E5": {
+        "roomId": "E5",
+        "name": "th03_raid_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_23c_mb",
-            "icon": "Portrait_Deadpool",
+            "ID": "evr_bunny03_16_mb",
+            "icon": "Portrait_Gamora",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1981,6 +1077,120 @@
             },
             "characterLimit": 5,
             "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E6",
+          null,
+          null
+        ]
+      },
+      "F5": {
+        "roomId": "F5",
+        "name": "th03_raid_17",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_15",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F6",
+          null,
+          null
+        ]
+      },
+      "G5": {
+        "roomId": "G5",
+        "name": "th03_raid_18",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_14",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
           }
         },
         "requirements": {},
@@ -1998,23 +1208,23 @@
         "nextRooms": [
           "G6",
           null,
-          ""
+          null
         ]
       },
       "H5": {
         "roomId": "H5",
-        "name": "evr_dp03_22",
+        "name": "th03_raid_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_22",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_13",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2026,11 +1236,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2049,131 +1263,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "G5",
-          "I5"
-        ]
-      },
-      "I5": {
-        "roomId": "I5",
-        "name": "evr_dp03_21c_mb",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_21c_mb",
-            "icon": "Portrait_Deadpool",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops_2_temp",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I6",
-          "",
-          null
-        ]
-      },
-      "J5": {
-        "roomId": "J5",
-        "name": "evr_dp03_20",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_dp03_20",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_deadpool_high_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
+          "H6",
           null,
-          "I5",
           null
         ]
       },
       "B6": {
         "roomId": "B6",
-        "name": "evr_dp03_24",
+        "name": "th03_raid_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_24",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_20",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2185,11 +1293,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2208,25 +1320,25 @@
           "y": 0
         },
         "nextRooms": [
+          "B7",
           null,
-          null,
-          "C6"
+          null
         ]
       },
       "C6": {
         "roomId": "C6",
-        "name": "evr_dp03_25",
+        "name": "th03_raid_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_25",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_21",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2238,11 +1350,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2268,18 +1384,75 @@
       },
       "D6": {
         "roomId": "D6",
-        "name": "evr_dp03_26",
+        "name": "th03_raid_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_26",
-            "icon": "raid_Icon_Deadpool.png",
+            "ID": "evr_bunny03_22",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D7",
+          null,
+          null
+        ]
+      },
+      "E6": {
+        "roomId": "E6",
+        "name": "th03_raid_23",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_23",
+            "icon": "raid_Icon_Thanos.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2314,25 +1487,82 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "C6",
-          ""
+          "E7",
+          null,
+          null
+        ]
+      },
+      "F6": {
+        "roomId": "F6",
+        "name": "th03_raid_24",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_22",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F7",
+          null,
+          null
         ]
       },
       "G6": {
         "roomId": "G6",
-        "name": "evr_dp03_26",
+        "name": "th03_raid_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_26",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_21",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2344,11 +1574,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2367,25 +1601,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "",
-          "H6"
+          "G7",
+          null,
+          null
         ]
       },
       "H6": {
         "roomId": "H6",
-        "name": "evr_dp03_25",
+        "name": "th03_raid_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_25",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_20",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2397,11 +1631,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2425,20 +1663,20 @@
           null
         ]
       },
-      "I6": {
-        "roomId": "I6",
-        "name": "evr_dp03_24",
+      "B7": {
+        "roomId": "B7",
+        "name": "th03_raid_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_24",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_27",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2473,25 +1711,25 @@
           "y": 0
         },
         "nextRooms": [
+          "B8",
           null,
-          "H6",
-          null
+          "C7"
         ]
       },
       "C7": {
         "roomId": "C7",
-        "name": "evr_dp03_27",
+        "name": "th03_raid_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_27",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_28",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2526,25 +1764,25 @@
           "y": 0
         },
         "nextRooms": [
-          null,
+          "C8",
           null,
           "D7"
         ]
       },
       "D7": {
         "roomId": "D7",
-        "name": "evr_dp03_29",
+        "name": "th03_raid_29",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_29",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_29",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2579,25 +1817,25 @@
           "y": 0
         },
         "nextRooms": [
-          null,
+          "D8",
           null,
           "E7"
         ]
       },
       "E7": {
         "roomId": "E7",
-        "name": "evr_dp03_30_fb",
+        "name": "th03_raid_30",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_30_fb",
-            "icon": "Portrait_Deadpool",
+            "ID": "evr_bunny03_30_mb",
+            "icon": "Portrait_LukeCage",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_3_temp",
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2632,25 +1870,1573 @@
           "y": 0
         },
         "nextRooms": [
-          null,
+          "E8",
           null,
           null
         ]
       },
       "F7": {
         "roomId": "F7",
-        "name": "evr_dp03_31_fb",
+        "name": "th03_raid_31",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_31_fb",
-            "icon": "Portrait_Deadpool",
+            "ID": "evr_bunny03_29",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F8",
+          "E7",
+          null
+        ]
+      },
+      "G7": {
+        "roomId": "G7",
+        "name": "th03_raid_32",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_28",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G8",
+          "F7",
+          null
+        ]
+      },
+      "H7": {
+        "roomId": "H7",
+        "name": "th03_raid_33",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_27",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H8",
+          "G7",
+          null
+        ]
+      },
+      "B8": {
+        "roomId": "B8",
+        "name": "th03_raid_34",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_34",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B9",
+          null,
+          null
+        ]
+      },
+      "C8": {
+        "roomId": "C8",
+        "name": "th03_raid_35",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_35",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C9",
+          null,
+          null
+        ]
+      },
+      "D8": {
+        "roomId": "D8",
+        "name": "th03_raid_36",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_36_mb",
+            "icon": "Portrait_CaptainAmerica",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D9",
+          null,
+          null
+        ]
+      },
+      "E8": {
+        "roomId": "E8",
+        "name": "th03_raid_37",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_37",
+            "icon": "raid_Icon_Thanos.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops_3_temp",
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "D8",
+          null
+        ]
+      },
+      "F8": {
+        "roomId": "F8",
+        "name": "th03_raid_38",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_38",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F9",
+          "E8",
+          null
+        ]
+      },
+      "G8": {
+        "roomId": "G8",
+        "name": "th03_raid_39",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_35",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G9",
+          null,
+          null
+        ]
+      },
+      "H8": {
+        "roomId": "H8",
+        "name": "th03_raid_40",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_34",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H9",
+          null,
+          null
+        ]
+      },
+      "B9": {
+        "roomId": "B9",
+        "name": "th03_raid_41",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_41",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B10",
+          null,
+          null
+        ]
+      },
+      "C9": {
+        "roomId": "C9",
+        "name": "th03_raid_42",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_42",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C10",
+          null,
+          null
+        ]
+      },
+      "D9": {
+        "roomId": "D9",
+        "name": "th03_raid_43",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_43",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D10",
+          null,
+          "E9"
+        ]
+      },
+      "E9": {
+        "roomId": "E9",
+        "name": "th03_raid_44",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_44",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "F9"
+        ]
+      },
+      "F9": {
+        "roomId": "F9",
+        "name": "th03_raid_45",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_45_mb",
+            "icon": "Portrait_Nebula",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F10",
+          null,
+          null
+        ]
+      },
+      "G9": {
+        "roomId": "G9",
+        "name": "th03_raid_46",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_42",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G10",
+          null,
+          null
+        ]
+      },
+      "H9": {
+        "roomId": "H9",
+        "name": "th03_raid_47",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_41",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H10",
+          null,
+          null
+        ]
+      },
+      "A10": {
+        "roomId": "A10",
+        "name": "th03_raid_48",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_48",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A11",
+          null,
+          null
+        ]
+      },
+      "B10": {
+        "roomId": "B10",
+        "name": "th03_raid_49",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_49",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "A10",
+          null
+        ]
+      },
+      "C10": {
+        "roomId": "C10",
+        "name": "th03_raid_50",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_50",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C11",
+          null,
+          null
+        ]
+      },
+      "D10": {
+        "roomId": "D10",
+        "name": "th03_raid_51",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_51_mb",
+            "icon": "Portrait_Vision",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D11",
+          null,
+          null
+        ]
+      },
+      "E10": {
+        "roomId": "E10",
+        "name": "th03_raid_52",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_52",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E11",
+          "D10",
+          null
+        ]
+      },
+      "F10": {
+        "roomId": "F10",
+        "name": "th03_raid_53",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_53",
+            "icon": "raid_Icon_Thanos.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F11",
+          "E10",
+          null
+        ]
+      },
+      "G10": {
+        "roomId": "G10",
+        "name": "th03_raid_54",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_50",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G11",
+          null,
+          null
+        ]
+      },
+      "H10": {
+        "roomId": "H10",
+        "name": "th03_raid_55",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_49",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "I10"
+        ]
+      },
+      "I10": {
+        "roomId": "I10",
+        "name": "th03_raid_56",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_48",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I11",
+          null,
+          null
+        ]
+      },
+      "A11": {
+        "roomId": "A11",
+        "name": "th03_raid_57",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_57",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "B11"
+        ]
+      },
+      "B11": {
+        "roomId": "B11",
+        "name": "th03_raid_58",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_58",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "C11"
+        ]
+      },
+      "C11": {
+        "roomId": "C11",
+        "name": "th03_raid_",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_59_mb",
+            "icon": "Portrait_BlackWidow",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2687,23 +3473,23 @@
         "nextRooms": [
           null,
           null,
-          null
+          "D11"
         ]
       },
-      "G7": {
-        "roomId": "G7",
-        "name": "evr_dp03_29",
+      "D11": {
+        "roomId": "D11",
+        "name": "th03_raid_60",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_29",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_60_mb",
+            "icon": "Portrait_ScientistSupreme",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2720,6 +3506,222 @@
               "longDescription": "",
               "quantity": 0,
               "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "E11"
+        ]
+      },
+      "E11": {
+        "roomId": "E11",
+        "name": "th03_raid_61",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_61_fb",
+            "icon": "Portrait_Thanos",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_3_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "",
+          null
+        ]
+      },
+      "F11": {
+        "roomId": "F11",
+        "name": "th03_raid_62",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_62_mb",
+            "icon": "Portrait_Gamora",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "E11",
+          null
+        ]
+      },
+      "G11": {
+        "roomId": "G11",
+        "name": "th03_raid_63",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_63_mb",
+            "icon": "Portrait_Yondu",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops_2_temp",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "F11",
+          null
+        ]
+      },
+      "H11": {
+        "roomId": "H11",
+        "name": "th03_raid_64",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_bunny03_58",
+            "icon": "raid_Icon_Heroes.png",
+            "iconBgColor": "",
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2739,24 +3741,24 @@
         },
         "nextRooms": [
           null,
-          "F7",
+          "G11",
           null
         ]
       },
-      "H7": {
-        "roomId": "H7",
-        "name": "evr_dp03_27",
+      "I11": {
+        "roomId": "I11",
+        "name": "th03_raid_65",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_dp03_27",
-            "icon": "raid_Icon_Deadpool.png",
-            "iconBgColor": null,
+            "ID": "evr_bunny03_57",
+            "icon": "raid_Icon_Villains.png",
+            "iconBgColor": "",
             "rewards": [
               {
-                "m_rewardID": "raid_deadpool_high_battledrops",
+                "m_rewardID": "raid_thanos_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2768,11 +3770,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2792,11 +3798,11 @@
         },
         "nextRooms": [
           null,
-          "G7",
+          "H11",
           null
         ]
       }
     },
-    "startingRoomId": "F1"
+    "startingRoomId": "E1"
   }
 }
