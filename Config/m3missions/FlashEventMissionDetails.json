@@ -17,6 +17,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -44,8 +45,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 14252,
+          "TotalHealth": 54220,
+          "CompactWave": [
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1589,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1574,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1569,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1569,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 1569,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Kingpin",
+              "Power": 3198,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 3184,
+              "Level": 35,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -66,7 +111,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -86,7 +130,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -106,7 +149,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -126,7 +168,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -146,7 +187,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -166,7 +206,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -186,7 +225,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -223,6 +261,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -250,8 +289,70 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 19675,
+          "TotalHealth": 78033,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1186,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1179,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 970,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 970,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1205,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 2881,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Okoye",
+              "Power": 2813,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 2829,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 2829,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Okoye",
+              "Power": 2813,
+              "Level": 34,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -259,7 +360,7 @@
               "Waves": [
                 {
                   "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
+                  "NextWaveIf": "AfterAnyVipKilled",
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 6,
                   "MinSlotReq": 0,
@@ -273,7 +374,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -281,6 +381,7 @@
                       "level": 33,
                       "loyalty": 2,
                       "tier": 5,
+                      "speed_percent": 90,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     },
@@ -293,7 +394,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -301,6 +401,7 @@
                       "level": 33,
                       "loyalty": 2,
                       "tier": 5,
+                      "speed_percent": 80,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     },
@@ -313,7 +414,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -321,6 +421,7 @@
                       "level": 34,
                       "loyalty": 2,
                       "tier": 5,
+                      "speed_percent": 95,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
@@ -333,7 +434,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -341,6 +441,7 @@
                       "level": 34,
                       "loyalty": 2,
                       "tier": 5,
+                      "speed_percent": 90,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
                     },
@@ -353,7 +454,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -361,6 +461,7 @@
                       "level": 34,
                       "loyalty": 2,
                       "tier": 5,
+                      "speed_percent": 105,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
                     },
@@ -373,10 +474,10 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
+                      "is_vip": true,
                       "hero_id": "Ultron",
                       "level": 34,
                       "loyalty": 2,
@@ -405,7 +506,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -426,7 +526,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -447,7 +546,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -468,7 +566,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -505,6 +602,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -532,8 +630,70 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 61698,
+          "TotalHealth": 146053,
+          "CompactWave": [
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 6608,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 6365,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 6595,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 4501,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 4464,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 6633,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 6633,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 6633,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 6633,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 6633,
+              "Level": 43,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -556,7 +716,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -576,7 +735,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -596,7 +754,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -616,7 +773,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -636,7 +792,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -668,7 +823,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 43,
                       "loyalty": 3,
@@ -698,7 +852,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 43,
                       "loyalty": 3,
@@ -729,7 +882,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 43,
                       "loyalty": 3,
@@ -760,7 +912,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 43,
                       "loyalty": 3,
@@ -790,7 +941,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Bullseye",
                       "level": 43,
                       "loyalty": 3,
@@ -825,6 +975,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -852,8 +1003,94 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 127506,
+          "TotalHealth": 289082,
+          "CompactWave": [
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 6609,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 6558,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 6636,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 6588,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 10094,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 10168,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 10020,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 10177,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 10020,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 10177,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 10094,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 10168,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 10020,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 10177,
+              "Level": 50,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -862,8 +1099,8 @@
                 {
                   "Expanded": true,
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 10,
-                  "MinSlotReq": 0,
+                  "MaxSlotFill": 8,
+                  "MinSlotReq": 8,
                   "Entries": [
                     {
                       "abilities": [
@@ -874,7 +1111,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -895,7 +1131,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -916,7 +1151,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -937,7 +1171,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -958,7 +1191,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -978,7 +1210,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -996,10 +1227,10 @@
                 },
                 {
                   "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
+                  "NextWaveIf": "AfterAllVipKilled",
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 10,
-                  "MinSlotReq": 6,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
                   "Entries": [
                     {
                       "abilities": [
@@ -1010,15 +1241,14 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "is_vip": true,
                       "hero_id": "AntMan",
-                      "level": 48,
-                      "loyalty": 3,
-                      "tier": 7,
+                      "level": 50,
+                      "loyalty": 4,
+                      "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     },
@@ -1031,15 +1261,14 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "is_vip": true,
                       "hero_id": "Wasp",
-                      "level": 48,
-                      "loyalty": 3,
-                      "tier": 7,
+                      "level": 50,
+                      "loyalty": 4,
+                      "tier": 8,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     }
@@ -1049,8 +1278,9 @@
                 },
                 {
                   "Expanded": true,
+                  "NextWaveIf": "AfterAllVipKilled",
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 10,
+                  "MaxSlotFill": 5,
                   "MinSlotReq": 6,
                   "Entries": [
                     {
@@ -1062,12 +1292,11 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "is_vip": true,
                       "hero_id": "AntMan",
-                      "level": 48,
-                      "loyalty": 3,
-                      "tier": 7,
+                      "level": 50,
+                      "loyalty": 4,
+                      "tier": 8,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     },
@@ -1080,12 +1309,11 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "is_vip": true,
                       "hero_id": "Wasp",
-                      "level": 48,
-                      "loyalty": 3,
-                      "tier": 7,
+                      "level": 50,
+                      "loyalty": 4,
+                      "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
@@ -1109,7 +1337,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Nobu",
                       "level": 50,
                       "loyalty": 4,
@@ -1125,7 +1352,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Elektra",
                       "level": 50,
                       "loyalty": 4,
@@ -1141,7 +1367,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "AntMan",
                       "level": 50,
                       "loyalty": 4,
@@ -1156,7 +1381,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "Wasp",
                       "level": 50,
                       "loyalty": 4,
@@ -1188,6 +1412,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -1215,8 +1440,94 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 154237,
+          "TotalHealth": 408329,
+          "CompactWave": [
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 12058,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 12139,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 12003,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 12139,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 11984,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 10162,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 10238,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 10162,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 10234,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 10162,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 12093,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 11733,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 9565,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 9565,
+              "Level": 60,
+              "GearLevel": 9
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1238,7 +1549,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1258,7 +1568,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1278,7 +1587,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1298,7 +1606,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1318,7 +1625,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1349,7 +1655,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1369,7 +1674,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1389,7 +1693,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1409,7 +1712,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1429,7 +1731,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1449,7 +1750,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1481,7 +1781,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         -1,
                         4
@@ -1506,11 +1805,10 @@
                         5,
                         5,
                         -1,
-                        3,
+                        -1,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         0,
                         -1
@@ -1539,7 +1837,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         4,
                         -1
@@ -1585,6 +1882,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -1612,8 +1910,40 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 168542,
+          "TotalHealth": 335986,
+          "CompactWave": [
+            {
+              "HeroId": "Vision",
+              "Power": 33730,
+              "Level": 68,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 33419,
+              "Level": 68,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 33039,
+              "Level": 68,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 33406,
+              "Level": 68,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 34948,
+              "Level": 68,
+              "GearLevel": 12
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1634,7 +1964,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1656,7 +1985,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1678,7 +2006,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1700,7 +2027,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1722,7 +2048,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1761,6 +2086,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -1788,8 +2114,100 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 318625,
+          "TotalHealth": 843531,
+          "CompactWave": [
+            {
+              "HeroId": "Storm",
+              "Power": 29222,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 19757,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 21324,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 21092,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 21184,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "MsMarvel",
+              "Power": 20121,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 19996,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Okoye",
+              "Power": 19865,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 20089,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 19969,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 21184,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 21092,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 21324,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 20905,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "MsMarvel",
+              "Power": 21501,
+              "Level": 60,
+              "GearLevel": 9
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1811,7 +2229,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         0,
                         0
@@ -1856,7 +2273,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1879,7 +2295,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1902,7 +2317,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1925,7 +2339,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1968,7 +2381,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1988,7 +2400,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2008,7 +2419,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2028,7 +2438,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2048,7 +2457,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2078,7 +2486,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2099,7 +2506,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2120,7 +2526,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2141,7 +2546,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2162,7 +2566,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2200,6 +2603,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2227,8 +2631,40 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 7628,
+          "TotalHealth": 20736,
+          "CompactWave": [
+            {
+              "HeroId": "Vision",
+              "Power": 1564,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Nebula",
+              "Power": 1555,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 1561,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1580,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 1368,
+              "Level": 22,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2249,7 +2685,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2270,7 +2705,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2291,7 +2725,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2312,7 +2745,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2333,7 +2765,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2371,6 +2802,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2398,8 +2830,46 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 14044,
+          "TotalHealth": 45399,
+          "CompactWave": [
+            {
+              "HeroId": "Kingpin",
+              "Power": 2584,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 2604,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 2206,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 2222,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 2222,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 2206,
+              "Level": 34,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2420,7 +2890,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2441,7 +2910,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2462,7 +2930,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2483,7 +2950,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2514,7 +2980,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2535,7 +3000,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2573,6 +3037,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2600,8 +3065,58 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 45700,
+          "TotalHealth": 110422,
+          "CompactWave": [
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 5458,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 6128,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 5421,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 5436,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 6189,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 6152,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 5458,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 5458,
+              "Level": 43,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2622,7 +3137,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2643,7 +3157,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2664,7 +3177,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2685,7 +3197,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2706,7 +3217,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2737,7 +3247,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2758,7 +3267,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2779,7 +3287,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2817,6 +3324,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2844,8 +3352,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 66679,
+          "TotalHealth": 179726,
+          "CompactWave": [
+            {
+              "HeroId": "Drax",
+              "Power": 9709,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 9724,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Gamora",
+              "Power": 9774,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 9786,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 8995,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 9659,
+              "Level": 53,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 9032,
+              "Level": 53,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2866,7 +3418,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2887,7 +3438,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2908,7 +3458,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2929,7 +3478,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2950,7 +3498,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2981,7 +3528,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3002,7 +3548,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3040,6 +3585,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3067,8 +3613,46 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 82515,
+          "TotalHealth": 193891,
+          "CompactWave": [
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 13407,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 13501,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 13501,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 13387,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 13766,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 14953,
+              "Level": 61,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3089,7 +3673,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3110,7 +3693,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3131,7 +3713,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3152,7 +3733,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3169,11 +3749,10 @@
                         5,
                         5,
                         5,
-                        3,
+                        -1,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3204,7 +3783,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3242,6 +3820,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3269,8 +3848,64 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 148370,
+          "TotalHealth": 307302,
+          "CompactWave": [
+            {
+              "HeroId": "Elektra",
+              "Power": 17106,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 15831,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 15970,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 17310,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 15925,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 17046,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 16003,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 17176,
+              "Level": 65,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 16003,
+              "Level": 65,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3291,7 +3926,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3312,7 +3946,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3334,7 +3967,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3356,7 +3988,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3377,7 +4008,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3409,7 +4039,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Bullseye",
                       "level": 65,
@@ -3427,7 +4056,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3449,7 +4077,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3471,7 +4098,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3510,6 +4136,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3537,8 +4164,70 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 356633,
+          "TotalHealth": 676903,
+          "CompactWave": [
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 36749,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 34658,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 34658,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 34991,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 34991,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 37806,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 37924,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 35207,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 34991,
+              "Level": 70,
+              "GearLevel": 13
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 34658,
+              "Level": 70,
+              "GearLevel": 13
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3560,7 +4249,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3582,7 +4270,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3604,7 +4291,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3626,7 +4312,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3648,7 +4333,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3680,7 +4364,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3702,7 +4385,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3724,7 +4406,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3746,7 +4427,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3768,7 +4448,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3807,6 +4486,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3835,8 +4515,34 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 6509,
+          "TotalHealth": 18594,
+          "CompactWave": [
+            {
+              "HeroId": "LukeCage",
+              "Power": 1654,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1705,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 1676,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 1474,
+              "Level": 25,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3857,7 +4563,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3875,7 +4580,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3893,7 +4597,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3911,7 +4614,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3946,6 +4648,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3974,8 +4677,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 19737,
+          "TotalHealth": 54639,
+          "CompactWave": [
+            {
+              "HeroId": "LukeCage",
+              "Power": 2646,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 2688,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "JessicaJones",
+              "Power": 2722,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 2681,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 2647,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 3155,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 3198,
+              "Level": 35,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3996,7 +4743,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4016,7 +4762,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4036,7 +4781,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4056,7 +4800,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4076,7 +4819,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4107,7 +4849,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4126,7 +4867,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4162,6 +4902,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -4190,8 +4931,40 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 31304,
+          "TotalHealth": 86323,
+          "CompactWave": [
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 6136,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 6137,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 6065,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 6059,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Kingpin",
+              "Power": 6907,
+              "Level": 40,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4212,7 +4985,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4233,7 +5005,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4254,7 +5025,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4275,7 +5045,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4296,7 +5065,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4334,6 +5102,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -4362,8 +5131,46 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 70244,
+          "TotalHealth": 179717,
+          "CompactWave": [
+            {
+              "HeroId": "Hulk",
+              "Power": 12200,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 12316,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 12003,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 11111,
+              "Level": 53,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 11260,
+              "Level": 53,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 11354,
+              "Level": 53,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4384,7 +5191,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4404,7 +5210,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4425,7 +5230,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4446,7 +5250,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4466,7 +5269,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4487,7 +5289,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4525,6 +5326,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -4553,8 +5355,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 107755,
+          "TotalHealth": 320546,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 15226,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 15133,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 15077,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 17253,
+              "Level": 61,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 15194,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 14795,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 15077,
+              "Level": 60,
+              "GearLevel": 9
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4575,7 +5421,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4595,7 +5440,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4615,7 +5459,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4635,7 +5478,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4667,7 +5509,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4688,7 +5529,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4709,7 +5549,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4746,6 +5585,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -4774,8 +5614,58 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 164620,
+          "TotalHealth": 436532,
+          "CompactWave": [
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 19315,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 19537,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 19480,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 24166,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 19272,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 19268,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 19244,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 24338,
+              "Level": 67,
+              "GearLevel": 10
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4797,7 +5687,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4818,7 +5707,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4839,7 +5727,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4860,7 +5747,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4891,7 +5777,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4912,7 +5797,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4933,7 +5817,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4954,7 +5837,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4991,6 +5873,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -5019,8 +5902,70 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 222183,
+          "TotalHealth": 427754,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 20804,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 20988,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 20925,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 20890,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 23907,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 20988,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 20804,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 24150,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 24489,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 24238,
+              "Level": 67,
+              "GearLevel": 10
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5042,7 +5987,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5062,7 +6006,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5081,7 +6024,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5101,7 +6043,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5120,7 +6061,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5150,7 +6090,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5169,7 +6108,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5189,7 +6127,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5207,7 +6144,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5225,7 +6161,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],

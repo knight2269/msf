@@ -521,7 +521,7 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "G3",
           "F2",
           null
         ]
@@ -951,7 +951,7 @@
         },
         "nextRooms": [
           "G4",
-          "",
+          "F3",
           null
         ]
       },
@@ -4822,9 +4822,9 @@
               "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
               "quantity": 5,
               "filters": {
-                "allTraits": [
-                  "City",
-                  "Global"
+                "anyTrait": [
+                  "Global",
+                  "City"
                 ]
               }
             },

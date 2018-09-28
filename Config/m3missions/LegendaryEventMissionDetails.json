@@ -16,8 +16,88 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 1249,
+          "TotalHealth": 4104,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 1249,
+              "Level": 22,
+              "GearLevel": 4
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "StoryTellingID": "ironman_event_01_mid",
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        2,
+                        2,
+                        1,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 22,
+                      "loyalty": 2,
+                      "tier": 4,
+                      "desired_x_pos": 1,
+                      "desired_y_pos": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -76,7 +156,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 22,
                       "loyalty": 2,
@@ -100,8 +179,64 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 4416,
+          "TotalHealth": 20854,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 463,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 461,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 463,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 719,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 463,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 461,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 463,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 460,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 463,
+              "Level": 18,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -123,7 +258,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "MercDmg_General",
                       "level": 18,
@@ -141,7 +275,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "MercDmg_Single",
                       "level": 18,
@@ -159,7 +292,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "MercTank_Debuff",
                       "level": 18,
@@ -177,7 +309,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "IronMan",
                       "level": 20,
@@ -206,7 +337,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "MercTank_Debuff",
                       "level": 18,
@@ -224,7 +354,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "MercDmg_Single",
                       "level": 18,
@@ -242,7 +371,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "MercDmg_General",
                       "level": 18,
@@ -260,7 +388,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "MercSupport_Buffs",
                       "level": 18,
@@ -278,7 +405,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         1,
                         -1
@@ -321,8 +447,66 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 1804,
+          "TotalHealth": 4791,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 1804,
+              "Level": 27,
+              "GearLevel": 4
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 27,
+                      "loyalty": 2,
+                      "tier": 4,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -359,7 +543,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 27,
                       "loyalty": 2,
@@ -383,8 +566,46 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 9216,
+          "TotalHealth": 25422,
+          "CompactWave": [
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 1476,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 1682,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 1667,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1462,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 1472,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 1457,
+              "Level": 25,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -406,7 +627,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "HandDmg_Bonus",
                       "level": 25,
@@ -424,7 +644,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "Elektra",
                       "level": 25,
@@ -442,7 +661,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "Nobu",
                       "level": 25,
@@ -460,7 +678,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "MercDmg_Single",
                       "level": 25,
@@ -478,7 +695,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "MercTank_Debuff",
                       "level": 25,
@@ -496,7 +712,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "MercSupport_Buffs",
                       "level": 25,
@@ -530,8 +745,66 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 2752,
+          "TotalHealth": 7387,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 2752,
+              "Level": 32,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -568,7 +841,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 32,
                       "loyalty": 2,
@@ -592,8 +864,82 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 18523,
+          "TotalHealth": 61639,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 1575,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 679,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 2039,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 679,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2090,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1568,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 1575,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 1575,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 2039,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1568,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1568,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 1568,
+              "Level": 28,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -614,7 +960,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "MercDmg_General",
                       "level": 28,
@@ -633,7 +978,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "MercTank_Taunt",
                       "level": 28,
@@ -652,7 +996,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "MercSupport_Buffs",
                       "level": 30,
@@ -670,7 +1013,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "MercTank_Taunt",
                       "level": 28,
@@ -689,7 +1031,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "KreeControl_Assist",
                       "level": 30,
@@ -708,7 +1049,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "MercDmg_Single",
                       "level": 28,
@@ -738,7 +1078,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "hero_id": "MercDmg_General",
                       "level": 28,
                       "loyalty": 2,
@@ -756,7 +1095,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "hero_id": "MercTank_Debuff",
                       "level": 28,
                       "loyalty": 2,
@@ -774,7 +1112,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "hero_id": "MercSupport_Buffs",
                       "level": 30,
                       "loyalty": 2,
@@ -801,7 +1138,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "MercDmg_Single",
                       "level": 28,
@@ -818,7 +1154,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "MercDmg_Single",
                       "level": 28,
@@ -835,7 +1170,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "MercDmg_Single",
                       "level": 28,
@@ -868,8 +1202,66 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 5693,
+          "TotalHealth": 13349,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 5693,
+              "Level": 42,
+              "GearLevel": 6
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 42,
+                      "loyalty": 3,
+                      "tier": 6,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -906,7 +1298,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 42,
                       "loyalty": 3,
@@ -930,8 +1321,64 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 35537,
+          "TotalHealth": 128852,
+          "CompactWave": [
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3715,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 3699,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 3782,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 3722,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 4305,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 3699,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 5118,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 3782,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3715,
+              "Level": 38,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -954,7 +1401,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "KreeDmg_Speed",
                       "level": 38,
@@ -972,7 +1418,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "KreeDmg_Offense",
                       "level": 38,
@@ -990,7 +1435,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "KreeTank_Counter",
                       "level": 38,
@@ -1008,7 +1452,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "KreeControl_Assist",
                       "level": 38,
@@ -1046,7 +1489,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         -1,
                         1
@@ -1096,7 +1538,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "KreeDmg_Offense",
                       "level": 38,
@@ -1114,7 +1555,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1136,7 +1576,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "KreeTank_Counter",
                       "level": 38,
@@ -1154,7 +1593,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "KreeDmg_Speed",
                       "level": 38,
@@ -1188,8 +1626,66 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 11205,
+          "TotalHealth": 25644,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 11205,
+              "Level": 52,
+              "GearLevel": 8
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        4,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 52,
+                      "loyalty": 4,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1226,7 +1722,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 52,
                       "loyalty": 4,
@@ -1250,8 +1745,82 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 97115,
+          "TotalHealth": 247909,
+          "CompactWave": [
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 7165,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 7138,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 9140,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 9140,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 10360,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 7138,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 9314,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 7184,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 7184,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7105,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7105,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 9142,
+              "Level": 50,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1273,7 +1842,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "AimTank_Taunt",
                       "level": 48,
@@ -1293,7 +1861,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         1,
                         -1
@@ -1322,7 +1889,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         4,
                         -1
@@ -1351,7 +1917,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         2,
                         -1
@@ -1380,7 +1945,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "ScientistSupreme",
                       "level": 50,
@@ -1400,7 +1964,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "desired_starting_ability_energy": [
                         1,
                         -1
@@ -1440,7 +2003,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "KreeTank_Counter",
                       "level": 50,
@@ -1460,7 +2022,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "AimControl_Infect",
                       "level": 48,
@@ -1480,7 +2041,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "AimControl_Infect",
                       "level": 48,
@@ -1500,7 +2060,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "AimDmg_Offense",
                       "level": 48,
@@ -1520,7 +2079,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "AimDmg_Offense",
                       "level": 48,
@@ -1540,7 +2098,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "KreeSupport_HoT",
                       "level": 50,
@@ -1576,8 +2133,66 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 17945,
+          "TotalHealth": 38391,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 17945,
+              "Level": 62,
+              "GearLevel": 9
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 62,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1614,7 +2229,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "hero_id": "IronMan",
                       "level": 62,
                       "loyalty": 5,
@@ -1638,8 +2252,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 107766,
+          "TotalHealth": 248841,
+          "CompactWave": [
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 14829,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 17043,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 14694,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 14891,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 16376,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 14939,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 14994,
+              "Level": 60,
+              "GearLevel": 9
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1661,13 +2319,12 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "KreeDmg_Offense",
                       "level": 60,
                       "loyalty": 5,
                       "tier": 9,
-                      "speed_percent": 85,
+                      "speed_percent": 80,
                       "max_hp_percent": 90,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -1681,7 +2338,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1703,7 +2359,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1713,7 +2368,7 @@
                       "loyalty": 5,
                       "tier": 9,
                       "speed_percent": 85,
-                      "max_hp_percent": 80,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 3,
                       "desired_y_pos": 0
                     },
@@ -1726,14 +2381,12 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "KreeTank_Counter",
                       "level": 60,
                       "loyalty": 5,
                       "tier": 9,
-                      "speed_percent": 85,
-                      "max_hp_percent": 90,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     },
@@ -1746,7 +2399,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1755,6 +2407,7 @@
                       "level": 60,
                       "loyalty": 5,
                       "tier": 9,
+                      "max_hp_percent": 90,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
@@ -1767,13 +2420,12 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "KreeDmg_Speed",
                       "level": 60,
                       "loyalty": 5,
                       "tier": 9,
-                      "speed_percent": 85,
+                      "speed_percent": 80,
                       "max_hp_percent": 90,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
@@ -1787,7 +2439,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1796,8 +2447,8 @@
                       "level": 60,
                       "loyalty": 5,
                       "tier": 9,
-                      "speed_percent": 85,
-                      "max_hp_percent": 80,
+                      "speed_percent": 75,
+                      "max_hp_percent": 90,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
@@ -1826,8 +2477,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 27263,
+          "TotalHealth": 53316,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 27263,
+              "Level": 67,
+              "GearLevel": 11
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "ironman_event_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "IronMan",
+                      "level": 67,
+                      "loyalty": 6,
+                      "tier": 11,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1864,7 +2574,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "IronMan",
                       "level": 67,
@@ -1889,8 +2598,58 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 191700,
+          "TotalHealth": 497935,
+          "CompactWave": [
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 24289,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 23697,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 24247,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 23557,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 23890,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 24047,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 23970,
+              "Level": 65,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 24003,
+              "Level": 65,
+              "GearLevel": 11
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1911,7 +2670,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1934,7 +2692,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1957,7 +2714,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -1991,7 +2747,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2014,7 +2769,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2037,7 +2791,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2060,7 +2813,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2083,7 +2835,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2123,6 +2874,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2179,8 +2931,106 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 18770,
+          "TotalHealth": 81490,
+          "CompactWave": [
+            {
+              "HeroId": "Yondu",
+              "Power": 1510,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 1218,
+              "Level": 26,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 1265,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 1401,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 438,
+              "Level": 23,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 336,
+              "Level": 26,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 1447,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 627,
+              "Level": 25,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 868,
+              "Level": 23,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Nebula",
+              "Power": 1856,
+              "Level": 32,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 423,
+              "Level": 23,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 349,
+              "Level": 27,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 349,
+              "Level": 27,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Drax",
+              "Power": 2923,
+              "Level": 31,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 2393,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Nebula",
+              "Power": 1367,
+              "Level": 30,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2202,7 +3052,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2235,7 +3084,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2257,7 +3105,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2280,7 +3127,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2303,7 +3149,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2326,7 +3171,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2360,7 +3204,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2384,7 +3227,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2407,7 +3249,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2431,7 +3272,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2454,7 +3294,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2478,7 +3317,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2501,7 +3339,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2535,7 +3372,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2557,7 +3393,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2580,7 +3415,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2620,6 +3454,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -2662,8 +3497,142 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 49774,
+          "TotalHealth": 193633,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2155,
+              "Level": 33,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 2148,
+              "Level": 33,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 2044,
+              "Level": 31,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1981,
+              "Level": 30,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2031,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 2188,
+              "Level": 32,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 2300,
+              "Level": 34,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 4152,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 2689,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 4278,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1244,
+              "Level": 27,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1244,
+              "Level": 27,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1533,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 927,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 927,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 975,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 975,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 1197,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 2901,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 4677,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 3619,
+              "Level": 37,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 3589,
+              "Level": 37,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2685,7 +3654,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2706,7 +3674,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2728,7 +3695,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2749,7 +3715,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2770,7 +3735,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2803,7 +3767,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2825,7 +3788,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2847,7 +3809,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2869,7 +3830,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2891,7 +3851,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "desired_ability_cost": [
                         -1,
                         5
@@ -2927,7 +3886,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2948,7 +3906,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2969,7 +3926,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -2990,7 +3946,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3009,7 +3964,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3028,7 +3982,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3047,7 +4000,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3066,7 +4018,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3085,7 +4036,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3104,7 +4054,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3124,7 +4073,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3144,7 +4092,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3181,6 +4128,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3223,8 +4171,112 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 56125,
+          "TotalHealth": 200000,
+          "CompactWave": [
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 3782,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3656,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 4166,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 6034,
+              "Level": 39,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 4405,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2534,
+              "Level": 36,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3656,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 6738,
+              "Level": 41,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 8227,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1072,
+              "Level": 37,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1201,
+              "Level": 36,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 878,
+              "Level": 38,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1047,
+              "Level": 36,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 845,
+              "Level": 36,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1041,
+              "Level": 36,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 1176,
+              "Level": 40,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 5667,
+              "Level": 46,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3246,7 +4298,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3269,7 +4320,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3289,7 +4339,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3309,7 +4358,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3341,7 +4389,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3364,7 +4411,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3386,7 +4432,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3408,7 +4453,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3428,7 +4472,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3462,7 +4505,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3483,7 +4525,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3504,7 +4545,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3525,7 +4565,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3546,7 +4585,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3567,7 +4605,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3588,7 +4625,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3609,7 +4645,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3658,6 +4693,7 @@
             }
           ],
           "Power": 0,
+          "TotalHealth": 0,
           "CompactWave": [],
           "WaveLists": [
             {
@@ -3700,8 +4736,94 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 107848,
+          "TotalHealth": 242714,
+          "CompactWave": [
+            {
+              "HeroId": "BlackWidow",
+              "Power": 8679,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 8492,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 6498,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 6498,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 8721,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 8565,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 6498,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 6498,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 6471,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 6471,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 8679,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 8492,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 8565,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 8721,
+              "Level": 48,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3717,90 +4839,85 @@
                   "Entries": [
                     {
                       "abilities": [
-                        6,
-                        6,
+                        4,
+                        4,
                         4,
                         3,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "BlackWidow",
-                      "level": 55,
+                      "level": 48,
                       "loyalty": 4,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 75,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "Quake",
-                      "level": 55,
+                      "level": 48,
                       "loyalty": 4,
-                      "tier": 8,
-                      "speed_percent": 105,
+                      "tier": 7,
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
-                        5,
                         4,
                         4,
                         3,
+                        2,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetController",
+                      "ai_override": "Mission_TargetBrawler",
                       "hero_id": "ShieldDmg_AoE",
-                      "level": 50,
-                      "loyalty": 4,
+                      "level": 44,
+                      "loyalty": 3,
                       "tier": 7,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
                     {
                       "abilities": [
-                        5,
                         4,
                         4,
                         3,
+                        2,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "ShieldDmg_AoE",
-                      "level": 50,
-                      "loyalty": 4,
+                      "level": 44,
+                      "loyalty": 3,
                       "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -3820,43 +4937,40 @@
                   "Entries": [
                     {
                       "abilities": [
-                        5,
-                        2,
+                        4,
+                        4,
                         4,
                         3,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "CaptainAmerica",
-                      "level": 49,
+                      "level": 48,
                       "loyalty": 4,
                       "tier": 7,
-                      "speed_percent": 106,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
-                        5,
-                        5,
+                        4,
+                        4,
                         4,
                         3,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "hero_id": "Hawkeye",
-                      "level": 50,
+                      "level": 48,
                       "loyalty": 4,
                       "tier": 7,
                       "speed_percent": 90,
@@ -3867,19 +4981,19 @@
                       "abilities": [
                         4,
                         4,
-                        4,
                         3,
+                        2,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
+                      "ai_override": "Mission_TargetProtector",
                       "hero_id": "ShieldDmg_AoE",
-                      "level": 46,
-                      "loyalty": 4,
+                      "level": 44,
+                      "loyalty": 3,
                       "tier": 7,
                       "speed_percent": 80,
                       "desired_x_pos": 4,
@@ -3889,19 +5003,19 @@
                       "abilities": [
                         4,
                         4,
-                        4,
                         3,
+                        2,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
+                      "ai_override": "Mission_TargetController",
                       "hero_id": "ShieldDmg_AoE",
-                      "level": 46,
-                      "loyalty": 4,
+                      "level": 44,
+                      "loyalty": 3,
                       "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 0,
@@ -3911,12 +5025,11 @@
                       "abilities": [
                         4,
                         4,
-                        4,
                         3,
+                        2,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -3934,13 +5047,16 @@
                       "abilities": [
                         4,
                         4,
-                        4,
                         3,
+                        2,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
+                      "custom_entity_visual": [
+                        "RedEyes"
+                      ],
                       "useDefaultStats": false,
+                      "ai_override": "Mission_TargetBrawler",
                       "hero_id": "ShieldDmg_Defense",
                       "level": 44,
                       "loyalty": 3,
@@ -3961,21 +5077,20 @@
                   "Entries": [
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetController",
                       "hero_id": "BlackWidow",
-                      "level": 53,
+                      "level": 48,
                       "loyalty": 4,
                       "tier": 7,
                       "speed_percent": 75,
@@ -3984,21 +5099,20 @@
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "Quake",
-                      "level": 55,
+                      "level": 48,
                       "loyalty": 4,
                       "tier": 7,
                       "speed_percent": 90,
@@ -4007,21 +5121,20 @@
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "Hawkeye",
-                      "level": 54,
+                      "level": 48,
                       "loyalty": 4,
                       "tier": 7,
                       "speed_percent": 90,
@@ -4030,22 +5143,22 @@
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
+                      "ai_override": "Mission_TargetBrawler",
                       "hero_id": "CaptainAmerica",
-                      "level": 53,
+                      "level": 48,
                       "loyalty": 4,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 80,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -4075,8 +5188,68 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 19554,
+          "TotalHealth": 54138,
+          "CompactWave": [
+            {
+              "HeroId": "Ultimus",
+              "Power": 19554,
+              "Level": 65,
+              "GearLevel": 9
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_nickfury_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Ultimus",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "speed_percent": 105,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4113,7 +5286,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Ultimus",
                       "level": 65,
@@ -4139,8 +5311,112 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 161293,
+          "TotalHealth": 411608,
+          "CompactWave": [
+            {
+              "HeroId": "Deadpool",
+              "Power": 22344,
+              "Level": 70,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 10137,
+              "Level": 58,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 10137,
+              "Level": 58,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 10676,
+              "Level": 57,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 10339,
+              "Level": 56,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 10172,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 1178,
+              "Level": 40,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 9418,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 12938,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 12689,
+              "Level": 58,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 1758,
+              "Level": 60,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 12689,
+              "Level": 58,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 12938,
+              "Level": 55,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 7462,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 7462,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 7462,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 1494,
+              "Level": 24,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4162,7 +5438,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4196,7 +5471,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4218,7 +5492,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4240,7 +5513,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4261,7 +5533,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4283,7 +5554,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4305,7 +5575,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4324,7 +5593,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4353,7 +5621,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4374,7 +5641,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4395,7 +5661,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4415,7 +5680,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4436,7 +5700,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4468,7 +5731,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4488,7 +5750,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4508,7 +5769,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4540,7 +5800,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4575,8 +5834,88 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 49367,
+          "TotalHealth": 123976,
+          "CompactWave": [
+            {
+              "HeroId": "NickFury",
+              "Power": 19047,
+              "Level": 65,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Ultimus",
+              "Power": 30320,
+              "Level": 70,
+              "GearLevel": 10
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_nickfury_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 4,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "NickFury",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Ultimus",
+                      "level": 70,
+                      "loyalty": 7,
+                      "tier": 10
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4613,7 +5952,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NickFury",
                       "level": 65,
@@ -4631,7 +5969,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "Ultimus",
                       "level": 70,
@@ -4654,8 +5991,82 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 240536,
+          "TotalHealth": 523833,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 19129,
+              "Level": 65,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 18874,
+              "Level": 64,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 14885,
+              "Level": 61,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 15095,
+              "Level": 62,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 19037,
+              "Level": 63,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 3284,
+              "Level": 63,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 31008,
+              "Level": 67,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 29187,
+              "Level": 66,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 22255,
+              "Level": 67,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 22390,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 22696,
+              "Level": 64,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 22696,
+              "Level": 64,
+              "GearLevel": 10
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4678,7 +6089,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4701,7 +6111,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4722,7 +6131,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4743,7 +6151,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4763,7 +6170,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4782,7 +6188,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4813,7 +6218,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4833,7 +6237,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4865,7 +6268,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4887,7 +6289,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4906,7 +6307,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4929,7 +6329,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -4979,8 +6378,90 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 34281,
+          "TotalHealth": 147866,
+          "CompactWave": [
+            {
+              "HeroId": "KreeOperator",
+              "Power": 4747,
+              "Level": 70,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 29534,
+              "Level": 64,
+              "GearLevel": 12
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_nickfury_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "is_mission_target": true,
+                      "hero_id": "KreeOperator",
+                      "level": 70,
+                      "loyalty": 7,
+                      "tier": 10,
+                      "speed_percent": 60,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "NickFury",
+                      "level": 64,
+                      "loyalty": 7,
+                      "tier": 12
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5017,7 +6498,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "is_mission_target": true,
                       "hero_id": "KreeOperator",
@@ -5037,7 +6517,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "NickFury",
                       "level": 64,
@@ -5060,8 +6539,136 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 256764,
+          "TotalHealth": 587125,
+          "CompactWave": [
+            {
+              "HeroId": "Wasp",
+              "Power": 28796,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 28235,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 24560,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 17943,
+              "Level": 66,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 23441,
+              "Level": 67,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 23729,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 24120,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 24576,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 27917,
+              "Level": 70,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 24637,
+              "Level": 68,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2057,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1021,
+              "Level": 20,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 1271,
+              "Level": 20,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 1268,
+              "Level": 20,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 414,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 512,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 412,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 412,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 414,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 512,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 517,
+              "Level": 15,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5083,7 +6690,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5105,7 +6711,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5138,7 +6743,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5158,7 +6762,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5178,7 +6781,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5198,7 +6800,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5230,7 +6831,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5250,7 +6850,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5269,7 +6868,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5300,7 +6898,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5322,7 +6919,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5344,7 +6940,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5366,7 +6961,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5386,7 +6980,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5419,7 +7012,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5438,7 +7030,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5456,7 +7047,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5476,7 +7066,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5494,7 +7083,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5512,7 +7100,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5530,7 +7117,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5579,8 +7165,89 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 1679,
+          "TotalHealth": 4184,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 1679,
+              "Level": 25,
+              "GearLevel": 4
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "StoryTellingID": "le_starlord_01_mid",
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "EmptyStoryDelay": 5,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 5,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 4,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5639,7 +7306,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 25,
@@ -5664,8 +7330,76 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 16569,
+          "TotalHealth": 61496,
+          "CompactWave": [
+            {
+              "HeroId": "Korath",
+              "Power": 1681,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1463,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 1469,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 1491,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 1467,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 1460,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 1491,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1463,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 1655,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 1469,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 1460,
+              "Level": 25,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5686,7 +7420,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5719,7 +7452,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5741,7 +7473,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5763,7 +7494,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5796,7 +7526,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5818,7 +7547,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5851,7 +7579,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5871,7 +7598,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5891,7 +7617,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5911,7 +7636,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5931,7 +7655,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -5967,8 +7690,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 2724,
+          "TotalHealth": 6661,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 2724,
+              "Level": 36,
+              "GearLevel": 4
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 36,
+                      "loyalty": 2,
+                      "tier": 4,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6005,7 +7787,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 36,
@@ -6030,8 +7811,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 16705,
+          "TotalHealth": 53255,
+          "CompactWave": [
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 2284,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 2273,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 2275,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 2273,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 2284,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 2657,
+              "Level": 35,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Nebula",
+              "Power": 2659,
+              "Level": 35,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6052,7 +7877,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6074,7 +7898,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6096,7 +7919,6 @@
                         2,
                         2
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6118,7 +7940,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6140,7 +7961,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6174,7 +7994,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6196,7 +8015,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6234,8 +8052,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 7469,
+          "TotalHealth": 15642,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 7469,
+              "Level": 45,
+              "GearLevel": 7
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 45,
+                      "loyalty": 3,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6272,7 +8149,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 45,
@@ -6297,8 +8173,100 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 47715,
+          "TotalHealth": 132237,
+          "CompactWave": [
+            {
+              "HeroId": "Cable",
+              "Power": 6365,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 5691,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 5597,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 6414,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 5776,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 531,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 699,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 531,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 699,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 699,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 531,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 707,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 707,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 6400,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 6368,
+              "Level": 45,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6319,7 +8287,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6353,7 +8320,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6376,7 +8342,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6399,7 +8364,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6421,7 +8385,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6465,7 +8428,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6488,7 +8450,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6512,7 +8473,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6536,7 +8496,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6560,7 +8519,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6584,7 +8542,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6619,7 +8576,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6641,7 +8597,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6675,7 +8630,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6697,7 +8651,6 @@
                         3,
                         3
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6735,8 +8688,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 10681,
+          "TotalHealth": 22324,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 10681,
+              "Level": 55,
+              "GearLevel": 7
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 55,
+                      "loyalty": 4,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6773,7 +8785,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 55,
@@ -6798,8 +8809,70 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 94645,
+          "TotalHealth": 317595,
+          "CompactWave": [
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 9988,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 9372,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 9335,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 9335,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 9147,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 9147,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 9147,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 10117,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 9088,
+              "Level": 55,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 9969,
+              "Level": 55,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6820,7 +8893,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6852,7 +8924,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6874,7 +8945,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6896,7 +8966,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6918,7 +8987,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6952,7 +9020,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -6974,7 +9041,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7007,7 +9073,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7025,11 +9090,10 @@
                         5,
                         4,
                         4,
-                        3,
+                        -1,
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7051,7 +9115,6 @@
                         4,
                         4
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7089,8 +9152,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 15537,
+          "TotalHealth": 32685,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 15537,
+              "Level": 63,
+              "GearLevel": 8
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 63,
+                      "loyalty": 5,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7127,7 +9249,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 63,
@@ -7152,8 +9273,82 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 171146,
+          "TotalHealth": 455700,
+          "CompactWave": [
+            {
+              "HeroId": "Groot",
+              "Power": 14695,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 14781,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 14892,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Gamora",
+              "Power": 14867,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Drax",
+              "Power": 14782,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 14829,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Nebula",
+              "Power": 14882,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 13438,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 13438,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 13552,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 13438,
+              "Level": 60,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 13552,
+              "Level": 60,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7174,7 +9369,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7196,7 +9390,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7218,7 +9411,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7240,7 +9432,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7262,7 +9453,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7284,7 +9474,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7317,7 +9506,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7339,7 +9527,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7372,7 +9559,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7392,7 +9578,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7412,7 +9597,6 @@
                         5,
                         5
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7433,7 +9617,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7469,8 +9652,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 24276,
+          "TotalHealth": 45464,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 24276,
+              "Level": 67,
+              "GearLevel": 10
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 67,
+                      "loyalty": 6,
+                      "tier": 10,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7507,7 +9749,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 67,
@@ -7532,8 +9773,52 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 154901,
+          "TotalHealth": 355038,
+          "CompactWave": [
+            {
+              "HeroId": "Loki",
+              "Power": 20074,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 22339,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Cable",
+              "Power": 22458,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 22736,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "Deadpool",
+              "Power": 22555,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 22503,
+              "Level": 65,
+              "GearLevel": 10
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 22236,
+              "Level": 65,
+              "GearLevel": 10
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7550,11 +9835,10 @@
                         6,
                         5,
                         5,
-                        4,
+                        -1,
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7576,7 +9860,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7609,7 +9892,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7631,7 +9913,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7653,7 +9934,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7686,7 +9966,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7708,7 +9987,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7746,8 +10024,67 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 38208,
+          "TotalHealth": 63839,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 38208,
+              "Level": 72,
+              "GearLevel": 13
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "le_starlord_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "StarLord",
+                      "level": 72,
+                      "loyalty": 7,
+                      "tier": 13,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7784,7 +10121,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "useDefaultStats": false,
                       "hero_id": "StarLord",
                       "level": 72,
@@ -7809,8 +10145,82 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 0,
-          "CompactWave": [],
+          "Power": 373679,
+          "TotalHealth": 1011634,
+          "CompactWave": [
+            {
+              "HeroId": "Thanos",
+              "Power": 36590,
+              "Level": 70,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 29432,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Ultimus",
+              "Power": 36000,
+              "Level": 70,
+              "GearLevel": 12
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 32296,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 30017,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 29441,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 31599,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 29441,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 29432,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 30017,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 30017,
+              "Level": 70,
+              "GearLevel": 11
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 29397,
+              "Level": 70,
+              "GearLevel": 11
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7831,7 +10241,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7853,7 +10262,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7875,7 +10283,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7898,7 +10305,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7920,7 +10326,6 @@
                         6,
                         6
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7942,7 +10347,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7975,7 +10379,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -7997,7 +10400,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -8030,7 +10432,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -8050,7 +10451,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -8070,7 +10470,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -8090,7 +10489,6 @@
                         0,
                         0
                       ],
-                      "procs_cnt": null,
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
