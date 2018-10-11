@@ -1,0 +1,973 @@
+{
+  "Name": "insanity_test_dk",
+  "RaidDetails": {
+    "raidId": "insanity_test_dk",
+    "rows": 5,
+    "columns": 9,
+    "isOperation": false,
+    "map": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "B2",
+        "B3",
+        "",
+        "",
+        "B6",
+        "B7",
+        "",
+        ""
+      ],
+      [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      [
+        "",
+        "",
+        "",
+        "D4",
+        "D5",
+        "",
+        "",
+        "D8",
+        "D9"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "rooms": {
+      "C2": {
+        "roomId": "C2",
+        "name": "insanity_bunny01_01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_01",
+            "icon": "Portrait_DoctorStrange",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_01",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "B2",
+          null
+        ]
+      },
+      "B2": {
+        "roomId": "B2",
+        "name": "insanity_bunny01_02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_02",
+            "icon": "Portrait_Okoye",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_02",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B3",
+          null,
+          null
+        ]
+      },
+      "B3": {
+        "roomId": "B3",
+        "name": "insanity_bunny01_03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_03",
+            "icon": "Portrait_NickFury",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_03",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "C3"
+        ]
+      },
+      "C3": {
+        "roomId": "C3",
+        "name": "insanity_bunny01_04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_04",
+            "icon": "Portrait_Wasp",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_04",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C4",
+          null,
+          null
+        ]
+      },
+      "C4": {
+        "roomId": "C4",
+        "name": "insanity_bunny01_05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_05",
+            "icon": "Portrait_Crossbones",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_05",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "D4"
+        ]
+      },
+      "D5": {
+        "roomId": "D5",
+        "name": "insanity_bunny01_07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_07",
+            "icon": "Portrait_Cable",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_07",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "C5",
+          null
+        ]
+      },
+      "D4": {
+        "roomId": "D4",
+        "name": "insanity_bunny01_06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_06",
+            "icon": "Portrait_Nobu",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_06",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D5",
+          null,
+          null
+        ]
+      },
+      "C5": {
+        "roomId": "C5",
+        "name": "insanity_bunny01_08",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_08",
+            "icon": "Portrait_IronMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_08",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C6",
+          null,
+          null
+        ]
+      },
+      "C6": {
+        "roomId": "C6",
+        "name": "insanity_bunny01_09",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_09",
+            "icon": "Portrait_Kingpin",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_09",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "B6",
+          null
+        ]
+      },
+      "C1": {
+        "roomId": "C1",
+        "name": "Start",
+        "starting": true,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C2",
+          null,
+          null
+        ]
+      },
+      "B6": {
+        "roomId": "B6",
+        "name": "insanity_bunny01_10",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_10",
+            "icon": "Portrait_Deadpool",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_10",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B7",
+          null,
+          null
+        ]
+      },
+      "B7": {
+        "roomId": "B7",
+        "name": "insanity_bunny01_11",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_11",
+            "icon": "Portrait_RedSkull",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_11",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "C7"
+        ]
+      },
+      "C7": {
+        "roomId": "C7",
+        "name": "insanity_bunny01_12",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_12",
+            "icon": "Portrait_StarLord",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_12",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C8",
+          null,
+          null
+        ]
+      },
+      "C8": {
+        "roomId": "C8",
+        "name": "insanity_bunny01_13",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_13",
+            "icon": "Portrait_MsMarvel",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_13",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "D8"
+        ]
+      },
+      "D8": {
+        "roomId": "D8",
+        "name": "insanity_bunny01_14",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_14",
+            "icon": "Portrait_BaronMordo",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_14",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D9",
+          null,
+          null
+        ]
+      },
+      "D9": {
+        "roomId": "D9",
+        "name": "insanity_bunny01_15",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_15",
+            "icon": "Portrait_HandTank_Stealth",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_15",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "C9",
+          null
+        ]
+      },
+      "C9": {
+        "roomId": "C9",
+        "name": "insanity_bunny01_16",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "insanity_bunny01_16",
+            "icon": "Portrait_Ultron",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "m_insanity_ftd_lvl_16",
+                "m_firstTimeOnly": true
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_REQUIRES_GEAR_TIER_13",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 5,
+              "filters": {
+                "tier": 13
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "startingRoomId": "C1"
+  }
+}
