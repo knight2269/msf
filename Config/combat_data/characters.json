@@ -26800,6 +26800,14 @@
             {
               "action": "proc",
               "action_pct": 100,
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "greater_or_equal",
+                    "than": 99
+                  }
+                }
+              },
               "procs": [
                 {
                   "proc": "ReviveOnce",
