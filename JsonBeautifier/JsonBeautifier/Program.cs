@@ -1,6 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using Insight.Database;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 
 namespace JsonBeautifier
@@ -36,11 +39,32 @@ namespace JsonBeautifier
 
                     File.WriteAllText(file, json2);
                 }
+
+                if (file.EndsWith(".db"))
+                {
+                    //ExtractSQL(file);
+                }
             }
 
             foreach (string subDir in Directory.GetDirectories(path))
             {
                 ProcessDirectory(subDir);
+            }
+        }
+
+        static void ExtractSQL(string filePath)
+        {
+            string databasePath = Path.GetFullPath(filePath);
+            Console.WriteLine("Extracting SQL from: " + databasePath);
+            string connectionString = "Data Source=" + databasePath + ";Version=3;";
+            SqlConnection connection = new SqlConnection(connectionString);
+            IList<FastExpando> tables = connection.QuerySql("select * from tables");
+            foreach (FastExpando table in tables)
+            {
+                foreach (string name in table.GetDynamicMemberNames())
+                {
+                    Console.WriteLine(name);
+                }
             }
         }
     }
