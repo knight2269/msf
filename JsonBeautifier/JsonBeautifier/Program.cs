@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using System.Data.SQLite;
 using System.IO;
 
 namespace JsonBeautifier
@@ -42,7 +42,11 @@ namespace JsonBeautifier
 
                 if (file.EndsWith(".db"))
                 {
-                    //ExtractSQL(file);
+                    string sqlContent = ExtractSQL(file);
+
+                    Console.WriteLine("file: {0}.txt --- {1}", file, sqlContent.Length);
+
+                    File.WriteAllText(file + ".txt", sqlContent);
                 }
             }
 
@@ -52,20 +56,32 @@ namespace JsonBeautifier
             }
         }
 
-        static void ExtractSQL(string filePath)
+        static string ExtractSQL(string filePath)
         {
+            string result = "";
+
             string databasePath = Path.GetFullPath(filePath);
-            Console.WriteLine("Extracting SQL from: " + databasePath);
-            string connectionString = "Data Source=" + databasePath + ";Version=3;";
-            SqlConnection connection = new SqlConnection(connectionString);
-            IList<FastExpando> tables = connection.QuerySql("select * from tables");
-            foreach (FastExpando table in tables)
+
+            string connectionString = "Data Source=" + databasePath + ";Trusted_Connection=True;Version=3;";
+            SQLiteConnection connection = new SQLiteConnection(connectionString);
+
+            foreach (FastExpando tableInfo in connection.QuerySql("SELECT * FROM sqlite_master WHERE type='table'"))
             {
-                foreach (string name in table.GetDynamicMemberNames())
+                result += JToken.FromObject(tableInfo).ToString();
+
+                foreach (var tableDetail in tableInfo)
                 {
-                    Console.WriteLine(name);
+                    if (tableDetail.Key == "tbl_name")
+                    {
+                        foreach (FastExpando tableRow in connection.QuerySql("SELECT * FROM " + tableDetail.Value))
+                        {
+                            result += JToken.FromObject(tableRow).ToString();
+                        }
+                    }
                 }
             }
+
+            return result;
         }
     }
 }
