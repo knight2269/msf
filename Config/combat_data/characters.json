@@ -22004,6 +22004,510 @@
         "Minion"
       ]
     },
+    "Sabretooth": {
+      "basic": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  300,
+                  340
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "action_pct": [
+                0,
+                100
+              ],
+              "heal_pct": [
+                0,
+                5,
+                10,
+                10,
+                15
+              ],
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_turn",
+          "exec_on_stun": true
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                0,
+                0,
+                100
+              ],
+              "procs": [
+                {
+                  "proc": "Deathproof",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "below_health",
+          "exec_value": 50
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "delta": 5,
+          "for_each": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Brotherhood"
+              ]
+            }
+          },
+          "stat": "damage_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  61,
+                  85,
+                  110,
+                  135,
+                  161,
+                  184,
+                  205
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  180,
+                  220,
+                  260,
+                  310,
+                  350,
+                  390,
+                  460
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "apply_if": {
+                  "target": {
+                    "procs": [
+                      "Taunt"
+                    ]
+                  }
+                },
+                "delta": [
+                  30,
+                  30,
+                  30,
+                  40,
+                  40,
+                  60,
+                  80
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  160,
+                  200,
+                  200,
+                  240,
+                  280,
+                  320
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 4,
+        "stat_lock": [
+          {
+            "on": "primary",
+            "stat": "block_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "block_chance_pct",
+            "value": 0
+          }
+        ]
+      },
+      "traits": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Brotherhood"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  170,
+                  200,
+                  230,
+                  260,
+                  290,
+                  330,
+                  380
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "DoT",
+                "spawn_pct": 100,
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  140,
+                  170,
+                  200,
+                  230,
+                  260,
+                  300,
+                  330
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "filter": {
+                "not": {
+                  "target": {
+                    "states": [
+                      "stealthed"
+                    ]
+                  }
+                }
+              },
+              "limit": [
+                {
+                  "f": 2,
+                  "t": 3
+                },
+                {
+                  "f": 2,
+                  "t": 3
+                },
+                {
+                  "f": 2,
+                  "t": 4
+                },
+                {
+                  "f": 3,
+                  "t": 4
+                },
+                {
+                  "f": 3,
+                  "t": 5
+                },
+                {
+                  "f": 3,
+                  "t": 5
+                },
+                {
+                  "f": 4,
+                  "t": 5
+                }
+              ],
+              "primary_selection": "exclude_from_pool",
+              "stop_if_outcome": [
+                "counter_attack"
+              ],
+              "type": "direct_neighbor"
+            }
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "alternatives": [
+          {
+            "actions": [
+              {
+                "stat_modifier": [
+                  {
+                    "delta": [
+                      170,
+                      200,
+                      230,
+                      260,
+                      290,
+                      330,
+                      380
+                    ],
+                    "stat": "ability_damage_pct"
+                  }
+                ]
+              },
+              {
+                "action": "proc",
+                "procs": [
+                  {
+                    "proc": "DoT",
+                    "spawn_pct": 100,
+                    "use_count": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      2,
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "stat_modifier": [
+                  {
+                    "delta": [
+                      140,
+                      170,
+                      200,
+                      230,
+                      260,
+                      300,
+                      330
+                    ],
+                    "stat": "ability_damage_pct"
+                  }
+                ],
+                "target": {
+                  "filter": {
+                    "not": {
+                      "target": {
+                        "states": [
+                          "stealthed"
+                        ]
+                      }
+                    }
+                  },
+                  "limit": [
+                    {
+                      "f": 2,
+                      "t": 3
+                    },
+                    {
+                      "f": 2,
+                      "t": 3
+                    },
+                    {
+                      "f": 2,
+                      "t": 4
+                    },
+                    {
+                      "f": 3,
+                      "t": 4
+                    },
+                    {
+                      "f": 3,
+                      "t": 5
+                    },
+                    {
+                      "f": 3,
+                      "t": 5
+                    },
+                    {
+                      "f": 4,
+                      "t": 5
+                    }
+                  ],
+                  "primary_selection": "exclude_from_pool",
+                  "stop_if_outcome": [
+                    "counter_attack"
+                  ],
+                  "type": "direct_neighbor"
+                }
+              },
+              {
+                "action": "proc",
+                "assist": {},
+                "counter": true,
+                "procs": [
+                  {
+                    "proc": "DoT",
+                    "use_count": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      2,
+                      2
+                    ]
+                  }
+                ]
+              }
+            ],
+            "need_ally": {
+              "character": [
+                "Magneto"
+              ]
+            },
+            "stat_lock": [
+              {
+                "on": "primary",
+                "stat": "counter_pct",
+                "value": 0
+              },
+              {
+                "on": "secondary",
+                "stat": "counter_pct",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "cost": 5,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 5
+      }
+    },
     "ScarletWitch": {
       "basic": {
         "actions": [
