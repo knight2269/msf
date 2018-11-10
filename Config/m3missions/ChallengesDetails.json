@@ -2950,7 +2950,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 20,
+      "m_index": 21,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": false,
@@ -7808,7 +7808,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 22,
+      "m_index": 23,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": false,
@@ -8192,7 +8192,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 21,
+      "m_index": 22,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": false,
@@ -8562,7 +8562,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 23,
+      "m_index": 24,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": true,
@@ -8968,7 +8968,7 @@
           "m_unlockedDesc": ""
         }
       ],
-      "m_index": 24,
+      "m_index": 25,
       "m_isEvent": true,
       "m_timesBeatable": -1,
       "m_refreshable": true,
@@ -9347,6 +9347,350 @@
       "m_description": "ID_LE_NICKFURY_DESC",
       "m_flavorText": "ID_LE_NICKFURY_CHANCE",
       "m_image": "ID_LE_NICKFURY_NAME",
+      "m_nodeImage": "",
+      "m_catalystGearID": "",
+      "m_gameStatID": "",
+      "m_dailyLimit": 0,
+      "m_mustHaveHeroes": [],
+      "m_mustHaveHeroesDesc": "",
+      "m_unlockedDesc": ""
+    },
+    "MAGNETO_EVENT": {
+      "m_chapterList": [
+        {
+          "m_missionList": [
+            {
+              "m_missionID": "event_le_magneto_01",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_01_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_1",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L1",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_01_NAME",
+              "m_description": "ID_LE_MAGNETO_01_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L1",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_02",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_02_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_2",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L2",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 2,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_02_NAME",
+              "m_description": "ID_LE_MAGNETO_02_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L2",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_03",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_03_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_3",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L3",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 3,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_03_NAME",
+              "m_description": "ID_LE_MAGNETO_03_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L3",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_04",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_04_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_4",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L4",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 4,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_04_NAME",
+              "m_description": "ID_LE_MAGNETO_04_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L4",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_05",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_05_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_5",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L5",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 5,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_05_NAME",
+              "m_description": "ID_LE_MAGNETO_05_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L5",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_06",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_06_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_6",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L6",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 6,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_06_NAME",
+              "m_description": "ID_LE_MAGNETO_06_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L6",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_magneto_07",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_magneto_07_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_magneto_7",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L7",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 7,
+                  "anyTrait": [
+                    "Xmen",
+                    "Brotherhood"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_MAGNETO_07_NAME",
+              "m_description": "ID_LE_MAGNETO_07_DESC",
+              "m_flavorText": "ID_REQUIRES_X-MEN_BROTHERHOOD_5_L7",
+              "m_image": "ID_LE_MAGNETO_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            }
+          ],
+          "m_rewardsIDList": [],
+          "m_requirements": {},
+          "m_heroFilters": {
+            "description": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "quantity": 0,
+            "filters": {}
+          },
+          "m_name": "",
+          "m_description": "",
+          "m_flavorText": "",
+          "m_image": "",
+          "m_nodeImage": "",
+          "m_catalystGearID": "",
+          "m_gameStatID": "",
+          "m_dailyLimit": 0,
+          "m_mustHaveHeroes": [],
+          "m_mustHaveHeroesDesc": "",
+          "m_unlockedDesc": ""
+        }
+      ],
+      "m_index": 20,
+      "m_isEvent": true,
+      "m_timesBeatable": 1,
+      "m_refreshable": false,
+      "m_hideFromDisplay": false,
+      "m_statsToTrack": [],
+      "m_energyConsumptionStat": "",
+      "m_highestMissionStat": "",
+      "m_ctaData": null,
+      "m_nodeNameShort": null,
+      "m_rewardsIDList": [],
+      "m_requirements": {},
+      "m_heroFilters": {
+        "description": "ID_REQUIRES_X-MEN_BROTHERHOOD_SHORT",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 5,
+        "filters": {}
+      },
+      "m_name": "ID_LE_MAGNETO_NAME",
+      "m_description": "ID_LE_MAGNETO_DESC",
+      "m_flavorText": "ID_LE_MAGNETO_CHANCE",
+      "m_image": "ID_LE_MAGNETO_NAME",
       "m_nodeImage": "",
       "m_catalystGearID": "",
       "m_gameStatID": "",

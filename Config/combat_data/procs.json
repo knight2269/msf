@@ -28,6 +28,13 @@
         }
       ]
     },
+    "BuffBlock": {
+      "category": "debuff",
+      "expiration_type": "end_of_turn",
+      "opposite": "DebuffBlock",
+      "state": "buff_block",
+      "type": "state"
+    },
     "Charged": {
       "category": "none",
       "expiration_type": "on_never_expire",
@@ -54,6 +61,13 @@
       "on_use": true,
       "opposite": "DoT",
       "state": "death_proof",
+      "type": "state"
+    },
+    "DebuffBlock": {
+      "category": "buff",
+      "expiration_type": "end_of_turn",
+      "opposite": "BuffBlock",
+      "state": "debuff_block",
       "type": "state"
     },
     "DefenseDown": {
@@ -271,6 +285,20 @@
         {
           "delta": -30,
           "stat": "damage_pct"
+        }
+      ]
+    },
+    "Vulnerable": {
+      "category": "none",
+      "expiration_type": "end_of_any_turn",
+      "stat_modifier": [
+        {
+          "delta": -100,
+          "stat": "damage_reduction_pct"
+        },
+        {
+          "delta": -100,
+          "stat": "resistance_pct"
         }
       ]
     }

@@ -16,6 +16,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -49,6 +52,34 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 560,
+          "TotalHealth": 2394,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 100,
+              "Level": 7,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 154,
+              "Level": 8,
+              "GearLevel": 2
             }
           ],
           "WaveLists": [
@@ -176,6 +207,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -204,6 +238,52 @@
           ]
         },
         {
+          "Power": 1275,
+          "TotalHealth": 5403,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 164,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 164,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 228,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 163,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 163,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 164,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 229,
+              "Level": 9,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -419,6 +499,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -464,6 +547,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 1441,
+          "TotalHealth": 6382,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 241,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 165,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 246,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 165,
+              "Level": 9,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 165,
+              "Level": 9,
+              "GearLevel": 2
             }
           ],
           "WaveLists": [
@@ -720,6 +855,64 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 281,
+          "TotalHealth": 4406,
+          "CompactWave": [
+            {
+              "HeroId": "Kingpin",
+              "Power": 281,
+              "Level": 12,
+              "GearLevel": 2
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_1_4_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "is_mission_target": true,
+                      "hero_id": "Kingpin",
+                      "level": 12,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "max_hp_percent": 200,
+                      "cur_hp_percent": 50,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -775,6 +968,58 @@
               "ObjectiveEndStory": "vil_1_4_fail",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 1502,
+          "TotalHealth": 7251,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 174,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 174,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 174,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 260,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
             }
           ],
           "WaveLists": [
@@ -1020,6 +1265,88 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 589,
+          "TotalHealth": 7660,
+          "CompactWave": [
+            {
+              "HeroId": "Kingpin",
+              "Power": 404,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "MercOperator",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_1_5_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Kingpin",
+                      "level": 12,
+                      "loyalty": 1,
+                      "tier": 3,
+                      "max_hp_percent": 200,
+                      "cur_hp_percent": 50,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "MercOperator",
+                      "level": 11,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "speed_percent": 70,
+                      "max_hp_percent": 120,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1093,6 +1420,58 @@
               "ObjectiveEndStory": "vil_1_5_fail",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 1897,
+          "TotalHealth": 8469,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 396,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 392,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 184,
+              "Level": 11,
+              "GearLevel": 2
             }
           ],
           "WaveLists": [
@@ -1345,6 +1724,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -1373,6 +1755,40 @@
           ]
         },
         {
+          "Power": 1099,
+          "TotalHealth": 5686,
+          "CompactWave": [
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 271,
+              "Level": 11,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 271,
+              "Level": 11,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1517,6 +1933,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -1545,6 +1964,64 @@
           ]
         },
         {
+          "Power": 2397,
+          "TotalHealth": 11776,
+          "CompactWave": [
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 197,
+              "Level": 12,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 197,
+              "Level": 12,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 282,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 424,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 197,
+              "Level": 12,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 197,
+              "Level": 12,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 197,
+              "Level": 12,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 282,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 424,
+              "Level": 14,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1832,6 +2309,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -1860,6 +2340,52 @@
           ]
         },
         {
+          "Power": 1611,
+          "TotalHealth": 7507,
+          "CompactWave": [
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 282,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 282,
+              "Level": 12,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 305,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2053,6 +2579,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -2081,6 +2610,40 @@
           ]
         },
         {
+          "Power": 1842,
+          "TotalHealth": 7765,
+          "CompactWave": [
+            {
+              "HeroId": "LukeCage",
+              "Power": 285,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 425,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "JessicaJones",
+              "Power": 416,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 427,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 289,
+              "Level": 13,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2238,6 +2801,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -2271,6 +2837,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 1736,
+          "TotalHealth": 9641,
+          "CompactWave": [
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 297,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 209,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 210,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 297,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 209,
+              "Level": 13,
+              "GearLevel": 2
             }
           ],
           "WaveLists": [
@@ -2364,7 +2976,7 @@
                     {
                       "abilities": [
                         1,
-                        -1,
+                        1,
                         1,
                         -1,
                         0,
@@ -2373,7 +2985,6 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronTank_Taunt",
                       "level": 13,
@@ -2386,7 +2997,7 @@
                     {
                       "abilities": [
                         1,
-                        -1,
+                        1,
                         1,
                         -1,
                         0,
@@ -2395,12 +3006,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Defense",
                       "level": 13,
                       "loyalty": 1,
-                      "tier": 3,
+                      "tier": 2,
                       "speed_percent": 75,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
@@ -2439,12 +3049,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 14,
+                      "level": 13,
                       "loyalty": 1,
-                      "tier": 3,
+                      "tier": 2,
                       "speed_percent": 85,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -2484,6 +3093,64 @@
               "RelativeToStateMax": true,
               "CantPersist": true,
               "Type": "EnvObject"
+            }
+          ],
+          "Power": 293,
+          "TotalHealth": 1815,
+          "CompactWave": [
+            {
+              "HeroId": "MercOperator",
+              "Power": 293,
+              "Level": 13,
+              "GearLevel": 3
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_2_2_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "is_mission_target": true,
+                      "hero_id": "MercOperator",
+                      "level": 13,
+                      "loyalty": 1,
+                      "tier": 3,
+                      "speed_percent": 90,
+                      "max_hp_percent": 125,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
             }
           ],
           "WaveLists": [
@@ -2541,6 +3208,70 @@
               "ObjectiveEndStory": "vil_2_2_demo_dead",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 2832,
+          "TotalHealth": 15139,
+          "CompactWave": [
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 210,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 296,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 296,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 408,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 407,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 293,
+              "Level": 13,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 210,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 296,
+              "Level": 13,
+              "GearLevel": 3
             }
           ],
           "WaveLists": [
@@ -2827,6 +3558,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -2860,6 +3594,34 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 1442,
+          "TotalHealth": 6314,
+          "CompactWave": [
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 522,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 308,
+              "Level": 14,
+              "GearLevel": 3
             }
           ],
           "WaveLists": [
@@ -2992,6 +3754,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -3020,6 +3785,148 @@
           ]
         },
         {
+          "Power": 5233,
+          "TotalHealth": 15407,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 304,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 302,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 304,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 304,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 302,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3582,6 +4489,63 @@
               "Type": "EnvObject"
             }
           ],
+          "Power": 304,
+          "TotalHealth": 1885,
+          "CompactWave": [
+            {
+              "HeroId": "MercOperator",
+              "Power": 304,
+              "Level": 14,
+              "GearLevel": 3
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_2_5_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "MercOperator",
+                      "level": 14,
+                      "loyalty": 1,
+                      "tier": 3,
+                      "speed_percent": 85,
+                      "max_hp_percent": 125,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3638,6 +4602,106 @@
               "Type": "KillTarget"
             }
           ],
+          "Power": 5386,
+          "TotalHealth": 27049,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 308,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 446,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 443,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 440,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 320,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 306,
+              "Level": 14,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 317,
+              "Level": 15,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3687,7 +4751,7 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 15,
+                      "level": 14,
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 85,
@@ -3753,7 +4817,7 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 15,
+                      "level": 14,
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 85,
@@ -3873,7 +4937,7 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 15,
+                      "level": 14,
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 95,
@@ -4063,6 +5127,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -4096,6 +5163,22 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 1603,
+          "TotalHealth": 5867,
+          "CompactWave": [
+            {
+              "HeroId": "Groot",
+              "Power": 797,
+              "Level": 16,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 806,
+              "Level": 16,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -4186,6 +5269,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -4214,6 +5300,154 @@
           ]
         },
         {
+          "Power": 7820,
+          "TotalHealth": 12116,
+          "CompactWave": [
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 327,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 325,
+              "Level": 16,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4842,6 +6076,63 @@
               "Type": "EnvObject"
             }
           ],
+          "Power": 316,
+          "TotalHealth": 1955,
+          "CompactWave": [
+            {
+              "HeroId": "MercOperator",
+              "Power": 316,
+              "Level": 15,
+              "GearLevel": 3
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_2_8_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        2,
+                        1,
+                        1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "MercOperator",
+                      "level": 15,
+                      "loyalty": 1,
+                      "tier": 3,
+                      "speed_percent": 80,
+                      "max_hp_percent": 125,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4896,6 +6187,58 @@
               "ObjectiveEndStory": "vil_2_8_demo_dead",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 2732,
+          "TotalHealth": 14398,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 319,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 337,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 349,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 317,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 318,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 329,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 444,
+              "Level": 15,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -5011,9 +6354,9 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 16,
+                      "level": 15,
                       "loyalty": 1,
-                      "tier": 4,
+                      "tier": 3,
                       "speed_percent": 85,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -5077,7 +6420,7 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetOperator",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 16,
+                      "level": 15,
                       "loyalty": 1,
                       "tier": 4,
                       "speed_percent": 90,
@@ -5124,6 +6467,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -5156,6 +6502,22 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 1459,
+          "TotalHealth": 6040,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 872,
+              "Level": 18,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 587,
+              "Level": 18,
+              "GearLevel": 3
             }
           ],
           "WaveLists": [
@@ -5206,19 +6568,17 @@
                         2,
                         1,
                         1,
-                        1,
+                        -1,
                         0,
                         0
                       ],
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
-                      "ai_override": "Mission_TargetProtector",
                       "hero_id": "Ultron",
                       "level": 18,
                       "loyalty": 1,
-                      "tier": 4,
+                      "tier": 3,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
@@ -5247,6 +6607,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -5280,6 +6643,34 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 2170,
+          "TotalHealth": 10921,
+          "CompactWave": [
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 462,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 625,
+              "Level": 18,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 458,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 625,
+              "Level": 18,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -5409,6 +6800,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -5442,6 +6836,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 4498,
+          "TotalHealth": 21604,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 477,
+              "Level": 19,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 645,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 645,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 478,
+              "Level": 19,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 645,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 479,
+              "Level": 19,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 645,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 484,
+              "Level": 19,
+              "GearLevel": 3
             }
           ],
           "WaveLists": [
@@ -5665,6 +7111,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -5698,6 +7147,40 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 3369,
+          "TotalHealth": 23086,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 761,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 645,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 646,
+              "Level": 19,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 670,
+              "Level": 20,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 647,
+              "Level": 19,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -5855,6 +7338,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -5888,6 +7374,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 6177,
+          "TotalHealth": 35348,
+          "CompactWave": [
+            {
+              "HeroId": "Hulk",
+              "Power": 646,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 637,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 635,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 850,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 643,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 932,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 923,
+              "Level": 21,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 911,
+              "Level": 21,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -6144,6 +7682,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -6177,6 +7718,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 5100,
+          "TotalHealth": 27458,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 766,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 773,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 772,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 774,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 780,
+              "Level": 22,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1235,
+              "Level": 22,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -6359,6 +7940,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -6392,6 +7976,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 8312,
+          "TotalHealth": 31634,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1202,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1193,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1571,
+              "Level": 24,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 1579,
+              "Level": 24,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 1574,
+              "Level": 24,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1193,
+              "Level": 23,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -6563,6 +8187,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -6596,6 +8223,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 9843,
+          "TotalHealth": 33516,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1465,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 1610,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 1926,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 1926,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1463,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1453,
+              "Level": 25,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -6764,6 +8431,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -6797,6 +8467,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 10861,
+          "TotalHealth": 37524,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1501,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 1892,
+              "Level": 26,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1889,
+              "Level": 26,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 1508,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 2173,
+              "Level": 26,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 1898,
+              "Level": 26,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -6963,6 +8673,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -6996,6 +8709,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 10990,
+          "TotalHealth": 37755,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1527,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1912,
+              "Level": 27,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 1915,
+              "Level": 27,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1527,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1900,
+              "Level": 27,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 2209,
+              "Level": 27,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -7177,6 +8930,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -7210,6 +8966,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 7528,
+          "TotalHealth": 34078,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 865,
+              "Level": 28,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1951,
+              "Level": 28,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1576,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 819,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 814,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 689,
+              "Level": 28,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 814,
+              "Level": 28,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -7348,12 +9150,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Offense",
                       "level": 28,
                       "loyalty": 2,
-                      "tier": 5,
+                      "tier": 4,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
@@ -7402,6 +9203,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -7435,6 +9239,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 11262,
+          "TotalHealth": 39874,
+          "CompactWave": [
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 2016,
+              "Level": 29,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 869,
+              "Level": 29,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 2001,
+              "Level": 29,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 2014,
+              "Level": 29,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 2366,
+              "Level": 29,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 1996,
+              "Level": 29,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -7600,6 +9444,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -7635,6 +9482,70 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 9904,
+          "TotalHealth": 50544,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 891,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1053,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 896,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1053,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1053,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 891,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1053,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 896,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7660,12 +9571,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
                       "level": 30,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 50,
                       "max_hp_percent": 80,
                       "cur_hp_percent": 40,
@@ -7824,12 +9734,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
                       "level": 30,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 80,
                       "max_hp_percent": 80,
                       "cur_hp_percent": 40,
@@ -7907,6 +9816,61 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 923,
+          "TotalHealth": 8367,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 923,
+              "Level": 31,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_4_4_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "UltronDmg_Offense",
+                      "level": 31,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 150,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7959,6 +9923,46 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 16499,
+          "TotalHealth": 52541,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 2513,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 2517,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2495,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 3349,
+              "Level": 31,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2526,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3099,
+              "Level": 31,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -8121,6 +10125,170 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 5302,
+          "TotalHealth": 23185,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 925,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1154,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1147,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1147,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 929,
+              "Level": 32,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_4_5_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetSupport",
+                      "hero_id": "UltronDmg_Offense",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 70,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "vil_4_5_mission",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 200,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 7,
+                  "MinSlotReq": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetBlaster",
+                      "hero_id": "UltronDmg_Speed",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 70,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetBrawler",
+                      "hero_id": "UltronTank_Taunt",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 70,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetProtector",
+                      "hero_id": "UltronSupport_Heal",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 70,
+                      "desired_x_pos": 1,
+                      "desired_y_pos": 1
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetBlaster",
+                      "hero_id": "UltronDmg_Defense",
+                      "level": 32,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 70,
+                      "desired_x_pos": 3,
+                      "desired_y_pos": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8258,6 +10426,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 19867,
+          "TotalHealth": 64809,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2576,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2544,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3148,
+              "Level": 32,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2544,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 3331,
+              "Level": 32,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2576,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3148,
+              "Level": 32,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -8443,6 +10657,62 @@
               "Type": "KillTarget"
             }
           ],
+          "Power": 960,
+          "TotalHealth": 8770,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 960,
+              "Level": 33,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_4_6_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "UltronDmg_Offense",
+                      "level": 33,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "max_hp_percent": 150,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "vil_4_6_mission",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8473,12 +10743,10 @@
                         0,
                         0
                       ],
-                      "ai_override": "Mission_TargetUltron",
                       "hero_id": "UltronDmg_Offense",
                       "level": 33,
                       "loyalty": 2,
                       "tier": 5,
-                      "speed_percent": 90,
                       "max_hp_percent": 150,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -8498,6 +10766,64 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 12576,
+          "TotalHealth": 63931,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 913,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 902,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1058,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 2656,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1058,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 2802,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 919,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1134,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1134,
+              "Level": 31,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -8525,7 +10851,7 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 33,
+                      "level": 31,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 70,
@@ -8535,7 +10861,7 @@
                     {
                       "abilities": [
                         3,
-                        3,
+                        2,
                         2,
                         1,
                         0,
@@ -8544,12 +10870,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 33,
+                      "level": 30,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 75,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
@@ -8557,7 +10882,7 @@
                     {
                       "abilities": [
                         3,
-                        3,
+                        2,
                         2,
                         1,
                         0,
@@ -8568,7 +10893,7 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronTank_Taunt",
-                      "level": 33,
+                      "level": 30,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 80,
@@ -8589,7 +10914,7 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "Vision",
-                      "level": 33,
+                      "level": 31,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 85,
@@ -8599,7 +10924,7 @@
                     {
                       "abilities": [
                         3,
-                        3,
+                        2,
                         2,
                         1,
                         0,
@@ -8610,7 +10935,7 @@
                       ],
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 33,
+                      "level": 30,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 90,
@@ -8626,6 +10951,10 @@
                         0,
                         0
                       ],
+                      "desired_starting_ability_energy": [
+                        -1,
+                        0
+                      ],
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -8635,8 +10964,7 @@
                       "hero_id": "Ultron",
                       "level": 33,
                       "loyalty": 2,
-                      "tier": 6,
-                      "max_hp_percent": 250,
+                      "tier": 5,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
@@ -8663,12 +10991,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 33,
+                      "level": 31,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 70
                     },
                     {
@@ -8685,7 +11012,7 @@
                       ],
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 33,
+                      "level": 31,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 80
@@ -8704,7 +11031,7 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronTank_Taunt",
-                      "level": 33,
+                      "level": 31,
                       "loyalty": 2,
                       "tier": 5,
                       "speed_percent": 90
@@ -8732,6 +11059,82 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 5007,
+          "TotalHealth": 19879,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 970,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 4037,
+              "Level": 36,
+              "GearLevel": 6
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_4_7_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "UltronDmg_Offense",
+                      "level": 34,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Ultron",
+                      "level": 36,
+                      "loyalty": 2,
+                      "tier": 6,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
             }
           ],
           "WaveLists": [
@@ -8801,6 +11204,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 22519,
+          "TotalHealth": 71841,
+          "CompactWave": [
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 2690,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 3239,
+              "Level": 34,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2649,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2684,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2649,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 2684,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 2685,
+              "Level": 34,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 3239,
+              "Level": 34,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -9010,6 +11465,84 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 5516,
+          "TotalHealth": 20312,
+          "CompactWave": [
+            {
+              "HeroId": "Ultron",
+              "Power": 4280,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1236,
+              "Level": 35,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_4_8_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetWinterSoldier",
+                      "hero_id": "Ultron",
+                      "level": 37,
+                      "loyalty": 2,
+                      "tier": 6,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "ai_override": "Mission_TargetWinterSoldier",
+                      "hero_id": "UltronDmg_Speed",
+                      "level": 35,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9079,6 +11612,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 18501,
+          "TotalHealth": 66489,
+          "CompactWave": [
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 981,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 3913,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 3296,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3302,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 2726,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3302,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercTank_Taunt",
+              "Power": 981,
+              "Level": 35,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -9270,6 +11849,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -9305,6 +11887,136 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 25856,
+          "TotalHealth": 166493,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 997,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 989,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1236,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1229,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1229,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 1228,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1523,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1515,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1515,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 1219,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1523,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1515,
+              "Level": 36,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1229,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 1229,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 989,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 997,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1236,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 989,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1236,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1236,
+              "Level": 35,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 997,
+              "Level": 35,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9328,9 +12040,9 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 80,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -9346,9 +12058,9 @@
                       ],
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 70,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
@@ -9364,9 +12076,9 @@
                       ],
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 60,
                       "desired_x_pos": 3,
                       "desired_y_pos": 0
@@ -9382,9 +12094,9 @@
                       ],
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "UltronTank_Taunt",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 50,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
@@ -9400,9 +12112,9 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 90,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
@@ -9565,9 +12277,9 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 65,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -9583,9 +12295,9 @@
                       ],
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "UltronTank_Taunt",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 45,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
@@ -9601,9 +12313,9 @@
                       ],
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 55,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
@@ -9619,9 +12331,9 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 60,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
@@ -9637,9 +12349,9 @@
                       ],
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 40,
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
@@ -9655,9 +12367,9 @@
                       ],
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Offense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 70,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -9673,9 +12385,9 @@
                       ],
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 75,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
@@ -9691,9 +12403,9 @@
                       ],
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 50,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -9709,9 +12421,9 @@
                       ],
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 36,
+                      "level": 35,
                       "loyalty": 2,
-                      "tier": 6,
+                      "tier": 5,
                       "speed_percent": 80,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -9741,6 +12453,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -9774,6 +12489,76 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 41867,
+          "TotalHealth": 126986,
+          "CompactWave": [
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 3695,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 3636,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 3675,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 3631,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 3677,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 3686,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 3675,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 3676,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 3636,
+              "Level": 37,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 5249,
+              "Level": 38,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "MercSupport_Buffs",
+              "Power": 3631,
+              "Level": 37,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -10064,6 +12849,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -10097,6 +12885,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 32183,
+          "TotalHealth": 101857,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 4420,
+              "Level": 38,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 3761,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 4469,
+              "Level": 38,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 3721,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 3733,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2766,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 4155,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 5158,
+              "Level": 39,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -10320,6 +13160,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -10353,6 +13196,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 32348,
+          "TotalHealth": 97446,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3687,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2811,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 4223,
+              "Level": 40,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 5896,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 5896,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3687,
+              "Level": 38,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 6148,
+              "Level": 40,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -10545,6 +13434,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -10578,6 +13470,88 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 65160,
+          "TotalHealth": 187896,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3773,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 6539,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3775,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 6221,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 3793,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3773,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3777,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 6260,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 6611,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 6260,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3777,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 4380,
+              "Level": 39,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 6221,
+              "Level": 42,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -10917,6 +13891,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -10951,6 +13928,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 49658,
+          "TotalHealth": 117980,
+          "CompactWave": [
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 5297,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 6581,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 6632,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 6632,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 5700,
+              "Level": 43,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 6581,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 6937,
+              "Level": 43,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 5298,
+              "Level": 42,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -11215,6 +14244,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -11248,6 +14280,280 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 202637,
+          "TotalHealth": 160454,
+          "CompactWave": [
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 4490,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 4490,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 4490,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 4490,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 4500,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 4519,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 4490,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 4486,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4512,
+              "Level": 41,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -12332,6 +15638,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -12366,6 +15675,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 46115,
+          "TotalHealth": 121999,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 6544,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 7837,
+              "Level": 45,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 6244,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 6518,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 6272,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 6465,
+              "Level": 42,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 6235,
+              "Level": 42,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -12571,6 +15926,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -12606,6 +15964,82 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 51701,
+          "TotalHealth": 166476,
+          "CompactWave": [
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 1437,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1992,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 1426,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 7733,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 5298,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 6483,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 5315,
+              "Level": 42,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 6449,
+              "Level": 44,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 1792,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 2459,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 2484,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 8833,
+              "Level": 46,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -12615,14 +16049,14 @@
                   "Expanded": true,
                   "NextWaveIf": "AfterAllDead",
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 6,
+                  "MaxSlotFill": 4,
                   "MinSlotReq": 0,
                   "Entries": [
                     {
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12632,9 +16066,9 @@
                       ],
                       "ai_override": "Mission_TargetProtector",
                       "hero_id": "UltronDmg_Defense",
-                      "level": 46,
+                      "level": 42,
                       "loyalty": 3,
-                      "tier": 7,
+                      "tier": 6,
                       "speed_percent": 80,
                       "max_hp_percent": 90,
                       "dmg_percent": 80,
@@ -12645,7 +16079,7 @@
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12653,67 +16087,21 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "ai_override": "Mission_TargetBlaster",
-                      "hero_id": "UltronTank_Taunt",
-                      "level": 46,
-                      "loyalty": 3,
-                      "tier": 7,
-                      "speed_percent": 60,
-                      "max_hp_percent": 90,
-                      "desired_x_pos": 1,
-                      "desired_y_pos": 0
-                    },
-                    {
-                      "abilities": [
-                        4,
-                        4,
-                        4,
-                        2,
-                        0,
-                        0
-                      ],
-                      "custom_entity_visual": [
-                        "RedEyes"
-                      ],
-                      "useDefaultStats": false,
-                      "ai_override": "Mission_TargetProtector",
-                      "hero_id": "Vision",
-                      "level": 46,
-                      "loyalty": 3,
-                      "tier": 8,
-                      "speed_percent": 75,
-                      "max_hp_percent": 90,
-                      "desired_x_pos": 3,
-                      "desired_y_pos": 0
-                    },
-                    {
-                      "abilities": [
-                        4,
-                        4,
-                        4,
-                        2,
-                        0,
-                        0
-                      ],
-                      "custom_entity_visual": [
-                        "RedEyes"
-                      ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "UltronDmg_Speed",
-                      "level": 46,
+                      "level": 42,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 6,
                       "speed_percent": 70,
                       "max_hp_percent": 90,
-                      "desired_x_pos": 0,
+                      "desired_x_pos": 3,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12722,10 +16110,10 @@
                         "RedEyes"
                       ],
                       "ai_override": "Mission_TargetProtector",
-                      "hero_id": "UltronSupport_Heal",
-                      "level": 46,
+                      "hero_id": "UltronDmg_Offense",
+                      "level": 42,
                       "loyalty": 3,
-                      "tier": 7,
+                      "tier": 6,
                       "speed_percent": 85,
                       "max_hp_percent": 90,
                       "dmg_percent": 80,
@@ -12741,6 +16129,10 @@
                         0,
                         0
                       ],
+                      "desired_starting_ability_energy": [
+                        -1,
+                        0
+                      ],
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
@@ -12749,7 +16141,7 @@
                       "hero_id": "Ultron",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -12761,14 +16153,14 @@
                 {
                   "Expanded": true,
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 8,
+                  "MaxSlotFill": 4,
                   "MinSlotReq": 0,
                   "Entries": [
                     {
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12778,11 +16170,11 @@
                       ],
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "ShieldTank_Stun",
-                      "level": 46,
+                      "level": 42,
                       "loyalty": 3,
-                      "tier": 7,
+                      "tier": 6,
                       "speed_percent": 90,
-                      "max_hp_percent": 90,
+                      "max_hp_percent": 80,
                       "dmg_percent": 80,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -12791,7 +16183,7 @@
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12800,12 +16192,13 @@
                         "RedEyes"
                       ],
                       "ai_override": "Mission_TargetBrawler",
-                      "hero_id": "ShieldSupport_Heal",
-                      "level": 46,
+                      "hero_id": "ShieldSupport_Stealth",
+                      "level": 44,
                       "loyalty": 3,
                       "tier": 7,
                       "speed_percent": 85,
                       "max_hp_percent": 90,
+                      "dmg_percent": 80,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
                     },
@@ -12813,7 +16206,7 @@
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12821,12 +16214,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
-                      "hero_id": "ShieldSupport_Stealth",
-                      "level": 46,
+                      "hero_id": "ShieldTank_Stun",
+                      "level": 42,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 6,
                       "speed_percent": 75,
                       "max_hp_percent": 90,
                       "dmg_percent": 80,
@@ -12837,7 +16229,7 @@
                       "abilities": [
                         4,
                         4,
-                        4,
+                        3,
                         2,
                         0,
                         0
@@ -12845,12 +16237,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "ShieldDmg_Defense",
-                      "level": 46,
+                      "level": 44,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 80,
                       "max_hp_percent": 90,
                       "desired_x_pos": 0,
@@ -12880,7 +16271,7 @@
                         "RedEyes"
                       ],
                       "ai_override": "Mission_TargetSupport",
-                      "hero_id": "UltronSupport_Heal",
+                      "hero_id": "UltronDmg_Defense",
                       "level": 46,
                       "loyalty": 3,
                       "tier": 7,
@@ -12925,12 +16316,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
                       "level": 46,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "max_hp_percent": 90,
                       "desired_x_pos": 2,
@@ -12984,6 +16374,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -13018,6 +16411,58 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 59936,
+          "TotalHealth": 161819,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 5453,
+              "Level": 41,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 5437,
+              "Level": 41,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 9523,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 9523,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 9906,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 5402,
+              "Level": 41,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 5424,
+              "Level": 41,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 9268,
+              "Level": 48,
+              "GearLevel": 8
             }
           ],
           "WaveLists": [
@@ -13268,6 +16713,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -13301,6 +16749,64 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 38229,
+          "TotalHealth": 82584,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 5437,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5437,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2761,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2761,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5437,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5437,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2761,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5437,
+              "Level": 45,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2761,
+              "Level": 45,
+              "GearLevel": 6
             }
           ],
           "WaveLists": [
@@ -13565,6 +17071,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -13598,6 +17107,76 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 71038,
+          "TotalHealth": 217407,
+          "CompactWave": [
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 6236,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 6274,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 6700,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 6307,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 7494,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 6236,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 6274,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 6307,
+              "Level": 46,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 6236,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 6700,
+              "Level": 45,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 6274,
+              "Level": 46,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -13906,6 +17485,63 @@
               "Type": "EnvObject"
             }
           ],
+          "Power": 2401,
+          "TotalHealth": 26966,
+          "CompactWave": [
+            {
+              "HeroId": "AimOperator",
+              "Power": 2401,
+              "Level": 52,
+              "GearLevel": 8
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_6_3_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        4,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "AimOperator",
+                      "level": 52,
+                      "loyalty": 4,
+                      "tier": 8,
+                      "speed_percent": 80,
+                      "max_hp_percent": 120,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -13960,6 +17596,100 @@
               "ObjectiveEndStory": "vil_6_3_fail",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 139317,
+          "TotalHealth": 366477,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 8787,
+              "Level": 51,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 11129,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 8787,
+              "Level": 51,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 8787,
+              "Level": 51,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 10959,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 9064,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 9068,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 9010,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 9223,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 9069,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 9069,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 9223,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 9064,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 9068,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 9010,
+              "Level": 50,
+              "GearLevel": 8
             }
           ],
           "WaveLists": [
@@ -14366,6 +18096,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -14401,6 +18134,76 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 50850,
+          "TotalHealth": 204068,
+          "CompactWave": [
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 2514,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 1817,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 2515,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 6842,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 1833,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 1817,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 9084,
+              "Level": 50,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 7333,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 2527,
+              "Level": 47,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 7284,
+              "Level": 48,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 7284,
+              "Level": 48,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -14424,12 +18227,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronTank_Taunt",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
@@ -14446,12 +18248,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Offense",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
@@ -14468,12 +18269,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronSupport_Heal",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 3,
                       "desired_y_pos": 0
@@ -14490,12 +18290,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "RavagerTank_Taunt",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 90,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
@@ -14512,12 +18311,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronDmg_Defense",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
                     }
@@ -14544,19 +18342,43 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Offense",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "speed_percent": 95,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
+                        4,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "desired_starting_ability_energy": [
+                        -1,
+                        0
+                      ],
+                      "custom_entity_visual": [
+                        "RedEyes"
+                      ],
+                      "useDefaultStats": false,
+                      "ai_override": "Mission_TargetBrawler",
+                      "hero_id": "Ultron",
+                      "level": 50,
+                      "loyalty": 4,
+                      "tier": 7,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        4,
                         4,
                         4,
                         3,
@@ -14566,33 +18388,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
-                      "ai_override": "Mission_TargetBrawler",
-                      "hero_id": "Ultron",
-                      "level": 52,
-                      "loyalty": 4,
-                      "tier": 9,
-                      "desired_x_pos": 2,
-                      "desired_y_pos": 0
-                    },
-                    {
-                      "abilities": [
-                        4,
-                        4,
-                        4,
-                        2,
-                        0,
-                        0
-                      ],
-                      "custom_entity_visual": [
-                        "RedEyes"
-                      ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "RavagerSupport_Heal",
-                      "level": 47,
+                      "level": 48,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     },
@@ -14608,18 +18408,17 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronDmg_Speed",
                       "level": 47,
                       "loyalty": 3,
-                      "tier": 8,
+                      "tier": 7,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
@@ -14629,19 +18428,18 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "RavagerDmg_AoE",
-                      "level": 52,
+                      "level": 48,
                       "loyalty": 3,
-                      "tier": 9,
+                      "tier": 7,
                       "speed_percent": 95,
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     },
                     {
                       "abilities": [
-                        5,
+                        4,
                         4,
                         4,
                         3,
@@ -14651,12 +18449,11 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
-                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "RavagerDmg_AoE",
-                      "level": 52,
+                      "level": 48,
                       "loyalty": 3,
-                      "tier": 9
+                      "tier": 7
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -14683,6 +18480,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -14728,6 +18528,76 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 79373,
+          "TotalHealth": 258073,
+          "CompactWave": [
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 8501,
+              "Level": 49,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeOperator",
+              "Power": 2130,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 12798,
+              "Level": 53,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "RavagerTank_Taunt",
+              "Power": 8444,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 8436,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 8367,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeOperator",
+              "Power": 2130,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeOperator",
+              "Power": 2130,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 8367,
+              "Level": 48,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 9569,
+              "Level": 49,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 8501,
+              "Level": 49,
+              "GearLevel": 8
             }
           ],
           "WaveLists": [
@@ -15054,6 +18924,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -15087,6 +18960,88 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 93119,
+          "TotalHealth": 235217,
+          "CompactWave": [
+            {
+              "HeroId": "StarLord",
+              "Power": 4915,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 3388,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 7558,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 10415,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 10516,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 10460,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 10447,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 12783,
+              "Level": 53,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 4915,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 6031,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 4915,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 3388,
+              "Level": 49,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 3388,
+              "Level": 49,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -15433,6 +19388,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -15468,6 +19426,76 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 118479,
+          "TotalHealth": 159813,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 9951,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 9896,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 9932,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 9949,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 9980,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 14450,
+              "Level": 55,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 9932,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 9896,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 9949,
+              "Level": 52,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 14595,
+              "Level": 55,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 9949,
+              "Level": 52,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -15492,13 +19520,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetSupport",
+                      "ai_override": "max_damage",
                       "hero_id": "ShieldSupport_Heal",
                       "level": 52,
                       "loyalty": 4,
                       "tier": 8,
-                      "speed_percent": 75,
-                      "max_hp_percent": 80,
+                      "speed_percent": 50,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 3,
                       "desired_y_pos": 0
                     },
@@ -15519,9 +19547,9 @@
                       "hero_id": "ShieldDmg_Defense",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 9,
-                      "speed_percent": 75,
-                      "max_hp_percent": 80,
+                      "tier": 8,
+                      "speed_percent": 55,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     },
@@ -15538,13 +19566,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetSupport",
+                      "ai_override": "Mission_TargetProtector",
                       "hero_id": "ShieldTank_Stun",
                       "level": 52,
                       "loyalty": 4,
                       "tier": 8,
-                      "speed_percent": 70,
-                      "max_hp_percent": 80,
+                      "speed_percent": 65,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
                     },
@@ -15561,13 +19589,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetBrawler",
+                      "ai_override": "Mission_TargetController",
                       "hero_id": "ShieldDmg_AoE",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 9,
-                      "speed_percent": 70,
-                      "max_hp_percent": 80,
+                      "tier": 8,
+                      "speed_percent": 60,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     },
@@ -15588,9 +19616,9 @@
                       "hero_id": "ShieldSupport_Stealth",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 9,
-                      "speed_percent": 70,
-                      "max_hp_percent": 80,
+                      "tier": 8,
+                      "speed_percent": 45,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     },
@@ -15609,11 +19637,11 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "Quake",
-                      "level": 57,
+                      "level": 55,
                       "loyalty": 4,
                       "tier": 9,
-                      "speed_percent": 110,
-                      "max_hp_percent": 120,
+                      "speed_percent": 80,
+                      "max_hp_percent": 70,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
                     }
@@ -15640,13 +19668,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetSupport",
+                      "ai_override": "Mission_TargetBrawler",
                       "hero_id": "ShieldTank_Stun",
                       "level": 52,
                       "loyalty": 4,
                       "tier": 8,
                       "speed_percent": 65,
-                      "max_hp_percent": 80,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     },
@@ -15663,13 +19691,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetBlaster",
+                      "ai_override": "Mission_TargetSupport",
                       "hero_id": "ShieldDmg_Defense",
                       "level": 52,
                       "loyalty": 4,
-                      "tier": 9,
-                      "speed_percent": 75,
-                      "max_hp_percent": 80,
+                      "tier": 8,
+                      "speed_percent": 60,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     },
@@ -15686,13 +19714,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetSupport",
+                      "ai_override": "Mission_TargetProtector",
                       "hero_id": "ShieldDmg_AoE",
                       "level": 52,
                       "loyalty": 4,
                       "tier": 8,
-                      "speed_percent": 70,
-                      "max_hp_percent": 80,
+                      "speed_percent": 50,
+                      "max_hp_percent": 50,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
@@ -15711,11 +19739,11 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBlaster",
                       "hero_id": "NickFury",
-                      "level": 57,
+                      "level": 55,
                       "loyalty": 4,
                       "tier": 9,
-                      "speed_percent": 110,
-                      "max_hp_percent": 120,
+                      "speed_percent": 80,
+                      "max_hp_percent": 70,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     },
@@ -15732,13 +19760,13 @@
                         "RedEyes"
                       ],
                       "useDefaultStats": false,
-                      "ai_override": "Mission_TargetSupport",
+                      "ai_override": "Mission_TargetController",
                       "hero_id": "ShieldDmg_AoE",
                       "level": 52,
                       "loyalty": 4,
                       "tier": 8,
-                      "speed_percent": 75,
-                      "max_hp_percent": 80
+                      "speed_percent": 55,
+                      "max_hp_percent": 50
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -15775,6 +19803,63 @@
               "RelativeToStateMax": true,
               "CantPersist": true,
               "Type": "EnvObject"
+            }
+          ],
+          "Power": 2600,
+          "TotalHealth": 30078,
+          "CompactWave": [
+            {
+              "HeroId": "AimOperator",
+              "Power": 2600,
+              "Level": 58,
+              "GearLevel": 8
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "StoryTellingID": "vil_6_8_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "AimOperator",
+                      "level": 58,
+                      "loyalty": 4,
+                      "tier": 8,
+                      "speed_percent": 80,
+                      "max_hp_percent": 120,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
             }
           ],
           "WaveLists": [
@@ -15831,6 +19916,70 @@
               "ObjectiveEndStory": "vil_6_8_fail",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 137771,
+          "TotalHealth": 302607,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 15566,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 15385,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 15519,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 15435,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 15140,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 15236,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 10105,
+              "Level": 53,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "ShieldSupport_Stealth",
+              "Power": 10198,
+              "Level": 53,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 15082,
+              "Level": 58,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 10105,
+              "Level": 53,
+              "GearLevel": 8
             }
           ],
           "WaveLists": [
@@ -16122,6 +20271,9 @@
               "Type": "KillAll"
             }
           ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -16154,6 +20306,76 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 133133,
+          "TotalHealth": 331531,
+          "CompactWave": [
+            {
+              "HeroId": "Gamora",
+              "Power": 16531,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 16452,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 16377,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 17017,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Drax",
+              "Power": 16460,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 16506,
+              "Level": 60,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 8429,
+              "Level": 54,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 6972,
+              "Level": 54,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 8429,
+              "Level": 54,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 4980,
+              "Level": 54,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 4980,
+              "Level": 54,
+              "GearLevel": 8
             }
           ],
           "WaveLists": [

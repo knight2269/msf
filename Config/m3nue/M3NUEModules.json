@@ -164,24 +164,31 @@
     },
     "nue_Synergy_01": {
       "moduleID": "nue_Synergy_01",
-      "modulePreReqID": "nue_Tutorial_02",
+      "modulePreReqID": "nue_Tutorial_02,nue_Tutorial",
       "canRunParallel": false,
       "levelCap": 70,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     },
     "nue_WarDonations_01": {
       "moduleID": "nue_WarDonations_01",
-      "modulePreReqID": "nue_PunisherSquad_01",
+      "modulePreReqID": "nue_PunisherSquad_01,nue_PunisherComplete_01",
       "canRunParallel": false,
       "levelCap": 70,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS, WARPOPUPS"
     },
     "nue_DD_01": {
       "moduleID": "nue_DD_01",
-      "modulePreReqID": "nue_PunisherSquad_01",
+      "modulePreReqID": "nue_PunisherSquad_01,nue_PunisherComplete_01",
       "canRunParallel": false,
       "levelCap": 70,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_SavedSquads_01": {
+      "moduleID": "nue_SavedSquads_01",
+      "modulePreReqID": "nue_Synergy_01",
+      "canRunParallel": false,
+      "levelCap": 71,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,SYNERGY"
     }
   }
 }

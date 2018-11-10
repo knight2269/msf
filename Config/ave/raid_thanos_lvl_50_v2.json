@@ -356,7 +356,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_04",
-            "icon": "raid_Icon_Shield.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -413,7 +413,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_05",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -429,11 +429,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -466,7 +470,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_06",
-            "icon": "raid_Icon_Shield.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -523,7 +527,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_07",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -539,11 +543,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -576,7 +584,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_08",
-            "icon": "raid_Icon_Hydra.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -633,7 +641,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_09",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -649,11 +657,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -686,7 +698,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_10",
-            "icon": "raid_Icon_Hydra.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -702,13 +714,13 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_UI_ONLY_VILLAIN_CHARS",
-              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
-              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Villain"
+                  "Hero"
                 ]
               }
             },
@@ -796,7 +808,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_12",
-            "icon": "raid_Icon_Hydra.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -812,13 +824,13 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_UI_ONLY_VILLAIN_CHARS",
-              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
-              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Villain"
+                  "Hero"
                 ]
               }
             },
@@ -906,7 +918,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_14",
-            "icon": "raid_Icon_Shield.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -922,13 +934,13 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_UI_ONLY_HERO_CHARS",
-              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
-              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Hero"
+                  "Villain"
                 ]
               }
             },
@@ -1016,7 +1028,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_16",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1032,11 +1044,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1122,7 +1138,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_18",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1138,11 +1154,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1175,7 +1195,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_19",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1191,11 +1211,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1228,7 +1252,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_20",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1244,11 +1268,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1334,7 +1362,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_22",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1350,11 +1378,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1387,7 +1419,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_23",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1403,11 +1435,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1440,7 +1476,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_24",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1456,11 +1492,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1546,7 +1586,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_26",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1562,11 +1602,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1599,7 +1643,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_27",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1615,11 +1659,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1652,7 +1700,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_28",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1668,11 +1716,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1705,7 +1757,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_29",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1721,11 +1773,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1917,7 +1973,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_33",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Heroes.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1933,11 +1989,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_HERO_CHARS",
+              "shortDescription": "ID_UI_ONLY_HERO_CHARS",
+              "longDescription": "ID_UI_ONLY_HERO_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Hero"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1970,7 +2030,7 @@
           "1": {
             "missionIndex": "1",
             "ID": "evr_bunny02_34",
-            "icon": "raid_Icon_Thanos.png",
+            "icon": "raid_Icon_Villains.png",
             "iconBgColor": "",
             "rewards": [
               {
@@ -1986,11 +2046,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_VILLAIN_CHARS",
+              "shortDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "longDescription": "ID_UI_ONLY_VILLAIN_CHARS",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Villain"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false

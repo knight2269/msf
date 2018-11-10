@@ -284,8 +284,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_40",
@@ -698,8 +697,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_thanos_lvl_25",
@@ -1536,8 +1534,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": true
+      }
     },
     {
       "raidId": "raid_deadpool_lvl_60",
@@ -1819,8 +1816,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": true
+      }
     },
     {
       "raidId": "raid_gen_01_a",
@@ -1846,7 +1842,7 @@
       "nearZoom": 6,
       "farZoom": 14,
       "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_40_50",
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
       "player_limit": 24,
       "group": "alpha_raids",
       "isOperation": false,
@@ -2105,191 +2101,281 @@
       }
     },
     {
-      "raidId": "raid_gen_02_a",
-      "name": "ID_RAIDS_GEN_02_A_NAME",
-      "duration": 0,
-      "total_rooms": 97,
-      "total_missions": 85,
-      "description": "ID_RAIDS_GEN_02_A_DESC",
-      "details": "ID_RAIDS_GEN_02_A_DETAILS",
-      "image": "Raid_Keyart_Card_Bravo_Raid1",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "startNodePosition": {
-        "x": -1200,
-        "y": -1400
-      },
-      "scrollBoundarySize": {
-        "x": 5500,
-        "y": 2000
-      },
-      "nearZoom": 5,
-      "farZoom": 14,
-      "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": null,
-      "player_limit": 24,
-      "group": "beta_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [],
-      "consolation_reward": "",
-      "tier_rewards": {},
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_gen_02_b",
-      "name": "ID_RAIDS_GEN_02_B_NAME",
-      "duration": 0,
-      "total_rooms": 97,
-      "total_missions": 85,
-      "description": "ID_RAIDS_GEN_02_B_DESC",
-      "details": "ID_RAIDS_GEN_02_B_DETAILS",
-      "image": "Raid_Keyart_Card_Bravo_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "startNodePosition": {
-        "x": -1200,
-        "y": -1400
-      },
-      "scrollBoundarySize": {
-        "x": 5500,
-        "y": 2000
-      },
-      "nearZoom": 5,
-      "farZoom": 14,
-      "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": null,
-      "player_limit": 24,
-      "group": "beta_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [],
-      "consolation_reward": "",
-      "tier_rewards": {},
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_gen_02_c",
-      "name": "ID_RAIDS_GEN_02_C_NAME",
-      "duration": 0,
-      "total_rooms": 97,
-      "total_missions": 85,
-      "description": "ID_RAIDS_GEN_02_C_DESC",
-      "details": "ID_RAIDS_GEN_02_C_DETAILS",
-      "image": "Raid_Keyart_Card_Bravo_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "startNodePosition": {
-        "x": -1200,
-        "y": -1400
-      },
-      "scrollBoundarySize": {
-        "x": 5500,
-        "y": 2000
-      },
-      "nearZoom": 5,
-      "farZoom": 14,
-      "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": null,
-      "player_limit": 24,
-      "group": "beta_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [],
-      "consolation_reward": "",
-      "tier_rewards": {},
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_test",
-      "name": null,
+      "raidId": "raid_beta_a",
+      "name": "ID_RAIDS_BETA_A_NAME",
       "duration": 24,
-      "total_rooms": 127,
-      "total_missions": 116,
-      "description": null,
-      "details": null,
-      "image": "Deadpool_Raid2",
+      "total_rooms": 66,
+      "total_missions": 60,
+      "description": "ID_RAIDS_BETA_A_DESC",
+      "details": "ID_RAIDS_BETA_A_DETAILS",
+      "image": "Beta_Raid1",
       "mapBgImageTopLeft": "raid_Map_TL.png",
       "mapBgImageTopRight": "raid_Map_TR.png",
       "mapBgImageBottomLeft": "raid_Map_BL.png",
       "mapBgImageBottomRight": "raid_Map_BR.png",
       "startNodePosition": {
-        "x": -1850,
-        "y": -400
+        "x": -3000,
+        "y": -1000
       },
       "scrollBoundarySize": {
-        "x": 4096,
-        "y": 4096
+        "x": 3000,
+        "y": 5000
       },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": null,
+      "nearZoom": 5,
+      "farZoom": 14,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
       "player_limit": 24,
-      "group": "test_raids",
+      "group": "beta_raids",
       "isOperation": false,
       "stCount": 3,
       "stPlayerLimit": 8,
       "stNextTeamUnlockThreshold": 0,
       "allianceProgressText": null,
       "strikeTeamImages": [],
-      "cost": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14000
+        }
+      ],
       "objectives": [],
       "alliance_rewards": [],
-      "percent_complete_thresholds": [],
-      "consolation_reward": "",
-      "tier_rewards": {},
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_juggernaut_201810_low_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_low_rnk01_mdl1",
+            "r_ctrb_juggernaut_201810_low_rnk01_mdl2",
+            "r_ctrb_juggernaut_201810_low_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_low_rnk02_mdl1",
+            "r_ctrb_juggernaut_201810_low_rnk02_mdl2",
+            "r_ctrb_juggernaut_201810_low_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_low_rnk03_mdl1",
+            "r_ctrb_juggernaut_201810_low_rnk03_mdl2",
+            "r_ctrb_juggernaut_201810_low_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_low_rnk04_mdl1",
+            "r_ctrb_juggernaut_201810_low_rnk04_mdl2",
+            "r_ctrb_juggernaut_201810_low_rnk04_mdl3"
+          ]
+        }
+      },
       "requirements": {},
       "filters": {
-        "description": "raid_long_60",
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_beta_b",
+      "name": "ID_RAIDS_BETA_B_NAME",
+      "duration": 24,
+      "total_rooms": 76,
+      "total_missions": 70,
+      "description": "ID_RAIDS_BETA_B_DESC",
+      "details": "ID_RAIDS_BETA_B_DETAILS",
+      "image": "Beta_Raid2",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "startNodePosition": {
+        "x": -3000,
+        "y": -1000
+      },
+      "scrollBoundarySize": {
+        "x": 3000,
+        "y": 5000
+      },
+      "nearZoom": 5,
+      "farZoom": 14,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
+      "player_limit": 24,
+      "group": "beta_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14200
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_juggernaut_201810_mid_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_mid_rnk01_mdl1",
+            "r_ctrb_juggernaut_201810_mid_rnk01_mdl2",
+            "r_ctrb_juggernaut_201810_mid_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_mid_rnk02_mdl1",
+            "r_ctrb_juggernaut_201810_mid_rnk02_mdl2",
+            "r_ctrb_juggernaut_201810_mid_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_mid_rnk03_mdl1",
+            "r_ctrb_juggernaut_201810_mid_rnk03_mdl2",
+            "r_ctrb_juggernaut_201810_mid_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_mid_rnk04_mdl1",
+            "r_ctrb_juggernaut_201810_mid_rnk04_mdl2",
+            "r_ctrb_juggernaut_201810_mid_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_beta_c",
+      "name": "ID_RAIDS_BETA_C_NAME",
+      "duration": 24,
+      "total_rooms": 76,
+      "total_missions": 70,
+      "description": "ID_RAIDS_BETA_C_DESC",
+      "details": "ID_RAIDS_BETA_C_DETAILS",
+      "image": "Beta_Raid3",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "startNodePosition": {
+        "x": -3000,
+        "y": -1000
+      },
+      "scrollBoundarySize": {
+        "x": 3000,
+        "y": 5000
+      },
+      "nearZoom": 5,
+      "farZoom": 14,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+      "player_limit": 24,
+      "group": "beta_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14400
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_juggernaut_201810_high_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_high_rnk01_mdl1",
+            "r_ctrb_juggernaut_201810_high_rnk01_mdl2",
+            "r_ctrb_juggernaut_201810_high_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_high_rnk02_mdl1",
+            "r_ctrb_juggernaut_201810_high_rnk02_mdl2",
+            "r_ctrb_juggernaut_201810_high_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_high_rnk03_mdl1",
+            "r_ctrb_juggernaut_201810_high_rnk03_mdl2",
+            "r_ctrb_juggernaut_201810_high_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_juggernaut_201810_high_rnk04_mdl1",
+            "r_ctrb_juggernaut_201810_high_rnk04_mdl2",
+            "r_ctrb_juggernaut_201810_high_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
         "shortDescription": "",
         "longDescription": "",
         "quantity": 0,
@@ -2363,10 +2449,19 @@
     },
     {
       "id": "beta_raids",
-      "name": "ID_RAIDS_GEN_02_RAIDS_NAME",
-      "details": "ID_RAIDS_GEN_02_RAIDS_DETAILS",
-      "description": "ID_RAIDS_GEN_02_RAIDS_DESC",
-      "image": "Bravo",
+      "name": "ID_RAIDS_BETA_RAIDS_NAME",
+      "details": "ID_RAIDS_BETA_RAIDS_DETAILS",
+      "description": "ID_RAIDS_BETA_RAIDS_DESC",
+      "image": "Beta",
+      "recommendedPlayerLevel": null,
+      "isEvent": true
+    },
+    {
+      "id": "gamma_raids",
+      "name": "ID_RAIDS_GAMMA_RAIDS_NAME",
+      "details": "ID_RAIDS_GAMMA_RAIDS_DESC",
+      "description": "ID_RAIDS_GAMMA_RAIDS_DESC",
+      "image": "Gamma",
       "recommendedPlayerLevel": null,
       "isEvent": true
     }
