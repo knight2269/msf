@@ -1,0 +1,4322 @@
+{
+  "Name": "raid_alpha_c",
+  "RaidDetails": {
+    "raidId": "raid_alpha_c",
+    "rows": 15,
+    "columns": 12,
+    "isOperation": false,
+    "map": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "H1",
+        "H2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "N5",
+        "N6",
+        "N7",
+        "N8",
+        "N9",
+        "N10",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "O6",
+        "O7",
+        "O8",
+        "O9",
+        "O10",
+        "",
+        ""
+      ]
+    ],
+    "rooms": {
+      "H1": {
+        "roomId": "H1",
+        "name": "evr_gr01c_start",
+        "starting": true,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H2",
+          "G1",
+          "I1"
+        ]
+      },
+      "G1": {
+        "roomId": "G1",
+        "name": "evr_gr01c_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G2",
+          "F1",
+          null
+        ]
+      },
+      "H2": {
+        "roomId": "H2",
+        "name": "evr_gr01c_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "G2",
+          "I2"
+        ]
+      },
+      "I1": {
+        "roomId": "I1",
+        "name": "evr_gr01c_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I2",
+          null,
+          "J1"
+        ]
+      },
+      "F1": {
+        "roomId": "F1",
+        "name": "evr_gr01c_01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_01",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F2",
+          "",
+          null
+        ]
+      },
+      "E2": {
+        "roomId": "E2",
+        "name": "evr_gr01c_02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_02",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E3",
+          "",
+          null
+        ]
+      },
+      "F2": {
+        "roomId": "F2",
+        "name": "evr_gr01c_03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_03",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F3",
+          "E2",
+          null
+        ]
+      },
+      "G2": {
+        "roomId": "G2",
+        "name": "evr_gr01c_04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_04",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G3",
+          "F2",
+          null
+        ]
+      },
+      "I2": {
+        "roomId": "I2",
+        "name": "evr_gr01c_04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_04",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I3",
+          null,
+          "J2"
+        ]
+      },
+      "J2": {
+        "roomId": "J2",
+        "name": "evr_gr01c_03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_03",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "J3",
+          null,
+          "K2"
+        ]
+      },
+      "K2": {
+        "roomId": "K2",
+        "name": "evr_gr01c_02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_02",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy_event01",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "K3",
+          null,
+          ""
+        ]
+      },
+      "J1": {
+        "roomId": "J1",
+        "name": "evr_gr01c_01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_01",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "J2",
+          null,
+          ""
+        ]
+      },
+      "D3": {
+        "roomId": "D3",
+        "name": "evr_gr01c_05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_05",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D4",
+          "",
+          null
+        ]
+      },
+      "E3": {
+        "roomId": "E3",
+        "name": "evr_gr01c_mb01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb01",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E4",
+          "D3",
+          null
+        ]
+      },
+      "F3": {
+        "roomId": "F3",
+        "name": "evr_gr01c_06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_06",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F4",
+          "E3",
+          null
+        ]
+      },
+      "G3": {
+        "roomId": "G3",
+        "name": "evr_gr01c_07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_07",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G4",
+          "F3",
+          null
+        ]
+      },
+      "I3": {
+        "roomId": "I3",
+        "name": "evr_gr01c_07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_07",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I4",
+          null,
+          "J3"
+        ]
+      },
+      "J3": {
+        "roomId": "J3",
+        "name": "evr_gr01c_06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_06",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "J4",
+          null,
+          "K3"
+        ]
+      },
+      "K3": {
+        "roomId": "K3",
+        "name": "evr_gr01c_mb01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb01",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "K4",
+          null,
+          "L3"
+        ]
+      },
+      "L3": {
+        "roomId": "L3",
+        "name": "evr_gr01c_05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_05",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "L4",
+          null,
+          ""
+        ]
+      },
+      "C4": {
+        "roomId": "C4",
+        "name": "evr_gr01c_09",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_09",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C5",
+          "",
+          null
+        ]
+      },
+      "D4": {
+        "roomId": "D4",
+        "name": "evr_gr01c_10",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_10",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D5",
+          "C4",
+          null
+        ]
+      },
+      "E4": {
+        "roomId": "E4",
+        "name": "evr_gr01c_11",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_11",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E5",
+          "D4",
+          null
+        ]
+      },
+      "F4": {
+        "roomId": "F4",
+        "name": "evr_gr01c_mb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb02",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F5",
+          "E4",
+          null
+        ]
+      },
+      "G4": {
+        "roomId": "G4",
+        "name": "evr_gr01c_12",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_12",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "F4",
+          ""
+        ]
+      },
+      "I4": {
+        "roomId": "I4",
+        "name": "evr_gr01c_12",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_12",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "J4"
+        ]
+      },
+      "J4": {
+        "roomId": "J4",
+        "name": "evr_gr01c_mb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb02",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "City",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "J5",
+          null,
+          "K4"
+        ]
+      },
+      "K4": {
+        "roomId": "K4",
+        "name": "evr_gr01c_11",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_11",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "K5",
+          null,
+          "L4"
+        ]
+      },
+      "L4": {
+        "roomId": "L4",
+        "name": "evr_gr01c_10",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_10",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "L5",
+          null,
+          "M4"
+        ]
+      },
+      "M4": {
+        "roomId": "M4",
+        "name": "evr_gr01c_09",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_09",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "M5",
+          null,
+          ""
+        ]
+      },
+      "N5": {
+        "roomId": "N5",
+        "name": "evr_gr01c_13",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_13",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "N6",
+          null,
+          ""
+        ]
+      },
+      "M5": {
+        "roomId": "M5",
+        "name": "evr_gr01c_mb03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb03",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "M6",
+          null,
+          "N5"
+        ]
+      },
+      "L5": {
+        "roomId": "L5",
+        "name": "evr_gr01c_14",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_14",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "L6",
+          null,
+          "M5"
+        ]
+      },
+      "K5": {
+        "roomId": "K5",
+        "name": "evr_gr01c_15",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_15",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "K6",
+          null,
+          "L5"
+        ]
+      },
+      "J5": {
+        "roomId": "J5",
+        "name": "evr_gr01c_16",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_16",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "K5"
+        ]
+      },
+      "F5": {
+        "roomId": "F5",
+        "name": "evr_gr01c_16",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_16",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "E5",
+          ""
+        ]
+      },
+      "E5": {
+        "roomId": "E5",
+        "name": "evr_gr01c_15",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_15",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "E6",
+          "D5",
+          null
+        ]
+      },
+      "D5": {
+        "roomId": "D5",
+        "name": "evr_gr01c_14",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_14",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D6",
+          "C5",
+          null
+        ]
+      },
+      "C5": {
+        "roomId": "C5",
+        "name": "evr_gr01c_mb03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb03",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C6",
+          "B5",
+          null
+        ]
+      },
+      "B5": {
+        "roomId": "B5",
+        "name": "evr_gr01c_13",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_13",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B6",
+          "",
+          null
+        ]
+      },
+      "A6": {
+        "roomId": "A6",
+        "name": "evr_gr01c_17",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_17",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A7",
+          null,
+          null
+        ]
+      },
+      "B6": {
+        "roomId": "B6",
+        "name": "evr_gr01c_18",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_18",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B7",
+          "A6",
+          null
+        ]
+      },
+      "C6": {
+        "roomId": "C6",
+        "name": "evr_gr01c_19",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_19",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C7",
+          "B6",
+          null
+        ]
+      },
+      "D6": {
+        "roomId": "D6",
+        "name": "evr_gr01c_mb04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb04",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "City",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D7",
+          "C6",
+          null
+        ]
+      },
+      "E6": {
+        "roomId": "E6",
+        "name": "evr_gr01c_20",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_20",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "D6",
+          ""
+        ]
+      },
+      "K6": {
+        "roomId": "K6",
+        "name": "evr_gr01c_20",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_20",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "L6"
+        ]
+      },
+      "L6": {
+        "roomId": "L6",
+        "name": "evr_gr01c_mb04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb04",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "City",
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "L7",
+          null,
+          "M6"
+        ]
+      },
+      "M6": {
+        "roomId": "M6",
+        "name": "evr_gr01c_19",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_19",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "M7",
+          null,
+          "N6"
+        ]
+      },
+      "N6": {
+        "roomId": "N6",
+        "name": "evr_gr01c_18",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_18",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "N7",
+          null,
+          "O6"
+        ]
+      },
+      "O6": {
+        "roomId": "O6",
+        "name": "evr_gr01c_17",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_17",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "O7",
+          null,
+          null
+        ]
+      },
+      "A7": {
+        "roomId": "A7",
+        "name": "evr_gr01c_mb05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb05",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A8",
+          null,
+          null
+        ]
+      },
+      "B7": {
+        "roomId": "B7",
+        "name": "evr_gr01c_21",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_21",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B8",
+          "",
+          null
+        ]
+      },
+      "C7": {
+        "roomId": "C7",
+        "name": "evr_gr01c_22",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_22",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C8",
+          "B7",
+          null
+        ]
+      },
+      "D7": {
+        "roomId": "D7",
+        "name": "evr_gr01c_23",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_23",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "C7",
+          ""
+        ]
+      },
+      "A8": {
+        "roomId": "A8",
+        "name": "evr_gr01c_24",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_24",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A9",
+          null,
+          null
+        ]
+      },
+      "B8": {
+        "roomId": "B8",
+        "name": "evr_gr01c_mb06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb06",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B9",
+          "",
+          null
+        ]
+      },
+      "C8": {
+        "roomId": "C8",
+        "name": "evr_gr01c_25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_25",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C9",
+          "",
+          ""
+        ]
+      },
+      "A9": {
+        "roomId": "A9",
+        "name": "evr_gr01c_26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_26",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A10",
+          null,
+          null
+        ]
+      },
+      "B9": {
+        "roomId": "B9",
+        "name": "evr_gr01c_27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_27",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B10",
+          "A9",
+          null
+        ]
+      },
+      "C9": {
+        "roomId": "C9",
+        "name": "evr_gr01c_mb07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb07",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C10",
+          "B9",
+          ""
+        ]
+      },
+      "A10": {
+        "roomId": "A10",
+        "name": "evr_gr01c_fb01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_fb01",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_boss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          null
+        ]
+      },
+      "B10": {
+        "roomId": "B10",
+        "name": "evr_gr01c_28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_28",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "A10",
+          null
+        ]
+      },
+      "L7": {
+        "roomId": "L7",
+        "name": "evr_gr01c_23",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_23",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "M7"
+        ]
+      },
+      "M7": {
+        "roomId": "M7",
+        "name": "evr_gr01c_22",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_22",
+            "icon": "raid_Icon_Generic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "M8",
+          null,
+          "N7"
+        ]
+      },
+      "N7": {
+        "roomId": "N7",
+        "name": "evr_gr01c_21",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_21",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "N8",
+          null,
+          ""
+        ]
+      },
+      "O7": {
+        "roomId": "O7",
+        "name": "evr_gr01c_mb05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb05",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "O8",
+          null,
+          null
+        ]
+      },
+      "M8": {
+        "roomId": "M8",
+        "name": "evr_gr01c_25",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_25",
+            "icon": "raid_Icon_City.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "M9",
+          "",
+          ""
+        ]
+      },
+      "N8": {
+        "roomId": "N8",
+        "name": "evr_gr01c_mb06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb06",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "N9",
+          null,
+          ""
+        ]
+      },
+      "O8": {
+        "roomId": "O8",
+        "name": "evr_gr01c_24",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_24",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "O9",
+          null,
+          null
+        ]
+      },
+      "M9": {
+        "roomId": "M9",
+        "name": "evr_gr01c_mb07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_mb07",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "City"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          "",
+          "N9"
+        ]
+      },
+      "N9": {
+        "roomId": "N9",
+        "name": "evr_gr01c_27",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_27",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "N10",
+          null,
+          "O9"
+        ]
+      },
+      "O9": {
+        "roomId": "O9",
+        "name": "evr_gr01c_26",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_26",
+            "icon": "raid_Icon_Cosmic.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "O10",
+          null,
+          null
+        ]
+      },
+      "N10": {
+        "roomId": "N10",
+        "name": "evr_gr01c_28",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_28",
+            "icon": "raid_Icon_Global.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_high_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          "O10"
+        ]
+      },
+      "O10": {
+        "roomId": "O10",
+        "name": "evr_gr01c_fb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_gr01c_fb02",
+            "icon": "Portrait_Venom",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_venom_201809_battledrops_high_boss",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "",
+          null,
+          null
+        ]
+      }
+    },
+    "startingRoomId": "H1"
+  }
+}
