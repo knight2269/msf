@@ -41,7 +41,7 @@
       "modulePreReqID": "nue_Tutorial_01",
       "canRunParallel": false,
       "levelCap": 2,
-      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,SYNERGY"
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,COMBATPAUSEMENUCONTROLS, SYNERGY"
     },
     "nue_AllianceIntro_01": {
       "moduleID": "nue_AllianceIntro_01",
@@ -189,6 +189,13 @@
       "canRunParallel": false,
       "levelCap": 71,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,SYNERGY"
+    },
+    "nue_Promotions_01": {
+      "moduleID": "nue_Promotions_01",
+      "modulePreReqID": "nue_SavedSquads_01",
+      "canRunParallel": false,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     }
   }
 }
