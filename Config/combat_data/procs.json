@@ -28,6 +28,14 @@
         }
       ]
     },
+    "Binary": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "persist": true,
+      "remove_on_death": false,
+      "state": "binary",
+      "type": "state"
+    },
     "BuffBlock": {
       "category": "debuff",
       "expiration_type": "end_of_turn",
@@ -293,7 +301,7 @@
       "expiration_type": "end_of_any_turn",
       "stat_modifier": [
         {
-          "delta": -100,
+          "delta": -75,
           "stat": "damage_reduction_pct"
         },
         {

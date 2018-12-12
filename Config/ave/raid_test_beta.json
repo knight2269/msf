@@ -1,12 +1,13 @@
 {
-  "Name": "raid_beta_b_v2",
+  "Name": "raid_test_beta",
   "RaidDetails": {
-    "raidId": "raid_beta_b_v2",
-    "rows": 14,
-    "columns": 14,
+    "raidId": "raid_test_beta",
+    "rows": 9,
+    "columns": 10,
     "isOperation": false,
     "map": [
       [
+        "A1",
         "",
         "",
         "",
@@ -14,212 +15,95 @@
         "",
         "",
         "",
-        "",
-        "",
-        "A10",
-        "A11",
-        "A12",
         "",
         ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "B10",
-        "",
-        "B12",
-        "",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
         ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
         "C8",
         "C9",
-        "C10",
-        "C11",
-        "C12",
-        "C13",
-        "C14"
+        ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
         "D8",
-        "",
-        "D10",
-        "",
-        "D12",
-        "",
-        "D14"
+        "D9",
+        ""
       ],
       [
+        "E1",
         "",
         "",
         "",
         "",
         "",
         "",
-        "E7",
-        "E8",
-        "E9",
-        "E10",
-        "E11",
-        "E12",
-        "E13",
-        "E14"
+        "",
+        "",
+        ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
         "F6",
         "F7",
         "F8",
-        "",
-        "F10",
-        "",
-        "F12",
-        "",
+        "F9",
         ""
       ],
       [
-        "",
-        "",
-        "",
+        "G1",
+        "G2",
+        "G3",
         "G4",
         "G5",
         "G6",
         "G7",
-        "",
+        "G8",
         "G9",
-        "G10",
-        "G11",
-        "G12",
-        "",
         ""
       ],
       [
-        "",
-        "",
-        "",
+        "H1",
+        "H2",
+        "H3",
         "H4",
-        "",
+        "H5",
         "H6",
-        "",
+        "H7",
         "H8",
         "H9",
-        "H10",
-        "",
-        "",
-        "",
         ""
       ],
       [
-        "",
-        "I2",
-        "I3",
-        "I4",
-        "I5",
-        "I6",
-        "I7",
-        "I8",
-        "I9",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "",
-        "J2",
-        "",
-        "J4",
-        "",
-        "J6",
-        "",
-        "J8",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "K1",
-        "K2",
-        "K3",
-        "K4",
-        "K5",
-        "K6",
-        "K7",
-        "K8",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "L1",
-        "L2",
-        "",
-        "L4",
-        "",
-        "L6",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "M1",
-        "M2",
-        "M3",
-        "M4",
-        "M5",
-        "M6",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "N1",
-        "N2",
-        "N3",
-        "N4",
-        "",
+        "I1",
         "",
         "",
         "",
@@ -232,94 +116,12 @@
       ]
     ],
     "rooms": {
-      "G11": {
-        "roomId": "G11",
-        "name": "evr_beta2_21",
-        "starting": false,
+      "A1": {
+        "roomId": "A1",
+        "name": "raids_beta_test_start",
+        "starting": true,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_21",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G12",
-          "",
-          ""
-        ]
-      },
-      "G12": {
-        "roomId": "G12",
-        "name": "evr_beta2_20",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_20",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -334,45 +136,88 @@
         },
         "nextRooms": [
           "",
-          "F12",
-          ""
+          "",
+          "B1"
         ]
       },
-      "F12": {
-        "roomId": "F12",
-        "name": "evr_beta2_24",
+      "B1": {
+        "roomId": "B1",
+        "name": "beta1_v1",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_24",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
         },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B2",
+          null,
+          "C1"
+        ]
+      },
+      "C1": {
+        "roomId": "C1",
+        "name": "beta2_v1",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C2",
+          null,
+          "D1"
+        ]
+      },
+      "D1": {
+        "roomId": "D1",
+        "name": "beta3_v1",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D2",
+          null,
+          "E1"
+        ]
+      },
+      "E1": {
+        "roomId": "E1",
+        "name": "beta4_v1",
+        "starting": false,
+        "objective": false,
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -387,45 +232,16 @@
         },
         "nextRooms": [
           "",
-          "E12",
-          null
+          null,
+          "F1"
         ]
       },
-      "E11": {
-        "roomId": "E11",
-        "name": "evr_beta2_28",
+      "F1": {
+        "roomId": "F1",
+        "name": "beta1_v2",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_28",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -439,52 +255,17 @@
           "y": 0
         },
         "nextRooms": [
-          "E12",
-          "",
-          ""
+          "F2",
+          null,
+          "G1"
         ]
       },
-      "E12": {
-        "roomId": "E12",
-        "name": "evr_boss_bmb_mb_d02_l50_v02",
+      "G1": {
+        "roomId": "G1",
+        "name": "beta2_v2",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l50_v02",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "Tech",
-                  "SpiderVerse"
-                ]
-              }
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -498,46 +279,17 @@
           "y": 0
         },
         "nextRooms": [
-          "E13",
-          "D12",
-          null
+          "G2",
+          null,
+          "H1"
         ]
       },
-      "E13": {
-        "roomId": "E13",
-        "name": "evr_beta2_27",
+      "H1": {
+        "roomId": "H1",
+        "name": "beta3_v2",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_27",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -551,158 +303,17 @@
           "y": 0
         },
         "nextRooms": [
-          "E14",
-          "",
-          ""
+          "H2",
+          null,
+          "I1"
         ]
       },
-      "E14": {
-        "roomId": "E14",
-        "name": "evr_beta2_26",
+      "I1": {
+        "roomId": "I1",
+        "name": "beta4_v2",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_26",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "D14",
-          null
-        ]
-      },
-      "D14": {
-        "roomId": "D14",
-        "name": "evr_beta2_30",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_30",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "C14",
-          null
-        ]
-      },
-      "C14": {
-        "roomId": "C14",
-        "name": "evr_boss_bmb_fb_d02_l51_v02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_fb_d02_l51_v02",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_boss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "SpiderVerse",
-                  "Tech"
-                ]
-              }
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -721,20 +332,20 @@
           null
         ]
       },
-      "C13": {
-        "roomId": "C13",
-        "name": "evr_beta2_33",
+      "B2": {
+        "roomId": "B2",
+        "name": "evr_beta1_mb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_33",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta1_mb01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -753,7 +364,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -769,25 +380,25 @@
           "y": 0
         },
         "nextRooms": [
-          "C14",
+          "B3",
           "",
-          ""
+          "C2"
         ]
       },
-      "D12": {
-        "roomId": "D12",
-        "name": "evr_beta2_31",
+      "B3": {
+        "roomId": "B3",
+        "name": "evr_beta1_mb02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_31",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta1_mb02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -806,7 +417,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -822,25 +433,25 @@
           "y": 0
         },
         "nextRooms": [
+          "B4",
           "",
-          "C12",
-          null
+          "C3"
         ]
       },
-      "C11": {
-        "roomId": "C11",
-        "name": "evr_beta2_31",
+      "B4": {
+        "roomId": "B4",
+        "name": "evr_beta1_mb03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_31",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta1_mb03",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -859,7 +470,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -875,25 +486,25 @@
           "y": 0
         },
         "nextRooms": [
-          "C12",
+          "B5",
           "",
-          ""
+          "C4"
         ]
       },
-      "C12": {
-        "roomId": "C12",
-        "name": "evr_beta2_32",
+      "B5": {
+        "roomId": "B5",
+        "name": "evr_beta1_mb04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_32",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta1_mb04",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -912,7 +523,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -928,78 +539,25 @@
           "y": 0
         },
         "nextRooms": [
-          "C13",
-          "B12",
-          null
-        ]
-      },
-      "B12": {
-        "roomId": "B12",
-        "name": "evr_beta2_33",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_33",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
+          "B6",
           "",
-          "A12",
-          null
+          "C5"
         ]
       },
-      "A12": {
-        "roomId": "A12",
-        "name": "evr_boss_bmb_fb_d02_l51_v01",
+      "B6": {
+        "roomId": "B6",
+        "name": "evr_beta1_mb05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_fb_d02_l51_v01",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta1_mb05",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_boss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1011,17 +569,170 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "Tech",
-                  "SpiderVerse"
-                ]
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B7",
+          "",
+          "C6"
+        ]
+      },
+      "B7": {
+        "roomId": "B7",
+        "name": "evr_beta1_mb06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta1_mb06",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
               }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B8",
+          "",
+          "C7"
+        ]
+      },
+      "B8": {
+        "roomId": "B8",
+        "name": "evr_beta1_fb01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta1_fb01",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B9",
+          "",
+          "C8"
+        ]
+      },
+      "B9": {
+        "roomId": "B9",
+        "name": "evr_beta1_fb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta1_fb02",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
             },
             "characterLimit": 5,
             "isBoss": true
@@ -1041,77 +752,24 @@
         },
         "nextRooms": [
           "",
-          null,
-          null
-        ]
-      },
-      "A11": {
-        "roomId": "A11",
-        "name": "evr_beta2_30",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_30",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "A12",
           "",
-          null
+          "C9"
         ]
       },
-      "A10": {
-        "roomId": "A10",
-        "name": "evr_beta2_26",
+      "C2": {
+        "roomId": "C2",
+        "name": "evr_beta2_mb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_26",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta2_mb01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1128,383 +786,6 @@
               "longDescription": "",
               "quantity": 0,
               "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "A11",
-          null,
-          null
-        ]
-      },
-      "B10": {
-        "roomId": "B10",
-        "name": "evr_beta2_27",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_27",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "A10",
-          null
-        ]
-      },
-      "G10": {
-        "roomId": "G10",
-        "name": "evr_beta2_22",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_22",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G11",
-          "F10",
-          null
-        ]
-      },
-      "F10": {
-        "roomId": "F10",
-        "name": "evr_beta2_25",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_25",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "E10",
-          null
-        ]
-      },
-      "E9": {
-        "roomId": "E9",
-        "name": "evr_beta2_25",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_25",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E10",
-          "",
-          ""
-        ]
-      },
-      "E10": {
-        "roomId": "E10",
-        "name": "evr_beta2_29",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_29",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E11",
-          "D10",
-          null
-        ]
-      },
-      "D10": {
-        "roomId": "D10",
-        "name": "evr_beta2_28",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_28",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "C10",
-          null
-        ]
-      },
-      "C10": {
-        "roomId": "C10",
-        "name": "evr_boss_bmb_mb_d02_l50_v01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l50_v01",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "SpiderVerse",
-                  "Tech"
-                ]
-              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -1523,25 +804,25 @@
           "y": 0
         },
         "nextRooms": [
-          "C11",
-          "B10",
-          null
+          "C3",
+          null,
+          "D2"
         ]
       },
-      "C9": {
-        "roomId": "C9",
-        "name": "evr_beta2_24",
+      "C3": {
+        "roomId": "C3",
+        "name": "evr_beta2_mb02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_24",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta2_mb02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1560,7 +841,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1576,25 +857,237 @@
           "y": 0
         },
         "nextRooms": [
-          "C10",
-          "",
-          ""
+          "C4",
+          null,
+          "D3"
+        ]
+      },
+      "C4": {
+        "roomId": "C4",
+        "name": "evr_beta2_mb03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta2_mb03",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C5",
+          null,
+          "D4"
+        ]
+      },
+      "C5": {
+        "roomId": "C5",
+        "name": "evr_beta2_mb04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta2_mb04",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C6",
+          null,
+          "D5"
+        ]
+      },
+      "C6": {
+        "roomId": "C6",
+        "name": "evr_beta2_mb05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta2_mb05",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C7",
+          null,
+          "D6"
+        ]
+      },
+      "C7": {
+        "roomId": "C7",
+        "name": "evr_beta2_mb06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta2_mb06",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C8",
+          null,
+          "D7"
         ]
       },
       "C8": {
         "roomId": "C8",
-        "name": "evr_beta2_20",
+        "name": "evr_beta2_fb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_20",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta2_fb01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1613,7 +1106,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1630,24 +1123,395 @@
         },
         "nextRooms": [
           "C9",
+          null,
+          "D8"
+        ]
+      },
+      "C9": {
+        "roomId": "C9",
+        "name": "evr_beta2_fb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta2_fb02",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
           "",
-          null
+          null,
+          "D9"
+        ]
+      },
+      "D2": {
+        "roomId": "D2",
+        "name": "evr_beta3_mb01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb01",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D3",
+          null,
+          ""
+        ]
+      },
+      "D3": {
+        "roomId": "D3",
+        "name": "evr_beta3_mb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb02",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D4",
+          null,
+          ""
+        ]
+      },
+      "D4": {
+        "roomId": "D4",
+        "name": "evr_beta3_mb03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb03",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D5",
+          null,
+          ""
+        ]
+      },
+      "D5": {
+        "roomId": "D5",
+        "name": "evr_beta3_mb04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb04",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D6",
+          null,
+          ""
+        ]
+      },
+      "D6": {
+        "roomId": "D6",
+        "name": "evr_beta3_mb05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb05",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D7",
+          null,
+          ""
+        ]
+      },
+      "D7": {
+        "roomId": "D7",
+        "name": "evr_beta3_mb06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_mb06",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D8",
+          null,
+          ""
         ]
       },
       "D8": {
         "roomId": "D8",
-        "name": "evr_beta2_21",
+        "name": "evr_beta3_fb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_21",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_beta3_fb01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1666,7 +1530,60 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D9",
+          null,
+          ""
+        ]
+      },
+      "D9": {
+        "roomId": "D9",
+        "name": "evr_beta3_fb02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_beta3_fb02",
+            "icon": "Portrait_Juggernaut",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1683,183 +1600,24 @@
         },
         "nextRooms": [
           "",
-          "C8",
-          null
-        ]
-      },
-      "E8": {
-        "roomId": "E8",
-        "name": "evr_beta2_22",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_22",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E9",
-          "D8",
-          null
-        ]
-      },
-      "E7": {
-        "roomId": "E7",
-        "name": "evr_beta2_18",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_18",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E8",
-          "",
-          null
-        ]
-      },
-      "F8": {
-        "roomId": "F8",
-        "name": "evr_beta2_23",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_23",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "E8",
+          null,
           ""
         ]
       },
       "G9": {
         "roomId": "G9",
-        "name": "evr_beta2_23",
+        "name": "evr_boss_bmb_fb_d02_l51_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_23",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d02_l51_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1878,7 +1636,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1894,25 +1652,25 @@
           "y": 0
         },
         "nextRooms": [
-          "G10",
           "",
-          null
+          null,
+          "H9"
         ]
       },
-      "H10": {
-        "roomId": "H10",
-        "name": "evr_beta2_18",
+      "G8": {
+        "roomId": "G8",
+        "name": "evr_boss_bmb_fb_d02_l51_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_18",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d02_l51_v01",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1931,7 +1689,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -1947,78 +1705,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "G10",
-          ""
-        ]
-      },
-      "H8": {
-        "roomId": "H8",
-        "name": "evr_beta2_19",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_19",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "H9",
-          "",
-          null
+          "G9",
+          null,
+          "H8"
         ]
       },
       "G7": {
         "roomId": "G7",
-        "name": "evr_beta2_19",
+        "name": "evr_boss_bmb_mb_d02_l50_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_19",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d02_l50_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2037,7 +1742,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -2053,13 +1758,119 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "F7",
-          ""
+          "G8",
+          null,
+          "H7"
         ]
       },
-      "F7": {
-        "roomId": "F7",
+      "G6": {
+        "roomId": "G6",
+        "name": "evr_boss_bmb_mb_d02_l50_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d02_l50_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G7",
+          null,
+          "H6"
+        ]
+      },
+      "G5": {
+        "roomId": "G5",
+        "name": "evr_boss_bmb_mb_d02_l44_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d02_l44_v02",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G6",
+          null,
+          "H5"
+        ]
+      },
+      "G4": {
+        "roomId": "G4",
         "name": "evr_boss_bmb_mb_d02_l44_v01",
         "starting": false,
         "objective": false,
@@ -2071,7 +1882,7 @@
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2083,17 +1894,435 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Tech",
-                  "Mystic",
-                  "SpiderVerse"
-                ]
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G5",
+          null,
+          "H4"
+        ]
+      },
+      "G3": {
+        "roomId": "G3",
+        "name": "evr_boss_bmb_mb_d02_l38_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d02_l38_v02",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
               }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G4",
+          null,
+          "H3"
+        ]
+      },
+      "G2": {
+        "roomId": "G2",
+        "name": "evr_boss_bmb_mb_d02_l38_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d02_l38_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G3",
+          null,
+          "H2"
+        ]
+      },
+      "F2": {
+        "roomId": "F2",
+        "name": "evr_boss_bmb_mb_d01_l38_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l38_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F3",
+          "",
+          "G2"
+        ]
+      },
+      "F3": {
+        "roomId": "F3",
+        "name": "evr_boss_bmb_mb_d01_l38_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l38_v02",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F4",
+          "",
+          "G3"
+        ]
+      },
+      "F4": {
+        "roomId": "F4",
+        "name": "evr_boss_bmb_mb_d01_l44_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l44_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F5",
+          "",
+          "G4"
+        ]
+      },
+      "F5": {
+        "roomId": "F5",
+        "name": "evr_boss_bmb_mb_d01_l44_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l44_v02",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F6",
+          "",
+          "G5"
+        ]
+      },
+      "F6": {
+        "roomId": "F6",
+        "name": "evr_boss_bmb_mb_d01_l50_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l50_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F7",
+          "",
+          "G6"
+        ]
+      },
+      "F7": {
+        "roomId": "F7",
+        "name": "evr_boss_bmb_mb_d01_l50_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d01_l50_v02",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
             },
             "characterLimit": 5,
             "isBoss": true
@@ -2113,24 +2342,24 @@
         },
         "nextRooms": [
           "F8",
-          "E7",
-          null
+          "",
+          "G7"
         ]
       },
-      "F6": {
-        "roomId": "F6",
-        "name": "evr_beta2_14",
+      "F8": {
+        "roomId": "F8",
+        "name": "evr_boss_bmb_fb_d01_l51_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_14",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d01_l51_v01",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2147,65 +2376,6 @@
               "longDescription": "",
               "quantity": 0,
               "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "F7",
-          "",
-          null
-        ]
-      },
-      "H9": {
-        "roomId": "H9",
-        "name": "evr_boss_bmb_mb_d02_l44_v02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l44_v02",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "Tech",
-                  "SpiderVerse"
-                ]
-              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -2224,25 +2394,25 @@
           "y": 0
         },
         "nextRooms": [
-          "H10",
-          "G9",
-          null
+          "F9",
+          "",
+          "G8"
         ]
       },
-      "I9": {
-        "roomId": "I9",
-        "name": "evr_beta2_14",
+      "F9": {
+        "roomId": "F9",
+        "name": "evr_boss_bmb_fb_d01_l51_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_14",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d01_l51_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2261,7 +2431,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -2278,24 +2448,77 @@
         },
         "nextRooms": [
           "",
-          "H9",
+          "",
+          "G9"
+        ]
+      },
+      "H2": {
+        "roomId": "H2",
+        "name": "evr_boss_bmb_mb_d03_l38_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_bmb_mb_d03_l38_v01",
+            "icon": "Portrait_UltSpiderMan",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H3",
+          null,
           ""
         ]
       },
-      "I7": {
-        "roomId": "I7",
-        "name": "evr_beta2_16",
+      "H3": {
+        "roomId": "H3",
+        "name": "evr_boss_bmb_mb_d03_l38_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_16",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d03_l38_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2314,7 +2537,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -2330,608 +2553,25 @@
           "y": 0
         },
         "nextRooms": [
-          "I8",
-          "",
+          "H4",
+          null,
           ""
-        ]
-      },
-      "I8": {
-        "roomId": "I8",
-        "name": "evr_beta2_15",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_15",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I9",
-          "H8",
-          null
-        ]
-      },
-      "J8": {
-        "roomId": "J8",
-        "name": "evr_beta2_12",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_12",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I8",
-          null
-        ]
-      },
-      "K8": {
-        "roomId": "K8",
-        "name": "evr_beta2_08",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_08",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "J8",
-          ""
-        ]
-      },
-      "K7": {
-        "roomId": "K7",
-        "name": "evr_beta2_09",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_09",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K8",
-          "",
-          ""
-        ]
-      },
-      "J6": {
-        "roomId": "J6",
-        "name": "evr_beta2_13",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_13",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I6",
-          null
-        ]
-      },
-      "I5": {
-        "roomId": "I5",
-        "name": "evr_beta2_13",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_13",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I6",
-          "",
-          ""
-        ]
-      },
-      "I6": {
-        "roomId": "I6",
-        "name": "evr_beta2_17",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_17",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I7",
-          "H6",
-          null
-        ]
-      },
-      "H6": {
-        "roomId": "H6",
-        "name": "evr_beta2_16",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_16",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "G6",
-          null
-        ]
-      },
-      "G6": {
-        "roomId": "G6",
-        "name": "evr_beta2_15",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_15",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G7",
-          "F6",
-          null
-        ]
-      },
-      "G5": {
-        "roomId": "G5",
-        "name": "evr_beta2_12",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_12",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G6",
-          "",
-          ""
-        ]
-      },
-      "G4": {
-        "roomId": "G4",
-        "name": "evr_beta2_08",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_08",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G5",
-          "",
-          null
         ]
       },
       "H4": {
         "roomId": "H4",
-        "name": "evr_beta2_09",
+        "name": "evr_boss_bmb_mb_d03_l44_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_09",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d03_l44_v01",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2948,65 +2588,6 @@
               "longDescription": "",
               "quantity": 0,
               "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "G4",
-          null
-        ]
-      },
-      "K6": {
-        "roomId": "K6",
-        "name": "evr_boss_bmb_mb_d02_l38_v02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l38_v02",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "Tech",
-                  "SpiderVerse"
-                ]
-              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -3025,25 +2606,25 @@
           "y": 0
         },
         "nextRooms": [
-          "K7",
-          "J6",
-          null
+          "H5",
+          null,
+          ""
         ]
       },
-      "L6": {
-        "roomId": "L6",
-        "name": "evr_beta2_06",
+      "H5": {
+        "roomId": "H5",
+        "name": "evr_boss_bmb_mb_d03_l44_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_06",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d03_l44_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3060,65 +2641,6 @@
               "longDescription": "",
               "quantity": 0,
               "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "K6",
-          null
-        ]
-      },
-      "I4": {
-        "roomId": "I4",
-        "name": "evr_boss_bmb_mb_d02_l38_v01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l38_v01",
-            "icon": "Portrait_UltSpiderMan",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "quantity": 5,
-              "filters": {
-                "anyTrait": [
-                  "Mystic",
-                  "SpiderVerse",
-                  "Tech"
-                ]
-              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -3137,131 +2659,25 @@
           "y": 0
         },
         "nextRooms": [
-          "I5",
-          "H4",
-          null
-        ]
-      },
-      "J4": {
-        "roomId": "J4",
-        "name": "evr_beta2_10",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_10",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I4",
-          null
-        ]
-      },
-      "K5": {
-        "roomId": "K5",
-        "name": "evr_beta2_10",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_10",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K6",
-          "",
+          "H6",
+          null,
           ""
         ]
       },
-      "L4": {
-        "roomId": "L4",
-        "name": "evr_beta2_ 07",
+      "H6": {
+        "roomId": "H6",
+        "name": "evr_boss_bmb_mb_d03_l50_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_07",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d03_l50_v01",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3280,7 +2696,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -3296,131 +2712,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "K4",
-          null
-        ]
-      },
-      "K4": {
-        "roomId": "K4",
-        "name": "evr_beta2_11",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_11",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K5",
-          "J4",
-          null
-        ]
-      },
-      "K3": {
-        "roomId": "K3",
-        "name": "evr_beta2_07",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_07",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K4",
-          "",
+          "H7",
+          null,
           ""
         ]
       },
-      "I3": {
-        "roomId": "I3",
-        "name": "evr_beta2_06",
+      "H7": {
+        "roomId": "H7",
+        "name": "evr_boss_bmb_mb_d03_l50_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_06",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_mb_d03_l50_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3439,7 +2749,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -3455,25 +2765,25 @@
           "y": 0
         },
         "nextRooms": [
-          "I4",
-          "",
+          "H8",
+          null,
           ""
         ]
       },
-      "I2": {
-        "roomId": "I2",
-        "name": "evr_beta2_02",
+      "H8": {
+        "roomId": "H8",
+        "name": "evr_boss_bmb_fb_d03_l51_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_02",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d03_l51_v01",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3492,7 +2802,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -3508,131 +2818,25 @@
           "y": 0
         },
         "nextRooms": [
-          "I3",
-          "",
-          null
-        ]
-      },
-      "J2": {
-        "roomId": "J2",
-        "name": "evr_beta2_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_03",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I2",
-          null
-        ]
-      },
-      "M6": {
-        "roomId": "M6",
-        "name": "evr_beta2_02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_02",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "L6",
+          "H9",
+          null,
           ""
         ]
       },
-      "M5": {
-        "roomId": "M5",
-        "name": "evr_beta2_03",
+      "H9": {
+        "roomId": "H9",
+        "name": "evr_boss_bmb_fb_d03_l51_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_03",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_bmb_fb_d03_l51_v02",
+            "icon": "Portrait_UltSpiderMan",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3651,7 +2855,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -3667,474 +2871,12 @@
           "y": 0
         },
         "nextRooms": [
-          "M6",
           "",
+          null,
           ""
-        ]
-      },
-      "K2": {
-        "roomId": "K2",
-        "name": "evr_beta2_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_04",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K3",
-          "J2",
-          null
-        ]
-      },
-      "K1": {
-        "roomId": "K1",
-        "name": "evr_beta2_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_01",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K2",
-          "",
-          null
-        ]
-      },
-      "L2": {
-        "roomId": "L2",
-        "name": "evr_beta2_05",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_05",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "K2",
-          null
-        ]
-      },
-      "M3": {
-        "roomId": "M3",
-        "name": "evr_beta2_05",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_05",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M4",
-          "",
-          null
-        ]
-      },
-      "M4": {
-        "roomId": "M4",
-        "name": "evr_beta2_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_04",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M5",
-          "L4",
-          null
-        ]
-      },
-      "N4": {
-        "roomId": "N4",
-        "name": "evr_beta2_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta2_01",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "M4",
-          null
-        ]
-      },
-      "L1": {
-        "roomId": "L1",
-        "name": "evr_beta2_xx",
-        "starting": false,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "L2",
-          "K1",
-          null
-        ]
-      },
-      "M2": {
-        "roomId": "M2",
-        "name": "evr_beta2_xx",
-        "starting": false,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M3",
-          "L2",
-          null
-        ]
-      },
-      "N3": {
-        "roomId": "N3",
-        "name": "evr_beta2_xx",
-        "starting": false,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "N4",
-          "M3",
-          null
-        ]
-      },
-      "M1": {
-        "roomId": "M1",
-        "name": "evr_beta2_xx",
-        "starting": false,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M2",
-          "L1",
-          null
-        ]
-      },
-      "N2": {
-        "roomId": "N2",
-        "name": "evr_beta2_xx",
-        "starting": false,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "N3",
-          "M2",
-          null
-        ]
-      },
-      "N1": {
-        "roomId": "N1",
-        "name": "evr_beta2_start",
-        "starting": true,
-        "objective": false,
-        "missions": {},
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "N2",
-          "M1",
-          null
         ]
       }
     },
-    "startingRoomId": "N1"
+    "startingRoomId": "A1"
   }
 }

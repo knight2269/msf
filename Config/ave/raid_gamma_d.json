@@ -1,7 +1,7 @@
 {
-  "Name": "raid_beta_b_v2",
+  "Name": "raid_gamma_d",
   "RaidDetails": {
-    "raidId": "raid_beta_b_v2",
+    "raidId": "raid_gamma_d",
     "rows": 14,
     "columns": 14,
     "isOperation": false,
@@ -234,18 +234,18 @@
     "rooms": {
       "G11": {
         "roomId": "G11",
-        "name": "evr_beta2_21",
+        "name": "evr_beta3_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_21",
+            "ID": "evr_beta3_21",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -257,11 +257,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -287,18 +292,18 @@
       },
       "G12": {
         "roomId": "G12",
-        "name": "evr_beta2_20",
+        "name": "evr_beta3_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_20",
+            "ID": "evr_beta3_20",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -310,11 +315,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -340,18 +350,18 @@
       },
       "F12": {
         "roomId": "F12",
-        "name": "evr_beta2_24",
+        "name": "evr_beta3_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_24",
+            "ID": "evr_beta3_24",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -363,11 +373,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -393,18 +408,18 @@
       },
       "E11": {
         "roomId": "E11",
-        "name": "evr_beta2_28",
+        "name": "evr_beta3_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_28",
+            "ID": "evr_beta3_28",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -416,11 +431,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -446,18 +466,18 @@
       },
       "E12": {
         "roomId": "E12",
-        "name": "evr_boss_bmb_mb_d02_l50_v02",
+        "name": "evr_beta3_mb06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l50_v02",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb06",
+            "icon": "Portrait_Magneto",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -469,15 +489,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Mystic",
-                  "Tech",
-                  "SpiderVerse"
+                  "Skill",
+                  "Bio",
+                  "Mystic"
                 ]
               }
             },
@@ -505,18 +525,18 @@
       },
       "E13": {
         "roomId": "E13",
-        "name": "evr_beta2_27",
+        "name": "evr_beta3_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_27",
+            "ID": "evr_beta3_27",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -528,11 +548,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -558,18 +583,18 @@
       },
       "E14": {
         "roomId": "E14",
-        "name": "evr_beta2_26",
+        "name": "evr_beta3_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_26",
+            "ID": "evr_beta3_26",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -581,11 +606,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -611,18 +641,18 @@
       },
       "D14": {
         "roomId": "D14",
-        "name": "evr_beta2_30",
+        "name": "evr_beta3_30",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_30",
+            "ID": "evr_beta3_30",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -634,11 +664,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -664,18 +699,18 @@
       },
       "C14": {
         "roomId": "C14",
-        "name": "evr_boss_bmb_fb_d02_l51_v02",
+        "name": "evr_beta3_fb02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_fb_d02_l51_v02",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_fb02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_boss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_boss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -687,15 +722,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
                   "Mystic",
-                  "SpiderVerse",
-                  "Tech"
+                  "Skill",
+                  "Bio"
                 ]
               }
             },
@@ -723,18 +758,18 @@
       },
       "C13": {
         "roomId": "C13",
-        "name": "evr_beta2_33",
+        "name": "evr_beta3_33",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_33",
+            "ID": "evr_beta3_33",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -746,11 +781,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Mutant"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -776,18 +816,18 @@
       },
       "D12": {
         "roomId": "D12",
-        "name": "evr_beta2_31",
+        "name": "evr_beta3_31",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_31",
+            "ID": "evr_beta3_31",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -799,11 +839,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -829,18 +874,18 @@
       },
       "C11": {
         "roomId": "C11",
-        "name": "evr_beta2_31",
+        "name": "evr_beta3_31",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_31",
+            "ID": "evr_beta3_31",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -852,11 +897,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -882,18 +932,18 @@
       },
       "C12": {
         "roomId": "C12",
-        "name": "evr_beta2_32",
+        "name": "evr_beta3_32",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_32",
+            "ID": "evr_beta3_32",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -905,11 +955,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -935,18 +990,18 @@
       },
       "B12": {
         "roomId": "B12",
-        "name": "evr_beta2_33",
+        "name": "evr_beta3_33",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_33",
+            "ID": "evr_beta3_33",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -958,11 +1013,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -988,18 +1048,18 @@
       },
       "A12": {
         "roomId": "A12",
-        "name": "evr_boss_bmb_fb_d02_l51_v01",
+        "name": "evr_beta3_fb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_fb_d02_l51_v01",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_fb01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_boss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_boss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1011,15 +1071,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
                   "Mystic",
-                  "Tech",
-                  "SpiderVerse"
+                  "Bio",
+                  "Skill"
                 ]
               }
             },
@@ -1047,18 +1107,18 @@
       },
       "A11": {
         "roomId": "A11",
-        "name": "evr_beta2_30",
+        "name": "evr_beta3_30",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_30",
+            "ID": "evr_beta3_30",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1070,11 +1130,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1100,18 +1165,18 @@
       },
       "A10": {
         "roomId": "A10",
-        "name": "evr_beta2_26",
+        "name": "evr_beta3_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_26",
+            "ID": "evr_beta3_26",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1123,11 +1188,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1153,18 +1223,18 @@
       },
       "B10": {
         "roomId": "B10",
-        "name": "evr_beta2_27",
+        "name": "evr_beta3_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_27",
+            "ID": "evr_beta3_27",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1176,11 +1246,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1206,18 +1281,18 @@
       },
       "G10": {
         "roomId": "G10",
-        "name": "evr_beta2_22",
+        "name": "evr_beta3_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_22",
+            "ID": "evr_beta3_22",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1229,11 +1304,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1259,18 +1340,18 @@
       },
       "F10": {
         "roomId": "F10",
-        "name": "evr_beta2_25",
+        "name": "evr_beta3_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_25",
+            "ID": "evr_beta3_25",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1282,11 +1363,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1312,18 +1398,18 @@
       },
       "E9": {
         "roomId": "E9",
-        "name": "evr_beta2_25",
+        "name": "evr_beta3_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_25",
+            "ID": "evr_beta3_25",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1335,11 +1421,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1365,18 +1456,18 @@
       },
       "E10": {
         "roomId": "E10",
-        "name": "evr_beta2_29",
+        "name": "evr_beta3_29",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_29",
+            "ID": "evr_beta3_29",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1388,11 +1479,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1418,18 +1514,18 @@
       },
       "D10": {
         "roomId": "D10",
-        "name": "evr_beta2_28",
+        "name": "evr_beta3_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_28",
+            "ID": "evr_beta3_28",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1441,11 +1537,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1471,18 +1572,18 @@
       },
       "C10": {
         "roomId": "C10",
-        "name": "evr_boss_bmb_mb_d02_l50_v01",
+        "name": "evr_beta3_mb05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l50_v01",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb05",
+            "icon": "Portrait_Magneto",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1494,15 +1595,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
                   "Mystic",
-                  "SpiderVerse",
-                  "Tech"
+                  "Bio",
+                  "Skill"
                 ]
               }
             },
@@ -1530,18 +1631,18 @@
       },
       "C9": {
         "roomId": "C9",
-        "name": "evr_beta2_24",
+        "name": "evr_beta3_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_24",
+            "ID": "evr_beta3_24",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1553,11 +1654,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1583,18 +1689,18 @@
       },
       "C8": {
         "roomId": "C8",
-        "name": "evr_beta2_20",
+        "name": "evr_beta3_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_20",
+            "ID": "evr_beta3_20",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1606,11 +1712,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1636,18 +1747,18 @@
       },
       "D8": {
         "roomId": "D8",
-        "name": "evr_beta2_21",
+        "name": "evr_beta3_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_21",
+            "ID": "evr_beta3_21",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1659,11 +1770,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1689,18 +1805,18 @@
       },
       "E8": {
         "roomId": "E8",
-        "name": "evr_beta2_22",
+        "name": "evr_beta3_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_22",
+            "ID": "evr_beta3_22",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1712,11 +1828,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1742,18 +1864,18 @@
       },
       "E7": {
         "roomId": "E7",
-        "name": "evr_beta2_18",
+        "name": "evr_beta3_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_18",
+            "ID": "evr_beta3_18",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1765,11 +1887,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1795,18 +1922,18 @@
       },
       "F8": {
         "roomId": "F8",
-        "name": "evr_beta2_23",
+        "name": "evr_beta3_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_23",
+            "ID": "evr_beta3_23",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1818,11 +1945,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1848,18 +1980,18 @@
       },
       "G9": {
         "roomId": "G9",
-        "name": "evr_beta2_23",
+        "name": "evr_beta3_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_23",
+            "ID": "evr_beta3_23",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1871,11 +2003,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1901,18 +2038,18 @@
       },
       "H10": {
         "roomId": "H10",
-        "name": "evr_beta2_18",
+        "name": "evr_beta3_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_18",
+            "ID": "evr_beta3_18",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1924,11 +2061,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1954,18 +2096,18 @@
       },
       "H8": {
         "roomId": "H8",
-        "name": "evr_beta2_19",
+        "name": "evr_beta3_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_19",
+            "ID": "evr_beta3_19",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1977,11 +2119,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Mutant"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2007,18 +2154,18 @@
       },
       "G7": {
         "roomId": "G7",
-        "name": "evr_beta2_19",
+        "name": "evr_beta3_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_19",
+            "ID": "evr_beta3_19",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2030,11 +2177,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2060,18 +2212,18 @@
       },
       "F7": {
         "roomId": "F7",
-        "name": "evr_boss_bmb_mb_d02_l44_v01",
+        "name": "evr_beta3_mb03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l44_v01",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb03",
+            "icon": "Portrait_Mystique",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2083,15 +2235,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Tech",
+                  "Mutant",
                   "Mystic",
-                  "SpiderVerse"
+                  "Tech"
                 ]
               }
             },
@@ -2119,18 +2271,18 @@
       },
       "F6": {
         "roomId": "F6",
-        "name": "evr_beta2_14",
+        "name": "evr_beta3_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_14",
+            "ID": "evr_beta3_14",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2142,11 +2294,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2172,18 +2329,18 @@
       },
       "H9": {
         "roomId": "H9",
-        "name": "evr_boss_bmb_mb_d02_l44_v02",
+        "name": "evr_beta3_mb04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l44_v02",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb04",
+            "icon": "Portrait_Mystique",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2195,15 +2352,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Mystic",
                   "Tech",
-                  "SpiderVerse"
+                  "Mutant",
+                  "Mystic"
                 ]
               }
             },
@@ -2231,18 +2388,18 @@
       },
       "I9": {
         "roomId": "I9",
-        "name": "evr_beta2_14",
+        "name": "evr_beta3_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_14",
+            "ID": "evr_beta3_14",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2254,11 +2411,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2284,18 +2446,18 @@
       },
       "I7": {
         "roomId": "I7",
-        "name": "evr_beta2_16",
+        "name": "evr_beta3_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_16",
+            "ID": "evr_beta3_16",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2307,11 +2469,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2337,18 +2504,18 @@
       },
       "I8": {
         "roomId": "I8",
-        "name": "evr_beta2_15",
+        "name": "evr_beta3_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_15",
+            "ID": "evr_beta3_15",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2360,11 +2527,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2390,18 +2563,18 @@
       },
       "J8": {
         "roomId": "J8",
-        "name": "evr_beta2_12",
+        "name": "evr_beta3_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_12",
+            "ID": "evr_beta3_12",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2413,11 +2586,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2443,18 +2621,18 @@
       },
       "K8": {
         "roomId": "K8",
-        "name": "evr_beta2_08",
+        "name": "evr_beta3_08",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_08",
+            "ID": "evr_beta3_08",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2466,11 +2644,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2496,18 +2679,18 @@
       },
       "K7": {
         "roomId": "K7",
-        "name": "evr_beta2_09",
+        "name": "evr_beta3_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_09",
+            "ID": "evr_beta3_09",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2519,11 +2702,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2549,18 +2737,18 @@
       },
       "J6": {
         "roomId": "J6",
-        "name": "evr_beta2_13",
+        "name": "evr_beta3_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_13",
+            "ID": "evr_beta3_13",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2572,11 +2760,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2602,18 +2795,18 @@
       },
       "I5": {
         "roomId": "I5",
-        "name": "evr_beta2_13",
+        "name": "evr_beta3_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_13",
+            "ID": "evr_beta3_13",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2625,11 +2818,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2655,18 +2853,18 @@
       },
       "I6": {
         "roomId": "I6",
-        "name": "evr_beta2_17",
+        "name": "evr_beta3_17",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_17",
+            "ID": "evr_beta3_17",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2678,11 +2876,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2708,18 +2911,18 @@
       },
       "H6": {
         "roomId": "H6",
-        "name": "evr_beta2_16",
+        "name": "evr_beta3_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_16",
+            "ID": "evr_beta3_16",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2731,11 +2934,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2761,18 +2969,18 @@
       },
       "G6": {
         "roomId": "G6",
-        "name": "evr_beta2_15",
+        "name": "evr_beta3_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_15",
+            "ID": "evr_beta3_15",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2784,11 +2992,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MUTANT_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mutant",
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2814,18 +3028,18 @@
       },
       "G5": {
         "roomId": "G5",
-        "name": "evr_beta2_12",
+        "name": "evr_beta3_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_12",
+            "ID": "evr_beta3_12",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2837,11 +3051,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2867,18 +3086,18 @@
       },
       "G4": {
         "roomId": "G4",
-        "name": "evr_beta2_08",
+        "name": "evr_beta3_08",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_08",
+            "ID": "evr_beta3_08",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2890,11 +3109,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2920,18 +3144,18 @@
       },
       "H4": {
         "roomId": "H4",
-        "name": "evr_beta2_09",
+        "name": "evr_beta3_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_09",
+            "ID": "evr_beta3_09",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2943,11 +3167,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2973,18 +3202,18 @@
       },
       "K6": {
         "roomId": "K6",
-        "name": "evr_boss_bmb_mb_d02_l38_v02",
+        "name": "evr_beta3_mb02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l38_v02",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb02",
+            "icon": "Portrait_Sabretooth",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2996,15 +3225,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
                   "Mystic",
-                  "Tech",
-                  "SpiderVerse"
+                  "Bio",
+                  "Skill"
                 ]
               }
             },
@@ -3032,18 +3261,18 @@
       },
       "L6": {
         "roomId": "L6",
-        "name": "evr_beta2_06",
+        "name": "evr_beta3_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_06",
+            "ID": "evr_beta3_06",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3055,11 +3284,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3085,18 +3319,18 @@
       },
       "I4": {
         "roomId": "I4",
-        "name": "evr_boss_bmb_mb_d02_l38_v01",
+        "name": "evr_beta3_mb01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_bmb_mb_d02_l38_v01",
-            "icon": "Portrait_UltSpiderMan",
+            "ID": "evr_beta3_mb01",
+            "icon": "Portrait_Pyro",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_battledrops_mid_miniboss",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3108,15 +3342,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
-              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_TECH_SPIDERVERSE",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 5,
               "filters": {
                 "anyTrait": [
-                  "Mystic",
-                  "SpiderVerse",
-                  "Tech"
+                  "Skill",
+                  "Bio",
+                  "Mystic"
                 ]
               }
             },
@@ -3144,18 +3378,18 @@
       },
       "J4": {
         "roomId": "J4",
-        "name": "evr_beta2_10",
+        "name": "evr_beta3_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_10",
+            "ID": "evr_beta3_10",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3167,11 +3401,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3197,18 +3436,18 @@
       },
       "K5": {
         "roomId": "K5",
-        "name": "evr_beta2_10",
+        "name": "evr_beta3_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_10",
+            "ID": "evr_beta3_10",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3220,11 +3459,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3250,18 +3494,18 @@
       },
       "L4": {
         "roomId": "L4",
-        "name": "evr_beta2_ 07",
+        "name": "evr_beta3_ 07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_07",
+            "ID": "evr_beta3_07",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3273,11 +3517,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3303,18 +3552,18 @@
       },
       "K4": {
         "roomId": "K4",
-        "name": "evr_beta2_11",
+        "name": "evr_beta3_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_11",
+            "ID": "evr_beta3_11",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3326,11 +3575,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3356,18 +3610,18 @@
       },
       "K3": {
         "roomId": "K3",
-        "name": "evr_beta2_07",
+        "name": "evr_beta3_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_07",
+            "ID": "evr_beta3_07",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3379,11 +3633,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3409,18 +3668,18 @@
       },
       "I3": {
         "roomId": "I3",
-        "name": "evr_beta2_06",
+        "name": "evr_beta3_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_06",
+            "ID": "evr_beta3_06",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3432,11 +3691,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3462,18 +3726,18 @@
       },
       "I2": {
         "roomId": "I2",
-        "name": "evr_beta2_02",
+        "name": "evr_beta3_02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_02",
+            "ID": "evr_beta3_02",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3485,11 +3749,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3515,18 +3784,18 @@
       },
       "J2": {
         "roomId": "J2",
-        "name": "evr_beta2_03",
+        "name": "evr_beta3_03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_03",
+            "ID": "evr_beta3_03",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3538,11 +3807,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3568,18 +3842,18 @@
       },
       "M6": {
         "roomId": "M6",
-        "name": "evr_beta2_02",
+        "name": "evr_beta3_02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_02",
+            "ID": "evr_beta3_02",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3591,11 +3865,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3621,18 +3900,18 @@
       },
       "M5": {
         "roomId": "M5",
-        "name": "evr_beta2_03",
+        "name": "evr_beta3_03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_03",
+            "ID": "evr_beta3_03",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3644,11 +3923,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3674,18 +3958,18 @@
       },
       "K2": {
         "roomId": "K2",
-        "name": "evr_beta2_04",
+        "name": "evr_beta3_04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_04",
+            "ID": "evr_beta3_04",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3697,11 +3981,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3727,18 +4016,18 @@
       },
       "K1": {
         "roomId": "K1",
-        "name": "evr_beta2_01",
+        "name": "evr_beta3_01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_01",
+            "ID": "evr_beta3_01",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3750,11 +4039,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3780,18 +4074,18 @@
       },
       "L2": {
         "roomId": "L2",
-        "name": "evr_beta2_05",
+        "name": "evr_beta3_05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_05",
+            "ID": "evr_beta3_05",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3803,11 +4097,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Bio"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3833,18 +4132,18 @@
       },
       "M3": {
         "roomId": "M3",
-        "name": "evr_beta2_05",
+        "name": "evr_beta3_05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_05",
+            "ID": "evr_beta3_05",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3856,11 +4155,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3886,18 +4190,18 @@
       },
       "M4": {
         "roomId": "M4",
-        "name": "evr_beta2_04",
+        "name": "evr_beta3_04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_04",
+            "ID": "evr_beta3_04",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3909,11 +4213,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_BIO_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Bio",
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3939,18 +4249,18 @@
       },
       "N4": {
         "roomId": "N4",
-        "name": "evr_beta2_01",
+        "name": "evr_beta3_01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta2_01",
+            "ID": "evr_beta3_01",
             "icon": "raid_Icon_GenericB.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_ultspiderman_201811_mid_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3962,11 +4272,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
+              "description": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "shortDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
+              "longDescription": "ID_REQUIRES_TRAITS_MYSTIC_SKILL",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Skill"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3992,7 +4307,7 @@
       },
       "L1": {
         "roomId": "L1",
-        "name": "evr_beta2_xx",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -4016,7 +4331,7 @@
       },
       "M2": {
         "roomId": "M2",
-        "name": "evr_beta2_xx",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -4040,7 +4355,7 @@
       },
       "N3": {
         "roomId": "N3",
-        "name": "evr_beta2_xx",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -4064,7 +4379,7 @@
       },
       "M1": {
         "roomId": "M1",
-        "name": "evr_beta2_xx",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -4088,7 +4403,7 @@
       },
       "N2": {
         "roomId": "N2",
-        "name": "evr_beta2_xx",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -4112,7 +4427,7 @@
       },
       "N1": {
         "roomId": "N1",
-        "name": "evr_beta2_start",
+        "name": "evr_beta3_start",
         "starting": true,
         "objective": false,
         "missions": {},

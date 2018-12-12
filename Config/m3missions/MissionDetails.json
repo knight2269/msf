@@ -8,8 +8,15 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -20,7 +27,10 @@
                   "NextWaveIf": "AfterAllDead",
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 5,
-                  "MinSlotReq": 0
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -35,8 +45,15 @@
       "mapName": "Env_Dojo_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -47,7 +64,10 @@
                   "NextWaveIf": "AfterAllDead",
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 5,
-                  "MinSlotReq": 0
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -62,8 +82,15 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -74,7 +101,10 @@
                   "NextWaveIf": "AfterAllDead",
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 5,
-                  "MinSlotReq": 0
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -89,8 +119,22 @@
       "mapName": "Env_Bunker_Storage_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 22344,
+          "TotalHealth": 43362,
+          "CompactWave": [
+            {
+              "HeroId": "Gamora",
+              "Power": 22344,
+              "Level": 70,
+              "GearLevel": 10
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -118,7 +162,9 @@
                       "tier": 10,
                       "speed_percent": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -133,8 +179,46 @@
       "mapName": "Helicarrier_Ember_01_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 211,
+          "TotalHealth": 576,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -216,7 +300,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -231,8 +317,46 @@
       "mapName": "Env_Helicarrier_02_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 211,
+          "TotalHealth": 576,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -314,7 +438,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -329,8 +455,70 @@
       "mapName": "Env_HellsKitchen_RoofTop_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 12474,
+          "TotalHealth": 33408,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 1386,
+              "Level": 23,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -395,7 +583,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -455,7 +645,9 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -516,7 +708,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -532,6 +726,95 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
+          "Power": 2421,
+          "TotalHealth": 15454,
+          "CompactWave": [
+            {
+              "HeroId": "MercOperator",
+              "Power": 803,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "HandOperator",
+              "Power": 810,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 808,
+              "Level": 25,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": "Civilians",
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterAllDead",
+                  "TurnSpeed": 0,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "MercOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "cur_hp_percent": 50
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "HandOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "cur_hp_percent": 50
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "AimOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "cur_hp_percent": 50
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": "Civilians",
@@ -592,7 +875,9 @@
                       "tier": 5,
                       "cur_hp_percent": 50
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -615,6 +900,40 @@
               ],
               "CantPersist": false,
               "Type": "Or"
+            }
+          ],
+          "Power": 7202,
+          "TotalHealth": 22310,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 1498,
+              "Level": 24,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 1474,
+              "Level": 24,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 1496,
+              "Level": 24,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 1493,
+              "Level": 24,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 1241,
+              "Level": 24,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -715,7 +1034,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -730,7 +1051,11 @@
       "mapName": "Env_Warehouse_merged",
       "timeOfDay": "DAY",
       "Settings": [
-        {},
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
         {
           "Objectives": [
             {
@@ -742,6 +1067,28 @@
               "PauseTimerOnGamePause": true,
               "CantPersist": false,
               "Type": "Timer"
+            }
+          ],
+          "Power": 4724,
+          "TotalHealth": 17497,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 1470,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 1472,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 1782,
+              "Level": 27,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -801,7 +1148,9 @@
                       "tier": 4,
                       "max_hp_percent": 150
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -816,7 +1165,11 @@
       "mapName": "HellsKitchen_Ember_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
         {
           "Objectives": [
             {
@@ -837,6 +1190,70 @@
               ],
               "CantPersist": false,
               "Type": "Or"
+            }
+          ],
+          "Power": 9482,
+          "TotalHealth": 40834,
+          "CompactWave": [
+            {
+              "HeroId": "HandOperator",
+              "Power": 608,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 1095,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 1095,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandOperator",
+              "Power": 608,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 1090,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 1090,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandOperator",
+              "Power": 608,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 1094,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 1097,
+              "Level": 23,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 1097,
+              "Level": 23,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -1020,7 +1437,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -1072,6 +1491,74 @@
               "Type": "And"
             }
           ],
+          "Power": 1628,
+          "TotalHealth": 11866,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 814,
+              "Level": 25,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 814,
+              "Level": 25,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "ShieldOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "speed_percent": 50,
+                      "cur_hp_percent": 50
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "ShieldOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "speed_percent": 50,
+                      "cur_hp_percent": 50
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1117,7 +1604,9 @@
                       "speed_percent": 50,
                       "cur_hp_percent": 50
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -1129,6 +1618,70 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 14876,
+          "TotalHealth": 49077,
+          "CompactWave": [
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1446,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1446,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 1457,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 1471,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 1488,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 1488,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 1471,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 1471,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1475,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1663,
+              "Level": 25,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -1289,7 +1842,9 @@
                       "loyalty": 2,
                       "tier": 4
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -1341,6 +1896,48 @@
               "Type": "Or"
             }
           ],
+          "Power": 814,
+          "TotalHealth": 5933,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 814,
+              "Level": 25,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "ShieldOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -1366,7 +1963,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -1394,6 +1993,196 @@
               ],
               "CantPersist": false,
               "Type": "Or"
+            }
+          ],
+          "Power": 94603,
+          "TotalHealth": 293007,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 1470,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1463,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1453,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 1465,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1465,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 1470,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 1463,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 1453,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 1465,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 1465,
+              "Level": 25,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 3278,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 3322,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3302,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 3278,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 3322,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 3322,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3302,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3302,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3308,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 5166,
+              "Level": 39,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 5178,
+              "Level": 39,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 5591,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 5578,
+              "Level": 40,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 5566,
+              "Level": 40,
+              "GearLevel": 7
             }
           ],
           "WaveLists": [
@@ -1579,7 +2368,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1617,7 +2408,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1655,7 +2448,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1693,7 +2488,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1731,7 +2528,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1769,7 +2568,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1807,7 +2608,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1845,7 +2648,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1883,7 +2688,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1921,7 +2728,9 @@
                       "loyalty": 2,
                       "tier": 7
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -1974,7 +2783,9 @@
                       "loyalty": 2,
                       "tier": 7
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2004,8 +2815,70 @@
       "mapName": "Env_Snow_Exterior_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 11726,
+          "TotalHealth": 42312,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 1304,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 1299,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 1301,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 1304,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 1307,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 1304,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 1299,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 1301,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 1307,
+              "Level": 26,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2069,7 +2942,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -2129,7 +3004,9 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -2185,7 +3062,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2222,6 +3101,51 @@
               "Type": "And"
             }
           ],
+          "Power": 814,
+          "TotalHealth": 5933,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 814,
+              "Level": 25,
+              "GearLevel": 5
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "ShieldOperator",
+                      "level": 25,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "speed_percent": 50,
+                      "cur_hp_percent": 50
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2250,7 +3174,9 @@
                       "speed_percent": 50,
                       "cur_hp_percent": 50
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2262,6 +3188,70 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 13541,
+          "TotalHealth": 46050,
+          "CompactWave": [
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 1304,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 1299,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 1307,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 1301,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 1555,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 1304,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 1299,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 1307,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 1301,
+              "Level": 26,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 1564,
+              "Level": 26,
+              "GearLevel": 4
             }
           ],
           "WaveLists": [
@@ -2445,7 +3435,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2460,8 +3452,46 @@
       "mapName": "Env_Bunker_Storage_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 8800,
+          "TotalHealth": 27165,
+          "CompactWave": [
+            {
+              "HeroId": "NickFury",
+              "Power": 1760,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 1760,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 1760,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 1760,
+              "Level": 27,
+              "GearLevel": 4
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 1760,
+              "Level": 27,
+              "GearLevel": 4
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2559,7 +3589,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2574,8 +3606,70 @@
       "mapName": "Env_HellsKitchen_Docks_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 18433,
+          "TotalHealth": 78431,
+          "CompactWave": [
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2057,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2057,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2636,7 +3730,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -2693,7 +3789,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -2750,7 +3848,9 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2783,9 +3883,46 @@
               "CantPersist": false,
               "Type": "Or"
             }
-          ]
+          ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
         },
         {
+          "Power": 12352,
+          "TotalHealth": 46056,
+          "CompactWave": [
+            {
+              "HeroId": "Hulk",
+              "Power": 2657,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 2342,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 2354,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 2342,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 2657,
+              "Level": 31,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -2869,7 +4006,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -2884,7 +4023,11 @@
       "mapName": "Env_Bunker_Storage_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
+        {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
         {
           "Objectives": [
             {
@@ -2907,6 +4050,70 @@
               ],
               "CantPersist": false,
               "Type": "Or"
+            }
+          ],
+          "Power": 22635,
+          "TotalHealth": 84722,
+          "CompactWave": [
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 2502,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 2063,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 2659,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 2662,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 2063,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 2502,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2043,
+              "Level": 30,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -3081,7 +4288,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -3119,9 +4328,196 @@
               "CantPersist": false,
               "Type": "Or"
             }
-          ]
+          ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
         },
         {
+          "Power": 71444,
+          "TotalHealth": 249881,
+          "CompactWave": [
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2524,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2509,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2516,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2526,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2564,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 2535,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 2534,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 2641,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 2534,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 2535,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 919,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 1134,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 2802,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 913,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 1140,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2528,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 2502,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 2724,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 2533,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 2556,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ShieldDmg_AoE",
+              "Power": 2528,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ShieldDmg_Defense",
+              "Power": 2517,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 2766,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ShieldSupport_Heal",
+              "Power": 2534,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 2522,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 2763,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2564,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 2754,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2564,
+              "Level": 31,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 2763,
+              "Level": 33,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3214,7 +4610,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -3302,7 +4700,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -3380,7 +4780,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -3459,7 +4861,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -3537,7 +4941,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -3615,7 +5021,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -3631,6 +5039,91 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
+          "Power": 3585,
+          "TotalHealth": 27340,
+          "CompactWave": [
+            {
+              "HeroId": "NickFuryOperator",
+              "Power": 1197,
+              "Level": 31,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 1198,
+              "Level": 31,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 1190,
+              "Level": 31,
+              "GearLevel": 6
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "NickFuryOperator",
+                      "level": 31,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "ShieldOperator",
+                      "level": 31,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "AimOperator",
+                      "level": 31,
+                      "loyalty": 3,
+                      "tier": 6
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -3687,7 +5180,9 @@
                       "loyalty": 3,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -3699,6 +5194,40 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillTarget"
+            }
+          ],
+          "Power": 12462,
+          "TotalHealth": 60478,
+          "CompactWave": [
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 2817,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2777,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2762,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 2049,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2057,
+              "Level": 30,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -3789,7 +5318,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -3810,6 +5341,91 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 4809,
+          "TotalHealth": 38900,
+          "CompactWave": [
+            {
+              "HeroId": "NickFuryOperator",
+              "Power": 1600,
+              "Level": 38,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "ShieldOperator",
+              "Power": 1602,
+              "Level": 38,
+              "GearLevel": 7
+            },
+            {
+              "HeroId": "BlackWidowOperator",
+              "Power": 1607,
+              "Level": 38,
+              "GearLevel": 7
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": false,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "NickFuryOperator",
+                      "level": 38,
+                      "loyalty": 3,
+                      "tier": 7
+                    },
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "ShieldOperator",
+                      "level": 38,
+                      "loyalty": 3,
+                      "tier": 7
+                    },
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "BlackWidowOperator",
+                      "level": 38,
+                      "loyalty": 3,
+                      "tier": 7
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
             }
           ],
           "WaveLists": [
@@ -3868,7 +5484,9 @@
                       "loyalty": 3,
                       "tier": 7
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -3891,6 +5509,64 @@
               ],
               "CantPersist": false,
               "Type": "Or"
+            }
+          ],
+          "Power": 24631,
+          "TotalHealth": 66269,
+          "CompactWave": [
+            {
+              "HeroId": "Crossbones",
+              "Power": 2730,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 2743,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 2730,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2743,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 2712,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 2757,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 2743,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2743,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 2730,
+              "Level": 33,
+              "GearLevel": 5
             }
           ],
           "WaveLists": [
@@ -3948,7 +5624,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4000,7 +5678,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4052,7 +5732,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4089,9 +5771,46 @@
               "CantPersist": false,
               "Type": "KillTarget"
             }
-          ]
+          ],
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
         },
         {
+          "Power": 16584,
+          "TotalHealth": 118624,
+          "CompactWave": [
+            {
+              "HeroId": "Drax",
+              "Power": 3390,
+              "Level": 34,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 3440,
+              "Level": 34,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2924,
+              "Level": 32,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 3440,
+              "Level": 34,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Drax",
+              "Power": 3390,
+              "Level": 34,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4179,7 +5898,9 @@
                       "loyalty": 2,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4194,8 +5915,70 @@
       "mapName": "Env_Warehouse_merged",
       "timeOfDay": "DAY",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 23733,
+          "TotalHealth": 87237,
+          "CompactWave": [
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2666,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2624,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2627,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2624,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 2609,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 2624,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2666,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 2627,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2666,
+              "Level": 33,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4260,7 +6043,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4316,7 +6101,9 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4372,7 +6159,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4387,8 +6176,46 @@
       "mapName": "Env_Bunker_Storage_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 18273,
+          "TotalHealth": 62541,
+          "CompactWave": [
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2666,
+              "Level": 33,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Drax",
+              "Power": 3864,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Gamora",
+              "Power": 3897,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 3920,
+              "Level": 35,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 3926,
+              "Level": 35,
+              "GearLevel": 6
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4481,7 +6308,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4496,8 +6325,34 @@
       "mapName": "Env_Dojo_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1253,
+          "TotalHealth": 6596,
+          "CompactWave": [
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 417,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 418,
+              "Level": 15,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 418,
+              "Level": 15,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4509,7 +6364,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "city_3_1_start"
+                  "Entries": [],
+                  "StoryTellingID": "city_3_1_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4534,7 +6392,9 @@
                       "speed_percent": 150,
                       "max_hp_percent": 120
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4558,7 +6418,9 @@
                       "tier": 3,
                       "max_hp_percent": 120
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4582,7 +6444,9 @@
                       "tier": 3,
                       "max_hp_percent": 120
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4597,8 +6461,28 @@
       "mapName": "Env_Dojo_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1071,
+          "TotalHealth": 4033,
+          "CompactWave": [
+            {
+              "HeroId": "Bullseye",
+              "Power": 535,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 536,
+              "Level": 16,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4625,7 +6509,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4648,7 +6534,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4663,8 +6551,34 @@
       "mapName": "Env_Dojo_merged",
       "timeOfDay": "SUNSET",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1663,
+          "TotalHealth": 7958,
+          "CompactWave": [
+            {
+              "HeroId": "Drax",
+              "Power": 549,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 557,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 557,
+              "Level": 17,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4691,7 +6605,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4714,7 +6630,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4739,7 +6657,9 @@
                       "max_hp_percent": 150,
                       "cur_hp_percent": 150
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4754,8 +6674,28 @@
       "mapName": "Env_HellsKitchen_RoofTop_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1088,
+          "TotalHealth": 6049,
+          "CompactWave": [
+            {
+              "HeroId": "BlackPanther",
+              "Power": 545,
+              "Level": 16,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 543,
+              "Level": 16,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4800,7 +6740,9 @@
                       "speed_percent": 200,
                       "max_hp_percent": 150
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4816,6 +6758,9 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": [],
           "WaveLists": [
             {
               "Description": null,
@@ -4825,6 +6770,28 @@
           ]
         },
         {
+          "Power": 1660,
+          "TotalHealth": 6225,
+          "CompactWave": [
+            {
+              "HeroId": "Punisher",
+              "Power": 555,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "LukeCage",
+              "Power": 547,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 558,
+              "Level": 17,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4879,7 +6846,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -4894,8 +6863,46 @@
       "mapName": "HellsKitchen_Ember_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 2740,
+          "TotalHealth": 12755,
+          "CompactWave": [
+            {
+              "HeroId": "Groot",
+              "Power": 548,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 548,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 548,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 548,
+              "Level": 17,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 548,
+              "Level": 17,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -4949,7 +6956,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -4987,7 +6996,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5002,8 +7013,34 @@
       "mapName": "Env_HellsKitchen_RoofTop_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1982,
+          "TotalHealth": 5883,
+          "CompactWave": [
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 635,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Bullseye",
+              "Power": 676,
+              "Level": 18,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 671,
+              "Level": 18,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5058,7 +7095,9 @@
                       "loyalty": 1,
                       "tier": 3
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5073,8 +7112,70 @@
       "mapName": "Env_HellsKitchen_Docks_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1861,
+          "TotalHealth": 10207,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 208,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 207,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 206,
+              "Level": 13,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5157,7 +7258,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -5222,7 +7325,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5237,8 +7342,28 @@
       "mapName": "HellsKitchen_Ember_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 1941,
+          "TotalHealth": 5312,
+          "CompactWave": [
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 970,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 971,
+              "Level": 20,
+              "GearLevel": 3
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5283,7 +7408,9 @@
                       "speed_percent": 150,
                       "cur_hp_percent": 200
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5299,6 +7426,128 @@
       "timeOfDay": "SUNSET",
       "Settings": [
         {
+          "Power": 743,
+          "TotalHealth": 3971,
+          "CompactWave": [
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 187,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 187,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 184,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterAllDead",
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "CaptainAmerica",
+                      "level": 11,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "speed_percent": 109,
+                      "max_hp_percent": 125,
+                      "cur_hp_percent": 100,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 1
+                    },
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Daredevil",
+                      "level": 11,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "max_hp_percent": 80,
+                      "cur_hp_percent": 100,
+                      "desired_x_pos": 3,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Punisher",
+                      "level": 11,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "speed_percent": 113,
+                      "max_hp_percent": 30,
+                      "cur_hp_percent": 100,
+                      "desired_x_pos": 1,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Hulk",
+                      "level": 11,
+                      "loyalty": 1,
+                      "tier": 2,
+                      "speed_percent": 212,
+                      "max_hp_percent": 125,
+                      "cur_hp_percent": 100,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5386,13 +7635,121 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 3204,
+          "TotalHealth": 10066,
+          "CompactWave": [
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 184,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 190,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 184,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 186,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Bonus",
+              "Power": 185,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HandDmg_Unbuff",
+              "Power": 183,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 195,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 236,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 183,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 183,
+              "Level": 11,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 183,
+              "Level": 11,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5499,7 +7856,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -5636,7 +7995,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -5743,7 +8104,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5759,17 +8122,30 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
-          "WaveLists": [
+          "Power": 52,
+          "TotalHealth": 147,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 52,
+              "Level": 2,
+              "GearLevel": 1
+            }
+          ],
+          "PresetCharacters": [
             {
               "Description": null,
-              "Expanded": true,
+              "Expanded": false,
               "Waves": [
                 {
                   "Expanded": true,
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_01_01"
+                  "Entries": [],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -5777,7 +8153,10 @@
                   "TurnSpeed": 100,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_ironman"
+                  "Entries": [],
+                  "StoryTellingID": "nue_ironman",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -5801,13 +8180,92 @@
                       "desired_x_pos": 3,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
+          "WaveLists": [
+            {
+              "Description": null,
+              "Expanded": true,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 100,
+                  "TurnSpeed": 100,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "nue_ironman",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 2,
+                      "loyalty": 1,
+                      "tier": 1,
+                      "desired_x_pos": 3,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 126,
+          "TotalHealth": 146,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_Single",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5878,7 +8336,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -5894,6 +8354,128 @@
       "timeOfDay": "DAY",
       "Settings": [
         {
+          "Power": 19078,
+          "TotalHealth": 49529,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 3860,
+              "Level": 30,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 3838,
+              "Level": 30,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 3819,
+              "Level": 30,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 3760,
+              "Level": 30,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 3801,
+              "Level": 30,
+              "GearLevel": 6
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "SpiderMan",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Hulk",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Daredevil",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "NightNurse",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Punisher",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -5975,13 +8557,49 @@
                       "loyalty": 3,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 11767,
+          "TotalHealth": 39218,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 2365,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 2357,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 2318,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 2345,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6064,7 +8682,9 @@
                       "loyalty": 2,
                       "tier": 5
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6080,6 +8700,208 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
+          "Power": 133527,
+          "TotalHealth": 335234,
+          "CompactWave": [
+            {
+              "HeroId": "LukeCage",
+              "Power": 14585,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 14922,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 14783,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 14983,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 14797,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 15049,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 14845,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 14850,
+              "Level": 50,
+              "GearLevel": 9
+            },
+            {
+              "HeroId": "Kingpin",
+              "Power": 14713,
+              "Level": 50,
+              "GearLevel": 9
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "LukeCage",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "CaptainAmerica",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Daredevil",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Hulk",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Ultron",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "SpiderMan",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "BlackWidow",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Kingpin",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6217,13 +9039,73 @@
                       "loyalty": 5,
                       "tier": 9
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 81232,
+          "TotalHealth": 230182,
+          "CompactWave": [
+            {
+              "HeroId": "Nobu",
+              "Power": 9099,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 9180,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "NightNurse",
+              "Power": 9044,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 9146,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "NickFury",
+              "Power": 9172,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 9161,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 8301,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 9101,
+              "Level": 50,
+              "GearLevel": 8
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 9028,
+              "Level": 50,
+              "GearLevel": 8
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6362,7 +9244,9 @@
                       "loyalty": 2,
                       "tier": 8
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6377,8 +9261,64 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 643,
+          "TotalHealth": 2505,
+          "CompactWave": [
+            {
+              "HeroId": "Hulk",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 81,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "RedSkull",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 81,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 81,
+              "Level": 5,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6502,7 +9442,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6518,6 +9460,48 @@
       "timeOfDay": "NIGHT",
       "Settings": [
         {
+          "Power": 61,
+          "TotalHealth": 169,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 61,
+              "Level": 3,
+              "GearLevel": 1
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 2,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "SpiderMan",
+                      "level": 3,
+                      "loyalty": 1,
+                      "tier": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6543,13 +9527,37 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 126,
+          "TotalHealth": 41,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -6560,7 +9568,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_x1_basic"
+                  "Entries": [],
+                  "StoryTellingID": "nue_x1_basic",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6585,7 +9596,9 @@
                       "speed_percent": 70,
                       "max_hp_percent": 20
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6593,7 +9606,10 @@
                   "TurnSpeed": 0,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_x1_special"
+                  "Entries": [],
+                  "StoryTellingID": "nue_x1_special",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6634,7 +9650,9 @@
                       "speed_percent": 80,
                       "max_hp_percent": 10
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6657,18 +9675,21 @@
               "Type": "KillAll"
             }
           ],
-          "WaveLists": [
+          "Power": 42,
+          "TotalHealth": 89,
+          "CompactWave": [
+            {
+              "HeroId": "NUESpiderMan",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
+          "PresetCharacters": [
             {
               "Description": null,
-              "Expanded": true,
+              "Expanded": false,
               "Waves": [
-                {
-                  "Expanded": true,
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 1,
-                  "MinSlotReq": 0,
-                  "StoryTellingID": "nue_01_01"
-                },
                 {
                   "Expanded": true,
                   "TurnSpeed": 1000,
@@ -6681,7 +9702,7 @@
                         1,
                         -1,
                         -1,
-                        1,
+                        0,
                         0
                       ],
                       "hero_id": "NUESpiderMan",
@@ -6691,7 +9712,45 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
+          "WaveLists": [
+            {
+              "Description": null,
+              "Expanded": true,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "NUESpiderMan",
+                      "level": 1,
+                      "loyalty": 1,
+                      "tier": 1,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 1
+                    }
+                  ],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6703,6 +9762,34 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 168,
+          "TotalHealth": 4,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
             }
           ],
           "WaveLists": [
@@ -6795,7 +9882,9 @@
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6818,7 +9907,23 @@
               "Type": "KillAll"
             }
           ],
-          "WaveLists": [
+          "Power": 85,
+          "TotalHealth": 191,
+          "CompactWave": [
+            {
+              "HeroId": "NUESpiderMan",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
+          "PresetCharacters": [
             {
               "Description": null,
               "Expanded": false,
@@ -6829,7 +9934,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 1,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_01_01"
+                  "Entries": [],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6852,7 +9960,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6860,7 +9970,10 @@
                   "TurnSpeed": 80,
                   "MaxSlotFill": 1,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_ironman"
+                  "Entries": [],
+                  "StoryTellingID": "nue_ironman",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6883,7 +9996,89 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
+          "WaveLists": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "nue_01_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        1,
+                        0
+                      ],
+                      "hero_id": "NUESpiderMan",
+                      "level": 1,
+                      "loyalty": 1,
+                      "tier": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 40,
+                  "TurnSpeed": 80,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "nue_ironman",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        1,
+                        1,
+                        -1,
+                        -1,
+                        1,
+                        0
+                      ],
+                      "hero_id": "IronMan",
+                      "level": 1,
+                      "loyalty": 1,
+                      "tier": 1
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -6895,6 +10090,52 @@
               "ObjectiveEndStory": "",
               "CantPersist": false,
               "Type": "KillAll"
+            }
+          ],
+          "Power": 294,
+          "TotalHealth": 136,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
             }
           ],
           "WaveLists": [
@@ -6947,7 +10188,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -6955,7 +10198,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 1,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_crossbones"
+                  "Entries": [],
+                  "StoryTellingID": "nue_crossbones",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7058,7 +10304,9 @@
                       "desired_x_pos": 3,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7074,6 +10322,68 @@
       "timeOfDay": "DAY",
       "Settings": [
         {
+          "Power": 7672,
+          "TotalHealth": 18563,
+          "CompactWave": [
+            {
+              "HeroId": "NickFury",
+              "Power": 3802,
+              "Level": 30,
+              "GearLevel": 6
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 3870,
+              "Level": 30,
+              "GearLevel": 6
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 0,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "NickFury",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    },
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "CaptainAmerica",
+                      "level": 30,
+                      "loyalty": 3,
+                      "tier": 6
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7113,13 +10423,61 @@
                       "loyalty": 3,
                       "tier": 6
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 1828,
+          "TotalHealth": 8553,
+          "CompactWave": [
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 777,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 177,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 174,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 175,
+              "Level": 10,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7173,7 +10531,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7237,7 +10597,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7245,7 +10607,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_2_capintro"
+                  "Entries": [],
+                  "StoryTellingID": "nue_2_capintro",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7253,7 +10618,10 @@
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 0,
                   "MinSlotReq": 0,
-                  "StoryTellingID": "nue_2_end"
+                  "Entries": [],
+                  "StoryTellingID": "nue_2_end",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7297,6 +10665,48 @@
               "Type": "EnvObject"
             }
           ],
+          "Power": 2781,
+          "TotalHealth": 25619,
+          "CompactWave": [
+            {
+              "HeroId": "MercOperator",
+              "Power": 2781,
+              "Level": 50,
+              "GearLevel": 9
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MercOperator",
+                      "level": 50,
+                      "loyalty": 5,
+                      "tier": 9
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7322,13 +10732,25 @@
                       "loyalty": 5,
                       "tier": 9
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
           ]
         },
         {
+          "Power": 5069,
+          "TotalHealth": 13809,
+          "CompactWave": [
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 5069,
+              "Level": 40,
+              "GearLevel": 7
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7354,7 +10776,9 @@
                       "loyalty": 2,
                       "tier": 7
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7384,8 +10808,40 @@
       "mapName": "Env_Snow_Exterior_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 168,
+          "TotalHealth": 420,
+          "CompactWave": [
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "MercDmg_General",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": "test",
@@ -7454,7 +10910,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7469,8 +10927,46 @@
       "mapName": "Env_Snow_Exterior_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 399,
+          "TotalHealth": 1511,
+          "CompactWave": [
+            {
+              "HeroId": "HydraDmg_AoE",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 79,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "HydraOperator",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "HydraTank_Taunt",
+              "Power": 80,
+              "Level": 5,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7552,7 +11048,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7567,8 +11065,76 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 20590,
+          "TotalHealth": 61730,
+          "CompactWave": [
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 2059,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7752,7 +11318,9 @@
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7767,8 +11335,70 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 21438,
+          "TotalHealth": 55557,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -7833,7 +11463,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7893,7 +11525,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -7954,7 +11588,9 @@
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -7969,8 +11605,46 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 11910,
+          "TotalHealth": 30865,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 2382,
+              "Level": 30,
+              "GearLevel": 5
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8069,7 +11743,9 @@
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8084,8 +11760,64 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 340,
+          "TotalHealth": 932,
+          "CompactWave": [
+            {
+              "HeroId": "Hulk",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Hulk",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "CaptainAmerica",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8209,7 +11941,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8224,8 +11958,46 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 772,
+          "TotalHealth": 3482,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 155,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 154,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 155,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 153,
+              "Level": 8,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 155,
+              "Level": 8,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8308,7 +12080,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8323,8 +12097,46 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 213,
+          "TotalHealth": 480,
+          "CompactWave": [
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8407,7 +12219,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8422,8 +12236,46 @@
       "mapName": "HellsKitchen_Ember_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 213,
+          "TotalHealth": 480,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8506,7 +12358,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8521,8 +12375,46 @@
       "mapName": "Env_HellsKitchen_RoofTop_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 213,
+          "TotalHealth": 480,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8605,7 +12497,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8620,8 +12514,76 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 427,
+          "TotalHealth": 955,
+          "CompactWave": [
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8704,7 +12666,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": false,
@@ -8783,7 +12747,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8798,8 +12764,76 @@
       "mapName": "Env_HellsKitchen_Docks_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 426,
+          "TotalHealth": 960,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -8882,7 +12916,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -8961,7 +12997,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -8976,8 +13014,106 @@
       "mapName": "Env_AIM_ChemLab_merged",
       "timeOfDay": "DAY",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 639,
+          "TotalHealth": 1440,
+          "CompactWave": [
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 42,
+              "Level": 1,
+              "GearLevel": 1
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 43,
+              "Level": 1,
+              "GearLevel": 1
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9060,7 +13196,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -9139,7 +13277,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": true,
@@ -9218,7 +13358,9 @@
                       "loyalty": 1,
                       "tier": 1
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -9233,8 +13375,70 @@
       "mapName": "Env_HellsKitchen_RoofTop_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 4132,
+          "TotalHealth": 13560,
+          "CompactWave": [
+            {
+              "HeroId": "Bullseye",
+              "Power": 977,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 991,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 982,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 292,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9303,7 +13507,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": false,
@@ -9381,7 +13587,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -9396,8 +13604,70 @@
       "mapName": "Env_HellsKitchen_Alleyway_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 4132,
+          "TotalHealth": 13560,
+          "CompactWave": [
+            {
+              "HeroId": "Bullseye",
+              "Power": 977,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 991,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 982,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 292,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9466,7 +13736,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": false,
@@ -9544,7 +13816,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }
@@ -9559,8 +13833,70 @@
       "mapName": "HellsKitchen_Ember_merged",
       "timeOfDay": "NIGHT",
       "Settings": [
-        {},
         {
+          "Power": 0,
+          "TotalHealth": 0,
+          "CompactWave": []
+        },
+        {
+          "Power": 4132,
+          "TotalHealth": 13560,
+          "CompactWave": [
+            {
+              "HeroId": "Bullseye",
+              "Power": 977,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 991,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 982,
+              "Level": 20,
+              "GearLevel": 3
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 292,
+              "Level": 13,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            },
+            {
+              "HeroId": "Ultron",
+              "Power": 178,
+              "Level": 10,
+              "GearLevel": 2
+            }
+          ],
           "WaveLists": [
             {
               "Description": null,
@@ -9629,7 +13965,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 },
                 {
                   "Expanded": false,
@@ -9707,7 +14045,9 @@
                       "loyalty": 1,
                       "tier": 2
                     }
-                  ]
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
                 }
               ]
             }

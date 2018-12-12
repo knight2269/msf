@@ -1508,16 +1508,6 @@
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_NUE_RED_STARS_09_0"
-      },
-      {
-        "scene": "nue_red_stars_09",
-        "leftModel": "LukeCage",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
-        "leftScalarOverride": "(2,2,2)",
-        "storytellingStyle": "NUESTORY",
-        "activeSide": "LEFT",
-        "text": "ID_DIALOG_NUE_RED_STARS_09_1"
       }
     ],
     "event_underworld_1_intro": [
@@ -33257,12 +33247,6 @@
       {
         "scene": "ecm_usp_04_intro",
         "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.08,-0.2,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
-        "leftScalarOverride": "(1.5, 1.5, 1.25)",
-        "leftAnimation": "Anim_SpiderMan_ShellIdle",
-        "leftLoopMode": "LOOP",
         "rightModel": "UltSpiderMan",
         "rightPositionOverride": "(-0.04,-0.62,0.0)",
         "rightRotationOverride": "(0.0,-150.0,0.0)",
@@ -33287,7 +33271,7 @@
         "rightScalarOverride": "(1.5, 1.5, 1.25)",
         "rightAnimation": "Anim_MilesMorales_Shell_Idle",
         "rightLoopMode": "LOOP",
-        "activeSide": "LEFT",
+        "activeSide": "RIGHT",
         "text": "ID_DIALOG_ECM_USP_04_INTRO_1"
       },
       {
@@ -33303,9 +33287,9 @@
         "rightPositionOverride": "(-0.04,-0.62,0.0)",
         "rightRotationOverride": "(0.0,-150.0,0.0)",
         "rightScalarOverride": "(1.5, 1.5, 1.25)",
-        "rightAnimation": "Anim_MaleMed_Idle_Upright_ArmsDown",
+        "rightAnimation": "Anim_MilesMorales_Shell_Idle",
         "rightLoopMode": "LOOP",
-        "activeSide": "RIGHT",
+        "activeSide": "LEFT",
         "text": "ID_DIALOG_ECM_USP_04_INTRO_2"
       },
       {
@@ -33321,7 +33305,7 @@
         "rightPositionOverride": "(-0.04,-0.62,0.0)",
         "rightRotationOverride": "(0.0,-150.0,0.0)",
         "rightScalarOverride": "(1.5, 1.5, 1.25)",
-        "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightAnimation": "Anim_MaleMed_Idle_Upright_ArmsDown",
         "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_ECM_USP_04_INTRO_3"
@@ -33341,7 +33325,7 @@
         "rightScalarOverride": "(1.5, 1.5, 1.25)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
         "rightLoopMode": "LOOP",
-        "activeSide": "LEFT",
+        "activeSide": "RIGHT",
         "text": "ID_DIALOG_ECM_USP_04_INTRO_4"
       },
       {
@@ -33361,6 +33345,24 @@
         "rightLoopMode": "LOOP",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_ECM_USP_04_INTRO_5"
+      },
+      {
+        "scene": "ecm_usp_04_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.08,-0.2,0.0)",
+        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "leftAnimation": "Anim_SpiderMan_ShellIdle",
+        "leftLoopMode": "LOOP",
+        "rightModel": "UltSpiderMan",
+        "rightPositionOverride": "(-0.04,-0.62,0.0)",
+        "rightRotationOverride": "(0.0,-150.0,0.0)",
+        "rightScalarOverride": "(1.5, 1.5, 1.25)",
+        "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_ECM_USP_04_INTRO_6"
       }
     ],
     "ecm_usp_04_start": [

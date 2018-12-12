@@ -4,1566 +4,447 @@
     "MedBay": {
       "id": "MedBay",
       "name": "ID_ALLIANCE_ROOM_MEDBAY",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_MEDBAY_DESC",
       "image": "AVA_Room_Medical",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_MedBay_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "ADJACENT",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
+              "level": 1,
+              "type": "HEALTH",
+              "value": "40",
+              "isPercentage": true,
+              "description": "+40% HP to ADJACENT ROOM DEFENSIVE squads"
             },
             {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 2,
+              "type": "HEALTH",
+              "value": "0",
+              "description": ""
             }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          ]
         }
       ],
-      "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_DESC",
-          "unlockLevel": 0
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_DESC",
-          "unlockLevel": 1
+        {
+          "tod": "sunset",
+          "value": 1
         }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 50
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 60
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_STAT_POST_COMBAT",
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_1",
-            "modifiers": [
-              {
-                "data": "HEALTH",
-                "quantity": 5,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 70
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_STAT_POST_COMBAT",
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "HEALTH",
-                "quantity": 5,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 80
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_STAT_POST_COMBAT",
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_3",
-            "modifiers": [
-              {
-                "data": "HEALTH",
-                "quantity": 6,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 90
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_STAT_POST_COMBAT",
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_4",
-            "modifiers": [
-              {
-                "data": "HEALTH",
-                "quantity": 6,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_ECO1_UPGRADE_6",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-raid-cur",
-                "quantity": 100
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_STAT_POST_COMBAT",
-            "desc": "ID_ALLIANCE_ROOM_MEDBAY_ABILITIES_WAR1_UPGRADE_5",
-            "modifiers": [
-              {
-                "data": "HEALTH",
-                "quantity": 7,
-                "percentage": true
-              }
-            ]
-          }
-        ]
       ]
     },
     "Armory": {
       "id": "Armory",
       "name": "ID_ALLIANCE_ROOM_ARMORY",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_ARMORY_DESC",
       "image": "AVA_Room_Armory",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Armory_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "25",
+              "isPercentage": true,
+              "description": "+25% DAMAGE to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 2,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 1,
+              "type": "FOCUS",
+              "value": "25",
+              "isPercentage": true,
+              "description": "+25% FOCUS to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
         {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          "tod": "sunset",
+          "value": 1
         }
       ]
     },
     "Weap": {
       "id": "Weap",
       "name": "ID_ALLIANCE_ROOM_WEAP",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_WEAP_DESC",
       "image": "AVA_Room_Medical",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Tactical_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "RESISTANCE",
+              "value": "25",
+              "isPercentage": true,
+              "description": "+25% RESISTANCE to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 2,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 1,
+              "type": "ARMOR",
+              "value": "25",
+              "isPercentage": true,
+              "description": "+25% ARMOR to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
         {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          "tod": "sunset",
+          "value": 1
         }
       ]
     },
     "Bridge": {
       "id": "Bridge",
       "name": "ID_ALLIANCE_ROOM_BRIDGE",
-      "score": 10,
+      "score": 200,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_BRIDGE_DESC",
       "image": "AVA_Room_Bridge",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Surveillance_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "5",
+              "isPercentage": true,
+              "description": "+5% ALL BASE STATS to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 2,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 1,
+              "type": "ARMOR",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 3,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
+              "level": 1,
+              "type": "HEALTH",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 4,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
+              "level": 1,
+              "type": "FOCUS",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 5,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
+              "level": 1,
+              "type": "RESISTANCE",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 30
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
         {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          "tod": "sunset",
+          "value": 1
         }
       ]
     },
     "Hangar": {
       "id": "Hangar",
       "name": "ID_ALLIANCE_ROOM_HANGAR",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_HANGAR_DESC",
       "image": "AVA_Room_Hangar",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Hangar_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "HEALTH",
+              "value": "25",
+              "isPercentage": true,
+              "description": "+25% HEALTH to ATTACKERS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
         {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          "tod": "sunset",
+          "value": 1
         }
       ]
     },
     "Reactor": {
       "id": "Reactor",
       "name": "ID_ALLIANCE_ROOM_REACTOR",
-      "score": 5,
+      "score": 100,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_REACTOR_DESC",
       "image": "AVA_Room_Generator",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Generator_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "5",
+              "isPercentage": true,
+              "description": "+5% ALL BASE STATS to DEFENDING SQUADS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 2,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 1,
+              "type": "ARMOR",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 3,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
+              "level": 1,
+              "type": "HEALTH",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 4,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
+              "level": 1,
+              "type": "FOCUS",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 5,
-          "userCost": [
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
+              "level": 1,
+              "type": "RESISTANCE",
+              "isPercentage": true,
+              "value": "5"
             }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          ]
         }
       ],
-      "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_DESC",
-          "unlockLevel": 1
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
-        "war1": {
-          "type": "WAR_DISABLE_ABILITIES",
-          "name": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_DESC",
-          "unlockLevel": 1
+        {
+          "tod": "sunset",
+          "value": 1
         }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "asb",
-                "data": "helicarrier_armory_1",
-                "quantity": 1
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "HARVEST_DISABLE_ABILITIES",
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_1",
-            "rate": 30
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "asb",
-                "data": "helicarrier_armory_2",
-                "quantity": 1
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "HARVEST_DISABLE_ABILITIES",
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_2",
-            "rate": 30
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "asb",
-                "data": "helicarrier_armory_3",
-                "quantity": 1
-              }
-            ]
-          },
-          {
-            "abilityId": "war1",
-            "type": "HARVEST_DISABLE_ABILITIES",
-            "desc": "ID_ALLIANCE_ROOM_REACTOR_ABILITIES_WAR1_UPGRADE_3",
-            "rate": 30
-          }
-        ]
       ]
     },
     "Barracks": {
       "id": "Barracks",
       "name": "ID_ALLIANCE_ROOM_BARRACKS",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_BARRACKS_DESC",
       "image": "AVA_Room_Barracks",
-      "contributions": [
+      "roomPrefabName": "AVA_Carrier_Barracks_State0",
+      "roomEffects": [
         {
-          "level": 1,
-          "userCost": [
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "50",
+              "isPercentage": true,
+              "description": "+50% ALL BASE STATS to this ROOM'S DEFENSIVE SQUADS"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 2,
-          "userCost": [
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
+              "level": 1,
+              "type": "ARMOR",
+              "isPercentage": true,
+              "value": "50"
             }
-          ],
-          "xpRewardAmount": 10
+          ]
         },
         {
-          "level": 3,
-          "userCost": [
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
+              "level": 1,
+              "type": "HEALTH",
+              "isPercentage": true,
+              "value": "50"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 4,
-          "userCost": [
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
+              "level": 1,
+              "type": "FOCUS",
+              "isPercentage": true,
+              "value": "50"
             }
-          ],
-          "xpRewardAmount": 20
+          ]
         },
         {
-          "level": 5,
-          "userCost": [
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
             {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
+              "level": 1,
+              "type": "RESISTANCE",
+              "isPercentage": true,
+              "value": "50"
             }
-          ],
-          "xpRewardAmount": 30
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
         },
         {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
+          "tod": "sunset",
+          "value": 1
         }
       ]
     },
     "Cargo": {
       "id": "Cargo",
       "name": "ID_ALLIANCE_ROOM_CARGO",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_CARGO_DESC",
       "image": "AVA_Room_Storage",
-      "contributions": [
-        {
-          "level": 1,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
-        }
-      ],
+      "roomPrefabName": "AVA_Carrier_Cargo_State0",
       "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_DESC",
-          "unlockLevel": 1
-        },
         "war1": {
           "type": "WAR",
           "name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_NAME",
@@ -1573,34 +454,6 @@
       },
       "ability_level_upgrades": [
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "gs",
-                "data": "crate_premium",
-                "quantity": 10
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "gs",
-                "data": "crate_premium",
-                "quantity": 15
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_ABILITY_ENERGY",
@@ -1618,19 +471,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "gs",
-                "data": "crate_premium",
-                "quantity": 20
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_ABILITY_ENERGY",
             "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_2",
@@ -1646,19 +486,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "gs",
-                "data": "crate_premium",
-                "quantity": 25
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_ABILITY_ENERGY",
@@ -1676,19 +503,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "gs",
-                "data": "crate_premium",
-                "quantity": 30
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_ABILITY_ENERGY",
             "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_4",
@@ -1703,178 +517,57 @@
             ]
           }
         ]
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "40",
+              "isPercentage": true,
+              "description": "+40% ARMOR to ADJACENT ROOM DEFENSIVE SQUADS"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "FOCUS",
+              "value": "40",
+              "isPercentage": true,
+              "description": "+40% FOCUS to ADJACENT ROOM DEFENSIVE SQUADS"
+            }
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
       ]
     },
     "Deck1": {
       "id": "Deck1",
       "name": "ID_ALLIANCE_ROOM_DECK1",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_DECK1_DESC",
       "image": "AVA_Room_Deck002",
-      "contributions": [
-        {
-          "level": 1,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
-        }
-      ],
+      "roomPrefabName": "Prop_Carrier_Deck_00",
       "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_DESC",
-          "unlockLevel": 0
-        },
         "war1": {
           "type": "WAR",
           "name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_NAME",
@@ -1884,19 +577,6 @@
       },
       "ability_level_upgrades": [
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 15
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -1910,19 +590,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 20
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -1938,19 +605,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 25
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_3",
@@ -1964,19 +618,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 30
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_4",
@@ -1989,19 +630,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 35
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2017,19 +645,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_ECO1_UPGRADE_6",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 40
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_6",
@@ -2042,178 +657,27 @@
             ]
           }
         ]
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
       ]
     },
     "Deck2": {
       "id": "Deck2",
       "name": "ID_ALLIANCE_ROOM_DECK2",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_DECK2_DESC",
       "image": "AVA_Room_Deck003",
-      "contributions": [
-        {
-          "level": 1,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
-        }
-      ],
+      "roomPrefabName": "Prop_Carrier_Deck_01",
       "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_DESC",
-          "unlockLevel": 0
-        },
         "war1": {
           "type": "WAR",
           "name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_NAME",
@@ -2223,19 +687,6 @@
       },
       "ability_level_upgrades": [
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 15
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2249,19 +700,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 20
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2277,19 +715,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 25
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_3",
@@ -2303,19 +728,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 30
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_4",
@@ -2328,19 +740,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 35
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2356,19 +755,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_ECO1_UPGRADE_6",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 40
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_6",
@@ -2381,178 +767,27 @@
             ]
           }
         ]
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
       ]
     },
     "Deck3": {
       "id": "Deck3",
       "name": "ID_ALLIANCE_ROOM_DECK3",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_DECK3_DESC",
       "image": "AVA_Room_Deck003",
-      "contributions": [
-        {
-          "level": 1,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
-        }
-      ],
+      "roomPrefabName": "Prop_Carrier_Deck_02",
       "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_DESC",
-          "unlockLevel": 0
-        },
         "war1": {
           "type": "WAR",
           "name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_NAME",
@@ -2562,19 +797,6 @@
       },
       "ability_level_upgrades": [
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 15
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2589,19 +811,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 20
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
@@ -2616,19 +825,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 25
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_3",
@@ -2642,19 +838,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 30
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_4",
@@ -2667,19 +850,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 35
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
@@ -2695,19 +865,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_ECO1_UPGRADE_6",
-            "items": [
-              {
-                "type": "res",
-                "data": "energy-campaign-cur",
-                "quantity": 40
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_TURRET_STAT",
             "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_6",
@@ -2720,178 +877,27 @@
             ]
           }
         ]
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
       ]
     },
     "SciLab": {
       "id": "SciLab",
       "name": "ID_ALLIANCE_ROOM_SCILAB",
-      "score": 5,
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
       "description": "ID_ALLIANCE_ROOM_SCILAB_DESC",
       "image": "AVA_Room_Hacker",
-      "contributions": [
-        {
-          "level": 1,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 1
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 2,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 2
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 2
-            }
-          ],
-          "xpRewardAmount": 10
-        },
-        {
-          "level": 3,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 3
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 3
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 4,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 4
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 4
-            }
-          ],
-          "xpRewardAmount": 20
-        },
-        {
-          "level": 5,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 5
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 5
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 6,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 6
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 6
-            }
-          ],
-          "xpRewardAmount": 30
-        },
-        {
-          "level": 7,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 7
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 7
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 8,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 8
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 8
-            }
-          ],
-          "xpRewardAmount": 40
-        },
-        {
-          "level": 9,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 9
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 9
-            }
-          ],
-          "xpRewardAmount": 50
-        },
-        {
-          "level": 10,
-          "userCost": [
-            {
-              "t": "inv",
-              "n": "helimat_Common",
-              "q": 10
-            },
-            {
-              "t": "inv",
-              "n": "helimat_VeryRare",
-              "q": 10
-            }
-          ],
-          "xpRewardAmount": 50
-        }
-      ],
+      "roomPrefabName": "AVA_Carrier_Robotics_State0",
       "abilities": {
-        "eco1": {
-          "type": "ECONOMY",
-          "name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_DESC",
-          "unlockLevel": 0
-        },
         "war1": {
           "type": "WAR",
           "name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_NAME",
@@ -2901,34 +907,6 @@
       },
       "ability_level_upgrades": [
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_1",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 50
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_2",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 60
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_BUFF",
@@ -2944,19 +922,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_3",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 70
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_BUFF",
             "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_2",
@@ -2970,19 +935,6 @@
           }
         ],
         [
-          {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_4",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 80
-              }
-            ]
-          },
           {
             "abilityId": "war1",
             "type": "MODIFIER_BUFF",
@@ -2998,19 +950,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_5",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 90
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_BUFF",
             "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_4",
@@ -3025,19 +964,6 @@
         ],
         [
           {
-            "abilityId": "eco1",
-            "type": "HARVEST_ITEM",
-            "rate": 28800,
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_ECO1_UPGRADE_6",
-            "items": [
-              {
-                "type": "res",
-                "data": "heal-arena-cur",
-                "quantity": 100
-              }
-            ]
-          },
-          {
             "abilityId": "war1",
             "type": "MODIFIER_BUFF",
             "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_5",
@@ -3050,6 +976,44 @@
             ]
           }
         ]
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ADJACENT",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "RESISTANCE",
+              "value": "40",
+              "description": "+40% RESISTANCE to ADJACENT ROOM DEFENSIVE SQUADS"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "ADJACENT",
+          "teamInfluence": "ALLIES",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "ARMOR",
+              "value": "40",
+              "description": "+40% ARMOR to ADJACENT ROOM DEFENSIVE SQUADS"
+            }
+          ]
+        }
+      ],
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
       ]
     }
   }
