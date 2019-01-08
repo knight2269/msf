@@ -74,13 +74,44 @@ namespace JsonBeautifier
             {
                 foreach (KeyValuePair<string, RoomInfo> roomInfo in raidConfig.RaidDetails.rooms)
                 {
-                    csvContent += string.Concat(
-                        roomInfo.Key,
-                        ",",
-                        TryGetMissionRestriction(roomInfo.Value.missions),
-                        ",",
-                        roomInfo.Value.starting ? "<-- Start here" : "",
-                        Environment.NewLine);
+                    int missionsCount = roomInfo.Value.missions == null ? 0 : roomInfo.Value.missions.Count;
+
+                    MissionInfo missionInfo = null;
+
+                    if (missionsCount > 0)
+                    {
+                        missionInfo = new List<MissionInfo>(roomInfo.Value.missions.Values)[0];
+                    }
+
+                    csvContent += roomInfo.Key;
+
+                    csvContent += ",";
+
+                    if (missionsCount > 0)
+                    {
+                        csvContent += TryGetMissionRestriction(missionInfo);
+                    }
+
+                    csvContent += ",";
+
+                    if (roomInfo.Value.starting == true)
+                    {
+                        csvContent += "Start here";
+                    }
+                    else if (missionsCount == 0)
+                    {
+                        csvContent += "Empty room";
+                    }
+                    else if (missionsCount > 1)
+                    {
+                        csvContent += "ERROR: multimission room";
+                    }
+                    else if (missionInfo.isBoss == true)
+                    {
+                        csvContent += "Boss";
+                    }
+
+                    csvContent += Environment.NewLine;
                 }
 
                 return true;
@@ -91,20 +122,8 @@ namespace JsonBeautifier
             }
         }
 
-        private static string TryGetMissionRestriction(Dictionary<string, MissionInfo> missions)
+        private static string TryGetMissionRestriction(MissionInfo missionInfo)
         {
-            if (missions.Count == 0)
-            {
-                return string.Empty;
-            }
-
-            if (missions.Count > 1)
-            {
-                return "ERROR: multimission room";
-            }
-
-            MissionInfo missionInfo = new List<MissionInfo>(missions.Values)[0];
-
             if (missionInfo.filters.filters.allTraits != null)
             {
                 string result = string.Empty;

@@ -27,6 +27,7 @@ namespace JsonBeautifier
     public class MissionInfo
     {
         public MissionFilters filters;
+        public bool isBoss;
     }
 
     public class MissionFilters
