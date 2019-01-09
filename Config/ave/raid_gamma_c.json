@@ -108,7 +108,7 @@
         "F9",
         "F10",
         "F11",
-        "",
+        "F12",
         "",
         "F14",
         "F15",
@@ -144,7 +144,7 @@
         "H9",
         "H10",
         "H11",
-        "",
+        "H12",
         "",
         "H14",
         "H15",
@@ -244,18 +244,18 @@
     "rooms": {
       "C10": {
         "roomId": "C10",
-        "name": "evr_gamma3_22",
+        "name": "evr_gamma3_17",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_17",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -267,11 +267,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -297,18 +303,18 @@
       },
       "L9": {
         "roomId": "L9",
-        "name": "evr_gamma3_19",
+        "name": "evr_gamma3_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_14",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -320,11 +326,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -350,18 +361,18 @@
       },
       "K9": {
         "roomId": "K9",
-        "name": "evr_gamma3_mb07",
+        "name": "evr_boss_jug_mb_d03_l62_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l62_v02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -373,11 +384,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -403,18 +420,18 @@
       },
       "J9": {
         "roomId": "J9",
-        "name": "evr_gamma3_20",
+        "name": "evr_gamma3_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_15",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -426,11 +443,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -456,18 +478,18 @@
       },
       "H9": {
         "roomId": "H9",
-        "name": "evr_gamma3_21",
+        "name": "evr_gamma3_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_16",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -479,11 +501,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "GotG",
+                  "Xmen",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -533,18 +561,18 @@
       },
       "F9": {
         "roomId": "F9",
-        "name": "evr_gamma3_21",
+        "name": "evr_gamma3_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_16",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -556,11 +584,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "GotG",
+                  "Xmen",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -586,18 +620,18 @@
       },
       "D9": {
         "roomId": "D9",
-        "name": "evr_gamma3_20",
+        "name": "evr_gamma3_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_15",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -609,11 +643,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -639,18 +678,18 @@
       },
       "C9": {
         "roomId": "C9",
-        "name": "evr_gamma3_mb06",
+        "name": "evr_boss_jug_mb_d03_l62_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l62_v02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -662,11 +701,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -692,18 +737,18 @@
       },
       "B9": {
         "roomId": "B9",
-        "name": "evr_gamma3_19",
+        "name": "evr_gamma3_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_14",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -715,11 +760,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -745,18 +795,18 @@
       },
       "M8": {
         "roomId": "M8",
-        "name": "evr_gamma3_16",
+        "name": "evr_gamma3_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_11",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -768,11 +818,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -846,18 +901,18 @@
       },
       "K8": {
         "roomId": "K8",
-        "name": "evr_gamma3_17",
+        "name": "evr_gamma3_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_12",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -869,11 +924,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -899,18 +959,18 @@
       },
       "H8": {
         "roomId": "H8",
-        "name": "evr_gamma3_18",
+        "name": "evr_gamma3_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_13",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -922,11 +982,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -952,18 +1017,18 @@
       },
       "G8": {
         "roomId": "G8",
-        "name": "evr_gamma3_mb05",
+        "name": "evr_boss_jug_mb_d03_l62_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l62_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -975,11 +1040,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_HYD_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_HYD_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_HYD_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary",
+                  "Hydra"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -1005,18 +1076,18 @@
       },
       "F8": {
         "roomId": "F8",
-        "name": "evr_gamma3_18",
+        "name": "evr_gamma3_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_13",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1028,11 +1099,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1082,18 +1158,18 @@
       },
       "C8": {
         "roomId": "C8",
-        "name": "evr_gamma3_17",
+        "name": "evr_gamma3_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_12",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1105,11 +1181,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1153,7 +1234,7 @@
         },
         "nextRooms": [
           "B9",
-          "A8",
+          "",
           ""
         ]
       },
@@ -1183,18 +1264,18 @@
       },
       "A8": {
         "roomId": "A8",
-        "name": "evr_gamma3_16",
+        "name": "evr_gamma3_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_11",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1209,8 +1290,13 @@
               "description": "",
               "shortDescription": "",
               "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1218,9 +1304,9 @@
         },
         "requirements": {},
         "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
+          "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+          "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+          "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
           "quantity": 0,
           "filters": {}
         },
@@ -1231,7 +1317,7 @@
         "nextRooms": [
           "",
           null,
-          null
+          "B8"
         ]
       },
       "K7": {
@@ -1284,18 +1370,18 @@
       },
       "C4": {
         "roomId": "C4",
-        "name": "evr_gamma3_07",
+        "name": "evr_gamma3_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_06",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1307,11 +1393,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1367,12 +1458,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_03",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1384,11 +1475,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1444,12 +1540,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_04",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1461,11 +1557,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1497,12 +1598,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_05",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1514,11 +1615,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1544,18 +1650,18 @@
       },
       "G3": {
         "roomId": "G3",
-        "name": "evr_gamma3_06",
+        "name": "evr_gamma3_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_25",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1567,11 +1673,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Aim"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1597,18 +1708,18 @@
       },
       "L7": {
         "roomId": "L7",
-        "name": "evr_gamma3_13",
+        "name": "evr_gamma3_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_09",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1620,11 +1731,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1656,12 +1772,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_05",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1673,11 +1789,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1709,12 +1830,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_04",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1726,11 +1847,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1762,12 +1888,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_03",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1779,11 +1905,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1826,7 +1957,7 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "C4",
           "B3",
           null
         ]
@@ -1839,12 +1970,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_01",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1856,11 +1987,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1892,12 +2028,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_02",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1909,11 +2045,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1945,12 +2086,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_02",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1962,11 +2103,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1998,12 +2144,12 @@
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_01",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2015,11 +2161,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2045,18 +2196,18 @@
       },
       "H7": {
         "roomId": "H7",
-        "name": "evr_gamma3_14",
+        "name": "evr_gamma3_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_10",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2068,11 +2219,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2098,18 +2254,18 @@
       },
       "G7": {
         "roomId": "G7",
-        "name": "evr_gamma3_15",
+        "name": "evr_gamma3_29",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_29",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2121,11 +2277,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Hydra"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2151,18 +2312,18 @@
       },
       "F7": {
         "roomId": "F7",
-        "name": "evr_gamma3_14",
+        "name": "evr_gamma3_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_10",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2174,11 +2335,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2396,18 +2562,18 @@
       },
       "B7": {
         "roomId": "B7",
-        "name": "evr_gamma3_1 3",
+        "name": "evr_gamma3_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_09",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2419,11 +2585,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_RAV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Ravager"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2497,18 +2668,18 @@
       },
       "M6": {
         "roomId": "M6",
-        "name": "evr_gamma3_10",
+        "name": "evr_gamma3_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_07",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2520,11 +2691,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2574,18 +2750,18 @@
       },
       "H6": {
         "roomId": "H6",
-        "name": "evr_gamma3_11",
+        "name": "evr_gamma3_08",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_08",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2597,11 +2773,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2627,18 +2808,18 @@
       },
       "G6": {
         "roomId": "G6",
-        "name": "evr_gamma3_12",
+        "name": "evr_gamma3_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_28",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2650,11 +2831,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Hydra"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2680,18 +2866,18 @@
       },
       "F6": {
         "roomId": "F6",
-        "name": "evr_gamma3_11",
+        "name": "evr_gamma3_08",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_08",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2703,11 +2889,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_MERC",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2750,7 +2941,7 @@
           "y": 0
         },
         "nextRooms": [
-          "F2",
+          "",
           "E1",
           null
         ]
@@ -2760,36 +2951,7 @@
         "name": "evr_gamma3_xx",
         "starting": true,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_thanos_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2810,18 +2972,18 @@
       },
       "A6": {
         "roomId": "A6",
-        "name": "evr_gamma3_10",
+        "name": "evr_gamma3_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_07",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2833,11 +2995,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "shortDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "longDescription": "ID_REQUIRES_TRAITS_HAND_KREE",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "Hand"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2887,18 +3054,18 @@
       },
       "B5": {
         "roomId": "B5",
-        "name": "evr_gamma3_mb03",
+        "name": "evr_boss_jug_mb_d03_l59_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l59_v02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2910,11 +3077,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -2988,18 +3161,18 @@
       },
       "G5": {
         "roomId": "G5",
-        "name": "evr_gamma3_09",
+        "name": "evr_gamma3_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_27",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3011,11 +3184,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_HYD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Defender",
+                  "Hydra"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3089,18 +3267,18 @@
       },
       "L5": {
         "roomId": "L5",
-        "name": "evr_gamma3_mb04",
+        "name": "evr_boss_jug_mb_d03_l59_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l59_v02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3112,11 +3290,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_GOTG_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "GotG",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -3166,18 +3350,18 @@
       },
       "K4": {
         "roomId": "K4",
-        "name": "evr_gamma3_07",
+        "name": "evr_gamma3_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_06",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3189,11 +3373,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AV_SV",
+              "shortDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "longDescription": "ID_REQUIRES_TRAITS_AV_SV",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Avenger",
+                  "SpiderVerse"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3243,18 +3432,18 @@
       },
       "H4": {
         "roomId": "H4",
-        "name": "evr_gamma3_mb02",
+        "name": "evr_boss_jug_mb_d03_l59_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l59_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3266,11 +3455,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood",
+                  "Aim"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -3296,18 +3491,18 @@
       },
       "G4": {
         "roomId": "G4",
-        "name": "evr_gamma3_08",
+        "name": "evr_gamma3_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_26",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3319,11 +3514,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_AIM_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Aim"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3349,18 +3549,18 @@
       },
       "F4": {
         "roomId": "F4",
-        "name": "evr_gamma3_mb01",
+        "name": "evr_boss_jug_mb_d03_l59_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l59_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3372,11 +3572,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "shortDescription": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "longDescription": "ID_REQUIRES_TRAITS_AIM_BH_SHLD",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Brotherhood",
+                  "Aim"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -3450,18 +3656,18 @@
       },
       "G10": {
         "roomId": "G10",
-        "name": "evr_gamma3_23",
+        "name": "evr_gamma3_30",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_30",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3473,11 +3679,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Wakanda",
+                  "Defender"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3551,18 +3763,18 @@
       },
       "K10": {
         "roomId": "K10",
-        "name": "evr_gamma3_22",
+        "name": "evr_gamma3_17",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_17",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3574,11 +3786,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3604,18 +3822,18 @@
       },
       "D11": {
         "roomId": "D11",
-        "name": "evr_gamma3_24",
+        "name": "evr_gamma3_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_18",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3627,11 +3845,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3681,18 +3905,18 @@
       },
       "F11": {
         "roomId": "F11",
-        "name": "evr_gamma3_25",
+        "name": "evr_gamma3_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_19",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3704,11 +3928,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "GotG",
+                  "Xmen",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3727,25 +3957,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "F12",
           "E11",
-          null
+          ""
         ]
       },
       "G11": {
         "roomId": "G11",
-        "name": "evr_gamma3_26",
+        "name": "evr_gamma3_31",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_31",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3757,11 +3987,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Wakanda",
+                  "Defender"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3787,18 +4023,18 @@
       },
       "H11": {
         "roomId": "H11",
-        "name": "evr_gamma3_25",
+        "name": "evr_gamma3_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_19",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3810,11 +4046,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_GOTG_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "GotG",
+                  "Xmen",
+                  "Mercenary"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3833,8 +4075,8 @@
           "y": 0
         },
         "nextRooms": [
+          "H12",
           "",
-          null,
           "I11"
         ]
       },
@@ -3864,18 +4106,18 @@
       },
       "J11": {
         "roomId": "J11",
-        "name": "evr_gamma3_24",
+        "name": "evr_gamma3_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_18",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3887,11 +4129,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3917,18 +4165,18 @@
       },
       "I12": {
         "roomId": "I12",
-        "name": "evr_gamma3_27",
+        "name": "evr_gamma3_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_20",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3940,11 +4188,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3970,18 +4224,18 @@
       },
       "G12": {
         "roomId": "G12",
-        "name": "evr_gamma3_28",
+        "name": "evr_gamma3_32",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_32",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3993,11 +4247,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Wakanda",
+                  "Defender"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4023,18 +4283,18 @@
       },
       "E12": {
         "roomId": "E12",
-        "name": "evr_gamma3_27",
+        "name": "evr_gamma3_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_20",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4046,11 +4306,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4076,18 +4342,18 @@
       },
       "E13": {
         "roomId": "E13",
-        "name": "evr_gamma3_29",
+        "name": "evr_gamma3_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_21",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4099,11 +4365,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4129,18 +4401,18 @@
       },
       "G13": {
         "roomId": "G13",
-        "name": "evr_gamma3_30",
+        "name": "evr_gamma3_33",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_33",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4152,11 +4424,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Wakanda",
+                  "Defender"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4182,18 +4460,18 @@
       },
       "I13": {
         "roomId": "I13",
-        "name": "evr_gamma3_29",
+        "name": "evr_gamma3_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_21",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4205,11 +4483,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4235,18 +4519,18 @@
       },
       "I14": {
         "roomId": "I14",
-        "name": "evr_gamma3_31",
+        "name": "evr_boss_jug_mb_d03_l70_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l70_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4258,14 +4542,20 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -4288,18 +4578,18 @@
       },
       "G14": {
         "roomId": "G14",
-        "name": "evr_gamma3_33",
+        "name": "evr_boss_jug_mb_d03_l70_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l70_v02",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4311,14 +4601,20 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "shortDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "longDescription": "ID_REQUIRES_TRAITS_DEF_SHLD_WAK",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Shield",
+                  "Wakanda",
+                  "Defender"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -4335,24 +4631,24 @@
         },
         "nextRooms": [
           "G15",
-          "",
-          ""
+          "F14",
+          "H14"
         ]
       },
       "H14": {
         "roomId": "H14",
-        "name": "evr_gamma3_32",
+        "name": "evr_gamma3_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_22",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4364,11 +4660,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4394,18 +4696,18 @@
       },
       "F14": {
         "roomId": "F14",
-        "name": "evr_gamma3_32",
+        "name": "evr_gamma3_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_22",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4417,11 +4719,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4447,18 +4755,18 @@
       },
       "E14": {
         "roomId": "E14",
-        "name": "evr_gamma3_31",
+        "name": "evr_boss_jug_mb_d03_l70_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_mb_d03_l70_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4470,14 +4778,20 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "shortDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "longDescription": "ID_REQUIRES_TRAITS_BH_MERC_XM",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Brotherhood",
+                  "Mercenary",
+                  "Xmen"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -4500,18 +4814,18 @@
       },
       "F15": {
         "roomId": "F15",
-        "name": "evr_gamma3_34",
+        "name": "evr_gamma3_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_23",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4523,11 +4837,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4553,18 +4873,18 @@
       },
       "G15": {
         "roomId": "G15",
-        "name": "evr_gamma3_35",
+        "name": "evr_gamma3_34",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_34",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4576,11 +4896,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4606,18 +4932,18 @@
       },
       "H15": {
         "roomId": "H15",
-        "name": "evr_gamma3_34",
+        "name": "evr_gamma3_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_23",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4629,11 +4955,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4659,18 +4991,18 @@
       },
       "H16": {
         "roomId": "H16",
-        "name": "evr_gamma3_36",
+        "name": "evr_gamma3_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_24",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4682,11 +5014,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4706,24 +5044,24 @@
         },
         "nextRooms": [
           null,
-          "",
+          "G16",
           null
         ]
       },
       "G16": {
         "roomId": "G16",
-        "name": "evr_gamma3_fb01",
+        "name": "evr_boss_jug_fb_d03_l73_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
-            "icon": "raid_Icon_Ultimus.png",
+            "ID": "evr_boss_jug_fb_d03_l73_v01",
+            "icon": "Portrait_Juggernaut",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_battledrops_high_boss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4735,11 +5073,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -4758,25 +5102,25 @@
           "y": 0
         },
         "nextRooms": [
-          "F16",
-          "H16",
-          null
+          "",
+          "",
+          ""
         ]
       },
       "F16": {
         "roomId": "F16",
-        "name": "evr_gamma3_36",
+        "name": "evr_gamma3_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_bunny01_01",
+            "ID": "evr_gamma3_24",
             "icon": "raid_Icon_Ultimus.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_rewardID": "raid_juggernaut_201810_high_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4788,11 +5132,17 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "shortDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "longDescription": "ID_REQUIRES_TRAITS_KREE_SV_GOTG",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Kree",
+                  "SpiderVerse",
+                  "GotG"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4814,6 +5164,54 @@
           "",
           null,
           "G16"
+        ]
+      },
+      "H12": {
+        "roomId": "H12",
+        "name": "evr_gamma3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          "G12",
+          null
+        ]
+      },
+      "F12": {
+        "roomId": "F12",
+        "name": "evr_gamma3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          "G12"
         ]
       }
     },
