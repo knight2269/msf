@@ -286,11 +286,11 @@ ID_MOTD_STARTS_IN,Starts in {duration}
 ID_NEXT,NEXT:
 ID_NO_NAME,No Name
 ID_NOTICE_TITLE,NOTICE
-ID_NSF,You don't have enough resources to complete this purchase.\n{resource} required: {qty}
+ID_NSF,You don't have enough resources to complete this purchase.\n\n{resource} required: {qty}
 ID_NSF_CONVERT,\nYou lack the amount of primary currency required. Cost will be converted to Power Cores.
 ID_NSF_GOLD,Insufficient Gold
-ID_NSF_SUFFIX_BUY_MISSING_AMOUNT,\nBuy the missing amount?
-ID_NSF_SUFFIX_FIGHT_ARENA_BATTLES,\nFight in Blitz to earn more.
+ID_NSF_SUFFIX_BUY_MISSING_AMOUNT,\n\nBuy the missing amount?
+ID_NSF_SUFFIX_FIGHT_ARENA_BATTLES,\n\nFight in Blitz to earn more.
 ID_OPEN,OPEN
 ID_OPTIONS_ACCOUNT,ACCOUNT
 ID_OPTIONS_AD_CHOICES,AD CHOICES
@@ -422,7 +422,7 @@ ID_SUBSCRIPTION_DESC_MONTHLY,a monthly subscription
 ID_SUBSCRIPTION_DESC_YEARLY,a yearly subscription
 ID_SUBSCRIPTION_DESC_TEMPLATE_ADJ,{period} subscription
 ID_SUBSCRIPTION_OFFER_CALLOUT_TAB,SUBSCRIPTION
-ID_SUBSCRIPTION_OFFER_DISCLAIMER,"This offer is {period}. Payment of {cost} is charged to your account at purchase confirmation. Your subscription will auto-renew unless turned off at least 24 hours prior to the end of the current period, at which point your account will be charged {cost} for renewal within 24 hours. After purchase, you can manage your subscriptions in your account settings."
+ID_SUBSCRIPTION_OFFER_DISCLAIMER,"This offer is {period}. Payment of {cost} is charged to your account at purchase confirmation. Your subscription will auto-renew unless turned off at least 24 hours prior to the end of the current period. If you do not turn off auto-renew, your account will be charged for renewal within 24-hours prior to the end of the current period and your account will be charged {cost}. After purchase, you can manage your subscriptions in your Account Settings."
 ID_SUBSCRIPTION_PERIOD_WEEK,week
 ID_SUBSCRIPTION_PERIOD_WEEK_ADJ,weekly
 ID_SUBSCRIPTION_PERIOD_MONTH,month
@@ -550,6 +550,7 @@ ID_UI_TRAINING_HELP_TEXT,Tap to add XP. Tap and hold to add or remove multiples.
 ID_UI_TRAITS,TRAITS
 ID_UI_UNITS_STORE,THE UNITS STORE ....
 ID_UI_UNREAD,UNREAD
+ID_UI_UTC_TIME,UTC TIME
 ID_UI_YOU_OWN,You Own:
 ID_UI_NEED_TO_LEVEL_UP,Increase your player level to unlock this feature.
 ID_UI_FEATURE_LOCKED,FEATURE LOCKED
@@ -609,6 +610,7 @@ ID_STORE_NAME_MAIN,MAIN
 ID_STORE_NAME_BLITZ,BLITZ
 ID_STORE_NAME_RAID,RAID
 ID_STORE_NAME_ARENA,ARENA
+ID_STORE_NAME_WAR,WAR
 ID_STORE_FREE,FREE
 ID_STORE_CONFIRM_SPEND,You are about to spend Power Cores! Are you sure you want to do this?
 ID_STORE_NO_OFFERS_FOUND,Check back later for more fantastic offers!
@@ -679,8 +681,10 @@ ID_REDSTAR_CONVERSION_UPGRADE_HEADER,Red Star Upgraded
 ID_REDSTAR_CONVERSION_UPGRADE_MESSAGE,Upgraded Red Stars convert into <color=#ffffff><i>ELITE ORB FRAGMENTS</i></color>.  Collect enough to open an <color=#ffffff><i>ELITE RED STAR ORB</i></color>
 ID_REDSTAR_POPUP_DESC_UNLOCK,Red Star Promotions unlock at level 60.
 ID_SQUAD_SAVE_AND_EXIT,SAVE & EXIT
-ID_SUBSCRIPTION_CALENDAR_DISCLAIMER,"With this subscription, you will receive 120 Campaign Energy every day for as long as you are subscribed, even if you miss a day! When you sign up, payment will be charged to your iTunes Account at confirmation of purchase. Your subscription will auto-renew unless turned off at least 24 hours prior to the end of the current period, at which point your account will be charged for renewal within 24 hours. After purchase, you can manage your subscriptions in your account settings."
+ID_SUBSCRIPTION_CALENDAR_DISCLAIMER,"With this subscription, you will receive 120 Campaign Energy every day for as long as you are subscribed, even if you miss a day! When you sign up, payment will be charged to your account at confirmation of purchase. Your subscription will auto-renew unless turned off at least 24 hours prior to the end of the current period, at which point your account will be charged for renewal within 24 hours. After purchase, you can manage your subscriptions in your account settings."
 ID_PLAYER_PROFILE_LOADING,Loading Player Information
 ID_UI_FINDER_WAR_ORB,War Orb
 ID_UI_FINDER_WAR_SUPPLIES,War Supplies
 ID_EVENT_CAMPAIGN_TYPE_USP,SPIDER-MAN (MILES)
+ID_EVENT_CAMPAIGN_TYPE_WM,WAR MACHINE
+ID_RESOURCE_REFILLED_REMAINING,REFILLS REMAINING <color=#ffffff>: </color><color={colorHex}>{count}</color>

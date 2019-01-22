@@ -11,21 +11,27 @@
       "roomPrefabName": "AVA_Carrier_MedBay_State0",
       "roomEffects": [
         {
-          "areaOfInfluence": "ADJACENT",
+          "areaOfInfluence": "HELICARRIER_ALLY",
           "teamInfluence": "ALLIES",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "HEALTH",
-              "value": "40",
+              "value": "50",
               "isPercentage": true,
-              "description": "+40% HP to ADJACENT ROOM DEFENSIVE squads"
+              "traits": [
+                "Bio"
+              ],
+              "description": "+50% HP to Bio heroes in ALL DEFENSIVE squads"
             },
             {
               "level": 2,
               "type": "HEALTH",
               "value": "0",
+              "traits": [
+                "Bio"
+              ],
               "description": ""
             }
           ]
@@ -658,6 +664,82 @@
           }
         ]
       ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "PROC",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp",
+                    "DefenseUp",
+                    "HoT",
+                    "SpeedUp",
+                    "Stealth"
+                  ],
+                  "chance": [
+                    100,
+                    100
+                  ],
+                  "procCount": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes get a random proc for 2 turns."
+            },
+            {
+              "level": 2,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp",
+                    "DefenseUp",
+                    "HoT",
+                    "SpeedUp",
+                    "Stealth"
+                  ],
+                  "chance": [
+                    100,
+                    100,
+                    50
+                  ],
+                  "procCount": [
+                    2,
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "proc": [
+                    "OffenseUp",
+                    "DefenseUp",
+                    "HoT",
+                    "SpeedUp",
+                    "Stealth"
+                  ],
+                  "chance": [
+                    100,
+                    75,
+                    50
+                  ],
+                  "procCount": [
+                    2,
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get a random proc for 2 turns."
+            }
+          ]
+        }
+      ],
       "todProbeMultipler": [
         {
           "tod": "day",
@@ -768,6 +850,74 @@
           }
         ]
       ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "PROC",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp"
+                  ],
+                  "chance": [
+                    100,
+                    100
+                  ],
+                  "procCount": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes get Offense Up for 2 turns."
+            },
+            {
+              "level": 2,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp"
+                  ],
+                  "chance": [
+                    100,
+                    100,
+                    75,
+                    60,
+                    50
+                  ],
+                  "procCount": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "proc": [
+                    "DefenseUp"
+                  ],
+                  "chance": [
+                    100,
+                    75,
+                    50
+                  ],
+                  "procCount": [
+                    2,
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get Offense Up and Defense Up for 2 turns."
+            }
+          ]
+        }
+      ],
       "todProbeMultipler": [
         {
           "tod": "day",
@@ -877,6 +1027,55 @@
             ]
           }
         ]
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ALLIES",
+          "effectType": "PROC",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp"
+                  ],
+                  "chance": [
+                    100,
+                    100
+                  ],
+                  "procCount": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes get Offense Up for 2 turns."
+            },
+            {
+              "level": 2,
+              "procs": [
+                {
+                  "proc": [
+                    "OffenseUp"
+                  ],
+                  "chance": [
+                    100,
+                    100,
+                    50
+                  ],
+                  "procCount": [
+                    2,
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get Offense Up for 2 turns."
+            }
+          ]
+        }
       ],
       "todProbeMultipler": [
         {

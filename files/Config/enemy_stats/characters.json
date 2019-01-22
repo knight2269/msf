@@ -2030,6 +2030,7 @@
                 80,
                 100
               ],
+              "new_result": true,
               "target": {
                 "relation": "ally"
               }
@@ -6470,23 +6471,23 @@
                   "t": 4
                 },
                 {
-                  "f": 1,
+                  "f": 2,
                   "t": 4
                 },
                 {
-                  "f": 1,
+                  "f": 2,
                   "t": 4
                 },
                 {
-                  "f": 1,
+                  "f": 2,
                   "t": 5
                 },
                 {
-                  "f": 1,
+                  "f": 3,
                   "t": 5
                 },
                 {
-                  "f": 1,
+                  "f": 3,
                   "t": 5
                 }
               ],
@@ -7091,37 +7092,30 @@
               "limit": [
                 {
                   "f": 0,
-                  "p": 40,
                   "t": 2
                 },
                 {
                   "f": 0,
-                  "p": 40,
                   "t": 2
                 },
                 {
                   "f": 0,
-                  "p": 40,
                   "t": 2
                 },
                 {
-                  "f": 0,
-                  "p": 50,
+                  "f": 1,
                   "t": 2
                 },
                 {
-                  "f": 0,
-                  "p": 50,
+                  "f": 1,
                   "t": 2
                 },
                 {
-                  "f": 0,
-                  "p": 50,
+                  "f": 1,
                   "t": 2
                 },
                 {
-                  "f": 0,
-                  "p": 50,
+                  "f": 1,
                   "t": 2
                 }
               ],
@@ -7283,6 +7277,43 @@
             },
             {
               "action": "proc",
+              "action_pct": [
+                0,
+                50,
+                50,
+                100,
+                100
+              ],
+              "apply_count": 3,
+              "procs": [
+                {
+                  "proc": "OffenseUp",
+                  "use_count": 1
+                },
+                {
+                  "proc": "SpeedUp",
+                  "use_count": 1
+                },
+                {
+                  "proc": "Counter",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "GotG"
+                    ]
+                  }
+                },
+                "limit": 10,
+                "relation": "ally",
+                "type": "random"
+              }
+            },
+            {
+              "action": "proc",
               "procs": [
                 {
                   "proc": "Deathproof",
@@ -7302,6 +7333,49 @@
             }
           ],
           "exec": "on_death"
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                0,
+                50,
+                50,
+                100
+              ],
+              "procs": [
+                {
+                  "proc": "Slow",
+                  "use_count": 2
+                }
+              ],
+              "visualid": "passive3"
+            }
+          ],
+          "exec": "on_attacked",
+          "exec_for": {
+            "owner_ok": true,
+            "relationship": "ally"
+          },
+          "stat_lock": [
+            {
+              "on": "secondary",
+              "stat": "dodge_chance_pct",
+              "value": 0
+            },
+            {
+              "on": "secondary",
+              "stat": "block_chance_pct",
+              "value": 0
+            },
+            {
+              "on": "self",
+              "stat": "accuracy_pct",
+              "value": 100
+            }
+          ]
         }
       ],
       "passive_power_mul": [
@@ -7323,7 +7397,7 @@
           "stat": "revive_pct"
         },
         {
-          "delta": 10,
+          "delta": 25,
           "stat": "revive_health_pct"
         }
       ],
@@ -7384,9 +7458,6 @@
           {
             "action": "proc",
             "action_pct": 100,
-            "assist": {
-              "passive_assist": "nonattack"
-            },
             "procs": [
               {
                 "proc": "Deathproof",
@@ -7396,16 +7467,10 @@
             "target": {
               "limit": [
                 1,
-                {
-                  "f": 1,
-                  "t": 2
-                },
                 2,
-                {
-                  "f": 2,
-                  "t": 3
-                },
                 3,
+                4,
+                10,
                 10,
                 10
               ],
@@ -7413,9 +7478,36 @@
               "relation": "ally",
               "type": "by_least_health"
             }
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              100
+            ],
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "procs": [
+              {
+                "proc": "DefenseUp",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                0,
+                2,
+                3,
+                4,
+                4,
+                10
+              ],
+              "relation": "ally",
+              "type": "by_least_health"
+            }
           }
         ],
-        "ai_filter": "heal_standard",
         "cost": 3,
         "power_mul": [
           0,
@@ -7440,19 +7532,19 @@
           {
             "action": "heal",
             "heal_amt": [
-              100,
-              100,
-              500,
-              900,
-              900,
-              1500,
-              2000
+              200,
+              200,
+              1000,
+              2200,
+              2200,
+              3800,
+              6000
             ],
             "heal_pct": [
-              3,
-              3,
-              3,
-              3,
+              5,
+              5,
+              5,
+              5,
               5,
               5,
               5
@@ -7473,12 +7565,40 @@
           },
           {
             "action": "proc_remove",
+            "category": "debuff",
+            "count": 2,
+            "remove_pct": 100
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
             "assist": {
               "passive_assist": "nonattack"
             },
-            "category": "debuff",
-            "count": 1000,
-            "remove_pct": 30
+            "procs": [
+              {
+                "proc": "DebuffBlock",
+                "use_count": 2
+              }
+            ],
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "GotG"
+                  ]
+                }
+              },
+              "limit": 1,
+              "relation": "ally",
+              "type": "by_least_health"
+            }
           }
         ],
         "cost": [
@@ -11482,6 +11602,7 @@
               80,
               100
             ],
+            "include_previous_dead": true,
             "recipient": {
               "relation": "ally"
             },
@@ -11687,6 +11808,22 @@
             5,
             5,
             10
+          ],
+          "stat": "resistance_pct"
+        },
+        {
+          "apply_if": {
+            "owner": {
+              "procs": [
+                "DebuffBlock"
+              ]
+            }
+          },
+          "delta": [
+            0,
+            0,
+            0,
+            1000
           ],
           "stat": "resistance_pct"
         }
@@ -15167,6 +15304,520 @@
             "value": 100
           }
         ]
+      }
+    },
+    "Mantis": {
+      "basic": {
+        "actions": [
+          {
+            "only_if": {
+              "not": {
+                "owner": {
+                  "procs": [
+                    "Charged"
+                  ]
+                }
+              }
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  200,
+                  240
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "only_if": {
+              "owner": {
+                "procs": [
+                  "Charged"
+                ]
+              }
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  200,
+                  240
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "visualid": "basic3"
+          },
+          {
+            "action": "proc",
+            "only_if": {
+              "owner": {
+                "procs": [
+                  "Charged"
+                ]
+              }
+            },
+            "procs": [
+              {
+                "proc": "Stun",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "type": "primary"
+            },
+            "visualid": "basic3"
+          },
+          {
+            "action": "proc_remove",
+            "category": "none",
+            "only_if": {
+              "owner": {
+                "procs": [
+                  "Charged"
+                ]
+              }
+            },
+            "procs": "Charged",
+            "skip_focus_check": true,
+            "target": {
+              "relation": "ally"
+            },
+            "visualid": "basic4"
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              50,
+              50,
+              75,
+              75,
+              100
+            ],
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "Deflect",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "filter": {
+                "character": [
+                  "Drax"
+                ]
+              },
+              "limit": [
+                1
+              ],
+              "relation": "ally",
+              "type": "random"
+            },
+            "visualid": "basic2"
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                50,
+                50,
+                75,
+                75,
+                100
+              ],
+              "only_if": {
+                "not": {
+                  "owner": {
+                    "procs": [
+                      "Charged"
+                    ]
+                  }
+                }
+              },
+              "procs": [
+                {
+                  "proc": "Charged"
+                }
+              ],
+              "target": {
+                "relation": "ally"
+              },
+              "visualid": "passive2"
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                10,
+                15,
+                15
+              ],
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_turn",
+          "exec_on_stun": true
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            0,
+            5
+          ],
+          "for_each": {
+            "owner_ok": false,
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "GotG"
+              ]
+            }
+          },
+          "stat": "max_hp_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  200
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "heal",
+            "heal_amt": [
+              1500,
+              1750,
+              2000,
+              2250,
+              2500,
+              2750,
+              3000
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "include_in_pool",
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "HoT",
+                "spawn_pct": [
+                  0,
+                  50,
+                  50,
+                  50,
+                  75,
+                  75,
+                  100
+                ],
+                "use_count": 1
+              }
+            ]
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              250,
+              500,
+              750,
+              1000,
+              1250,
+              1500,
+              1750
+            ],
+            "heal_pct": [
+              0,
+              0,
+              0,
+              5,
+              5,
+              10,
+              10
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 4,
+              "places_from_primary_min": 2,
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "only_if": {
+              "mode": "RAID"
+            },
+            "procs": [
+              {
+                "proc": "HoT",
+                "spawn_pct": [
+                  0,
+                  0,
+                  100
+                ],
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "relation": "ally",
+              "type": "random"
+            }
+          }
+        ],
+        "ai_filter": "heal_standard",
+        "cost": 4,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 2
+      },
+      "traits": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Controller",
+        "GotG"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "health_redistribute",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "drain_pct": 100,
+            "from": {
+              "filter": {
+                "not": {
+                  "target": {
+                    "states": [
+                      "Spawned"
+                    ]
+                  }
+                }
+              },
+              "limit": 2,
+              "primary_selection": "include_as_target",
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              0,
+              500,
+              1000,
+              1000,
+              1500,
+              1500,
+              2000
+            ],
+            "heal_pct": 0,
+            "target": {
+              "limit": 2,
+              "relation": "ally",
+              "type": "previous_result_targets"
+            }
+          },
+          {
+            "action": "proc_transfer",
+            "action_pct": [
+              0,
+              50,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "category": "debuff",
+            "count": [
+              0,
+              1,
+              1,
+              1,
+              {
+                "f": 1,
+                "t": 2
+              },
+              {
+                "f": 1,
+                "t": 2
+              },
+              2
+            ],
+            "only_if": {
+              "mode": "RAID"
+            },
+            "recipient": {
+              "relation": "enemy",
+              "type": "primary"
+            },
+            "removepct": 100,
+            "transferpct": 100,
+            "visualid": "ultimate2"
+          },
+          {
+            "action": "proc_remove",
+            "action_pct": [
+              0,
+              0,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "category": "buff",
+            "count": [
+              0,
+              0,
+              1,
+              1,
+              {
+                "f": 1,
+                "t": 2
+              },
+              {
+                "f": 1,
+                "t": 2
+              },
+              2
+            ],
+            "only_if": {
+              "and": [
+                {
+                  "target": {
+                    "any_proc_of_type": "buff"
+                  }
+                },
+                {
+                  "mode": "RAID"
+                }
+              ]
+            },
+            "target": {
+              "relation": "enemy",
+              "type": "primary"
+            },
+            "visualid": "ultimate2"
+          }
+        ],
+        "ai_filter": "health_redistribute",
+        "cost": 3,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 3
       }
     },
     "MercDmg_General": {
@@ -19359,6 +20010,16 @@
         "start_energy": 5
       }
     },
+    "Operator": {
+      "basic": {
+        "actions": [
+          {
+            "action": "empty_result"
+          }
+        ],
+        "visualid": "operator"
+      }
+    },
     "Punisher": {
       "basic": {
         "actions": [
@@ -21843,7 +22504,7 @@
                     40,
                     50,
                     50,
-                    60
+                    70
                   ],
                   "filter": {
                     "not": {
@@ -28721,6 +29382,7 @@
               }
             ],
             "target": {
+              "limit": 10,
               "places_from_primary": 1,
               "primary_selection": "exclude_from_pool",
               "type": "random"
@@ -28961,7 +29623,7 @@
         "Villain",
         "City",
         "Bio",
-        "Brawler",
+        "Blaster",
         "SpiderVerse"
       ],
       "ultimate": {
@@ -28983,8 +29645,6 @@
             ]
           },
           {
-            "assist": {},
-            "counter": true,
             "stat_modifier": [
               {
                 "delta": [
@@ -29009,6 +29669,59 @@
                   }
                 }
               },
+              "limit": [
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                {
+                  "f": 2,
+                  "t": 3
+                },
+                {
+                  "f": 2,
+                  "t": 3
+                },
+                {
+                  "f": 2,
+                  "t": 4
+                },
+                {
+                  "f": 2,
+                  "t": 4
+                },
+                {
+                  "f": 3,
+                  "t": 4
+                },
+                {
+                  "f": 3,
+                  "t": 4
+                }
+              ],
+              "primary_selection": "include_in_pool",
+              "type": "random_repeat"
+            }
+          },
+          {
+            "action_cond": "if_prev_skipped",
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  140,
+                  160,
+                  180,
+                  210,
+                  240,
+                  290
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
               "limit": [
                 {
                   "f": 1,
@@ -29157,7 +29870,24 @@
               }
             }
           ],
-          "exec": "on_turn"
+          "exec": "on_turn",
+          "stat_lock": [
+            {
+              "on": "secondary",
+              "stat": "dodge_chance_pct",
+              "value": 0
+            },
+            {
+              "on": "secondary",
+              "stat": "block_chance_pct",
+              "value": 0
+            },
+            {
+              "on": "self",
+              "stat": "accuracy_pct",
+              "value": 100
+            }
+          ]
         },
         {
           "actions": [
@@ -32417,6 +33147,1839 @@
         ],
         "start_energy": 4
       }
+    },
+    "WarMachine": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  60,
+                  80,
+                  80,
+                  100,
+                  100,
+                  120,
+                  140
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "include_as_target",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              0,
+              50,
+              50,
+              100
+            ],
+            "apply_count": 1,
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "OffenseDown",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "type": "primary"
+            }
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                100
+              ],
+              "only_if_any": {
+                "filter": {
+                  "character": [
+                    "IronMan"
+                  ]
+                },
+                "relation": "ally",
+                "type": "random"
+              },
+              "procs": [
+                {
+                  "proc": "Deathproof",
+                  "use_count": [
+                    1
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "character": [
+                    "IronMan",
+                    "WarMachine"
+                  ]
+                },
+                "limit": [
+                  10
+                ],
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start",
+          "exec_for": {
+            "relationship": "ally"
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                50,
+                50,
+                50,
+                100
+              ],
+              "new_result": true,
+              "only_if_target": {
+                "not": {
+                  "target": {
+                    "procs": [
+                      "Taunt"
+                    ]
+                  }
+                }
+              },
+              "procs": [
+                {
+                  "proc": "Taunt",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "relation": "enemy"
+              }
+            }
+          ],
+          "exec": "below_health",
+          "exec_for": {
+            "owner_ok": false,
+            "relationship": "enemy"
+          },
+          "exec_value": 50,
+          "stat_lock": [
+            {
+              "on": "secondary",
+              "stat": "dodge_chance_pct",
+              "value": 0
+            },
+            {
+              "on": "secondary",
+              "stat": "block_chance_pct",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "passive_power_mul": [
+        15,
+        29,
+        44,
+        60,
+        77
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            5,
+            5,
+            10
+          ],
+          "stat": "damage_pct"
+        },
+        {
+          "apply_if": {
+            "character": [
+              "IronMan"
+            ]
+          },
+          "delta": [
+            10,
+            10,
+            20,
+            20,
+            30
+          ],
+          "stat": "crit_damage_pct"
+        },
+        {
+          "delta": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "stat": "armor_pierce_pct"
+        },
+        {
+          "apply_if": {
+            "mode": "AVA"
+          },
+          "delta": [
+            0,
+            0,
+            0,
+            10
+          ],
+          "stat": "damage_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  61,
+                  85,
+                  110,
+                  135,
+                  161,
+                  184,
+                  205
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  20,
+                  30,
+                  40,
+                  40,
+                  60,
+                  80,
+                  90
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "include_as_target",
+              "type": "random"
+            }
+          },
+          {
+            "action_pct": 100,
+            "stat_modifier": [
+              {
+                "delta": [
+                  20,
+                  30,
+                  40,
+                  40,
+                  60,
+                  80,
+                  90
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "visualid": "special2"
+          },
+          {
+            "action_pct": [
+              0,
+              0,
+              0,
+              50,
+              50,
+              50,
+              100
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  20,
+                  30,
+                  40,
+                  40,
+                  60,
+                  80,
+                  90
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "visualid": "special3"
+          },
+          {
+            "action_pct": 100,
+            "assist": {},
+            "counter": true,
+            "only_if_any": {
+              "filter": {
+                "character": [
+                  "IronMan"
+                ]
+              },
+              "relation": "ally",
+              "type": "random"
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  20,
+                  30,
+                  40,
+                  40,
+                  60,
+                  80,
+                  90
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "visualid": "special4"
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          0,
+          29,
+          56,
+          83,
+          111,
+          138,
+          165
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Avenger"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "foreach_stat": [
+              {
+                "delta": 30,
+                "for_each": {
+                  "relationship": "ally",
+                  "traits": {
+                    "has_any": [
+                      "Hero"
+                    ]
+                  }
+                },
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  190,
+                  220,
+                  250,
+                  280,
+                  310,
+                  310,
+                  340
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            }
+          }
+        ],
+        "cost": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          6,
+          6
+        ],
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 4,
+        "stat_lock": [
+          {
+            "on": "self",
+            "stat": "accuracy_pct",
+            "value": 100
+          }
+        ]
+      }
+    },
+    "War_ShieldDmg_AoE": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  30,
+                  50,
+                  70,
+                  70,
+                  90,
+                  110,
+                  110
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  15,
+                  15,
+                  15,
+                  25,
+                  25,
+                  25,
+                  35
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  20,
+                  40,
+                  60,
+                  60,
+                  80,
+                  100,
+                  100
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  15,
+                  15,
+                  15,
+                  25,
+                  25,
+                  25,
+                  35
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "NickFury"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "stat": "crit_chance_pct"
+        }
+      ],
+      "passive_power_mul": [
+        19,
+        38,
+        58,
+        80,
+        102
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  31,
+                  55,
+                  80,
+                  85,
+                  110,
+                  135,
+                  135
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  20,
+                  22,
+                  24,
+                  36,
+                  38,
+                  40,
+                  52
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  110,
+                  110,
+                  140,
+                  200,
+                  200,
+                  230
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "assist": {},
+            "category": "buff",
+            "count": 1,
+            "counter": true,
+            "remove_pct": [
+              30,
+              30,
+              50
+            ],
+            "target": {
+              "limit": [
+                2,
+                2,
+                2,
+                4,
+                4,
+                10,
+                10
+              ],
+              "type": "random"
+            }
+          }
+        ],
+        "ai_filter": "buff_remove",
+        "cost": 4,
+        "power_mul": [
+          0,
+          49,
+          96,
+          143,
+          190,
+          237,
+          286
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Blaster",
+        "Shield",
+        "Minion"
+      ]
+    },
+    "War_ShieldDmg_Defense": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  90,
+                  130,
+                  170,
+                  210,
+                  250,
+                  290,
+                  330
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "assist": {},
+            "change_pct": -25,
+            "counter": true
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "stat_modifier": [
+                {
+                  "delta": [
+                    90,
+                    130,
+                    170,
+                    210,
+                    250,
+                    290,
+                    330
+                  ],
+                  "stat": "ability_damage_pct"
+                }
+              ]
+            },
+            {
+              "action": "turn_meter",
+              "action_cond": "if_has_crit_result",
+              "change_pct": -25
+            }
+          ],
+          "exec": "on_attacked",
+          "exec_for": {
+            "distance": {
+              "if": "equal",
+              "than": 1
+            },
+            "relationship": "ally"
+          }
+        }
+      ],
+      "passive_power_mul": [
+        19,
+        38,
+        58,
+        80,
+        102
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  55,
+                  79,
+                  104,
+                  129,
+                  155,
+                  178,
+                  199
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "change_pct": -25
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  160,
+                  190,
+                  250,
+                  280,
+                  340,
+                  370
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  40,
+                  40,
+                  60,
+                  60,
+                  80,
+                  80,
+                  100
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ],
+        "cost": 3,
+        "power_mul": [
+          0,
+          49,
+          96,
+          143,
+          190,
+          237,
+          286
+        ],
+        "start_energy": 3
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Blaster",
+        "Shield",
+        "Minion"
+      ]
+    },
+    "War_ShieldSupport_Heal": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  90,
+                  130,
+                  140,
+                  180,
+                  200,
+                  240
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              30,
+              30,
+              100
+            ],
+            "procs": [
+              {
+                "proc": "OffenseDown",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  {
+                    "f": 1,
+                    "t": 2
+                  },
+                  {
+                    "f": 1,
+                    "t": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "assist": {},
+            "change_pct": -25,
+            "counter": true
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "action_pct": [
+                10,
+                30,
+                30,
+                30,
+                50
+              ],
+              "heal_pct": [
+                10,
+                10,
+                10,
+                20,
+                20
+              ],
+              "target": {
+                "filter": {
+                  "target": {
+                    "health_pct": {
+                      "if": "less",
+                      "than": 100
+                    }
+                  }
+                },
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            },
+            {
+              "action": "proc",
+              "action_cond": "if_prev_ran",
+              "procs": [
+                {
+                  "proc": "HoT",
+                  "use_count": [
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "action": "proc",
+              "action_cond": "if_prev_ran",
+              "only_if_target": {
+                "or": [
+                  {
+                    "traits": {
+                      "and": [
+                        {
+                          "has_any": [
+                            "Shield"
+                          ]
+                        },
+                        {
+                          "has_any": [
+                            "Minion"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "character": [
+                      "NickFury"
+                    ]
+                  }
+                ]
+              },
+              "procs": [
+                {
+                  "proc": "HoT",
+                  "use_count": [
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        19,
+        38,
+        58,
+        80,
+        102
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  55,
+                  63,
+                  80,
+                  80,
+                  84,
+                  84,
+                  87
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              0,
+              30,
+              30,
+              100
+            ],
+            "procs": [
+              {
+                "proc": "OffenseDown",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  {
+                    "f": 1,
+                    "t": 2
+                  },
+                  {
+                    "f": 1,
+                    "t": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "change_pct": -25
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "revive",
+            "action_pct": [
+              0,
+              20,
+              20,
+              20,
+              20,
+              20,
+              20
+            ],
+            "revive_health": [
+              {
+                "pct": 10
+              }
+            ],
+            "revive_pct": 100,
+            "target": {
+              "relation": "ally"
+            }
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              200,
+              200,
+              200,
+              700,
+              700,
+              1100,
+              1500
+            ],
+            "heal_pct": [
+              10,
+              10,
+              10,
+              10,
+              15,
+              15,
+              15
+            ],
+            "target": {
+              "limit": [
+                3,
+                3,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "heal",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "heal_pct": [
+              10,
+              10,
+              10,
+              10,
+              20,
+              20,
+              20
+            ],
+            "only_if_target": {
+              "or": [
+                {
+                  "traits": {
+                    "and": [
+                      {
+                        "has_any": [
+                          "Shield"
+                        ]
+                      },
+                      {
+                        "has_any": [
+                          "Minion"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "character": [
+                    "NickFury"
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "ai_filter": "heal_standard",
+        "cost": 5,
+        "power_mul": [
+          0,
+          49,
+          96,
+          143,
+          190,
+          237,
+          286
+        ],
+        "start_energy": 5
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Support",
+        "Shield",
+        "Minion"
+      ]
+    },
+    "War_ShieldSupport_Stealth": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  110,
+                  140,
+                  160,
+                  190,
+                  210,
+                  250
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "change_pct": -25
+          },
+          {
+            "action": "proc_transfer",
+            "action_pct": [
+              50,
+              50,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "assist": {},
+            "category": "buff",
+            "count": 1,
+            "counter": true,
+            "recipient": {
+              "filter": {
+                "character": [
+                  "NickFury"
+                ]
+              },
+              "relation": "ally",
+              "type": "random"
+            },
+            "removepct": 100,
+            "transferpct": 100,
+            "visualid": "basic2"
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "NickFury"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            5,
+            5,
+            10,
+            10,
+            20
+          ],
+          "stat": "focus_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Counter",
+                  "use_count": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "character": [
+                    "NickFury"
+                  ]
+                },
+                "limit": 1,
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                100
+              ],
+              "procs": [
+                {
+                  "proc": "Counter",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "filter": {
+                  "or": [
+                    {
+                      "traits": {
+                        "and": [
+                          {
+                            "has_any": [
+                              "Shield"
+                            ]
+                          },
+                          {
+                            "has_any": [
+                              "Minion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "character": [
+                        "NickFury"
+                      ]
+                    }
+                  ]
+                },
+                "limit": [
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        19,
+        38,
+        58,
+        80,
+        102
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  30,
+                  43,
+                  58,
+                  70,
+                  89,
+                  96,
+                  111
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "turn_meter",
+            "action_cond": "if_has_crit_result",
+            "change_pct": -25
+          },
+          {
+            "action": "proc_transfer",
+            "action_pct": [
+              50,
+              50,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "category": "buff",
+            "count": 1,
+            "recipient": {
+              "filter": {
+                "character": [
+                  "NickFury"
+                ]
+              },
+              "relation": "ally",
+              "type": "random"
+            },
+            "removepct": 100,
+            "transferpct": 100,
+            "visualid": "basic2"
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "Stealth",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc",
+            "apply_count": [
+              2,
+              2,
+              {
+                "f": 2,
+                "t": 3
+              },
+              {
+                "f": 2,
+                "t": 3
+              },
+              {
+                "f": 2,
+                "t": 3
+              },
+              3,
+              3
+            ],
+            "procs": [
+              {
+                "proc": "HoT",
+                "use_count": 1
+              },
+              {
+                "proc": "HoT",
+                "use_count": 1
+              },
+              {
+                "proc": "HoT",
+                "use_count": 1
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "apply_count": 1,
+            "only_if_target": {
+              "or": [
+                {
+                  "traits": {
+                    "and": [
+                      {
+                        "has_any": [
+                          "Shield"
+                        ]
+                      },
+                      {
+                        "has_any": [
+                          "Minion"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "character": [
+                    "NickFury"
+                  ]
+                }
+              ]
+            },
+            "procs": [
+              {
+                "proc": "HoT",
+                "use_count": 1
+              }
+            ]
+          },
+          {
+            "action": "heal",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "heal_amt": [
+              0,
+              500,
+              500,
+              900,
+              900,
+              900,
+              1200
+            ],
+            "heal_pct": 10
+          }
+        ],
+        "cost": 2,
+        "power_mul": [
+          0,
+          49,
+          96,
+          143,
+          190,
+          237,
+          286
+        ],
+        "start_energy": 2
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Support",
+        "Shield",
+        "Minion"
+      ]
+    },
+    "War_ShieldTank_Stun": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  100,
+                  130,
+                  160,
+                  200,
+                  230,
+                  270
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "Slow",
+                "use_count": 1
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Taunt",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "below_health",
+          "exec_for": {
+            "owner_ok": false,
+            "relationship": "ally"
+          },
+          "exec_value": 50
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "DefenseUp",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "below_health",
+          "exec_for": {
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "NickFury"
+                ]
+              }
+            ],
+            "owner_ok": false,
+            "relationship": "ally"
+          },
+          "exec_value": 50
+        }
+      ],
+      "passive_power_mul": [
+        19,
+        38,
+        58,
+        80,
+        102
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            10,
+            10,
+            10,
+            15,
+            20
+          ],
+          "stat": "block_chance_pct"
+        },
+        {
+          "delta": [
+            0,
+            0,
+            10
+          ],
+          "stat": "block_amount_pct"
+        },
+        {
+          "delta": [
+            0,
+            10
+          ],
+          "for_each": {
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "NickFury"
+                ]
+              }
+            ],
+            "owner_ok": false,
+            "relationship": "ally"
+          },
+          "stat": "block_chance_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  50,
+                  64,
+                  78,
+                  92,
+                  106,
+                  120,
+                  135
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "Slow",
+                "use_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  90,
+                  140,
+                  180,
+                  230,
+                  270,
+                  320,
+                  370
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "only_if": {
+              "target": {
+                "procs": [
+                  "Slow"
+                ]
+              }
+            },
+            "procs": [
+              {
+                "proc": "Stun",
+                "use_count": 1
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  120,
+                  160,
+                  210,
+                  250,
+                  300,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          0,
+          49,
+          96,
+          143,
+          190,
+          237,
+          286
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Protector",
+        "Shield",
+        "Minion"
+      ]
     },
     "Wasp": {
       "basic": {
