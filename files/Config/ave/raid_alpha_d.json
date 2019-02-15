@@ -1,7 +1,7 @@
 {
-  "Name": "raid_alpha_b",
+  "Name": "raid_alpha_d",
   "RaidDetails": {
-    "raidId": "raid_alpha_b",
+    "raidId": "raid_alpha_d",
     "rows": 15,
     "columns": 12,
     "isOperation": false,
@@ -220,7 +220,7 @@
     "rooms": {
       "H1": {
         "roomId": "H1",
-        "name": "evr_alpha2_start",
+        "name": "evr_alpha4_start",
         "starting": true,
         "objective": false,
         "missions": {},
@@ -244,7 +244,7 @@
       },
       "G1": {
         "roomId": "G1",
-        "name": "evr_alpha2_xx",
+        "name": "evr_alpha4_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -268,7 +268,7 @@
       },
       "H2": {
         "roomId": "H2",
-        "name": "evr_alpha2_xx",
+        "name": "evr_alpha4_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -292,7 +292,7 @@
       },
       "I1": {
         "roomId": "I1",
-        "name": "evr_alpha2_xx",
+        "name": "evr_alpha4_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -316,18 +316,18 @@
       },
       "F1": {
         "roomId": "F1",
-        "name": "evr_alpha2_01",
+        "name": "evr_alpha4_01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_01",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_01",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -339,11 +339,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -369,18 +373,18 @@
       },
       "E2": {
         "roomId": "E2",
-        "name": "evr_alpha2_02",
+        "name": "evr_alpha4_02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_02",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_02",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -392,11 +396,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -422,18 +430,18 @@
       },
       "F2": {
         "roomId": "F2",
-        "name": "evr_alpha2_03",
+        "name": "evr_alpha4_03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_03",
+            "ID": "evr_alpha4_03",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -445,11 +453,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -475,18 +488,18 @@
       },
       "G2": {
         "roomId": "G2",
-        "name": "evr_alpha2_04",
+        "name": "evr_alpha4_04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_04",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_04",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -498,11 +511,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -528,18 +545,18 @@
       },
       "I2": {
         "roomId": "I2",
-        "name": "evr_alpha2_04",
+        "name": "evr_alpha4_04",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_04",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_04",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -551,11 +568,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -581,18 +602,18 @@
       },
       "J2": {
         "roomId": "J2",
-        "name": "evr_alpha2_03",
+        "name": "evr_alpha4_03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_03",
+            "ID": "evr_alpha4_03",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -604,11 +625,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -634,18 +660,18 @@
       },
       "K2": {
         "roomId": "K2",
-        "name": "evr_alpha2_02",
+        "name": "evr_alpha4_02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_02",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_02",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -657,11 +683,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -687,18 +717,18 @@
       },
       "J1": {
         "roomId": "J1",
-        "name": "evr_alpha2_01",
+        "name": "evr_alpha4_01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_01",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_01",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -710,11 +740,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -740,18 +774,18 @@
       },
       "D3": {
         "roomId": "D3",
-        "name": "evr_alpha2_05",
+        "name": "evr_alpha4_05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_05",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_05",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -763,11 +797,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -793,18 +831,18 @@
       },
       "E3": {
         "roomId": "E3",
-        "name": "evr_boss_car_mb_d02_l51_v01",
+        "name": "evr_boss_car_mb_d04_l66_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l51_v01",
+            "ID": "evr_boss_car_mb_d04_l66_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -851,18 +889,18 @@
       },
       "F3": {
         "roomId": "F3",
-        "name": "evr_alpha2_06",
+        "name": "evr_alpha4_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_06",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_06",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -874,11 +912,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -904,18 +946,18 @@
       },
       "G3": {
         "roomId": "G3",
-        "name": "evr_alpha2_07",
+        "name": "evr_alpha4_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_07",
+            "ID": "evr_alpha4_07",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -927,11 +969,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -957,18 +1004,18 @@
       },
       "I3": {
         "roomId": "I3",
-        "name": "evr_alpha2_07",
+        "name": "evr_alpha4_07",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_07",
+            "ID": "evr_alpha4_07",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -980,11 +1027,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1010,18 +1062,18 @@
       },
       "J3": {
         "roomId": "J3",
-        "name": "evr_alpha2_06",
+        "name": "evr_alpha4_06",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_06",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_06",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1033,11 +1085,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1063,18 +1119,18 @@
       },
       "K3": {
         "roomId": "K3",
-        "name": "evr_boss_car_mb_d02_l51_v01",
+        "name": "evr_boss_car_mb_d04_l66_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l51_v01",
+            "ID": "evr_boss_car_mb_d04_l66_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1121,18 +1177,18 @@
       },
       "L3": {
         "roomId": "L3",
-        "name": "evr_alpha2_05",
+        "name": "evr_alpha4_05",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_05",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_05",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1144,11 +1200,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1174,18 +1234,18 @@
       },
       "C4": {
         "roomId": "C4",
-        "name": "evr_alpha2_09",
+        "name": "evr_alpha4_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_09",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_09",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1197,11 +1257,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1227,18 +1291,18 @@
       },
       "D4": {
         "roomId": "D4",
-        "name": "evr_alpha2_10",
+        "name": "evr_alpha4_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_10",
+            "ID": "evr_alpha4_10",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1250,11 +1314,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1280,18 +1349,18 @@
       },
       "E4": {
         "roomId": "E4",
-        "name": "evr_alpha2_11",
+        "name": "evr_alpha4_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_11",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_11",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1303,11 +1372,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1333,18 +1406,18 @@
       },
       "F4": {
         "roomId": "F4",
-        "name": "evr_boss_car_mb_d02_l51_v02",
+        "name": "evr_boss_car_mb_d04_l66_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l51_v02",
+            "ID": "evr_boss_car_mb_d04_l66_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1391,18 +1464,18 @@
       },
       "G4": {
         "roomId": "G4",
-        "name": "evr_alpha2_12",
+        "name": "evr_alpha4_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_12",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_12",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1414,11 +1487,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1444,18 +1521,18 @@
       },
       "I4": {
         "roomId": "I4",
-        "name": "evr_alpha2_12",
+        "name": "evr_alpha4_12",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_12",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_12",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1467,11 +1544,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1497,18 +1578,18 @@
       },
       "J4": {
         "roomId": "J4",
-        "name": "evr_boss_car_mb_d02_l51_v02",
+        "name": "evr_boss_car_mb_d04_l66_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l51_v02",
+            "ID": "evr_boss_car_mb_d04_l66_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1555,18 +1636,18 @@
       },
       "K4": {
         "roomId": "K4",
-        "name": "evr_alpha2_11",
+        "name": "evr_alpha4_11",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_11",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_11",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1578,11 +1659,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1608,18 +1693,18 @@
       },
       "L4": {
         "roomId": "L4",
-        "name": "evr_alpha2_10",
+        "name": "evr_alpha4_10",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_10",
+            "ID": "evr_alpha4_10",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1631,11 +1716,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1661,18 +1751,18 @@
       },
       "M4": {
         "roomId": "M4",
-        "name": "evr_alpha2_09",
+        "name": "evr_alpha4_09",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_09",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_09",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1684,11 +1774,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1714,18 +1808,18 @@
       },
       "N5": {
         "roomId": "N5",
-        "name": "evr_alpha2_13",
+        "name": "evr_alpha4_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_13",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_13",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1737,11 +1831,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1767,18 +1865,18 @@
       },
       "M5": {
         "roomId": "M5",
-        "name": "evr_boss_car_mb_d02_l54_v01",
+        "name": "evr_boss_car_mb_d04_l70_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l54_v01",
+            "ID": "evr_boss_car_mb_d04_l70_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1825,18 +1923,18 @@
       },
       "L5": {
         "roomId": "L5",
-        "name": "evr_alpha2_14",
+        "name": "evr_alpha4_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_14",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_14",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1848,11 +1946,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1878,18 +1980,18 @@
       },
       "K5": {
         "roomId": "K5",
-        "name": "evr_alpha2_15",
+        "name": "evr_alpha4_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_15",
+            "ID": "evr_alpha4_15",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1901,11 +2003,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1931,18 +2038,18 @@
       },
       "J5": {
         "roomId": "J5",
-        "name": "evr_alpha2_16",
+        "name": "evr_alpha4_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_16",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_16",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1954,11 +2061,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -1984,18 +2095,18 @@
       },
       "F5": {
         "roomId": "F5",
-        "name": "evr_alpha2_16",
+        "name": "evr_alpha4_16",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_16",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_16",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2007,11 +2118,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2037,18 +2152,18 @@
       },
       "E5": {
         "roomId": "E5",
-        "name": "evr_alpha2_15",
+        "name": "evr_alpha4_15",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_15",
+            "ID": "evr_alpha4_15",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2060,11 +2175,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2090,18 +2210,18 @@
       },
       "D5": {
         "roomId": "D5",
-        "name": "evr_alpha2_14",
+        "name": "evr_alpha4_14",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_14",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_14",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2113,11 +2233,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2143,18 +2267,18 @@
       },
       "C5": {
         "roomId": "C5",
-        "name": "evr_boss_car_mb_d02_l54_v01",
+        "name": "evr_boss_car_mb_d04_l70_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l54_v01",
+            "ID": "evr_boss_car_mb_d04_l70_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2201,18 +2325,18 @@
       },
       "B5": {
         "roomId": "B5",
-        "name": "evr_alpha2_13",
+        "name": "evr_alpha4_13",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_13",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_13",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2224,11 +2348,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2254,18 +2382,18 @@
       },
       "A6": {
         "roomId": "A6",
-        "name": "evr_alpha2_17",
+        "name": "evr_alpha4_17",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_17",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_17",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2277,11 +2405,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2307,18 +2439,18 @@
       },
       "B6": {
         "roomId": "B6",
-        "name": "evr_alpha2_18",
+        "name": "evr_alpha4_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_18",
+            "ID": "evr_alpha4_18",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2330,11 +2462,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Cosmic",
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2360,18 +2497,18 @@
       },
       "C6": {
         "roomId": "C6",
-        "name": "evr_alpha2_19",
+        "name": "evr_alpha4_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_19",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_19",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2383,11 +2520,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2413,18 +2554,18 @@
       },
       "D6": {
         "roomId": "D6",
-        "name": "evr_boss_car_mb_d02_l54_v02",
+        "name": "evr_boss_car_mb_d04_l70_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l54_v02",
+            "ID": "evr_boss_car_mb_d04_l70_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2471,18 +2612,18 @@
       },
       "E6": {
         "roomId": "E6",
-        "name": "evr_alpha2_20",
+        "name": "evr_alpha4_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_20",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_20",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2494,11 +2635,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2524,18 +2669,18 @@
       },
       "K6": {
         "roomId": "K6",
-        "name": "evr_alpha2_20",
+        "name": "evr_alpha4_20",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_20",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_20",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2547,11 +2692,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2577,18 +2726,18 @@
       },
       "L6": {
         "roomId": "L6",
-        "name": "evr_boss_car_mb_d02_l54_v02",
+        "name": "evr_boss_car_mb_d04_l70_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l54_v02",
+            "ID": "evr_boss_car_mb_d04_l70_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2635,18 +2784,18 @@
       },
       "M6": {
         "roomId": "M6",
-        "name": "evr_alpha2_19",
+        "name": "evr_alpha4_19",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_19",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_19",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2658,11 +2807,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2688,18 +2841,18 @@
       },
       "N6": {
         "roomId": "N6",
-        "name": "evr_alpha2_18",
+        "name": "evr_alpha4_18",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_18",
+            "ID": "evr_alpha4_18",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2711,11 +2864,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2741,18 +2899,18 @@
       },
       "O6": {
         "roomId": "O6",
-        "name": "evr_alpha2_17",
+        "name": "evr_alpha4_17",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_17",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_17",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2764,11 +2922,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2794,18 +2956,18 @@
       },
       "A7": {
         "roomId": "A7",
-        "name": "evr_boss_car_mb_d02_l57_v01",
+        "name": "evr_boss_car_mb_d04_l72_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v01",
+            "ID": "evr_boss_car_mb_d04_l72_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_high_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2851,18 +3013,18 @@
       },
       "B7": {
         "roomId": "B7",
-        "name": "evr_alpha2_21",
+        "name": "evr_alpha4_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_21",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_21",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2874,11 +3036,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2904,18 +3070,18 @@
       },
       "C7": {
         "roomId": "C7",
-        "name": "evr_alpha2_22",
+        "name": "evr_alpha4_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_22",
+            "ID": "evr_alpha4_22",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2927,11 +3093,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -2957,18 +3128,18 @@
       },
       "D7": {
         "roomId": "D7",
-        "name": "evr_alpha2_23",
+        "name": "evr_alpha4_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_23",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_23",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -2980,11 +3151,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3010,18 +3185,18 @@
       },
       "A8": {
         "roomId": "A8",
-        "name": "evr_alpha2_24",
+        "name": "evr_alpha4_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_24",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_24",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3033,11 +3208,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3063,18 +3242,18 @@
       },
       "B8": {
         "roomId": "B8",
-        "name": "evr_boss_car_mb_d02_l57_v02",
+        "name": "evr_boss_car_mb_d04_l72_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v02",
+            "ID": "evr_boss_car_mb_d04_l72_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3120,18 +3299,18 @@
       },
       "C8": {
         "roomId": "C8",
-        "name": "evr_alpha2_25",
+        "name": "evr_alpha4_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_25",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_25",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3143,11 +3322,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3173,18 +3356,18 @@
       },
       "A9": {
         "roomId": "A9",
-        "name": "evr_alpha2_26",
+        "name": "evr_alpha4_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_26",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_26",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3196,11 +3379,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3226,18 +3413,18 @@
       },
       "B9": {
         "roomId": "B9",
-        "name": "evr_alpha2_27",
+        "name": "evr_alpha4_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_27",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_27",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3249,11 +3436,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3279,18 +3470,18 @@
       },
       "C9": {
         "roomId": "C9",
-        "name": "evr_boss_car_mb_d02_l57_v03",
+        "name": "evr_boss_car_mb_d04_l72_v03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v03",
+            "ID": "evr_boss_car_mb_d04_l72_v03",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3329,25 +3520,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "C10",
           "B9",
           ""
         ]
       },
       "A10": {
         "roomId": "A10",
-        "name": "evr_boss_car_fb_d02_l61_v01",
+        "name": "evr_boss_car_fb_d04_l73_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_fb_d02_l61_v01",
+            "ID": "evr_boss_car_fb_d04_l73_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_boss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_boss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3382,25 +3573,25 @@
           "y": 0
         },
         "nextRooms": [
-          "A11",
+          "",
           null,
           null
         ]
       },
       "B10": {
         "roomId": "B10",
-        "name": "evr_alpha2_28",
+        "name": "evr_alpha4_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_28",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_28",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3412,11 +3603,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3442,18 +3637,18 @@
       },
       "L7": {
         "roomId": "L7",
-        "name": "evr_alpha2_23",
+        "name": "evr_alpha4_23",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_23",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_23",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3465,11 +3660,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3495,18 +3694,18 @@
       },
       "M7": {
         "roomId": "M7",
-        "name": "evr_alpha2_22",
+        "name": "evr_alpha4_22",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_22",
+            "ID": "evr_alpha4_22",
             "icon": "raid_Icon_Generic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3518,11 +3717,16 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "anyTrait": [
+                  "Global",
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3548,18 +3752,18 @@
       },
       "N7": {
         "roomId": "N7",
-        "name": "evr_alpha2_21",
+        "name": "evr_alpha4_21",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_21",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_21",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3571,11 +3775,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3601,18 +3809,18 @@
       },
       "O7": {
         "roomId": "O7",
-        "name": "evr_boss_car_mb_d02_l57_v01",
+        "name": "evr_boss_car_mb_d04_l72_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v01",
+            "ID": "evr_boss_car_mb_d04_l72_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3658,18 +3866,18 @@
       },
       "M8": {
         "roomId": "M8",
-        "name": "evr_alpha2_25",
+        "name": "evr_alpha4_25",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_25",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_25",
+            "icon": "raid_Icon_City.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3681,11 +3889,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_CITY_HEROES",
+              "shortDescription": "ID_UI_ONLY_CITY_HEROES",
+              "longDescription": "ID_UI_ONLY_CITY_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "City"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3711,18 +3923,18 @@
       },
       "N8": {
         "roomId": "N8",
-        "name": "evr_boss_car_mb_d02_l57_v02",
+        "name": "evr_boss_car_mb_d04_l72_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v02",
+            "ID": "evr_boss_car_mb_d04_l72_v02",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3768,18 +3980,18 @@
       },
       "O8": {
         "roomId": "O8",
-        "name": "evr_alpha2_24",
+        "name": "evr_alpha4_24",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_24",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_24",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3791,11 +4003,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3821,18 +4037,18 @@
       },
       "M9": {
         "roomId": "M9",
-        "name": "evr_boss_car_mb_d02_l57_v03",
+        "name": "evr_boss_car_mb_d04_l72_v03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_mb_d02_l57_v03",
+            "ID": "evr_boss_car_mb_d04_l72_v03",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_miniboss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_miniboss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3878,18 +4094,18 @@
       },
       "N9": {
         "roomId": "N9",
-        "name": "evr_alpha2_27",
+        "name": "evr_alpha4_27",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_27",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_27",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3901,11 +4117,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3931,18 +4151,18 @@
       },
       "O9": {
         "roomId": "O9",
-        "name": "evr_alpha2_26",
+        "name": "evr_alpha4_26",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_26",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_26",
+            "icon": "raid_Icon_Cosmic.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -3954,11 +4174,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_COSMIC_HEROES",
+              "shortDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "longDescription": "ID_UI_ONLY_COSMIC_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Cosmic"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -3984,18 +4208,18 @@
       },
       "N10": {
         "roomId": "N10",
-        "name": "evr_alpha2_28",
+        "name": "evr_alpha4_28",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_alpha2_28",
-            "icon": "raid_Icon_Generic.png",
+            "ID": "evr_alpha4_28",
+            "icon": "raid_Icon_Global.png",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_mid_battledrops",
+                "m_rewardID": "raid_venom_201809_t4_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4007,11 +4231,15 @@
             ],
             "requirements": {},
             "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
+              "description": "ID_UI_ONLY_GLOBAL_HEROES",
+              "shortDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "longDescription": "ID_UI_ONLY_GLOBAL_HEROES",
+              "quantity": 5,
+              "filters": {
+                "allTraits": [
+                  "Global"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": false
@@ -4031,24 +4259,24 @@
         },
         "nextRooms": [
           "",
-          "",
+          null,
           "O10"
         ]
       },
       "O10": {
         "roomId": "O10",
-        "name": "evr_boss_car_fb_d02_l61_v02",
+        "name": "evr_boss_car_fb_d04_l73_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_car_fb_d02_l61_v02",
+            "ID": "evr_boss_car_fb_d04_l73_v01",
             "icon": "Portrait_Venom",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_venom_201809_battledrops_mid_boss",
+                "m_rewardID": "raid_venom_201809_battledrops_t4_boss",
                 "m_firstTimeOnly": false
               }
             ],
@@ -4083,7 +4311,7 @@
           "y": 0
         },
         "nextRooms": [
-          "O11",
+          "",
           null,
           null
         ]

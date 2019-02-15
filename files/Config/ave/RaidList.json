@@ -87,7 +87,8 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      }
+      },
+      "isEvent": false
     },
     {
       "raidId": "raid_lvl_30",
@@ -286,7 +287,8 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      }
+      },
+      "isEvent": false
     },
     {
       "raidId": "raid_lvl_40",
@@ -405,106 +407,8 @@
           "level": 1,
           "loyalty": 1
         }
-      }
-    },
-    {
-      "raidId": "raid_lvl_50",
-      "name": "ID_RAIDS_LEVEL_50_NAME",
-      "duration": 24,
-      "total_rooms": 59,
-      "total_missions": 51,
-      "description": "ID_RAIDS_LEVEL_50_DESC",
-      "details": "ID_RAIDS_LEVEL_50_DETAILS",
-      "image": "Ultimus_Raid5",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
       },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_45_60",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [
-        "Ultimus_Raid5",
-        "Ultimus_Raid5",
-        "Ultimus_Raid5"
-      ],
-      "cost": [
-        {
-          "res": "ave_key_ultimus",
-          "amount": 11500
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_participation_50",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_lvl50_rnk01_mdl1",
-            "r_ctrb_lvl50_rnk01_mdl2",
-            "r_ctrb_lvl50_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_lvl50_rnk02_mdl1",
-            "r_ctrb_lvl50_rnk02_mdl2",
-            "r_ctrb_lvl50_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_lvl50_rnk03_mdl1",
-            "r_ctrb_lvl50_rnk03_mdl2",
-            "r_ctrb_lvl50_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_lvl50_rnk04_mdl1",
-            "r_ctrb_lvl50_rnk04_mdl2",
-            "r_ctrb_lvl50_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
+      "isEvent": false
     },
     {
       "raidId": "raid_lvl_50_v2",
@@ -631,7 +535,7 @@
       "nearZoom": 4,
       "farZoom": 10,
       "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_65",
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
       "player_limit": 24,
       "group": "hydra_raids",
       "isOperation": false,
@@ -643,6 +547,106 @@
         "Ultimus_Raid6",
         "Ultimus_Raid6",
         "Ultimus_Raid6"
+      ],
+      "cost": [
+        {
+          "res": "ave_key_ultimus",
+          "amount": 14400
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_participation_65",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_lvl65_rnk01_mdl1",
+            "r_ctrb_lvl65_rnk01_mdl2",
+            "r_ctrb_lvl65_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_lvl65_rnk02_mdl1",
+            "r_ctrb_lvl65_rnk02_mdl2",
+            "r_ctrb_lvl65_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_lvl65_rnk03_mdl1",
+            "r_ctrb_lvl65_rnk03_mdl2",
+            "r_ctrb_lvl65_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_lvl65_rnk04_mdl1",
+            "r_ctrb_lvl65_rnk04_mdl2",
+            "r_ctrb_lvl65_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      },
+      "isEvent": false
+    },
+    {
+      "raidId": "raid_lvl_70",
+      "name": "ID_RAIDS_LEVEL_70_NAME",
+      "duration": 24,
+      "total_rooms": 81,
+      "total_missions": 55,
+      "description": "ID_RAIDS_LEVEL_70_DESC",
+      "details": "ID_RAIDS_LEVEL_70_DETAILS",
+      "image": "Ultimus_Raid7",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": -2550,
+        "y": -1250
+      },
+      "scrollBoundarySize": {
+        "x": 3000,
+        "y": 2000
+      },
+      "nearZoom": 5,
+      "farZoom": 14.6,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_70",
+      "player_limit": 24,
+      "group": "test_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [
+        "Ultimus_Raid7",
+        "Ultimus_Raid7",
+        "Ultimus_Raid7"
       ],
       "cost": [
         {
@@ -721,14 +725,14 @@
       "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
       "startNodePosition": {
         "x": -2250,
-        "y": -1250
+        "y": -1500
       },
       "scrollBoundarySize": {
-        "x": 5000,
-        "y": 3250
+        "x": 4000,
+        "y": 2750
       },
       "nearZoom": 6,
-      "farZoom": 14,
+      "farZoom": 14.2,
       "backgroundParallaxDelta": 0.1,
       "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
       "player_limit": 24,
@@ -816,14 +820,14 @@
       "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
       "startNodePosition": {
         "x": -2250,
-        "y": -1250
+        "y": -1500
       },
       "scrollBoundarySize": {
-        "x": 5000,
-        "y": 3250
+        "x": 4000,
+        "y": 2750
       },
       "nearZoom": 6,
-      "farZoom": 14,
+      "farZoom": 14.2,
       "backgroundParallaxDelta": 0.1,
       "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
       "player_limit": 24,
@@ -911,14 +915,14 @@
       "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
       "startNodePosition": {
         "x": -2250,
-        "y": -1250
+        "y": -1500
       },
       "scrollBoundarySize": {
-        "x": 5000,
-        "y": 3250
+        "x": 4000,
+        "y": 2750
       },
       "nearZoom": 6,
-      "farZoom": 14,
+      "farZoom": 14.2,
       "backgroundParallaxDelta": 0.1,
       "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
       "player_limit": 24,
@@ -991,223 +995,33 @@
       }
     },
     {
-      "raidId": "raid_beta_a",
-      "name": "ID_RAIDS_BETA_A_NAME",
+      "raidId": "raid_alpha_d",
+      "name": "ID_RAIDS_ALPHA_D_NAME",
       "duration": 24,
-      "total_rooms": 66,
-      "total_missions": 60,
-      "description": "ID_RAIDS_BETA_A_DESC",
-      "details": "ID_RAIDS_BETA_A_DETAILS",
-      "image": "Beta_Raid1",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -3000,
-        "y": -1000
-      },
-      "scrollBoundarySize": {
-        "x": 3000,
-        "y": 5000
-      },
-      "nearZoom": 5,
-      "farZoom": 14,
-      "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 2,
-      "stPlayerLimit": 12,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_juggernaut_201810_low_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_low_rnk01_mdl1",
-            "r_ctrb_juggernaut_201810_low_rnk01_mdl2",
-            "r_ctrb_juggernaut_201810_low_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_low_rnk02_mdl1",
-            "r_ctrb_juggernaut_201810_low_rnk02_mdl2",
-            "r_ctrb_juggernaut_201810_low_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_low_rnk03_mdl1",
-            "r_ctrb_juggernaut_201810_low_rnk03_mdl2",
-            "r_ctrb_juggernaut_201810_low_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_low_rnk04_mdl1",
-            "r_ctrb_juggernaut_201810_low_rnk04_mdl2",
-            "r_ctrb_juggernaut_201810_low_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_beta_b",
-      "name": "ID_RAIDS_BETA_B_NAME",
-      "duration": 24,
-      "total_rooms": 76,
+      "total_rooms": 74,
       "total_missions": 70,
-      "description": "ID_RAIDS_BETA_B_DESC",
-      "details": "ID_RAIDS_BETA_B_DETAILS",
-      "image": "Beta_Raid2",
+      "description": "ID_RAIDS_ALPHA_D_DESC",
+      "details": "ID_RAIDS_ALPHA_D_DETAILS",
+      "image": "Alpha_Raid4",
       "mapBgImageTopLeft": "raid_Map_TL.png",
       "mapBgImageTopRight": "raid_Map_TR.png",
       "mapBgImageBottomLeft": "raid_Map_BL.png",
       "mapBgImageBottomRight": "raid_Map_BR.png",
       "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
       "startNodePosition": {
-        "x": -3000,
-        "y": -1000
+        "x": -2250,
+        "y": -1500
       },
       "scrollBoundarySize": {
-        "x": 3000,
-        "y": 5000
+        "x": 4000,
+        "y": 2750
       },
-      "nearZoom": 5,
-      "farZoom": 14,
+      "nearZoom": 6,
+      "farZoom": 14.2,
       "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
       "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14200
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_juggernaut_201810_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_mid_rnk01_mdl1",
-            "r_ctrb_juggernaut_201810_mid_rnk01_mdl2",
-            "r_ctrb_juggernaut_201810_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_mid_rnk02_mdl1",
-            "r_ctrb_juggernaut_201810_mid_rnk02_mdl2",
-            "r_ctrb_juggernaut_201810_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_mid_rnk03_mdl1",
-            "r_ctrb_juggernaut_201810_mid_rnk03_mdl2",
-            "r_ctrb_juggernaut_201810_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_juggernaut_201810_mid_rnk04_mdl1",
-            "r_ctrb_juggernaut_201810_mid_rnk04_mdl2",
-            "r_ctrb_juggernaut_201810_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_beta_c",
-      "name": "ID_RAIDS_BETA_C_NAME",
-      "duration": 24,
-      "total_rooms": 76,
-      "total_missions": 70,
-      "description": "ID_RAIDS_BETA_C_DESC",
-      "details": "ID_RAIDS_BETA_C_DETAILS",
-      "image": "Beta_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -3000,
-        "y": -1000
-      },
-      "scrollBoundarySize": {
-        "x": 3000,
-        "y": 5000
-      },
-      "nearZoom": 5,
-      "farZoom": 14,
-      "backgroundParallaxDelta": 0.1,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
-      "player_limit": 24,
-      "group": "deprecated_raids",
+      "group": "alpha_raids",
       "isOperation": false,
       "stCount": 3,
       "stPlayerLimit": 8,
@@ -1227,42 +1041,42 @@
         60,
         100
       ],
-      "consolation_reward": "r_juggernaut_201810_high_participation",
+      "consolation_reward": "r_venom_201809_t4_participation",
       "tier_rewards": {
         "1": {
           "rankStart": 1,
           "rankEnd": 2,
           "rewards": [
-            "r_ctrb_juggernaut_201810_high_rnk01_mdl1",
-            "r_ctrb_juggernaut_201810_high_rnk01_mdl2",
-            "r_ctrb_juggernaut_201810_high_rnk01_mdl3"
+            "r_ctrb_venom_201809_t4_rnk01_mdl1",
+            "r_ctrb_venom_201809_t4_rnk01_mdl2",
+            "r_ctrb_venom_201809_t4_rnk01_mdl3"
           ]
         },
         "2": {
           "rankStart": 3,
           "rankEnd": 6,
           "rewards": [
-            "r_ctrb_juggernaut_201810_high_rnk02_mdl1",
-            "r_ctrb_juggernaut_201810_high_rnk02_mdl2",
-            "r_ctrb_juggernaut_201810_high_rnk02_mdl3"
+            "r_ctrb_venom_201809_t4_rnk02_mdl1",
+            "r_ctrb_venom_201809_t4_rnk02_mdl2",
+            "r_ctrb_venom_201809_t4_rnk02_mdl3"
           ]
         },
         "3": {
           "rankStart": 7,
           "rankEnd": 12,
           "rewards": [
-            "r_ctrb_juggernaut_201810_high_rnk03_mdl1",
-            "r_ctrb_juggernaut_201810_high_rnk03_mdl2",
-            "r_ctrb_juggernaut_201810_high_rnk03_mdl3"
+            "r_ctrb_venom_201809_t4_rnk03_mdl1",
+            "r_ctrb_venom_201809_t4_rnk03_mdl2",
+            "r_ctrb_venom_201809_t4_rnk03_mdl3"
           ]
         },
         "4": {
           "rankStart": 13,
           "rankEnd": 24,
           "rewards": [
-            "r_ctrb_juggernaut_201810_high_rnk04_mdl1",
-            "r_ctrb_juggernaut_201810_high_rnk04_mdl2",
-            "r_ctrb_juggernaut_201810_high_rnk04_mdl3"
+            "r_ctrb_venom_201809_t4_rnk04_mdl1",
+            "r_ctrb_venom_201809_t4_rnk04_mdl2",
+            "r_ctrb_venom_201809_t4_rnk04_mdl3"
           ]
         }
       },
@@ -1276,7 +1090,7 @@
       }
     },
     {
-      "raidId": "raid_beta_a_v2",
+      "raidId": "raid_beta_a",
       "name": "ID_RAIDS_BETA_A_NAME",
       "duration": 24,
       "total_rooms": 66,
@@ -1371,7 +1185,7 @@
       }
     },
     {
-      "raidId": "raid_beta_b_v2",
+      "raidId": "raid_beta_b",
       "name": "ID_RAIDS_BETA_B_NAME",
       "duration": 24,
       "total_rooms": 76,
@@ -1466,7 +1280,7 @@
       }
     },
     {
-      "raidId": "raid_beta_c_v2",
+      "raidId": "raid_beta_c",
       "name": "ID_RAIDS_BETA_C_NAME",
       "duration": 24,
       "total_rooms": 76,
@@ -1491,6 +1305,101 @@
       "farZoom": 14,
       "backgroundParallaxDelta": 0.1,
       "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+      "player_limit": 24,
+      "group": "beta_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14400
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_ultspiderman_201812_high_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_ultspiderman_201812_high_rnk01_mdl1",
+            "r_ctrb_ultspiderman_201812_high_rnk01_mdl2",
+            "r_ctrb_ultspiderman_201812_high_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_ultspiderman_201812_high_rnk02_mdl1",
+            "r_ctrb_ultspiderman_201812_high_rnk02_mdl2",
+            "r_ctrb_ultspiderman_201812_high_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_ultspiderman_201812_high_rnk03_mdl1",
+            "r_ctrb_ultspiderman_201812_high_rnk03_mdl2",
+            "r_ctrb_ultspiderman_201812_high_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_ultspiderman_201812_high_rnk04_mdl1",
+            "r_ctrb_ultspiderman_201812_high_rnk04_mdl2",
+            "r_ctrb_ultspiderman_201812_high_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_beta_d",
+      "name": "ID_RAIDS_BETA_D_NAME",
+      "duration": 24,
+      "total_rooms": 76,
+      "total_missions": 70,
+      "description": "ID_RAIDS_BETA_D_DESC",
+      "details": "ID_RAIDS_BETA_D_DETAILS",
+      "image": "Beta_Raid4",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": -3000,
+        "y": -900
+      },
+      "scrollBoundarySize": {
+        "x": 3000,
+        "y": 3500
+      },
+      "nearZoom": 6,
+      "farZoom": 14,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
       "player_limit": 24,
       "group": "beta_raids",
       "isOperation": false,
@@ -1928,1327 +1837,6 @@
             "r_ctrb_juggernaut_201810_t4_rnk04_mdl1",
             "r_ctrb_juggernaut_201810_t4_rnk04_mdl2",
             "r_ctrb_juggernaut_201810_t4_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_25",
-      "name": "ID_RAIDS_THANOS_LV_25_NAME",
-      "duration": 24,
-      "total_rooms": 16,
-      "total_missions": 14,
-      "description": "ID_RAIDS_THANOS_LV_25_DESC",
-      "details": "ID_RAIDS_THANOS_LV_25_DETAILS",
-      "image": "Thanos_Raid1",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -500,
-        "y": -200
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2100
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_25_40",
-      "player_limit": 4,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 1,
-      "stPlayerLimit": 4,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 4000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_low_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 1,
-          "rewards": [
-            "r_ctrb_no_thanos_low_rnk01_mdl1",
-            "r_ctrb_no_thanos_low_rnk01_mdl2",
-            "r_ctrb_no_thanos_low_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 2,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_low_rnk02_mdl1",
-            "r_ctrb_no_thanos_low_rnk02_mdl2",
-            "r_ctrb_no_thanos_low_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 3,
-          "rankEnd": 4,
-          "rewards": [
-            "r_ctrb_no_thanos_low_rnk03_mdl1",
-            "r_ctrb_no_thanos_low_rnk03_mdl2",
-            "r_ctrb_no_thanos_low_rnk03_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_50",
-      "name": "ID_RAIDS_THANOS_LV_50_NAME",
-      "duration": 24,
-      "total_rooms": 38,
-      "total_missions": 34,
-      "description": "ID_RAIDS_THANOS_LV_50_DESC",
-      "details": "ID_RAIDS_THANOS_LV_50_DETAILS",
-      "image": "Thanos_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk01_mdl1",
-            "r_ctrb_no_thanos_mid_rnk01_mdl2",
-            "r_ctrb_no_thanos_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk02_mdl1",
-            "r_ctrb_no_thanos_mid_rnk02_mdl2",
-            "r_ctrb_no_thanos_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk03_mdl1",
-            "r_ctrb_no_thanos_mid_rnk03_mdl2",
-            "r_ctrb_no_thanos_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk04_mdl1",
-            "r_ctrb_no_thanos_mid_rnk04_mdl2",
-            "r_ctrb_no_thanos_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_50_v2",
-      "name": "ID_RAIDS_THANOS_LV_50_NAME",
-      "duration": 24,
-      "total_rooms": 38,
-      "total_missions": 34,
-      "description": "ID_RAIDS_THANOS_LV_50_DESC",
-      "details": "ID_RAIDS_THANOS_LV_50_DETAILS",
-      "image": "Thanos_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk01_mdl1",
-            "r_ctrb_no_thanos_mid_rnk01_mdl2",
-            "r_ctrb_no_thanos_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk02_mdl1",
-            "r_ctrb_no_thanos_mid_rnk02_mdl2",
-            "r_ctrb_no_thanos_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk03_mdl1",
-            "r_ctrb_no_thanos_mid_rnk03_mdl2",
-            "r_ctrb_no_thanos_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk04_mdl1",
-            "r_ctrb_no_thanos_mid_rnk04_mdl2",
-            "r_ctrb_no_thanos_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_50_v3",
-      "name": "ID_RAIDS_THANOS_LV_50_NAME",
-      "duration": 24,
-      "total_rooms": 38,
-      "total_missions": 34,
-      "description": "ID_RAIDS_THANOS_LV_50_DESC",
-      "details": "ID_RAIDS_THANOS_LV_50_DETAILS",
-      "image": "Thanos_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk01_mdl1",
-            "r_ctrb_no_thanos_mid_rnk01_mdl2",
-            "r_ctrb_no_thanos_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk02_mdl1",
-            "r_ctrb_no_thanos_mid_rnk02_mdl2",
-            "r_ctrb_no_thanos_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk03_mdl1",
-            "r_ctrb_no_thanos_mid_rnk03_mdl2",
-            "r_ctrb_no_thanos_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_mid_rnk04_mdl1",
-            "r_ctrb_no_thanos_mid_rnk04_mdl2",
-            "r_ctrb_no_thanos_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_60",
-      "name": "ID_RAIDS_THANOS_LV_60_NAME",
-      "duration": 24,
-      "total_rooms": 69,
-      "total_missions": 65,
-      "description": "ID_RAIDS_THANOS_LV_60_DESC",
-      "details": "ID_RAIDS_THANOS_LV_60_DETAILS",
-      "image": "Thanos_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -1850,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 3000
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_60",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk01_mdl1",
-            "r_ctrb_no_thanos_high_rnk01_mdl2",
-            "r_ctrb_no_thanos_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk02_mdl1",
-            "r_ctrb_no_thanos_high_rnk02_mdl2",
-            "r_ctrb_no_thanos_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk03_mdl1",
-            "r_ctrb_no_thanos_high_rnk03_mdl2",
-            "r_ctrb_no_thanos_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk04_mdl1",
-            "r_ctrb_no_thanos_high_rnk04_mdl2",
-            "r_ctrb_no_thanos_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_60_v2",
-      "name": "ID_RAIDS_THANOS_LV_60_NAME",
-      "duration": 24,
-      "total_rooms": 69,
-      "total_missions": 65,
-      "description": "ID_RAIDS_THANOS_LV_60_DESC",
-      "details": "ID_RAIDS_THANOS_LV_60_DETAILS",
-      "image": "Thanos_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -1850,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 3000
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_60",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk01_mdl1",
-            "r_ctrb_no_thanos_high_rnk01_mdl2",
-            "r_ctrb_no_thanos_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk02_mdl1",
-            "r_ctrb_no_thanos_high_rnk02_mdl2",
-            "r_ctrb_no_thanos_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk03_mdl1",
-            "r_ctrb_no_thanos_high_rnk03_mdl2",
-            "r_ctrb_no_thanos_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk04_mdl1",
-            "r_ctrb_no_thanos_high_rnk04_mdl2",
-            "r_ctrb_no_thanos_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_thanos_lvl_60_v3",
-      "name": "ID_RAIDS_THANOS_LV_60_NAME",
-      "duration": 24,
-      "total_rooms": 69,
-      "total_missions": 65,
-      "description": "ID_RAIDS_THANOS_LV_60_DESC",
-      "details": "ID_RAIDS_THANOS_LV_60_DETAILS",
-      "image": "Thanos_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -1850,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 4096,
-        "y": 3000
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_60",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": "",
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_no_thanos_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk01_mdl1",
-            "r_ctrb_no_thanos_high_rnk01_mdl2",
-            "r_ctrb_no_thanos_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk02_mdl1",
-            "r_ctrb_no_thanos_high_rnk02_mdl2",
-            "r_ctrb_no_thanos_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk03_mdl1",
-            "r_ctrb_no_thanos_high_rnk03_mdl2",
-            "r_ctrb_no_thanos_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_no_thanos_high_rnk04_mdl1",
-            "r_ctrb_no_thanos_high_rnk04_mdl2",
-            "r_ctrb_no_thanos_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_deadpool_lvl_40",
-      "name": "ID_RAIDS_DEADPOOL_LV_40_NAME",
-      "duration": 2,
-      "total_rooms": 37,
-      "total_missions": 34,
-      "description": "ID_RAIDS_DEADPOOL_LV_40_DESC",
-      "details": "ID_RAIDS_DEADPOOL_LV_40_DETAILS",
-      "image": "Deadpool_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -800,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_40_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event02",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_deadpool_201807_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_deadpool_lvl_40_v2",
-      "name": "ID_RAIDS_DEADPOOL_LV_40_NAME",
-      "duration": 12,
-      "total_rooms": 37,
-      "total_missions": 34,
-      "description": "ID_RAIDS_DEADPOOL_LV_40_DESC",
-      "details": "ID_RAIDS_DEADPOOL_LV_40_DETAILS",
-      "image": "Deadpool_Raid1",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -800,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_40_50",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event02",
-          "amount": 14000
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_deadpool_201807_low_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_deadpool_201807_low_rnk01_mdl1",
-            "r_ctrb_deadpool_201807_low_rnk01_mdl2",
-            "r_ctrb_deadpool_201807_low_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_deadpool_201807_low_rnk02_mdl1",
-            "r_ctrb_deadpool_201807_low_rnk02_mdl2",
-            "r_ctrb_deadpool_201807_low_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_deadpool_201807_low_rnk03_mdl1",
-            "r_ctrb_deadpool_201807_low_rnk03_mdl2",
-            "r_ctrb_deadpool_201807_low_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_deadpool_201807_low_rnk04_mdl1",
-            "r_ctrb_deadpool_201807_low_rnk04_mdl2",
-            "r_ctrb_deadpool_201807_low_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_deadpool_lvl_60",
-      "name": "ID_RAIDS_DEADPOOL_LV_60_NAME",
-      "duration": 2,
-      "total_rooms": 52,
-      "total_missions": 50,
-      "description": "ID_RAIDS_DEADPOOL_LV_60_DESC",
-      "details": "ID_RAIDS_DEADPOOL_LV_60_DETAILS",
-      "image": "Deadpool_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event02",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_deadpool_201807_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk01_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk01_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk02_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk02_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk03_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk03_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk04_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk04_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_deadpool_lvl_60_v2",
-      "name": "ID_RAIDS_DEADPOOL_LV_60_NAME",
-      "duration": 12,
-      "total_rooms": 52,
-      "total_missions": 50,
-      "description": "ID_RAIDS_DEADPOOL_LV_60_DESC",
-      "details": "ID_RAIDS_DEADPOOL_LV_60_DETAILS",
-      "image": "Deadpool_Raid2",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event02",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_deadpool_201807_mid_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl1",
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl2",
-            "r_ctrb_deadpool_201807_mid_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_deadpool_lvl_65",
-      "name": "ID_RAIDS_DEADPOOL_LV_65_NAME",
-      "duration": 12,
-      "total_rooms": 52,
-      "total_missions": 50,
-      "description": "ID_RAIDS_DEADPOOL_LV_65_DESC",
-      "details": "ID_RAIDS_DEADPOOL_LV_65_DETAILS",
-      "image": "Deadpool_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -700,
-        "y": -400
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2400
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_65",
-      "player_limit": 24,
-      "group": "deprecated_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event02",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_deadpool_201807_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk01_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk01_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk02_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk02_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk03_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk03_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_deadpool_201807_high_rnk04_mdl1",
-            "r_ctrb_deadpool_201807_high_rnk04_mdl2",
-            "r_ctrb_deadpool_201807_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_test_alpha",
-      "name": "ID_RAIDS_ALPHA_TEST_NAME",
-      "duration": 24,
-      "total_rooms": 9,
-      "total_missions": 0,
-      "description": "ID_RAIDS_ALPHA_TEST_DESC",
-      "details": "ID_RAIDS_ALPHA_TEST_DETAILS",
-      "image": null,
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -500,
-        "y": -200
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2100
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": null,
-      "player_limit": 24,
-      "group": "test_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_ultspiderman_201812_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl3"
-          ]
-        }
-      },
-      "requirements": {},
-      "filters": {
-        "description": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "quantity": 0,
-        "filters": {}
-      }
-    },
-    {
-      "raidId": "raid_test_beta",
-      "name": "ID_RAIDS_BETA_TEST_NAME",
-      "duration": 24,
-      "total_rooms": 57,
-      "total_missions": 48,
-      "description": "ID_RAIDS_BETA_TEST_DESC",
-      "details": "ID_RAIDS_BETA_TEST_DETAILS",
-      "image": "Beta_Raid3",
-      "mapBgImageTopLeft": "raid_Map_TL.png",
-      "mapBgImageTopRight": "raid_Map_TR.png",
-      "mapBgImageBottomLeft": "raid_Map_BL.png",
-      "mapBgImageBottomRight": "raid_Map_BR.png",
-      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
-      "startNodePosition": {
-        "x": -500,
-        "y": -200
-      },
-      "scrollBoundarySize": {
-        "x": 3400,
-        "y": 2100
-      },
-      "nearZoom": 4,
-      "farZoom": 10,
-      "backgroundParallaxDelta": 0.5,
-      "recommendedPlayerLevel": null,
-      "player_limit": 24,
-      "group": "test_raids",
-      "isOperation": false,
-      "stCount": 3,
-      "stPlayerLimit": 8,
-      "stNextTeamUnlockThreshold": 0,
-      "allianceProgressText": null,
-      "strikeTeamImages": [],
-      "cost": [
-        {
-          "res": "ave_key_event01",
-          "amount": 14400
-        }
-      ],
-      "objectives": [],
-      "alliance_rewards": [],
-      "percent_complete_thresholds": [
-        30,
-        60,
-        100
-      ],
-      "consolation_reward": "r_ultspiderman_201812_high_participation",
-      "tier_rewards": {
-        "1": {
-          "rankStart": 1,
-          "rankEnd": 2,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk01_mdl3"
-          ]
-        },
-        "2": {
-          "rankStart": 3,
-          "rankEnd": 6,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk02_mdl3"
-          ]
-        },
-        "3": {
-          "rankStart": 7,
-          "rankEnd": 12,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk03_mdl3"
-          ]
-        },
-        "4": {
-          "rankStart": 13,
-          "rankEnd": 24,
-          "rewards": [
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl1",
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl2",
-            "r_ctrb_ultspiderman_201812_high_rnk04_mdl3"
           ]
         }
       },
