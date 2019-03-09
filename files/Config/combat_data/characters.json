@@ -13019,10 +13019,22 @@
                   170,
                   210,
                   240,
-                  280,
+                  290,
                   330
                 ],
                 "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  0,
+                  0,
+                  10,
+                  10,
+                  20,
+                  20,
+                  30
+                ],
+                "stat": "drain_pct"
               }
             ]
           },
@@ -13032,65 +13044,54 @@
               {
                 "delta": [
                   60,
-                  80,
-                  110,
-                  140,
-                  160,
+                  100,
+                  130,
+                  170,
+                  200,
                   200,
                   240
                 ],
                 "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  0,
+                  0,
+                  10,
+                  10,
+                  20,
+                  20,
+                  30
+                ],
+                "stat": "drain_pct"
               }
             ],
             "target": {
               "limit": [
+                1,
+                1,
+                1,
                 {
                   "f": 1,
-                  "p": 30,
-                  "t": 1
-                },
-                {
-                  "f": 1,
-                  "p": 30,
-                  "t": 1
-                },
-                {
-                  "f": 1,
-                  "p": 30,
-                  "t": 1
-                },
-                {
-                  "f": 1,
-                  "p": 40,
-                  "t": 1
-                },
-                {
-                  "f": 1,
-                  "p": 40,
-                  "t": 1
-                },
-                {
-                  "f": 1,
-                  "p": 40,
                   "t": 2
                 },
                 {
                   "f": 1,
-                  "p": 50,
                   "t": 2
-                }
+                },
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                2
               ]
             }
           },
           {
             "action": "proc_remove",
             "action_cond": "if_has_crit_result",
-            "action_pct": [
-              100
-            ],
             "category": "none",
             "procs": "Charged",
-            "skip_focus_check": true,
             "target": {
               "relation": "ally"
             },
@@ -13104,9 +13105,7 @@
             "category": "none",
             "counter": true,
             "delta": 1,
-            "max_duration": [
-              10
-            ],
+            "max_duration": 5,
             "only_procs": [
               "Charged"
             ],
@@ -13134,9 +13133,9 @@
                 {
                   "delta": [
                     100,
-                    140,
+                    150,
                     210,
-                    240,
+                    260,
                     330
                   ],
                   "stat": "ability_damage_pct"
@@ -13157,28 +13156,14 @@
           "actions": [
             {
               "action": "heal",
-              "heal_amt": [
-                500,
-                500,
-                500,
-                1000,
-                2000,
-                2000,
-                2000
+              "action_pct": [
+                0,
+                0,
+                100
               ],
-              "heal_pct": [
-                5,
-                5,
-                10,
-                10,
-                10,
-                10,
-                10
-              ],
+              "heal_pct": 10,
               "target": {
-                "limit": 10,
-                "relation": "ally",
-                "type": "random"
+                "relation": "ally"
               },
               "visualid": "basic2"
             }
@@ -13195,13 +13180,39 @@
       ],
       "passive_stats": [
         {
-          "delta": 10,
+          "delta": 20,
           "for_each_proc_name": "Charged",
           "for_each_self_proc_duration": true,
           "stat": "crit_chance_pct"
         },
         {
-          "delta": 20,
+          "apply_if": {
+            "mode": "RAID"
+          },
+          "delta": [
+            0,
+            20
+          ],
+          "stat": "counter_pct"
+        },
+        {
+          "delta": [
+            0,
+            0,
+            10,
+            20,
+            20
+          ],
+          "stat": "drain_pct"
+        },
+        {
+          "apply_if": {
+            "mode": "RAID"
+          },
+          "delta": [
+            0,
+            20
+          ],
           "for_each": {
             "owner_ok": false,
             "relationship": "ally",
@@ -13212,24 +13223,6 @@
             }
           },
           "stat": "counter_pct"
-        },
-        {
-          "delta": 20,
-          "stat": "counter_pct"
-        },
-        {
-          "delta": 20,
-          "stat": "drain_pct"
-        },
-        {
-          "delta": [
-            0,
-            5,
-            10,
-            15,
-            20
-          ],
-          "stat": "crit_damage_pct"
         }
       ],
       "safety": {
@@ -13259,6 +13252,18 @@
                   17
                 ],
                 "stat": "armor_pierce_pct"
+              },
+              {
+                "delta": [
+                  0,
+                  0,
+                  10,
+                  10,
+                  20,
+                  20,
+                  30
+                ],
+                "stat": "drain_pct"
               }
             ]
           }
@@ -13270,12 +13275,12 @@
             "stat_modifier": [
               {
                 "delta": [
-                  75,
-                  100,
-                  100,
-                  100,
-                  125,
+                  60,
+                  80,
+                  110,
+                  130,
                   150,
+                  160,
                   200
                 ],
                 "stat": "ability_damage_pct"
@@ -13283,24 +13288,12 @@
             ],
             "target": {
               "limit": [
-                {
-                  "f": 1,
-                  "p": 50,
-                  "t": 2
-                },
-                {
-                  "f": 1,
-                  "p": 50,
-                  "t": 2
-                },
                 2,
                 2,
                 2,
-                {
-                  "f": 2,
-                  "p": 50,
-                  "t": 3
-                },
+                2,
+                2,
+                3,
                 3
               ]
             }
@@ -13308,14 +13301,9 @@
           {
             "action": "proc",
             "action_cond": "if_has_crit_result",
-            "action_pct": [
-              100
-            ],
             "procs": [
               {
-                "proc": "OffenseUp",
-                "use_count": 1,
-                "use_count_per_crit": true
+                "proc": "OffenseUp"
               }
             ],
             "target": {
@@ -13325,16 +13313,9 @@
           },
           {
             "action": "proc_remove",
-            "action_cond": "if_has_crit_result",
-            "action_pct": [
-              100
-            ],
+            "action_cond": "if_prev_ran",
             "category": "none",
             "procs": "Charged",
-            "skip_focus_check": true,
-            "target": {
-              "relation": "ally"
-            },
             "visualid": "basic3"
           },
           {
@@ -13345,15 +13326,10 @@
             "category": "none",
             "counter": true,
             "delta": 1,
-            "max_duration": [
-              10
-            ],
+            "max_duration": 5,
             "only_procs": [
               "Charged"
             ],
-            "target": {
-              "relation": "ally"
-            },
             "visualid": "basic3"
           }
         ],
@@ -13371,11 +13347,11 @@
       },
       "traits": [
         "Villain",
-        "City",
+        "Global",
         "Skill",
         "Blaster",
         "Wakanda",
-        "Military"
+        "Mercenary"
       ],
       "ultimate": {
         "actions": [
@@ -13383,13 +13359,33 @@
             "stat_modifier": [
               {
                 "delta": [
-                  125,
+                  140,
+                  160,
+                  190,
+                  220,
+                  240,
+                  270,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "type": "primary"
+            },
+            "visualid": "ultimate2"
+          },
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
                   150,
-                  175,
-                  200,
-                  225,
-                  250,
-                  275
+                  180,
+                  180,
+                  210,
+                  240
                 ],
                 "stat": "ability_damage_pct"
               }
@@ -13406,28 +13402,14 @@
               },
               "limit": [
                 3,
-                {
-                  "f": 3,
-                  "t": 4
-                },
-                {
-                  "f": 3,
-                  "t": 4
-                },
-                {
-                  "f": 3,
-                  "t": 4
-                },
+                3,
                 4,
-                {
-                  "f": 4,
-                  "t": 5
-                },
-                {
-                  "f": 10,
-                  "t": 10
-                }
+                4,
+                5,
+                5,
+                10
               ],
+              "primary_selection": "exclude_from_pool",
               "stop_if_outcome": [
                 "counter_attack"
               ],
@@ -13459,13 +13441,9 @@
           },
           {
             "action": "proc_remove",
-            "action_cond": "if_has_crit_result",
-            "action_pct": [
-              100
-            ],
+            "action_cond": "if_prev_ran",
             "category": "none",
             "procs": "Charged",
-            "skip_focus_check": true,
             "target": {
               "relation": "ally"
             }
@@ -13478,19 +13456,16 @@
             "category": "none",
             "counter": true,
             "delta": 1,
-            "max_duration": [
-              10
-            ],
+            "max_duration": 5,
             "only_procs": [
               "Charged"
             ],
             "target": {
               "relation": "ally"
-            },
-            "visualid": "basic3"
+            }
           }
         ],
-        "cost": 4,
+        "cost": 6,
         "power_mul": [
           39,
           73,
@@ -13500,7 +13475,7 @@
           211,
           245
         ],
-        "start_energy": 3
+        "start_energy": 4
       }
     },
     "Kingpin": {
