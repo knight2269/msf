@@ -2760,6 +2760,51 @@
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "chal_healthbucks_10",
+              "m_energyCost": 0,
+              "m_storyTellingID": "",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "challenges_healbucks_tier10",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {
+                "level": [
+                  65
+                ],
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_65"
+              },
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_HEROES_BRAWLER_SUPPORT_5",
+                "shortDescription": "ID_REQUIRES_HEROES_BRAWLER_SUPPORT",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "anyTrait": [
+                    "Support",
+                    "Brawler"
+                  ]
+                }
+              },
+              "m_name": "ID_CHAL_STAGE10_NAME",
+              "m_description": "ID_CHAL_HEALTHBUCKS_STAGE10_DESC",
+              "m_flavorText": "",
+              "m_image": "ID_CHAL_HEALTHBUCKS_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
             }
           ],
           "m_rewardsIDList": [],
@@ -9232,6 +9277,350 @@
       "m_mustHaveHeroesDesc": "ID_REQUIRES_SW_MM",
       "m_unlockedDesc": ""
     },
+    "SHURI_EVENT": {
+      "m_chapterList": [
+        {
+          "m_missionList": [
+            {
+              "m_missionID": "event_le_shuri_01",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_01_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_1",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L1",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Kree",
+                    "Minion"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_01_NAME",
+              "m_description": "ID_LE_SHURI_01_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L1",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_02",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_02_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_2",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L2",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 2,
+                  "allTraits": [
+                    "Minion",
+                    "Kree"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_02_NAME",
+              "m_description": "ID_LE_SHURI_02_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L2",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_03",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_03_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_3",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L3",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 3,
+                  "allTraits": [
+                    "Kree",
+                    "Minion"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_03_NAME",
+              "m_description": "ID_LE_SHURI_03_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L3",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_04",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_04_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_4",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L4",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 4,
+                  "allTraits": [
+                    "Minion",
+                    "Kree"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_04_NAME",
+              "m_description": "ID_LE_SHURI_04_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L4",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_05",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_05_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_5",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L5",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 5,
+                  "allTraits": [
+                    "Kree",
+                    "Minion"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_05_NAME",
+              "m_description": "ID_LE_SHURI_05_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L5",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_06",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_06_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_6",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L6",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 6,
+                  "allTraits": [
+                    "Minion",
+                    "Kree"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_06_NAME",
+              "m_description": "ID_LE_SHURI_06_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L6",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "event_le_shuri_07",
+              "m_energyCost": 0,
+              "m_storyTellingID": "le_shuri_07_intro",
+              "m_nodeYPosition": 0,
+              "m_characterLimit": 5,
+              "m_hideStars": true,
+              "m_isBoss": false,
+              "m_isBonus": false,
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "legendary_shuri_7",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_REQUIRES_KREE_MINION_5_L7",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "loyalty": 7,
+                  "allTraits": [
+                    "Kree",
+                    "Minion"
+                  ]
+                }
+              },
+              "m_name": "ID_LE_SHURI_07_NAME",
+              "m_description": "ID_LE_SHURI_07_DESC",
+              "m_flavorText": "ID_REQUIRES_KREE_MINION_5_L7",
+              "m_image": "ID_LE_SHURI_NAME",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_dailyLimit": 0,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            }
+          ],
+          "m_rewardsIDList": [],
+          "m_requirements": {},
+          "m_heroFilters": {
+            "description": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "quantity": 0,
+            "filters": {}
+          },
+          "m_name": "",
+          "m_description": "",
+          "m_flavorText": "",
+          "m_image": "",
+          "m_nodeImage": "",
+          "m_catalystGearID": "",
+          "m_gameStatID": "",
+          "m_dailyLimit": 0,
+          "m_mustHaveHeroes": [],
+          "m_mustHaveHeroesDesc": "",
+          "m_unlockedDesc": ""
+        }
+      ],
+      "m_index": 28,
+      "m_isEvent": true,
+      "m_timesBeatable": 1,
+      "m_refreshable": false,
+      "m_hideFromDisplay": false,
+      "m_statsToTrack": [],
+      "m_energyConsumptionStat": "",
+      "m_highestMissionStat": "",
+      "m_ctaData": null,
+      "m_nodeNameShort": null,
+      "m_rewardsIDList": [],
+      "m_requirements": {},
+      "m_heroFilters": {
+        "description": "ID_REQUIRES_HEROES_GOTGRAVAGER5",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 5,
+        "filters": {}
+      },
+      "m_name": "ID_LE_SHURI_NAME",
+      "m_description": "ID_LE_SHURI_DESC",
+      "m_flavorText": "ID_LE_SHURI_CHANCE",
+      "m_image": "ID_LE_SHURI_NAME",
+      "m_nodeImage": "",
+      "m_catalystGearID": "",
+      "m_gameStatID": "",
+      "m_dailyLimit": 0,
+      "m_mustHaveHeroes": [],
+      "m_mustHaveHeroesDesc": "",
+      "m_unlockedDesc": ""
+    },
     "NICKFURY_EVENT": {
       "m_chapterList": [
         {
@@ -9935,7 +10324,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_3a",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -9979,7 +10368,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_3b",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10023,7 +10412,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_4a",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10067,7 +10456,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_4b",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10111,7 +10500,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_5",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10155,7 +10544,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_6",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10199,7 +10588,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_teamup_rocket_groot_7",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -10313,7 +10702,7 @@
               "m_isBonus": false,
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_teamup_scarletw_mmarvel_3a",
+                  "m_rewardID": "m_event_valentines_teamup_201902",
                   "m_firstTimeOnly": true
                 }
               ],

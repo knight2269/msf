@@ -2022,6 +2022,27 @@
         {
           "actions": [
             {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Deflect",
+                  "use_count": 1
+                }
+              ],
+              "target": {
+                "relation": "ally"
+              },
+              "visualid": "passive2"
+            }
+          ],
+          "exec": "on_buffed",
+          "for_procs": [
+            "DefenseUp"
+          ]
+        },
+        {
+          "actions": [
+            {
               "action": "turn_meter",
               "change_pct": [
                 20,
@@ -2041,40 +2062,15 @@
         {
           "actions": [
             {
-              "action": "proc",
-              "only_if": {
-                "not": {
-                  "owner": {
-                    "procs": [
-                      "Charged"
-                    ]
-                  }
-                }
-              },
-              "procs": [
-                {
-                  "proc": "Charged",
-                  "use_count": 1
-                }
+              "action": "proc_duration",
+              "add_if_not": true,
+              "category": "none",
+              "max_duration": 5,
+              "only_procs": [
+                "Charged"
               ],
               "target": {
                 "relation": "ally"
-              }
-            },
-            {
-              "action": "turn_meter",
-              "action_cond": "if_prev_ran",
-              "change_pct": [
-                100
-              ],
-              "target": {
-                "filter": {
-                  "character": [
-                    "Okoye"
-                  ]
-                },
-                "relation": "ally",
-                "type": "random"
               }
             }
           ],
@@ -2380,6 +2376,30 @@
             }
           },
           {
+            "action": "damage_mul_per_proc",
+            "check_on_source": true,
+            "only_if": {
+              "owner": {
+                "procs": [
+                  "Charged"
+                ]
+              }
+            },
+            "pct_per_duration": [
+              10,
+              10,
+              15,
+              15,
+              20,
+              20
+            ],
+            "specific_proc": "Charged",
+            "target": {
+              "limit": 1,
+              "relation": "ally"
+            }
+          },
+          {
             "only_if": {
               "owner": {
                 "procs": [
@@ -2433,16 +2453,10 @@
           },
           {
             "action": "proc_remove",
+            "action_cond": "if_prev_ran",
             "assist": {},
             "category": "none",
             "counter": true,
-            "only_if": {
-              "owner": {
-                "procs": [
-                  "Charged"
-                ]
-              }
-            },
             "procs": "Charged",
             "skip_focus_check": true,
             "target": {
@@ -2461,7 +2475,7 @@
           211,
           245
         ],
-        "start_energy": 6
+        "start_energy": 4
       }
     },
     "BlackWidow": {
@@ -6715,7 +6729,7 @@
           211,
           245
         ],
-        "start_energy": 6
+        "start_energy": 4
       }
     },
     "DoctorStrange": {
@@ -16574,6 +16588,384 @@
         "start_energy": 5
       }
     },
+    "MBaku": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  130,
+                  160,
+                  190,
+                  220,
+                  260,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "if_has_outcomes": [
+              "dodge"
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  130,
+                  160,
+                  190,
+                  220,
+                  260,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                10,
+                10,
+                15
+              ],
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            },
+            {
+              "action": "proc_duration",
+              "action_cond": "if_prev_skipped",
+              "category": "buff",
+              "delta": 1,
+              "only_procs": [
+                "DefenseUp"
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_buffed",
+          "for_procs": [
+            "DefenseUp"
+          ],
+          "visualid": "passive3"
+        },
+        {
+          "actions": [
+            {
+              "action": "proc_duration",
+              "category": "none",
+              "delta": -1,
+              "only_procs": [
+                "Charged"
+              ]
+            }
+          ],
+          "exec": "on_block_success"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "apply_if": {
+            "owner": {
+              "states": [
+                "charged"
+              ]
+            }
+          },
+          "delta": [
+            50,
+            75,
+            75,
+            100
+          ],
+          "stat": "block_chance_pct"
+        },
+        {
+          "delta": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "for_each_proc_name": "Charged",
+          "for_each_self_proc_duration": true,
+          "stat": "block_amount_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  61,
+                  85,
+                  110,
+                  135,
+                  161,
+                  184,
+                  205
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "Taunt"
+              }
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          },
+          {
+            "action": "proc_duration",
+            "action_pct": [
+              0,
+              50,
+              50,
+              75,
+              75,
+              100
+            ],
+            "add_if_not": true,
+            "category": "none",
+            "delta": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "max_duration": 5,
+            "only_procs": [
+              "Charged"
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "procs": [
+              {
+                "proc": "Counter",
+                "use_count": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  {
+                    "f": 1,
+                    "t": 2
+                  },
+                  {
+                    "f": 1,
+                    "t": 2
+                  },
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "ai_filter": "taunt",
+        "cost": [
+          5,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": [
+          5,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3
+        ]
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Mystic",
+        "Protector",
+        "Wakanda"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  320
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "include_as_target",
+              "type": "random"
+            }
+          },
+          {
+            "action_cond": "if_has_kill_result",
+            "action_pct": [
+              0,
+              100
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  320
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "filter": {
+                "not": {
+                  "target": {
+                    "states": [
+                      "stealthed"
+                    ]
+                  }
+                }
+              },
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "direct_neighbor"
+            }
+          },
+          {
+            "action_cond": "if_prev_ran",
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  320
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "last_previous_target_as_primary": true,
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 6,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 6
+      }
+    },
     "Magneto": {
       "basic": {
         "actions": [
@@ -20513,7 +20905,7 @@
           211,
           245
         ],
-        "start_energy": 5
+        "start_energy": 3
       }
     },
     "NickFury": {
@@ -20616,44 +21008,52 @@
       "global_stats": [
         {
           "apply_if": {
-            "owner_ok": false,
-            "relationship": "ally",
-            "traits": {
-              "and": [
-                {
-                  "has_any": [
-                    "Shield"
-                  ]
-                },
-                {
-                  "has_any": [
-                    "Minion"
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
                   ]
                 }
-              ]
-            }
+              }
+            ],
+            "owner_ok": false,
+            "relationship": "ally"
           },
           "delta": 10,
           "stat": "armor_pct"
         },
         {
           "apply_if": {
-            "owner_ok": false,
-            "relationship": "ally",
-            "traits": {
-              "and": [
-                {
-                  "has_any": [
-                    "Shield"
-                  ]
-                },
-                {
-                  "has_any": [
-                    "Minion"
+            "or": [
+              {
+                "traits": {
+                  "and": [
+                    {
+                      "has_any": [
+                        "Shield"
+                      ]
+                    },
+                    {
+                      "has_any": [
+                        "Minion"
+                      ]
+                    }
                   ]
                 }
-              ]
-            }
+              }
+            ],
+            "owner_ok": false,
+            "relationship": "ally"
           },
           "delta": [
             10,
@@ -21869,21 +22269,27 @@
             ]
           },
           {
-            "action": "proc",
+            "action": "proc_remove",
+            "action_pct": [
+              30,
+              50,
+              100
+            ],
             "assist": {},
+            "category": "buff",
             "counter": true,
-            "procs": [
+            "stat_modifier": [
               {
-                "proc": "DefenseDown",
-                "use_count": [
-                  1,
-                  1,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2
-                ]
+                "delta": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  50
+                ],
+                "stat": "focus_pct"
               }
             ]
           }
@@ -21905,8 +22311,7 @@
               "action": "proc",
               "procs": [
                 {
-                  "proc": "DebuffBlock",
-                  "use_count": 1
+                  "proc": "DebuffBlock"
                 }
               ],
               "target": {
@@ -21917,25 +22322,17 @@
           "exec": "on_buffed",
           "for_procs": [
             "DefenseUp"
-          ]
+          ],
+          "visualid": "passive2"
         },
         {
           "actions": [
             {
               "action": "proc_duration",
-              "action_pct": [
-                30,
-                30,
-                60,
-                100,
-                100
-              ],
               "add_if_not": true,
               "category": "none",
               "delta": 1,
-              "max_duration": [
-                5
-              ],
+              "max_duration": 5,
               "only_procs": [
                 "Charged"
               ],
@@ -21946,37 +22343,18 @@
           ],
           "exec": "on_critical_hit",
           "exec_for": {
-            "relationship": "ally"
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Wakanda"
+              ]
+            }
           }
         },
         {
           "actions": [
             {
               "action": "proc",
-              "action_pct": [
-                0,
-                20,
-                20,
-                20,
-                20,
-                20
-              ],
-              "procs": [
-                {
-                  "proc": "AssistNow"
-                }
-              ],
-              "target": {
-                "primary_selection": "exclude_from_pool",
-                "relation": "ally"
-              }
-            },
-            {
-              "action": "proc",
-              "action_cond": "if_prev_skipped",
-              "action_pct": [
-                100
-              ],
               "only_if": {
                 "owner": {
                   "procs": [
@@ -21997,18 +22375,30 @@
             {
               "action": "proc_duration",
               "action_cond": "if_prev_ran",
-              "add": false,
               "category": "none",
               "delta": -1,
-              "only_if": {
-                "owner": {
-                  "procs": [
-                    "Charged"
-                  ]
-                }
-              },
               "only_procs": [
                 "Charged"
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            },
+            {
+              "action": "proc",
+              "action_cond": "if_prev_skipped",
+              "action_pct": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "procs": [
+                {
+                  "proc": "AssistNow"
+                }
               ],
               "target": {
                 "relation": "ally"
@@ -22017,24 +22407,13 @@
           ],
           "exec": "on_turn",
           "exec_for": {
-            "and": [
-              {
-                "not": {
-                  "character": [
-                    "Okoye"
-                  ]
-                }
-              },
-              {
-                "traits": {
-                  "has_any": [
-                    "Wakanda"
-                  ]
-                }
-              }
-            ],
             "owner_ok": false,
-            "relationship": "ally"
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Wakanda"
+              ]
+            }
           }
         }
       ],
@@ -22048,11 +22427,11 @@
       "passive_stats": [
         {
           "delta": [
-            5,
+            0,
             10,
-            15,
             20,
-            25
+            30,
+            50
           ],
           "stat": "passive_number"
         }
@@ -22063,13 +22442,13 @@
             "stat_modifier": [
               {
                 "delta": [
+                  40,
                   50,
-                  67,
-                  84,
-                  101,
-                  118,
-                  135,
-                  153
+                  65,
+                  85,
+                  90,
+                  100,
+                  120
                 ],
                 "stat": "ability_damage_pct"
               },
@@ -22092,11 +22471,25 @@
             ]
           },
           {
-            "action": "proc",
-            "procs": [
+            "action": "proc_remove",
+            "action_pct": [
+              30,
+              50,
+              100
+            ],
+            "category": "buff",
+            "stat_modifier": [
               {
-                "proc": "DefenseDown",
-                "use_count": 1
+                "delta": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  50
+                ],
+                "stat": "focus_pct"
               }
             ]
           }
@@ -22105,16 +22498,15 @@
       "special": {
         "actions": [
           {
-            "assist": {},
             "stat_modifier": [
               {
                 "delta": [
                   90,
                   110,
-                  130,
+                  120,
+                  140,
                   160,
-                  170,
-                  190,
+                  180,
                   220
                 ],
                 "stat": "ability_damage_pct"
@@ -22127,31 +22519,29 @@
           },
           {
             "action": "proc",
+            "action_pct": [
+              30,
+              50,
+              100
+            ],
+            "assist": {},
             "procs": [
               {
-                "proc": "AbilityBlock",
-                "use_count": [
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  2,
-                  2
-                ]
+                "proc": "DefenseDown"
               }
             ]
           },
           {
+            "counter": true,
             "stat_modifier": [
               {
                 "delta": [
                   60,
                   80,
-                  100,
+                  90,
+                  110,
                   130,
-                  140,
-                  160,
+                  150,
                   190
                 ],
                 "stat": "ability_damage_pct"
@@ -22177,33 +22567,6 @@
               ],
               "type": "direct_neighbor"
             }
-          },
-          {
-            "action": "proc",
-            "action_pct": [
-              0,
-              0,
-              0,
-              0,
-              50,
-              50,
-              50
-            ],
-            "counter": true,
-            "procs": [
-              {
-                "proc": "AbilityBlock",
-                "use_count": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  1,
-                  1
-                ]
-              }
-            ]
           }
         ],
         "cost": 4,
@@ -22229,10 +22592,15 @@
         "actions": [
           {
             "action": "proc",
+            "action_pct": [
+              30,
+              50,
+              50,
+              100
+            ],
             "procs": [
               {
-                "proc": "OffenseUp",
-                "use_count": 1
+                "proc": "OffenseUp"
               }
             ],
             "target": {
@@ -22265,19 +22633,19 @@
             "action": "turn_meter",
             "assist": {},
             "change_pct": [
-              -20,
-              -20,
               -30,
               -30,
               -30,
-              -40,
-              -40
+              -30,
+              -30,
+              -30,
+              -50
             ],
             "counter": true,
             "visualid": "ultimate2"
           }
         ],
-        "cost": 5,
+        "cost": 6,
         "power_mul": [
           39,
           73,
@@ -22287,7 +22655,7 @@
           211,
           245
         ],
-        "start_energy": 5
+        "start_energy": 4
       }
     },
     "Operator": {
@@ -30200,6 +30568,650 @@
         "Minion"
       ]
     },
+    "Shuri": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  45,
+                  70,
+                  100,
+                  110,
+                  140,
+                  150,
+                  200
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              50,
+              50,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "procs": [
+              {
+                "proc": "HealBlock",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  45,
+                  70,
+                  100,
+                  110,
+                  140,
+                  150,
+                  200
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "mode": "RAID"
+          },
+          "delta": [
+            0,
+            20,
+            20,
+            20,
+            30
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "apply_if": {
+            "mode": "RAID"
+          },
+          "delta": [
+            0,
+            0,
+            0,
+            10,
+            10
+          ],
+          "stat": "armor_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                0,
+                0,
+                100
+              ],
+              "procs": [
+                {
+                  "proc": "SpeedUp"
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "Wakanda"
+                    ]
+                  }
+                },
+                "limit": [
+                  0,
+                  0,
+                  3,
+                  3,
+                  10
+                ],
+                "primary_selection": "include_as_target",
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
+              "action": "ability_energy",
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_buffed",
+          "for_procs": [
+            "DefenseUp"
+          ]
+        },
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                10
+              ],
+              "target": {
+                "filter": {
+                  "target": {
+                    "health_pct": {
+                      "if": "less",
+                      "than": 100
+                    }
+                  }
+                },
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            },
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                10
+              ],
+              "only_if": {
+                "owner": {
+                  "procs": [
+                    "Charged"
+                  ]
+                }
+              },
+              "target": {
+                "filter": {
+                  "target": {
+                    "health_pct": {
+                      "if": "less",
+                      "than": 100
+                    }
+                  }
+                },
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            },
+            {
+              "action": "proc_duration",
+              "action_cond": "if_prev_ran",
+              "category": "none",
+              "delta": -1,
+              "only_procs": [
+                "Charged"
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  41,
+                  65,
+                  90,
+                  115,
+                  141,
+                  164,
+                  165
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              50,
+              50,
+              50,
+              75,
+              75,
+              100,
+              100
+            ],
+            "procs": [
+              {
+                "proc": "HealBlock",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "DefenseUp",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc_duration",
+            "action_pct": [
+              50,
+              50,
+              100
+            ],
+            "add_if_not": true,
+            "category": "none",
+            "delta": 1,
+            "max_duration": 5,
+            "only_procs": [
+              "Charged"
+            ],
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Wakanda"
+                  ]
+                }
+              },
+              "limit": 10,
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "ability_energy",
+            "action_pct": [
+              0,
+              100
+            ],
+            "count": 1,
+            "target": {
+              "limit": [
+                1,
+                1,
+                1,
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                2,
+                2
+              ],
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random_repeat"
+            }
+          },
+          {
+            "action": "ability_energy",
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "count": 1,
+            "target": {
+              "filter": {
+                "traits": {
+                  "has_any": [
+                    "Wakanda"
+                  ]
+                }
+              },
+              "limit": 1,
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random_repeat"
+            }
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Tech",
+        "Support",
+        "Wakanda"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "heal",
+            "heal_amt": [
+              0,
+              250,
+              250,
+              250,
+              250,
+              250,
+              500
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "category": "debuff",
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Wakanda"
+                ]
+              }
+            }
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              0,
+              250,
+              250,
+              250,
+              250,
+              250,
+              500
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "action_cond": "if_prev_ran",
+            "category": "debuff",
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Wakanda"
+                ]
+              }
+            }
+          },
+          {
+            "action": "heal",
+            "action_pct": [
+              0,
+              0,
+              100
+            ],
+            "heal_amt": [
+              0,
+              250,
+              250,
+              250,
+              250,
+              250,
+              500
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "action_cond": "if_prev_ran",
+            "category": "debuff",
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Wakanda"
+                ]
+              }
+            }
+          },
+          {
+            "action": "heal",
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
+            "heal_amt": [
+              0,
+              250,
+              250,
+              250,
+              250,
+              250,
+              500
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "action_cond": "if_prev_ran",
+            "category": "debuff",
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Wakanda"
+                ]
+              }
+            }
+          },
+          {
+            "action": "heal",
+            "action_pct": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              100
+            ],
+            "heal_amt": [
+              0,
+              250,
+              250,
+              250,
+              250,
+              250,
+              500
+            ],
+            "heal_pct": [
+              5,
+              5,
+              5,
+              10,
+              10,
+              15,
+              15
+            ],
+            "target": {
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "action_cond": "if_prev_ran",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "category": "debuff",
+            "counter": false,
+            "only_if_target": {
+              "traits": {
+                "has_any": [
+                  "Wakanda"
+                ]
+              }
+            }
+          }
+        ],
+        "ai_filter": "heal_standard",
+        "cost": 4,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 0
+      }
+    },
     "SpiderMan": {
       "basic": {
         "actions": [
@@ -31672,6 +32684,44 @@
                 "stat": "ability_damage_pct"
               }
             ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              100
+            ],
+            "procs": [
+              {
+                "proc": "Deflect",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              100
+            ],
+            "procs": [
+              {
+                "proc": "DefenseUp",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
           }
         ],
         "cost": 3,
@@ -36708,11 +37758,7 @@
             "relationship": "ally"
           },
           "delta": [
-            10,
-            20,
-            30,
-            40,
-            50
+            10
           ],
           "stat": "crit_chance_pct"
         }
@@ -37367,11 +38413,6 @@
             ]
           },
           {
-            "action": "turn_meter",
-            "action_cond": "if_has_crit_result",
-            "change_pct": -25
-          },
-          {
             "action": "proc_transfer",
             "action_pct": [
               50,
@@ -37777,28 +38818,6 @@
         ]
       },
       "passive": [
-        {
-          "actions": [
-            {
-              "action": "proc",
-              "procs": [
-                {
-                  "proc": "Taunt",
-                  "use_count": 1
-                }
-              ],
-              "target": {
-                "relation": "ally"
-              }
-            }
-          ],
-          "exec": "below_health",
-          "exec_for": {
-            "owner_ok": false,
-            "relationship": "ally"
-          },
-          "exec_value": 50
-        },
         {
           "actions": [
             {

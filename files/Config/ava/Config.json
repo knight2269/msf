@@ -1,25 +1,51 @@
 {
   "Name": "Config",
-  "WarTime": 21600,
+  "WarTime": 86400,
+  "WarSquadSelectLockTime": 180,
+  "WarCombatLockTime": 360,
   "JoinCoolDown": 86400,
   "SlotsPerRoom": 2,
   "SquadsPerSlot": 8,
   "MaxAttackingPlayersPerRoom": 4,
+  "MaxMarkedSlot": 24,
   "NumTimesHeroCanAttack": 1,
   "WarEnergyAttackCost": 1,
-  "AvAStartingAttackEnergyPct": 60,
+  "AvAStartingAttackEnergyPct": 40,
   "DefaultMinionNameKey": "ID_AVA3D_DEFAULT_MINION",
   "DefaultMinionPortrait": "ShieldDmg_AoE",
   "DefaultEnemyDebugValue": "20000000001",
   "WarSeasonPointsPercentModifier": 0.0001,
+  "FirstCarrierDestructionBonusScore": 500,
   "WarSchedule": {
-    "timeSlots": [
-      2,
-      8,
-      14,
-      19
-    ]
+    "timeSlots": [],
+    "activeDaysOfWeek": []
   },
+  "WarCombatRewards": [
+    {
+      "tier": 0,
+      "rewardID": ""
+    },
+    {
+      "tier": 1,
+      "rewardID": "m_ava_battlecompletion_1"
+    },
+    {
+      "tier": 2,
+      "rewardID": "m_ava_battlecompletion_2"
+    },
+    {
+      "tier": 3,
+      "rewardID": "m_ava_battlecompletion_3"
+    },
+    {
+      "tier": 4,
+      "rewardID": "m_ava_battlecompletion_4"
+    },
+    {
+      "tier": 5,
+      "rewardID": "m_ava_battlecompletion_5"
+    }
+  ],
   "MinLevel": 45,
   "AllianceDonationOptions": {
     "SoftCurrency": {
@@ -87,6 +113,51 @@
         }
       ],
       "xpRewardAmount": 90
+    }
+  },
+  "BuffConsumables": {
+    "CONSUMABLE1": {
+      "teamInfluence": "DEFENDERS",
+      "effectType": "PROC",
+      "name": "ID_ALLIANCE_WAR_CONSUMABLE_1",
+      "iconName": "Icon_status_Deflect_merged",
+      "description": "ID_CONSUMABLE-WAR-CUR_DESCRIPTION",
+      "energyRefillType": "ava_consumable",
+      "procs": [
+        {
+          "actions": [
+            {
+              "action_pct": 100,
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Deflect",
+                  "use_count": 3
+                }
+              ],
+              "target": {
+                "relation": "ally",
+                "type": "random",
+                "limit": 5,
+                "filter": {
+                  "not": {
+                    "target": {
+                      "procs": [
+                        "Deflect"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "exec_for": {
+            "relationship": "enemy"
+          },
+          "exec": "on_start",
+          "exec_on_stun": "true"
+        }
+      ]
     }
   },
   "TierData": [

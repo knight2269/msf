@@ -1,0 +1,581 @@
+{
+  "Name": "rol_test_dk",
+  "RaidDetails": {
+    "raidId": "rol_test_dk",
+    "rows": 1,
+    "columns": 11,
+    "isOperation": false,
+    "map": [
+      [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11"
+      ]
+    ],
+    "rooms": {
+      "A1": {
+        "roomId": "A1",
+        "name": "Start",
+        "starting": true,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A2",
+          null,
+          null
+        ]
+      },
+      "A2": {
+        "roomId": "A2",
+        "name": "rol_01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_01",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A3",
+          null,
+          null
+        ]
+      },
+      "A3": {
+        "roomId": "A3",
+        "name": "rol_02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_02",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A4",
+          null,
+          null
+        ]
+      },
+      "A4": {
+        "roomId": "A4",
+        "name": "rol_03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_03",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A5",
+          null,
+          null
+        ]
+      },
+      "A5": {
+        "roomId": "A5",
+        "name": "rol_04",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_04",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A6",
+          null,
+          null
+        ]
+      },
+      "A6": {
+        "roomId": "A6",
+        "name": "rol_05",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_05",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A7",
+          null,
+          null
+        ]
+      },
+      "A7": {
+        "roomId": "A7",
+        "name": "rol_06",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_06",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A8",
+          null,
+          null
+        ]
+      },
+      "A8": {
+        "roomId": "A8",
+        "name": "rol_07",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_07",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A9",
+          null,
+          null
+        ]
+      },
+      "A9": {
+        "roomId": "A9",
+        "name": "rol_08",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_08",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A10",
+          null,
+          null
+        ]
+      },
+      "A10": {
+        "roomId": "A10",
+        "name": "rol_09",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_09",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A11",
+          null,
+          null
+        ]
+      },
+      "A11": {
+        "roomId": "A11",
+        "name": "rol_10",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "rol_bunny01_10",
+            "icon": "raid_Icon_Ultimus.png",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": false
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A12",
+          null,
+          null
+        ]
+      }
+    },
+    "startingRoomId": "A1"
+  }
+}

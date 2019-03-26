@@ -196,6 +196,90 @@
       "canRunParallel": false,
       "levelCap": 75,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarHome_01": {
+      "moduleID": "nue_WarHome_01",
+      "modulePreReqID": "nue_Tutorial_02,nue_Tutorial",
+      "canRunParallel": false,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS,WARPOPUPS"
+    },
+    "nue_WarPeaceA_01": {
+      "moduleID": "nue_WarPeaceA_01",
+      "modulePreReqID": "nue_WarHome_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarPeaceB_01": {
+      "moduleID": "nue_WarPeaceB_01",
+      "modulePreReqID": "nue_WarPeaceA_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarPeaceC_01": {
+      "moduleID": "nue_WarPeaceC_01",
+      "modulePreReqID": "nue_WarPeaceB_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarPeaceD_01": {
+      "moduleID": "nue_WarPeaceD_01",
+      "modulePreReqID": "nue_WarPeaceC_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarPeaceE_01": {
+      "moduleID": "nue_WarPeaceE_01",
+      "modulePreReqID": "nue_WarPeaceD_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeA_01": {
+      "moduleID": "nue_WarTimeA_01",
+      "modulePreReqID": "nue_WarHome_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeAttackB_01": {
+      "moduleID": "nue_WarTimeAttackB_01",
+      "modulePreReqID": "nue_WarTimeA_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeAttackC_01": {
+      "moduleID": "nue_WarTimeAttackC_01",
+      "modulePreReqID": "nue_WarTimeAttackB_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeAttackD_01": {
+      "moduleID": "nue_WarTimeAttackD_01",
+      "modulePreReqID": "nue_WarTimeAttackC_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeDefenseE_01": {
+      "moduleID": "nue_WarTimeDefenseE_01",
+      "modulePreReqID": "nue_WarTimeA_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_WarTimeDefenseF_01": {
+      "moduleID": "nue_WarTimeDefenseF_01",
+      "modulePreReqID": "nue_WarTimeDefenseE_01",
+      "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     }
   }
 }

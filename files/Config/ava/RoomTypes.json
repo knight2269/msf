@@ -9,21 +9,29 @@
       "description": "ID_ALLIANCE_ROOM_MEDBAY_DESC",
       "image": "AVA_Room_Medical",
       "roomPrefabName": "AVA_Carrier_MedBay_State0",
+      "roomSynergyIconName": "Icon_status_HPboost",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
       "roomEffects": [
         {
           "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "DEFENDERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "HEALTH",
-              "value": "50",
+              "value": "40",
               "isPercentage": true,
-              "traits": [
-                "Bio"
-              ],
-              "description": "+50% HP to Bio heroes in ALL DEFENSIVE squads"
+              "description": "ID_ALLIANCE_ROOM_MEDBAY_EFFECTDESCRIPTION_1"
             },
             {
               "level": 2,
@@ -36,16 +44,6 @@
             }
           ]
         }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
       ]
     },
     "Armory": {
@@ -56,302 +54,163 @@
       "description": "ID_ALLIANCE_ROOM_ARMORY_DESC",
       "image": "AVA_Room_Armory",
       "roomPrefabName": "AVA_Carrier_Armory_State0",
+      "roomSynergyIconName": "Icon_status_BaseStatBuff",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
       "roomEffects": [
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "DAMAGE",
-              "value": "25",
+              "value": "20",
               "isPercentage": true,
-              "description": "+25% DAMAGE to ATTACKERS"
+              "description": "ID_ALLIANCE_ROOM_ARMORY_EFFECTDESCRIPTION_1"
             }
           ]
         },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "FOCUS",
-              "value": "25",
-              "isPercentage": true,
-              "description": "+25% FOCUS to ATTACKERS"
-            }
-          ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Weap": {
-      "id": "Weap",
-      "name": "ID_ALLIANCE_ROOM_WEAP",
-      "score": 50,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_WEAP_DESC",
-      "image": "AVA_Room_Medical",
-      "roomPrefabName": "AVA_Carrier_Tactical_State0",
-      "roomEffects": [
-        {
-          "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "RESISTANCE",
-              "value": "25",
-              "isPercentage": true,
-              "description": "+25% RESISTANCE to ATTACKERS"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "ARMOR",
-              "value": "25",
-              "isPercentage": true,
-              "description": "+25% ARMOR to ATTACKERS"
+              "value": "20",
+              "isPercentage": true
             }
           ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
         },
         {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Bridge": {
-      "id": "Bridge",
-      "name": "ID_ALLIANCE_ROOM_BRIDGE",
-      "score": 200,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_BRIDGE_DESC",
-      "image": "AVA_Room_Bridge",
-      "roomPrefabName": "AVA_Carrier_Surveillance_State0",
-      "roomEffects": [
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "HEALTH",
+              "value": "20",
+              "isPercentage": true
+            }
+          ]
+        },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "FOCUS",
+              "value": "20",
+              "isPercentage": true
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "RESISTANCE",
+              "value": "20",
+              "isPercentage": true
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "DAMAGE",
-              "value": "5",
+              "value": "10",
               "isPercentage": true,
-              "description": "+5% ALL BASE STATS to ATTACKERS"
+              "traits": [
+                "Military"
+              ]
             }
           ]
         },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "ARMOR",
+              "value": "10",
               "isPercentage": true,
-              "value": "5"
+              "traits": [
+                "Military"
+              ]
             }
           ]
         },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "HEALTH",
+              "value": "10",
               "isPercentage": true,
-              "value": "5"
+              "traits": [
+                "Military"
+              ]
             }
           ]
         },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "FOCUS",
+              "value": "10",
               "isPercentage": true,
-              "value": "5"
+              "traits": [
+                "Military"
+              ]
             }
           ]
         },
         {
           "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "ATTACKERS",
           "effectType": "BASESTAT",
           "effectData": [
             {
               "level": 1,
               "type": "RESISTANCE",
+              "value": "10",
               "isPercentage": true,
-              "value": "5"
+              "traits": [
+                "Military"
+              ]
             }
           ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Hangar": {
-      "id": "Hangar",
-      "name": "ID_ALLIANCE_ROOM_HANGAR",
-      "score": 50,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_HANGAR_DESC",
-      "image": "AVA_Room_Hangar",
-      "roomPrefabName": "AVA_Carrier_Hangar_State0",
-      "roomEffects": [
-        {
-          "areaOfInfluence": "HELICARRIER_ENEMY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "HEALTH",
-              "value": "25",
-              "isPercentage": true,
-              "description": "+25% HEALTH to ATTACKERS"
-            }
-          ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Reactor": {
-      "id": "Reactor",
-      "name": "ID_ALLIANCE_ROOM_REACTOR",
-      "score": 100,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_REACTOR_DESC",
-      "image": "AVA_Room_Generator",
-      "roomPrefabName": "AVA_Carrier_Generator_State0",
-      "roomEffects": [
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "DAMAGE",
-              "value": "5",
-              "isPercentage": true,
-              "description": "+5% ALL BASE STATS to DEFENDING SQUADS"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "ARMOR",
-              "isPercentage": true,
-              "value": "5"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "HEALTH",
-              "isPercentage": true,
-              "value": "5"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "FOCUS",
-              "isPercentage": true,
-              "value": "5"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "RESISTANCE",
-              "isPercentage": true,
-              "value": "5"
-            }
-          ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
         }
       ]
     },
@@ -363,74 +222,7 @@
       "description": "ID_ALLIANCE_ROOM_BARRACKS_DESC",
       "image": "AVA_Room_Barracks",
       "roomPrefabName": "AVA_Carrier_Barracks_State0",
-      "roomEffects": [
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "DAMAGE",
-              "value": "50",
-              "isPercentage": true,
-              "description": "+50% ALL BASE STATS to this ROOM'S DEFENSIVE SQUADS"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "ARMOR",
-              "isPercentage": true,
-              "value": "50"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "HEALTH",
-              "isPercentage": true,
-              "value": "50"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "FOCUS",
-              "isPercentage": true,
-              "value": "50"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "RESISTANCE",
-              "isPercentage": true,
-              "value": "50"
-            }
-          ]
-        }
-      ],
+      "roomSynergyIconName": "Icon_status_BaseStatBuff",
       "todProbeMultipler": [
         {
           "tod": "day",
@@ -439,6 +231,430 @@
         {
           "tod": "sunset",
           "value": 1
+        }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "20",
+              "isPercentage": true,
+              "description": "ID_ALLIANCE_ROOM_BARRACKS_EFFECTDESCRIPTION_1"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "ARMOR",
+              "isPercentage": true,
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "HEALTH",
+              "isPercentage": true,
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "FOCUS",
+              "isPercentage": true,
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "RESISTANCE",
+              "isPercentage": true,
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "DAMAGE",
+              "value": "10",
+              "isPercentage": true,
+              "traits": [
+                "Military"
+              ]
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "ARMOR",
+              "value": "10",
+              "isPercentage": true,
+              "traits": [
+                "Military"
+              ]
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "HEALTH",
+              "value": "10",
+              "isPercentage": true,
+              "traits": [
+                "Military"
+              ]
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "FOCUS",
+              "value": "10",
+              "isPercentage": true,
+              "traits": [
+                "Military"
+              ]
+            }
+          ]
+        },
+        {
+          "areaOfInfluence": "HELICARRIER_ALLY",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "BASESTAT",
+          "effectData": [
+            {
+              "level": 1,
+              "type": "RESISTANCE",
+              "value": "10",
+              "isPercentage": true,
+              "traits": [
+                "Military"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Weap": {
+      "id": "Weap",
+      "name": "ID_ALLIANCE_ROOM_WEAP",
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_WEAP_DESC",
+      "image": "AVA_Room_Medical",
+      "roomPrefabName": "AVA_Carrier_Tactical_State0",
+      "roomSynergyIconName": "Icon_status_DefenseDecrease",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ADJACENT",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "PROC",
+          "effectCategory": "NEGATIVE",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "procs": [
+                        {
+                          "proc": "DefenseDown",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "type": "random",
+                        "relation": "ally",
+                        "limit": 5,
+                        "filter": {
+                          "not": {
+                            "target": {
+                              "procs": [
+                                "DefenseDown"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
+                }
+              ],
+              "description": "ID_ALLIANCE_ROOM_WEAP_EFFECTDESCRIPTION_1"
+            }
+          ]
+        }
+      ]
+    },
+    "Bridge": {
+      "id": "Bridge",
+      "name": "ID_ALLIANCE_ROOM_BRIDGE",
+      "score": 200,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_BRIDGE_DESC",
+      "image": "AVA_Room_Bridge",
+      "roomPrefabName": "AVA_Carrier_Surveillance_State0",
+      "roomSynergyIconName": "Icon_status_Counter",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "PROC",
+          "effectCategory": "POSITIVE",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "procs": [
+                        {
+                          "proc": "Counter",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "relation": "ally",
+                        "type": "random",
+                        "limit": 5,
+                        "filter": {
+                          "not": {
+                            "target": {
+                              "procs": [
+                                "Counter"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
+                }
+              ],
+              "description": "ID_ALLIANCE_ROOM_BRIDGE_EFFECTDESCRIPTION_1"
+            }
+          ]
+        }
+      ]
+    },
+    "Hangar": {
+      "id": "Hangar",
+      "name": "ID_ALLIANCE_ROOM_HANGAR",
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_HANGAR_DESC",
+      "image": "AVA_Room_Hangar",
+      "roomPrefabName": "AVA_Carrier_Hangar_State0",
+      "roomSynergyIconName": "Icon_status_Deflect",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "HELICARRIER_ENEMY",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "PROC",
+          "effectCategory": "POSITIVE",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "procs": [
+                        {
+                          "proc": "Deflect",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "relation": "ally",
+                        "type": "random",
+                        "limit": 5,
+                        "filter": {
+                          "not": {
+                            "target": {
+                              "procs": [
+                                "Deflect"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
+                }
+              ],
+              "description": "ID_ALLIANCE_ROOM_HANGAR_EFFECTDESCRIPTION_1"
+            }
+          ]
+        }
+      ]
+    },
+    "Reactor": {
+      "id": "Reactor",
+      "name": "ID_ALLIANCE_ROOM_REACTOR",
+      "score": 100,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_REACTOR_DESC",
+      "image": "AVA_Room_Generator",
+      "roomPrefabName": "AVA_Carrier_Generator_State0",
+      "roomSynergyIconName": "Icon_status_DebuffBlock",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ROOM",
+          "teamInfluence": "ATTACKERS",
+          "effectType": "PROC",
+          "effectCategory": "NEGATIVE",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "procs": [
+                        {
+                          "proc": "BuffBlock",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "type": "random",
+                        "relation": "ally",
+                        "limit": 5,
+                        "filter": {
+                          "not": {
+                            "target": {
+                              "procs": [
+                                "BuffBlock"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
+                }
+              ],
+              "description": "ID_ALLIANCE_ROOM_REACTOR_EFFECTDESCRIPTION_1"
+            }
+          ]
         }
       ]
     },
@@ -450,110 +666,7 @@
       "description": "ID_ALLIANCE_ROOM_CARGO_DESC",
       "image": "AVA_Room_Storage",
       "roomPrefabName": "AVA_Carrier_Cargo_State0",
-      "abilities": {
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_DESC",
-          "unlockLevel": 1
-        }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_ABILITY_ENERGY",
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_1",
-            "chance": 0.05,
-            "modifiers": [
-              {
-                "data": "INITIAL_ENERGY",
-                "quantity": 10,
-                "percentage": true,
-                "heroCount": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_ABILITY_ENERGY",
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_2",
-            "chance": 0.05,
-            "modifiers": [
-              {
-                "data": "INITIAL_ENERGY",
-                "quantity": 10,
-                "percentage": true,
-                "heroCount": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_ABILITY_ENERGY",
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_3",
-            "chance": 0.1,
-            "modifiers": [
-              {
-                "data": "INITIAL_ENERGY",
-                "quantity": 10,
-                "percentage": true,
-                "heroCount": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_ABILITY_ENERGY",
-            "desc": "ID_ALLIANCE_ROOM_CARGO_ABILITIES_WAR1_UPGRADE_4",
-            "chance": 0.1,
-            "modifiers": [
-              {
-                "data": "INITIAL_ENERGY",
-                "quantity": 10,
-                "percentage": true,
-                "heroCount": 1
-              }
-            ]
-          }
-        ]
-      ],
-      "roomEffects": [
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "DAMAGE",
-              "value": "40",
-              "isPercentage": true,
-              "description": "+40% ARMOR to ADJACENT ROOM DEFENSIVE SQUADS"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "HELICARRIER_ALLY",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "FOCUS",
-              "value": "40",
-              "isPercentage": true,
-              "description": "+40% FOCUS to ADJACENT ROOM DEFENSIVE SQUADS"
-            }
-          ]
-        }
-      ],
+      "roomSynergyIconName": "Icon_status_RandomPositiveEffects",
       "todProbeMultipler": [
         {
           "tod": "day",
@@ -563,528 +676,63 @@
           "tod": "sunset",
           "value": 1
         }
-      ]
-    },
-    "Deck1": {
-      "id": "Deck1",
-      "name": "ID_ALLIANCE_ROOM_DECK1",
-      "score": 50,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_DECK1_DESC",
-      "image": "AVA_Room_Deck002",
-      "roomPrefabName": "Prop_Carrier_Deck_00",
-      "abilities": {
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_DESC",
-          "unlockLevel": 0
-        }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 10,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_3",
-            "modifiers": [
-              {
-                "data": "ACCURACY",
-                "quantity": 5
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_4",
-            "modifiers": [
-              {
-                "data": "STAMINA",
-                "quantity": 5
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_5",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 10,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK1_ABILITIES_WAR1_UPGRADE_6",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 10,
-                "percentage": true
-              }
-            ]
-          }
-        ]
       ],
       "roomEffects": [
         {
           "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
+          "teamInfluence": "DEFENDERS",
           "effectType": "PROC",
+          "effectCategory": "POSITIVE",
           "effectData": [
             {
               "level": 1,
               "procs": [
                 {
-                  "proc": [
-                    "OffenseUp",
-                    "DefenseUp",
-                    "HoT",
-                    "SpeedUp",
-                    "Stealth"
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "random": true,
+                      "apply_count": 1,
+                      "procs": [
+                        {
+                          "proc": "Deathproof",
+                          "use_count": 1
+                        },
+                        {
+                          "proc": "Deflect",
+                          "use_count": 1
+                        },
+                        {
+                          "proc": "Stealth",
+                          "use_count": 1
+                        },
+                        {
+                          "proc": "HoT",
+                          "use_count": 1
+                        },
+                        {
+                          "proc": "DebuffBlock",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "relation": "ally",
+                        "type": "random_repeat",
+                        "limit": 8
+                      }
+                    }
                   ],
-                  "chance": [
-                    100,
-                    100
-                  ],
-                  "procCount": [
-                    2,
-                    2
-                  ]
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
                 }
               ],
-              "description": "100% chance, two random defending heroes get a random proc for 2 turns."
-            },
-            {
-              "level": 2,
-              "procs": [
-                {
-                  "proc": [
-                    "OffenseUp",
-                    "DefenseUp",
-                    "HoT",
-                    "SpeedUp",
-                    "Stealth"
-                  ],
-                  "chance": [
-                    100,
-                    100,
-                    50
-                  ],
-                  "procCount": [
-                    2,
-                    2,
-                    2
-                  ]
-                },
-                {
-                  "proc": [
-                    "OffenseUp",
-                    "DefenseUp",
-                    "HoT",
-                    "SpeedUp",
-                    "Stealth"
-                  ],
-                  "chance": [
-                    100,
-                    75,
-                    50
-                  ],
-                  "procCount": [
-                    2,
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get a random proc for 2 turns."
+              "description": "ID_ALLIANCE_ROOM_CARGO_EFFECTDESCRIPTION_1"
             }
           ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Deck2": {
-      "id": "Deck2",
-      "name": "ID_ALLIANCE_ROOM_DECK2",
-      "score": 50,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_DECK2_DESC",
-      "image": "AVA_Room_Deck003",
-      "roomPrefabName": "Prop_Carrier_Deck_01",
-      "abilities": {
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_DESC",
-          "unlockLevel": 0
-        }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 2
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_3",
-            "modifiers": [
-              {
-                "data": "ACCURACY",
-                "quantity": 6
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_4",
-            "modifiers": [
-              {
-                "data": "STAMINA",
-                "quantity": 6
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_5",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK2_ABILITIES_WAR1_UPGRADE_6",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ]
-      ],
-      "roomEffects": [
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "PROC",
-          "effectData": [
-            {
-              "level": 1,
-              "procs": [
-                {
-                  "proc": [
-                    "OffenseUp"
-                  ],
-                  "chance": [
-                    100,
-                    100
-                  ],
-                  "procCount": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "description": "100% chance, two random defending heroes get Offense Up for 2 turns."
-            },
-            {
-              "level": 2,
-              "procs": [
-                {
-                  "proc": [
-                    "OffenseUp"
-                  ],
-                  "chance": [
-                    100,
-                    100,
-                    75,
-                    60,
-                    50
-                  ],
-                  "procCount": [
-                    2,
-                    2,
-                    2,
-                    2,
-                    2
-                  ]
-                },
-                {
-                  "proc": [
-                    "DefenseUp"
-                  ],
-                  "chance": [
-                    100,
-                    75,
-                    50
-                  ],
-                  "procCount": [
-                    2,
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get Offense Up and Defense Up for 2 turns."
-            }
-          ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
-        }
-      ]
-    },
-    "Deck3": {
-      "id": "Deck3",
-      "name": "ID_ALLIANCE_ROOM_DECK3",
-      "score": 50,
-      "squadDestoyedFogThreshold": 0,
-      "description": "ID_ALLIANCE_ROOM_DECK3_DESC",
-      "image": "AVA_Room_Deck003",
-      "roomPrefabName": "Prop_Carrier_Deck_02",
-      "abilities": {
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_DESC",
-          "unlockLevel": 0
-        }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 2
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_2",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_3",
-            "modifiers": [
-              {
-                "data": "ACCURACY",
-                "quantity": 6
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_4",
-            "modifiers": [
-              {
-                "data": "STAMINA",
-                "quantity": 6
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_5",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_TURRET_STAT",
-            "desc": "ID_ALLIANCE_ROOM_DECK3_ABILITIES_WAR1_UPGRADE_6",
-            "modifiers": [
-              {
-                "data": "DAMAGE",
-                "quantity": 15,
-                "percentage": true
-              }
-            ]
-          }
-        ]
-      ],
-      "roomEffects": [
-        {
-          "areaOfInfluence": "ROOM",
-          "teamInfluence": "ALLIES",
-          "effectType": "PROC",
-          "effectData": [
-            {
-              "level": 1,
-              "procs": [
-                {
-                  "proc": [
-                    "OffenseUp"
-                  ],
-                  "chance": [
-                    100,
-                    100
-                  ],
-                  "procCount": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "description": "100% chance, two random defending heroes get Offense Up for 2 turns."
-            },
-            {
-              "level": 2,
-              "procs": [
-                {
-                  "proc": [
-                    "OffenseUp"
-                  ],
-                  "chance": [
-                    100,
-                    100,
-                    50
-                  ],
-                  "procCount": [
-                    2,
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "description": "100% chance, two random defending heroes, and 50% chance for one random defending hero to get Offense Up for 2 turns."
-            }
-          ]
-        }
-      ],
-      "todProbeMultipler": [
-        {
-          "tod": "day",
-          "value": 1
-        },
-        {
-          "tod": "sunset",
-          "value": 1
         }
       ]
     },
@@ -1096,114 +744,7 @@
       "description": "ID_ALLIANCE_ROOM_SCILAB_DESC",
       "image": "AVA_Room_Hacker",
       "roomPrefabName": "AVA_Carrier_Robotics_State0",
-      "abilities": {
-        "war1": {
-          "type": "WAR",
-          "name": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_NAME",
-          "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_DESC",
-          "unlockLevel": 1
-        }
-      },
-      "ability_level_upgrades": [
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_BUFF",
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_1",
-            "chance": 0.5,
-            "modifiers": [
-              {
-                "data": "Proc_Pos_OffenseUp",
-                "quantity": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_BUFF",
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_2",
-            "chance": 1,
-            "modifiers": [
-              {
-                "data": "Proc_Pos_OffenseUp",
-                "quantity": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_BUFF",
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_3",
-            "chance": 0.15,
-            "modifiers": [
-              {
-                "data": "Proc_Pos_OffenseUp",
-                "quantity": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_BUFF",
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_4",
-            "chance": 0.15,
-            "modifiers": [
-              {
-                "data": "Proc_Pos_OffenseUp",
-                "quantity": 1
-              }
-            ]
-          }
-        ],
-        [
-          {
-            "abilityId": "war1",
-            "type": "MODIFIER_BUFF",
-            "desc": "ID_ALLIANCE_ROOM_SCILAB_ABILITIES_WAR1_UPGRADE_5",
-            "chance": 0.2,
-            "modifiers": [
-              {
-                "data": "Proc_Pos_OffenseUp",
-                "quantity": 1
-              }
-            ]
-          }
-        ]
-      ],
-      "roomEffects": [
-        {
-          "areaOfInfluence": "ADJACENT",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "RESISTANCE",
-              "value": "40",
-              "description": "+40% RESISTANCE to ADJACENT ROOM DEFENSIVE SQUADS"
-            }
-          ]
-        },
-        {
-          "areaOfInfluence": "ADJACENT",
-          "teamInfluence": "ALLIES",
-          "effectType": "BASESTAT",
-          "effectData": [
-            {
-              "level": 1,
-              "type": "ARMOR",
-              "value": "40",
-              "description": "+40% ARMOR to ADJACENT ROOM DEFENSIVE SQUADS"
-            }
-          ]
-        }
-      ],
+      "roomSynergyIconName": "Icon_status_DefenseIncrease",
       "todProbeMultipler": [
         {
           "tod": "day",
@@ -1213,7 +754,116 @@
           "tod": "sunset",
           "value": 1
         }
+      ],
+      "roomEffects": [
+        {
+          "areaOfInfluence": "ADJACENT",
+          "teamInfluence": "DEFENDERS",
+          "effectType": "PROC",
+          "effectCategory": "POSITIVE",
+          "effectData": [
+            {
+              "level": 1,
+              "procs": [
+                {
+                  "actions": [
+                    {
+                      "action_pct": 100,
+                      "action": "proc",
+                      "procs": [
+                        {
+                          "proc": "DefenseUp",
+                          "use_count": 1
+                        }
+                      ],
+                      "target": {
+                        "relation": "ally",
+                        "type": "random",
+                        "limit": 5,
+                        "filter": {
+                          "not": {
+                            "target": {
+                              "procs": [
+                                "DefenseUp"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "exec_for": {
+                    "relationship": "enemy"
+                  },
+                  "exec": "on_start",
+                  "exec_on_stun": "true"
+                }
+              ],
+              "description": "ID_ALLIANCE_ROOM_SCILAB_EFFECTDESCRIPTION_1"
+            }
+          ]
+        }
       ]
+    },
+    "Deck1": {
+      "id": "Deck1",
+      "name": "ID_ALLIANCE_ROOM_DECK1",
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_DECK1_DESC",
+      "image": "AVA_Room_Deck002",
+      "roomPrefabName": "Prop_Carrier_Deck_00",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": []
+    },
+    "Deck2": {
+      "id": "Deck2",
+      "name": "ID_ALLIANCE_ROOM_DECK2",
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_DECK2_DESC",
+      "image": "AVA_Room_Deck003",
+      "roomPrefabName": "Prop_Carrier_Deck_01",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": []
+    },
+    "Deck3": {
+      "id": "Deck3",
+      "name": "ID_ALLIANCE_ROOM_DECK3",
+      "score": 50,
+      "squadDestoyedFogThreshold": 0,
+      "description": "ID_ALLIANCE_ROOM_DECK3_DESC",
+      "image": "AVA_Room_Deck003",
+      "roomPrefabName": "Prop_Carrier_Deck_02",
+      "todProbeMultipler": [
+        {
+          "tod": "day",
+          "value": 1
+        },
+        {
+          "tod": "sunset",
+          "value": 1
+        }
+      ],
+      "roomEffects": []
     }
   }
 }

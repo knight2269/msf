@@ -153,7 +153,7 @@ ID_ALLIANCE_RETURN_TO_CARRIER,RETURN TO CARRIER
 ID_ALLIANCE_RAID_KEY_POPUP_TITLE,RAID KEYS
 ID_ALLIANCE_RAID_KEY_POPUP_DESC,"Raid Keys are used to launch raids. 1 Raid Key is generated for each Campaign Energy spent, with a max amount that can be generated per day."
 ID_ALLIANCE_LEVEL,Alliance Level: {level}
-ID_ALLIANCE_ROOM_MINIONS,Minions
+ID_ALLIANCE_ROOM_MINIONS,Guard
 ID_ALLIANCE_ROOM_LEADERBOARD_SUFFIX,{room} Leaderboard
 ID_ALLIANCE_ROOM_LEVEL,Room Level {level}
 ID_ALLIANCE_ROOM_MAX_LEVEL_REACHED,MAX ROOM LEVEL REACHED
@@ -161,40 +161,40 @@ ID_ALLIANCE_ROOM_CONSTUCT_XP,CONSTRUCT COMPONENTS TO EARN {num} PTS
 ID_ALLIANCE_ROOM_CONSTRUCT_NEEDED,CONSTRUCT {qty} COMPONENT(S) TO REACH TO LEVEL {level}
 ID_ALLIANCE_ROOM_MEDBAY,Medbay
 ID_ALLIANCE_ROOM_MEDBAY_DESC,Increases Health Regeneration by 10%
-ID_ALLIANCE_ROOM_MEDBAY_EFFECTDESCRIPTION_1," +50% Max Health to ALL DEFENSIVE SQUADS"
-ID_ALLIANCE_ROOM_ARMORY,Security
-ID_ALLIANCE_ROOM_ARMORY_DESC,Increases all BIO characters' damage by 3%
-ID_ALLIANCE_ROOM_ARMORY_EFFECTDESCRIPTION_1,"+25% to Max Health, Damage, Armor, Resistance, and Focus for OFFENSIVE SQUADS"
-ID_ALLIANCE_ROOM_WEAP,Tactical Center
+ID_ALLIANCE_ROOM_MEDBAY_EFFECTDESCRIPTION_1,<color=#00adef>[GLOBAL]</color>   <color=#86e619>+40%</color> Max Health to all <color=#fff568>DEFENDING ALLIES</color>
+ID_ALLIANCE_ROOM_ARMORY,Armory
+ID_ALLIANCE_ROOM_ARMORY_DESC,Increases all BIO character damage by 3%
+ID_ALLIANCE_ROOM_ARMORY_EFFECTDESCRIPTION_1,"<color=#00adef>[GLOBAL]</color>   <color=#86e619>+20%</color> to Max Health, Damage, Armor, Resistance, and Focus to all <color=#fff568>ATTACKING ALLIES</color>.  Extra <color=#86e619>+10%</color> bonus to <color=#fff568>Military</color> allies."
+ID_ALLIANCE_ROOM_WEAP,Security
 ID_ALLIANCE_ROOM_WEAP_DESC,Increases damage from DEFENDERS by 4%
-ID_ALLIANCE_ROOM_WEAP_EFFECTDESCRIPTION_1,Offense Down for 2 turns to 2 ENEMIES ATTACKING ADJACENT ROOMS
+ID_ALLIANCE_ROOM_WEAP_EFFECTDESCRIPTION_1,<color=#00adef>[ADJACENT]</color>   Apply <color=#fff568>Defense Down</color> to <color=#fff568>ATTACKING ENEMIES</color>
 ID_ALLIANCE_ROOM_BRIDGE,Bridge
 ID_ALLIANCE_ROOM_BRIDGE_DESC,Worth 2x score value
-ID_ALLIANCE_ROOM_BRIDGE_EFFECTDESCRIPTION_1,Counter for 2 turns to 2 ALLIES DEFENDING this ROOM
+ID_ALLIANCE_ROOM_BRIDGE_EFFECTDESCRIPTION_1,<color=#00adef>[ROOM]</color>   Apply <color=#fff568>Counter</color> to <color=#fff568>DEFENDING ALLIES</color>
 ID_ALLIANCE_ROOM_HANGAR,Hangar
 ID_ALLIANCE_ROOM_HANGAR_DESC,Destruction disables enemy's attacks for 1 minute
-ID_ALLIANCE_ROOM_HANGAR_EFFECTDESCRIPTION_1,Speed Up for 2 turns to 2 ALLIES when ATTACKING
+ID_ALLIANCE_ROOM_HANGAR_EFFECTDESCRIPTION_1,<color=#00adef>[GLOBAL]</color>   Apply <color=#fff568>Deflect</color> to all <color=#fff568>ATTACKING ALLIES</color>
 ID_ALLIANCE_ROOM_REACTOR,Reactor
 ID_ALLIANCE_ROOM_REACTOR_DESC,Increases all COSMIC characters' damage by 5%
-ID_ALLIANCE_ROOM_REACTOR_EFFECTDESCRIPTION_1,Disrupt for 2 turns to 2 ENEMIES ATTACKING this ROOM
+ID_ALLIANCE_ROOM_REACTOR_EFFECTDESCRIPTION_1,<color=#00adef>[ROOM]</color>   Apply <color=#fff568>Disrupt</color> to <color=#fff568>ATTACKING ENEMIES</color>
 ID_ALLIANCE_ROOM_BARRACKS,Barracks
 ID_ALLIANCE_ROOM_BARRACKS_DESC,Increases DEFENDER's Health by 10%
-ID_ALLIANCE_ROOM_BARRACKS_EFFECTDESCRIPTION_1,"+25% to Max Health, Damage, Armor, Resistance, and Focus for DEFENSIVE SQUADS"
+ID_ALLIANCE_ROOM_BARRACKS_EFFECTDESCRIPTION_1,"<color=#00adef>[GLOBAL]</color>   <color=#86e619>+20%</color> to Max Health, Damage, Armor, Resistance, and Focus to all <color=#fff568>DEFENDING ALLIES</color>.  Extra <color=#86e619>+10%</color> bonus to <color=#fff568>Military</color> allies."
 ID_ALLIANCE_ROOM_CARGO,Cargo Bay
 ID_ALLIANCE_ROOM_CARGO_DESC,Increases War loot by 5%
-ID_ALLIANCE_ROOM_CARGO_EFFECTDESCRIPTION_1,4 Random Positive Effects (stackable) for 2 turns to ALLIES DEFENDING ADJACENT ROOMS
-ID_ALLIANCE_ROOM_DECK1,Missile Battery
+ID_ALLIANCE_ROOM_CARGO_EFFECTDESCRIPTION_1,<color=#00adef>[ROOM]</color>   Apply <color=#86e619>8</color> <color=#fff568>Positive Effects</color> randomly to <color=#fff568>DEFENDING ALLIES</color>
+ID_ALLIANCE_ROOM_DECK1,Flight Deck 1
 ID_ALLIANCE_ROOM_DECK1_DESC,Increases War energy regeneration by 10%
-ID_ALLIANCE_ROOM_DECK1_EFFECTDESCRIPTION_1,Offense Up for 1 turn to 2 ALLIES DEFENDING this ROOM
-ID_ALLIANCE_ROOM_DECK2,Rail Cannon
+ID_ALLIANCE_ROOM_DECK1_EFFECTDESCRIPTION_1,NONE
+ID_ALLIANCE_ROOM_DECK2,Flight Deck 2
 ID_ALLIANCE_ROOM_DECK2_DESC,Increases War energy regeneration by 8%
-ID_ALLIANCE_ROOM_DECK2_EFFECTDESCRIPTION_1,Offense Up for 1 turn to 2 ALLIES DEFENDING this ROOM
-ID_ALLIANCE_ROOM_DECK3,Defensive Guns
+ID_ALLIANCE_ROOM_DECK2_EFFECTDESCRIPTION_1,NONE
+ID_ALLIANCE_ROOM_DECK3,Flight Deck 3
 ID_ALLIANCE_ROOM_DECK3_DESC,Increases War energy regeneration by 15%
-ID_ALLIANCE_ROOM_DECK3_EFFECTDESCRIPTION_1,Offense Up for 1 turn to 2 ALLIES DEFENDING this ROOM
+ID_ALLIANCE_ROOM_DECK3_EFFECTDESCRIPTION_1,NONE
 ID_ALLIANCE_ROOM_SCILAB,Engineering
 ID_ALLIANCE_ROOM_SCILAB_DESC,Increases all TECH characters' damage by 5%
-ID_ALLIANCE_ROOM_SCILAB_EFFECTDESCRIPTION_1,Defense Up for 2 turns to 2 ALLIES DEFENDING ADJACENT ROOMS
+ID_ALLIANCE_ROOM_SCILAB_EFFECTDESCRIPTION_1,<color=#00adef>[ADJACENT]</color>   Apply <color=#fff568>Defense Up</color> to <color=#fff568>DEFENDING ALLIES</color>
 ID_ALLIANCE_NOROOMEFFECT,No Room Effect
 ID_ALLIANCE_JOIN,JOIN
 ID_ALLIANCE_EDIT,EDIT
@@ -354,24 +354,26 @@ ID_AVA3D_WARATTACK,"ATTACK  "
 ID_AVA3D_HISTORY,HISTORY
 ID_AVA3D_HISTORY_VICTORY,VICTORY
 ID_AVA3D_HISTORY_DEFEAT,DEFEAT
-ID_AVA3D_HISTORY_DESC,[ Placeholder localized text ]
+ID_AVA3D_HISTORY_DESC," This room's activity"
 ID_AVA3D_HISTORY_TITLE,BATTLE HISTORY
+ID_AVA3D_HISTORY_EMPTY_DESC,There is currently no battle history for this room.
 ID_AVA3D_HISTORY_ADDITIONAL_POINTS_SYMBOL,+
+ID_AVA3D_HISTORY_MINUS_POINTS_SYMBOL,-
 ID_AVA3D_HISTORY_KILL_POINTVALUE,+1pt
 ID_AVA3D_HISTORY_SENT_HEALING,SENT HEALING
 ID_AVA3D_HISTORY_WAS_HEALED,WAS HEALED
-ID_AVA3D_BUFFS,BUFFS
+ID_AVA3D_BUFFS,BOOSTS
 ID_AVA3D_DESTROYEDBY,Destroyed By
 ID_AVA3D_ROOMPTS,ROOM POINTS:
 ID_AVA3D_ROOMLVL,LEVEL:
 ID_AVA3D_ROOMATK,ATTACK:
-ID_AVA3D_ROOMBONUS,ROOM BONUS
-ID_AVA3D_ROOMBONUS_DESCRIPTION,Room Bonuses adjust the stats of attacking and defending characters in War. Destroy all the defenders in a room to move the bonus during the War.
+ID_AVA3D_ROOMBONUS,WAR BONUS
+ID_AVA3D_ROOMBONUS_DESCRIPTION,War Bonuses adjust the stats of attacking and defending characters in War.\nDestroy all defensive squads in a room to remove its bonus during the War.
 ID_AVA3D_ROOM_DISABLED,DISABLED
 ID_AVA3D_ADDITIONAL_BONUSES,ADDITIONAL BONUSES
 ID_AVA3D_CURR_ROOM_BONUS,{room} BONUS
 ID_AVA3D_WARHEADER,ALLIANCE WAR
-ID_AVA3D_WARHEAL,"HEAL  "
+ID_AVA3D_WARCONSUMABLE,"BOOST "
 ID_AVA3D_OFFENSIVE_PT,OFFENSIVE PT
 ID_AVA3D_DEFENSIVE_PT,DEFENSIVE PT
 ID_AVA3D_ENDED_TITLE,THE WAR HAS ENDED
@@ -383,9 +385,10 @@ ID_AVA3D_WAR_VICTORY,WAR VICTORY
 ID_AVA3D_WAR_DEFEAT,WAR DEFEAT
 ID_AVA3D_WAR_LEADERBOARD_DETAILS_HELP,The winning alliance receives bonus leaderboard points based on a percentage of the alliance's Total Collection Power.
 ID_AVA3D_WAR_LEADERBOARD_CURR_POINTS,CURRENT LEADERBOARD PTS
+ID_AVA3D_WAR_LEADERBOARD_PREV_POINTS,PREVIOUS LEADERBOARD PTS
 ID_AVA3D_WAR_LEADERBOARD_MATCH_POINTS,MATCH PTS
 ID_AVA3D_WAR_LEADERBOARD_VICTORY_BONUS,VICTORY BONUS PTS
-ID_AVA3D_DID_NOT_PARTICIPATE,Did not participate
+ID_AVA3D_DID_NOT_PARTICIPATE,Must participate to receive rewards.
 ID_AVA3D_LEADERBOARD_POINTS,LEADERBOARD POINTS
 ID_AVA3D_ACTIVELANDING_BATTLE,BATTLE
 ID_AVA3D_LANDING_STORE,STORE
@@ -405,7 +408,7 @@ ID_ALLIANCE_ARMORY_UNDERLEVEL_BODY,Must be Level <color=#86E619>50</color> to un
 ID_AVA3D_ALLIANCELANDING_SETDEFENSE,SET DEFENSE
 ID_AVA3D_INACTIVELANDING_SETDEFENSE,SET DEFENSE
 ID_AVA3D_TOPBAR_ALLIANCEWAR,ALLIANCE WAR
-ID_AVA3D_DEFAULT_MINION,S.H.I.E.L.D. Minions
+ID_AVA3D_DEFAULT_MINION,S.H.I.E.L.D. Officer
 ID_AVA3D_WAR_STARTED_HEADLINE,WAR HAS BEGUN!
 ID_AVA3D_WAR_STARTED_DESC,The war just started!
 ID_AVA3D_WAR_IS_OVER_HEADLINE,WAR IS OVER!
@@ -419,7 +422,7 @@ ID_AVA_TIMER_IN_PROGRESS,In Progress:
 ID_AVA3D_MOVEROOMS_EXIT,EXIT
 ID_ALLIANCECREATE_MANAGEMENT_LABEL,ALLIANCE MANAGEMENT RANK
 ID_ALLIANCE_MANAGE_INFO_POPUP_TITLE,ALLIANCE MANAGEMENT
-ID_ALLIANCE_MANAGE_INFO_POPUP_DESC,Alliance managers can launch raids and move Helicarrier rooms.
+ID_ALLIANCE_MANAGE_INFO_POPUP_DESC,"Alliance managers can launch raids, move Helicarrier rooms, and remove players from room defenses."
 ID_AVA3D_LEAVE_PLAYER_SLOT_HEAD,LEAVE SLOT?
 ID_AVA3D_LEAVE_PLAYER_SLOT_DESC,Are you sure?
 ID_AVA3D_LEAVE,LEAVE
@@ -433,7 +436,6 @@ ID_AVA3D_NO_SQUADS_FOR_SLOT,NO SQUADS AVAILABLE FOR THIS SLOT
 ID_AVA3D_WAR_BREACH_REMAINING,Clear {num} squad(s) to unlock adjacent rooms
 ID_AVA3D_WAR_BREACH_SLOT_REMAINING,Defeat all squads from 1 Player to unlock adjacent rooms
 ID_AVA3D_WAR_BREACH_CLEAR,Adjacent rooms unlocked
-ID_ME_S1_WARSEASON,Earn Alliance War Point
 ID_AVA_VICTORY_REWARDS_TITLE,VICTORY REWARDS
 ID_AVA_DEFEAT_REWARDS_TITLE,DEFEAT REWARDS
 ID_AVA_WAR_SCHEDULING_POPUP_HEAD,WAR TIMES
@@ -447,6 +449,10 @@ ID_AVA_WAR_TIME_SELECTION,<color={color2}>{timeRange}</color>
 ID_AVA_WAR_TIME_SELECTION_SIMPLE,{timeRange}
 ID_AVA3D_LANDING_CONTRIBUTIONS,PARTICIPATION
 ID_AVA3D_DRAW,DRAW
+ID_AVA3D_INACTIVE_LANDING_POPUP_HEADER,RULES
+ID_AVA3D_INACTIVE_LANDING_POPUP_SUBHEADER,Welcome to Alliance War!
+ID_AVA3D_INACTIVE_LANDING_POPUP_SUBHEADER2,Here is everything you need to know.
+ID_AVA3D_INACTIVE_LANDING_POPUP_BODY,"<color=#db8721>GENERAL</color>\n\n<color=#86e619>1)</color> Alliances are automatically matched with another Alliance multiple times a week for a 24-hour War.\n\n<color=#86e619>2)</color> Use War Energy to battle defensive squads and score points. War Energy is regenerated during the duration of the War, and War Energy Refills can be used to refresh War Energy for additional attacks.\n<color=#fff568>TIP:</color> When attacking, you do not need a full team of 5 characters. Select anywhere from 1 to 5 characters per attack.\n\n<color=#86e619>3)</color> Earn points for each defending character defeated by the end of a battle (summoned characters do not count as a point). Room Points are earned for destroying all defensive squads in a room.\n<color=#fff568>TIP:</color> Some rooms are worth more points than others, so focus your attacks wisely.\n\n<color=#86e619>4)</color> The Alliance with the most points when time runs out wins the War. If the score is tied, the match will be a draw and both Alliances will receive the Defeat rewards. If both Alliances destroy each other's Helicarrier, whoever destroyed it first wins. Rewards are sent to your Inbox.\n\n<color=#86e619>5)</color> All players that participated in a War will receive either the Victory or Defeat rewards. Participation includes at least one attack or boost. You must be in an Alliance for a minimum of 5 days to receive a War's season rewards.\n\n<color=#86e619>6)</color> The points your Alliance earned in a War will be applied to the War Season Leaderboard. Winning Alliances will also get a Leaderboard Point Bonus, which is based on a percentage of the Alliance's Total Collection Power calculated at the end of the War.\n<color=#fff568>TIP:</color> Keep powering up your characters even if you don't use them to maximize your Leaderboard Point Bonus.\n\n<color=#86e619>7)</color> Powering up your roster during a War will impact your attacking characters, but not your defending characters (their improved Power will take effect in the next War).\n\n<color=#86e619>8)</color> If you leave an Alliance during a War, your defending characters will continue to defend the Helicarrier for the duration of that War.\n\n<color=#86e619>9)</color> When you join an Alliance, you will have a 24-hour cooldown until you can set defenses for the Helicarrier or participate in a War.\n\n<color=#db8721>SETTING UP DEFENSES</color>\n\n<color=#86e619>1)</color> You can set up your Helicarrier defenses in between Wars (also known as Peacetime).\n\n<color=#86e619>2)</color> Access your Alliance Helicarrier from the Alliance War screen.\n\n<color=#86e619>3)</color> Select an available room.\n\n<color=#86e619>4)</color> Claim a slot. (You can only defend a single room.)\n\n<color=#86e619>5)</color>Edit your defensive squads.\n <color=#86e619>a)</color> You can set a total of 8 squads.\n <color=#86e619>b)</color> Unfilled squad slots will use default S.H.I.E.L.D. Guards.\n <color=#86e619>c)</color> Squads can be a mix of characters from your roster and default S.H.I.E.L.D. Guards.\n <color=#86e619>d)</color> Characters set on defense CANNOT be used to attack.\n <color=#86e619>e)</color> The order in which squads are placed is the order in which they will appear to attackers.\n<color=#fff568>TIP:</color> Managing your roster is key to being successful in Alliance War. Think ahead to which characters you'd like to use for defense and which ones to use to attack.\n\n<color=#86e619>6)</color> Once you have set up your defenses, you are ready for War.\n\n<color=#fff568>NOTE:</color> Rooms that are above, below, to the left, and to the right of a room are considered adjacent to that room. \n\n<color=#db8721>PARTICIPATING IN WAR</color>\n\n<color=#86e619>1)</color> Characters can only be used to attack once per War.\n<color=#fff568>TIP:</color> Stretch your roster further by bringing fewer than 5 characters into battle.\n\n<color=#86e619>2)</color> Each room has two slots that are defended by two players from the opposing Alliance. Select a room and choose a squad to attack. A total of four squads are visible at a time (two per defending player), and they are displayed in the order in which they were placed.\n\n<color=#86e619>3)</color> Gain access to rooms above and below by defeating all the squads of one defending player. Defeat all the squads of both players to reveal rooms to the left and right.\n\n<color=#86e619>4)</color> Boosts can be applied to your defensive squads while viewing your defenses."
 ID_AVA3D_MOVEROOMS_PROMPT,Tap two rooms to move them
 ID_AVA3D_JOINCOOLDOWN_POPUP_HEADER,Alliance Cooldown
 ID_AVA3D_JOINCOOLDOWN_POPUP_DESC,You must wait 24 hours after joining an alliance before participating in war.
@@ -466,22 +472,25 @@ ID_AVA3D_SQUADSELECT_ERR_BODY,There was an error loading your squad. Please try 
 ID_AVA3D_PLAYER_DEFEATED,Player Defeated
 ID_ENEMY_ALLIANCE_DEFAULT_NAME,Enemy Alliance
 ID_WAR_SUPPLIES_TITLE,WAR PREP
-ID_WAR_SUPPLIES_SUBTITLE,"Stock up on your War supplies. Once you hit Ready, you cannot purchase more supplies during this war."
-ID_WAR_SUPPLIES_HEALTH_CARD_TITLE,WAR HEALTH
-ID_WAR_SUPPLIES_HEALTH_CARD_SUBTITLE,Heal your teammates
+ID_WAR_SUPPLIES_SUBTITLE,"Purchase supplies now, or restock in the Blitz store."
+ID_WAR_SUPPLIES_CONSUMABLE_CARD_TITLE,DEFENSE BOOST
+ID_WAR_SUPPLIES_CONSUMABLE_CARD_SUBTITLE,Apply Deflect to defensive teams
+ID_WAR_SUPPLIES_CONSUMABLE_LIMIT_DESC,You have reached the limit for applying Defense Boosts.
+ID_WAR_SUPPLIES_CONSUMABLE_LIMIT_TITLE,LIMIT REACHED
 ID_WAR_SUPPLIES_ENERGY_CARD_TITLE,WAR ENERGY
 ID_WAR_SUPPLIES_ENERGY_CARD_SUBTITLE,Use energy to beat your opponent
 ID_WAR_SUPPLIES_QUANTITY_TITLE,You Own:
 ID_ENTER_WAR_BTN_TEXT,Enter WAR!
-ID_AVA3D_MINION_SQUAD_LABEL,DEFAULT
+ID_AVA3D_MINION_SQUAD_LABEL,GUARD
 ID_CONTRIBUTION_LEADERBOARD_PLAYER_HDR,PLAYERS
 ID_CONTRIBUTION_LEADERBOARD_ATTACK_ATTEMPTS,ATTACKS
 ID_CONTRIBUTION_LEADERBOARD_ATTACK_POINTS,ATTACK POINTS
 ID_CONTRIBUTION_LEADERBOARD_DAMAGE_POINTS,DAMAGE POINTS
 ID_CONTRIBUTION_LEADERBOARD_DEFEND_VICTORIES,DEFEND VICTORIES
 ID_CONTRIBUTION_LEADERBOARD_HEAL_ATTEMPTS,HEALS
-ID_CONTRIBUTION_LEADERBOARD_PLAYER_SUFFIX,<color=#b5fb5d>[ME]</color>
-ID_AVA3D_HELICARRIER_DETAIL_HEAL_BUTTON,HEAL
+ID_CONTRIBUTION_LEADERBOARD_FORTIFY_APPLIED,DEFENSE BOOST
+ID_CONTRIBUTION_LEADERBOARD_PLAYER_SUFFIX,<color=#00ff00>[ME]</color>
+ID_AVA3D_HELICARRIER_DETAIL_CONSUMABLE_BUTTON,BOOST
 ID_WAR_BATTLE_VICTORY_MESSAGE,Your surviving characters are holding down the room
 ID_WAR_BATTLE_DEFEAT_MESSAGE,Your surviving characters are holding down the room
 ID_AVA3D_MARK_SLOT_HEAD,MARK THIS SLOT?
@@ -490,3 +499,39 @@ ID_AVA3D_UNMARK_SLOT_HEAD,UNMARK THIS SLOT?
 ID_AVA3D_UNMARK_SLOT_DESC,Are you sure?
 ID_AVA3D_MAX_MARKED_SLOT_REACHED_HEAD,Max Marked Slot Reached
 ID_AVA3D_MAX_MARKED_SLOT_REACHED_DESC,Max marked slot has been reached. Please unmark other slot before marking new one.
+ID_AVA3D_KICKMEMBERFROMCARRIER,KICK
+ID_AVA3D_KICK_MEMBER_SLOT_HEAD,REMOVE USER?
+ID_AVA3D_KICK_MEMBER_SLOT_DESC,Are you sure?
+ID_AVA3D_ROOM_SYNERGIES_HEAD,ACTIVE BONUSES
+ID_AVA3D_SQUADSELECT_OPPONENT_HEAD,OPPONENT
+ID_ALLIANCE_BATTLE_OPTION_DESC," Eliminate enemy characters to earn points for your alliance!"
+ID_ALLIANCE_BATTLE_OPTION_TITLE," Alliance War"
+ID_ALLIANCE_WAR_CONSUMABLE_1," Defense Boost"
+ID_AVA3D_CURRENT_ROOM_CELL_HEAD,<size=35><color=#c9cdf2>        [CURRENT ROOM]</color></size>
+ID_AVA3D_SET_DEFENSIVE_SQUAD_DESC,SET DEFENSIVE SQUADS
+ID_AVA3D_WAR_ENDED_MID_BATTLE_HEADER,The War Has Ended
+ID_AVA3D_WAR_ENDED_MID_BATTLE_BODY,This war has ended while you were in combat.  This battle will not count to the overall war.
+ID_AVA3D_WAR_MISSING_TIMER,--
+ID_AVA3D_WAR_MISSING_PLAYER,--
+ID_AVA3D_WAR_MISSING_TIER,--
+ID_AVA3D_BOOSTEDBY,Boosted By
+ID_AVA3D_BOOST_LIMIT_REACHED,BOOST LIMIT REACHED
+ID_AVA3D_BOOST_ALREADY_PURCHASED_TITLE,BOOST PURCHASED
+ID_AVA3D_SOMEONE_ALREADY_ATTACKED_TITLE,SQUAD UNDER ATTACK
+ID_AVA3D_SOMEONE_ALREADY_ATTACKED_BODY,UNDER ATTACK BY {player}
+ID_AVA_WAR_REWARDS_HEAD,WAR REWARDS
+ID_AVA_NO_WAR_SCHEDULE_DESC,YOUR ALLIANCE LEADER MUST SET THE WAR SCHEDULE
+ID_AVA_SET_SCHEDULE_HEAD,SET SCHEDULE
+ID_AVA_REQUIRED_TEXT,COMING SOON
+ID_ME_NA_AVASEASON,War Season
+ID_ME_SD_AVASEASON,Earn Rank Rewards
+ID_ME_SM_AVASEASON,Battle Enemy Alliances with your Alliance Members
+ID_ME_LM_AVASEASON,Cooperate with your Alliance to take on Enemy Alliances and earn rank rewards.
+ID_ME_MT_AVASEASON,The War Season has started!
+ID_ME_MS_AVASEASON,Coordinate with your Alliance to win rewards.
+ID_ME_MB_AVASEASON,"A new War Season has started. Cooperate with your Alliance, attack enemy Helicarriers in War, and win various rewards!"
+ID_ME_MC_AVASEASON,GO!
+ID_ME_S1_WARSEASON,Earn Alliance War Point
+ID_AL_TI_END_WAR_REWARD,Alliance War Completion Reward
+ID_AL_DE_END_WAR_REWARD,War has concluded
+ID_AL_BO_END_WAR_REWARD,The current War has ended. Claim your Alliance War reward and prepare for the next War.

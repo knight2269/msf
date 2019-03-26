@@ -7754,12 +7754,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 2732,
-          "TotalHealth": 14398,
+          "Power": 2540,
+          "TotalHealth": 13648,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 319,
+              "Power": 318,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -7775,7 +7775,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 319,
+              "Power": 318,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -7791,15 +7791,15 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 337,
+              "Power": 318,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
               "RedStar": 0,
               "Abilities": [
-                2,
                 1,
-                1,
+                -1,
+                -1,
                 -1,
                 0,
                 0
@@ -7807,15 +7807,15 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 349,
-              "Level": 16,
+              "Power": 318,
+              "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
               "RedStar": 0,
               "Abilities": [
-                2,
                 1,
-                1,
+                -1,
+                -1,
                 -1,
                 0,
                 0
@@ -7823,7 +7823,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 317,
+              "Power": 316,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -7855,8 +7855,8 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 329,
-              "Level": 16,
+              "Power": 318,
+              "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
               "RedStar": 0,
@@ -7871,9 +7871,9 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 444,
+              "Power": 316,
               "Level": 15,
-              "GearLevel": 4,
+              "GearLevel": 3,
               "Loyalty": 1,
               "RedStar": 0,
               "Abilities": [
@@ -7917,6 +7917,7 @@
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 90,
+                      "dmg_percent": 90,
                       "desired_x_pos": 2,
                       "desired_y_pos": 1
                     },
@@ -7939,14 +7940,15 @@
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 65,
+                      "dmg_percent": 90,
                       "desired_x_pos": 1,
                       "desired_y_pos": 0
                     },
                     {
                       "abilities": [
-                        2,
                         1,
-                        1,
+                        -1,
+                        -1,
                         -1,
                         0,
                         0
@@ -7954,6 +7956,7 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
+                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetSupport",
                       "hero_id": "UltronTank_Taunt",
                       "level": 15,
@@ -7965,9 +7968,9 @@
                     },
                     {
                       "abilities": [
-                        2,
                         1,
-                        1,
+                        -1,
+                        -1,
                         -1,
                         0,
                         0
@@ -7975,9 +7978,10 @@
                       "custom_entity_visual": [
                         "RedEyes"
                       ],
+                      "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 16,
+                      "level": 15,
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 80,
@@ -8003,6 +8007,7 @@
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 85,
+                      "dmg_percent": 85,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     },
@@ -8043,7 +8048,7 @@
                       "useDefaultStats": false,
                       "ai_override": "Mission_TargetBrawler",
                       "hero_id": "UltronSupport_Heal",
-                      "level": 16,
+                      "level": 15,
                       "loyalty": 1,
                       "tier": 3,
                       "speed_percent": 85,
@@ -8067,8 +8072,9 @@
                       "hero_id": "UltronDmg_Offense",
                       "level": 15,
                       "loyalty": 1,
-                      "tier": 4,
+                      "tier": 3,
                       "speed_percent": 90,
+                      "dmg_percent": 85,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }

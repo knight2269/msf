@@ -1,17 +1,28 @@
 {
-  "default": {
-    "values": {
-      "1": 100,
-      "2": 200,
-      "3": 400,
-      "4": 900,
-      "5": 3750,
-      "6": 7500,
-      "7": 12000
-    },
-    "prize": {
+  "PrizeDefs": {
+    "default": {
+      "values": {
+        "1": 100,
+        "2": 200,
+        "3": 400,
+        "4": 900,
+        "5": 3750,
+        "6": 7500,
+        "7": 12000
+      },
       "id": "m_crate_promotion_advanced",
       "type": "gs"
     }
+  },
+  "ConversionTemplates": {
+    "default": [
+      "default"
+    ],
+    "m_crate_promotion": [
+      "default"
+    ],
+    "m_crate_promotion_advanced": [
+      "default"
+    ]
   }
 }
