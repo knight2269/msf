@@ -4225,7 +4225,7 @@
         "savepoint": "",
         "triggerData": "",
         "storytellingID": "nue_war_01a",
-        "eventData": "{\"ObjectID\":\"HomeCampaignWar\",\"OverrideSliderHighlight\":\"TRUE\",\"HighlightDirection\":\"TOP\",\"HideBackground\":\"FALSE\",\"HighlightDelay\":\"0\"}",
+        "eventData": "{\"ObjectID\":\"HomeCampaignWar\",\"OverrideSliderHighlight\":\"TRUE\",\"HighlightDirection\":\"TOP\",\"HideBackground\":\"TRUE\",\"HighlightDelay\":\"0\"}",
         "completionActionData": "",
         "rewardID": "",
         "triggerType": "ONSTART",
@@ -4248,20 +4248,6 @@
       }
     ],
     "nue_WarPeaceA_01": [
-      {
-        "moduleID": "nue_WarPeaceA_01",
-        "eventID": "warpeacea_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarPeaceA_01",
         "eventID": "warpeacea_02",
@@ -4311,7 +4297,7 @@
         "savepoint": "",
         "triggerData": "",
         "storytellingID": "nue_war_02a",
-        "eventData": "{\"ObjectID\":\"ID_AVA_INACTIVE_SETDEFENSE\",\"HighlightDirection\":\"TOP\",\"HideBackground\":\"TRUE\",\"HighlightDelay\":\"0\"}",
+        "eventData": "{\"ObjectID\":\"ID_AVA_INACTIVE_SETDEFENSE\",\"HighlightDirection\":\"TOP\",\"TargetBackgroundOpacity\":0.4,\"HideBackground\":\"TRUE\",\"HighlightDelay\":\"0\"}",
         "completionActionData": "",
         "rewardID": "",
         "triggerType": "ONSTART",
@@ -4320,20 +4306,6 @@
       }
     ],
     "nue_WarPeaceB_01": [
-      {
-        "moduleID": "nue_WarPeaceB_01",
-        "eventID": "warpeaceb_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarPeaceB_01",
         "eventID": "warpeaceb_02",
@@ -4352,26 +4324,12 @@
     "nue_WarPeaceC_01": [
       {
         "moduleID": "nue_WarPeaceC_01",
-        "eventID": "warpeacec_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
-      {
-        "moduleID": "nue_WarPeaceC_01",
         "eventID": "warpeacec_02",
         "nextEvent": null,
         "savepoint": "",
         "triggerData": "",
         "storytellingID": "nue_war_05",
-        "eventData": "{\"ObjectID\":\"ClaimSlotButton\",\"OverrideSliderHighlight\":\"TRUE\",\"HighlightDirection\":\"RIGHT\",\"HideBackground\":\"TRUE\",\"HighlightDelay\":\"0\"}",
+        "eventData": "{\"ObjectID\":\"ClaimSlotButton\",\"HighlightDirection\":\"RIGHT\",\"HideBackground\":\"FALSE\",\"HighlightDelay\":\"0\"}",
         "completionActionData": "",
         "rewardID": "",
         "triggerType": "WARSLOTAVAILABLE",
@@ -4380,20 +4338,6 @@
       }
     ],
     "nue_WarPeaceD_01": [
-      {
-        "moduleID": "nue_WarPeaceD_01",
-        "eventID": "warpeaced_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarPeaceD_01",
         "eventID": "warpeaced_02",
@@ -4410,20 +4354,6 @@
       }
     ],
     "nue_WarPeaceE_01": [
-      {
-        "moduleID": "nue_WarPeaceE_01",
-        "eventID": "warpeacee_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarPeaceE_01",
         "eventID": "warpeacee_02",
@@ -4470,20 +4400,6 @@
     "nue_WarTimeA_01": [
       {
         "moduleID": "nue_WarTimeA_01",
-        "eventID": "wartimea_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
-      {
-        "moduleID": "nue_WarTimeA_01",
         "eventID": "wartimea_02",
         "nextEvent": null,
         "savepoint": "",
@@ -4498,20 +4414,6 @@
       }
     ],
     "nue_WarTimeAttackB_01": [
-      {
-        "moduleID": "nue_WarTimeAttackB_01",
-        "eventID": "wartimeattackb_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarTimeAttackB_01",
         "eventID": "wartimeattackb_02",
@@ -4530,20 +4432,6 @@
     "nue_WarTimeAttackC_01": [
       {
         "moduleID": "nue_WarTimeAttackC_01",
-        "eventID": "wartimeattackc_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
-      {
-        "moduleID": "nue_WarTimeAttackC_01",
         "eventID": "wartimeattackc_02",
         "nextEvent": null,
         "savepoint": "",
@@ -4558,20 +4446,6 @@
       }
     ],
     "nue_WarTimeAttackD_01": [
-      {
-        "moduleID": "nue_WarTimeAttackD_01",
-        "eventID": "wartimeattackd_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarTimeAttackD_01",
         "eventID": "wartimeattackd_02",
@@ -4632,20 +4506,6 @@
       }
     ],
     "nue_WarTimeDefenseF_01": [
-      {
-        "moduleID": "nue_WarTimeDefenseF_01",
-        "eventID": "wartimdefensef_01",
-        "nextEvent": null,
-        "savepoint": "",
-        "triggerData": "{\n\"IsOnHomeScreen\":\"false\"\n}",
-        "storytellingID": "",
-        "eventData": "null",
-        "completionActionData": "",
-        "rewardID": "",
-        "triggerType": "WARAVAILABLE",
-        "eventType": "SIMPLEACTION",
-        "completionAction": "NONE"
-      },
       {
         "moduleID": "nue_WarTimeDefenseF_01",
         "eventID": "wartimdefensef_02",
