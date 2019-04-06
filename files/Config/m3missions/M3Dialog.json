@@ -73834,7 +73834,7 @@
         "rightPositionOverride": "(0.0,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
-        "activeSide": "RIGHT",
+        "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_01_INTRO_1"
       },
       {
@@ -73850,16 +73850,18 @@
         "rightPositionOverride": "(0.0,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
-        "activeSide": "LEFT",
+        "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_01_INTRO_2"
       },
       {
         "scene": "le_shuri_01_intro",
         "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
+        "leftModel": "BlackPanther",
+        "leftPositionOverride": "(0.0,-0.63,0.0)",
         "leftRotationOverride": "(0.0,140.0,0.0)",
-        "leftScalarOverride": "(1.6,1.6,1.5)",
+        "leftScalarOverride": "(1.6,1.6,1.6)",
+        "leftAnimation": "Anim_MaleMed_ShellIdle",
+        "leftLoopMode": "LOOP",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
@@ -73871,8 +73873,8 @@
         "scene": "le_shuri_01_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
@@ -73885,30 +73887,66 @@
         "scene": "le_shuri_01_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.6,1.6,1.5)",
+        "rightModel": "NickFury",
+        "rightPositionOverride": "(0.0,-0.63,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_INTRO_5"
+      },
+      {
+        "scene": "le_shuri_01_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_01_INTRO_5"
+        "text": "ID_DIALOG_LE_SHURI_01_INTRO_6"
       },
       {
         "scene": "le_shuri_01_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "SpiderMan",
-        "rightPositionOverride": "(0.0,-0.6,0.0)",
-        "rightRotationOverride": "(0.0,-135.0,0.0)",
+        "rightPositionOverride": "(-0.04,-0.6,0.0)",
+        "rightRotationOverride": "(0.0,-130.0,0.0)",
         "rightScalarOverride": "(1.5, 1.5, 1.25)",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_01_INTRO_6"
+        "text": "ID_DIALOG_LE_SHURI_01_INTRO_7"
       }
     ],
     "le_shuri_01_start": [
       {
         "scene": "le_shuri_01_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_START_0"
+      },
+      {
+        "scene": "le_shuri_01_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_START_1"
+      },
+      {
+        "scene": "le_shuri_01_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_START_2"
+      }
+    ],
+    "le_shuri_01_mid": [
+      {
+        "scene": "le_shuri_01_mid",
         "leftModel": "Killmonger",
         "leftModelEffects": "RedEyes",
         "leftPositionOverride": "(0.15,-0.95,0)",
@@ -73916,10 +73954,10 @@
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
-        "text": "ID_DIALOG_LE_SHURI_01_START_0"
+        "text": "ID_DIALOG_LE_SHURI_01_MID_0"
       },
       {
-        "scene": "le_shuri_01_start",
+        "scene": "le_shuri_01_mid",
         "leftModel": "BlackPanther",
         "leftPositionOverride": "(0.15,-0.95,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
@@ -73928,16 +73966,33 @@
         "leftLoopMode": "LOOP",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
-        "text": "ID_DIALOG_LE_SHURI_01_START_1"
+        "text": "ID_DIALOG_LE_SHURI_01_MID_1"
+      }
+    ],
+    "le_shuri_01_info_01": [
+      {
+        "scene": "le_shuri_01_info_01",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_INFO_01_0"
+      },
+      {
+        "scene": "le_shuri_01_info_01",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_01_INFO_01_1"
       }
     ],
     "le_shuri_01_end": [
       {
         "scene": "le_shuri_01_end",
+        "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
-        "leftScalarOverride": "(2,2,2)",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
@@ -73949,10 +74004,11 @@
       },
       {
         "scene": "le_shuri_01_end",
+        "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
-        "leftScalarOverride": "(2,2,2)",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
@@ -73964,10 +74020,11 @@
       },
       {
         "scene": "le_shuri_01_end",
+        "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
-        "leftScalarOverride": "(2,2,2)",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
@@ -73979,14 +74036,15 @@
       },
       {
         "scene": "le_shuri_01_end",
+        "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
-        "leftScalarOverride": "(2,2,2)",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
-        "rightPositionOverride": "(0.15,-0.95,0)",
-        "rightRotationOverride": "(0.0,-160.0,0.0)",
-        "rightScalarOverride": "(2,2,2)",
+        "rightPositionOverride": "(-0.08,-0.6,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.5)",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_01_END_3"
       }
@@ -73994,12 +74052,11 @@
     "le_shuri_02_intro": [
       {
         "scene": "le_shuri_02_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "MercDmg_General",
         "rightModelEffects": "RedEyes",
-        "rightPositionOverride": "(0.15,-0.95,0)",
-        "rightRotationOverride": "(0.0,-160.0,0.0)",
-        "rightScalarOverride": "(2,2,2)",
+        "rightPositionOverride": "(0.04,-0.63,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_02_INTRO_0"
       },
@@ -74007,14 +74064,14 @@
         "scene": "le_shuri_02_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Carnage",
-        "leftPositionOverride": "(-0.08,-0.4,0.0)",
+        "leftPositionOverride": "(-0.02,-0.4,0.0)",
         "leftRotationOverride": "(0.0,140.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.6)",
         "rightModel": "MercDmg_General",
         "rightModelEffects": "RedEyes",
-        "rightPositionOverride": "(0.15,-0.95,0)",
-        "rightRotationOverride": "(0.0,-160.0,0.0)",
-        "rightScalarOverride": "(2,2,2)",
+        "rightPositionOverride": "(0.04,-0.63,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_02_INTRO_1"
       },
@@ -74022,14 +74079,14 @@
         "scene": "le_shuri_02_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Carnage",
-        "leftPositionOverride": "(-0.08,-0.4,0.0)",
+        "leftPositionOverride": "(-0.02,-0.4,0.0)",
         "leftRotationOverride": "(0.0,140.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.6)",
         "rightModel": "MercDmg_General",
         "rightModelEffects": "RedEyes",
-        "rightPositionOverride": "(0.15,-0.95,0)",
-        "rightRotationOverride": "(0.0,-160.0,0.0)",
-        "rightScalarOverride": "(2,2,2)",
+        "rightPositionOverride": "(0.04,-0.63,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_02_INTRO_2"
       },
@@ -74038,7 +74095,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_02_INTRO_3"
@@ -74068,7 +74125,7 @@
       {
         "scene": "le_shuri_02_start",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74084,6 +74141,89 @@
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_02_START_3"
+      },
+      {
+        "scene": "le_shuri_02_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_02_START_4"
+      }
+    ],
+    "le_shuri_portal_activated_1": [
+      {
+        "scene": "le_shuri_portal_activated_1",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_1_0"
+      },
+      {
+        "scene": "le_shuri_portal_activated_1",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_1_1"
+      }
+    ],
+    "le_shuri_portal_activated_2": [
+      {
+        "scene": "le_shuri_portal_activated_2",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_2_0"
+      },
+      {
+        "scene": "le_shuri_portal_activated_2",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_2_1"
+      }
+    ],
+    "le_shuri_portal_activated_3": [
+      {
+        "scene": "le_shuri_portal_activated_3",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_3_0"
+      },
+      {
+        "scene": "le_shuri_portal_activated_3",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_3_1"
+      }
+    ],
+    "le_shuri_portal_activated_4": [
+      {
+        "scene": "le_shuri_portal_activated_4",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_4_0"
+      },
+      {
+        "scene": "le_shuri_portal_activated_4",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_PORTAL_ACTIVATED_4_1"
       }
     ],
     "le_shuri_02_end": [
@@ -74110,7 +74250,7 @@
       {
         "scene": "le_shuri_02_end",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74124,7 +74264,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74138,7 +74278,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74152,7 +74292,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74166,7 +74306,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74180,7 +74320,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74194,7 +74334,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74207,13 +74347,23 @@
     "le_shuri_03_start": [
       {
         "scene": "le_shuri_03_start",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_03_START_0"
+      },
+      {
+        "scene": "le_shuri_03_start",
         "leftModel": "Carnage",
         "leftPositionOverride": "(0.2,-0.3,0)",
         "leftRotationOverride": "(0.0,120.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
-        "text": "ID_DIALOG_LE_SHURI_03_START_0"
+        "text": "ID_DIALOG_LE_SHURI_03_START_1"
       },
       {
         "scene": "le_shuri_03_start",
@@ -74223,7 +74373,7 @@
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
-        "text": "ID_DIALOG_LE_SHURI_03_START_1"
+        "text": "ID_DIALOG_LE_SHURI_03_START_2"
       }
     ],
     "le_shuri_03_end": [
@@ -74240,7 +74390,7 @@
       {
         "scene": "le_shuri_03_end",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74260,43 +74410,48 @@
       {
         "scene": "le_shuri_03_end",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_03_END_3"
+      },
+      {
+        "scene": "le_shuri_03_end",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_03_END_4"
       }
     ],
     "le_shuri_04_intro": [
       {
         "scene": "le_shuri_04_intro",
         "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
-        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.6,1.6,1.5)",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_04_INTRO_0"
+      },
+      {
+        "scene": "le_shuri_04_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "Mantis",
         "rightModelEffects": "RedEyes",
         "rightPositionOverride": "(-0.01,-0.57,0.0)",
         "rightRotationOverride": "(0.0,-115.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_04_INTRO_0"
-      },
-      {
-        "scene": "le_shuri_04_intro",
-        "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
-        "leftScalarOverride": "(1.5, 1.5, 1.25)",
-        "rightModel": "Mantis",
-        "rightModelEffects": "RedEyes",
-        "rightPositionOverride": "(-0.01,-0.57,0.0)",
-        "rightRotationOverride": "(0.0,-115.0,0.0)",
-        "rightScalarOverride": "(1.6,1.6,1.6)",
-        "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_04_INTRO_1"
       },
       {
@@ -74304,7 +74459,22 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "rightModel": "Mantis",
+        "rightModelEffects": "RedEyes",
+        "rightPositionOverride": "(-0.01,-0.57,0.0)",
+        "rightRotationOverride": "(0.0,-115.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_04_INTRO_2"
+      },
+      {
+        "scene": "le_shuri_04_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Mantis",
         "rightModelEffects": "RedEyes",
@@ -74312,25 +74482,24 @@
         "rightRotationOverride": "(0.0,-115.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_04_INTRO_2"
+        "text": "ID_DIALOG_LE_SHURI_04_INTRO_3"
       },
       {
         "scene": "le_shuri_04_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "RocketRaccoon",
         "rightModelEffects": "RedEyes",
-        "rightPositionOverride": "(0.15,-0.5,0.0)",
-        "rightRotationOverride": "(0.0,-150.0,0.0)",
+        "rightPositionOverride": "(0.0,-0.5,0.0)",
+        "rightRotationOverride": "(0.0,-130.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_04_INTRO_3"
+        "text": "ID_DIALOG_LE_SHURI_04_INTRO_4"
       }
     ],
     "le_shuri_04_start": [
       {
         "scene": "le_shuri_04_start",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74340,7 +74509,7 @@
       {
         "scene": "le_shuri_04_start",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74352,7 +74521,7 @@
       {
         "scene": "le_shuri_04_end",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74372,7 +74541,7 @@
       {
         "scene": "le_shuri_04_end",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
@@ -74386,7 +74555,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74400,7 +74569,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74414,7 +74583,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74428,7 +74597,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74442,7 +74611,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74456,7 +74625,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74469,7 +74638,7 @@
         "scene": "le_shuri_05_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Carnage",
-        "leftPositionOverride": "(-0.08,-0.4,0.0)",
+        "leftPositionOverride": "(-0.02,-0.4,0.0)",
         "leftRotationOverride": "(0.0,140.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "LEFT",
@@ -74480,8 +74649,8 @@
       {
         "scene": "le_shuri_05_start",
         "leftModel": "MBaku",
-        "leftPositionOverride": "(0.15,-0.95,0)",
-        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftPositionOverride": "(0.50,-0.8,0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
@@ -74500,12 +74669,33 @@
       {
         "scene": "le_shuri_05_start",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_05_START_2"
+      },
+      {
+        "scene": "le_shuri_05_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_05_START_3"
+      },
+      {
+        "scene": "le_shuri_05_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_05_START_4"
+      },
+      {
+        "scene": "le_shuri_05_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_05_START_5"
       }
     ],
     "le_shuri_05_end": [
@@ -74514,7 +74704,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74528,7 +74718,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Shuri",
         "rightPositionOverride": "(-0.08,-0.6,0.0)",
@@ -74542,12 +74732,12 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
-        "rightModel": "Shuri",
-        "rightPositionOverride": "(-0.08,-0.6,0.0)",
+        "rightModel": "Carnage",
+        "rightPositionOverride": "(-0.02,-0.4,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
-        "rightScalarOverride": "(1.6,1.6,1.5)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_05_END_2"
       },
@@ -74556,10 +74746,10 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Carnage",
-        "rightPositionOverride": "(-0.08,-0.4,0.0)",
+        "rightPositionOverride": "(-0.02,-0.4,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "RIGHT",
@@ -74568,12 +74758,12 @@
       {
         "scene": "le_shuri_05_end",
         "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
-        "leftScalarOverride": "(1.6,1.6,1.5)",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "rightModel": "Carnage",
-        "rightPositionOverride": "(-0.08,-0.4,0.0)",
+        "rightPositionOverride": "(-0.02,-0.4,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "activeSide": "LEFT",
@@ -74582,6 +74772,19 @@
       {
         "scene": "le_shuri_05_end",
         "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "rightModel": "Carnage",
+        "rightPositionOverride": "(-0.02,-0.4,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.6)",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_05_END_5"
+      },
+      {
+        "scene": "le_shuri_05_end",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
         "rightRotationOverride": "(0.0,-140.0,0.0)",
@@ -74589,20 +74792,6 @@
         "rightAnimation": "Anim_MaleMed_ShellIdle",
         "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
-        "text": "ID_DIALOG_LE_SHURI_05_END_5"
-      },
-      {
-        "scene": "le_shuri_05_end",
-        "background": "Marvel_Storytelling_alt2.png",
-        "leftModel": "SpiderMan",
-        "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
-        "leftScalarOverride": "(1.5, 1.5, 1.25)",
-        "rightModel": "Carnage",
-        "rightPositionOverride": "(-0.08,-0.4,0.0)",
-        "rightRotationOverride": "(0.0,-140.0,0.0)",
-        "rightScalarOverride": "(1.6,1.6,1.6)",
-        "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_05_END_6"
       }
     ],
@@ -74611,8 +74800,8 @@
         "scene": "le_shuri_06_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
@@ -74627,8 +74816,8 @@
         "scene": "le_shuri_06_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
@@ -74641,23 +74830,23 @@
       },
       {
         "scene": "le_shuri_06_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "Ultimus",
         "rightPositionOverride": "(0.12,-0.55,0.0)",
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_06_INTRO_2"
       },
       {
         "scene": "le_shuri_06_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "Ultimus",
         "rightPositionOverride": "(0.12,-0.55,0.0)",
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_06_INTRO_3"
       },
@@ -74675,6 +74864,7 @@
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_06_INTRO_4"
       },
@@ -74715,9 +74905,9 @@
       {
         "scene": "le_shuri_06_start",
         "leftModel": "KreeTank_Counter",
-        "leftPositionOverride": "(-0.02,-0.63,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
-        "leftScalarOverride": "(1.6,1.6,1.6)",
+        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_06_START_0"
@@ -74725,12 +74915,32 @@
       {
         "scene": "le_shuri_06_start",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftPositionOverride": "(0.25,-0.8,0)",
         "leftRotationOverride": "(0.0,160.0,0.0)",
         "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_06_START_1"
+      },
+      {
+        "scene": "le_shuri_06_start",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_06_START_2"
+      },
+      {
+        "scene": "le_shuri_06_start",
+        "leftModel": "Shuri",
+        "leftPositionOverride": "(0.25,-0.8,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
+        "storytellingStyle": "NUESTORY",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_06_START_3"
       }
     ],
     "le_shuri_06_end": [
@@ -74762,8 +74972,8 @@
         "scene": "le_shuri_07_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
@@ -74778,8 +74988,8 @@
         "scene": "le_shuri_07_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "BlackPanther",
         "rightPositionOverride": "(0.04,-0.63,0.0)",
@@ -74792,23 +75002,23 @@
       },
       {
         "scene": "le_shuri_07_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "Ultimus",
         "rightPositionOverride": "(0.12,-0.55,0.0)",
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_07_INTRO_2"
       },
       {
         "scene": "le_shuri_07_intro",
-        "background": "Marvel_Storytelling_alt2.png",
         "rightModel": "Ultimus",
         "rightPositionOverride": "(0.12,-0.55,0.0)",
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "RIGHT",
         "text": "ID_DIALOG_LE_SHURI_07_INTRO_3"
       },
@@ -74816,14 +75026,15 @@
         "scene": "le_shuri_07_intro",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "Ultimus",
         "rightPositionOverride": "(0.12,-0.55,0.0)",
         "rightRotationOverride": "(0.0,-125.0,0.0)",
         "rightScalarOverride": "(1.6,1.6,1.6)",
         "rightAnimation": "Anim_MaleMed_ShellIdle",
+        "rightLoopMode": "LOOP",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_07_INTRO_4"
       },
@@ -74832,7 +75043,7 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_07_INTRO_5"
@@ -74842,10 +75053,38 @@
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "SpiderMan",
         "leftPositionOverride": "(0.0,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,135.0,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.5, 1.5, 1.25)",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_07_INTRO_6"
+      },
+      {
+        "scene": "le_shuri_07_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "rightModel": "Shuri",
+        "rightPositionOverride": "(-0.08,-0.6,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.5)",
+        "activeSide": "RIGHT",
+        "text": "ID_DIALOG_LE_SHURI_07_INTRO_7"
+      },
+      {
+        "scene": "le_shuri_07_intro",
+        "background": "Marvel_Storytelling_alt2.png",
+        "leftModel": "SpiderMan",
+        "leftPositionOverride": "(0.0,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
+        "leftScalarOverride": "(1.5, 1.5, 1.25)",
+        "rightModel": "Shuri",
+        "rightPositionOverride": "(-0.08,-0.6,0.0)",
+        "rightRotationOverride": "(0.0,-140.0,0.0)",
+        "rightScalarOverride": "(1.6,1.6,1.5)",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_07_INTRO_8"
       }
     ],
     "le_shuri_07_start": [
@@ -74870,12 +75109,36 @@
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_07_START_1"
+      },
+      {
+        "scene": "le_shuri_07_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_07_START_2"
+      },
+      {
+        "scene": "le_shuri_07_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_07_START_3"
+      },
+      {
+        "scene": "le_shuri_07_start",
+        "dialogBoxOffset": "(0.25,0.5,0)",
+        "storytellingStyle": "TIP",
+        "activeSide": "LEFT",
+        "text": "ID_DIALOG_LE_SHURI_07_START_4"
       }
     ],
     "le_shuri_07_fail": [
       {
         "scene": "le_shuri_07_fail",
         "leftModel": "NickFury",
+        "leftPositionOverride": "(0.15,-0.95,0)",
+        "leftRotationOverride": "(0.0,160.0,0.0)",
+        "leftScalarOverride": "(2,2,2)",
         "storytellingStyle": "NUESTORY",
         "activeSide": "LEFT",
         "text": "ID_DIALOG_LE_SHURI_07_FAIL_0"
@@ -74930,8 +75193,8 @@
         "scene": "le_shuri_07_end",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
@@ -74944,8 +75207,8 @@
         "scene": "le_shuri_07_end",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
@@ -74958,8 +75221,8 @@
         "scene": "le_shuri_07_end",
         "background": "Marvel_Storytelling_alt2.png",
         "leftModel": "Shuri",
-        "leftPositionOverride": "(0.16,-0.6,0.0)",
-        "leftRotationOverride": "(0.0,140.0,0.0)",
+        "leftPositionOverride": "(0.02,-0.6,0.0)",
+        "leftRotationOverride": "(0.0,130.0,0.0)",
         "leftScalarOverride": "(1.6,1.6,1.5)",
         "rightModel": "NickFury",
         "rightPositionOverride": "(0.0,-0.63,0.0)",
