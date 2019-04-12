@@ -16691,6 +16691,16 @@
               "only_procs": [
                 "Charged"
               ]
+            },
+            {
+              "action": "heal",
+              "heal_pct": 10,
+              "only_if": {
+                "mode": "RAID"
+              },
+              "target": {
+                "relation": "ally"
+              }
             }
           ],
           "exec": "on_block_success"
@@ -16704,6 +16714,18 @@
         76
       ],
       "passive_stats": [
+        {
+          "apply_if": {
+            "mode": "RAID"
+          },
+          "delta": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "stat": "block_chance_pct"
+        },
         {
           "apply_if": {
             "owner": {
@@ -16721,15 +16743,20 @@
           "stat": "block_chance_pct"
         },
         {
+          "apply_if": {
+            "owner": {
+              "states": [
+                "charged"
+              ]
+            }
+          },
           "delta": [
-            5,
-            5,
-            5,
-            5,
-            10
+            25,
+            25,
+            25,
+            25,
+            50
           ],
-          "for_each_proc_name": "Charged",
-          "for_each_self_proc_duration": true,
           "stat": "block_amount_pct"
         }
       ],
@@ -30651,27 +30678,39 @@
       "global_stats": [
         {
           "apply_if": {
-            "mode": "RAID"
+            "mode": "RAID",
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Wakanda"
+              ]
+            }
           },
           "delta": [
             0,
             20,
             20,
             20,
-            30
+            40
           ],
           "stat": "max_hp_pct"
         },
         {
           "apply_if": {
-            "mode": "RAID"
+            "mode": "RAID",
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Wakanda"
+              ]
+            }
           },
           "delta": [
             0,
             0,
             0,
-            10,
-            10
+            20,
+            20
           ],
           "stat": "armor_pct"
         }
@@ -30791,6 +30830,43 @@
             }
           ],
           "exec": "on_turn"
+        },
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "new_result": true,
+              "only_if": {
+                "mode": "RAID"
+              },
+              "procs": [
+                {
+                  "proc": "Deflect",
+                  "use_count": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "Wakanda"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "exec": "below_health",
+          "exec_for": {
+            "relationship": "ally"
+          },
+          "exec_value": 50
         }
       ],
       "passive_power_mul": [
