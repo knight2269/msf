@@ -285,8 +285,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_40",
@@ -405,8 +404,7 @@
           "level": 1,
           "loyalty": 1
         }
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_50_v2",
@@ -505,8 +503,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_65",
@@ -605,8 +602,7 @@
         "longDescription": "",
         "quantity": 0,
         "filters": {}
-      },
-      "isEvent": false
+      }
     },
     {
       "raidId": "raid_lvl_70",
@@ -1846,6 +1842,381 @@
         "quantity": 0,
         "filters": {}
       }
+    },
+    {
+      "raidId": "raid_delta_c",
+      "name": "ID_RAIDS_DELTA_C_NAME",
+      "duration": 24,
+      "total_rooms": 110,
+      "total_missions": 61,
+      "description": "ID_RAIDS_DELTA_C_DESC",
+      "details": "ID_RAIDS_DELTA_C_DETAILS",
+      "image": null,
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": 1100,
+        "y": 900
+      },
+      "scrollBoundarySize": {
+        "x": 4500,
+        "y": 4000
+      },
+      "nearZoom": 4,
+      "farZoom": 12,
+      "backgroundParallaxDelta": 0.1,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+      "player_limit": 24,
+      "group": "test_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [],
+      "consolation_reward": "",
+      "tier_rewards": {},
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_boss_test",
+      "name": "ID_RAIDS_BETA_C_NAME",
+      "duration": 24,
+      "total_rooms": 89,
+      "total_missions": 8,
+      "description": "ID_RAIDS_BETA_C_DESC",
+      "details": "ID_RAIDS_BETA_C_DETAILS",
+      "image": "Beta_Raid3",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": 1000,
+        "y": 800
+      },
+      "scrollBoundarySize": {
+        "x": 4000,
+        "y": 4000
+      },
+      "nearZoom": 4,
+      "farZoom": 10,
+      "backgroundParallaxDelta": 0.5,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+      "player_limit": 24,
+      "group": "test_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [],
+      "consolation_reward": "",
+      "tier_rewards": {},
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_thanos_lvl_25",
+      "name": "ID_RAIDS_THANOS_LV_25_NAME",
+      "duration": 24,
+      "total_rooms": 16,
+      "total_missions": 14,
+      "description": "ID_RAIDS_THANOS_LV_25_DESC",
+      "details": "ID_RAIDS_THANOS_LV_25_DETAILS",
+      "image": "Thanos_Raid1",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": 100,
+        "y": 100
+      },
+      "scrollBoundarySize": {
+        "x": 3400,
+        "y": 2100
+      },
+      "nearZoom": 4,
+      "farZoom": 10,
+      "backgroundParallaxDelta": 0.5,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_25_40",
+      "player_limit": 4,
+      "group": "thanos_raids",
+      "isOperation": false,
+      "stCount": 1,
+      "stPlayerLimit": 4,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": null,
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 4000
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_thanos_low_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 1,
+          "rewards": [
+            "r_ctrb_thanos_low_rnk01_mdl1",
+            "r_ctrb_thanos_low_rnk01_mdl2",
+            "r_ctrb_thanos_low_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 2,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_thanos_low_rnk02_mdl1",
+            "r_ctrb_thanos_low_rnk02_mdl2",
+            "r_ctrb_thanos_low_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 3,
+          "rankEnd": 4,
+          "rewards": [
+            "r_ctrb_thanos_low_rnk03_mdl1",
+            "r_ctrb_thanos_low_rnk03_mdl2",
+            "r_ctrb_thanos_low_rnk03_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_thanos_lvl_50_v3",
+      "name": "ID_RAIDS_THANOS_LV_50_NAME",
+      "duration": 24,
+      "total_rooms": 38,
+      "total_missions": 34,
+      "description": "ID_RAIDS_THANOS_LV_50_DESC",
+      "details": "ID_RAIDS_THANOS_LV_50_DETAILS",
+      "image": "Thanos_Raid2",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": 200,
+        "y": 200
+      },
+      "scrollBoundarySize": {
+        "x": 4096,
+        "y": 2400
+      },
+      "nearZoom": 4,
+      "farZoom": 10,
+      "backgroundParallaxDelta": 0.5,
+      "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
+      "player_limit": 24,
+      "group": "thanos_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": "",
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14000
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_thanos_mid_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_thanos_mid_rnk01_mdl1",
+            "r_ctrb_thanos_mid_rnk01_mdl2",
+            "r_ctrb_thanos_mid_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_thanos_mid_rnk02_mdl1",
+            "r_ctrb_thanos_mid_rnk02_mdl2",
+            "r_ctrb_thanos_mid_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_thanos_mid_rnk03_mdl1",
+            "r_ctrb_thanos_mid_rnk03_mdl2",
+            "r_ctrb_thanos_mid_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_thanos_mid_rnk04_mdl1",
+            "r_ctrb_thanos_mid_rnk04_mdl2",
+            "r_ctrb_thanos_mid_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      }
+    },
+    {
+      "raidId": "raid_thanos_lvl_60_v3",
+      "name": "ID_RAIDS_THANOS_LV_60_NAME",
+      "duration": 24,
+      "total_rooms": 69,
+      "total_missions": 65,
+      "description": "ID_RAIDS_THANOS_LV_60_DESC",
+      "details": "ID_RAIDS_THANOS_LV_60_DETAILS",
+      "image": "Thanos_Raid3",
+      "mapBgImageTopLeft": "raid_Map_TL.png",
+      "mapBgImageTopRight": "raid_Map_TR.png",
+      "mapBgImageBottomLeft": "raid_Map_BL.png",
+      "mapBgImageBottomRight": "raid_Map_BR.png",
+      "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+      "startNodePosition": {
+        "x": 200,
+        "y": 200
+      },
+      "scrollBoundarySize": {
+        "x": 4096,
+        "y": 3000
+      },
+      "nearZoom": 4,
+      "farZoom": 10,
+      "backgroundParallaxDelta": 0.5,
+      "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_60",
+      "player_limit": 24,
+      "group": "thanos_raids",
+      "isOperation": false,
+      "stCount": 3,
+      "stPlayerLimit": 8,
+      "stNextTeamUnlockThreshold": 0,
+      "allianceProgressText": "",
+      "strikeTeamImages": [],
+      "cost": [
+        {
+          "res": "ave_key_event01",
+          "amount": 14400
+        }
+      ],
+      "objectives": [],
+      "alliance_rewards": [],
+      "percent_complete_thresholds": [
+        30,
+        60,
+        100
+      ],
+      "consolation_reward": "r_thanos_high_participation",
+      "tier_rewards": {
+        "1": {
+          "rankStart": 1,
+          "rankEnd": 2,
+          "rewards": [
+            "r_ctrb_thanos_high_rnk01_mdl1",
+            "r_ctrb_thanos_high_rnk01_mdl2",
+            "r_ctrb_thanos_high_rnk01_mdl3"
+          ]
+        },
+        "2": {
+          "rankStart": 3,
+          "rankEnd": 6,
+          "rewards": [
+            "r_ctrb_thanos_high_rnk02_mdl1",
+            "r_ctrb_thanos_high_rnk02_mdl2",
+            "r_ctrb_thanos_high_rnk02_mdl3"
+          ]
+        },
+        "3": {
+          "rankStart": 7,
+          "rankEnd": 12,
+          "rewards": [
+            "r_ctrb_thanos_high_rnk03_mdl1",
+            "r_ctrb_thanos_high_rnk03_mdl2",
+            "r_ctrb_thanos_high_rnk03_mdl3"
+          ]
+        },
+        "4": {
+          "rankStart": 13,
+          "rankEnd": 24,
+          "rewards": [
+            "r_ctrb_thanos_high_rnk04_mdl1",
+            "r_ctrb_thanos_high_rnk04_mdl2",
+            "r_ctrb_thanos_high_rnk04_mdl3"
+          ]
+        }
+      },
+      "requirements": {},
+      "filters": {
+        "description": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "quantity": 0,
+        "filters": {}
+      },
+      "isEvent": true
     }
   ],
   "Groups": [
@@ -1910,6 +2281,15 @@
       "description": "ID_RAIDS_ULTIMUS_RAIDS_DESC",
       "image": "Thanos",
       "recommendedPlayerLevel": null,
+      "isEvent": true
+    },
+    {
+      "id": "thanos_raids",
+      "name": "ID_RAIDS_THANOS_RAIDS",
+      "details": "ID_RAIDS_THANOS_RAIDS_DETAILS",
+      "description": "ID_RAIDS_THANOS_RAIDS_DESC",
+      "image": "Thanos",
+      "recommendedPlayerLevel": "",
       "isEvent": true
     }
   ]
