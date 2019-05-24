@@ -24,6 +24,10 @@ ID_ALLIANCE_CREATE,CREATE
 ID_ALLIANCE_SAVE,Save
 ID_ALLIANCE_SEARCH,Search
 ID_ALLIANCE_NAME,NAME
+ID_ALLIANCE_CHURN_TEXT,KICK/DEMOTE IF INACTIVE FOR
+ID_ALLIANCE_CHURN_DAYS,{number} DAYS
+ID_ALLIANCE_CHURN_INFO_DEMOTE,"If you are inactive for {number} days, you will be demoted"
+ID_ALLIANCE_CHURN_INFO_KICK,"If you are inactive for {number} days, you will be kicked"
 ID_ALLIANCE_PRIVACY_TEXT,ALLIANCE TYPE
 ID_ALLIANCE_RAID_STARTER_TEXT,RANK NEEDED TO LAUNCH RAID
 ID_ALLIANCE_RAID_STARTER_MSG_OWNER,Only Alliance Leaders can launch a raid.
@@ -279,17 +283,32 @@ ID_ALLIANCE_ROOM_MOVE_SELECT_ONE,Select a room to move
 ID_ALLIANCE_ROOM_MOVE_SELECT_ANOTHER,Select another room to swap
 ID_ALLIANCE_CHAT_NOTIF_JOIN,{nameUser} (Level {levelUser}) has joined your alliance ({nameAlliance}). Welcome!
 ID_ALLIANCE_CHAT_NOTIF_KICK,{nameUser} (Level {levelUser}) has been kicked from your alliance ({nameAlliance}). See ya!
+ID_ALLIANCE_CHAT_NOTIF_KICK_INACTIVE,{nameUser} (Level {levelUser}) has been kicked from your alliance ({nameAlliance}) for inactivity.
 ID_ALLIANCE_CHAT_NOTIF_LEAVE,{nameUser} (Level {levelUser}) has left your alliance ({nameAlliance}). Bye!
 ID_ALLIANCE_CHAT_NOTIF_PROMOTE,{nameUser} (Level {levelUser}) has been promoted from {rankPrior} to {rankNew}. Congrats!
+ID_ALLIANCE_CHAT_NOTIF_PROMOTE_INACTIVE,{nameUser} (Level {levelUser}) has been promoted from {rankPrior} to {rankNew} for their dedication.
 ID_ALLIANCE_CHAT_NOTIF_DEMOTE,{nameUser} (Level {levelUser}) has been demoted from {rankPrior} to {rankNew}. Hang in there.
+ID_ALLIANCE_CHAT_NOTIF_DEMOTE_INACTIVE,{nameUser} (Level {levelUser}) has been demoted from {rankPrior} to {rankNew} for inactivity.
 ID_ALLIANCE_CHAT_NOTIF_PROMOTE_IS_OWNER,"{nameUser} (Level {levelUser}) has been promoted to {rankNew}. Under their leadership, this should be easy!"
+ID_ALLIANCE_CHAT_NOTIF_PROMOTE_IS_OWNER_INACTIVE,{nameUser} (Level {levelUser}) has been promoted from {rankPrior} to {rankNew} for their dedication.
 ID_ALLIANCE_CHAT_NOTIF_DEMOTE_WAS_OWNER,{nameUser} (Level {levelUser}) has relinquished command of {nameAlliance}. Thank you for your courage!
+ID_ALLIANCE_CHAT_NOTIF_DEMOTE_WAS_OWNER_INACTIVE,{nameUser} (Level {levelUser}) has been demoted to {rankNew} for inactivity.
 ID_ALLIANCE_CHAT_RAID_START_NOTIF,{nameUser} launched the raid: {raidName}.
 ID_ALLIANCE_CHAT_RAID_JOIN_NOTIF,{nameUser} joined the raid: {raidName}.
 ID_ALLIANCE_CHAT_RAID_EXPIRED_NOTIF,"The raid, {raidName}, has expired."
 ID_ALLIANCE_CHAT_RAID_COMPLETED_NOTIF,"Congratulations! The raid, {raidName}, was completed!"
 ID_ALLIANCE_CHAT_RAID_REWARD_TIER_NOTIF,Tier {raidRewardTier} rewards have been unlocked in the raid: {raidName}.
 ID_ALLIANCE_CHAT_RAID_MISSION_COMPLETE_NOTIF,{nameUser} completed {missionName} in the raid: {raidName}.
+ID_ALLIANCE_CHAT_ACHIEVE_HERO_UNLOCK,{nameUser} has unlocked {charName}!
+ID_ALLIANCE_CHAT_ACHIEVE_REDSTAR_PROMOTE,{nameUser} has promoted {charName} to {RedStarPromote} Red Stars!
+ID_ALLIANCE_CHAT_ACHIEVE_REDSTAR_DROP,{nameUser} has pulled {RedStarLvl} Red Stars for {charName}!
+ID_ALLIANCE_CHAT_ACHIEVE_REDSTAR_DIRECT,{nameUser} has earned {RedStarLvl} Red Stars for {charName}!
+ID_ALLIANCE_CHAT_ACHIEVE_GEAR,{nameUser} has reached <color=#86E619>Gear Tier {maxGear}</color> for {charName}!
+ID_ALLIANCE_CHAT_ACHIEVE_INSANITY,{nameUser} has beaten {insanityEvent}
+ID_ALLIANCE_CHAT_ACHIEVE_BLITZ,{nameUser} has placed #{rankBlitz} in Blitz!
+ID_ALLIANCE_CHAT_ACHIEVE_GOLD,{nameUser} has pulled {goldAmt} M from the Gold Orb!
+ID_ALLIANCE_CHAT_ACHIEVE_LOYALTY,{nameUser} has ranked up {charName} to 7 Stars!
+ID_ALLIANCE_CHAT_ACHIEVE_ABILITY,{nameUser} has upgraded {abilityName} ability for {charName} to ability level {abilityLvl}!
 ID_AL_MB_NA_KICK,ALLIANCE KICK
 ID_AL_MB_DE_KICK,You have been kicked
 ID_AL_MB_BO_KICK,You have been kicked from your alliance.
@@ -387,7 +406,7 @@ ID_AVA3D_WAR_LEADERBOARD_CURR_POINTS,CURRENT LEADERBOARD PTS
 ID_AVA3D_WAR_LEADERBOARD_PREV_POINTS,PREVIOUS LEADERBOARD PTS
 ID_AVA3D_WAR_LEADERBOARD_MATCH_POINTS,MATCH PTS
 ID_AVA3D_WAR_LEADERBOARD_VICTORY_BONUS,VICTORY BONUS PTS
-ID_AVA3D_DID_NOT_PARTICIPATE,Must participate to receive rewards.
+ID_AVA3D_DID_NOT_PARTICIPATE,Perform an attack or boost to earn War rewards.
 ID_AVA3D_LEADERBOARD_POINTS,LEADERBOARD POINTS
 ID_AVA3D_ACTIVELANDING_BATTLE,BATTLE
 ID_AVA3D_LANDING_STORE,STORE
@@ -410,10 +429,14 @@ ID_AVA3D_TOPBAR_ALLIANCEWAR,ALLIANCE WAR
 ID_AVA3D_DEFAULT_MINION,S.H.I.E.L.D. Officer
 ID_AVA3D_WAR_STARTED_HEADLINE,WAR HAS BEGUN!
 ID_AVA3D_WAR_STARTED_DESC,The war just started!
+ID_AVA3D_WAR_MATCHMAKING_STARTED_HEADLINE,MATCHMAKING HAS BEGUN!
+ID_AVA3D_WAR_MATCHMAKING_STARTED_DESC,Matchmaking has started!
 ID_AVA3D_WAR_IS_OVER_HEADLINE,WAR IS OVER!
 ID_AVA3D_WAR_IS_OVER_DESC,The war has ended.
 ID_AVA3D_SQUADSELECT_CANNOTPLAY,CANNOT PLAY MISSION
 ID_AVA3D_SQUADSELECT_CANNOTPLAY_BODY,This squad has been locked by another user. Please try another.
+ID_AVA3D_SQUADSELECT_BUFFCONSUMABLE,DEFENSE BOOST APPLIED
+ID_AVA3D_SQUADSELECT_BUFFCONSUMABLE_BODY,A Defense Boost has been applied to the defending squad.
 ID_AVA_TIMER_SET_SCHEDULE,Required: Set War Schedule
 ID_AVA_TIMER_MATCHING_IN,Matchmaking In:
 ID_AVA_TIMER_STARTS_IN,War In:
@@ -534,3 +557,17 @@ ID_ME_S1_WARSEASON,Earn Alliance War Point
 ID_AL_TI_END_WAR_REWARD,Alliance War Completion Reward
 ID_AL_DE_END_WAR_REWARD,War has concluded
 ID_AL_BO_END_WAR_REWARD,The current War has ended. Claim your Alliance War reward and prepare for the next War.
+ID_AVA3D_MOVE_PLAYER,MOVE PLAYER
+ID_AVA3D_MOVE_PLAYER_DESC,MOVE PLAYER TO THIS SLOT?
+ID_AVA3D_MOVE_PLAYER_INVALID,CAN'T MOVE SLOT TO ORIGINAL POSITION
+ID_AVA3D_MOVE_PLAYER_CARRIER_DESC,ENTER A ROOM TO MOVE DEFENSES
+ID_AVA3D_ROOM_MANAGEMENT,Room Slot Management
+ID_AVA_CONTRIBUTIONS_OPPONENT_ROSTER_NOT_VISIBLE,OFFENSE ROSTER CAN NOT BE VIEWED FOR PLAYERS OF ENEMY ALLIANCE
+ID_AVA_CONTRIBUTIONS_TAB_ROSTER,ATTACK ROSTER
+ID_AVA_CONTRIBUTIONS_TAB_STATS,PLAYER STATS
+ID_AVA_CONTRIBUTIONS_ROSTER_SPENT_ATTACKERS,ALREADY ATTACKED
+ID_AVA_CONTRIBUTIONS_ROSTER_AVAILABLE_ATTACKERS,AVAILABLE ATTACKERS
+ID_AVA_NEW_SEASON,NEW WAR SEASON
+ID_AVA_WAITING_FOR_RESULTS,WAITING FOR WAR RESULTS
+ID_RAID_NEW_SEASON,NEW RAID SEASON
+ID_RAID_WAITING_FOR_RESULTS,WAITING FOR RAID RESULTS
