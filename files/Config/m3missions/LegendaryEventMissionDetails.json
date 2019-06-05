@@ -1750,6 +1750,2305 @@
       ]
     },
     {
+      "ID": "event_le_jeangrey_01",
+      "locNameKey": "ID_LE_JEANGREY_01_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_01_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_01_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 96800,
+          "TotalHealth": 268014,
+          "CompactWave": [
+            {
+              "HeroId": "Storm",
+              "Power": 19750,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 19228,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 19275,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 19180,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Phoenix",
+              "Power": 19367,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterNumberOfActions",
+                  "InitialTurnFill": 700,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 4,
+                  "MinSlotReq": 0,
+                  "NumberOfActions": 1,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Storm",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      },
+                      "max_hp_percent": 150
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Colossus",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Psylocke",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 1
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Wolverine",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 1
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterAllDead",
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 1,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_01_info_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            },
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": []
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 126981,
+          "TotalHealth": 356476,
+          "CompactWave": [
+            {
+              "HeroId": "Pyro",
+              "Power": 12988,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 13050,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 13098,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Magneto",
+              "Power": 11402,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                3,
+                3,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Sabretooth",
+              "Power": 13063,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Sabretooth",
+              "Power": 13063,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 13139,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Hawkeye",
+              "Power": 12968,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Magneto",
+              "Power": 11295,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                3,
+                3,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 12915,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_02",
+      "locNameKey": "ID_LE_JEANGREY_02_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_02_DESC",
+      "mapName": "Env_HellsKitchen_Docks_merged",
+      "timeOfDay": "NIGHT",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_02_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 3281,
+          "TotalHealth": 8227,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 3281,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 35,
+                      "loyalty": 2,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 27408,
+          "TotalHealth": 88253,
+          "CompactWave": [
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 3379,
+              "Level": 36,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RavagerDmg_AoE",
+              "Power": 3374,
+              "Level": 36,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 2698,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RavagerSupport_Heal",
+              "Power": 2743,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 3208,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 3232,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2788,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 2778,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 3208,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_03",
+      "locNameKey": "ID_LE_JEANGREY_03_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_03_DESC",
+      "mapName": "Env_Bunker_Storage_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_03_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 5105,
+          "TotalHealth": 11898,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 5105,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 2,
+                  "MinSlotReq": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 40,
+                      "loyalty": 3,
+                      "tier": 6,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 66302,
+          "TotalHealth": 221025,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 5200,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                4,
+                4
+              ]
+            },
+            {
+              "HeroId": "Venom",
+              "Power": 4984,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 4531,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 4463,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 4451,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 4473,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 4966,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 4580,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 4580,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4554,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4554,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Carnage",
+              "Power": 5093,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Venom",
+              "Power": 4923,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltGreenGoblin",
+              "Power": 4950,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_04",
+      "locNameKey": "ID_LE_JEANGREY_04_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_04_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_04_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            },
+            {
+              "storyTellingEvents": {
+                "-1": "le_shuri_portal_activated_3",
+                "-2": "le_shuri_portal_activated_2",
+                "-3": "le_shuri_portal_activated_1"
+              },
+              "ObjectiveEndStory": "le_jeangrey_04_end",
+              "TargetState": 0,
+              "RelativeToStateMax": true,
+              "CantPersist": true,
+              "Type": "EnvObject"
+            }
+          ],
+          "Power": 31362,
+          "TotalHealth": 97163,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 12327,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrangeOperator",
+              "Power": 2466,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 16569,
+              "Level": 55,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 55,
+                      "loyalty": 4,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 1
+                    },
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "hero_id": "DoctorStrangeOperator",
+                      "level": 55,
+                      "loyalty": 4,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterAllDead",
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "AmericaChavez",
+                      "level": 55,
+                      "loyalty": 4,
+                      "tier": 9
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_04_info_01",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 198620,
+          "TotalHealth": 564631,
+          "CompactWave": [
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 12025,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                5,
+                5
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 13549,
+              "Level": 55,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 13741,
+              "Level": 55,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 11877,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 11877,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Venom",
+              "Power": 13841,
+              "Level": 55,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltSpiderMan",
+              "Power": 13879,
+              "Level": 55,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Venom",
+              "Power": 12163,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                5,
+                5
+              ]
+            },
+            {
+              "HeroId": "Carnage",
+              "Power": 12380,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                5,
+                5
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11901,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11757,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11826,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltSpiderMan",
+              "Power": 12196,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 12025,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11826,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11757,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "Extra": [
+        {
+          "Prefab": "IntObj_Portal_player",
+          "Position": {
+            "x": 1.44,
+            "y": 0,
+            "z": 7.74
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_05",
+      "locNameKey": "ID_LE_JEANGREY_05_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_05_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_05_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 19298,
+          "TotalHealth": 46677,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 19298,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 500,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 1,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 64,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 120
+                      },
+                      "max_hp_percent": 120
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 291427,
+          "TotalHealth": 858485,
+          "CompactWave": [
+            {
+              "HeroId": "Ultimus",
+              "Power": 25689,
+              "Level": 68,
+              "GearLevel": 10,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 20896,
+              "Level": 64,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 17587,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 17475,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 17546,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 17987,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 17987,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 21148,
+              "Level": 64,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 21138,
+              "Level": 64,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 21684,
+              "Level": 64,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                6,
+                6
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 18978,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 17587,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 17302,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 17354,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 21069,
+              "Level": 64,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_06",
+      "locNameKey": "ID_LE_JEANGREY_06_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_06_DESC",
+      "mapName": "Env_Snow_Exterior_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_06_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 19457,
+          "TotalHealth": 43519,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 19457,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 2,
+                  "MinSlotReq": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Phoenix",
+                      "level": 65,
+                      "loyalty": 5,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 110
+                      },
+                      "max_hp_percent": 110
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 261395,
+          "TotalHealth": 592715,
+          "CompactWave": [
+            {
+              "HeroId": "BaronMordo",
+              "Power": 23496,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 23496,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 19103,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 21523,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 21210,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 21749,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 19103,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandTank_Stealth",
+              "Power": 21749,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 23614,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 23306,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 21523,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 21523,
+              "Level": 65,
+              "GearLevel": 10,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_jeangrey_07",
+      "locNameKey": "ID_LE_JEANGREY_07_NAME",
+      "locDescriptionName": "ID_LE_JEANGREY_07_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_jeangrey_07_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 90295,
+          "TotalHealth": 158247,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 45573,
+              "Level": 70,
+              "GearLevel": 12,
+              "Loyalty": 7,
+              "RedStar": 4,
+              "Abilities": [
+                7,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 44722,
+              "Level": 70,
+              "GearLevel": 12,
+              "Loyalty": 7,
+              "RedStar": 4,
+              "Abilities": [
+                7,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 3,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Phoenix",
+                      "level": 70,
+                      "loyalty": 7,
+                      "redstar": 4,
+                      "tier": 12,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        7,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "ScarletWitch",
+                      "level": 70,
+                      "loyalty": 7,
+                      "redstar": 4,
+                      "tier": 12,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 388858,
+          "TotalHealth": 923076,
+          "CompactWave": [
+            {
+              "HeroId": "Phoenix",
+              "Power": 33180,
+              "Level": 70,
+              "GearLevel": 10,
+              "Loyalty": 7,
+              "RedStar": 2,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 31966,
+              "Level": 70,
+              "GearLevel": 10,
+              "Loyalty": 7,
+              "RedStar": 2,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mantis",
+              "Power": 36434,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 37642,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 36703,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 35835,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 36252,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 36801,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 31966,
+              "Level": 70,
+              "GearLevel": 10,
+              "Loyalty": 7,
+              "RedStar": 2,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 35954,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 36125,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 3,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ID": "event_le_magneto_01",
       "locNameKey": "ID_LE_MAGNETO_01_NAME",
       "locDescriptionName": "ID_LE_MAGNETO_01_DESC",
@@ -6562,8 +8861,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 23084,
-          "TotalHealth": 90650,
+          "Power": 23087,
+          "TotalHealth": 91402,
           "CompactWave": [
             {
               "HeroId": "Venom",
@@ -6726,8 +9025,8 @@
               ]
             },
             {
-              "HeroId": "UltGreenGoblin",
-              "Power": 2349,
+              "HeroId": "Venom",
+              "Power": 2352,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -7140,21 +9439,6 @@
                   "HoldSpawnStory": false
                 }
               ]
-            },
-            {
-              "Description": null,
-              "Expanded": false,
-              "Waves": [
-                {
-                  "Expanded": true,
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 10,
-                  "MinSlotReq": 0,
-                  "Entries": [],
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                }
-              ]
             }
           ]
         },
@@ -7409,22 +9693,6 @@
                   "Expanded": true,
                   "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 1,
-                  "MinSlotReq": 0,
-                  "Entries": [],
-                  "StoryTellingID": "le_shuri_04_start",
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                }
-              ]
-            },
-            {
-              "Description": null,
-              "Expanded": false,
-              "Waves": [
-                {
-                  "Expanded": true,
-                  "TurnSpeed": 1000,
                   "MaxSlotFill": 2,
                   "MinSlotReq": 2,
                   "Entries": [
@@ -7462,6 +9730,7 @@
                       "desired_y_pos": 0
                     }
                   ],
+                  "StoryTellingID": "le_shuri_04_start",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -8122,21 +10391,6 @@
                   "HoldSpawnStory": false
                 }
               ]
-            },
-            {
-              "Description": null,
-              "Expanded": false,
-              "Waves": [
-                {
-                  "Expanded": true,
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 10,
-                  "MinSlotReq": 4,
-                  "Entries": [],
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                }
-              ]
             }
           ]
         },
@@ -8423,22 +10677,6 @@
                   "Expanded": true,
                   "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
-                  "MaxSlotFill": 1,
-                  "MinSlotReq": 0,
-                  "Entries": [],
-                  "StoryTellingID": "le_shuri_07_start",
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                }
-              ]
-            },
-            {
-              "Description": null,
-              "Expanded": false,
-              "Waves": [
-                {
-                  "Expanded": true,
-                  "TurnSpeed": 1000,
                   "MaxSlotFill": 3,
                   "MinSlotReq": 3,
                   "Entries": [
@@ -8491,6 +10729,7 @@
                       "desired_y_pos": 0
                     }
                   ],
+                  "StoryTellingID": "le_shuri_07_start",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
