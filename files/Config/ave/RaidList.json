@@ -188,7 +188,8 @@
           "loyalty": 1,
           "level": 1
         }
-      }
+      },
+      "isEvent": false
     },
     {
       "raidId": "raid_lvl_35",
@@ -610,7 +611,7 @@
     },
     {
       "raidId": "raid_lvl_70",
-      "name": "ID_RAIDS_LEVEL_70_NAME",
+      "name": "ID_RAIDS_ULTIMUS_EVENT_RAIDS",
       "duration": 24,
       "total_rooms": 86,
       "total_missions": 60,
@@ -635,7 +636,7 @@
       "backgroundParallaxDelta": 0.5,
       "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_75",
       "player_limit": 24,
-      "group": "test_raids",
+      "group": "ultimus_event_raids",
       "isOperation": false,
       "stCount": 3,
       "stPlayerLimit": 8,
@@ -659,7 +660,7 @@
         60,
         100
       ],
-      "consolation_reward": "r_participation_Ult7",
+      "consolation_reward": "r_participation_ult7",
       "tier_rewards": {
         "1": {
           "rankStart": 1,
@@ -2293,6 +2294,15 @@
       "description": "ID_RAIDS_THANOS_RAIDS_DESC",
       "image": "Thanos",
       "recommendedPlayerLevel": "",
+      "isEvent": true
+    },
+    {
+      "id": "ultimus_event_raids",
+      "name": "ID_RAIDS_ULTIMUS_EVENT_RAIDS",
+      "details": "ID_RAIDS_ULTIMUS_EVENT_RAIDS_DETAILS",
+      "description": "ID_RAIDS_ULTIMUS_EVENT_RAIDS_DESC",
+      "image": "Ultimus_Event_Raid",
+      "recommendedPlayerLevel": null,
       "isEvent": true
     }
   ]

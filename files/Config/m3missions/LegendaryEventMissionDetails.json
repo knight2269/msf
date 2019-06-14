@@ -101,6 +101,7 @@
                       "hero_id": "IronMan",
                       "level": 22,
                       "loyalty": 2,
+                      "combined_mod": 0,
                       "tier": 4,
                       "desired_x_pos": 1,
                       "desired_y_pos": 1
@@ -347,6 +348,7 @@
                       "hero_id": "IronMan",
                       "level": 27,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -545,6 +547,7 @@
                       "hero_id": "IronMan",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -839,6 +842,7 @@
                       "hero_id": "IronMan",
                       "level": 42,
                       "loyalty": 3,
+                      "combined_mod": -1,
                       "tier": 6,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -1085,6 +1089,7 @@
                       "hero_id": "IronMan",
                       "level": 52,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -1379,6 +1384,7 @@
                       "hero_id": "IronMan",
                       "level": 62,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -1399,12 +1405,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 107867,
+          "Power": 107138,
           "TotalHealth": 251710,
           "CompactWave": [
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 14829,
+              "Power": 14661,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -1436,7 +1442,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 14694,
+              "Power": 14580,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -1484,7 +1490,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 14986,
+              "Power": 14789,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -1500,7 +1506,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 14994,
+              "Power": 14744,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -1594,6 +1600,7 @@
                       "hero_id": "IronMan",
                       "level": 67,
                       "loyalty": 6,
+                      "combined_mod": -1,
                       "tier": 11,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -1753,8 +1760,8 @@
       "ID": "event_le_jeangrey_01",
       "locNameKey": "ID_LE_JEANGREY_01_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_01_DESC",
-      "mapName": "Env_Forest_merged",
-      "timeOfDay": "DAY",
+      "mapName": "Env_AlienRuins_merged",
+      "timeOfDay": "SUNSET",
       "Settings": [
         {
           "Objectives": [
@@ -1767,22 +1774,6 @@
           "Power": 96800,
           "TotalHealth": 268014,
           "CompactWave": [
-            {
-              "HeroId": "Storm",
-              "Power": 19750,
-              "Level": 65,
-              "GearLevel": 9,
-              "Loyalty": 5,
-              "RedStar": 0,
-              "Abilities": [
-                6,
-                5,
-                5,
-                4,
-                0,
-                0
-              ]
-            },
             {
               "HeroId": "Colossus",
               "Power": 19228,
@@ -1802,6 +1793,22 @@
             {
               "HeroId": "Psylocke",
               "Power": 19275,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Storm",
+              "Power": 19750,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -1871,9 +1878,44 @@
                         0,
                         0
                       ],
+                      "hero_id": "Colossus",
+                      "level": 65,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "Psylocke",
+                      "level": 65,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 1
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
                       "hero_id": "Storm",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": 0,
                       "tier": 9,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0,
@@ -1891,41 +1933,10 @@
                         0,
                         0
                       ],
-                      "hero_id": "Colossus",
-                      "level": 65,
-                      "loyalty": 5,
-                      "tier": 9,
-                      "desired_x_pos": 0,
-                      "desired_y_pos": 0
-                    },
-                    {
-                      "abilities": [
-                        6,
-                        5,
-                        5,
-                        4,
-                        0,
-                        0
-                      ],
-                      "hero_id": "Psylocke",
-                      "level": 65,
-                      "loyalty": 5,
-                      "tier": 9,
-                      "desired_x_pos": 2,
-                      "desired_y_pos": 1
-                    },
-                    {
-                      "abilities": [
-                        6,
-                        5,
-                        5,
-                        4,
-                        0,
-                        0
-                      ],
                       "hero_id": "Wolverine",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": 0,
                       "tier": 9,
                       "desired_x_pos": 0,
                       "desired_y_pos": 1
@@ -1937,7 +1948,6 @@
                 },
                 {
                   "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
                   "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 1,
@@ -1955,12 +1965,13 @@
                       "hero_id": "Phoenix",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": 0,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
                   ],
-                  "StoryTellingID": "le_jeangrey_01_info_01",
+                  "StoryTellingID": "le_jeangrey_01_mid",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -2152,8 +2163,8 @@
       "ID": "event_le_jeangrey_02",
       "locNameKey": "ID_LE_JEANGREY_02_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_02_DESC",
-      "mapName": "Env_HellsKitchen_Docks_merged",
-      "timeOfDay": "NIGHT",
+      "mapName": "Env_AlienRuins_merged",
+      "timeOfDay": "SUNSET",
       "Settings": [
         {
           "Objectives": [
@@ -2207,6 +2218,7 @@
                       "hero_id": "Phoenix",
                       "level": 35,
                       "loyalty": 2,
+                      "combined_mod": 0,
                       "tier": 5,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -2383,8 +2395,8 @@
       "ID": "event_le_jeangrey_03",
       "locNameKey": "ID_LE_JEANGREY_03_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_03_DESC",
-      "mapName": "Env_Bunker_Storage_merged",
-      "timeOfDay": "SUNSET",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
       "Settings": [
         {
           "Objectives": [
@@ -2394,12 +2406,28 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 5105,
-          "TotalHealth": 11898,
+          "Power": 10205,
+          "TotalHealth": 29386,
           "CompactWave": [
             {
               "HeroId": "Phoenix",
               "Power": 5105,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 5100,
               "Level": 40,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -2438,12 +2466,42 @@
                       "hero_id": "Phoenix",
                       "level": 40,
                       "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 6,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_jeangrey_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterAllDead",
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "AmericaChavez",
+                      "level": 40,
+                      "loyalty": 3,
+                      "combined_mod": 0,
                       "tier": 6,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     }
                   ],
-                  "StoryTellingID": "le_jeangrey_03_start",
+                  "StoryTellingID": "le_jeangrey_03_info_01",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -2459,8 +2517,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 66302,
-          "TotalHealth": 221025,
+          "Power": 66146,
+          "TotalHealth": 197625,
           "CompactWave": [
             {
               "HeroId": "SpiderMan",
@@ -2607,8 +2665,8 @@
               ]
             },
             {
-              "HeroId": "AimTank_Taunt",
-              "Power": 4554,
+              "HeroId": "MercSupport_Buffs",
+              "Power": 4476,
               "Level": 40,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -2623,8 +2681,8 @@
               ]
             },
             {
-              "HeroId": "AimTank_Taunt",
-              "Power": 4554,
+              "HeroId": "MercSupport_Buffs",
+              "Power": 4476,
               "Level": 40,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -2706,9 +2764,9 @@
             },
             {
               "storyTellingEvents": {
-                "-1": "le_shuri_portal_activated_3",
-                "-2": "le_shuri_portal_activated_2",
-                "-3": "le_shuri_portal_activated_1"
+                "-1": "le_jeangrey_04_operator_03",
+                "-2": "le_jeangrey_04_operator_02",
+                "-3": "le_jeangrey_04_operator_01"
               },
               "ObjectiveEndStory": "le_jeangrey_04_end",
               "TargetState": 0,
@@ -2792,6 +2850,7 @@
                       "hero_id": "Phoenix",
                       "level": 55,
                       "loyalty": 4,
+                      "combined_mod": 0,
                       "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 1
@@ -2809,6 +2868,7 @@
                       "hero_id": "DoctorStrangeOperator",
                       "level": 55,
                       "loyalty": 4,
+                      "combined_mod": 0,
                       "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -2838,10 +2898,10 @@
                       "hero_id": "AmericaChavez",
                       "level": 55,
                       "loyalty": 4,
+                      "combined_mod": 0,
                       "tier": 9
                     }
                   ],
-                  "StoryTellingID": "le_jeangrey_04_info_01",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -3139,8 +3199,8 @@
       "ID": "event_le_jeangrey_05",
       "locNameKey": "ID_LE_JEANGREY_05_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_05_DESC",
-      "mapName": "Env_Forest_merged",
-      "timeOfDay": "DAY",
+      "mapName": "Env_Snow_Exterior_merged",
+      "timeOfDay": "SUNSET",
       "Settings": [
         {
           "Objectives": [
@@ -3194,6 +3254,7 @@
                       "hero_id": "Phoenix",
                       "level": 64,
                       "loyalty": 5,
+                      "combined_mod": 0,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0,
@@ -3470,8 +3531,8 @@
       "ID": "event_le_jeangrey_06",
       "locNameKey": "ID_LE_JEANGREY_06_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_06_DESC",
-      "mapName": "Env_Snow_Exterior_merged",
-      "timeOfDay": "SUNSET",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
       "Settings": [
         {
           "Objectives": [
@@ -3525,6 +3586,7 @@
                       "hero_id": "Phoenix",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": 0,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0,
@@ -3753,7 +3815,7 @@
       "ID": "event_le_jeangrey_07",
       "locNameKey": "ID_LE_JEANGREY_07_NAME",
       "locDescriptionName": "ID_LE_JEANGREY_07_DESC",
-      "mapName": "Env_Forest_merged",
+      "mapName": "Env_DestroyedCity_merged",
       "timeOfDay": "DAY",
       "Settings": [
         {
@@ -3826,6 +3888,7 @@
                       "level": 70,
                       "loyalty": 7,
                       "redstar": 4,
+                      "combined_mod": 0,
                       "tier": 12,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -3844,6 +3907,7 @@
                       "level": 70,
                       "loyalty": 7,
                       "redstar": 4,
+                      "combined_mod": 0,
                       "tier": 12,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -3865,16 +3929,16 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 388858,
-          "TotalHealth": 923076,
+          "Power": 394308,
+          "TotalHealth": 935778,
           "CompactWave": [
             {
               "HeroId": "Phoenix",
-              "Power": 33180,
+              "Power": 35038,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
-              "RedStar": 2,
+              "RedStar": 3,
               "Abilities": [
                 6,
                 6,
@@ -3886,11 +3950,11 @@
             },
             {
               "HeroId": "Colossus",
-              "Power": 31966,
+              "Power": 33762,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
-              "RedStar": 2,
+              "RedStar": 3,
               "Abilities": [
                 6,
                 6,
@@ -3998,11 +4062,11 @@
             },
             {
               "HeroId": "Colossus",
-              "Power": 31966,
+              "Power": 33762,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
-              "RedStar": 2,
+              "RedStar": 3,
               "Abilities": [
                 6,
                 6,
@@ -4117,6 +4181,7 @@
                       "hero_id": "Magneto",
                       "level": 27,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -4379,6 +4444,7 @@
                       "hero_id": "Magneto",
                       "level": 37,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 6,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -4689,6 +4755,7 @@
                       "hero_id": "Magneto",
                       "level": 47,
                       "loyalty": 3,
+                      "combined_mod": -1,
                       "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -4977,6 +5044,7 @@
                       "hero_id": "Magneto",
                       "level": 57,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -5319,6 +5387,7 @@
                       "hero_id": "Magneto",
                       "level": 62,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -5339,7 +5408,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 247975,
+          "Power": 247308,
           "TotalHealth": 738538,
           "CompactWave": [
             {
@@ -5456,7 +5525,7 @@
             },
             {
               "HeroId": "Venom",
-              "Power": 18462,
+              "Power": 18055,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -5472,7 +5541,7 @@
             },
             {
               "HeroId": "DoctorStrange",
-              "Power": 14453,
+              "Power": 14193,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -5678,6 +5747,7 @@
                       "hero_id": "Magneto",
                       "level": 68,
                       "loyalty": 6,
+                      "combined_mod": -1,
                       "tier": 10,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -5940,6 +6010,7 @@
                       "hero_id": "Magneto",
                       "level": 70,
                       "loyalty": 7,
+                      "combined_mod": -1,
                       "tier": 10,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -5972,7 +6043,7 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 361396,
+          "Power": 362909,
           "TotalHealth": 578159,
           "CompactWave": [
             {
@@ -6041,7 +6112,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 45359,
+              "Power": 46264,
               "Level": 75,
               "GearLevel": 12,
               "Loyalty": 7,
@@ -6057,7 +6128,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 26423,
+              "Power": 27071,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6105,7 +6176,7 @@
             },
             {
               "HeroId": "AimOperator",
-              "Power": 4617,
+              "Power": 4572,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6153,7 +6224,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 26281,
+              "Power": 26400,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6169,7 +6240,7 @@
             },
             {
               "HeroId": "AimOperator",
-              "Power": 4617,
+              "Power": 4536,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6201,7 +6272,7 @@
             },
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 26501,
+              "Power": 26637,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6217,7 +6288,7 @@
             },
             {
               "HeroId": "AimOperator",
-              "Power": 4617,
+              "Power": 4448,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -6277,7 +6348,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 18770,
+          "Power": 18499,
           "TotalHealth": 81490,
           "CompactWave": [
             {
@@ -6298,7 +6369,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 1218,
+              "Power": 1211,
               "Level": 26,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -6314,7 +6385,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 1265,
+              "Power": 1240,
               "Level": 23,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -6330,7 +6401,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 1401,
+              "Power": 1374,
               "Level": 23,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -6346,7 +6417,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 438,
+              "Power": 428,
               "Level": 23,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -6362,7 +6433,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 336,
+              "Power": 334,
               "Level": 26,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -6378,7 +6449,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 1447,
+              "Power": 1435,
               "Level": 25,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -6394,7 +6465,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 627,
+              "Power": 622,
               "Level": 25,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -6410,7 +6481,7 @@
             },
             {
               "HeroId": "RavagerTank_Taunt",
-              "Power": 868,
+              "Power": 856,
               "Level": 23,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -6426,7 +6497,7 @@
             },
             {
               "HeroId": "Nebula",
-              "Power": 1856,
+              "Power": 1812,
               "Level": 32,
               "GearLevel": 6,
               "Loyalty": 1,
@@ -6442,7 +6513,7 @@
             },
             {
               "HeroId": "RavagerTank_Taunt",
-              "Power": 423,
+              "Power": 417,
               "Level": 23,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -6458,7 +6529,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 349,
+              "Power": 345,
               "Level": 27,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -6474,7 +6545,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 349,
+              "Power": 345,
               "Level": 27,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -6506,7 +6577,7 @@
             },
             {
               "HeroId": "Yondu",
-              "Power": 2393,
+              "Power": 2320,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6522,7 +6593,7 @@
             },
             {
               "HeroId": "Nebula",
-              "Power": 1367,
+              "Power": 1327,
               "Level": 30,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6567,7 +6638,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 49774,
+          "Power": 49320,
           "TotalHealth": 193633,
           "CompactWave": [
             {
@@ -6652,7 +6723,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 2188,
+              "Power": 2157,
               "Level": 32,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -6668,7 +6739,7 @@
             },
             {
               "HeroId": "Crossbones",
-              "Power": 2300,
+              "Power": 2230,
               "Level": 34,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -6684,7 +6755,7 @@
             },
             {
               "HeroId": "Thor",
-              "Power": 4152,
+              "Power": 4099,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6700,7 +6771,7 @@
             },
             {
               "HeroId": "RocketRaccoon",
-              "Power": 2689,
+              "Power": 2680,
               "Level": 32,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6716,7 +6787,7 @@
             },
             {
               "HeroId": "Thanos",
-              "Power": 4278,
+              "Power": 4196,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6732,7 +6803,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1244,
+              "Power": 1231,
               "Level": 27,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -6748,7 +6819,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1244,
+              "Power": 1225,
               "Level": 27,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -6764,7 +6835,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1533,
+              "Power": 1504,
               "Level": 27,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -6876,7 +6947,7 @@
             },
             {
               "HeroId": "Thanos",
-              "Power": 4677,
+              "Power": 4605,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6892,7 +6963,7 @@
             },
             {
               "HeroId": "RocketRaccoon",
-              "Power": 3619,
+              "Power": 3578,
               "Level": 37,
               "GearLevel": 7,
               "Loyalty": 2,
@@ -6908,7 +6979,7 @@
             },
             {
               "HeroId": "Thor",
-              "Power": 3589,
+              "Power": 3554,
               "Level": 37,
               "GearLevel": 7,
               "Loyalty": 2,
@@ -7259,12 +7330,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 107848,
+          "Power": 106878,
           "TotalHealth": 242714,
           "CompactWave": [
             {
               "HeroId": "BlackWidow",
-              "Power": 8679,
+              "Power": 8521,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7344,7 +7415,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 8565,
+              "Power": 8511,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7360,7 +7431,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 6498,
+              "Power": 6420,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7376,7 +7447,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 6498,
+              "Power": 6460,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7392,7 +7463,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 6471,
+              "Power": 6341,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7408,7 +7479,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 6471,
+              "Power": 6341,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7424,7 +7495,7 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 8679,
+              "Power": 8521,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7440,7 +7511,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 8492,
+              "Power": 8441,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7456,7 +7527,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 8565,
+              "Power": 8511,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7472,7 +7543,7 @@
             },
             {
               "HeroId": "CaptainAmerica",
-              "Power": 8721,
+              "Power": 8602,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7505,12 +7576,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 19554,
+          "Power": 19604,
           "TotalHealth": 54138,
           "CompactWave": [
             {
               "HeroId": "Ultimus",
-              "Power": 19554,
+              "Power": 19604,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -7566,10 +7637,14 @@
                       "hero_id": "Ultimus",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
-                      "speed_percent": 105,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 105
+                      },
+                      "speed_percent": 105
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -7587,7 +7662,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 161293,
+          "Power": 160636,
           "TotalHealth": 411608,
           "CompactWave": [
             {
@@ -7656,7 +7731,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 10339,
+              "Power": 10218,
               "Level": 56,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7672,7 +7747,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 10172,
+              "Power": 10060,
               "Level": 55,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7720,7 +7795,7 @@
             },
             {
               "HeroId": "Cable",
-              "Power": 12938,
+              "Power": 12766,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -7736,7 +7811,7 @@
             },
             {
               "HeroId": "Cable",
-              "Power": 12689,
+              "Power": 12560,
               "Level": 58,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7752,7 +7827,7 @@
             },
             {
               "HeroId": "Deadpool",
-              "Power": 1758,
+              "Power": 1751,
               "Level": 60,
               "GearLevel": 5,
               "Loyalty": 3,
@@ -7768,7 +7843,7 @@
             },
             {
               "HeroId": "Cable",
-              "Power": 12689,
+              "Power": 12560,
               "Level": 58,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -7784,7 +7859,7 @@
             },
             {
               "HeroId": "Cable",
-              "Power": 12938,
+              "Power": 12766,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -7800,7 +7875,7 @@
             },
             {
               "HeroId": "Deadpool",
-              "Power": 7462,
+              "Power": 7482,
               "Level": 45,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7816,7 +7891,7 @@
             },
             {
               "HeroId": "Deadpool",
-              "Power": 7462,
+              "Power": 7506,
               "Level": 45,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7832,7 +7907,7 @@
             },
             {
               "HeroId": "Deadpool",
-              "Power": 7462,
+              "Power": 7506,
               "Level": 45,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7848,7 +7923,7 @@
             },
             {
               "HeroId": "Deadpool",
-              "Power": 1494,
+              "Power": 1571,
               "Level": 24,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -7958,6 +8033,7 @@
                       "hero_id": "NickFury",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -7975,6 +8051,7 @@
                       "hero_id": "Ultimus",
                       "level": 70,
                       "loyalty": 7,
+                      "combined_mod": -1,
                       "tier": 10
                     }
                   ],
@@ -7993,12 +8070,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 229293,
+          "Power": 229126,
           "TotalHealth": 523833,
           "CompactWave": [
             {
               "HeroId": "MercDmg_General",
-              "Power": 19129,
+              "Power": 19263,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 6,
@@ -8030,7 +8107,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 14885,
+              "Power": 14964,
               "Level": 61,
               "GearLevel": 8,
               "Loyalty": 5,
@@ -8046,7 +8123,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 15095,
+              "Power": 15175,
               "Level": 62,
               "GearLevel": 8,
               "Loyalty": 5,
@@ -8078,7 +8155,7 @@
             },
             {
               "HeroId": "MercTank_Taunt",
-              "Power": 3284,
+              "Power": 3293,
               "Level": 63,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -8094,7 +8171,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 29382,
+              "Power": 29561,
               "Level": 67,
               "GearLevel": 11,
               "Loyalty": 7,
@@ -8110,7 +8187,7 @@
             },
             {
               "HeroId": "BlackPanther",
-              "Power": 29187,
+              "Power": 29393,
               "Level": 66,
               "GearLevel": 11,
               "Loyalty": 7,
@@ -8158,7 +8235,7 @@
             },
             {
               "HeroId": "IronMan",
-              "Power": 18498,
+              "Power": 18071,
               "Level": 64,
               "GearLevel": 10,
               "Loyalty": 5,
@@ -8174,7 +8251,7 @@
             },
             {
               "HeroId": "IronMan",
-              "Power": 18498,
+              "Power": 18071,
               "Level": 64,
               "GearLevel": 10,
               "Loyalty": 5,
@@ -8219,12 +8296,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 34281,
+          "Power": 34143,
           "TotalHealth": 147866,
           "CompactWave": [
             {
               "HeroId": "KreeOperator",
-              "Power": 4747,
+              "Power": 4609,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -8297,10 +8374,14 @@
                       "hero_id": "KreeOperator",
                       "level": 70,
                       "loyalty": 7,
+                      "combined_mod": -1,
                       "tier": 10,
-                      "speed_percent": 60,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 60
+                      },
+                      "speed_percent": 60
                     },
                     {
                       "abilities": [
@@ -8315,6 +8396,7 @@
                       "hero_id": "NickFury",
                       "level": 64,
                       "loyalty": 7,
+                      "combined_mod": -1,
                       "tier": 12
                     }
                   ],
@@ -8333,7 +8415,7 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 257006,
+          "Power": 256799,
           "TotalHealth": 589286,
           "CompactWave": [
             {
@@ -8466,7 +8548,7 @@
             },
             {
               "HeroId": "Crossbones",
-              "Power": 27917,
+              "Power": 27712,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
@@ -8546,7 +8628,7 @@
             },
             {
               "HeroId": "Crossbones",
-              "Power": 1268,
+              "Power": 1265,
               "Level": 20,
               "GearLevel": 5,
               "Loyalty": 3,
@@ -8594,7 +8676,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 414,
+              "Power": 415,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -8789,10 +8871,14 @@
                       "hero_id": "Shuri",
                       "level": 25,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      },
+                      "max_hp_percent": 150
                     }
                   ],
                   "StoryTellingID": "le_shuri_01_start",
@@ -8819,6 +8905,7 @@
                       "hero_id": "Okoye",
                       "level": 25,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -8835,6 +8922,7 @@
                       "hero_id": "BlackPanther",
                       "level": 25,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -8861,7 +8949,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 23087,
+          "Power": 23072,
           "TotalHealth": 91402,
           "CompactWave": [
             {
@@ -9026,7 +9114,7 @@
             },
             {
               "HeroId": "Venom",
-              "Power": 2352,
+              "Power": 2337,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -9119,6 +9207,7 @@
                       "hero_id": "Okoye",
                       "level": 34,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -9136,10 +9225,14 @@
                       "hero_id": "Shuri",
                       "level": 34,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      },
+                      "max_hp_percent": 150
                     }
                   ],
                   "StoryTellingID": "le_shuri_02_start",
@@ -9170,7 +9263,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 32381,
+          "Power": 32335,
           "TotalHealth": 124429,
           "CompactWave": [
             {
@@ -9207,7 +9300,7 @@
             },
             {
               "HeroId": "MercTank_Debuff",
-              "Power": 3099,
+              "Power": 3053,
               "Level": 38,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -9411,6 +9504,7 @@
                       "hero_id": "Okoye",
                       "level": 37,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 6,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -9428,10 +9522,14 @@
                       "hero_id": "Shuri",
                       "level": 37,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      },
+                      "max_hp_percent": 150
                     }
                   ],
                   "StoryTellingID": "le_shuri_03_start",
@@ -9708,6 +9806,7 @@
                       "hero_id": "Okoye",
                       "level": 54,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -9724,10 +9823,14 @@
                       "hero_id": "Shuri",
                       "level": 54,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      },
+                      "max_hp_percent": 150
                     }
                   ],
                   "StoryTellingID": "le_shuri_04_start",
@@ -9746,7 +9849,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 139749,
+          "Power": 138858,
           "TotalHealth": 421782,
           "CompactWave": [
             {
@@ -9767,7 +9870,7 @@
             },
             {
               "HeroId": "Drax",
-              "Power": 12049,
+              "Power": 11970,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9799,7 +9902,7 @@
             },
             {
               "HeroId": "Carnage",
-              "Power": 12380,
+              "Power": 12118,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9815,7 +9918,7 @@
             },
             {
               "HeroId": "Carnage",
-              "Power": 12380,
+              "Power": 12275,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9879,7 +9982,7 @@
             },
             {
               "HeroId": "DoctorStrange",
-              "Power": 13164,
+              "Power": 12931,
               "Level": 57,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9895,7 +9998,7 @@
             },
             {
               "HeroId": "Carnage",
-              "Power": 12380,
+              "Power": 12168,
               "Level": 55,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10004,8 +10107,8 @@
                       "hero_id": "Shuri",
                       "level": 58,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 9,
-                      "max_hp_percent": 100,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
                     },
@@ -10021,8 +10124,8 @@
                       "hero_id": "MBaku",
                       "level": 58,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
-                      "max_hp_percent": 100,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
                     }
@@ -10043,12 +10146,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 202484,
+          "Power": 202478,
           "TotalHealth": 514151,
           "CompactWave": [
             {
               "HeroId": "Killmonger",
-              "Power": 18943,
+              "Power": 19144,
               "Level": 63,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -10144,7 +10247,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 15450,
+              "Power": 15347,
               "Level": 59,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10240,7 +10343,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 15405,
+              "Power": 15301,
               "Level": 59,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10348,10 +10451,14 @@
                       "hero_id": "Shuri",
                       "level": 64,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
-                      "max_hp_percent": 120,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 120
+                      },
+                      "max_hp_percent": 120
                     },
                     {
                       "abilities": [
@@ -10365,6 +10472,7 @@
                       "hero_id": "BlackPanther",
                       "level": 64,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -10381,6 +10489,7 @@
                       "hero_id": "MBaku",
                       "level": 64,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -10402,7 +10511,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 291147,
+          "Power": 290869,
           "TotalHealth": 851701,
           "CompactWave": [
             {
@@ -10439,7 +10548,7 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 22976,
+              "Power": 22698,
               "Level": 66,
               "GearLevel": 10,
               "Loyalty": 6,
@@ -10692,6 +10801,7 @@
                       "hero_id": "Killmonger",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 0,
                       "desired_y_pos": 0
@@ -10708,6 +10818,7 @@
                       "hero_id": "BlackPanther",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -10724,6 +10835,7 @@
                       "hero_id": "Shuri",
                       "level": 65,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -10745,7 +10857,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 312388,
+          "Power": 311571,
           "TotalHealth": 822187,
           "CompactWave": [
             {
@@ -10766,7 +10878,7 @@
             },
             {
               "HeroId": "Pyro",
-              "Power": 18783,
+              "Power": 18668,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -10830,7 +10942,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 18020,
+              "Power": 17876,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -10846,7 +10958,7 @@
             },
             {
               "HeroId": "Magneto",
-              "Power": 15546,
+              "Power": 15378,
               "Level": 65,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -10878,7 +10990,7 @@
             },
             {
               "HeroId": "Pyro",
-              "Power": 12877,
+              "Power": 12712,
               "Level": 65,
               "GearLevel": 6,
               "Loyalty": 5,
@@ -10990,7 +11102,7 @@
             },
             {
               "HeroId": "Pyro",
-              "Power": 11809,
+              "Power": 11661,
               "Level": 60,
               "GearLevel": 6,
               "Loyalty": 5,
@@ -11022,7 +11134,7 @@
             },
             {
               "HeroId": "Pyro",
-              "Power": 11809,
+              "Power": 11732,
               "Level": 60,
               "GearLevel": 6,
               "Loyalty": 5,
@@ -11157,6 +11269,7 @@
                       "hero_id": "StarLord",
                       "level": 25,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -11436,6 +11549,7 @@
                       "hero_id": "StarLord",
                       "level": 36,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 4,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -11651,6 +11765,7 @@
                       "hero_id": "StarLord",
                       "level": 45,
                       "loyalty": 3,
+                      "combined_mod": -1,
                       "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -11671,7 +11786,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 47772,
+          "Power": 47751,
           "TotalHealth": 136409,
           "CompactWave": [
             {
@@ -11772,7 +11887,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 699,
+              "Power": 698,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11788,7 +11903,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 531,
+              "Power": 529,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11804,7 +11919,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 699,
+              "Power": 695,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11820,7 +11935,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 699,
+              "Power": 693,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11836,7 +11951,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 531,
+              "Power": 525,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11868,7 +11983,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 707,
+              "Power": 705,
               "Level": 20,
               "GearLevel": 3,
               "Loyalty": 2,
@@ -11994,6 +12109,7 @@
                       "hero_id": "StarLord",
                       "level": 55,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -12257,6 +12373,7 @@
                       "hero_id": "StarLord",
                       "level": 63,
                       "loyalty": 5,
+                      "combined_mod": -1,
                       "tier": 8,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -12277,7 +12394,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 171146,
+          "Power": 171052,
           "TotalHealth": 455700,
           "CompactWave": [
             {
@@ -12442,7 +12559,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 13438,
+              "Power": 13344,
               "Level": 60,
               "GearLevel": 8,
               "Loyalty": 5,
@@ -12552,6 +12669,7 @@
                       "hero_id": "StarLord",
                       "level": 67,
                       "loyalty": 6,
+                      "combined_mod": -1,
                       "tier": 10,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -12767,6 +12885,7 @@
                       "hero_id": "StarLord",
                       "level": 72,
                       "loyalty": 7,
+                      "combined_mod": -1,
                       "tier": 13,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -12787,8 +12906,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 243900,
-          "TotalHealth": 1035923,
+          "Power": 242318,
+          "TotalHealth": 1025543,
           "CompactWave": [
             {
               "HeroId": "Thanos",
@@ -12808,12 +12927,11 @@
             },
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 18123,
+              "Power": 17491,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 6,
                 3,
@@ -12825,7 +12943,7 @@
             },
             {
               "HeroId": "Ultimus",
-              "Power": 36000,
+              "Power": 37008,
               "Level": 70,
               "GearLevel": 12,
               "Loyalty": 7,
@@ -12841,12 +12959,11 @@
             },
             {
               "HeroId": "Korath",
-              "Power": 28504,
+              "Power": 27480,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 6,
                 6,
@@ -12858,12 +12975,11 @@
             },
             {
               "HeroId": "KreeTank_Counter",
-              "Power": 10651,
+              "Power": 10271,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 1,
@@ -12875,12 +12991,11 @@
             },
             {
               "HeroId": "KreeControl_Assist",
-              "Power": 15933,
+              "Power": 15379,
               "Level": 70,
               "GearLevel": 10,
               "Loyalty": 7,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 4,
