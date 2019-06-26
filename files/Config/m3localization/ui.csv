@@ -356,6 +356,7 @@ ID_PLAYERSTAT_TOTAL_COLLECTION_POWER,Total Collection Power
 ID_PLAYERSTAT_TOTAL_HEROES_COLLECTED,Total Characters Collected
 ID_PLAYERSTAT_LATEST_BATTLEGROUNDS_RANK,Latest Arena Rank
 ID_PLAYERSTAT_BEST_BATTLEGROUNDS_RANK,All-time Arena Rank
+ID_PLAYERSTAT_WAR_MVP,War MVP
 ID_POWER,Power
 ID_POWER_LABEL,POWER {power}
 ID_POWERLEVEL,POWER LEVEL
@@ -378,6 +379,7 @@ ID_QUANTITY_OWNED_COLOR,You own: <color={colorHex}>{qty}</color>
 ID_QUANTITY_RANK,#{rank}
 ID_QUANTITY_REMAINING,{qty}/{total} remaining
 ID_QUANTITY_REMAINING_SHORT,{qty} remaining
+ID_QUANTITY_REMAINING_COLON,Remaining: {qty}
 ID_QUANTITY_RANGE,{min} - {max}
 ID_QUEST_ENDED,MILESTONE ENDED
 ID_RANK_UP,RANK UP
@@ -495,6 +497,7 @@ ID_UI_MILESTONES_ARENA,BLITZ MILESTONES
 ID_UI_MILESTONES_EVENT,EVENT MILESTONES
 ID_UI_MILESTONES_NUMBER,MILESTONE {num}
 ID_UI_MISSIONS,FIGHT
+ID_UI_MORE,MORE
 ID_UI_MY_RANK,MY RANK:
 ID_UI_NEED_MORE_HEROES,"No other characters available. Collect additional characters in Campaign missions, through events, and by opening orbs."
 ID_UI_NEED_MORE_HEROES_TRAIT,"No other {trait} characters available. Collect additional characters in Campaign missions, through events, and by opening orbs."
@@ -674,7 +677,7 @@ ID_SQUAD_FORMATION_SAVED_SUBTITLE,You already saved this squad formation.
 ID_DROPRATE_RED_STARS_TITLE,Red Star Promotion
 ID_M_CRATE_PROMOTION_LINE_DESC,{count} - Red Star Promotion
 ID_REDSTAR_CONVERSION_TITLE,Duplicate Red Star
-ID_REDSTAR_CONVERSION_MESSAGE,Duplicate Red Stars convert into <color=#ffffff><i>ELITE CREDITS</i></color>.  Collect enough to open an <color=#ffffff><i>ELITE RED STAR ORB</i></color>.
+ID_REDSTAR_CONVERSION_MESSAGE,Duplicate Red Stars converted into <color=#ffffff><i>ELITE {num} CREDITS</i></color>.  Collect enough to open an <color=#ffffff><i>ELITE {num} STAR ORB</i></color>.
 ID_REDSTAR_BOOST_POPUP_TITLE,Red Star Promotions
 ID_REDSTAR_BOOST_POPUP_DESC,"Red Stars boost Health, Damage, Armor, Focus, and Resistance."
 ID_REDSTAR_BOOST_POPUP_HEADER_L,<color=#fff568><i>RED STARS</i></color>
@@ -689,13 +692,14 @@ ID_STAR_PROMOTION_DESCRIPTION_PLURAL,"Red Stars boost Health, Damage, Armor, Foc
 ID_STAR_PROMOTION_ACHIEVEMENT,Red Star Promotions Unlocked
 ID_REDSTAR_ACCESS,You have unlocked Red Star Promotions!
 ID_REDSTAR_CONVERSION_UPGRADE_HEADER,Red Star Upgraded
-ID_REDSTAR_CONVERSION_UPGRADE_MESSAGE,Upgraded Red Stars convert into <color=#ffffff><i>ELITE CREDITS</i></color>.  Collect enough to open an <color=#ffffff><i>ELITE RED STAR ORB</i></color>.
+ID_REDSTAR_CONVERSION_UPGRADE_MESSAGE,Upgraded Red Stars converted into <color=#ffffff><i>ELITE {num} CREDITS</i></color>.  Collect enough to open an <color=#ffffff><i>ELITE {num} STAR ORB</i></color>.
 ID_REDSTAR_POPUP_DESC_UNLOCK,Red Star Promotions unlock at level 52.
 ID_SQUAD_SAVE_AND_EXIT,SAVE & EXIT
 ID_SUBSCRIPTION_CALENDAR_DISCLAIMER,"With this subscription, you will receive 120 Campaign Energy every day for as long as you are subscribed, even if you miss a day! When you sign up, payment will be charged to your account at confirmation of purchase. Your subscription will auto-renew unless turned off at least 24 hours prior to the end of the current period, at which point your account will be charged for renewal within 24 hours. After purchase, you can manage your subscriptions in your account settings."
 ID_PLAYER_PROFILE_LOADING,Loading Player Information
 ID_UI_FINDER_WAR_ORB,War Orb
 ID_UI_FINDER_WAR_SUPPLIES,War Supplies
+ID_UI_FINDER_CONVERSION_SUPPLIES,Elite Supplies
 ID_EVENT_CAMPAIGN_TYPE_USP,SPIDER-MAN (MILES)
 ID_EVENT_CAMPAIGN_TYPE_WM,WAR MACHINE
 ID_RESOURCE_REFILLED_REMAINING,REFILLS REMAINING <color=#ffffff>: </color><color={colorHex}>{count}</color>
@@ -705,3 +709,4 @@ ID_EVENT_REWARDS,REWARDS
 ID_EVENT_REWARDS_DESC,Leaderboard rank determines rewards
 ID_EVENT_CAMPAIGN_TYPE_FA,FALCON
 ID_EVENT_CAMPAIGN_TYPE_PSY,PSYLOCKE
+ID_EVENT_CAMPAIGN_TYPE_SIX,SINISTER SIX
