@@ -22567,6 +22567,39 @@
         {
           "actions": [
             {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Deflect",
+                  "use_count": [
+                    1,
+                    1,
+                    1,
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "SinisterSix"
+                    ]
+                  }
+                },
+                "limit": 10,
+                "primary_selection": "include_in_pool",
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
               "action": "spawn",
               "basic": [
                 1,
@@ -22716,7 +22749,14 @@
                     100,
                     100,
                     100
-                  ]
+                  ],
+                  "filter": {
+                    "traits": {
+                      "has_any": [
+                        "SinisterSix"
+                      ]
+                    }
+                  }
                 },
                 {
                   "assist_call_pct": [
@@ -22769,9 +22809,12 @@
         "start_energy": 4
       },
       "traits": [
+        "Villain",
         "City",
+        "Tech",
         "Controller",
-        "SpiderVerse"
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "ultimate": {
         "actions": [
@@ -22933,9 +22976,12 @@
         ]
       },
       "traits": [
+        "Villain",
         "City",
+        "Tech",
         "Controller",
         "SpiderVerse",
+        "SinisterSix",
         "Minion",
         "Summon"
       ]
