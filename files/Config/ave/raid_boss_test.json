@@ -1,141 +1,117 @@
 {
-  "Name": "raid_beta_a",
+  "Name": "raid_boss_test",
   "RaidDetails": {
-    "raidId": "raid_beta_a",
-    "rows": 14,
-    "columns": 14,
+    "raidId": "raid_boss_test",
+    "rows": 9,
+    "columns": 11,
     "isOperation": false,
     "map": [
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11"
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
         "C8",
         "C9",
         "C10",
-        "C11",
-        "C12",
-        "",
-        ""
+        "C11"
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
         "D8",
-        "",
+        "D9",
         "D10",
+        "D11"
+      ],
+      [
+        "E1",
         "",
-        "D12",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         "",
         ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "E7",
-        "E8",
-        "E9",
-        "E10",
-        "E11",
-        "E12",
-        "",
-        ""
-      ],
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
         "F6",
         "F7",
         "F8",
-        "",
+        "F9",
         "F10",
-        "",
-        "F12",
-        "",
-        ""
+        "F11"
       ],
       [
-        "",
-        "",
-        "",
+        "G1",
+        "G2",
+        "G3",
         "G4",
         "G5",
         "G6",
         "G7",
-        "",
+        "G8",
         "G9",
         "G10",
-        "G11",
-        "G12",
-        "",
-        ""
+        "G11"
       ],
       [
-        "",
-        "",
-        "",
+        "H1",
+        "H2",
+        "H3",
         "H4",
-        "",
+        "H5",
         "H6",
-        "",
+        "H7",
         "H8",
         "H9",
         "H10",
-        "",
-        "",
-        "",
-        ""
+        "H11"
       ],
       [
-        "",
+        "I1",
         "I2",
         "I3",
         "I4",
@@ -144,129 +120,17 @@
         "I7",
         "I8",
         "I9",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "",
-        "J2",
-        "",
-        "J4",
-        "",
-        "J6",
-        "",
-        "J8",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "K1",
-        "K2",
-        "K3",
-        "K4",
-        "K5",
-        "K6",
-        "K7",
-        "K8",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "L1",
-        "L2",
-        "",
-        "L4",
-        "",
-        "L6",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "M1",
-        "M2",
-        "M3",
-        "M4",
-        "M5",
-        "M6",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "N1",
-        "N2",
-        "N3",
-        "N4",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I10",
+        "I11"
       ]
     ],
     "rooms": {
-      "G11": {
-        "roomId": "G11",
-        "name": "evr_beta1_21",
-        "starting": false,
+      "E1": {
+        "roomId": "E1",
+        "name": "evr_beta3_start",
+        "starting": true,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_21",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -280,46 +144,17 @@
           "y": 0
         },
         "nextRooms": [
-          "G12",
-          "",
-          ""
+          null,
+          "D1",
+          "F1"
         ]
       },
-      "G12": {
-        "roomId": "G12",
-        "name": "evr_beta1_20",
+      "D1": {
+        "roomId": "D1",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_20",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -333,78 +168,193 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "F12",
-          ""
-        ]
-      },
-      "F12": {
-        "roomId": "F12",
-        "name": "evr_beta1_24",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_24",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "E12",
+          "D2",
+          "C1",
           null
         ]
       },
-      "E11": {
-        "roomId": "E11",
-        "name": "evr_beta1_28",
+      "C1": {
+        "roomId": "C1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C2",
+          "B1",
+          null
+        ]
+      },
+      "B1": {
+        "roomId": "B1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B2",
+          "A1",
+          null
+        ]
+      },
+      "A1": {
+        "roomId": "A1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A2",
+          null,
+          null
+        ]
+      },
+      "F1": {
+        "roomId": "F1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F2",
+          null,
+          "G1"
+        ]
+      },
+      "G1": {
+        "roomId": "G1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G2",
+          null,
+          "H1"
+        ]
+      },
+      "H1": {
+        "roomId": "H1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H2",
+          null,
+          "I1"
+        ]
+      },
+      "I1": {
+        "roomId": "I1",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I2",
+          null,
+          null
+        ]
+      },
+      "A2": {
+        "roomId": "A2",
+        "name": "evr_boss_cv_mb_d04_l66_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_28",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d04_l66_v01",
+            "icon": "Portrait_Shocker",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -420,10 +370,16 @@
               "shortDescription": "",
               "longDescription": "",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -439,25 +395,143 @@
           "y": 0
         },
         "nextRooms": [
-          "E12",
-          "",
-          ""
+          "A3",
+          null,
+          null
         ]
       },
-      "E12": {
-        "roomId": "E12",
-        "name": "evr_boss_cv_mb_d01_l51_v02",
+      "A3": {
+        "roomId": "A3",
+        "name": "evr_boss_cv_mb_d04_l66_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l51_v02",
+            "ID": "evr_boss_cv_mb_d04_l66_v02",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A4",
+          null,
+          null
+        ]
+      },
+      "A4": {
+        "roomId": "A4",
+        "name": "evr_boss_cv_mb_d04_l70_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d04_l70_v01",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A5",
+          null,
+          null
+        ]
+      },
+      "A5": {
+        "roomId": "A5",
+        "name": "evr_boss_cv_mb_d04_l70_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d04_l70_v02",
             "icon": "Portrait_Rhino",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -473,7 +547,13 @@
               "shortDescription": "",
               "longDescription": "",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
             },
             "characterLimit": 5,
             "isBoss": true
@@ -492,25 +572,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "D12",
+          "A6",
+          null,
           null
         ]
       },
-      "D12": {
-        "roomId": "D12",
-        "name": "evr_beta1_27",
+      "A6": {
+        "roomId": "A6",
+        "name": "evr_boss_cv_mb_d04_l72_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_27",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d04_l72_v01",
+            "icon": "Portrait_Rhino",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -526,10 +606,16 @@
               "shortDescription": "",
               "longDescription": "",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -545,25 +631,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "C12",
+          "A7",
+          null,
           null
         ]
       },
-      "C11": {
-        "roomId": "C11",
-        "name": "evr_beta1_31",
+      "A7": {
+        "roomId": "A7",
+        "name": "evr_boss_cv_mb_d04_l72_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_31",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d04_l72_v02",
+            "icon": "Portrait_Vulture",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -579,10 +665,16 @@
               "shortDescription": "",
               "longDescription": "",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -598,25 +690,84 @@
           "y": 0
         },
         "nextRooms": [
-          "C12",
-          "",
-          ""
+          "A8",
+          null,
+          null
         ]
       },
-      "C12": {
-        "roomId": "C12",
-        "name": "evr_boss_cv_fb_d01_l52_v01",
+      "A8": {
+        "roomId": "A8",
+        "name": "evr_boss_cv_mb_d04_l72_v03",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_cv_fb_d01_l52_v01",
+            "ID": "evr_boss_cv_mb_d04_l72_v03",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "A9",
+          null,
+          null
+        ]
+      },
+      "A9": {
+        "roomId": "A9",
+        "name": "evr_boss_cv_fb_d04_l73_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d04_l73_v01",
             "icon": "Portrait_Mysterio",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_battledrops_low_boss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -651,25 +802,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "",
+          "A10",
+          null,
           null
         ]
       },
-      "G10": {
-        "roomId": "G10",
-        "name": "evr_beta1_22",
+      "A10": {
+        "roomId": "A10",
+        "name": "evr_boss_cv_fb_d04_l73_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_22",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_fb_d04_l73_v02",
+            "icon": "Portrait_Mysterio",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -688,7 +839,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -704,46 +855,17 @@
           "y": 0
         },
         "nextRooms": [
-          "G11",
-          "F10",
+          "A11",
+          null,
           null
         ]
       },
-      "F10": {
-        "roomId": "F10",
-        "name": "evr_beta1_25",
+      "A11": {
+        "roomId": "A11",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_25",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -757,25 +879,25 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "E10",
+          null,
+          null,
           null
         ]
       },
-      "E9": {
-        "roomId": "E9",
-        "name": "evr_beta1_25",
+      "B2": {
+        "roomId": "B2",
+        "name": "evr_boss_cv_mb_d03_l60_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_25",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d03_l60_v01",
+            "icon": "Portrait_Shocker",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -791,10 +913,16 @@
               "shortDescription": "",
               "longDescription": "",
               "quantity": 0,
-              "filters": {}
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -810,78 +938,379 @@
           "y": 0
         },
         "nextRooms": [
-          "E10",
-          "",
-          ""
-        ]
-      },
-      "E10": {
-        "roomId": "E10",
-        "name": "evr_beta1_29",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_29",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E11",
-          "D10",
+          "B3",
+          null,
           null
         ]
       },
-      "D10": {
-        "roomId": "D10",
-        "name": "evr_beta1_28",
+      "B3": {
+        "roomId": "B3",
+        "name": "evr_boss_cv_mb_d03_l60_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_28",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d03_l60_v02",
+            "icon": "Portrait_Shocker",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B4",
+          null,
+          null
+        ]
+      },
+      "B4": {
+        "roomId": "B4",
+        "name": "evr_boss_cv_mb_d03_l65_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d03_l65_v01",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B5",
+          null,
+          null
+        ]
+      },
+      "B5": {
+        "roomId": "B5",
+        "name": "evr_boss_cv_mb_d03_l65_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d03_l65_v02",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B6",
+          null,
+          null
+        ]
+      },
+      "B6": {
+        "roomId": "B6",
+        "name": "evr_boss_cv_mb_d03_l68_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d03_l68_v01",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B7",
+          null,
+          null
+        ]
+      },
+      "B7": {
+        "roomId": "B7",
+        "name": "evr_boss_cv_mb_d03_l68_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d03_l68_v02",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B8",
+          null,
+          null
+        ]
+      },
+      "B8": {
+        "roomId": "B8",
+        "name": "evr_boss_cv_mb_d03_l68_v03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d03_l68_v03",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B9",
+          null,
+          null
+        ]
+      },
+      "B9": {
+        "roomId": "B9",
+        "name": "evr_boss_cv_fb_d03_l70_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d03_l70_v01",
+            "icon": "Portrait_Mysterio",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -900,7 +1329,7 @@
               "filters": {}
             },
             "characterLimit": 5,
-            "isBoss": false
+            "isBoss": true
           }
         },
         "requirements": {},
@@ -916,25 +1345,568 @@
           "y": 0
         },
         "nextRooms": [
-          "",
+          "B10",
+          null,
+          null
+        ]
+      },
+      "B10": {
+        "roomId": "B10",
+        "name": "evr_boss_cv_fb_d03_l70_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d03_l70_v02",
+            "icon": "Portrait_Mysterio",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "B11",
+          null,
+          null
+        ]
+      },
+      "B11": {
+        "roomId": "B11",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          null
+        ]
+      },
+      "C2": {
+        "roomId": "C2",
+        "name": "evr_boss_cv_mb_d02_l51_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l51_v01",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C3",
+          null,
+          null
+        ]
+      },
+      "C3": {
+        "roomId": "C3",
+        "name": "evr_boss_cv_mb_d02_l51_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l51_v02",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C4",
+          null,
+          null
+        ]
+      },
+      "C4": {
+        "roomId": "C4",
+        "name": "evr_boss_cv_mb_d02_l54_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l54_v01",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C5",
+          null,
+          null
+        ]
+      },
+      "C5": {
+        "roomId": "C5",
+        "name": "evr_boss_cv_mb_d02_l54_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l54_v02",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C6",
+          null,
+          null
+        ]
+      },
+      "C6": {
+        "roomId": "C6",
+        "name": "evr_boss_cv_mb_d02_l57_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l57_v01",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C7",
+          null,
+          null
+        ]
+      },
+      "C7": {
+        "roomId": "C7",
+        "name": "evr_boss_cv_mb_d02_l57_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l57_v02",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C8",
+          null,
+          null
+        ]
+      },
+      "C8": {
+        "roomId": "C8",
+        "name": "evr_boss_cv_mb_d02_l57_v03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d02_l57_v03",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {
+                "anyTrait": [
+                  "Mystic",
+                  "Tech",
+                  "SinisterSix"
+                ]
+              }
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "C9",
+          null,
+          null
+        ]
+      },
+      "C9": {
+        "roomId": "C9",
+        "name": "evr_boss_cv_fb_d02_l61_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d02_l61_v01",
+            "icon": "Portrait_Mysterio",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
           "C10",
+          null,
           null
         ]
       },
       "C10": {
         "roomId": "C10",
-        "name": "evr_boss_cv_mb_d01_l51_v01",
+        "name": "evr_boss_cv_fb_d02_l61_v02",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l51_v01",
-            "icon": "Portrait_Vulture",
+            "ID": "evr_boss_cv_fb_d02_l61_v02",
+            "icon": "Portrait_Mysterio",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -970,45 +1942,16 @@
         },
         "nextRooms": [
           "C11",
-          "",
+          null,
           null
         ]
       },
-      "C9": {
-        "roomId": "C9",
-        "name": "evr_beta1_24",
+      "C11": {
+        "roomId": "C11",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_24",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1022,502 +1965,25 @@
           "y": 0
         },
         "nextRooms": [
-          "C10",
-          "",
-          ""
-        ]
-      },
-      "C8": {
-        "roomId": "C8",
-        "name": "evr_beta1_20",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_20",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "C9",
-          "",
+          null,
+          null,
           null
         ]
       },
-      "D8": {
-        "roomId": "D8",
-        "name": "evr_beta1_21",
+      "D2": {
+        "roomId": "D2",
+        "name": "evr_boss_cv_mb_d01_l42_v01",
         "starting": false,
         "objective": false,
         "missions": {
           "1": {
             "missionIndex": "1",
-            "ID": "evr_beta1_21",
-            "icon": "raid_Icon_GenericB.png",
+            "ID": "evr_boss_cv_mb_d01_l42_v01",
+            "icon": "Portrait_Shocker",
             "iconBgColor": null,
             "rewards": [
               {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "C8",
-          null
-        ]
-      },
-      "E8": {
-        "roomId": "E8",
-        "name": "evr_beta1_22",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_22",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E9",
-          "D8",
-          null
-        ]
-      },
-      "E7": {
-        "roomId": "E7",
-        "name": "evr_beta1_18",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_18",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "E8",
-          "",
-          null
-        ]
-      },
-      "F8": {
-        "roomId": "F8",
-        "name": "evr_beta1_23",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_23",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "E8",
-          ""
-        ]
-      },
-      "G9": {
-        "roomId": "G9",
-        "name": "evr_beta1_23",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_23",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G10",
-          "",
-          null
-        ]
-      },
-      "H10": {
-        "roomId": "H10",
-        "name": "evr_beta1_18",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_18",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "G10",
-          ""
-        ]
-      },
-      "H8": {
-        "roomId": "H8",
-        "name": "evr_beta1_19",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_19",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "H9",
-          "",
-          null
-        ]
-      },
-      "G7": {
-        "roomId": "G7",
-        "name": "evr_beta1_19",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_19",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "F7",
-          ""
-        ]
-      },
-      "F7": {
-        "roomId": "F7",
-        "name": "evr_boss_cv_mb_d01_l45_v01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l45_v01",
-            "icon": "Portrait_Rhino",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
+                "m_rewardID": "raid_thanos_low_battledrops",
                 "m_firstTimeOnly": false
               }
             ],
@@ -1539,6 +2005,598 @@
             "isBoss": true
           }
         },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D3",
+          null,
+          null
+        ]
+      },
+      "D3": {
+        "roomId": "D3",
+        "name": "evr_boss_cv_mb_d01_l42_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l42_v02",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D4",
+          null,
+          null
+        ]
+      },
+      "D4": {
+        "roomId": "D4",
+        "name": "evr_boss_cv_mb_d01_l45_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l45_v01",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D5",
+          null,
+          null
+        ]
+      },
+      "D5": {
+        "roomId": "D5",
+        "name": "evr_boss_cv_mb_d01_l45_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l45_v02",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D6",
+          null,
+          null
+        ]
+      },
+      "D6": {
+        "roomId": "D6",
+        "name": "evr_boss_cv_mb_d01_l51_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l51_v01",
+            "icon": "Portrait_Rhino",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D7",
+          null,
+          null
+        ]
+      },
+      "D7": {
+        "roomId": "D7",
+        "name": "evr_boss_cv_mb_d01_l51_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l51_v02",
+            "icon": "Portrait_Vulture",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D8",
+          null,
+          null
+        ]
+      },
+      "D8": {
+        "roomId": "D8",
+        "name": "evr_boss_cv_mb_d01_l51_v03",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_mb_d01_l51_v03",
+            "icon": "Portrait_Shocker",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D9",
+          null,
+          null
+        ]
+      },
+      "D9": {
+        "roomId": "D9",
+        "name": "evr_boss_cv_fb_d01_l52_v01",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d01_l52_v01",
+            "icon": "Portrait_Mysterio",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D10",
+          null,
+          null
+        ]
+      },
+      "D10": {
+        "roomId": "D10",
+        "name": "evr_boss_cv_fb_d01_l52_v02",
+        "starting": false,
+        "objective": false,
+        "missions": {
+          "1": {
+            "missionIndex": "1",
+            "ID": "evr_boss_cv_fb_d01_l52_v02",
+            "icon": "Portrait_Mysterio",
+            "iconBgColor": null,
+            "rewards": [
+              {
+                "m_rewardID": "raid_thanos_low_battledrops",
+                "m_firstTimeOnly": false
+              }
+            ],
+            "cost": [
+              {
+                "res": "ave_attack_energy",
+                "amount": 10
+              }
+            ],
+            "requirements": {},
+            "filters": {
+              "description": "",
+              "shortDescription": "",
+              "longDescription": "",
+              "quantity": 0,
+              "filters": {}
+            },
+            "characterLimit": 5,
+            "isBoss": true
+          }
+        },
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "D11",
+          null,
+          null
+        ]
+      },
+      "D11": {
+        "roomId": "D11",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          null
+        ]
+      },
+      "F2": {
+        "roomId": "F2",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F3",
+          null,
+          null
+        ]
+      },
+      "F3": {
+        "roomId": "F3",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F4",
+          null,
+          null
+        ]
+      },
+      "F4": {
+        "roomId": "F4",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F5",
+          null,
+          null
+        ]
+      },
+      "F5": {
+        "roomId": "F5",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F6",
+          null,
+          null
+        ]
+      },
+      "F6": {
+        "roomId": "F6",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "F7",
+          null,
+          null
+        ]
+      },
+      "F7": {
+        "roomId": "F7",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1553,45 +2611,16 @@
         },
         "nextRooms": [
           "F8",
-          "E7",
+          null,
           null
         ]
       },
-      "F6": {
-        "roomId": "F6",
-        "name": "evr_beta1_14",
+      "F8": {
+        "roomId": "F8",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_14",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1605,46 +2634,17 @@
           "y": 0
         },
         "nextRooms": [
-          "F7",
-          "",
+          "F9",
+          null,
           null
         ]
       },
-      "H9": {
-        "roomId": "H9",
-        "name": "evr_boss_cv_mb_d01_l45_v02",
+      "F9": {
+        "roomId": "F9",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l45_v02",
-            "icon": "Portrait_Shocker",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1658,46 +2658,17 @@
           "y": 0
         },
         "nextRooms": [
-          "H10",
-          "G9",
+          "F10",
+          null,
           null
         ]
       },
-      "I9": {
-        "roomId": "I9",
-        "name": "evr_beta1_14",
+      "F10": {
+        "roomId": "F10",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_14",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1711,152 +2682,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "H9",
-          ""
-        ]
-      },
-      "I7": {
-        "roomId": "I7",
-        "name": "evr_beta1_16",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_16",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I8",
-          "",
-          ""
-        ]
-      },
-      "I8": {
-        "roomId": "I8",
-        "name": "evr_beta1_15",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_15",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I9",
-          "H8",
+          "F11",
+          null,
           null
         ]
       },
-      "J8": {
-        "roomId": "J8",
-        "name": "evr_beta1_12",
+      "F11": {
+        "roomId": "F11",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_12",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1870,46 +2706,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "I8",
+          null,
+          null,
           null
         ]
       },
-      "K8": {
-        "roomId": "K8",
-        "name": "evr_beta1_08",
+      "G2": {
+        "roomId": "G2",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_08",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -1923,152 +2730,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "J8",
-          ""
-        ]
-      },
-      "K7": {
-        "roomId": "K7",
-        "name": "evr_beta1_09",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_09",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K8",
-          "",
-          ""
-        ]
-      },
-      "J6": {
-        "roomId": "J6",
-        "name": "evr_beta1_13",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_13",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I6",
+          "G3",
+          null,
           null
         ]
       },
-      "I5": {
-        "roomId": "I5",
-        "name": "evr_beta1_13",
+      "G3": {
+        "roomId": "G3",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_13",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2082,258 +2754,17 @@
           "y": 0
         },
         "nextRooms": [
-          "I6",
-          "",
-          ""
-        ]
-      },
-      "I6": {
-        "roomId": "I6",
-        "name": "evr_beta1_17",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_17",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I7",
-          "H6",
+          "G4",
+          null,
           null
-        ]
-      },
-      "H6": {
-        "roomId": "H6",
-        "name": "evr_beta1_16",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_16",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "G6",
-          null
-        ]
-      },
-      "G6": {
-        "roomId": "G6",
-        "name": "evr_beta1_15",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_15",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G7",
-          "F6",
-          null
-        ]
-      },
-      "G5": {
-        "roomId": "G5",
-        "name": "evr_beta1_12",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_12",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "G6",
-          "",
-          ""
         ]
       },
       "G4": {
         "roomId": "G4",
-        "name": "evr_beta1_08",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_08",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2348,45 +2779,232 @@
         },
         "nextRooms": [
           "G5",
-          "",
+          null,
+          null
+        ]
+      },
+      "G5": {
+        "roomId": "G5",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G6",
+          null,
+          null
+        ]
+      },
+      "G6": {
+        "roomId": "G6",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G7",
+          null,
+          null
+        ]
+      },
+      "G7": {
+        "roomId": "G7",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G8",
+          null,
+          null
+        ]
+      },
+      "G8": {
+        "roomId": "G8",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G9",
+          null,
+          null
+        ]
+      },
+      "G9": {
+        "roomId": "G9",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G10",
+          null,
+          null
+        ]
+      },
+      "G10": {
+        "roomId": "G10",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "G11",
+          null,
+          null
+        ]
+      },
+      "G11": {
+        "roomId": "G11",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
+          null
+        ]
+      },
+      "H2": {
+        "roomId": "H2",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H3",
+          null,
+          null
+        ]
+      },
+      "H3": {
+        "roomId": "H3",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "H4",
+          null,
           null
         ]
       },
       "H4": {
         "roomId": "H4",
-        "name": "evr_beta1_09",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_09",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2400,46 +3018,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "G4",
+          "H5",
+          null,
           null
         ]
       },
-      "K6": {
-        "roomId": "K6",
-        "name": "evr_boss_cv_mb_d01_l42_v02",
+      "H5": {
+        "roomId": "H5",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l42_v02",
-            "icon": "Portrait_Vulture",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2453,46 +3042,17 @@
           "y": 0
         },
         "nextRooms": [
-          "K7",
-          "J6",
+          "H6",
+          null,
           null
         ]
       },
-      "L6": {
-        "roomId": "L6",
-        "name": "evr_beta1_06",
+      "H6": {
+        "roomId": "H6",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_06",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2506,46 +3066,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "K6",
+          "H7",
+          null,
           null
         ]
       },
-      "I4": {
-        "roomId": "I4",
-        "name": "evr_boss_cv_mb_d01_l42_v01",
+      "H7": {
+        "roomId": "H7",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_boss_cv_mb_d01_l42_v01",
-            "icon": "Portrait_Shocker",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_battledrops_low_miniboss",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": true
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2559,46 +3090,17 @@
           "y": 0
         },
         "nextRooms": [
-          "I5",
-          "H4",
+          "H8",
+          null,
           null
         ]
       },
-      "J4": {
-        "roomId": "J4",
-        "name": "evr_beta1_10",
+      "H8": {
+        "roomId": "H8",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_10",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2612,46 +3114,17 @@
           "y": 0
         },
         "nextRooms": [
-          "",
-          "I4",
+          "H9",
+          null,
           null
         ]
       },
-      "K5": {
-        "roomId": "K5",
-        "name": "evr_beta1_10",
+      "H9": {
+        "roomId": "H9",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_10",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2665,99 +3138,17 @@
           "y": 0
         },
         "nextRooms": [
-          "K6",
-          "",
-          ""
-        ]
-      },
-      "L4": {
-        "roomId": "L4",
-        "name": "evr_beta1_ 07",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_07",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "K4",
+          "H10",
+          null,
           null
         ]
       },
-      "K4": {
-        "roomId": "K4",
-        "name": "evr_beta1_11",
+      "H10": {
+        "roomId": "H10",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_11",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2771,46 +3162,17 @@
           "y": 0
         },
         "nextRooms": [
-          "K5",
-          "J4",
+          "H11",
+          null,
           null
         ]
       },
-      "K3": {
-        "roomId": "K3",
-        "name": "evr_beta1_07",
+      "H11": {
+        "roomId": "H11",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_07",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2824,99 +3186,17 @@
           "y": 0
         },
         "nextRooms": [
-          "K4",
-          "",
-          ""
-        ]
-      },
-      "I3": {
-        "roomId": "I3",
-        "name": "evr_beta1_06",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_06",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "I4",
-          "",
-          ""
+          null,
+          null,
+          null
         ]
       },
       "I2": {
         "roomId": "I2",
-        "name": "evr_beta1_02",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_02",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
+        "missions": {},
         "requirements": {},
         "filters": {
           "description": "",
@@ -2931,490 +3211,13 @@
         },
         "nextRooms": [
           "I3",
-          "",
+          null,
           null
         ]
       },
-      "J2": {
-        "roomId": "J2",
-        "name": "evr_beta1_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_03",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "I2",
-          null
-        ]
-      },
-      "M6": {
-        "roomId": "M6",
-        "name": "evr_beta1_02",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_02",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "L6",
-          ""
-        ]
-      },
-      "M5": {
-        "roomId": "M5",
-        "name": "evr_beta1_03",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_03",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M6",
-          "",
-          ""
-        ]
-      },
-      "K2": {
-        "roomId": "K2",
-        "name": "evr_beta1_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_04",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K3",
-          "J2",
-          null
-        ]
-      },
-      "K1": {
-        "roomId": "K1",
-        "name": "evr_beta1_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_01",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "K2",
-          "",
-          null
-        ]
-      },
-      "L2": {
-        "roomId": "L2",
-        "name": "evr_beta1_05",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_05",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "K2",
-          null
-        ]
-      },
-      "M3": {
-        "roomId": "M3",
-        "name": "evr_beta1_05",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_05",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M4",
-          "",
-          null
-        ]
-      },
-      "M4": {
-        "roomId": "M4",
-        "name": "evr_beta1_04",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_04",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "M5",
-          "L4",
-          null
-        ]
-      },
-      "N4": {
-        "roomId": "N4",
-        "name": "evr_beta1_01",
-        "starting": false,
-        "objective": false,
-        "missions": {
-          "1": {
-            "missionIndex": "1",
-            "ID": "evr_beta1_01",
-            "icon": "raid_Icon_GenericB.png",
-            "iconBgColor": null,
-            "rewards": [
-              {
-                "m_rewardID": "raid_beta_201907_low_battledrops",
-                "m_firstTimeOnly": false
-              }
-            ],
-            "cost": [
-              {
-                "res": "ave_attack_energy",
-                "amount": 10
-              }
-            ],
-            "requirements": {},
-            "filters": {
-              "description": "",
-              "shortDescription": "",
-              "longDescription": "",
-              "quantity": 0,
-              "filters": {}
-            },
-            "characterLimit": 5,
-            "isBoss": false
-          }
-        },
-        "requirements": {},
-        "filters": {
-          "description": "",
-          "shortDescription": "",
-          "longDescription": "",
-          "quantity": 0,
-          "filters": {}
-        },
-        "roomOffset": {
-          "x": 0,
-          "y": 0
-        },
-        "nextRooms": [
-          "",
-          "M4",
-          null
-        ]
-      },
-      "L1": {
-        "roomId": "L1",
-        "name": "evr_beta1_xx",
+      "I3": {
+        "roomId": "I3",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -3431,14 +3234,14 @@
           "y": 0
         },
         "nextRooms": [
-          "L2",
-          "K1",
+          "I4",
+          null,
           null
         ]
       },
-      "M2": {
-        "roomId": "M2",
-        "name": "evr_beta1_xx",
+      "I4": {
+        "roomId": "I4",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -3455,14 +3258,14 @@
           "y": 0
         },
         "nextRooms": [
-          "M3",
-          "L2",
+          "I5",
+          null,
           null
         ]
       },
-      "N3": {
-        "roomId": "N3",
-        "name": "evr_beta1_xx",
+      "I5": {
+        "roomId": "I5",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -3479,14 +3282,14 @@
           "y": 0
         },
         "nextRooms": [
-          "N4",
-          "M3",
+          "I6",
+          null,
           null
         ]
       },
-      "M1": {
-        "roomId": "M1",
-        "name": "evr_beta1_xx",
+      "I6": {
+        "roomId": "I6",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -3503,14 +3306,14 @@
           "y": 0
         },
         "nextRooms": [
-          "M2",
-          "L1",
+          "I7",
+          null,
           null
         ]
       },
-      "N2": {
-        "roomId": "N2",
-        "name": "evr_beta1_xx",
+      "I7": {
+        "roomId": "I7",
+        "name": "evr_beta3_xx",
         "starting": false,
         "objective": false,
         "missions": {},
@@ -3527,15 +3330,15 @@
           "y": 0
         },
         "nextRooms": [
-          "N3",
-          "M2",
+          "I8",
+          null,
           null
         ]
       },
-      "N1": {
-        "roomId": "N1",
-        "name": "evr_beta1_start",
-        "starting": true,
+      "I8": {
+        "roomId": "I8",
+        "name": "evr_beta3_xx",
+        "starting": false,
         "objective": false,
         "missions": {},
         "requirements": {},
@@ -3551,12 +3354,84 @@
           "y": 0
         },
         "nextRooms": [
-          "N2",
-          "M1",
+          "I9",
+          null,
+          null
+        ]
+      },
+      "I9": {
+        "roomId": "I9",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I10",
+          null,
+          null
+        ]
+      },
+      "I10": {
+        "roomId": "I10",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          "I11",
+          null,
+          null
+        ]
+      },
+      "I11": {
+        "roomId": "I11",
+        "name": "evr_beta3_xx",
+        "starting": false,
+        "objective": false,
+        "missions": {},
+        "requirements": {},
+        "filters": {
+          "description": "",
+          "shortDescription": "",
+          "longDescription": "",
+          "quantity": 0,
+          "filters": {}
+        },
+        "roomOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "nextRooms": [
+          null,
+          null,
           null
         ]
       }
     },
-    "startingRoomId": "N1"
+    "startingRoomId": "E1"
   }
 }
