@@ -2486,7 +2486,8 @@
         "Mystic",
         "Brawler",
         "Avenger",
-        "Wakanda"
+        "Wakanda",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -3053,7 +3054,8 @@
         "Controller",
         "Avenger",
         "Shield",
-        "Wave1Avenger"
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -4470,7 +4472,8 @@
         "Avenger",
         "Shield",
         "Military",
-        "Wave1Avenger"
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -5333,7 +5336,8 @@
         "Bio",
         "Brawler",
         "Kree",
-        "Military"
+        "Military",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -8916,7 +8920,8 @@
         "Mutant",
         "Brawler",
         "Xforce",
-        "Mercenary"
+        "Mercenary",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -9275,7 +9280,8 @@
         "Hero",
         "Cosmic",
         "Mystic",
-        "Support"
+        "Support",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -11094,7 +11100,8 @@
         "Cosmic",
         "Bio",
         "Support",
-        "GotG"
+        "GotG",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -12402,7 +12409,8 @@
         "Controller",
         "Avenger",
         "Shield",
-        "Wave1Avenger"
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -12805,7 +12813,8 @@
         "Bio",
         "Protector",
         "Avenger",
-        "Wave1Avenger"
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -12920,6 +12929,413 @@
           248
         ],
         "start_energy": 4
+      }
+    },
+    "HumanTorch": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  210
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          24,
+          47,
+          69,
+          92,
+          115,
+          138
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "has_any": [
+                    "FantasticFour"
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "Namor"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            0,
+            10,
+            10,
+            20,
+            30
+          ],
+          "stat": "damage_pct"
+        },
+        {
+          "apply_if": {
+            "owner_ok": "yes"
+          },
+          "delta": 10000,
+          "only_self": true,
+          "stat": "resistance_pct",
+          "target_apply_if": {
+            "test_action": {
+              "procs": [
+                "DoT"
+              ]
+            }
+          }
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc_flip",
+              "action_pct": [
+                0,
+                0,
+                50,
+                100,
+                100
+              ],
+              "category": "debuff",
+              "count": [
+                0,
+                0,
+                1,
+                1,
+                2
+              ],
+              "only_if": {
+                "owner": {
+                  "any_proc_of_type": "debuff"
+                }
+              }
+            },
+            {
+              "action": "proc",
+              "only_if": {
+                "not": {
+                  "owner": {
+                    "states": [
+                      "binary"
+                    ]
+                  }
+                }
+              },
+              "procs": [
+                {
+                  "proc": "InvisibleNonPersist"
+                }
+              ],
+              "visualid": "flameon"
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        15,
+        29,
+        44,
+        60,
+        77
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  60,
+                  70,
+                  84,
+                  60,
+                  98,
+                  112,
+                  126,
+                  140
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "proc_duration",
+            "action_pct": 100,
+            "add_if_not": true,
+            "category": "buff",
+            "delta": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "max_duration": 5,
+            "only_procs": [
+              "OffenseUp"
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          },
+          {
+            "action": "proc_duration",
+            "action_pct": 100,
+            "add_if_not": true,
+            "category": "buff",
+            "delta": 1,
+            "max_duration": 3,
+            "only_procs": [
+              "OffenseUp"
+            ],
+            "target": {
+              "filter": {
+                "or": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "FantasticFour"
+                      ]
+                    }
+                  },
+                  {
+                    "character": [
+                      "Namor"
+                    ]
+                  }
+                ]
+              },
+              "limit": [
+                0,
+                1,
+                1,
+                2,
+                2,
+                3,
+                10
+              ],
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  130,
+                  170,
+                  210,
+                  250,
+                  300,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {}
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          0,
+          29,
+          56,
+          83,
+          111,
+          138,
+          165
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Blaster",
+        "FantasticFour",
+        "Marvel80th"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  160,
+                  200,
+                  240,
+                  290,
+                  340,
+                  400
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "OffenseDown",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                1,
+                1,
+                2,
+                2,
+                3,
+                3,
+                10
+              ],
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "assist": {},
+            "category": "none",
+            "counter": true,
+            "new_result": true,
+            "only_if": {
+              "owner": {
+                "procs": [
+                  "InvisibleNonPersist"
+                ]
+              }
+            },
+            "procs": "InvisibleNonPersist",
+            "skip_focus_check": true,
+            "target": {
+              "relation": "ally"
+            },
+            "visualid": "binaryCheck"
+          }
+        ],
+        "cost": 8,
+        "power_mul": [
+          40,
+          74,
+          110,
+          144,
+          179,
+          214,
+          248
+        ],
+        "start_energy": 5,
+        "stat_lock": [
+          {
+            "on": "primary",
+            "stat": "counter_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "counter_pct",
+            "value": 0
+          },
+          {
+            "on": "primary",
+            "stat": "dodge_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "dodge_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "self",
+            "stat": "accuracy_pct",
+            "value": 100
+          }
+        ]
       }
     },
     "HydraDmg_AoE": {
@@ -14778,7 +15194,8 @@
         "Blaster",
         "Avenger",
         "Wave1Avenger",
-        "PowerArmor"
+        "PowerArmor",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -18955,7 +19372,7 @@
       "traits": [
         "Cosmic",
         "Mystic",
-        "Control",
+        "Controller",
         "Villain",
         "Loki",
         "Minion",
@@ -21699,7 +22116,8 @@
           "exec": "on_death",
           "exec_for": {
             "relationship": "ally"
-          }
+          },
+          "skip_on_death": true
         },
         {
           "actions": [
@@ -21756,7 +22174,8 @@
           "exec": "on_death",
           "exec_for": {
             "relationship": "enemy"
-          }
+          },
+          "skip_on_death": true
         }
       ],
       "passive_power_mul": [
@@ -22047,6 +22466,399 @@
           245
         ],
         "start_energy": 7
+      }
+    },
+    "MrFantastic": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  90,
+                  110,
+                  130,
+                  150,
+                  170,
+                  190,
+                  230
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  50,
+                  70,
+                  90,
+                  110,
+                  130,
+                  150,
+                  190
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "filter": {
+                "not": {
+                  "target": {
+                    "states": [
+                      "stealthed"
+                    ]
+                  }
+                }
+              },
+              "limit": [
+                1,
+                1,
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                2,
+                2,
+                3
+              ],
+              "primary_selection": "exclude_from_pool",
+              "stop_if_outcome": [
+                "counter_attack"
+              ],
+              "type": "direct_neighbor"
+            }
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "has_any": [
+                    "FantasticFour"
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "Namor"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            0,
+            10,
+            10,
+            10,
+            20
+          ],
+          "stat": "focus_pct"
+        },
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "has_any": [
+                    "FantasticFour"
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "Namor"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            10,
+            10,
+            10,
+            20,
+            20
+          ],
+          "stat": "resistance_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "action_pct": [
+                25,
+                40,
+                60,
+                100,
+                100
+              ],
+              "procs": [
+                {
+                  "proc": "AssistNow"
+                }
+              ],
+              "target": {
+                "attacker_as_primary": false,
+                "filter": {
+                  "or": [
+                    {
+                      "traits": {
+                        "has_any": [
+                          "FantasticFour"
+                        ]
+                      }
+                    },
+                    {
+                      "character": [
+                        "Namor"
+                      ]
+                    }
+                  ]
+                },
+                "primary_selection": "exclude_from_pool",
+                "relation": "ally",
+                "type": "random"
+              }
+            },
+            {
+              "action": "proc_remove",
+              "category": "debuff",
+              "count": 1,
+              "procs": "AccuracyDown",
+              "visualid": "procremove"
+            }
+          ],
+          "exec": "on_turn",
+          "exec_for": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "FantasticFour"
+              ]
+            }
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "proc_remove",
+              "category": "buff",
+              "count": 1,
+              "only_if_target": {
+                "target": {
+                  "any_proc_of_type": "buff"
+                }
+              },
+              "target": {
+                "limit": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  3
+                ],
+                "relation": "enemy",
+                "type": "random"
+              },
+              "visualid": "procremove"
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  57,
+                  80,
+                  97,
+                  120,
+                  135,
+                  154,
+                  163
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  160,
+                  190,
+                  220,
+                  250,
+                  280,
+                  330,
+                  400
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              30,
+              30,
+              30,
+              50,
+              50,
+              50,
+              100
+            ],
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "Stun",
+                "use_count": 1
+              }
+            ]
+          }
+        ],
+        "cost": 6,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 4
+      },
+      "traits": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Controller",
+        "FantasticFour",
+        "Marvel80th"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "proc_remove",
+            "action_pct": 100,
+            "category": "buff",
+            "count": 1,
+            "only_if": {
+              "target": {
+                "procs": [
+                  "DefenseUp"
+                ]
+              }
+            },
+            "procs": "DefenseUp",
+            "stat_modifier": [
+              {
+                "delta": 100000,
+                "stat": "focus"
+              }
+            ]
+          },
+          {
+            "action_cond": "if_prev_ran",
+            "stat_modifier": [
+              {
+                "delta": [
+                  170,
+                  210,
+                  250,
+                  290,
+                  340,
+                  390,
+                  450
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "visualid": "ultimate_proc"
+          },
+          {
+            "action_cond": "if_prev_skipped",
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  170,
+                  210,
+                  250,
+                  290,
+                  340,
+                  390,
+                  450
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "visualid": "ultimate_noproc"
+          }
+        ],
+        "cost": 3,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 3
       }
     },
     "MsMarvel": {
@@ -22397,7 +23209,8 @@
         "City",
         "Bio",
         "Brawler",
-        "Inhuman"
+        "Inhuman",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -22567,6 +23380,39 @@
         {
           "actions": [
             {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "Deflect",
+                  "use_count": [
+                    1,
+                    1,
+                    1,
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "SinisterSix"
+                    ]
+                  }
+                },
+                "limit": 10,
+                "primary_selection": "include_in_pool",
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
               "action": "spawn",
               "basic": [
                 1,
@@ -22716,7 +23562,14 @@
                     100,
                     100,
                     100
-                  ]
+                  ],
+                  "filter": {
+                    "traits": {
+                      "has_any": [
+                        "SinisterSix"
+                      ]
+                    }
+                  }
                 },
                 {
                   "assist_call_pct": [
@@ -22769,9 +23622,12 @@
         "start_energy": 4
       },
       "traits": [
+        "Villain",
         "City",
+        "Tech",
         "Controller",
-        "SpiderVerse"
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "ultimate": {
         "actions": [
@@ -22933,9 +23789,12 @@
         ]
       },
       "traits": [
+        "Villain",
         "City",
+        "Tech",
         "Controller",
         "SpiderVerse",
+        "SinisterSix",
         "Minion",
         "Summon"
       ]
@@ -23871,6 +24730,461 @@
         "Bio",
         "Controller"
       ]
+    },
+    "Namor": {
+      "basic": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  60,
+                  80,
+                  100,
+                  120,
+                  140,
+                  170,
+                  210
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  10,
+                  10,
+                  20,
+                  20,
+                  30,
+                  40,
+                  50
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "combat_side": "offense",
+            "mode": "AVA",
+            "or": [
+              {
+                "traits": {
+                  "has_any": [
+                    "FantasticFour"
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "Namor"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            10,
+            10,
+            20,
+            20,
+            30
+          ],
+          "stat": "damage_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "proc",
+              "apply_count": 2,
+              "only_if": {
+                "and": [
+                  {
+                    "mode": "AVA"
+                  },
+                  {
+                    "combat_side": "offense"
+                  }
+                ]
+              },
+              "procs": [
+                {
+                  "proc": "OffenseUp",
+                  "use_count": 2
+                },
+                {
+                  "proc": "Deflect",
+                  "use_count": 2
+                }
+              ],
+              "target": {
+                "filter": {
+                  "or": [
+                    {
+                      "traits": {
+                        "has_any": [
+                          "FantasticFour"
+                        ]
+                      }
+                    },
+                    {
+                      "character": [
+                        "Namor"
+                      ]
+                    }
+                  ]
+                },
+                "limit": [
+                  1,
+                  1,
+                  2,
+                  3,
+                  10
+                ],
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_start"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            10,
+            10,
+            20,
+            20,
+            30
+          ],
+          "stat": "damage_pct"
+        },
+        {
+          "delta": [
+            0,
+            10,
+            20,
+            20,
+            30
+          ],
+          "stat": "armor_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  48,
+                  64,
+                  80,
+                  96,
+                  112,
+                  136,
+                  168
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  8,
+                  12,
+                  16,
+                  20,
+                  25,
+                  30,
+                  35
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  110,
+                  140,
+                  190,
+                  240,
+                  290,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  100,
+                  130,
+                  180,
+                  230,
+                  280,
+                  340
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          },
+          {
+            "if_has_outcomes": [
+              "blocked"
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  30,
+                  40,
+                  50,
+                  60,
+                  70,
+                  80,
+                  100
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "type": "random"
+            }
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "if_has_outcomes": [
+              "blocked"
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  30,
+                  40,
+                  50,
+                  60,
+                  70,
+                  80,
+                  100
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 3,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 3
+      },
+      "traits": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Marvel80th"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "only_if": {
+              "and": [
+                {
+                  "mode": "AVA"
+                },
+                {
+                  "combat_side": "offense"
+                }
+              ]
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  130,
+                  160,
+                  190,
+                  220,
+                  250,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": 100,
+                "stat": "crit_chance_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            }
+          },
+          {
+            "action_cond": "if_prev_skipped",
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  130,
+                  160,
+                  190,
+                  220,
+                  250,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc_remove",
+            "category": "buff",
+            "count": [
+              1,
+              1,
+              {
+                "f": 1,
+                "t": 2
+              },
+              {
+                "f": 1,
+                "t": 2
+              },
+              2,
+              3,
+              1000
+            ],
+            "only_if": {
+              "and": [
+                {
+                  "mode": "AVA"
+                },
+                {
+                  "combat_side": "offense"
+                }
+              ]
+            }
+          },
+          {
+            "action": "turn_meter",
+            "assist": {},
+            "change_pct": [
+              -10,
+              -10,
+              -20,
+              -20,
+              -30,
+              -40,
+              -50
+            ],
+            "counter": true,
+            "only_if": {
+              "and": [
+                {
+                  "mode": "AVA"
+                },
+                {
+                  "combat_side": "offense"
+                }
+              ]
+            }
+          }
+        ],
+        "cost": 7,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 7,
+        "stat_lock": [
+          {
+            "on": "primary",
+            "stat": "counter_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "counter_pct",
+            "value": 0
+          },
+          {
+            "on": "primary",
+            "stat": "dodge_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "dodge_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "self",
+            "stat": "accuracy_pct",
+            "value": 100
+          }
+        ]
+      }
     },
     "Nebula": {
       "basic": {
@@ -28751,7 +30065,8 @@
                 ]
               }
             }
-          }
+          },
+          "skip_on_death": true
         },
         {
           "actions": [
@@ -28772,7 +30087,8 @@
                 "Hydra"
               ]
             }
-          }
+          },
+          "skip_on_death": true
         }
       ],
       "passive_power_mul": [
@@ -30102,7 +31418,8 @@
         "Cosmic",
         "Tech",
         "Blaster",
-        "GotG"
+        "GotG",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -33571,7 +34888,8 @@
         "Global",
         "Mystic",
         "Controller",
-        "Avenger"
+        "Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -36954,7 +38272,8 @@
         "City",
         "Bio",
         "Brawler",
-        "SpiderVerse"
+        "SpiderVerse",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -37834,7 +39153,8 @@
         "Global",
         "Mutant",
         "Controller",
-        "Xmen"
+        "Xmen",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -37940,6 +39260,242 @@
           245
         ],
         "start_energy": 10
+      }
+    },
+    "TestHero_AllProcs": {
+      "basic": {
+        "actions": [
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "Taunt",
+                "use_count": 5
+              },
+              {
+                "proc": "DefenseUp",
+                "use_count": 5
+              },
+              {
+                "proc": "OffenseUp",
+                "use_count": 5
+              },
+              {
+                "proc": "HoT",
+                "use_count": 5
+              },
+              {
+                "proc": "SpeedUp",
+                "use_count": 5
+              },
+              {
+                "proc": "Deathproof",
+                "use_count": 5
+              }
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          }
+        ]
+      },
+      "traits": [
+        "Inhuman",
+        "GotG"
+      ]
+    },
+    "TestMan": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  300,
+                  340
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  61,
+                  85,
+                  110,
+                  135,
+                  161,
+                  184,
+                  205
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  170,
+                  220,
+                  270,
+                  320,
+                  370,
+                  420
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              100
+            ],
+            "procs": [
+              {
+                "proc": "Deflect",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              100
+            ],
+            "procs": [
+              {
+                "proc": "DefenseUp",
+                "use_count": 1
+              }
+            ],
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 3,
+        "start_energy": 3
+      },
+      "traits": [
+        "Trait",
+        "Minion"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  190,
+                  270,
+                  350,
+                  430,
+                  510,
+                  590,
+                  670
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "cost": 5,
+        "start_energy": 5
+      }
+    },
+    "TestMan2": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": 1000,
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": 100
+            }
+          ],
+          "exec": "below_health",
+          "exec_for": {
+            "relationship": "ally"
+          },
+          "exec_value": 50
+        }
+      ],
+      "special": {
+        "actions": [
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "DefenseDown",
+                "use_count": 5
+              },
+              {
+                "proc": "OffenseDown",
+                "use_count": 5
+              },
+              {
+                "proc": "DoT",
+                "use_count": 5
+              },
+              {
+                "proc": "DoT",
+                "use_count": 5
+              },
+              {
+                "proc": "Slow",
+                "use_count": 5
+              },
+              {
+                "proc": "HealBlock",
+                "use_count": 5
+              }
+            ]
+          }
+        ]
       }
     },
     "Thanos": {
@@ -38159,7 +39715,8 @@
         "Cosmic",
         "Mystic",
         "Protector",
-        "Eternal"
+        "Eternal",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -38215,6 +39772,245 @@
             "value": 100
           }
         ]
+      }
+    },
+    "Thing": {
+      "basic": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  140,
+                  180,
+                  220,
+                  260,
+                  300,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "or": [
+              {
+                "traits": {
+                  "has_any": [
+                    "FantasticFour"
+                  ]
+                }
+              },
+              {
+                "character": [
+                  "Namor"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "delta": [
+            0,
+            10,
+            10,
+            10,
+            20
+          ],
+          "stat": "armor_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "stat_modifier": [
+                {
+                  "delta": [
+                    50,
+                    75,
+                    100,
+                    125,
+                    150
+                  ],
+                  "stat": "ability_damage_pct"
+                }
+              ],
+              "target": {
+                "relation": "enemy"
+              }
+            }
+          ],
+          "exec": "on_attacked",
+          "exec_for": {
+            "owner_ok": true,
+            "relationship": "ally"
+          }
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  98,
+                  126,
+                  154,
+                  182,
+                  210,
+                  245
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  130,
+                  150,
+                  170,
+                  190,
+                  210,
+                  240,
+                  280
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  90,
+                  110,
+                  130,
+                  150,
+                  180,
+                  220
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": [
+                1,
+                1,
+                1,
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                {
+                  "f": 1,
+                  "t": 2
+                },
+                2
+              ]
+            }
+          }
+        ],
+        "cost": 3,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 3
+      },
+      "traits": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Brawler",
+        "FantasticFour",
+        "Marvel80th"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  260,
+                  300,
+                  340,
+                  390,
+                  440,
+                  490,
+                  550
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "cost": 5,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 5
       }
     },
     "Thor": {
@@ -38428,7 +40224,8 @@
         "Blaster",
         "Avenger",
         "Asgard",
-        "Wave1Avenger"
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [
@@ -45422,7 +47219,8 @@
         "Global",
         "Mutant",
         "Brawler",
-        "Xmen"
+        "Xmen",
+        "Marvel80th"
       ],
       "ultimate": {
         "actions": [

@@ -23111,25 +23111,25 @@
               "m_missionID": "ecm_ff_a_01",
               "m_energyCost": 10,
               "m_storyTellingID": "ecm_ff_01_intro",
-              "m_nodeYPosition": -250,
+              "m_nodeYPosition": 50,
               "m_characterLimit": 0,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 8000,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 11000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_hard_1_small_bonus",
+                "m_rewardID": "m_event_thing_hard_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_1_standard",
+                  "m_rewardID": "m_event_thing_hard_1_1_standard",
                   "m_firstTimeOnly": false
                 },
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_1_firsttime",
+                  "m_rewardID": "m_event_thing_hard_1_1_firsttime",
                   "m_firstTimeOnly": true
                 }
               ],
@@ -23140,7 +23140,7 @@
                 "_description": "ID_REQUIRES_PLAYER_LEVEL_58"
               },
               "m_heroFilters": {
-                "description": "ID_SUGGESTED_LEVEL_58",
+                "description": "ID_SUGGESTED_LEVEL_59",
                 "shortDescription": "ID_REQUIRES_ALLY_ONLY_SHORT",
                 "longDescription": "ID_REQUIRES_ALLY_ONLY_LONG",
                 "quantity": 0,
@@ -23149,10 +23149,62 @@
               "m_name": "ID_ECM_FF_01_NAME",
               "m_description": "ID_ECM_FF_01_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_HydraDmg_Buff.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_HumanTorch.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_a_02a",
+              "m_energyCost": 10,
+              "m_storyTellingID": "ecm_ff_02a_intro",
+              "m_nodeYPosition": -50,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 11000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_hard_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_hard_1_2_standard",
+                  "m_firstTimeOnly": false
+                },
+                {
+                  "m_rewardID": "m_event_thing_hard_1_2_firsttime",
+                  "m_firstTimeOnly": true
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_60",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_02A_NAME",
+              "m_description": "ID_ECM_FF_02A_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
@@ -23161,48 +23213,49 @@
             {
               "m_missionID": "ecm_ff_a_02",
               "m_energyCost": 10,
-              "m_storyTellingID": "ecm_ff_02_intro",
-              "m_nodeYPosition": -140,
+              "m_storyTellingID": "",
+              "m_nodeYPosition": -150,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 8000,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 11000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_hard_1_small_bonus",
+                "m_rewardID": "m_event_thing_hard_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_2_standard",
+                  "m_rewardID": "m_event_thing_hard_1_3_standard",
                   "m_firstTimeOnly": false
                 },
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_2_firsttime",
+                  "m_rewardID": "m_event_thing_hard_1_3_firsttime",
                   "m_firstTimeOnly": true
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "ID_SUGGESTED_LEVEL_59",
-                "shortDescription": "ID_UI_ONLY_TECH_HEROES",
+                "description": "ID_SUGGESTED_LEVEL_60",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 5,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_02_NAME",
               "m_description": "ID_ECM_FF_02_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_MercDmg_Single.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
@@ -23210,251 +23263,306 @@
             },
             {
               "m_missionID": "ecm_ff_a_03",
-              "m_energyCost": 20,
+              "m_energyCost": 10,
               "m_storyTellingID": "ecm_ff_03_intro",
-              "m_nodeYPosition": -70,
+              "m_nodeYPosition": -250,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 20000,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 11000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_hard_1_big_bonus",
+                "m_rewardID": "m_event_thing_hard_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_3_standard",
+                  "m_rewardID": "m_event_thing_hard_1_4_standard",
                   "m_firstTimeOnly": false
                 },
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_3_firsttime",
+                  "m_rewardID": "m_event_thing_hard_1_4_firsttime",
                   "m_firstTimeOnly": true
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
                 "description": "ID_SUGGESTED_LEVEL_60",
-                "shortDescription": "ID_UI_ONLY_TECH_HEROES",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 5,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_03_NAME",
               "m_description": "ID_ECM_FF_03_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_Juggernaut.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Venom.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 5,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
               "m_missionID": "ecm_ff_a_04",
-              "m_energyCost": 10,
+              "m_energyCost": 20,
               "m_storyTellingID": "ecm_ff_04_intro",
-              "m_nodeYPosition": -190,
+              "m_nodeYPosition": 50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 12000,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 26000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_hard_2_small_bonus",
+                "m_rewardID": "m_event_thing_hard_1_big_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_4_standard",
+                  "m_rewardID": "m_event_thing_hard_1_5_standard",
                   "m_firstTimeOnly": false
                 },
                 {
-                  "m_rewardID": "m_event_minerva_hard_1_4_firsttime",
+                  "m_rewardID": "m_event_thing_hard_1_5_firsttime",
                   "m_firstTimeOnly": true
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "ID_SUGGESTED_LEVEL_60",
-                "shortDescription": "ID_UI_ONLY_TECH_HEROES",
+                "description": "ID_SUGGESTED_LEVEL_61",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 5,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_04_NAME",
               "m_description": "ID_ECM_FF_04_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_MsMarvel.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Mysterio.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 10,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 5,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
-            }
-          ],
-          "m_rewardsIDList": [],
-          "m_requirements": {},
-          "m_heroFilters": {
-            "description": "",
-            "shortDescription": "",
-            "longDescription": "",
-            "quantity": 0,
-            "filters": {}
-          },
-          "m_name": "",
-          "m_description": "",
-          "m_flavorText": "",
-          "m_image": "",
-          "m_nodeImage": "",
-          "m_catalystGearID": "",
-          "m_gameStatID": "",
-          "m_dailyLimit": 0,
-          "m_mustHaveHeroes": [],
-          "m_mustHaveHeroesDesc": "",
-          "m_unlockedDesc": ""
-        },
-        {
-          "m_missionList": [
+            },
             {
               "m_missionID": "ecm_ff_a_21",
               "m_energyCost": 10,
-              "m_storyTellingID": "ecm_ff_01_intro",
-              "m_nodeYPosition": -250,
-              "m_characterLimit": 0,
+              "m_storyTellingID": "ecm_ff_21_intro",
+              "m_nodeYPosition": -50,
+              "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
-              "m_bonusRewardType": "",
-              "m_bonusRewardId": "",
-              "m_bonusRewardLimit": 0,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 12000,
               "m_bonusRewardBox": {
-                "m_rewardID": null,
+                "m_rewardID": "m_event_thing_hard_2_small_bonus",
                 "m_firstTimeOnly": false
               },
-              "m_rewardsIDList": [],
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_hard_1_6_standard",
+                  "m_firstTimeOnly": false
+                },
+                {
+                  "m_rewardID": "m_event_thing_hard_1_6_firsttime",
+                  "m_firstTimeOnly": true
+                }
+              ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
+                "description": "ID_SUGGESTED_LEVEL_62",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
-                "quantity": 0,
-                "filters": {}
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
               },
-              "m_name": "ID_ECM_FF_01_NAME",
-              "m_description": "ID_ECM_FF_01_DESC",
+              "m_name": "ID_ECM_FF_21_NAME",
+              "m_description": "ID_ECM_FF_21_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_HydraDmg_Buff.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Kingpin.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 0,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
               "m_missionID": "ecm_ff_a_22",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
+              "m_energyCost": 10,
+              "m_storyTellingID": "ecm_ff_22_intro",
+              "m_nodeYPosition": -150,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 12000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_hard_2_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_hard_1_7_standard",
+                  "m_firstTimeOnly": false
+                },
+                {
+                  "m_rewardID": "m_event_thing_hard_1_7_firsttime",
+                  "m_firstTimeOnly": true
+                }
+              ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
+                "description": "ID_SUGGESTED_LEVEL_63",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
-                "quantity": 0,
-                "filters": {}
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
               },
-              "m_name": "",
-              "m_description": "",
+              "m_name": "ID_ECM_FF_22_NAME",
+              "m_description": "ID_ECM_FF_22_DESC",
               "m_flavorText": "",
-              "m_image": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_MsMarvel.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 0,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
               "m_missionID": "ecm_ff_a_23",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
+              "m_energyCost": 10,
+              "m_storyTellingID": "ecm_ff_23_intro",
+              "m_nodeYPosition": -250,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 12000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_hard_2_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_hard_1_8_standard",
+                  "m_firstTimeOnly": false
+                },
+                {
+                  "m_rewardID": "m_event_thing_hard_1_8_firsttime",
+                  "m_firstTimeOnly": true
+                }
+              ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
+                "description": "ID_SUGGESTED_LEVEL_64",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
-                "quantity": 0,
-                "filters": {}
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
               },
-              "m_name": "",
-              "m_description": "",
+              "m_name": "ID_ECM_FF_23_NAME",
+              "m_description": "ID_ECM_FF_23_DESC",
               "m_flavorText": "",
-              "m_image": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Elektra.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 0,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
               "m_missionID": "ecm_ff_a_24",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
+              "m_energyCost": 20,
+              "m_storyTellingID": "ecm_ff_24_intro",
+              "m_nodeYPosition": 50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 32000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_hard_2_big_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_hard_1_9_standard",
+                  "m_firstTimeOnly": false
+                },
+                {
+                  "m_rewardID": "m_event_thing_hard_1_9_firsttime",
+                  "m_firstTimeOnly": true
+                }
+              ],
               "m_requirements": {},
               "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
+                "description": "ID_SUGGESTED_LEVEL_65",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
-                "quantity": 0,
-                "filters": {}
+                "quantity": 5,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
               },
-              "m_name": "",
-              "m_description": "",
+              "m_name": "ID_ECM_FF_24_NAME",
+              "m_description": "ID_ECM_FF_24_DESC",
               "m_flavorText": "",
-              "m_image": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Bullseye.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 0,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 5,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
@@ -23476,304 +23584,7 @@
           "m_nodeImage": "",
           "m_catalystGearID": "",
           "m_gameStatID": "",
-          "m_dailyLimit": 0,
-          "m_mustHaveHeroes": [],
-          "m_mustHaveHeroesDesc": "",
-          "m_unlockedDesc": ""
-        },
-        {
-          "m_missionList": [
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            }
-          ],
-          "m_rewardsIDList": [],
-          "m_requirements": {
-            "level": [
-              99
-            ],
-            "_description": "ID_COMING_SOON"
-          },
-          "m_heroFilters": {
-            "description": "ID_COMING_SOON",
-            "shortDescription": "",
-            "longDescription": "",
-            "quantity": 0,
-            "filters": {}
-          },
-          "m_name": "",
-          "m_description": "",
-          "m_flavorText": "",
-          "m_image": "",
-          "m_nodeImage": "",
-          "m_catalystGearID": "",
-          "m_gameStatID": "",
-          "m_dailyLimit": 0,
-          "m_mustHaveHeroes": [],
-          "m_mustHaveHeroesDesc": "",
-          "m_unlockedDesc": ""
-        },
-        {
-          "m_missionList": [
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            },
-            {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 0,
-              "m_storyTellingID": "",
-              "m_nodeYPosition": 0,
-              "m_characterLimit": 5,
-              "m_hideStars": false,
-              "m_isBoss": false,
-              "m_isBonus": false,
-              "m_rewardsIDList": [],
-              "m_requirements": {},
-              "m_heroFilters": {
-                "description": "",
-                "shortDescription": "",
-                "longDescription": "",
-                "quantity": 0,
-                "filters": {}
-              },
-              "m_name": "",
-              "m_description": "",
-              "m_flavorText": "",
-              "m_image": "",
-              "m_nodeImage": "",
-              "m_catalystGearID": "",
-              "m_gameStatID": "",
-              "m_dailyLimit": 0,
-              "m_mustHaveHeroes": [],
-              "m_mustHaveHeroesDesc": "",
-              "m_unlockedDesc": ""
-            }
-          ],
-          "m_rewardsIDList": [],
-          "m_requirements": {
-            "_description": "ID_COMING_SOON",
-            "level": [
-              99
-            ]
-          },
-          "m_heroFilters": {
-            "description": "ID_COMING_SOON",
-            "shortDescription": "",
-            "longDescription": "",
-            "quantity": 0,
-            "filters": {}
-          },
-          "m_name": "",
-          "m_description": "",
-          "m_flavorText": "",
-          "m_image": "",
-          "m_nodeImage": "",
-          "m_catalystGearID": "",
-          "m_gameStatID": "",
+          "m_isTimedUnlock": false,
           "m_dailyLimit": 0,
           "m_mustHaveHeroes": [],
           "m_mustHaveHeroesDesc": "",
@@ -23790,6 +23601,8 @@
       "m_highestMissionStat": "",
       "m_ctaData": null,
       "m_nodeNameShort": "ID_EVENT_CAMPAIGN_TYPE_FF",
+      "m_energyType": "campaign_player_energy",
+      "m_filterTags": [],
       "m_rewardsIDList": [],
       "m_requirements": {
         "level": [
@@ -23798,23 +23611,24 @@
         "_description": "ID_REQUIRES_PLAYER_LEVEL_58"
       },
       "m_heroFilters": {
-        "description": "ID_REQUIRES_EC_TECH_5",
+        "description": "ID_REQUIRES_EC_MARVEL80_5",
         "shortDescription": "",
         "longDescription": "",
         "quantity": 5,
         "filters": {
           "allTraits": [
-            "Tech"
+            "Marvel80th"
           ]
         }
       },
       "m_name": "ID_ECM_NAME_A",
       "m_description": "ID_ECM_FF_DESC_A",
       "m_flavorText": "ID_ECM_CHANCE_FF",
-      "m_image": "Event_Subcard_T3_Minerva",
+      "m_image": "Event_Subcard_T3_Thing",
       "m_nodeImage": "Bundles/UI/Campaign_Backgrounds/Cosmic/UI_Campaign_Bg_Cosmic.png",
       "m_catalystGearID": "",
       "m_gameStatID": "",
+      "m_isTimedUnlock": false,
       "m_dailyLimit": 0,
       "m_mustHaveHeroes": [],
       "m_mustHaveHeroesDesc": "",
@@ -23825,35 +23639,35 @@
         {
           "m_missionList": [
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_b_01",
               "m_energyCost": 8,
               "m_storyTellingID": "ecm_ff_01_intro",
-              "m_nodeYPosition": -250,
+              "m_nodeYPosition": 50,
               "m_characterLimit": 0,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 1750,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 2500,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_medium_1_small_bonus",
+                "m_rewardID": "m_event_thing_medium_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_medium_1_1_standard",
+                  "m_rewardID": "m_event_thing_medium_1_1_standard",
                   "m_firstTimeOnly": false
                 }
               ],
               "m_requirements": {
                 "level": [
-                  43
+                  42
                 ],
-                "_description": "ID_REQUIRES_PLAYER_LEVEL_43"
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_58"
               },
               "m_heroFilters": {
-                "description": "ID_SUGGESTED_LEVEL_43",
+                "description": "ID_SUGGESTED_LEVEL_42",
                 "shortDescription": "ID_REQUIRES_ALLY_ONLY_SHORT",
                 "longDescription": "ID_REQUIRES_ALLY_ONLY_LONG",
                 "quantity": 0,
@@ -23862,149 +23676,388 @@
               "m_name": "ID_ECM_FF_01_NAME",
               "m_description": "ID_ECM_FF_01_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_HydraDmg_Buff.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_HumanTorch.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_b_02a",
               "m_energyCost": 8,
-              "m_storyTellingID": "ecm_ff_02_intro",
-              "m_nodeYPosition": -140,
+              "m_storyTellingID": "ecm_ff_02a_intro",
+              "m_nodeYPosition": -50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 1750,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 2500,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_medium_1_small_bonus",
+                "m_rewardID": "m_event_thing_medium_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_medium_1_2_standard",
+                  "m_rewardID": "m_event_thing_medium_1_2_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_43",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 3,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_02A_NAME",
+              "m_description": "ID_ECM_FF_02A_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_b_02",
+              "m_energyCost": 8,
+              "m_storyTellingID": "",
+              "m_nodeYPosition": -150,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 2500,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_medium_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_medium_1_3_standard",
                   "m_firstTimeOnly": false
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
                 "description": "ID_SUGGESTED_LEVEL_44",
-                "shortDescription": "ID_REQUIRES_HEROES_TECH",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 3,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_02_NAME",
               "m_description": "ID_ECM_FF_02_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_MercDmg_Single.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 16,
+              "m_missionID": "ecm_ff_b_03",
+              "m_energyCost": 8,
               "m_storyTellingID": "ecm_ff_03_intro",
-              "m_nodeYPosition": -70,
+              "m_nodeYPosition": -250,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 4500,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 2500,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_medium_1_big_bonus",
+                "m_rewardID": "m_event_thing_medium_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_medium_1_3_standard",
+                  "m_rewardID": "m_event_thing_medium_1_4_standard",
                   "m_firstTimeOnly": false
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
                 "description": "ID_SUGGESTED_LEVEL_45",
-                "shortDescription": "ID_REQUIRES_HEROES_TECH",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 3,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_03_NAME",
               "m_description": "ID_ECM_FF_03_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_Juggernaut.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Venom.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
-              "m_dailyLimit": 5,
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
-              "m_energyCost": 8,
+              "m_missionID": "ecm_ff_b_04",
+              "m_energyCost": 16,
               "m_storyTellingID": "ecm_ff_04_intro",
-              "m_nodeYPosition": -190,
+              "m_nodeYPosition": 50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 3200,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 10000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_medium_2_small_bonus",
+                "m_rewardID": "m_event_thing_medium_1_big_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_medium_1_4_standard",
+                  "m_rewardID": "m_event_thing_medium_1_5_standard",
                   "m_firstTimeOnly": false
                 }
               ],
               "m_requirements": {},
               "m_heroFilters": {
                 "description": "ID_SUGGESTED_LEVEL_46",
-                "shortDescription": "ID_REQUIRES_HEROES_TECH",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
                 "longDescription": "",
                 "quantity": 3,
                 "filters": {
                   "allTraits": [
-                    "Tech"
+                    "Marvel80th"
                   ]
                 }
               },
               "m_name": "ID_ECM_FF_04_NAME",
               "m_description": "ID_ECM_FF_04_DESC",
               "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Mysterio.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 5,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_b_21",
+              "m_energyCost": 8,
+              "m_storyTellingID": "ecm_ff_21_intro",
+              "m_nodeYPosition": -50,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 3500,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_medium_2_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_medium_1_6_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_47",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 3,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_21_NAME",
+              "m_description": "ID_ECM_FF_21_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Kingpin.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_b_22",
+              "m_energyCost": 8,
+              "m_storyTellingID": "ecm_ff_22_intro",
+              "m_nodeYPosition": -150,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 3500,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_medium_2_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_medium_1_7_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_48",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 3,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_22_NAME",
+              "m_description": "ID_ECM_FF_22_DESC",
+              "m_flavorText": "",
               "m_image": "Bundles/UI/Portraits/Portrait_MsMarvel.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_b_23",
+              "m_energyCost": 8,
+              "m_storyTellingID": "ecm_ff_23_intro",
+              "m_nodeYPosition": -250,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 3500,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_medium_2_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_medium_1_8_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_49",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 3,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_23_NAME",
+              "m_description": "ID_ECM_FF_23_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Elektra.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_b_24",
+              "m_energyCost": 16,
+              "m_storyTellingID": "ecm_ff_24_intro",
+              "m_nodeYPosition": 50,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 12000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_medium_2_big_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_medium_1_9_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_50",
+                "shortDescription": "ID_UI_ONLY_MARVEL_80",
+                "longDescription": "",
+                "quantity": 3,
+                "filters": {
+                  "allTraits": [
+                    "Marvel80th"
+                  ]
+                }
+              },
+              "m_name": "ID_ECM_FF_24_NAME",
+              "m_description": "ID_ECM_FF_24_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Bullseye.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 5,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
@@ -24026,6 +24079,7 @@
           "m_nodeImage": "",
           "m_catalystGearID": "",
           "m_gameStatID": "",
+          "m_isTimedUnlock": false,
           "m_dailyLimit": 0,
           "m_mustHaveHeroes": [],
           "m_mustHaveHeroesDesc": "",
@@ -24042,6 +24096,8 @@
       "m_highestMissionStat": "",
       "m_ctaData": null,
       "m_nodeNameShort": "ID_EVENT_CAMPAIGN_TYPE_FF",
+      "m_energyType": "campaign_player_energy",
+      "m_filterTags": [],
       "m_rewardsIDList": [],
       "m_requirements": {
         "level": [
@@ -24050,23 +24106,24 @@
         "_description": "ID_REQUIRES_PLAYER_LEVEL_43"
       },
       "m_heroFilters": {
-        "description": "ID_REQUIRES_EC_TECH_3",
+        "description": "ID_REQUIRES_EC_MARVEL80_3",
         "shortDescription": "",
         "longDescription": "",
         "quantity": 3,
         "filters": {
           "allTraits": [
-            "Tech"
+            "Marvel80th"
           ]
         }
       },
       "m_name": "ID_ECM_NAME_B",
       "m_description": "ID_ECM_FF_DESC_B",
       "m_flavorText": "ID_ECM_CHANCE_FF",
-      "m_image": "Event_Subcard_T2_Minerva",
+      "m_image": "Event_Subcard_T2_Thing",
       "m_nodeImage": "Bundles/UI/Campaign_Backgrounds/Cosmic/UI_Campaign_Bg_Cosmic.png",
       "m_catalystGearID": "",
       "m_gameStatID": "",
+      "m_isTimedUnlock": false,
       "m_dailyLimit": 0,
       "m_mustHaveHeroes": [],
       "m_mustHaveHeroesDesc": "",
@@ -24077,30 +24134,35 @@
         {
           "m_missionList": [
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_c_01",
               "m_energyCost": 6,
               "m_storyTellingID": "ecm_ff_01_intro",
-              "m_nodeYPosition": -250,
+              "m_nodeYPosition": 50,
               "m_characterLimit": 0,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
               "m_bonusRewardLimit": 750,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_easy_1_small_bonus",
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_easy_1_1_standard",
+                  "m_rewardID": "m_event_thing_easy_1_1_standard",
                   "m_firstTimeOnly": false
                 }
               ],
-              "m_requirements": {},
+              "m_requirements": {
+                "level": [
+                  28
+                ],
+                "_description": "ID_REQUIRES_PLAYER_LEVEL_28"
+              },
               "m_heroFilters": {
-                "description": "ID_SUGGESTED_LEVEL_29",
+                "description": "ID_SUGGESTED_LEVEL_28",
                 "shortDescription": "ID_REQUIRES_ALLY_ONLY_SHORT",
                 "longDescription": "ID_REQUIRES_ALLY_ONLY_LONG",
                 "quantity": 0,
@@ -24109,34 +24171,121 @@
               "m_name": "ID_ECM_FF_01_NAME",
               "m_description": "ID_ECM_FF_01_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_HydraDmg_Buff.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_HumanTorch.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_c_02a",
               "m_energyCost": 6,
-              "m_storyTellingID": "ecm_ff_02_intro",
-              "m_nodeYPosition": -140,
+              "m_storyTellingID": "ecm_ff_02a_intro",
+              "m_nodeYPosition": -50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
               "m_bonusRewardLimit": 750,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_easy_1_small_bonus",
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_easy_1_2_standard",
+                  "m_rewardID": "m_event_thing_easy_1_2_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_27",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 0,
+                "filters": {}
+              },
+              "m_name": "ID_ECM_FF_02A_NAME",
+              "m_description": "ID_ECM_FF_02A_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_c_02",
+              "m_energyCost": 6,
+              "m_storyTellingID": "",
+              "m_nodeYPosition": -150,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 750,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_easy_1_3_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_28",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 0,
+                "filters": {}
+              },
+              "m_name": "ID_ECM_FF_02_NAME",
+              "m_description": "ID_ECM_FF_02_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_SpiderMan.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_c_03",
+              "m_energyCost": 6,
+              "m_storyTellingID": "ecm_ff_03_intro",
+              "m_nodeYPosition": -250,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 750,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_easy_1_4_standard",
                   "m_firstTimeOnly": false
                 }
               ],
@@ -24148,37 +24297,38 @@
                 "quantity": 0,
                 "filters": {}
               },
-              "m_name": "ID_ECM_FF_02_NAME",
-              "m_description": "ID_ECM_FF_02_DESC",
+              "m_name": "ID_ECM_FF_03_NAME",
+              "m_description": "ID_ECM_FF_03_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_MercDmg_Single.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Venom.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_c_04",
               "m_energyCost": 12,
-              "m_storyTellingID": "ecm_ff_03_intro",
-              "m_nodeYPosition": -70,
+              "m_storyTellingID": "ecm_ff_04_intro",
+              "m_nodeYPosition": 50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
-              "m_bonusRewardLimit": 2000,
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 3000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_easy_1_big_bonus",
+                "m_rewardID": "m_event_thing_easy_1_big_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_easy_1_3_standard",
+                  "m_rewardID": "m_event_thing_easy_1_5_standard",
                   "m_firstTimeOnly": false
                 }
               ],
@@ -24190,37 +24340,38 @@
                 "quantity": 0,
                 "filters": {}
               },
-              "m_name": "ID_ECM_FF_03_NAME",
-              "m_description": "ID_ECM_FF_03_DESC",
+              "m_name": "ID_ECM_FF_04_NAME",
+              "m_description": "ID_ECM_FF_04_DESC",
               "m_flavorText": "",
-              "m_image": "Bundles/UI/Portraits/Portrait_Juggernaut.png",
+              "m_image": "Bundles/UI/Portraits/Portrait_Mysterio.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 5,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
             },
             {
-              "m_missionID": "ecm_ff_a_01",
+              "m_missionID": "ecm_ff_c_21",
               "m_energyCost": 6,
-              "m_storyTellingID": "ecm_ff_04_intro",
-              "m_nodeYPosition": -190,
+              "m_storyTellingID": "ecm_ff_21_intro",
+              "m_nodeYPosition": -50,
               "m_characterLimit": 5,
               "m_hideStars": false,
               "m_isBoss": false,
               "m_isBonus": true,
               "m_bonusRewardType": "gs",
-              "m_bonusRewardId": "crate_event_campaign_minerva_201902",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
               "m_bonusRewardLimit": 1000,
               "m_bonusRewardBox": {
-                "m_rewardID": "m_event_minerva_easy_1_small_bonus",
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
                 "m_firstTimeOnly": false
               },
               "m_rewardsIDList": [
                 {
-                  "m_rewardID": "m_event_minerva_easy_1_4_standard",
+                  "m_rewardID": "m_event_thing_easy_1_6_standard",
                   "m_firstTimeOnly": false
                 }
               ],
@@ -24232,14 +24383,144 @@
                 "quantity": 0,
                 "filters": {}
               },
-              "m_name": "ID_ECM_FF_04_NAME",
-              "m_description": "ID_ECM_FF_04_DESC",
+              "m_name": "ID_ECM_FF_21_NAME",
+              "m_description": "ID_ECM_FF_21_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Kingpin.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_c_22",
+              "m_energyCost": 6,
+              "m_storyTellingID": "ecm_ff_22_intro",
+              "m_nodeYPosition": -150,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 1000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_easy_1_7_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_21",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 0,
+                "filters": {}
+              },
+              "m_name": "ID_ECM_FF_22_NAME",
+              "m_description": "ID_ECM_FF_22_DESC",
               "m_flavorText": "",
               "m_image": "Bundles/UI/Portraits/Portrait_MsMarvel.png",
               "m_nodeImage": "",
               "m_catalystGearID": "",
               "m_gameStatID": "",
+              "m_isTimedUnlock": false,
               "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_c_23",
+              "m_energyCost": 6,
+              "m_storyTellingID": "ecm_ff_23_intro",
+              "m_nodeYPosition": -250,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 1000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_easy_1_small_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_easy_1_8_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_33",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 0,
+                "filters": {}
+              },
+              "m_name": "ID_ECM_FF_23_NAME",
+              "m_description": "ID_ECM_FF_23_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Elektra.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 10,
+              "m_mustHaveHeroes": [],
+              "m_mustHaveHeroesDesc": "",
+              "m_unlockedDesc": ""
+            },
+            {
+              "m_missionID": "ecm_ff_c_24",
+              "m_energyCost": 12,
+              "m_storyTellingID": "ecm_ff_24_intro",
+              "m_nodeYPosition": 50,
+              "m_characterLimit": 5,
+              "m_hideStars": false,
+              "m_isBoss": false,
+              "m_isBonus": true,
+              "m_bonusRewardType": "gs",
+              "m_bonusRewardId": "crate_event_campaign_thing_201907",
+              "m_bonusRewardLimit": 5000,
+              "m_bonusRewardBox": {
+                "m_rewardID": "m_event_thing_easy_1_big_bonus",
+                "m_firstTimeOnly": false
+              },
+              "m_rewardsIDList": [
+                {
+                  "m_rewardID": "m_event_thing_easy_1_9_standard",
+                  "m_firstTimeOnly": false
+                }
+              ],
+              "m_requirements": {},
+              "m_heroFilters": {
+                "description": "ID_SUGGESTED_LEVEL_34",
+                "shortDescription": "",
+                "longDescription": "",
+                "quantity": 0,
+                "filters": {}
+              },
+              "m_name": "ID_ECM_FF_24_NAME",
+              "m_description": "ID_ECM_FF_24_DESC",
+              "m_flavorText": "",
+              "m_image": "Bundles/UI/Portraits/Portrait_Bullseye.png",
+              "m_nodeImage": "",
+              "m_catalystGearID": "",
+              "m_gameStatID": "",
+              "m_isTimedUnlock": false,
+              "m_dailyLimit": 5,
               "m_mustHaveHeroes": [],
               "m_mustHaveHeroesDesc": "",
               "m_unlockedDesc": ""
@@ -24261,6 +24542,7 @@
           "m_nodeImage": "",
           "m_catalystGearID": "",
           "m_gameStatID": "",
+          "m_isTimedUnlock": false,
           "m_dailyLimit": 0,
           "m_mustHaveHeroes": [],
           "m_mustHaveHeroesDesc": "",
@@ -24277,6 +24559,8 @@
       "m_highestMissionStat": "",
       "m_ctaData": null,
       "m_nodeNameShort": "ID_EVENT_CAMPAIGN_TYPE_FF",
+      "m_energyType": "campaign_player_energy",
+      "m_filterTags": [],
       "m_rewardsIDList": [],
       "m_requirements": {
         "level": [
@@ -24294,10 +24578,11 @@
       "m_name": "ID_ECM_NAME_C",
       "m_description": "ID_ECM_FF_DESC_C",
       "m_flavorText": "ID_ECM_CHANCE_FF",
-      "m_image": "Event_Subcard_T1_Minerva",
+      "m_image": "Event_Subcard_T1_Thing",
       "m_nodeImage": "Bundles/UI/Campaign_Backgrounds/Cosmic/UI_Campaign_Bg_Cosmic.png",
       "m_catalystGearID": "",
       "m_gameStatID": "",
+      "m_isTimedUnlock": false,
       "m_dailyLimit": 0,
       "m_mustHaveHeroes": [],
       "m_mustHaveHeroesDesc": "",

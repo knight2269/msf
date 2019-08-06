@@ -28,12 +28,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 560,
+          "Power": 554,
           "TotalHealth": 2394,
           "CompactWave": [
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 100,
+              "Power": 99,
               "Level": 7,
               "GearLevel": 1,
               "Loyalty": 1,
@@ -49,7 +49,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 153,
+              "Power": 151,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -65,7 +65,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 153,
+              "Power": 152,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -81,7 +81,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 154,
+              "Power": 152,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -119,12 +119,12 @@
           "CompactWave": []
         },
         {
-          "Power": 1275,
+          "Power": 1262,
           "TotalHealth": 5403,
           "CompactWave": [
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 164,
+              "Power": 162,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -140,7 +140,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 164,
+              "Power": 163,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -156,7 +156,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 228,
+              "Power": 225,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -172,7 +172,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 163,
+              "Power": 162,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -188,7 +188,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 163,
+              "Power": 161,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -204,7 +204,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 164,
+              "Power": 162,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -220,7 +220,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 229,
+              "Power": 227,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -277,12 +277,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 1441,
+          "Power": 1411,
           "TotalHealth": 6382,
           "CompactWave": [
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 153,
+              "Power": 150,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -298,7 +298,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 241,
+              "Power": 238,
               "Level": 10,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -314,7 +314,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 153,
+              "Power": 149,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -330,7 +330,7 @@
             },
             {
               "HeroId": "ShieldOperator",
-              "Power": 165,
+              "Power": 162,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -346,7 +346,7 @@
             },
             {
               "HeroId": "IronMan",
-              "Power": 246,
+              "Power": 242,
               "Level": 10,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -362,7 +362,7 @@
             },
             {
               "HeroId": "ShieldOperator",
-              "Power": 165,
+              "Power": 158,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -378,7 +378,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 153,
+              "Power": 151,
               "Level": 8,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -394,7 +394,7 @@
             },
             {
               "HeroId": "ShieldOperator",
-              "Power": 165,
+              "Power": 161,
               "Level": 9,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -498,11 +498,14 @@
                       "hero_id": "Kingpin",
                       "level": 12,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 2,
-                      "max_hp_percent": 200,
                       "cur_hp_percent": 50,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 200
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -520,7 +523,7 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 1502,
+          "Power": 1503,
           "TotalHealth": 7251,
           "CompactWave": [
             {
@@ -557,7 +560,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 175,
+              "Power": 174,
               "Level": 10,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -589,7 +592,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 174,
+              "Power": 173,
               "Level": 10,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -605,7 +608,7 @@
             },
             {
               "HeroId": "Bullseye",
-              "Power": 260,
+              "Power": 263,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -681,7 +684,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 589,
+          "Power": 586,
           "TotalHealth": 7660,
           "CompactWave": [
             {
@@ -702,7 +705,7 @@
             },
             {
               "HeroId": "MercOperator",
-              "Power": 185,
+              "Power": 182,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -752,11 +755,14 @@
                       "hero_id": "Kingpin",
                       "level": 12,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 3,
-                      "max_hp_percent": 200,
                       "cur_hp_percent": 50,
                       "desired_x_pos": 2,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 200
+                      }
                     },
                     {
                       "abilities": [
@@ -771,11 +777,14 @@
                       "hero_id": "MercOperator",
                       "level": 11,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 2,
-                      "speed_percent": 70,
-                      "max_hp_percent": 120,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 70,
+                        "max_hp": 120
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -793,12 +802,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 1897,
+          "Power": 1884,
           "TotalHealth": 8469,
           "CompactWave": [
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 185,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -814,7 +823,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 185,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -830,7 +839,7 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 396,
+              "Power": 392,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -862,7 +871,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 185,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -878,7 +887,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 392,
+              "Power": 388,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -894,7 +903,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 185,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -910,7 +919,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 184,
+              "Power": 183,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -963,12 +972,12 @@
           "CompactWave": []
         },
         {
-          "Power": 1099,
+          "Power": 1087,
           "TotalHealth": 5686,
           "CompactWave": [
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 186,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -984,7 +993,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 185,
+              "Power": 183,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1000,7 +1009,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 271,
+              "Power": 268,
               "Level": 11,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1016,7 +1025,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 186,
+              "Power": 184,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1032,7 +1041,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 271,
+              "Power": 268,
               "Level": 11,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1070,12 +1079,12 @@
           "CompactWave": []
         },
         {
-          "Power": 2397,
+          "Power": 2370,
           "TotalHealth": 11776,
           "CompactWave": [
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 197,
+              "Power": 196,
               "Level": 12,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1091,7 +1100,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 197,
+              "Power": 195,
               "Level": 12,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1107,7 +1116,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 282,
+              "Power": 277,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1123,7 +1132,7 @@
             },
             {
               "HeroId": "IronFist",
-              "Power": 424,
+              "Power": 420,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1133,12 +1142,13 @@
                 1,
                 1,
                 -1,
-                0
+                0,
+                -1
               ]
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 197,
+              "Power": 195,
               "Level": 12,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1154,7 +1164,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 197,
+              "Power": 196,
               "Level": 12,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1170,7 +1180,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 197,
+              "Power": 194,
               "Level": 12,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1186,7 +1196,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 282,
+              "Power": 278,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1202,7 +1212,7 @@
             },
             {
               "HeroId": "Nobu",
-              "Power": 424,
+              "Power": 419,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1212,7 +1222,8 @@
                 1,
                 1,
                 -1,
-                0
+                0,
+                -1
               ]
             }
           ]
@@ -1239,12 +1250,12 @@
           "CompactWave": []
         },
         {
-          "Power": 1611,
+          "Power": 1576,
           "TotalHealth": 7507,
           "CompactWave": [
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 282,
+              "Power": 275,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1260,7 +1271,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 282,
+              "Power": 276,
               "Level": 12,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1276,7 +1287,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 305,
+              "Power": 297,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1292,7 +1303,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 186,
+              "Power": 182,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1308,7 +1319,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 186,
+              "Power": 183,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1324,7 +1335,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 185,
+              "Power": 181,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1340,7 +1351,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 185,
+              "Power": 182,
               "Level": 11,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1378,12 +1389,12 @@
           "CompactWave": []
         },
         {
-          "Power": 1842,
+          "Power": 1826,
           "TotalHealth": 7765,
           "CompactWave": [
             {
               "HeroId": "LukeCage",
-              "Power": 285,
+              "Power": 283,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1399,7 +1410,7 @@
             },
             {
               "HeroId": "IronFist",
-              "Power": 425,
+              "Power": 421,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1415,7 +1426,7 @@
             },
             {
               "HeroId": "JessicaJones",
-              "Power": 416,
+              "Power": 411,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1431,7 +1442,7 @@
             },
             {
               "HeroId": "Daredevil",
-              "Power": 427,
+              "Power": 424,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1447,7 +1458,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 289,
+              "Power": 287,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1492,12 +1503,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 1736,
+          "Power": 1717,
           "TotalHealth": 9641,
           "CompactWave": [
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 208,
+              "Power": 206,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1513,7 +1524,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 297,
+              "Power": 294,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1529,7 +1540,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 306,
+              "Power": 305,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1545,7 +1556,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 209,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1561,7 +1572,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 210,
+              "Power": 207,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1577,7 +1588,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 297,
+              "Power": 293,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1593,7 +1604,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 209,
+              "Power": 207,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1638,12 +1649,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 293,
+          "Power": 291,
           "TotalHealth": 1815,
           "CompactWave": [
             {
               "HeroId": "MercOperator",
-              "Power": 293,
+              "Power": 291,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1694,11 +1705,14 @@
                       "hero_id": "MercOperator",
                       "level": 13,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 3,
-                      "speed_percent": 90,
-                      "max_hp_percent": 125,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 90,
+                        "max_hp": 125
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -1716,12 +1730,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 2832,
+          "Power": 2820,
           "TotalHealth": 15139,
           "CompactWave": [
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 208,
+              "Power": 207,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1737,7 +1751,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 210,
+              "Power": 208,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1753,7 +1767,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 296,
+              "Power": 295,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1769,7 +1783,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 296,
+              "Power": 295,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1785,22 +1799,6 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 408,
-              "Level": 13,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "Crossbones",
               "Power": 407,
               "Level": 13,
               "GearLevel": 3,
@@ -1816,8 +1814,24 @@
               ]
             },
             {
+              "HeroId": "Crossbones",
+              "Power": 406,
+              "Level": 13,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
               "HeroId": "UltronDmg_Offense",
-              "Power": 293,
+              "Power": 292,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -1833,7 +1847,7 @@
             },
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 208,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -1865,7 +1879,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 296,
+              "Power": 295,
               "Level": 13,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2016,12 +2030,12 @@
           "CompactWave": []
         },
         {
-          "Power": 5233,
+          "Power": 5190,
           "TotalHealth": 15407,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 304,
+              "Power": 301,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2037,7 +2051,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 208,
+              "Power": 206,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2053,7 +2067,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 207,
+              "Power": 202,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2069,7 +2083,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 302,
+              "Power": 299,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2085,7 +2099,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 206,
+              "Power": 203,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2101,7 +2115,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 206,
+              "Power": 202,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2117,7 +2131,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 207,
+              "Power": 204,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2133,7 +2147,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 206,
+              "Power": 203,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2149,7 +2163,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 206,
+              "Power": 204,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2165,7 +2179,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 207,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2181,7 +2195,7 @@
             },
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 304,
+              "Power": 302,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2197,7 +2211,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 304,
+              "Power": 302,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2229,7 +2243,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 207,
+              "Power": 203,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2245,7 +2259,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 206,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2261,7 +2275,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 207,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2277,7 +2291,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 206,
+              "Power": 204,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2293,7 +2307,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 206,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2309,7 +2323,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 206,
+              "Power": 205,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2357,7 +2371,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 206,
+              "Power": 207,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2373,7 +2387,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 207,
+              "Power": 208,
               "Level": 13,
               "GearLevel": 2,
               "Loyalty": 1,
@@ -2418,12 +2432,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 304,
+          "Power": 302,
           "TotalHealth": 1885,
           "CompactWave": [
             {
               "HeroId": "MercOperator",
-              "Power": 304,
+              "Power": 302,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2473,11 +2487,14 @@
                       "hero_id": "MercOperator",
                       "level": 14,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 3,
-                      "speed_percent": 85,
-                      "max_hp_percent": 125,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 85,
+                        "max_hp": 125
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -2495,12 +2512,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 5386,
+          "Power": 5348,
           "TotalHealth": 27049,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 319,
+              "Power": 317,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2516,7 +2533,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 308,
+              "Power": 305,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2532,7 +2549,7 @@
             },
             {
               "HeroId": "SpiderMan",
-              "Power": 446,
+              "Power": 441,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2548,7 +2565,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 306,
+              "Power": 303,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2564,7 +2581,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 306,
+              "Power": 303,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2580,7 +2597,7 @@
             },
             {
               "HeroId": "Wolverine",
-              "Power": 443,
+              "Power": 436,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2596,7 +2613,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 319,
+              "Power": 317,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2628,7 +2645,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 306,
+              "Power": 304,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2644,7 +2661,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 306,
+              "Power": 305,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2660,7 +2677,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 440,
+              "Power": 437,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2676,22 +2693,6 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 320,
-              "Level": 15,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Defense",
               "Power": 319,
               "Level": 15,
               "GearLevel": 3,
@@ -2707,8 +2708,24 @@
               ]
             },
             {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 318,
+              "Level": 15,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
               "HeroId": "UltronTank_Taunt",
-              "Power": 306,
+              "Power": 303,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2724,7 +2741,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 306,
+              "Power": 304,
               "Level": 14,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2800,12 +2817,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 1603,
+          "Power": 1609,
           "TotalHealth": 5867,
           "CompactWave": [
             {
               "HeroId": "Groot",
-              "Power": 797,
+              "Power": 803,
               "Level": 16,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -2859,12 +2876,12 @@
           "CompactWave": []
         },
         {
-          "Power": 7820,
+          "Power": 7765,
           "TotalHealth": 12116,
           "CompactWave": [
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 325,
+              "Power": 321,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2880,7 +2897,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 327,
+              "Power": 324,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2896,7 +2913,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 325,
+              "Power": 324,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2912,7 +2929,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 325,
+              "Power": 322,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2928,7 +2945,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 327,
+              "Power": 322,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2944,7 +2961,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 326,
+              "Power": 323,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2960,7 +2977,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 326,
+              "Power": 321,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -2976,7 +2993,231 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
+              "Power": 321,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 323,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 322,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
               "Power": 325,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 324,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 326,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Defense",
+              "Power": 328,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronSupport_Heal",
+              "Power": 318,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronTank_Taunt",
+              "Power": 319,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 323,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Offense",
+              "Power": 323,
+              "Level": 16,
+              "GearLevel": 3,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                1,
+                1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltronDmg_Speed",
+              "Power": 326,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3007,232 +3248,8 @@
               ]
             },
             {
-              "HeroId": "UltronDmg_Speed",
-              "Power": 327,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Offense",
-              "Power": 326,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronSupport_Heal",
-              "Power": 325,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Offense",
-              "Power": 326,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Speed",
-              "Power": 327,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
               "HeroId": "UltronTank_Taunt",
-              "Power": 325,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronSupport_Heal",
-              "Power": 325,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Defense",
               "Power": 326,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronSupport_Heal",
-              "Power": 325,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronTank_Taunt",
-              "Power": 325,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Speed",
-              "Power": 327,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Offense",
-              "Power": 326,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Speed",
-              "Power": 327,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronDmg_Defense",
-              "Power": 326,
-              "Level": 16,
-              "GearLevel": 3,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                1,
-                1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "UltronTank_Taunt",
-              "Power": 325,
               "Level": 16,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3277,12 +3294,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 316,
+          "Power": 313,
           "TotalHealth": 1955,
           "CompactWave": [
             {
               "HeroId": "MercOperator",
-              "Power": 316,
+              "Power": 313,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3332,11 +3349,14 @@
                       "hero_id": "MercOperator",
                       "level": 15,
                       "loyalty": 1,
+                      "combined_mod": -1,
                       "tier": 3,
-                      "speed_percent": 80,
-                      "max_hp_percent": 125,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 80,
+                        "max_hp": 125
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -3354,12 +3374,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 2540,
+          "Power": 2514,
           "TotalHealth": 13648,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 318,
+              "Power": 316,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3375,7 +3395,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 318,
+              "Power": 312,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3391,7 +3411,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 318,
+              "Power": 316,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3407,7 +3427,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 318,
+              "Power": 314,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3423,7 +3443,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 316,
+              "Power": 314,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3439,7 +3459,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 318,
+              "Power": 313,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3455,7 +3475,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 318,
+              "Power": 315,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3471,7 +3491,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 316,
+              "Power": 314,
               "Level": 15,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3531,12 +3551,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 1459,
+          "Power": 1456,
           "TotalHealth": 6040,
           "CompactWave": [
             {
               "HeroId": "IronMan",
-              "Power": 872,
+              "Power": 869,
               "Level": 18,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -3597,7 +3617,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 2170,
+          "Power": 2164,
           "TotalHealth": 10921,
           "CompactWave": [
             {
@@ -3618,7 +3638,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 625,
+              "Power": 623,
               "Level": 18,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -3634,7 +3654,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 458,
+              "Power": 454,
               "Level": 18,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3695,12 +3715,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 4498,
+          "Power": 4453,
           "TotalHealth": 21604,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 477,
+              "Power": 471,
               "Level": 19,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3732,7 +3752,7 @@
             },
             {
               "HeroId": "AimControl_Infect",
-              "Power": 645,
+              "Power": 643,
               "Level": 19,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -3748,7 +3768,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 478,
+              "Power": 471,
               "Level": 19,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3764,7 +3784,7 @@
             },
             {
               "HeroId": "AimControl_Infect",
-              "Power": 645,
+              "Power": 639,
               "Level": 19,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -3780,7 +3800,7 @@
             },
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 479,
+              "Power": 469,
               "Level": 19,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3796,7 +3816,7 @@
             },
             {
               "HeroId": "AimControl_Infect",
-              "Power": 645,
+              "Power": 640,
               "Level": 19,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -3812,7 +3832,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 484,
+              "Power": 475,
               "Level": 19,
               "GearLevel": 3,
               "Loyalty": 1,
@@ -3857,12 +3877,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 3369,
+          "Power": 3407,
           "TotalHealth": 23086,
           "CompactWave": [
             {
               "HeroId": "AimDmg_Offense",
-              "Power": 761,
+              "Power": 799,
               "Level": 21,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -3971,11 +3991,75 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 6177,
-          "TotalHealth": 35348,
+          "Power": 6290,
+          "TotalHealth": 36740,
           "CompactWave": [
             {
               "HeroId": "Hulk",
+              "Power": 680,
+              "Level": 21,
+              "GearLevel": 4,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                2,
+                1,
+                -1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 643,
+              "Level": 21,
+              "GearLevel": 4,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                2,
+                -1,
+                -1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 638,
+              "Level": 21,
+              "GearLevel": 4,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                2,
+                1,
+                -1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 859,
+              "Level": 21,
+              "GearLevel": 4,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                2,
+                -1,
+                1,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RocketRaccoon",
               "Power": 646,
               "Level": 21,
               "GearLevel": 4,
@@ -3991,72 +4075,8 @@
               ]
             },
             {
-              "HeroId": "Groot",
-              "Power": 637,
-              "Level": 21,
-              "GearLevel": 4,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                2,
-                -1,
-                -1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "Groot",
-              "Power": 635,
-              "Level": 21,
-              "GearLevel": 4,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                2,
-                1,
-                -1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "RocketRaccoon",
-              "Power": 850,
-              "Level": 21,
-              "GearLevel": 4,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                2,
-                -1,
-                1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "RocketRaccoon",
-              "Power": 643,
-              "Level": 21,
-              "GearLevel": 4,
-              "Loyalty": 1,
-              "RedStar": 0,
-              "Abilities": [
-                2,
-                1,
-                -1,
-                -1,
-                0,
-                0
-              ]
-            },
-            {
               "HeroId": "Hulk",
-              "Power": 932,
+              "Power": 981,
               "Level": 21,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -4072,7 +4092,7 @@
             },
             {
               "HeroId": "RocketRaccoon",
-              "Power": 923,
+              "Power": 928,
               "Level": 21,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -4088,7 +4108,7 @@
             },
             {
               "HeroId": "Groot",
-              "Power": 911,
+              "Power": 915,
               "Level": 21,
               "GearLevel": 4,
               "Loyalty": 1,
@@ -4133,12 +4153,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 5100,
+          "Power": 5044,
           "TotalHealth": 27458,
           "CompactWave": [
             {
               "HeroId": "AimDmg_Offense",
-              "Power": 766,
+              "Power": 762,
               "Level": 22,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4154,7 +4174,7 @@
             },
             {
               "HeroId": "AimSupport_Heal",
-              "Power": 773,
+              "Power": 761,
               "Level": 22,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4186,7 +4206,7 @@
             },
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 774,
+              "Power": 758,
               "Level": 22,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4202,7 +4222,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 780,
+              "Power": 771,
               "Level": 22,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4218,7 +4238,7 @@
             },
             {
               "HeroId": "ScientistSupreme",
-              "Power": 1235,
+              "Power": 1220,
               "Level": 22,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4263,12 +4283,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 8312,
-          "TotalHealth": 31634,
+          "Power": 8203,
+          "TotalHealth": 31399,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 1202,
+              "Power": 1187,
               "Level": 23,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4284,7 +4304,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 1193,
+              "Power": 1183,
               "Level": 23,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4300,7 +4320,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1571,
+              "Power": 1547,
               "Level": 24,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4316,7 +4336,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 1579,
+              "Power": 1553,
               "Level": 24,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4332,7 +4352,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 1574,
+              "Power": 1546,
               "Level": 24,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4348,7 +4368,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 1193,
+              "Power": 1187,
               "Level": 23,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4393,12 +4413,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 9843,
-          "TotalHealth": 33516,
+          "Power": 9693,
+          "TotalHealth": 33265,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 1465,
+              "Power": 1437,
               "Level": 25,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4414,7 +4434,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 1610,
+              "Power": 1593,
               "Level": 25,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4430,7 +4450,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 1926,
+              "Power": 1893,
               "Level": 25,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4446,7 +4466,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 1926,
+              "Power": 1903,
               "Level": 25,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4462,7 +4482,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1463,
+              "Power": 1433,
               "Level": 25,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4478,7 +4498,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 1453,
+              "Power": 1434,
               "Level": 25,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4523,12 +4543,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 10861,
-          "TotalHealth": 37524,
+          "Power": 10744,
+          "TotalHealth": 37266,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 1501,
+              "Power": 1477,
               "Level": 26,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4544,7 +4564,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 1892,
+              "Power": 1882,
               "Level": 26,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4560,7 +4580,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1889,
+              "Power": 1869,
               "Level": 26,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4576,7 +4596,7 @@
             },
             {
               "HeroId": "MercTank_Debuff",
-              "Power": 1508,
+              "Power": 1466,
               "Level": 26,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4608,7 +4628,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 1898,
+              "Power": 1877,
               "Level": 26,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4653,12 +4673,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 10990,
-          "TotalHealth": 37755,
+          "Power": 10854,
+          "TotalHealth": 37275,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 1527,
+              "Power": 1505,
               "Level": 27,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4674,7 +4694,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1912,
+              "Power": 1890,
               "Level": 27,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4690,7 +4710,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 1915,
+              "Power": 1875,
               "Level": 27,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4706,7 +4726,7 @@
             },
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 1527,
+              "Power": 1516,
               "Level": 27,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4722,7 +4742,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 1900,
+              "Power": 1878,
               "Level": 27,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4738,7 +4758,7 @@
             },
             {
               "HeroId": "RedSkull",
-              "Power": 2209,
+              "Power": 2190,
               "Level": 27,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4783,7 +4803,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 7528,
+          "Power": 7526,
           "TotalHealth": 34078,
           "CompactWave": [
             {
@@ -4820,7 +4840,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 1576,
+              "Power": 1574,
               "Level": 28,
               "GearLevel": 4,
               "Loyalty": 2,
@@ -4929,12 +4949,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 11262,
+          "Power": 11143,
           "TotalHealth": 39874,
           "CompactWave": [
             {
               "HeroId": "MercTank_Debuff",
-              "Power": 2016,
+              "Power": 1987,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4950,7 +4970,7 @@
             },
             {
               "HeroId": "MercTank_Taunt",
-              "Power": 869,
+              "Power": 858,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4966,7 +4986,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 2001,
+              "Power": 1975,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4982,7 +5002,7 @@
             },
             {
               "HeroId": "MercDmg_General",
-              "Power": 2014,
+              "Power": 1989,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -4998,7 +5018,7 @@
             },
             {
               "HeroId": "IronMan",
-              "Power": 2366,
+              "Power": 2356,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5014,7 +5034,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 1996,
+              "Power": 1978,
               "Level": 29,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5059,12 +5079,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 9904,
+          "Power": 9740,
           "TotalHealth": 50544,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 891,
+              "Power": 867,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5080,7 +5100,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1059,
+              "Power": 1028,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5096,7 +5116,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1053,
+              "Power": 1030,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5112,7 +5132,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 896,
+              "Power": 876,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5128,7 +5148,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1053,
+              "Power": 1036,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5144,7 +5164,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1053,
+              "Power": 1036,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5160,7 +5180,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1059,
+              "Power": 1047,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5176,7 +5196,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 891,
+              "Power": 882,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5192,7 +5212,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1053,
+              "Power": 1047,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5208,7 +5228,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 896,
+              "Power": 891,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5295,10 +5315,13 @@
                       "hero_id": "UltronDmg_Offense",
                       "level": 31,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -5316,12 +5339,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 16499,
-          "TotalHealth": 52541,
+          "Power": 16485,
+          "TotalHealth": 52140,
           "CompactWave": [
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 2513,
+              "Power": 2510,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5337,7 +5360,7 @@
             },
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 2517,
+              "Power": 2513,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5369,7 +5392,7 @@
             },
             {
               "HeroId": "CaptainAmerica",
-              "Power": 3349,
+              "Power": 3342,
               "Level": 31,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -5553,10 +5576,13 @@
                       "hero_id": "UltronDmg_Offense",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 70,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 70
+                      }
                     }
                   ],
                   "StoryTellingID": "vil_4_5_mission",
@@ -5583,10 +5609,13 @@
                       "hero_id": "UltronDmg_Speed",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 70,
                       "desired_x_pos": 0,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 70
+                      }
                     },
                     {
                       "abilities": [
@@ -5601,10 +5630,13 @@
                       "hero_id": "UltronTank_Taunt",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 70,
                       "desired_x_pos": 2,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 70
+                      }
                     },
                     {
                       "abilities": [
@@ -5619,10 +5651,13 @@
                       "hero_id": "UltronSupport_Heal",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 70,
                       "desired_x_pos": 1,
-                      "desired_y_pos": 1
+                      "desired_y_pos": 1,
+                      "stats_mod": {
+                        "max_hp": 70
+                      }
                     },
                     {
                       "abilities": [
@@ -5637,10 +5672,13 @@
                       "hero_id": "UltronDmg_Defense",
                       "level": 32,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 70,
                       "desired_x_pos": 3,
-                      "desired_y_pos": 1
+                      "desired_y_pos": 1,
+                      "stats_mod": {
+                        "max_hp": 70
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -5658,12 +5696,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 19867,
+          "Power": 19851,
           "TotalHealth": 64809,
           "CompactWave": [
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 2576,
+              "Power": 2568,
               "Level": 32,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5695,7 +5733,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 3148,
+              "Power": 3140,
               "Level": 32,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -5846,10 +5884,13 @@
                       "hero_id": "UltronDmg_Offense",
                       "level": 33,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
-                      "max_hp_percent": 150,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "max_hp": 150
+                      }
                     }
                   ],
                   "StoryTellingID": "vil_4_6_mission",
@@ -5868,12 +5909,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 12576,
+          "Power": 12455,
           "TotalHealth": 63931,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 913,
+              "Power": 898,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5889,7 +5930,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 902,
+              "Power": 888,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5905,7 +5946,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1058,
+              "Power": 1046,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5921,7 +5962,7 @@
             },
             {
               "HeroId": "Vision",
-              "Power": 2656,
+              "Power": 2618,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5937,7 +5978,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1058,
+              "Power": 1052,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5969,7 +6010,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 919,
+              "Power": 903,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -5985,7 +6026,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1134,
+              "Power": 1121,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6001,7 +6042,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1134,
+              "Power": 1127,
               "Level": 31,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6104,6 +6145,7 @@
                       "hero_id": "UltronDmg_Offense",
                       "level": 34,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -6120,6 +6162,7 @@
                       "hero_id": "Ultron",
                       "level": 36,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 6,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -6140,12 +6183,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 22519,
+          "Power": 22247,
           "TotalHealth": 71841,
           "CompactWave": [
             {
               "HeroId": "MercTank_Debuff",
-              "Power": 2690,
+              "Power": 2641,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6161,7 +6204,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 3239,
+              "Power": 3176,
               "Level": 34,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6177,7 +6220,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 2649,
+              "Power": 2604,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6193,7 +6236,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 2684,
+              "Power": 2668,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6209,7 +6252,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 2649,
+              "Power": 2617,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6225,7 +6268,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 2684,
+              "Power": 2653,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6241,7 +6284,7 @@
             },
             {
               "HeroId": "MercDmg_General",
-              "Power": 2685,
+              "Power": 2657,
               "Level": 34,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6257,7 +6300,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 3239,
+              "Power": 3231,
               "Level": 34,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6361,6 +6404,7 @@
                       "hero_id": "Ultron",
                       "level": 37,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 6,
                       "desired_x_pos": 2,
                       "desired_y_pos": 0
@@ -6378,6 +6422,7 @@
                       "hero_id": "UltronDmg_Speed",
                       "level": 35,
                       "loyalty": 2,
+                      "combined_mod": -1,
                       "tier": 5,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
@@ -6398,12 +6443,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 18501,
+          "Power": 18378,
           "TotalHealth": 66489,
           "CompactWave": [
             {
               "HeroId": "MercTank_Taunt",
-              "Power": 981,
+              "Power": 970,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6419,7 +6464,7 @@
             },
             {
               "HeroId": "WinterSoldier",
-              "Power": 3913,
+              "Power": 3906,
               "Level": 35,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6435,7 +6480,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 3296,
+              "Power": 3252,
               "Level": 35,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6451,7 +6496,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 3302,
+              "Power": 3290,
               "Level": 35,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6467,7 +6512,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 2726,
+              "Power": 2703,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6483,7 +6528,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 3302,
+              "Power": 3281,
               "Level": 35,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6499,7 +6544,7 @@
             },
             {
               "HeroId": "MercTank_Taunt",
-              "Power": 981,
+              "Power": 976,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6544,12 +6589,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 25856,
+          "Power": 25302,
           "TotalHealth": 166493,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 997,
+              "Power": 984,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6565,7 +6610,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 989,
+              "Power": 972,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6581,7 +6626,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1236,
+              "Power": 1204,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6597,7 +6642,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1229,
+              "Power": 1191,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6613,7 +6658,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1229,
+              "Power": 1221,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6629,7 +6674,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 1228,
+              "Power": 1220,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6645,7 +6690,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1523,
+              "Power": 1475,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6661,7 +6706,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1515,
+              "Power": 1498,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6677,7 +6722,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1515,
+              "Power": 1460,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6693,7 +6738,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 1219,
+              "Power": 1192,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6709,7 +6754,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1523,
+              "Power": 1495,
               "Level": 36,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6741,7 +6786,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 1229,
+              "Power": 1203,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6757,7 +6802,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 1229,
+              "Power": 1187,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6773,7 +6818,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 989,
+              "Power": 962,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6789,7 +6834,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 997,
+              "Power": 970,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6805,7 +6850,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1236,
+              "Power": 1186,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6821,7 +6866,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 989,
+              "Power": 972,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6837,7 +6882,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1236,
+              "Power": 1216,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6853,7 +6898,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1236,
+              "Power": 1195,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6869,7 +6914,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 997,
+              "Power": 984,
               "Level": 35,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -6914,12 +6959,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 41867,
-          "TotalHealth": 126986,
+          "Power": 41601,
+          "TotalHealth": 124755,
           "CompactWave": [
             {
               "HeroId": "RavagerTank_Taunt",
-              "Power": 3695,
+              "Power": 3635,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6935,7 +6980,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 3636,
+              "Power": 3595,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6951,7 +6996,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 3675,
+              "Power": 3643,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6967,7 +7012,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 3631,
+              "Power": 3614,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6983,7 +7028,7 @@
             },
             {
               "HeroId": "MercDmg_General",
-              "Power": 3677,
+              "Power": 3599,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -6999,7 +7044,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 3686,
+              "Power": 3610,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7015,7 +7060,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 3675,
+              "Power": 3623,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7031,7 +7076,7 @@
             },
             {
               "HeroId": "MercTank_Debuff",
-              "Power": 3676,
+              "Power": 3639,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7047,7 +7092,7 @@
             },
             {
               "HeroId": "MercDmg_Single",
-              "Power": 3636,
+              "Power": 3595,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7063,7 +7108,7 @@
             },
             {
               "HeroId": "Bullseye",
-              "Power": 5249,
+              "Power": 5434,
               "Level": 38,
               "GearLevel": 7,
               "Loyalty": 2,
@@ -7079,7 +7124,7 @@
             },
             {
               "HeroId": "MercSupport_Buffs",
-              "Power": 3631,
+              "Power": 3614,
               "Level": 37,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7124,8 +7169,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 32183,
-          "TotalHealth": 101857,
+          "Power": 32039,
+          "TotalHealth": 100114,
           "CompactWave": [
             {
               "HeroId": "AimDmg_Offense",
@@ -7145,7 +7190,7 @@
             },
             {
               "HeroId": "AimDmg_Speed",
-              "Power": 3761,
+              "Power": 3750,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7161,7 +7206,7 @@
             },
             {
               "HeroId": "AimControl_Infect",
-              "Power": 4469,
+              "Power": 4454,
               "Level": 38,
               "GearLevel": 7,
               "Loyalty": 2,
@@ -7177,7 +7222,7 @@
             },
             {
               "HeroId": "AimSupport_Heal",
-              "Power": 3721,
+              "Power": 3699,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7193,7 +7238,7 @@
             },
             {
               "HeroId": "AimTank_Taunt",
-              "Power": 3733,
+              "Power": 3693,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7209,7 +7254,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 2766,
+              "Power": 2749,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7225,7 +7270,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 4155,
+              "Power": 4143,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7241,7 +7286,7 @@
             },
             {
               "HeroId": "ScientistSupreme",
-              "Power": 5158,
+              "Power": 5131,
               "Level": 39,
               "GearLevel": 7,
               "Loyalty": 2,
@@ -7286,12 +7331,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 32348,
-          "TotalHealth": 97446,
+          "Power": 32030,
+          "TotalHealth": 96002,
           "CompactWave": [
             {
               "HeroId": "AimDmg_Offense",
-              "Power": 3687,
+              "Power": 3660,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7307,7 +7352,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 2811,
+              "Power": 2768,
               "Level": 40,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7323,7 +7368,7 @@
             },
             {
               "HeroId": "Punisher",
-              "Power": 4223,
+              "Power": 4116,
               "Level": 40,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7339,7 +7384,7 @@
             },
             {
               "HeroId": "Crossbones",
-              "Power": 5896,
+              "Power": 5772,
               "Level": 40,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7355,7 +7400,7 @@
             },
             {
               "HeroId": "Crossbones",
-              "Power": 5896,
+              "Power": 5789,
               "Level": 40,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7371,7 +7416,7 @@
             },
             {
               "HeroId": "AimDmg_Offense",
-              "Power": 3687,
+              "Power": 3651,
               "Level": 38,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7387,7 +7432,7 @@
             },
             {
               "HeroId": "BlackPanther",
-              "Power": 6148,
+              "Power": 6274,
               "Level": 40,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7432,12 +7477,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 65160,
-          "TotalHealth": 187896,
+          "Power": 64244,
+          "TotalHealth": 185594,
           "CompactWave": [
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 3773,
+              "Power": 3733,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7453,7 +7498,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 6539,
+              "Power": 6500,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7469,7 +7514,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 3775,
+              "Power": 3735,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7485,7 +7530,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 6221,
+              "Power": 6142,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7501,7 +7546,7 @@
             },
             {
               "HeroId": "HydraDmg_AoE",
-              "Power": 3793,
+              "Power": 3747,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7517,7 +7562,7 @@
             },
             {
               "HeroId": "HydraDmg_Buff",
-              "Power": 3773,
+              "Power": 3725,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7533,7 +7578,7 @@
             },
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 3777,
+              "Power": 3730,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7549,7 +7594,7 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 6260,
+              "Power": 6110,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7565,7 +7610,7 @@
             },
             {
               "HeroId": "Wolverine",
-              "Power": 6611,
+              "Power": 6475,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7581,7 +7626,7 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 6260,
+              "Power": 6162,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7597,7 +7642,7 @@
             },
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 3777,
+              "Power": 3741,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7613,7 +7658,7 @@
             },
             {
               "HeroId": "Wolverine",
-              "Power": 4380,
+              "Power": 4331,
               "Level": 39,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -7629,7 +7674,7 @@
             },
             {
               "HeroId": "HydraDmg_Single",
-              "Power": 6221,
+              "Power": 6113,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7674,12 +7719,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 49658,
-          "TotalHealth": 117980,
+          "Power": 48353,
+          "TotalHealth": 117385,
           "CompactWave": [
             {
               "HeroId": "HydraTank_Taunt",
-              "Power": 5297,
+              "Power": 5156,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7695,7 +7740,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 6581,
+              "Power": 6377,
               "Level": 43,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7711,7 +7756,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 6632,
+              "Power": 6385,
               "Level": 43,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7727,7 +7772,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 6632,
+              "Power": 6471,
               "Level": 43,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7743,7 +7788,7 @@
             },
             {
               "HeroId": "Vision",
-              "Power": 5700,
+              "Power": 5418,
               "Level": 43,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7759,7 +7804,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 6581,
+              "Power": 6419,
               "Level": 43,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7775,7 +7820,7 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 6937,
+              "Power": 7029,
               "Level": 43,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -7791,7 +7836,7 @@
             },
             {
               "HeroId": "HydraSupport_Heal",
-              "Power": 5298,
+              "Power": 5098,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7836,12 +7881,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 202637,
+          "Power": 198236,
           "TotalHealth": 160454,
           "CompactWave": [
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 4490,
+              "Power": 4380,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7857,7 +7902,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7873,7 +7918,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4409,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7889,7 +7934,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4429,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7905,7 +7950,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4385,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7921,7 +7966,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4388,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7937,7 +7982,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 4490,
+              "Power": 4437,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7953,7 +7998,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4394,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7969,7 +8014,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4400,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -7985,7 +8030,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8001,7 +8046,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4385,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8017,7 +8062,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4374,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8033,7 +8078,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8049,7 +8094,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4400,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8065,7 +8110,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4394,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8081,7 +8126,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4409,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8097,7 +8142,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8113,7 +8158,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4388,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8129,7 +8174,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 4490,
+              "Power": 4380,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8145,7 +8190,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4429,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8161,7 +8206,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4400,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8177,7 +8222,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 4490,
+              "Power": 4399,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8193,7 +8238,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4409,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8209,7 +8254,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4394,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8225,7 +8270,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8241,7 +8286,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4385,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8257,7 +8302,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4381,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8273,7 +8318,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4429,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8289,7 +8334,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4381,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8305,7 +8350,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4409,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8321,7 +8366,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4400,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8337,7 +8382,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4406,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8353,7 +8398,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4374,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8369,7 +8414,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4385,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8385,7 +8430,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4449,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8401,7 +8446,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4381,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8417,7 +8462,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4449,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8433,7 +8478,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 4500,
+              "Power": 4381,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8449,7 +8494,7 @@
             },
             {
               "HeroId": "HandDmg_Bonus",
-              "Power": 4519,
+              "Power": 4409,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8465,7 +8510,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4394,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8481,7 +8526,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 4490,
+              "Power": 4399,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8497,7 +8542,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4406,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8513,7 +8558,7 @@
             },
             {
               "HeroId": "HandDmg_Unbuff",
-              "Power": 4486,
+              "Power": 4374,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8529,7 +8574,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4446,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8545,7 +8590,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 4512,
+              "Power": 4385,
               "Level": 41,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8590,12 +8635,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 46115,
+          "Power": 46047,
           "TotalHealth": 121999,
           "CompactWave": [
             {
               "HeroId": "Daredevil",
-              "Power": 6544,
+              "Power": 6458,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8611,7 +8656,7 @@
             },
             {
               "HeroId": "IronFist",
-              "Power": 7837,
+              "Power": 8198,
               "Level": 45,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -8627,7 +8672,7 @@
             },
             {
               "HeroId": "HandControl_HealBlock",
-              "Power": 6244,
+              "Power": 6173,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8643,7 +8688,7 @@
             },
             {
               "HeroId": "Elektra",
-              "Power": 6518,
+              "Power": 6445,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8659,7 +8704,7 @@
             },
             {
               "HeroId": "HandTank_Stealth",
-              "Power": 6272,
+              "Power": 6197,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8675,7 +8720,7 @@
             },
             {
               "HeroId": "BaronMordo",
-              "Power": 6465,
+              "Power": 6400,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8691,7 +8736,7 @@
             },
             {
               "HeroId": "HandSupport_Heal",
-              "Power": 6235,
+              "Power": 6176,
               "Level": 42,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8736,12 +8781,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 51701,
+          "Power": 51130,
           "TotalHealth": 166476,
           "CompactWave": [
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 1437,
+              "Power": 1420,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8757,7 +8802,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 1992,
+              "Power": 1954,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8773,7 +8818,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 1426,
+              "Power": 1414,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8789,7 +8834,7 @@
             },
             {
               "HeroId": "Ultron",
-              "Power": 7733,
+              "Power": 7671,
               "Level": 46,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8805,7 +8850,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 5298,
+              "Power": 5266,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8821,7 +8866,7 @@
             },
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 6483,
+              "Power": 6426,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8837,7 +8882,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 5315,
+              "Power": 5240,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 3,
@@ -8853,7 +8898,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 6449,
+              "Power": 6380,
               "Level": 44,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8869,7 +8914,7 @@
             },
             {
               "HeroId": "UltronDmg_Defense",
-              "Power": 1792,
+              "Power": 1765,
               "Level": 46,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8885,7 +8930,7 @@
             },
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 2459,
+              "Power": 2438,
               "Level": 46,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8901,7 +8946,7 @@
             },
             {
               "HeroId": "UltronDmg_Speed",
-              "Power": 2484,
+              "Power": 2468,
               "Level": 46,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8917,7 +8962,7 @@
             },
             {
               "HeroId": "Vision",
-              "Power": 8833,
+              "Power": 8688,
               "Level": 46,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -8962,12 +9007,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 59936,
+          "Power": 59227,
           "TotalHealth": 161819,
           "CompactWave": [
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 5453,
+              "Power": 5322,
               "Level": 41,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8983,7 +9028,7 @@
             },
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 5437,
+              "Power": 5325,
               "Level": 41,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -8999,7 +9044,7 @@
             },
             {
               "HeroId": "CaptainAmerica",
-              "Power": 9523,
+              "Power": 9312,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -9015,7 +9060,7 @@
             },
             {
               "HeroId": "CaptainAmerica",
-              "Power": 9523,
+              "Power": 9345,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -9031,7 +9076,7 @@
             },
             {
               "HeroId": "IronMan",
-              "Power": 9906,
+              "Power": 10094,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -9047,7 +9092,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 5402,
+              "Power": 5316,
               "Level": 41,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9063,7 +9108,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 5424,
+              "Power": 5347,
               "Level": 41,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9079,7 +9124,7 @@
             },
             {
               "HeroId": "DoctorStrange",
-              "Power": 9268,
+              "Power": 9166,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -9124,12 +9169,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 38229,
+          "Power": 37653,
           "TotalHealth": 82584,
           "CompactWave": [
             {
               "HeroId": "StarLord",
-              "Power": 5437,
+              "Power": 5205,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -9145,71 +9190,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 5437,
-              "Level": 45,
-              "GearLevel": 6,
-              "Loyalty": 2,
-              "RedStar": 0,
-              "Abilities": [
-                4,
-                4,
-                3,
-                2,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "StarLord",
-              "Power": 2761,
-              "Level": 45,
-              "GearLevel": 6,
-              "Loyalty": 2,
-              "RedStar": 0,
-              "Abilities": [
-                4,
-                -1,
-                -1,
-                2,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "StarLord",
-              "Power": 2761,
-              "Level": 45,
-              "GearLevel": 6,
-              "Loyalty": 2,
-              "RedStar": 0,
-              "Abilities": [
-                4,
-                -1,
-                -1,
-                2,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "StarLord",
-              "Power": 5437,
-              "Level": 45,
-              "GearLevel": 6,
-              "Loyalty": 2,
-              "RedStar": 0,
-              "Abilities": [
-                4,
-                4,
-                3,
-                2,
-                0,
-                0
-              ]
-            },
-            {
-              "HeroId": "StarLord",
-              "Power": 5437,
+              "Power": 5467,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -9241,7 +9222,23 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 5437,
+              "Power": 2680,
+              "Level": 45,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                -1,
+                -1,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5242,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -9257,7 +9254,55 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 2761,
+              "Power": 5391,
+              "Level": 45,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2697,
+              "Level": 45,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                -1,
+                -1,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 5496,
+              "Level": 45,
+              "GearLevel": 6,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "StarLord",
+              "Power": 2714,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
@@ -9302,17 +9347,16 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 51918,
-          "TotalHealth": 199749,
+          "Power": 48217,
+          "TotalHealth": 183449,
           "CompactWave": [
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 4467,
+              "Power": 4152,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 3,
@@ -9324,12 +9368,11 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 3983,
+              "Power": 3706,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 3,
@@ -9341,12 +9384,11 @@
             },
             {
               "HeroId": "KreeTank_Counter",
-              "Power": 5524,
+              "Power": 5096,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 4,
@@ -9358,12 +9400,11 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 4013,
+              "Power": 3733,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 3,
@@ -9375,7 +9416,7 @@
             },
             {
               "HeroId": "Vision",
-              "Power": 7494,
+              "Power": 7361,
               "Level": 45,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9391,12 +9432,11 @@
             },
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 4467,
+              "Power": 4072,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 3,
@@ -9408,12 +9448,11 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 3983,
+              "Power": 3655,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 3,
@@ -9425,12 +9464,11 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 4013,
+              "Power": 3666,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 3,
@@ -9442,12 +9480,11 @@
             },
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 4467,
+              "Power": 4099,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 3,
@@ -9459,12 +9496,11 @@
             },
             {
               "HeroId": "KreeTank_Counter",
-              "Power": 5524,
+              "Power": 5011,
               "Level": 45,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 4,
                 4,
@@ -9476,12 +9512,11 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 3983,
+              "Power": 3666,
               "Level": 42,
               "GearLevel": 6,
               "Loyalty": 2,
               "RedStar": 0,
-              "NumEquippedGear": 3,
               "Abilities": [
                 3,
                 3,
@@ -9522,12 +9557,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 2401,
+          "Power": 2369,
           "TotalHealth": 26966,
           "CompactWave": [
             {
               "HeroId": "AimOperator",
-              "Power": 2401,
+              "Power": 2369,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9577,11 +9612,14 @@
                       "hero_id": "AimOperator",
                       "level": 52,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
-                      "speed_percent": 80,
-                      "max_hp_percent": 120,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 80,
+                        "max_hp": 120
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -9599,12 +9637,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 139525,
+          "Power": 138185,
           "TotalHealth": 376675,
           "CompactWave": [
             {
               "HeroId": "StarLord",
-              "Power": 8787,
+              "Power": 8628,
               "Level": 51,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -9620,7 +9658,7 @@
             },
             {
               "HeroId": "RocketRaccoon",
-              "Power": 11129,
+              "Power": 11041,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9636,7 +9674,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 8787,
+              "Power": 8682,
               "Level": 51,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -9652,7 +9690,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 8787,
+              "Power": 8735,
               "Level": 51,
               "GearLevel": 7,
               "Loyalty": 4,
@@ -9668,7 +9706,7 @@
             },
             {
               "HeroId": "Groot",
-              "Power": 10959,
+              "Power": 10890,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9684,7 +9722,7 @@
             },
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 9091,
+              "Power": 8985,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9700,7 +9738,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 9097,
+              "Power": 8974,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9716,7 +9754,7 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 9010,
+              "Power": 8919,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9732,7 +9770,7 @@
             },
             {
               "HeroId": "KreeTank_Counter",
-              "Power": 9271,
+              "Power": 9126,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9748,7 +9786,7 @@
             },
             {
               "HeroId": "KreeControl_Assist",
-              "Power": 9069,
+              "Power": 8965,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9764,7 +9802,7 @@
             },
             {
               "HeroId": "KreeControl_Assist",
-              "Power": 9069,
+              "Power": 9018,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9780,7 +9818,7 @@
             },
             {
               "HeroId": "KreeTank_Counter",
-              "Power": 9271,
+              "Power": 9194,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9796,7 +9834,7 @@
             },
             {
               "HeroId": "KreeSupport_HoT",
-              "Power": 9091,
+              "Power": 9039,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9812,7 +9850,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 9097,
+              "Power": 9024,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9828,7 +9866,7 @@
             },
             {
               "HeroId": "KreeDmg_Offense",
-              "Power": 9010,
+              "Power": 8965,
               "Level": 50,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -9888,12 +9926,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 50850,
-          "TotalHealth": 204068,
+          "Power": 50676,
+          "TotalHealth": 200889,
           "CompactWave": [
             {
               "HeroId": "UltronTank_Taunt",
-              "Power": 2514,
+              "Power": 2498,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9909,7 +9947,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 1817,
+              "Power": 1806,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9925,7 +9963,7 @@
             },
             {
               "HeroId": "UltronSupport_Heal",
-              "Power": 2515,
+              "Power": 2499,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9941,7 +9979,7 @@
             },
             {
               "HeroId": "RavagerTank_Taunt",
-              "Power": 6842,
+              "Power": 6789,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -9973,7 +10011,7 @@
             },
             {
               "HeroId": "UltronDmg_Offense",
-              "Power": 1817,
+              "Power": 1811,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10005,7 +10043,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 7333,
+              "Power": 7286,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10037,7 +10075,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 7284,
+              "Power": 7259,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10110,12 +10148,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 79425,
-          "TotalHealth": 258073,
+          "Power": 78900,
+          "TotalHealth": 255118,
           "CompactWave": [
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 8501,
+              "Power": 8453,
               "Level": 49,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10131,7 +10169,7 @@
             },
             {
               "HeroId": "KreeOperator",
-              "Power": 2130,
+              "Power": 2095,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10147,7 +10185,7 @@
             },
             {
               "HeroId": "Yondu",
-              "Power": 12798,
+              "Power": 12967,
               "Level": 53,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10163,7 +10201,7 @@
             },
             {
               "HeroId": "RavagerTank_Taunt",
-              "Power": 8444,
+              "Power": 8331,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10179,7 +10217,7 @@
             },
             {
               "HeroId": "RavagerSupport_Heal",
-              "Power": 8436,
+              "Power": 8299,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10195,7 +10233,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 8393,
+              "Power": 8283,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10211,7 +10249,7 @@
             },
             {
               "HeroId": "KreeOperator",
-              "Power": 2130,
+              "Power": 2088,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10227,7 +10265,7 @@
             },
             {
               "HeroId": "KreeOperator",
-              "Power": 2130,
+              "Power": 2095,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10243,7 +10281,7 @@
             },
             {
               "HeroId": "KreeDmg_Speed",
-              "Power": 8393,
+              "Power": 8327,
               "Level": 48,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10259,7 +10297,7 @@
             },
             {
               "HeroId": "Wolverine",
-              "Power": 9569,
+              "Power": 9509,
               "Level": 49,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10275,7 +10313,7 @@
             },
             {
               "HeroId": "RavagerDmg_AoE",
-              "Power": 8501,
+              "Power": 8453,
               "Level": 49,
               "GearLevel": 8,
               "Loyalty": 3,
@@ -10335,12 +10373,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 93119,
+          "Power": 92193,
           "TotalHealth": 235217,
           "CompactWave": [
             {
               "HeroId": "StarLord",
-              "Power": 4915,
+              "Power": 4860,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10356,7 +10394,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 3388,
+              "Power": 3331,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10372,7 +10410,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 7558,
+              "Power": 7516,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10388,7 +10426,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 10415,
+              "Power": 10298,
               "Level": 50,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10404,7 +10442,7 @@
             },
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 10516,
+              "Power": 10385,
               "Level": 50,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10420,7 +10458,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 10460,
+              "Power": 10335,
               "Level": 50,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10436,7 +10474,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 10447,
+              "Power": 10318,
               "Level": 50,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10452,7 +10490,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 12783,
+              "Power": 12951,
               "Level": 53,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10468,7 +10506,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 4915,
+              "Power": 4787,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10484,7 +10522,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 6031,
+              "Power": 5894,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10500,7 +10538,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 4915,
+              "Power": 4817,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10516,7 +10554,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 3388,
+              "Power": 3341,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10532,7 +10570,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 3388,
+              "Power": 3360,
               "Level": 49,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -10577,12 +10615,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 118479,
+          "Power": 116195,
           "TotalHealth": 159813,
           "CompactWave": [
             {
               "HeroId": "ShieldSupport_Heal",
-              "Power": 9951,
+              "Power": 9697,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10598,7 +10636,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 9896,
+              "Power": 9688,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10614,7 +10652,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 9932,
+              "Power": 9757,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10630,7 +10668,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 9949,
+              "Power": 9751,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10646,7 +10684,7 @@
             },
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 9980,
+              "Power": 9683,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10662,7 +10700,7 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 14450,
+              "Power": 14301,
               "Level": 55,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10678,7 +10716,7 @@
             },
             {
               "HeroId": "ShieldTank_Stun",
-              "Power": 9932,
+              "Power": 9757,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10694,7 +10732,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 9896,
+              "Power": 9713,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10710,7 +10748,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 9949,
+              "Power": 9696,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10726,7 +10764,7 @@
             },
             {
               "HeroId": "NickFury",
-              "Power": 14595,
+              "Power": 14429,
               "Level": 55,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10742,7 +10780,7 @@
             },
             {
               "HeroId": "ShieldDmg_AoE",
-              "Power": 9949,
+              "Power": 9723,
               "Level": 52,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10787,12 +10825,12 @@
               "Type": "EnvObject"
             }
           ],
-          "Power": 2600,
+          "Power": 2564,
           "TotalHealth": 30078,
           "CompactWave": [
             {
               "HeroId": "AimOperator",
-              "Power": 2600,
+              "Power": 2564,
               "Level": 58,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10842,11 +10880,14 @@
                       "hero_id": "AimOperator",
                       "level": 58,
                       "loyalty": 4,
+                      "combined_mod": -1,
                       "tier": 8,
-                      "speed_percent": 80,
-                      "max_hp_percent": 120,
                       "desired_x_pos": 4,
-                      "desired_y_pos": 0
+                      "desired_y_pos": 0,
+                      "stats_mod": {
+                        "speed": 80,
+                        "max_hp": 120
+                      }
                     }
                   ],
                   "EmptyStoryDelay": 0,
@@ -10864,12 +10905,12 @@
               "Type": "KillTarget"
             }
           ],
-          "Power": 137771,
-          "TotalHealth": 302607,
+          "Power": 134616,
+          "TotalHealth": 308290,
           "CompactWave": [
             {
               "HeroId": "IronMan",
-              "Power": 15566,
+              "Power": 15139,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10885,7 +10926,7 @@
             },
             {
               "HeroId": "Hulk",
-              "Power": 15385,
+              "Power": 15321,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10901,7 +10942,7 @@
             },
             {
               "HeroId": "CaptainAmerica",
-              "Power": 15519,
+              "Power": 15113,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10917,7 +10958,7 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 15435,
+              "Power": 14961,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10933,7 +10974,7 @@
             },
             {
               "HeroId": "Thor",
-              "Power": 15140,
+              "Power": 14809,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10949,7 +10990,7 @@
             },
             {
               "HeroId": "Hawkeye",
-              "Power": 15236,
+              "Power": 14891,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -10965,7 +11006,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 10105,
+              "Power": 9748,
               "Level": 53,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10981,7 +11022,7 @@
             },
             {
               "HeroId": "ShieldSupport_Stealth",
-              "Power": 10198,
+              "Power": 9890,
               "Level": 53,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -10997,7 +11038,7 @@
             },
             {
               "HeroId": "DoctorStrange",
-              "Power": 15082,
+              "Power": 14825,
               "Level": 58,
               "GearLevel": 9,
               "Loyalty": 4,
@@ -11013,7 +11054,7 @@
             },
             {
               "HeroId": "ShieldDmg_Defense",
-              "Power": 10105,
+              "Power": 9919,
               "Level": 53,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -11073,12 +11114,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 133133,
+          "Power": 130330,
           "TotalHealth": 331531,
           "CompactWave": [
             {
               "HeroId": "Gamora",
-              "Power": 16531,
+              "Power": 16198,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11094,7 +11135,7 @@
             },
             {
               "HeroId": "RocketRaccoon",
-              "Power": 16452,
+              "Power": 16149,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11110,7 +11151,7 @@
             },
             {
               "HeroId": "Groot",
-              "Power": 16377,
+              "Power": 16097,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11126,7 +11167,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 17017,
+              "Power": 16874,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11142,7 +11183,7 @@
             },
             {
               "HeroId": "Drax",
-              "Power": 16460,
+              "Power": 16156,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11158,7 +11199,7 @@
             },
             {
               "HeroId": "BaronMordo",
-              "Power": 16506,
+              "Power": 16193,
               "Level": 60,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -11174,7 +11215,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 8429,
+              "Power": 8186,
               "Level": 54,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -11190,7 +11231,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 6972,
+              "Power": 6630,
               "Level": 54,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -11206,7 +11247,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 8429,
+              "Power": 8238,
               "Level": 54,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -11222,7 +11263,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 4980,
+              "Power": 4788,
               "Level": 54,
               "GearLevel": 8,
               "Loyalty": 4,
@@ -11238,7 +11279,7 @@
             },
             {
               "HeroId": "StarLord",
-              "Power": 4980,
+              "Power": 4821,
               "Level": 54,
               "GearLevel": 8,
               "Loyalty": 4,
