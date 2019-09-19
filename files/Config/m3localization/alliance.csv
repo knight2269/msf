@@ -238,6 +238,25 @@ ID_AVA_TOP,IN A TOP 100 ALLIANCE
 ID_AVA_NOT_TOP,NOT IN A TOP 100 ALLIANCE
 ID_AVA_CURRENT_RANK,CURRENT RANK {rank}
 ID_AVA_REACH_RANK,REACH RANK {rank} FOR:
+ID_AVA_BRONZE_LEAGUE,BRONZE LEAGUE
+ID_AVA_SILVER_LEAGUE,SILVER LEAGUE
+ID_AVA_GOLD_LEAGUE,GOLD LEAGUE
+ID_AVA_DIAMOND_LEAGUE,PLATINUM LEAGUE
+ID_AVA_CHAMPION_LEAGUE,DIAMOND LEAGUE
+ID_AVA_BRONZE_LEAGUE_DIVISION,BRONZE {div}
+ID_AVA_SILVER_LEAGUE_DIVISION,SILVER {div}
+ID_AVA_GOLD_LEAGUE_DIVISION,GOLD {div}
+ID_AVA_DIAMOND_LEAGUE_DIVISION,PLATINUM {div}
+ID_AVA_CHAMPION_LEAGUE_DIVISION,DIAMOND {div}
+ID_AVA_BRONZE_LEAGUE_NODIV,BRONZE
+ID_AVA_SILVER_LEAGUE_NODIV,SILVER
+ID_AVA_GOLD_LEAGUE_NODIV,GOLD
+ID_AVA_DIAMOND_LEAGUE_NODIV,PLATINUM
+ID_AVA_CHAMPION_LEAGUE_NODIV,DIAMOND
+ID_AVA_LEAGUE_DIVISION_1,I
+ID_AVA_LEAGUE_DIVISION_2,II
+ID_AVA_LEAGUE_DIVISION_3,III
+ID_AVA_LEAGUE_DIVISION_4,IV
 ID_AVA_VS,VS
 ID_AVA_SQUADS_ASSEMBLE,ASSEMBLE YOUR DEFENSE TEAM
 ID_AVA_SQUADS_BELONG_TO,THESE SQUADS BELONG TO UID: {uid}
@@ -400,6 +419,7 @@ ID_AVA3D_FINAL_RESULTS,FINAL RESULT
 ID_AVA3D_PLAYERS_TITLE,MVP PLAYERS
 ID_AVA3D_MVP,MVP
 ID_AVA3D_NO_MVP,NO MVP
+ID_AVA3D_WAR_LEAGUEPOINTS_DELTA,{points} {delta}
 ID_AVA3D_WAR_VICTORY,WAR VICTORY
 ID_AVA3D_WAR_DEFEAT,WAR DEFEAT
 ID_AVA3D_WAR_LEADERBOARD_DETAILS_HELP,The winning alliance receives bonus leaderboard points based on a percentage of the alliance's Total Collection Power.
@@ -409,6 +429,11 @@ ID_AVA3D_WAR_LEADERBOARD_MATCH_POINTS,MATCH PTS
 ID_AVA3D_WAR_LEADERBOARD_VICTORY_BONUS,VICTORY BONUS PTS
 ID_AVA3D_DID_NOT_PARTICIPATE,Perform an attack or boost to earn War rewards.
 ID_AVA3D_LEADERBOARD_POINTS,LEADERBOARD POINTS
+ID_AVA3D_LEAGUE_PROMOTION,LEAGUE PROMOTION!
+ID_AVA3D_LEAGUE_CHANGE,LEAGUE CHANGE!
+ID_AVA3D_LEAGUE_TAB_RANKINGS,RANKINGS
+ID_AVA3D_LEAGUE_TAB_LEAGUEINFO,LEAGUES
+ID_AVA3D_LEAGUE_TAB_REWARDS,REWARDS
 ID_AVA3D_ACTIVELANDING_BATTLE,BATTLE
 ID_AVA3D_LANDING_STORE,STORE
 ID_AVA3D_LANDING_LEAGUE,LEAGUE INFO
@@ -461,7 +486,7 @@ ID_AVA3D_WAR_BREACH_SLOT_REMAINING,Defeat all squads from 1 Player to unlock adj
 ID_AVA3D_WAR_BREACH_CLEAR,Adjacent rooms unlocked
 ID_AVA_VICTORY_REWARDS_TITLE,VICTORY REWARDS
 ID_AVA_DEFEAT_REWARDS_TITLE,DEFEAT REWARDS
-ID_AVA_KNOCKOUT_REWARDS_TITLE,KNOCK OUT REWARDS
+ID_AVA_KNOCKOUT_REWARDS_TITLE,KNOCK OUT\nREWARDS
 ID_AVA_WAR_SCHEDULING_POPUP_HEAD,WAR TIMES
 ID_AVA_WAR_SCHEDULING_POPUP_DESC,Schedule a time for the war to begin.\nChanges will take effect after the upcoming war.
 ID_AVA_WAR_NO_START_TIME,No War Scheduled
@@ -476,7 +501,7 @@ ID_AVA3D_DRAW,DRAW
 ID_AVA3D_INACTIVE_LANDING_POPUP_HEADER,RULES
 ID_AVA3D_INACTIVE_LANDING_POPUP_SUBHEADER,Welcome to Alliance War!
 ID_AVA3D_INACTIVE_LANDING_POPUP_SUBHEADER2,
-ID_AVA3D_INACTIVE_LANDING_POPUP_BODY,"<color=#db8721>GENERAL</color>\n\n<color=#86e619>1)</color> Alliances are automatically matched with another Alliance multiple times a week for a 24-hour War.\n\n<color=#86e619>2)</color> Use War Energy to battle defensive squads and score points. War Energy is regenerated during the duration of the War, and War Energy Refills can be used to refresh War Energy for additional attacks.\n<color=#fff568>NOTE:</color> At the start of War everyone begins with 2 War Energy, regardless of the amount one may have ended with from the previous War.\n<color=#fff568>TIP:</color> When attacking, you do not need a full team of 5 characters. Select anywhere from 1 to 5 characters per attack.\n\n<color=#86e619>3)</color> Earn points for each defending character defeated by the end of a battle (summoned characters do not count as a point). Room Points are earned for destroying all defensive squads in a room.\n<color=#fff568>TIP:</color> Some rooms are worth more points than others, so focus your attacks wisely.\n\n<color=#86e619>4)</color> The Alliance with the most points when time runs out wins the War. If the score is tied, the match will be a draw and both Alliances will receive the Defeat rewards. If both Alliances destroy each other's Helicarrier, whoever destroyed it first wins. Rewards are sent to your Inbox.\n\n<color=#86e619>5)</color> All players that participated in a War will receive either the Victory or Defeat rewards. Participation includes at least one attack or boost. You must be in an Alliance for a minimum of 5 days to receive a War's season rewards.\n\n<color=#86e619>6)</color> The points your Alliance earned in a War will be applied to the War Season Leaderboard. Winning Alliances will also get a Leaderboard Point Bonus, which is based on a percentage of the Alliance's Total Collection Power calculated at the end of the War.\n<color=#fff568>TIP:</color> Keep powering up your characters even if you don't use them to maximize your Leaderboard Point Bonus.\n\n<color=#86e619>7)</color> Powering up your roster during a War will impact your attacking characters, but not your defending characters (their improved Power will take effect in the next War).\n\n<color=#86e619>8)</color> If you leave an Alliance during a War, your defending characters will continue to defend the Helicarrier for the duration of that War.\n\n<color=#86e619>9)</color> When you join an Alliance, you will have a 24-hour cooldown until you can set defenses for the Helicarrier or participate in a War.\n\n<color=#db8721>SETTING UP DEFENSES</color>\n\n<color=#86e619>1)</color> You can set up your Helicarrier defenses in between Wars (also known as Peacetime).\n\n<color=#86e619>2)</color> Access your Alliance Helicarrier from the Alliance War screen.\n\n<color=#86e619>3)</color> Select an available room.\n\n<color=#86e619>4)</color> Claim a slot. (You can only defend a single room.)\n\n<color=#86e619>5)</color>Edit your defensive squads.\n <color=#86e619>a)</color> You can set a total of 8 squads.\n <color=#86e619>b)</color> Unfilled squad slots will use default S.H.I.E.L.D. Guards, which are level 40, gear tier 4, with ability levels 3/3/1.\n <color=#86e619>c)</color> Squads can be a mix of characters from your roster and default S.H.I.E.L.D. Guards.\n <color=#86e619>d)</color> Characters set on defense CANNOT be used to attack.\n <color=#86e619>e)</color> The order in which squads are placed is the order in which they will appear to attackers.\n<color=#fff568>TIP:</color> Managing your roster is key to being successful in Alliance War. Think ahead to which characters you'd like to use for defense and which ones to use to attack.\n\n<color=#86e619>6)</color> Once you have set up your defenses, you are ready for War.\n\n<color=#fff568>NOTE:</color> Rooms that are above, below, to the left, and to the right of a room are considered adjacent to that room. \n\n<color=#db8721>PARTICIPATING IN WAR</color>\n\n<color=#86e619>1)</color> Characters can only be used to attack once per War.\n<color=#fff568>TIP:</color> Stretch your roster further by bringing fewer than 5 characters into battle.\n\n<color=#86e619>2)</color> Each room has two slots that are defended by two players from the opposing Alliance. Select a room and choose a squad to attack. A total of four squads are visible at a time (two per defending player), and they are displayed in the order in which they were placed.\n\n<color=#86e619>3)</color> Gain access to rooms below by defeating all the squads of one defending player. Defeat all the squads of both players to reveal rooms to the top, left, and right.\n\n<color=#86e619>4)</color> Boosts can be applied to your defensive squads while viewing your defenses."
+ID_AVA3D_INACTIVE_LANDING_POPUP_BODY,"<color=#db8721>GENERAL</color>\n\n<color=#86e619>1)</color> Alliances are automatically matched with another Alliance multiple times a week for a 24-hour War.\n\n<color=#86e619>2)</color> Use War Energy to battle defensive squads and score points. War Energy is regenerated during the duration of the War, and War Energy Refills can be used to refresh War Energy for additional attacks.\n<color=#fff568>NOTE:</color> At the start of War everyone begins with 2 War Energy, regardless of the amount one may have ended with from the previous War.\n<color=#fff568>TIP:</color> When attacking, you do not need a full team of 5 characters. Select anywhere from 1 to 5 characters per attack.\n\n<color=#86e619>3)</color> Earn points for each defending character defeated by the end of a battle (summoned characters do not count as a point). Room Points are earned for destroying all defensive squads in a room.\n<color=#fff568>TIP:</color> Some rooms are worth more points than others, so focus your attacks wisely.\n\n<color=#86e619>4)</color> The Alliance with the most points when time runs out wins the War. If the score is tied, the match will be a draw and both Alliances will receive the Defeat rewards. If both Alliances destroy each other's Helicarrier, whoever destroyed it first wins. Rewards are sent to your Inbox.\n\n<color=#86e619>5)</color> All players that participated in a War will receive either the Victory or Defeat rewards. Participation includes at least one attack or boost. You must be in an Alliance for a minimum of 5 days to receive a War's season rewards.\n\n<color=#86e619>6)</color> The points your Alliance earned in a War will be applied to the War Season Leaderboard. Winning Alliances will also get a Leaderboard Point Bonus, which is based on a percentage of the Alliance's Total Collection Power calculated at the end of the War.\n<color=#fff568>TIP:</color> Keep powering up your characters even if you don't use them to maximize your Leaderboard Point Bonus.\n\n<color=#86e619>7)</color> Powering up your roster during a War will impact your attacking characters, but not your defending characters (their improved Power will take effect in the next War).\n\n<color=#86e619>8)</color> If you leave an Alliance during a War, your defending characters will continue to defend the Helicarrier for the duration of that War.\n\n<color=#86e619>9)</color> When you join an Alliance, you will have a 24-hour cooldown until you can set defenses for the Helicarrier or participate in a War.\n\n<color=#db8721>LEAGUES</color>\n\n<color=#86e619>1)</color> Leagues are a way for alliances to increase their rewards in War by climbing League Tiers.\n\n<color=#86e619>2)</color> Alliances earn and lose Trophies by winning and losing War matches. If the alliance earns or loses enough Trophies, the alliance will enter a new League Tier.\n\n<color=#86e619>3)</color> The amount of Trophies that can be won or lost in a War match is dependent on the league your alliance is in and the league your opponent is in.\n\n<color=#fff568>NOTE:</color> League Tiers are not factored in to matchmaking.\n\n<color=#db8721>SETTING UP DEFENSES</color>\n\n<color=#86e619>1)</color> You can set up your Helicarrier defenses in between Wars (also known as Peacetime).\n\n<color=#86e619>2)</color> Access your Alliance Helicarrier from the Alliance War screen.\n\n<color=#86e619>3)</color> Select an available room.\n\n<color=#86e619>4)</color> Claim a slot. (You can only defend a single room.)\n\n<color=#86e619>5)</color>Edit your defensive squads.\n <color=#86e619>a)</color> You can set a total of 8 squads.\n <color=#86e619>b)</color> Unfilled squad slots will use default S.H.I.E.L.D. Guards, which are level 40, gear tier 4, with ability levels 3/3/1.\n <color=#86e619>c)</color> Squads can be a mix of characters from your roster and default S.H.I.E.L.D. Guards.\n <color=#86e619>d)</color> Characters set on defense CANNOT be used to attack.\n <color=#86e619>e)</color> The order in which squads are placed is the order in which they will appear to attackers.\n<color=#fff568>TIP:</color> Managing your roster is key to being successful in Alliance War. Think ahead to which characters you'd like to use for defense and which ones to use to attack.\n\n<color=#86e619>6)</color> Once you have set up your defenses, you are ready for War.\n\n<color=#fff568>NOTE:</color> Rooms that are above, below, to the left, and to the right of a room are considered adjacent to that room. \n\n<color=#db8721>PARTICIPATING IN WAR</color>\n\n<color=#86e619>1)</color> Characters can only be used to attack once per War.\n<color=#fff568>TIP:</color> Stretch your roster further by bringing fewer than 5 characters into battle.\n\n<color=#86e619>2)</color> Each room has two slots that are defended by two players from the opposing Alliance. Select a room and choose a squad to attack. A total of four squads are visible at a time (two per defending player), and they are displayed in the order in which they were placed.\n\n<color=#86e619>3)</color> Gain access to rooms below by defeating all the squads of one defending player. Defeat all the squads of both players to reveal rooms to the top, left, and right.\n\n<color=#86e619>4)</color> Boosts can be applied to your defensive squads while viewing your defenses."
 ID_AVA3D_MOVEROOMS_PROMPT,Tap two rooms to move them
 ID_AVA3D_JOINCOOLDOWN_POPUP_HEADER,Alliance Cooldown
 ID_AVA3D_JOINCOOLDOWN_POPUP_DESC,You must wait 24 hours after joining an alliance before participating in war.
@@ -578,3 +603,5 @@ ID_AVA_PROMOTION,Promotion:
 ID_AVA_CURRENT,Current:
 ID_AVA_TROPHIES,Trophies:
 ID_AVA_LEAGUE_TAB_DESCRIPTION,Earn Trophies to get promoted to the next League Tier by winning Alliance War matches!
+ID_AVA_LEAGUE_CURRENT_SUFFIX,<color=#00ff00> (Current)</color>
+ID_AVA_LEAGUE_WAR_REWARDS_UPDATED,Updated War rewards

@@ -178,13 +178,13 @@
   "Coulson": {
     "id": "Coulson",
     "basekey": "Coulson",
-    "unlock_StarLevel": 7,
+    "unlock_StarLevel": 4,
     "hero_stat_template_id": "Coulson",
     "hero_gear_tier_data_id": "Coulson",
     "picture": "Portrait_Coulson",
-    "player_Character": false,
+    "player_Character": true,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 0
   },
   "Crossbones": {
     "id": "Crossbones",
@@ -292,6 +292,17 @@
     "hero_stat_template_id": "Gamora",
     "hero_gear_tier_data_id": "Gamora",
     "picture": "Portrait_Gamora",
+    "player_Character": true,
+    "hero_Size": "Medium",
+    "blacklist_mode": 0
+  },
+  "Graviton": {
+    "id": "Graviton",
+    "basekey": "Graviton",
+    "unlock_StarLevel": 3,
+    "hero_stat_template_id": "Graviton",
+    "hero_gear_tier_data_id": "Graviton",
+    "picture": "Portrait_Graviton",
     "player_Character": true,
     "hero_Size": "Medium",
     "blacklist_mode": 0
@@ -453,13 +464,13 @@
   "InvisibleWoman": {
     "id": "InvisibleWoman",
     "basekey": "InvisibleWoman",
-    "unlock_StarLevel": 7,
+    "unlock_StarLevel": 5,
     "hero_stat_template_id": "InvisibleWoman",
     "hero_gear_tier_data_id": "InvisibleWoman",
     "picture": "Portrait_InvisibleWoman",
-    "player_Character": false,
+    "player_Character": true,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 0
   },
   "IronFist": {
     "id": "IronFist",
@@ -1000,17 +1011,6 @@
     "hero_Size": "Medium",
     "blacklist_mode": 0
   },
-  "RedSkull": {
-    "id": "RedSkull",
-    "basekey": "RedSkull",
-    "unlock_StarLevel": 5,
-    "hero_stat_template_id": "RedSkull",
-    "hero_gear_tier_data_id": "RedSkull",
-    "picture": "Portrait_RedSkull",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
-  },
   "Rhino": {
     "id": "Rhino",
     "basekey": "Rhino",
@@ -1239,7 +1239,7 @@
     "hero_gear_tier_data_id": "Thing",
     "picture": "Portrait_Thing",
     "player_Character": true,
-    "hero_Size": "Medium",
+    "hero_Size": "Large",
     "blacklist_mode": 0
   },
   "Thor": {
@@ -1296,61 +1296,6 @@
     "player_Character": true,
     "hero_Size": "Medium",
     "blacklist_mode": 0
-  },
-  "UltronDmg_Defense": {
-    "id": "UltronDmg_Defense",
-    "basekey": "UltronDmgDefense",
-    "unlock_StarLevel": 1,
-    "hero_stat_template_id": "NPCUltronDmg_Defense",
-    "hero_gear_tier_data_id": "NPCUltronDmg_Defense",
-    "picture": "Portrait_UltronDmg_Defense",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
-  },
-  "UltronDmg_Offense": {
-    "id": "UltronDmg_Offense",
-    "basekey": "UltronDmgOffense",
-    "unlock_StarLevel": 1,
-    "hero_stat_template_id": "NPCUltronDmg_Offense",
-    "hero_gear_tier_data_id": "NPCUltronDmg_Offense",
-    "picture": "Portrait_UltronDmg_Offense",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
-  },
-  "UltronDmg_Speed": {
-    "id": "UltronDmg_Speed",
-    "basekey": "UltronDmgSpeed",
-    "unlock_StarLevel": 1,
-    "hero_stat_template_id": "NPCUltronDmg_Speed",
-    "hero_gear_tier_data_id": "NPCUltronDmg_Speed",
-    "picture": "Portrait_UltronDmg_Speed",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
-  },
-  "UltronSupport_Heal": {
-    "id": "UltronSupport_Heal",
-    "basekey": "UltronSupportHeal",
-    "unlock_StarLevel": 1,
-    "hero_stat_template_id": "NPCUltronSupport_Heal",
-    "hero_gear_tier_data_id": "NPCUltronSupport_Heal",
-    "picture": "Portrait_UltronSupport_Heal",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
-  },
-  "UltronTank_Taunt": {
-    "id": "UltronTank_Taunt",
-    "basekey": "UltronTankTaunt",
-    "unlock_StarLevel": 1,
-    "hero_stat_template_id": "NPCUltronTank_Taunt",
-    "hero_gear_tier_data_id": "NPCUltronTank_Taunt",
-    "picture": "Portrait_UltronTank_Taunt",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 1
   },
   "Venom": {
     "id": "Venom",
@@ -1462,6 +1407,116 @@
     "hero_Size": "Medium",
     "blacklist_mode": 2
   },
+  "Buddy": {
+    "id": "Buddy",
+    "basekey": "Buddy",
+    "unlock_StarLevel": 7,
+    "hero_stat_template_id": "average",
+    "hero_gear_tier_data_id": "average",
+    "picture": "Portrait_KreeControl_Assist",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 2
+  },
+  "Lockjaw": {
+    "id": "Lockjaw",
+    "basekey": "Lockjaw",
+    "unlock_StarLevel": 7,
+    "hero_stat_template_id": "average",
+    "hero_gear_tier_data_id": "average",
+    "picture": "Portrait_KreeControl_Assist",
+    "player_Character": false,
+    "hero_Size": "medium",
+    "blacklist_mode": 2
+  },
+  "UltronDmg_Defense": {
+    "id": "UltronDmg_Defense",
+    "basekey": "UltronDmgDefense",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "NPCUltronDmg_Defense",
+    "hero_gear_tier_data_id": "NPCUltronDmg_Defense",
+    "picture": "Portrait_UltronDmg_Defense",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "UltronDmg_Offense": {
+    "id": "UltronDmg_Offense",
+    "basekey": "UltronDmgOffense",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "NPCUltronDmg_Offense",
+    "hero_gear_tier_data_id": "NPCUltronDmg_Offense",
+    "picture": "Portrait_UltronDmg_Offense",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "UltronDmg_Speed": {
+    "id": "UltronDmg_Speed",
+    "basekey": "UltronDmgSpeed",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "NPCUltronDmg_Speed",
+    "hero_gear_tier_data_id": "NPCUltronDmg_Speed",
+    "picture": "Portrait_UltronDmg_Speed",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "UltronSupport_Heal": {
+    "id": "UltronSupport_Heal",
+    "basekey": "UltronSupportHeal",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "NPCUltronSupport_Heal",
+    "hero_gear_tier_data_id": "NPCUltronSupport_Heal",
+    "picture": "Portrait_UltronSupport_Heal",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "UltronTank_Taunt": {
+    "id": "UltronTank_Taunt",
+    "basekey": "UltronTankTaunt",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "NPCUltronTank_Taunt",
+    "hero_gear_tier_data_id": "NPCUltronTank_Taunt",
+    "picture": "Portrait_UltronTank_Taunt",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "Groot_Props": {
+    "id": "Groot_Props",
+    "basekey": "GrootProps",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "average",
+    "hero_gear_tier_data_id": "average",
+    "picture": "Portrait_KreeControl_Assist",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "RocketRaccoon_Props": {
+    "id": "RocketRaccoon_Props",
+    "basekey": "RocketRaccoonProps",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "average",
+    "hero_gear_tier_data_id": "average",
+    "picture": "Portrait_KreeControl_Assist",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
+  "RedSkull": {
+    "id": "RedSkull",
+    "basekey": "RedSkull",
+    "unlock_StarLevel": 1,
+    "hero_stat_template_id": "RedSkull",
+    "hero_gear_tier_data_id": "RedSkull",
+    "picture": "Portrait_RedSkull",
+    "player_Character": false,
+    "hero_Size": "Medium",
+    "blacklist_mode": 1
+  },
   "AimOperator": {
     "id": "AimOperator",
     "basekey": "AimOperator",
@@ -1484,17 +1539,6 @@
     "hero_Size": "Medium",
     "blacklist_mode": 1
   },
-  "Buddy": {
-    "id": "Buddy",
-    "basekey": "Buddy",
-    "unlock_StarLevel": 7,
-    "hero_stat_template_id": "average",
-    "hero_gear_tier_data_id": "average",
-    "picture": "Portrait_KreeControl_Assist",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 2
-  },
   "DoctorStrangeOperator": {
     "id": "DoctorStrangeOperator",
     "basekey": "DoctorStrangeOperator",
@@ -1505,17 +1549,6 @@
     "player_Character": false,
     "hero_Size": "Medium",
     "blacklist_mode": 1
-  },
-  "Groot_Props": {
-    "id": "Groot_Props",
-    "basekey": "GrootProps",
-    "unlock_StarLevel": 7,
-    "hero_stat_template_id": "average",
-    "hero_gear_tier_data_id": "average",
-    "picture": "Portrait_KreeControl_Assist",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 2
   },
   "HandOperator": {
     "id": "HandOperator",
@@ -1572,17 +1605,6 @@
     "hero_Size": "Medium",
     "blacklist_mode": 1
   },
-  "Lockjaw": {
-    "id": "Lockjaw",
-    "basekey": "Lockjaw",
-    "unlock_StarLevel": 7,
-    "hero_stat_template_id": "average",
-    "hero_gear_tier_data_id": "average",
-    "picture": "Portrait_KreeControl_Assist",
-    "player_Character": false,
-    "hero_Size": "medium",
-    "blacklist_mode": 2
-  },
   "MercOperator": {
     "id": "MercOperator",
     "basekey": "MercOperator",
@@ -1637,17 +1659,6 @@
     "player_Character": false,
     "hero_Size": "Medium",
     "blacklist_mode": 1
-  },
-  "RocketRaccoon_Props": {
-    "id": "RocketRaccoon_Props",
-    "basekey": "RocketRaccoonProps",
-    "unlock_StarLevel": 7,
-    "hero_stat_template_id": "average",
-    "hero_gear_tier_data_id": "average",
-    "picture": "Portrait_KreeControl_Assist",
-    "player_Character": false,
-    "hero_Size": "Medium",
-    "blacklist_mode": 2
   },
   "ShieldOperator": {
     "id": "ShieldOperator",
@@ -1757,7 +1768,7 @@
     "picture": "Portrait_ShieldDmg_AoE",
     "player_Character": false,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 1
   },
   "War_ShieldDmg_Defense": {
     "id": "War_ShieldDmg_Defense",
@@ -1768,7 +1779,7 @@
     "picture": "Portrait_ShieldDmg_Defense",
     "player_Character": false,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 1
   },
   "War_ShieldSupport_Heal": {
     "id": "War_ShieldSupport_Heal",
@@ -1779,7 +1790,7 @@
     "picture": "Portrait_ShieldSupport_Heal",
     "player_Character": false,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 1
   },
   "War_ShieldSupport_Stealth": {
     "id": "War_ShieldSupport_Stealth",
@@ -1790,7 +1801,7 @@
     "picture": "Portrait_ShieldSupport_Stealth",
     "player_Character": false,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 1
   },
   "War_ShieldTank_Stun": {
     "id": "War_ShieldTank_Stun",
@@ -1801,6 +1812,6 @@
     "picture": "Portrait_ShieldTank_Stun",
     "player_Character": false,
     "hero_Size": "Medium",
-    "blacklist_mode": 2
+    "blacklist_mode": 1
   }
 }

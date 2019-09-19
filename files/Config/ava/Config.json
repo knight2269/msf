@@ -37,6 +37,15 @@
       6
     ]
   },
+  "WarEnder": {
+    "timeSlots": [
+      20
+    ],
+    "activeDaysOfWeek": [
+      0
+    ],
+    "minutesBeforeEndTime": 50
+  },
   "WarCombatRewards": [
     {
       "tier": 0,
@@ -276,10 +285,13 @@
   "LeagueData": [
     {
       "level": 0,
-      "division": "ID_AVA_LEAGUE_DIVISION_1",
+      "league": 0,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_1",
+      "leagueKey": "ID_AVA_BRONZE_LEAGUE_NODIV",
       "name": "ID_AVA_BRONZE_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Bronze_Medal",
+      "iconFrame": "UI_Leagues_Bronze_Frame",
+      "divisionAsset": "UI_Leagues_Bronze_Division",
       "pointRangeMin": 0,
       "pointRangeMax": 99,
       "pointDemotionThreshold": -1,
@@ -295,14 +307,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_0",
       "warLossReward": "w_completion_consolation",
-      "warWinReward": "w_completion_victory"
+      "warWinReward": "w_completion_victory",
+      "preseedingEloMin": 0
     },
     {
       "level": 1,
-      "division": "ID_AVA_LEAGUE_DIVISION_2",
+      "league": 0,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_2",
+      "leagueKey": "ID_AVA_BRONZE_LEAGUE_NODIV",
       "name": "ID_AVA_BRONZE_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Bronze_Medal",
+      "iconFrame": "UI_Leagues_Bronze_Frame",
+      "divisionAsset": "UI_Leagues_Bronze_Division",
       "pointRangeMin": 100,
       "pointRangeMax": 149,
       "pointDemotionThreshold": 90,
@@ -319,14 +335,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_1",
       "warLossReward": "w_completion_consolation_1",
-      "warWinReward": "w_completion_victory_1"
+      "warWinReward": "w_completion_victory_1",
+      "preseedingEloMin": 526
     },
     {
       "level": 2,
-      "division": "ID_AVA_LEAGUE_DIVISION_3",
+      "league": 0,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_3",
+      "leagueKey": "ID_AVA_BRONZE_LEAGUE_NODIV",
       "name": "ID_AVA_BRONZE_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Bronze_Medal",
+      "iconFrame": "UI_Leagues_Bronze_Frame",
+      "divisionAsset": "UI_Leagues_Bronze_Division",
       "pointRangeMin": 150,
       "pointRangeMax": 199,
       "pointDemotionThreshold": 130,
@@ -344,14 +364,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_2",
       "warLossReward": "w_completion_consolation_2",
-      "warWinReward": "w_completion_victory_2"
+      "warWinReward": "w_completion_victory_2",
+      "preseedingEloMin": 1063
     },
     {
       "level": 3,
-      "division": "ID_AVA_LEAGUE_DIVISION_4",
+      "league": 0,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_4",
+      "leagueKey": "ID_AVA_BRONZE_LEAGUE_NODIV",
       "name": "ID_AVA_BRONZE_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Bronze_Medal",
+      "iconFrame": "UI_Leagues_Bronze_Frame",
+      "divisionAsset": "UI_Leagues_Bronze_Division",
       "pointRangeMin": 200,
       "pointRangeMax": 274,
       "pointDemotionThreshold": 190,
@@ -370,14 +394,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_3",
       "warLossReward": "w_completion_consolation_3",
-      "warWinReward": "w_completion_victory_3"
+      "warWinReward": "w_completion_victory_3",
+      "preseedingEloMin": 1335
     },
     {
       "level": 4,
-      "division": "ID_AVA_LEAGUE_DIVISION_1",
+      "league": 1,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_1",
+      "leagueKey": "ID_AVA_SILVER_LEAGUE_NODIV",
       "name": "ID_AVA_SILVER_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Silver_Medal",
+      "iconFrame": "UI_Leagues_Silver_Frame",
+      "divisionAsset": "UI_Leagues_Silver_Division",
       "pointRangeMin": 275,
       "pointRangeMax": 349,
       "pointDemotionThreshold": 250,
@@ -396,14 +424,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_4",
       "warLossReward": "w_completion_consolation_4",
-      "warWinReward": "w_completion_victory_4"
+      "warWinReward": "w_completion_victory_4",
+      "preseedingEloMin": 1555
     },
     {
       "level": 5,
-      "division": "ID_AVA_LEAGUE_DIVISION_2",
+      "league": 1,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_2",
+      "leagueKey": "ID_AVA_SILVER_LEAGUE_NODIV",
       "name": "ID_AVA_SILVER_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Silver_Medal",
+      "iconFrame": "UI_Leagues_Silver_Frame",
+      "divisionAsset": "UI_Leagues_Silver_Division",
       "pointRangeMin": 350,
       "pointRangeMax": 424,
       "pointDemotionThreshold": 330,
@@ -422,14 +454,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_5",
       "warLossReward": "w_completion_consolation_5",
-      "warWinReward": "w_completion_victory_5"
+      "warWinReward": "w_completion_victory_5",
+      "preseedingEloMin": 1708
     },
     {
       "level": 6,
-      "division": "ID_AVA_LEAGUE_DIVISION_3",
+      "league": 1,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_3",
+      "leagueKey": "ID_AVA_SILVER_LEAGUE_NODIV",
       "name": "ID_AVA_SILVER_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Silver_Medal",
+      "iconFrame": "UI_Leagues_Silver_Frame",
+      "divisionAsset": "UI_Leagues_Silver_Division",
       "pointRangeMin": 425,
       "pointRangeMax": 499,
       "pointDemotionThreshold": 400,
@@ -448,14 +484,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_6",
       "warLossReward": "w_completion_consolation_6",
-      "warWinReward": "w_completion_victory_6"
+      "warWinReward": "w_completion_victory_6",
+      "preseedingEloMin": 1821
     },
     {
       "level": 7,
-      "division": "ID_AVA_LEAGUE_DIVISION_4",
+      "league": 1,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_4",
+      "leagueKey": "ID_AVA_SILVER_LEAGUE_NODIV",
       "name": "ID_AVA_SILVER_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Silver_Medal",
+      "iconFrame": "UI_Leagues_Silver_Frame",
+      "divisionAsset": "UI_Leagues_Silver_Division",
       "pointRangeMin": 500,
       "pointRangeMax": 599,
       "pointDemotionThreshold": 480,
@@ -474,14 +514,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_7",
       "warLossReward": "w_completion_consolation_7",
-      "warWinReward": "w_completion_victory_7"
+      "warWinReward": "w_completion_victory_7",
+      "preseedingEloMin": 1931
     },
     {
       "level": 8,
-      "division": "ID_AVA_LEAGUE_DIVISION_1",
+      "league": 2,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_1",
+      "leagueKey": "ID_AVA_GOLD_LEAGUE_NODIV",
       "name": "ID_AVA_GOLD_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Gold_Medal",
+      "iconFrame": "UI_Leagues_Gold_Frame",
+      "divisionAsset": "UI_Leagues_Gold_Division",
       "pointRangeMin": 600,
       "pointRangeMax": 699,
       "pointDemotionThreshold": 580,
@@ -500,14 +544,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_8",
       "warLossReward": "w_completion_consolation_8",
-      "warWinReward": "w_completion_victory_8"
+      "warWinReward": "w_completion_victory_8",
+      "preseedingEloMin": 2073
     },
     {
       "level": 9,
-      "division": "ID_AVA_LEAGUE_DIVISION_2",
+      "league": 2,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_2",
+      "leagueKey": "ID_AVA_GOLD_LEAGUE_NODIV",
       "name": "ID_AVA_GOLD_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Gold_Medal",
+      "iconFrame": "UI_Leagues_Gold_Frame",
+      "divisionAsset": "UI_Leagues_Gold_Division",
       "pointRangeMin": 700,
       "pointRangeMax": 849,
       "pointDemotionThreshold": 680,
@@ -526,14 +574,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_9",
       "warLossReward": "w_completion_consolation_9",
-      "warWinReward": "w_completion_victory_9"
+      "warWinReward": "w_completion_victory_9",
+      "preseedingEloMin": 2263
     },
     {
       "level": 10,
-      "division": "ID_AVA_LEAGUE_DIVISION_3",
+      "league": 2,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_3",
+      "leagueKey": "ID_AVA_GOLD_LEAGUE_NODIV",
       "name": "ID_AVA_GOLD_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Gold_Medal",
+      "iconFrame": "UI_Leagues_Gold_Frame",
+      "divisionAsset": "UI_Leagues_Gold_Division",
       "pointRangeMin": 850,
       "pointRangeMax": 999,
       "pointDemotionThreshold": 830,
@@ -552,14 +604,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_10",
       "warLossReward": "w_completion_consolation_10",
-      "warWinReward": "w_completion_victory_10"
+      "warWinReward": "w_completion_victory_10",
+      "preseedingEloMin": -1
     },
     {
       "level": 11,
-      "division": "ID_AVA_LEAGUE_DIVISION_4",
+      "league": 2,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_4",
+      "leagueKey": "ID_AVA_GOLD_LEAGUE_NODIV",
       "name": "ID_AVA_GOLD_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Gold_Medal",
+      "iconFrame": "UI_Leagues_Gold_Frame",
+      "divisionAsset": "UI_Leagues_Gold_Division",
       "pointRangeMin": 1000,
       "pointRangeMax": 1199,
       "pointDemotionThreshold": 950,
@@ -578,14 +634,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_11",
       "warLossReward": "w_completion_consolation_11",
-      "warWinReward": "w_completion_victory_11"
+      "warWinReward": "w_completion_victory_11",
+      "preseedingEloMin": -1
     },
     {
       "level": 12,
-      "division": "ID_AVA_LEAGUE_DIVISION_1",
+      "league": 3,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_1",
+      "leagueKey": "ID_AVA_DIAMOND_LEAGUE_NODIV",
       "name": "ID_AVA_DIAMOND_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Platinum_Medal",
+      "iconFrame": "UI_Leagues_Platinum_Frame",
+      "divisionAsset": "UI_Leagues_Platinum_Division",
       "pointRangeMin": 1200,
       "pointRangeMax": 1399,
       "pointDemotionThreshold": 1150,
@@ -604,14 +664,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_12",
       "warLossReward": "w_completion_consolation_12",
-      "warWinReward": "w_completion_victory_12"
+      "warWinReward": "w_completion_victory_12",
+      "preseedingEloMin": -1
     },
     {
       "level": 13,
-      "division": "ID_AVA_LEAGUE_DIVISION_2",
+      "league": 3,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_2",
+      "leagueKey": "ID_AVA_DIAMOND_LEAGUE_NODIV",
       "name": "ID_AVA_DIAMOND_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Platinum_Medal",
+      "iconFrame": "UI_Leagues_Platinum_Frame",
+      "divisionAsset": "UI_Leagues_Platinum_Division",
       "pointRangeMin": 1400,
       "pointRangeMax": 1599,
       "pointDemotionThreshold": 1350,
@@ -630,14 +694,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_13",
       "warLossReward": "w_completion_consolation_13",
-      "warWinReward": "w_completion_victory_13"
+      "warWinReward": "w_completion_victory_13",
+      "preseedingEloMin": -1
     },
     {
       "level": 14,
-      "division": "ID_AVA_LEAGUE_DIVISION_3",
+      "league": 3,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_3",
+      "leagueKey": "ID_AVA_DIAMOND_LEAGUE_NODIV",
       "name": "ID_AVA_DIAMOND_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Platinum_Medal",
+      "iconFrame": "UI_Leagues_Platinum_Frame",
+      "divisionAsset": "UI_Leagues_Platinum_Division",
       "pointRangeMin": 1600,
       "pointRangeMax": 1899,
       "pointDemotionThreshold": 1550,
@@ -655,14 +723,18 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_14",
       "warLossReward": "w_completion_consolation_14",
-      "warWinReward": "w_completion_victory_14"
+      "warWinReward": "w_completion_victory_14",
+      "preseedingEloMin": -1
     },
     {
       "level": 15,
-      "division": "ID_AVA_LEAGUE_DIVISION_4",
+      "league": 3,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_4",
+      "leagueKey": "ID_AVA_DIAMOND_LEAGUE_NODIV",
       "name": "ID_AVA_DIAMOND_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Platinum_Medal",
+      "iconFrame": "UI_Leagues_Platinum_Frame",
+      "divisionAsset": "UI_Leagues_Platinum_Division",
       "pointRangeMin": 1900,
       "pointRangeMax": 2199,
       "pointDemotionThreshold": 1800,
@@ -679,18 +751,22 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_15",
       "warLossReward": "w_completion_consolation_15",
-      "warWinReward": "w_completion_victory_15"
+      "warWinReward": "w_completion_victory_15",
+      "preseedingEloMin": -1
     },
     {
       "level": 16,
-      "division": "ID_AVA_LEAGUE_DIVISION_1",
+      "league": 4,
+      "divisionKey": "ID_AVA_LEAGUE_DIVISION_1",
+      "leagueKey": "ID_AVA_CHAMPION_LEAGUE_NODIV",
       "name": "ID_AVA_CHAMPION_LEAGUE_DIVISION",
-      "icon": "icon_Armory_Armor",
-      "iconFrame": "icon_Armory_Armor",
+      "icon": "UI_Leagues_Champion_Medal",
+      "iconFrame": "UI_Leagues_Champion_Frame",
+      "divisionAsset": "UI_Leagues_Gold_Division",
       "pointRangeMin": 2200,
       "pointRangeMax": 2499,
       "pointDemotionThreshold": 2100,
-      "pointPromotionThreshold": 2500,
+      "pointPromotionThreshold": -1,
       "pointsPerWin": [
         13
       ],
@@ -702,7 +778,8 @@
       ],
       "warCombatReward": "m_ava_battlecompletion_1_16",
       "warLossReward": "w_completion_consolation_16",
-      "warWinReward": "w_completion_victory_16"
+      "warWinReward": "w_completion_victory_16",
+      "preseedingEloMin": -1
     }
   ]
 }

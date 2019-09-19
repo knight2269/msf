@@ -193,7 +193,7 @@
     "nue_Promotions_01": {
       "moduleID": "nue_Promotions_01",
       "modulePreReqID": "nue_SavedSquads_01",
-      "canRunParallel": false,
+      "canRunParallel": true,
       "levelCap": 75,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     },
@@ -278,6 +278,34 @@
       "moduleID": "nue_WarTimeDefenseF_01",
       "modulePreReqID": "nue_WarTimeDefenseE_01",
       "canRunParallel": true,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_Iso8_Home_01": {
+      "moduleID": "nue_Iso8_Home_01",
+      "modulePreReqID": "nue_Tutorial_02,nue_Tutorial",
+      "canRunParallel": false,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_Iso8_Campaign_01": {
+      "moduleID": "nue_Iso8_Campaign_01",
+      "modulePreReqID": "nue_Iso8_Home_01",
+      "canRunParallel": false,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_Iso8_CraftingGreen_01": {
+      "moduleID": "nue_Iso8_CraftingGreen_01",
+      "modulePreReqID": "nue_Iso8_Campaign_01",
+      "canRunParallel": false,
+      "levelCap": 75,
+      "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
+    },
+    "nue_Iso8_CraftingBlue_01": {
+      "moduleID": "nue_Iso8_CraftingBlue_01",
+      "modulePreReqID": "nue_Iso8_CraftingGreen_01",
+      "canRunParallel": false,
       "levelCap": 75,
       "killSwitches": "LOGINREWARDS,OFFERS,DAILYORBS"
     }

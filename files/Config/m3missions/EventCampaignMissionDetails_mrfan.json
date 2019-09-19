@@ -1,0 +1,7578 @@
+{
+  "Name": "EventCampaignMissionDetails_mrfan",
+  "MissionDetails": [
+    {
+      "ID": "ecm_mrfan_a_01",
+      "locNameKey": "ID_ECM_MRFAN_01_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_01_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_01_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 114159,
+          "TotalHealth": 264756,
+          "CompactWave": [
+            {
+              "HeroId": "Thing",
+              "Power": 38178,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HumanTorch",
+              "Power": 38090,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MrFantastic",
+              "Power": 37891,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterNumberOfActions",
+                  "InitialTurnFill": 500,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "NumberOfActions": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Thing",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "HumanTorch",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_mrfanantastic",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 139474,
+          "TotalHealth": 458482,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 10410,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10653,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10601,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_02",
+      "locNameKey": "ID_ECM_MRFAN_02_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_02_DESC",
+      "mapName": "Env_Bunker_Storage_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_02_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 17833,
+          "TotalHealth": 59367,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 17833,
+              "Level": 62,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 62,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 86144,
+          "TotalHealth": 243821,
+          "CompactWave": [
+            {
+              "HeroId": "Crossbones",
+              "Power": 8723,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 8691,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 7813,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 7928,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7784,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 8699,
+              "Level": 58,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 8924,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 9786,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 8960,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 8836,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_03",
+      "locNameKey": "ID_ECM_MRFAN_03_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_03_DESC",
+      "mapName": "Env_Snow_Exterior_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_03_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 17833,
+          "TotalHealth": 59367,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 17833,
+              "Level": 62,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 62,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 70160,
+          "TotalHealth": 207834,
+          "CompactWave": [
+            {
+              "HeroId": "Graviton",
+              "Power": 13772,
+              "Level": 60,
+              "GearLevel": 7,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 8769,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 8874,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 9968,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 8989,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 9994,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 9794,
+              "Level": 58,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_04",
+      "locNameKey": "ID_ECM_MRFAN_04_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_04_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_04_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 17833,
+          "TotalHealth": 59367,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 17833,
+              "Level": 62,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 62,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "storyTellingEvents": {
+                "-1": "ecm_mrfan_04_operator_03",
+                "-2": "ecm_mrfan_04_operator_02",
+                "-3": "ecm_mrfan_04_operator_01"
+              },
+              "ObjectiveEndStory": "ecm_mrfan_04_operator_fail",
+              "TargetState": 0,
+              "RelativeToStateMax": true,
+              "CantPersist": true,
+              "Type": "EnvObject"
+            }
+          ],
+          "Power": 91323,
+          "TotalHealth": 275601,
+          "CompactWave": [
+            {
+              "HeroId": "AimOperator",
+              "Power": 1844,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 1833,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 7132,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 7132,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 7332,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 7332,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7172,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7172,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 10099,
+              "Level": 50,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 1844,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 7132,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 7332,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 1844,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 1833,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 7118,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 7172,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "Extra": [
+        {
+          "Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+          "Position": {
+            "x": 2,
+            "y": 0,
+            "z": 6.6
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 120,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_05",
+      "locNameKey": "ID_ECM_MRFAN_05_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_05_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_05_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 18061,
+          "TotalHealth": 60385,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 18061,
+              "Level": 63,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 63,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 117260,
+          "TotalHealth": 340718,
+          "CompactWave": [
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 17113,
+              "Level": 61,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 10790,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 10041,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 10041,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 11018,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 12287,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 10729,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 10729,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 12225,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 12287,
+              "Level": 59,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_06",
+      "locNameKey": "ID_ECM_MRFAN_06_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_06_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_06_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 18061,
+          "TotalHealth": 60385,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 18061,
+              "Level": 63,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 63,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 96535,
+          "TotalHealth": 352965,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 13660,
+              "Level": 62,
+              "GearLevel": 6,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 9151,
+              "Level": 60,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 8389,
+              "Level": 60,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 9034,
+              "Level": 60,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 9004,
+              "Level": 60,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 9485,
+              "Level": 60,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 9912,
+              "Level": 60,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 9987,
+              "Level": 60,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 8955,
+              "Level": 60,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 8958,
+              "Level": 60,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_07",
+      "locNameKey": "ID_ECM_MRFAN_07_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_07_DESC",
+      "mapName": "Env_AlienRuins_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_07_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 18061,
+          "TotalHealth": 60385,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 18061,
+              "Level": 63,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 63,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 126878,
+          "TotalHealth": 300143,
+          "CompactWave": [
+            {
+              "HeroId": "Nobu",
+              "Power": 12827,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 12908,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 12938,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 11832,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 13053,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 13053,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 12879,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 12778,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 12778,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 11832,
+              "Level": 61,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_08",
+      "locNameKey": "ID_ECM_MRFAN_08_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_08_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_08_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 19043,
+          "TotalHealth": 61418,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 19043,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_08_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 64,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 138306,
+          "TotalHealth": 455352,
+          "CompactWave": [
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 19687,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 13263,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 18525,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 12077,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 13401,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 12335,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 12023,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 12946,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 12023,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 12026,
+              "Level": 62,
+              "GearLevel": 7,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_a_09",
+      "locNameKey": "ID_ECM_MRFAN_09_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_09_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "NIGHT",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_09_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 19289,
+          "TotalHealth": 62468,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 19289,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_09_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 65,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 129213,
+          "TotalHealth": 475896,
+          "CompactWave": [
+            {
+              "HeroId": "Namor",
+              "Power": 17187,
+              "Level": 65,
+              "GearLevel": 6,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 10339,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 9344,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 10037,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 9061,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 9926,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 9975,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 9975,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 10403,
+              "Level": 63,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 10845,
+              "Level": 63,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11280,
+              "Level": 63,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 10841,
+              "Level": 63,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_01",
+      "locNameKey": "ID_ECM_MRFAN_01_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_01_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_01_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 114159,
+          "TotalHealth": 264756,
+          "CompactWave": [
+            {
+              "HeroId": "Thing",
+              "Power": 38178,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HumanTorch",
+              "Power": 38090,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MrFantastic",
+              "Power": 37891,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterNumberOfActions",
+                  "InitialTurnFill": 500,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "NumberOfActions": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Thing",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "HumanTorch",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_mrfanantastic",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 139474,
+          "TotalHealth": 458482,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 10410,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10653,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10601,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_02",
+      "locNameKey": "ID_ECM_MRFAN_02_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_02_DESC",
+      "mapName": "Env_Bunker_Storage_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_02_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 6711,
+          "TotalHealth": 23991,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 6711,
+              "Level": 43,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 43,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 32173,
+          "TotalHealth": 79340,
+          "CompactWave": [
+            {
+              "HeroId": "Crossbones",
+              "Power": 3293,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 3286,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 3157,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 3185,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3149,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 3279,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 3185,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 3286,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 3187,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 3166,
+              "Level": 43,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_03",
+      "locNameKey": "ID_ECM_MRFAN_03_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_03_DESC",
+      "mapName": "Env_Snow_Exterior_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_03_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 6824,
+          "TotalHealth": 25561,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 6824,
+              "Level": 44,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 44,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 24910,
+          "TotalHealth": 68800,
+          "CompactWave": [
+            {
+              "HeroId": "Graviton",
+              "Power": 4837,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3237,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 3270,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 3429,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 3311,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 3454,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 3372,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_04",
+      "locNameKey": "ID_ECM_MRFAN_04_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_04_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_04_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 7533,
+          "TotalHealth": 26071,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 7533,
+              "Level": 45,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 45,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "storyTellingEvents": {
+                "-1": "ecm_mrfan_04_operator_03",
+                "-2": "ecm_mrfan_04_operator_02",
+                "-3": "ecm_mrfan_04_operator_01"
+              },
+              "ObjectiveEndStory": "ecm_mrfan_04_operator_fail",
+              "TargetState": 0,
+              "RelativeToStateMax": true,
+              "CantPersist": true,
+              "Type": "EnvObject"
+            }
+          ],
+          "Power": 45624,
+          "TotalHealth": 108719,
+          "CompactWave": [
+            {
+              "HeroId": "AimOperator",
+              "Power": 956,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 975,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 3583,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 3674,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 3659,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 3753,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3579,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3670,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 4308,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 956,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 3674,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 3659,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 956,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 975,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 3577,
+              "Level": 44,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 3670,
+              "Level": 45,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "Extra": [
+        {
+          "Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+          "Position": {
+            "x": 2,
+            "y": 0,
+            "z": 6.6
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 120,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_05",
+      "locNameKey": "ID_ECM_MRFAN_05_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_05_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_05_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 8807,
+          "TotalHealth": 30753,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 8807,
+              "Level": 45,
+              "GearLevel": 8,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 45,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 45016,
+          "TotalHealth": 132507,
+          "CompactWave": [
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 5685,
+              "Level": 46,
+              "GearLevel": 5,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 4150,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4141,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4141,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 4212,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 4814,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4141,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4141,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 4777,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 4814,
+              "Level": 45,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_06",
+      "locNameKey": "ID_ECM_MRFAN_06_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_06_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_06_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 8916,
+          "TotalHealth": 31270,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 8916,
+              "Level": 46,
+              "GearLevel": 8,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 46,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 42656,
+          "TotalHealth": 126055,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 5162,
+              "Level": 47,
+              "GearLevel": 4,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 4333,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 3887,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 4311,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 4298,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 4450,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 4294,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 4319,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3804,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 3798,
+              "Level": 46,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_07",
+      "locNameKey": "ID_ECM_MRFAN_07_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_07_DESC",
+      "mapName": "Env_AlienRuins_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_07_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 7752,
+          "TotalHealth": 27115,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 7752,
+              "Level": 47,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 47,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 45056,
+          "TotalHealth": 97864,
+          "CompactWave": [
+            {
+              "HeroId": "Nobu",
+              "Power": 5388,
+              "Level": 47,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 4410,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 5411,
+              "Level": 47,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 3902,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 4460,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 4460,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 4405,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 4359,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 4359,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 3902,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_08",
+      "locNameKey": "ID_ECM_MRFAN_08_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_08_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_08_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 9027,
+          "TotalHealth": 31797,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 9027,
+              "Level": 47,
+              "GearLevel": 8,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_08_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        2,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 47,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 46545,
+          "TotalHealth": 144009,
+          "CompactWave": [
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 6833,
+              "Level": 49,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 4453,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 6833,
+              "Level": 49,
+              "GearLevel": 5,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 3903,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 4488,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 3984,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3899,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 4360,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 3899,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 3893,
+              "Level": 47,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_b_09",
+      "locNameKey": "ID_ECM_MRFAN_09_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_09_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "NIGHT",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_09_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 8166,
+          "TotalHealth": 28905,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 8166,
+              "Level": 48,
+              "GearLevel": 7,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_09_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        4,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 48,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 7,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 58543,
+          "TotalHealth": 184353,
+          "CompactWave": [
+            {
+              "HeroId": "Namor",
+              "Power": 7159,
+              "Level": 52,
+              "GearLevel": 4,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 4853,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 4318,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 4730,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 4226,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 4712,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 4713,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 4713,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 4862,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 4692,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 4853,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 4712,
+              "Level": 48,
+              "GearLevel": 3,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_01",
+      "locNameKey": "ID_ECM_MRFAN_01_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_01_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_01_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 114159,
+          "TotalHealth": 264756,
+          "CompactWave": [
+            {
+              "HeroId": "Thing",
+              "Power": 38178,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HumanTorch",
+              "Power": 38090,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MrFantastic",
+              "Power": 37891,
+              "Level": 70,
+              "GearLevel": 11,
+              "Loyalty": 7,
+              "RedStar": 0,
+              "Abilities": [
+                7,
+                7,
+                7,
+                5,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "NextWaveIf": "AfterNumberOfActions",
+                  "InitialTurnFill": 500,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 3,
+                  "MinSlotReq": 0,
+                  "NumberOfActions": 2,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Thing",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "HumanTorch",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        7,
+                        7,
+                        7,
+                        5,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 70,
+                      "loyalty": 7,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "ecm_mrfan_01_mrfanantastic",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 139474,
+          "TotalHealth": 458482,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 10410,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 10368,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10653,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Offense",
+              "Power": 10283,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 11541,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 10601,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 10374,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 11339,
+              "Level": 54,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                4,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_02",
+      "locNameKey": "ID_ECM_MRFAN_02_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_02_DESC",
+      "mapName": "Env_Bunker_Storage_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_02_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 1774,
+          "TotalHealth": 7409,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 1774,
+              "Level": 27,
+              "GearLevel": 4,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 27,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 4,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 9452,
+          "TotalHealth": 26949,
+          "CompactWave": [
+            {
+              "HeroId": "Crossbones",
+              "Power": 1020,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 1019,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraDmg_Buff",
+              "Power": 894,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 899,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 892,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1016,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MercTank_Debuff",
+              "Power": 899,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WinterSoldier",
+              "Power": 1019,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 898,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraSupport_Heal",
+              "Power": 896,
+              "Level": 27,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_03",
+      "locNameKey": "ID_ECM_MRFAN_03_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_03_DESC",
+      "mapName": "Env_Snow_Exterior_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_03_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 1819,
+          "TotalHealth": 7632,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 1819,
+              "Level": 28,
+              "GearLevel": 4,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 28,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 4,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 7538,
+          "TotalHealth": 22726,
+          "CompactWave": [
+            {
+              "HeroId": "Graviton",
+              "Power": 1527,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 926,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 933,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Colossus",
+              "Power": 1069,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 944,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 1084,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1055,
+              "Level": 28,
+              "GearLevel": 2,
+              "Loyalty": 1,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_04",
+      "locNameKey": "ID_ECM_MRFAN_04_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_04_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_04_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 1819,
+          "TotalHealth": 7632,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 1819,
+              "Level": 28,
+              "GearLevel": 4,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 28,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 4,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "storyTellingEvents": {
+                "-1": "ecm_mrfan_04_operator_03",
+                "-2": "ecm_mrfan_04_operator_02",
+                "-3": "ecm_mrfan_04_operator_01"
+              },
+              "ObjectiveEndStory": "ecm_mrfan_04_operator_fail",
+              "TargetState": 0,
+              "RelativeToStateMax": true,
+              "CantPersist": true,
+              "Type": "EnvObject"
+            }
+          ],
+          "Power": 17266,
+          "TotalHealth": 41161,
+          "CompactWave": [
+            {
+              "HeroId": "AimOperator",
+              "Power": 569,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 566,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1270,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1270,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 1336,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 1336,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1273,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1273,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1493,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 552,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 1296,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 552,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimOperator",
+              "Power": 550,
+              "Level": 28,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ShieldTank_Stun",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1312,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "Extra": [
+        {
+          "Prefab": "IntObj_Prop_Dyn_SatBeacon_enemy_04S",
+          "Position": {
+            "x": 2,
+            "y": 0,
+            "z": 6.6
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 120,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_05",
+      "locNameKey": "ID_ECM_MRFAN_05_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_05_DESC",
+      "mapName": "Env_AIM_ChemLab_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_05_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 2313,
+          "TotalHealth": 10063,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 2313,
+              "Level": 29,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 29,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 14034,
+          "TotalHealth": 44094,
+          "CompactWave": [
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 1582,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 1312,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimSupport_Heal",
+              "Power": 1319,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 1533,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 1309,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wolverine",
+              "Power": 1519,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 1533,
+              "Level": 29,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_06",
+      "locNameKey": "ID_ECM_MRFAN_06_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_06_DESC",
+      "mapName": "Env_Warehouse_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_06_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 2365,
+          "TotalHealth": 10894,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 2365,
+              "Level": 30,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 30,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Power": 15329,
+          "TotalHealth": 51753,
+          "CompactWave": [
+            {
+              "HeroId": "Ronan",
+              "Power": 1827,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 1563,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 1387,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 1562,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 1556,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 1602,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BaronMordo",
+              "Power": 1551,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 1559,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1362,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 1360,
+              "Level": 30,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_07",
+      "locNameKey": "ID_ECM_MRFAN_07_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_07_DESC",
+      "mapName": "Env_AlienRuins_merged",
+      "timeOfDay": "SUNSET",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_07_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 2662,
+          "TotalHealth": 11156,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 2662,
+              "Level": 31,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 31,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 17497,
+          "TotalHealth": 39453,
+          "CompactWave": [
+            {
+              "HeroId": "Nobu",
+              "Power": 1758,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Yondu",
+              "Power": 1768,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 1761,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 1692,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 1783,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackPanther",
+              "Power": 1783,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 1768,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 1746,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thor",
+              "Power": 1746,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandSupport_Heal",
+              "Power": 1692,
+              "Level": 31,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_08",
+      "locNameKey": "ID_ECM_MRFAN_08_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_08_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_08_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 2714,
+          "TotalHealth": 11423,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 2714,
+              "Level": 32,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_08_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 32,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 18047,
+          "TotalHealth": 56088,
+          "CompactWave": [
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 1924,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Ronan",
+              "Power": 1832,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 1924,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeSupport_HoT",
+              "Power": 1740,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 1845,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 1770,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1738,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 1801,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeDmg_Speed",
+              "Power": 1738,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeControl_Assist",
+              "Power": 1735,
+              "Level": 32,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "ecm_mrfan_c_09",
+      "locNameKey": "ID_ECM_MRFAN_09_NAME",
+      "locDescriptionName": "ID_ECM_MRFAN_09_DESC",
+      "mapName": "Env_DestroyedCity_merged",
+      "timeOfDay": "NIGHT",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "ecm_mrfan_09_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 2768,
+          "TotalHealth": 11695,
+          "CompactWave": [
+            {
+              "HeroId": "MrFantastic",
+              "Power": 2768,
+              "Level": 33,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [],
+                  "StoryTellingID": "ecm_mrfan_09_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                },
+                {
+                  "Expanded": true,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 10,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "MrFantastic",
+                      "level": 33,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 22679,
+          "TotalHealth": 71788,
+          "CompactWave": [
+            {
+              "HeroId": "Namor",
+              "Power": 2039,
+              "Level": 34,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 1921,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "KreeTank_Counter",
+              "Power": 1822,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 1880,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HandControl_HealBlock",
+              "Power": 1795,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 1880,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 1876,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Korath",
+              "Power": 1876,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thanos",
+              "Power": 1924,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 1865,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "CaptainMarvel",
+              "Power": 1921,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Elektra",
+              "Power": 1880,
+              "Level": 33,
+              "GearLevel": 3,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                2,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "OmitFromMetadata": false
+}

@@ -2,6 +2,2308 @@
   "Name": "LegendaryEventMissionDetails",
   "MissionDetails": [
     {
+      "ID": "event_le_invisiblewoman_01",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_01_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_01_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_01_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 147601,
+          "TotalHealth": 362364,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 37134,
+              "Level": 65,
+              "GearLevel": 11,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "PercentageEquippedGear": 50,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Thing",
+              "Power": 37071,
+              "Level": 65,
+              "GearLevel": 11,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "PercentageEquippedGear": 50,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HumanTorch",
+              "Power": 36577,
+              "Level": 65,
+              "GearLevel": 11,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "PercentageEquippedGear": 50,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MrFantastic",
+              "Power": 36819,
+              "Level": 65,
+              "GearLevel": 11,
+              "Loyalty": 6,
+              "RedStar": 0,
+              "PercentageEquippedGear": 50,
+              "Abilities": [
+                6,
+                6,
+                6,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "InvisibleWoman",
+                      "level": 65,
+                      "loyalty": 6,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0,
+                      "PercentageEquippedGear": 50
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "Thing",
+                      "level": 65,
+                      "loyalty": 6,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 1,
+                      "desired_y_pos": 1,
+                      "PercentageEquippedGear": 50
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "HumanTorch",
+                      "level": 65,
+                      "loyalty": 6,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0,
+                      "PercentageEquippedGear": 50,
+                      "stats_mod": {
+                        "speed": 80
+                      }
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        6,
+                        6,
+                        4,
+                        0,
+                        0
+                      ],
+                      "useDefaultStats": false,
+                      "hero_id": "MrFantastic",
+                      "level": 65,
+                      "loyalty": 6,
+                      "combined_mod": 0,
+                      "tier": 11,
+                      "desired_x_pos": 0,
+                      "desired_y_pos": 0,
+                      "PercentageEquippedGear": 50
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_01_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 262010,
+          "TotalHealth": 380802,
+          "CompactWave": [
+            {
+              "HeroId": "IronMan",
+              "Power": 19056,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WarMachine",
+              "Power": 18742,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 18469,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AntMan",
+              "Power": 18469,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "RocketRaccoon",
+              "Power": 18634,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 18632,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Wasp",
+              "Power": 18632,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WarMachine",
+              "Power": 18742,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Rescue",
+              "Power": 18903,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Falcon",
+              "Power": 18745,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 19056,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Groot",
+              "Power": 18545,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 18726,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 18659,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_02",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_02_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_02_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_02_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 3273,
+          "TotalHealth": 12124,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 3273,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        3,
+                        3,
+                        3,
+                        1,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 35,
+                      "loyalty": 2,
+                      "combined_mod": 0,
+                      "tier": 5,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_02_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 39713,
+          "TotalHealth": 117337,
+          "CompactWave": [
+            {
+              "HeroId": "Psylocke",
+              "Power": 3263,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Pyro",
+              "Power": 3178,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Pyro",
+              "Power": 3178,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2701,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "HydraDmg_Single",
+              "Power": 2701,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 3201,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 3191,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Storm",
+              "Power": 3245,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 2709,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 2709,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Crossbones",
+              "Power": 3191,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Juggernaut",
+              "Power": 3201,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Storm",
+              "Power": 3245,
+              "Level": 35,
+              "GearLevel": 5,
+              "Loyalty": 2,
+              "RedStar": 0,
+              "Abilities": [
+                3,
+                3,
+                3,
+                1,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_03",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_03_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_03_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_03_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 5099,
+          "TotalHealth": 17533,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 5099,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 40,
+                      "loyalty": 3,
+                      "combined_mod": 0,
+                      "tier": 6,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_03_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 52811,
+          "TotalHealth": 149459,
+          "CompactWave": [
+            {
+              "HeroId": "Juggernaut",
+              "Power": 4968,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Sabretooth",
+              "Power": 4955,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Sabretooth",
+              "Power": 4955,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mystique",
+              "Power": 4955,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mystique",
+              "Power": 5037,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Magneto",
+              "Power": 4988,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 4491,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 4469,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 4537,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimTank_Taunt",
+              "Power": 4517,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 4939,
+              "Level": 40,
+              "GearLevel": 6,
+              "Loyalty": 3,
+              "RedStar": 0,
+              "Abilities": [
+                4,
+                3,
+                3,
+                2,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_04",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_04_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_04_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_04_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 12355,
+          "TotalHealth": 39096,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 12355,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 55,
+                      "loyalty": 4,
+                      "combined_mod": 0,
+                      "tier": 8,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_04_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 154148,
+          "TotalHealth": 320690,
+          "CompactWave": [
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11641,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11641,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimControl_Infect",
+              "Power": 11641,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 11771,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 11771,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Psylocke",
+              "Power": 12216,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScientistSupreme",
+              "Power": 11969,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 11517,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 11517,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 12065,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 12052,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 12159,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Rescue",
+              "Power": 12188,
+              "Level": 55,
+              "GearLevel": 8,
+              "Loyalty": 4,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                4,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_05",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_05_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_05_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_05_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 16982,
+          "TotalHealth": 53556,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 16982,
+              "Level": 60,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 60,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_05_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 237460,
+          "TotalHealth": 523159,
+          "CompactWave": [
+            {
+              "HeroId": "LukeCage",
+              "Power": 14525,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 14688,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 15545,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 14698,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "IronMan",
+              "Power": 14905,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "SpiderMan",
+              "Power": 14730,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "JessicaJones",
+              "Power": 15898,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 14688,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "WarMachine",
+              "Power": 14679,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 14484,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "BlackWidow",
+              "Power": 15587,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Quake",
+              "Power": 14484,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "IronFist",
+              "Power": 14688,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "LukeCage",
+              "Power": 14525,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Punisher",
+              "Power": 14638,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Daredevil",
+              "Power": 14698,
+              "Level": 60,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                5,
+                5,
+                5,
+                3,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_06",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_06_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_06_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_06_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 37723,
+          "TotalHealth": 92537,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 19191,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 18532,
+              "Level": 64,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 64,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 2,
+                      "desired_y_pos": 0
+                    },
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "is_mission_target": true,
+                      "is_vip": true,
+                      "hero_id": "DoctorStrange",
+                      "level": 64,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "cur_hp_percent": 75,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_06_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_06_fail",
+              "CantPersist": false,
+              "Type": "KillTarget"
+            }
+          ],
+          "Power": 230887,
+          "TotalHealth": 563601,
+          "CompactWave": [
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 17214,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MsMarvel",
+              "Power": 17134,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 16845,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 15859,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Speed",
+              "Power": 15859,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Nobu",
+              "Power": 16734,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 15474,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AimDmg_Offense",
+              "Power": 15474,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Loki",
+              "Power": 15023,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "ScarletWitch",
+              "Power": 16845,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Vision",
+              "Power": 16864,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "MsMarvel",
+              "Power": 17134,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 17214,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "AmericaChavez",
+              "Power": 17214,
+              "Level": 64,
+              "GearLevel": 8,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "event_le_invisiblewoman_07",
+      "locNameKey": "ID_LE_INVISIBLEWOMAN_07_NAME",
+      "locDescriptionName": "ID_LE_INVISIBLEWOMAN_07_DESC",
+      "mapName": "Env_Forest_merged",
+      "timeOfDay": "DAY",
+      "Settings": [
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "le_invisiblewoman_07_end",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 19438,
+          "TotalHealth": 58303,
+          "CompactWave": [
+            {
+              "HeroId": "InvisibleWoman",
+              "Power": 19438,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ],
+          "PresetCharacters": [
+            {
+              "Description": null,
+              "Expanded": false,
+              "Waves": [
+                {
+                  "Expanded": true,
+                  "InitialTurnFill": 1000,
+                  "TurnSpeed": 1000,
+                  "MaxSlotFill": 5,
+                  "MinSlotReq": 0,
+                  "Entries": [
+                    {
+                      "abilities": [
+                        6,
+                        5,
+                        5,
+                        4,
+                        0,
+                        0
+                      ],
+                      "hero_id": "InvisibleWoman",
+                      "level": 65,
+                      "loyalty": 5,
+                      "combined_mod": 0,
+                      "tier": 9,
+                      "desired_x_pos": 4,
+                      "desired_y_pos": 0
+                    }
+                  ],
+                  "StoryTellingID": "le_invisiblewoman_07_start",
+                  "EmptyStoryDelay": 0,
+                  "HoldSpawnStory": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Objectives": [
+            {
+              "ObjectiveEndStory": "",
+              "CantPersist": false,
+              "Type": "KillAll"
+            }
+          ],
+          "Power": 243437,
+          "TotalHealth": 640185,
+          "CompactWave": [
+            {
+              "HeroId": "SpiderMan",
+              "Power": 21401,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "UltSpiderMan",
+              "Power": 19020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Rhino",
+              "Power": 19212,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Vulture",
+              "Power": 18921,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Vulture",
+              "Power": 18921,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 19229,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Rhino",
+              "Power": 19212,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "DoctorStrange",
+              "Power": 23825,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                7,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mysterio",
+              "Power": 9020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                -1,
+                -1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mysterio",
+              "Power": 9020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                -1,
+                -1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mysterio",
+              "Power": 9020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                -1,
+                -1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mysterio",
+              "Power": 9020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                -1,
+                -1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Mysterio",
+              "Power": 9020,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                -1,
+                -1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Minerva",
+              "Power": 19229,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "HeroId": "Phoenix",
+              "Power": 19367,
+              "Level": 65,
+              "GearLevel": 9,
+              "Loyalty": 5,
+              "RedStar": 0,
+              "Abilities": [
+                6,
+                5,
+                5,
+                4,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ID": "event_le_ironman_01",
       "locNameKey": "ID_LE_IRONMAN_01_NAME",
       "locDescriptionName": "ID_LE_IRONMAN_01_DESC",
@@ -13095,5 +15397,6 @@
         }
       ]
     }
-  ]
+  ],
+  "OmitFromMetadata": false
 }
