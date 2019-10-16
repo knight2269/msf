@@ -10128,6 +10128,384 @@
         ]
       }
     },
+    "ElsaBloodstone": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  35,
+                  35,
+                  35,
+                  35,
+                  35,
+                  35,
+                  45
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  35,
+                  35,
+                  35,
+                  35,
+                  35,
+                  35,
+                  45
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "limit": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                5
+              ]
+            }
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Mystic"
+              ]
+            }
+          },
+          "delta": [
+            0,
+            5,
+            5,
+            10
+          ],
+          "stat": "crit_chance_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "stat_modifier": [
+                {
+                  "delta": [
+                    70,
+                    120,
+                    170,
+                    220,
+                    270
+                  ],
+                  "stat": "ability_damage_pct"
+                }
+              ],
+              "target": {
+                "relation": "enemy"
+              }
+            }
+          ],
+          "exec": "on_dodge_success",
+          "exec_for": {
+            "relationship": "enemy"
+          }
+        },
+        {
+          "actions": [
+            {
+              "only_if": {
+                "count": {
+                  "if": "greater_or_equal",
+                  "than": 3
+                },
+                "count_filter": {
+                  "relationship": "ally",
+                  "traits": {
+                    "has_any": [
+                      "Supernatural"
+                    ]
+                  }
+                }
+              },
+              "stat_modifier": [
+                {
+                  "delta": [
+                    70,
+                    120,
+                    170,
+                    220,
+                    270
+                  ],
+                  "stat": "ability_damage_pct"
+                }
+              ],
+              "target": {
+                "relation": "enemy"
+              }
+            }
+          ],
+          "exec": "on_miss",
+          "exec_for": {
+            "relationship": "enemy"
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "ability_energy",
+              "action_pct": [
+                100
+              ],
+              "count": 2,
+              "include_previous_dead": true,
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_death",
+          "exec_for": {
+            "and": [
+              {
+                "character": [
+                  "GhostRider"
+                ]
+              }
+            ],
+            "relationship": "ally"
+          },
+          "exec_on_stun": true,
+          "visualid": "phoenixdeath"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            0,
+            0,
+            10,
+            10,
+            20
+          ],
+          "for_each": {
+            "owner_ok": false,
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Supernatural"
+              ]
+            }
+          },
+          "stat": "accuracy_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  84,
+                  105,
+                  123,
+                  147,
+                  168,
+                  210
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  15,
+                  17,
+                  19,
+                  21,
+                  33,
+                  35,
+                  37
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
+                  150,
+                  180,
+                  210,
+                  240,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "type": "primary"
+            }
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  150,
+                  170,
+                  200,
+                  230,
+                  260,
+                  290,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "type": "by_least_health"
+            },
+            "visualid": "rollshoot"
+          }
+        ],
+        "cost": 5,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 2
+      },
+      "traits": [
+        "Hero",
+        "Global",
+        "Mystic",
+        "Blaster",
+        "Supernatural"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "OffenseUp",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "target": {
+              "relation": "ally"
+            },
+            "visualid": "chokerup"
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "foreach_stat": [
+              {
+                "delta": [
+                  0,
+                  10,
+                  10,
+                  10,
+                  15,
+                  15,
+                  25
+                ],
+                "for_each": {
+                  "relationship": "ally",
+                  "traits": {
+                    "has_any": [
+                      "Supernatural"
+                    ]
+                  }
+                },
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  110,
+                  130,
+                  150,
+                  170,
+                  190,
+                  220,
+                  250
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "include_in_pool",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 6,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 6
+      }
+    },
     "Falcon": {
       "basic": {
         "actions": [
@@ -10864,6 +11242,616 @@
         "start_energy": 3
       }
     },
+    "GhostRider": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  200,
+                  250
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          24,
+          47,
+          69,
+          92,
+          115,
+          138
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Mystic"
+              ]
+            }
+          },
+          "delta": [
+            0,
+            0,
+            30,
+            30,
+            30
+          ],
+          "stat": "focus_pct"
+        },
+        {
+          "apply_if": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Supernatural"
+              ]
+            }
+          },
+          "delta": [
+            10,
+            10,
+            10,
+            20,
+            40
+          ],
+          "stat": "max_hp_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "empty_result",
+              "visualid": "ghostdeath"
+            }
+          ],
+          "exec": "on_death",
+          "exec_on_stun": true
+        },
+        {
+          "actions": [
+            {
+              "stat_modifier": [
+                {
+                  "delta": [
+                    100,
+                    200,
+                    300,
+                    400,
+                    500
+                  ],
+                  "stat": "ability_damage_pct"
+                }
+              ],
+              "visualid": "shotgun"
+            },
+            {
+              "action": "ability_energy",
+              "count": [
+                0,
+                1,
+                2,
+                2,
+                3
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            },
+            {
+              "action": "proc_duration",
+              "add_if_not": true,
+              "category": "none",
+              "max_duration": 5,
+              "only_procs": [
+                "Charged"
+              ],
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_kill_target",
+          "exec_for": {
+            "not": {
+              "target": {
+                "states": [
+                  "Spawned"
+                ]
+              }
+            },
+            "relationship": "ally"
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "turn_meter",
+              "action_pct": [
+                100
+              ],
+              "change_pct": [
+                1,
+                2,
+                2,
+                3,
+                3
+              ],
+              "target": {
+                "filter": {
+                  "traits": [
+                    "Supernatural"
+                  ]
+                },
+                "limit": 10,
+                "relation": "ally",
+                "type": "random"
+              }
+            }
+          ],
+          "exec": "on_debuffed",
+          "exec_for": {
+            "relationship": "enemy"
+          }
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  62,
+                  78,
+                  955,
+                  111,
+                  128,
+                  144,
+                  185
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  8,
+                  10,
+                  11,
+                  13,
+                  14,
+                  16,
+                  20
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  140,
+                  160,
+                  180,
+                  200,
+                  230,
+                  260,
+                  290
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "apply_count": [
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2
+            ],
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              },
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  140,
+                  160,
+                  180,
+                  210,
+                  240,
+                  270
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "places_from_primary": 1,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            }
+          },
+          {
+            "action": "proc",
+            "apply_count": [
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2
+            ],
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1
+                ]
+              },
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "cost": 6,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 6,
+        "stat_lock": [
+          {
+            "stat": "accuracy_pct",
+            "value": 100
+          },
+          {
+            "on": "primary",
+            "stat": "block_chance_pct",
+            "value": 0
+          },
+          {
+            "on": "secondary",
+            "stat": "block_chance_pct",
+            "value": 0
+          }
+        ]
+      },
+      "traits": [
+        "Hero",
+        "City",
+        "Mystic",
+        "Brawler",
+        "Supernatural",
+        "TrickorTreat"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "only_if": {
+              "and": [
+                {
+                  "owner": {
+                    "procs": [
+                      "Charged"
+                    ]
+                  }
+                },
+                {
+                  "not": {
+                    "character": [
+                      "Thanos",
+                      "Punisher"
+                    ]
+                  }
+                }
+              ]
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  180,
+                  220,
+                  270,
+                  320,
+                  370,
+                  430,
+                  500
+                ],
+                "stat": "armor_pierce_pct"
+              },
+              {
+                "delta": [
+                  50,
+                  50,
+                  100,
+                  100,
+                  150,
+                  200,
+                  200
+                ],
+                "stat": "drain_pct"
+              }
+            ]
+          },
+          {
+            "only_if": {
+              "and": [
+                {
+                  "not": {
+                    "owner": {
+                      "procs": [
+                        "Charged"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "not": {
+                    "character": [
+                      "Thanos",
+                      "Punisher"
+                    ]
+                  }
+                }
+              ]
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  180,
+                  220,
+                  270,
+                  320,
+                  370,
+                  430,
+                  500
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "only_if": {
+              "and": [
+                {
+                  "owner": {
+                    "procs": [
+                      "Charged"
+                    ]
+                  }
+                },
+                {
+                  "character": [
+                    "Thanos",
+                    "Punisher"
+                  ]
+                }
+              ]
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  180,
+                  220,
+                  270,
+                  320,
+                  370,
+                  430,
+                  500
+                ],
+                "stat": "armor_pierce_pct"
+              },
+              {
+                "delta": [
+                  50,
+                  50,
+                  100,
+                  100,
+                  150,
+                  200,
+                  200
+                ],
+                "stat": "drain_pct"
+              }
+            ],
+            "visualid": "penancepunch"
+          },
+          {
+            "only_if": {
+              "and": [
+                {
+                  "not": {
+                    "owner": {
+                      "procs": [
+                        "Charged"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "character": [
+                    "Thanos",
+                    "Punisher"
+                  ]
+                }
+              ]
+            },
+            "stat_modifier": [
+              {
+                "delta": [
+                  180,
+                  220,
+                  270,
+                  320,
+                  370,
+                  430,
+                  500
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "visualid": "penancepunch"
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "OffenseDown",
+                "use_count": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              },
+              {
+                "proc": "DefenseDown",
+                "use_count": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "action": "proc_duration",
+            "assist": {},
+            "category": "none",
+            "counter": true,
+            "delta": [
+              -1
+            ],
+            "only_procs": [
+              "Charged"
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          }
+        ],
+        "cost": 4,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 2
+      }
+    },
     "Graviton": {
       "basic": {
         "actions": [
@@ -11245,6 +12233,285 @@
         ],
         "start_energy": 6
       }
+    },
+    "Greg": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  100,
+                  120,
+                  140,
+                  160,
+                  180,
+                  210,
+                  260
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "procs": [
+              {
+                "proc": "HealBlock",
+                "use_count": 1
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          31,
+          62,
+          92,
+          123,
+          152,
+          183
+        ]
+      },
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": [
+                70,
+                90,
+                110,
+                140,
+                180
+              ],
+              "only_if": {
+                "owner": {
+                  "procs": [
+                    "SummonedMinion"
+                  ]
+                }
+              },
+              "target": {
+                "filter": {
+                  "and": [
+                    {
+                      "traits": {
+                        "has_any": [
+                          "Asgard"
+                        ]
+                      }
+                    },
+                    {
+                      "not": {
+                        "target": {
+                          "states": [
+                            "Spawned"
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "relationship": "ally"
+                },
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            },
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                10,
+                10,
+                15
+              ],
+              "only_if": {
+                "not": {
+                  "owner": {
+                    "procs": [
+                      "SummonedMinion"
+                    ]
+                  }
+                }
+              },
+              "target": {
+                "filter": {
+                  "and": [
+                    {
+                      "traits": {
+                        "has_any": [
+                          "Asgard"
+                        ]
+                      }
+                    },
+                    {
+                      "not": {
+                        "target": {
+                          "states": [
+                            "Spawned"
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "relationship": "ally"
+                },
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            }
+          ],
+          "exec": "on_death",
+          "exec_for": {
+            "character": [
+              "Greg"
+            ],
+            "relationship": "ally"
+          },
+          "skip_on_death": false
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  72,
+                  90,
+                  108,
+                  126,
+                  144,
+                  171,
+                  216
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "HealBlock",
+                "use_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  200,
+                  220,
+                  240,
+                  260,
+                  290,
+                  340,
+                  400
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {}
+          },
+          {
+            "action": "proc",
+            "apply_count": [
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "procs": [
+              {
+                "proc": "DoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              },
+              {
+                "proc": "DoT",
+                "use_count": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  2000
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          }
+        ],
+        "cost": 3,
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": 1,
+        "stat_lock": [
+          {
+            "on": "self",
+            "stat": "accuracy_pct",
+            "value": 100
+          }
+        ]
+      },
+      "traits": [
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Brawler",
+        "Minion",
+        "Summon",
+        "Asgard"
+      ]
     },
     "Groot": {
       "basic": {
@@ -12957,6 +14224,589 @@
             "value": 0
           }
         ]
+      }
+    },
+    "Hela": {
+      "basic": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  80,
+                  100,
+                  130,
+                  160,
+                  190,
+                  240,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc_flip",
+            "action_pct": [
+              25,
+              25,
+              50,
+              50,
+              50,
+              100,
+              100
+            ],
+            "category": "buff",
+            "count": 1,
+            "specific_procs": [
+              "Deathproof"
+            ]
+          },
+          {
+            "assist": {},
+            "counter": true,
+            "stat_modifier": [
+              {
+                "delta": [
+                  40,
+                  50,
+                  60,
+                  70,
+                  80,
+                  90,
+                  100
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ],
+            "target": {
+              "filter": {
+                "not": {
+                  "target": {
+                    "states": [
+                      "stealthed"
+                    ]
+                  }
+                }
+              },
+              "limit": 1,
+              "type": "by_least_health"
+            },
+            "visualid": "basicranged"
+          }
+        ],
+        "power_mul": [
+          0,
+          23,
+          46,
+          68,
+          91,
+          113,
+          136
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "and": [
+              {
+                "traits": {
+                  "has_any": [
+                    "Asgard"
+                  ]
+                }
+              },
+              {
+                "not": {
+                  "target": {
+                    "states": [
+                      "Spawned"
+                    ]
+                  }
+                }
+              }
+            ],
+            "combat_side": "defense",
+            "mode": "AVA",
+            "relationship": "ally"
+          },
+          "delta": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "stat": "damage_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "spawn",
+              "basic_pct": 100,
+              "count": 1,
+              "gear_tier_pct": 100,
+              "level_pct": 100,
+              "loyalty_pct": 100,
+              "passive_pct": 100,
+              "pool": [
+                {
+                  "character": "Greg"
+                }
+              ],
+              "procs": [
+                {
+                  "proc": "SummonedMinion",
+                  "use_count": 10000
+                }
+              ],
+              "special_pct": 100,
+              "turn_pool_start": 200,
+              "ultimate": 0
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
+              "action": "spawn",
+              "basic_pct": 100,
+              "count": 1,
+              "gear_tier": 0,
+              "gear_tier_pct": 100,
+              "level_pct": 100,
+              "loyalty_pct": 100,
+              "passive_pct": 100,
+              "pool": [
+                {
+                  "character": "Greg"
+                }
+              ],
+              "procs": [
+                {
+                  "proc": "SummonedMinion",
+                  "use_count": 10000
+                }
+              ],
+              "special_pct": 100,
+              "turn_pool_start": 150,
+              "ultimate": 0
+            }
+          ],
+          "exec": "on_death",
+          "exec_for": {
+            "character": [
+              "Greg"
+            ],
+            "relationship": "ally"
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "spawn",
+              "basic_pct": 100,
+              "count": 1,
+              "gear_tier": 0,
+              "gear_tier_pct": 100,
+              "level_pct": 100,
+              "loyalty_pct": 100,
+              "only_if": {
+                "combat_side": "defense",
+                "mode": "AVA"
+              },
+              "passive_pct": 100,
+              "pool": [
+                {
+                  "character": "Greg"
+                }
+              ],
+              "procs": [
+                {
+                  "proc": "SummonedMinion",
+                  "use_count": 10000
+                }
+              ],
+              "special_pct": 100,
+              "turn_pool_start": 150,
+              "ultimate": 0
+            }
+          ],
+          "exec": "on_death",
+          "exec_for": {
+            "character": [
+              "Thor",
+              "Loki",
+              "Heimdall",
+              "Sif"
+            ],
+            "relationship": "ally"
+          }
+        },
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "foreach_action": {
+                "and": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Asgard"
+                      ]
+                    }
+                  },
+                  {
+                    "not": {
+                      "target": {
+                        "states": [
+                          "Spawned"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "relationship": "ally"
+              },
+              "heal_pct": [
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_turn"
+        }
+      ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
+      "passive_stats": [
+        {
+          "delta": [
+            5,
+            5,
+            10,
+            10,
+            15
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "delta": [
+            0,
+            5,
+            5,
+            10,
+            15
+          ],
+          "for_each": {
+            "and": [
+              {
+                "traits": {
+                  "has_any": [
+                    "Asgard"
+                  ]
+                }
+              },
+              {
+                "not": {
+                  "target": {
+                    "states": [
+                      "Spawned"
+                    ]
+                  }
+                }
+              }
+            ],
+            "owner_ok": false,
+            "relationship": "ally"
+          },
+          "stat": "max_hp_pct"
+        }
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  64,
+                  80,
+                  104,
+                  128,
+                  152,
+                  192,
+                  240
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc_flip",
+            "action_pct": [
+              25,
+              25,
+              50,
+              50,
+              50,
+              100,
+              100
+            ],
+            "category": "buff",
+            "count": 1,
+            "specific_procs": [
+              "Deathproof"
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  120,
+                  150,
+                  180,
+                  210,
+                  250,
+                  290,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {
+              "active": [
+                {
+                  "assist_call_pct": 100,
+                  "filter": {
+                    "character": [
+                      "Greg"
+                    ]
+                  }
+                }
+              ],
+              "limit": 1
+            },
+            "counter": true,
+            "procs": [
+              {
+                "proc": "BuffBlock",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            ],
+            "target": {}
+          }
+        ],
+        "cost": [
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        "power_mul": [
+          0,
+          28,
+          55,
+          82,
+          109,
+          136,
+          163
+        ],
+        "start_energy": [
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "traits": [
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Controller",
+        "Asgard"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "proc_remove",
+            "category": "buff",
+            "count": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              3,
+              3
+            ],
+            "procs": "Deathproof",
+            "stat_modifier": [
+              {
+                "delta": 5000,
+                "stat": "focus_pct"
+              }
+            ],
+            "target": {
+              "limit": 10,
+              "type": "random"
+            },
+            "visualid": "deathproofclear"
+          },
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  130,
+                  160,
+                  190,
+                  220,
+                  260,
+                  300,
+                  350
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          },
+          {
+            "action": "proc_transfer",
+            "assist": {},
+            "category": "debuff",
+            "count": [
+              0,
+              1,
+              1,
+              1,
+              2,
+              2,
+              4
+            ],
+            "counter": true,
+            "exceptprocs": [
+              "Stun"
+            ],
+            "include_previous_dead": true,
+            "recipient": {
+              "type": "previous"
+            },
+            "target": {
+              "limit": 10,
+              "primary_selection": "exclude_from_pool",
+              "type": "random"
+            },
+            "transfer_from_primary": true,
+            "use_previous_result": true
+          },
+          {
+            "action": "proc",
+            "procs": [
+              {
+                "proc": "HoT",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "target": {
+              "filter": {
+                "and": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Asgard"
+                      ]
+                    }
+                  },
+                  {
+                    "not": {
+                      "target": {
+                        "states": [
+                          "Spawned"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "limit": 10,
+              "relation": "ally",
+              "type": "random"
+            },
+            "visualid": "regeneration"
+          }
+        ],
+        "cost": 5,
+        "power_mul": [
+          39,
+          73,
+          108,
+          142,
+          177,
+          211,
+          245
+        ],
+        "start_energy": 5
       }
     },
     "Hulk": {
@@ -23679,6 +25529,710 @@
             "value": 0
           }
         ]
+      }
+    },
+    "MrSinister": {
+      "basic": {
+        "actions": [
+          {
+            "assist": {
+              "active": [
+                {
+                  "assist_call_pct": [
+                    50,
+                    50,
+                    70,
+                    70,
+                    100,
+                    100,
+                    100
+                  ],
+                  "filter": {
+                    "target": {
+                      "procs": [
+                        "CloneMinion"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "assist_call_pct": [
+                    0,
+                    0,
+                    0,
+                    50,
+                    50,
+                    70,
+                    100
+                  ],
+                  "filter": {
+                    "traits": {
+                      "has_any": [
+                        "Marauders"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "limit": 2
+            },
+            "counter": true,
+            "foreach_stat": [
+              {
+                "delta": [
+                  25,
+                  25,
+                  40,
+                  40,
+                  40,
+                  50,
+                  50
+                ],
+                "for_each": {
+                  "not": {
+                    "target": {
+                      "procs": [
+                        "CloneMinion"
+                      ]
+                    }
+                  },
+                  "relationship": "ally",
+                  "traits": {
+                    "has_any": [
+                      "Marauders"
+                    ]
+                  }
+                },
+                "stat": "ability_damage_pct"
+              }
+            ],
+            "stat_modifier": [
+              {
+                "delta": [
+                  90,
+                  100,
+                  130,
+                  170,
+                  210,
+                  250,
+                  300
+                ],
+                "stat": "ability_damage_pct"
+              }
+            ]
+          }
+        ],
+        "power_mul": [
+          0,
+          24,
+          47,
+          69,
+          92,
+          115,
+          138
+        ]
+      },
+      "global_stats": [
+        {
+          "apply_if": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Marauders"
+              ]
+            }
+          },
+          "delta": [
+            10,
+            20,
+            20,
+            30,
+            50
+          ],
+          "stat": "focus_pct"
+        },
+        {
+          "apply_if": {
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Marauders"
+              ]
+            }
+          },
+          "delta": [
+            5,
+            10,
+            10,
+            10,
+            20
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "apply_if": {
+            "combat_side": "Defense",
+            "mode": "AVA",
+            "not": {
+              "character": [
+                "MrSinister"
+              ]
+            },
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Marauders"
+              ]
+            }
+          },
+          "delta": [
+            10,
+            10,
+            20,
+            20,
+            30
+          ],
+          "stat": "max_hp_pct"
+        }
+      ],
+      "passive": [
+        {
+          "actions": [
+            {
+              "action": "ability_energy",
+              "count": [
+                3
+              ],
+              "only_if_target": {
+                "not": {
+                  "target": {
+                    "procs": [
+                      "CloneMinion"
+                    ]
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_start"
+        },
+        {
+          "actions": [
+            {
+              "action": "heal",
+              "heal_pct": [
+                5,
+                5,
+                15,
+                15,
+                15
+              ],
+              "only_if": {
+                "owner": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "target": {
+                "relation": "ally"
+              }
+            },
+            {
+              "action": "heal",
+              "action_cond": "if_prev_ran",
+              "action_pct": [
+                0,
+                0,
+                0,
+                100
+              ],
+              "foreach_action": {
+                "owner_ok": false,
+                "relationship": "ally",
+                "traits": {
+                  "has_any": [
+                    "Marauders"
+                  ]
+                }
+              },
+              "heal_pct": [
+                0,
+                0,
+                0,
+                5,
+                5
+              ],
+              "ignore_base_heal": true,
+              "target": {
+                "relation": "ally"
+              }
+            },
+            {
+              "action": "proc",
+              "procs": [
+                {
+                  "proc": "HoT",
+                  "use_count": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "target": {
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "Mutant"
+                    ]
+                  }
+                },
+                "limit": [
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "relation": "ally",
+                "type": "by_least_health"
+              }
+            }
+          ],
+          "exec": "on_turn",
+          "exec_on_stun": true
+        },
+        {
+          "actions": [
+            {
+              "action": "health_redistribute",
+              "drain_pct": 10,
+              "from": {
+                "relation": "ally"
+              },
+              "only_if_target": {
+                "target": {
+                  "health_pct": {
+                    "if": "less",
+                    "than": 100
+                  }
+                }
+              },
+              "to": {
+                "attacker_as_primary": false,
+                "filter": {
+                  "traits": {
+                    "has_any": [
+                      "Marauders"
+                    ]
+                  }
+                },
+                "primary_selection": "exclude_from_pool",
+                "relation": "ally"
+              }
+            }
+          ],
+          "exec": "on_turn",
+          "exec_for": {
+            "not": {
+              "character": [
+                "MrSinister"
+              ]
+            },
+            "owner": {
+              "health_pct": {
+                "if": "greater",
+                "than": 50
+              }
+            },
+            "relationship": "ally",
+            "traits": {
+              "has_any": [
+                "Marauders"
+              ]
+            }
+          }
+        }
+      ],
+      "passive_power_mul": [
+        15,
+        29,
+        44,
+        60,
+        77
+      ],
+      "safety": {
+        "actions": [
+          {
+            "stat_modifier": [
+              {
+                "delta": [
+                  70,
+                  75,
+                  95,
+                  125,
+                  155,
+                  185,
+                  225
+                ],
+                "stat": "ability_damage_pct"
+              },
+              {
+                "delta": [
+                  5,
+                  7,
+                  9,
+                  11,
+                  13,
+                  15,
+                  17
+                ],
+                "stat": "armor_pierce_pct"
+              }
+            ]
+          }
+        ]
+      },
+      "special": {
+        "actions": [
+          {
+            "action": "proc_remove",
+            "category": "debuff",
+            "procs": "HealBlock",
+            "remove_pct": 100,
+            "target": {
+              "limit": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2
+              ],
+              "primary_selection": "include_in_pool",
+              "relation": "ally",
+              "type": "by_least_health"
+            }
+          },
+          {
+            "action": "proc",
+            "action_pct": [
+              100
+            ],
+            "apply_count": [
+              1
+            ],
+            "procs": [
+              {
+                "proc": "OffenseUp",
+                "use_count": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "target": {
+              "relation": "ally"
+            }
+          },
+          {
+            "action": "proc_transfer",
+            "action_pct": [
+              0,
+              100
+            ],
+            "category": "buff",
+            "count": [
+              1000
+            ],
+            "exceptprocs": [
+              "Taunt",
+              "Stealth"
+            ],
+            "recipient": {
+              "relation": "ally"
+            },
+            "removepct": 100,
+            "target": {
+              "filter": {
+                "character": [
+                  "Mystique"
+                ]
+              },
+              "relation": "ally",
+              "type": "random"
+            },
+            "transferpct": 100
+          },
+          {
+            "action": "proc_transfer",
+            "category": "buff",
+            "count": 1000,
+            "recipient": {
+              "filter": {
+                "or": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Mutant"
+                      ]
+                    }
+                  },
+                  {
+                    "target": {
+                      "procs": [
+                        "CloneMinion"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "limit": [
+                1,
+                1,
+                2,
+                2,
+                3,
+                3,
+                10
+              ],
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random"
+            },
+            "target": {
+              "relation": "ally"
+            },
+            "transferpct": 100
+          },
+          {
+            "action": "heal",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "counter": false,
+            "heal_amt": [
+              500,
+              500,
+              500,
+              1000,
+              1000,
+              1500,
+              2000
+            ],
+            "heal_pct": [
+              10,
+              10,
+              10,
+              15,
+              15,
+              15,
+              20
+            ],
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
+          },
+          {
+            "action": "heal",
+            "heal_amt": [
+              0,
+              0,
+              0,
+              500,
+              500,
+              1000,
+              1500
+            ],
+            "heal_pct": [
+              0,
+              0,
+              0,
+              5,
+              5,
+              5,
+              10
+            ],
+            "only_if_target": {
+              "target": {
+                "procs": [
+                  "CloneMinion"
+                ]
+              }
+            },
+            "target": {
+              "limit": [
+                10
+              ],
+              "relation": "ally",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 5,
+        "power_mul": [
+          0,
+          29,
+          56,
+          83,
+          111,
+          138,
+          165
+        ],
+        "start_energy": 2
+      },
+      "traits": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Marauders",
+        "Support"
+      ],
+      "ultimate": {
+        "actions": [
+          {
+            "action": "spawn",
+            "basic": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "clone_target": true,
+            "gear_tier_pct": 100,
+            "level_pct": 100,
+            "loyalty": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "passive_pct": 100,
+            "procs": [
+              {
+                "proc": "CloneMinion",
+                "use_count": 10000
+              },
+              {
+                "proc": "DefenseUp",
+                "use_count": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "special": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "turn_pool_start": 900,
+            "ultimate": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "action": "ability_energy",
+            "assist": {
+              "passive_assist": "nonattack"
+            },
+            "count": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "counter": false,
+            "only_if": {
+              "and": [
+                {
+                  "mode": "AVA"
+                },
+                {
+                  "combat_side": "Defense"
+                }
+              ]
+            },
+            "target": {
+              "filter": {
+                "or": [
+                  {
+                    "traits": {
+                      "has_any": [
+                        "Marauders"
+                      ]
+                    }
+                  },
+                  {
+                    "target": {
+                      "procs": [
+                        "CloneMinion"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "limit": [
+                10
+              ],
+              "primary_selection": "exclude_from_pool",
+              "relation": "ally",
+              "type": "random"
+            }
+          }
+        ],
+        "cost": 6,
+        "power_mul": [
+          40,
+          74,
+          110,
+          144,
+          179,
+          214,
+          248
+        ],
+        "start_energy": 3
       }
     },
     "MsMarvel": {
@@ -44471,7 +47025,6 @@
           },
           {
             "action": "proc",
-            "assist": {},
             "only_if": {
               "traits": {
                 "not": {
@@ -44593,7 +47146,6 @@
           },
           {
             "action": "proc",
-            "counter": true,
             "only_if": {
               "traits": {
                 "not": {
@@ -44614,6 +47166,33 @@
                   50,
                   80,
                   80
+                ],
+                "use_count": 1
+              }
+            ]
+          },
+          {
+            "action": "proc",
+            "assist": {},
+            "counter": true,
+            "only_if": {
+              "traits": {
+                "has_any": [
+                  "Tech"
+                ]
+              }
+            },
+            "procs": [
+              {
+                "proc": "DoT",
+                "spawn_pct": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  100
                 ],
                 "use_count": 1
               }

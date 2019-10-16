@@ -51,6 +51,29 @@
       "state": "charged",
       "type": "state"
     },
+    "CloneMinion": {
+      "category": "none",
+      "expiration_type": "on_never_expire",
+      "remove_on_death": false,
+      "stat_modifier": [
+        {
+          "delta": [
+            -70,
+            -70,
+            -70,
+            -70,
+            -70,
+            -70,
+            -70
+          ],
+          "stat": "max_hp_pct"
+        },
+        {
+          "delta": -30,
+          "stat": "damage_pct"
+        }
+      ]
+    },
     "Counter": {
       "category": "buff",
       "expiration_type": "on_counter",

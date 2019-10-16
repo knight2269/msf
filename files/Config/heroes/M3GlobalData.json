@@ -127,8 +127,41 @@
   "redStarDropMessageMin": 6,
   "redStarPromoteMessageMin": 6,
   "blitzRankMessageMin": 100,
-  "Iso8InventoryCap": 10,
+  "Iso8InventoryCap": 100,
+  "Iso8BulkCraftCap": 10,
+  "Iso8EquipCooldownSeconds": 86440,
   "PlayerIconDefault_GearTier": 5,
   "PlayerIconDefault_UnlockDefault": false,
-  "PlayerIconDefault_IconType": "USER"
+  "PlayerIconDefault_IconType": "USER",
+  "minHeroLevelForGearTier": [
+    0,
+    1,
+    4,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    65,
+    70,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "HeroFakePvpCaps": {
+    "Ultron": {
+      "redStarCap": 0
+    },
+    "Ultimus": {
+      "redStarCap": 0
+    }
+  }
 }
