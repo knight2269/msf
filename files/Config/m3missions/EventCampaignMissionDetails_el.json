@@ -92,8 +92,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 100791,
-          "TotalHealth": 199178,
+          "Power": 84977,
+          "TotalHealth": 183434,
           "CompactWave": [
             {
               "HeroId": "ShieldSupport_Heal",
@@ -273,9 +273,9 @@
             },
             {
               "HeroId": "Falcon",
-              "Power": 18950,
+              "Power": 17035,
               "Level": 65,
-              "GearLevel": 9,
+              "GearLevel": 8,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
@@ -289,15 +289,15 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 16624,
+              "Power": 8757,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
                 5,
-                5,
+                -1,
                 3,
                 0,
                 0
@@ -305,14 +305,14 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 16337,
+              "Power": 10305,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
-                5,
+                -1,
                 5,
                 3,
                 0,
@@ -408,7 +408,6 @@
                 },
                 {
                   "Expanded": true,
-                  "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 3,
                   "MinSlotReq": 1,
@@ -429,18 +428,7 @@
                       "tier": 9,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
-                    }
-                  ],
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                },
-                {
-                  "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 5,
-                  "MinSlotReq": 0,
-                  "Entries": [
+                    },
                     {
                       "abilities": [
                         5,
@@ -496,7 +484,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_02_loss",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -726,7 +714,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_03_end",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -1646,6 +1634,7 @@
                       "desired_y_pos": 0
                     }
                   ],
+                  "StoryTellingID": "ecm_el_05_tutorial",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -1974,7 +1963,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 273143,
+          "Power": 272945,
           "TotalHealth": 578450,
           "CompactWave": [
             {
@@ -1995,7 +1984,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 17451,
+              "Power": 17385,
               "Level": 62,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -2107,7 +2096,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 17451,
+              "Power": 17385,
               "Level": 62,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -2219,7 +2208,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 17451,
+              "Power": 17385,
               "Level": 62,
               "GearLevel": 9,
               "Loyalty": 5,
@@ -2563,7 +2552,7 @@
       "ID": "ecm_el_a_08",
       "locNameKey": "ID_ECM_EL_08_NAME",
       "locDescriptionName": "ID_ECM_EL_08_DESC",
-      "mapName": "Env_AIM_ChemLab_merged",
+      "mapName": "Env_Hydra_Lab_merged",
       "timeOfDay": "DAY",
       "Settings": [
         {
@@ -2901,8 +2890,8 @@
       "ID": "ecm_el_a_09",
       "locNameKey": "ID_ECM_EL_09_NAME",
       "locDescriptionName": "ID_ECM_EL_09_DESC",
-      "mapName": "Env_Hydra_Base_merged",
-      "timeOfDay": "SUNSET",
+      "mapName": "Env_Hydra_Lab_merged",
+      "timeOfDay": "DAY",
       "Settings": [
         {
           "Objectives": [
@@ -2988,12 +2977,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 341137,
-          "TotalHealth": 986242,
+          "Power": 340715,
+          "TotalHealth": 965047,
           "CompactWave": [
             {
               "HeroId": "MrSinister",
-              "Power": 26968,
+              "Power": 26546,
               "Level": 65,
               "GearLevel": 11,
               "Loyalty": 5,
@@ -3342,8 +3331,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 100791,
-          "TotalHealth": 199178,
+          "Power": 84977,
+          "TotalHealth": 183434,
           "CompactWave": [
             {
               "HeroId": "ShieldSupport_Heal",
@@ -3523,9 +3512,9 @@
             },
             {
               "HeroId": "Falcon",
-              "Power": 18950,
+              "Power": 17035,
               "Level": 65,
-              "GearLevel": 9,
+              "GearLevel": 8,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
@@ -3539,15 +3528,15 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 16624,
+              "Power": 8757,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
                 5,
-                5,
+                -1,
                 3,
                 0,
                 0
@@ -3555,14 +3544,14 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 16337,
+              "Power": 10305,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
-                5,
+                -1,
                 5,
                 3,
                 0,
@@ -3658,7 +3647,6 @@
                 },
                 {
                   "Expanded": true,
-                  "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 3,
                   "MinSlotReq": 1,
@@ -3679,18 +3667,7 @@
                       "tier": 7,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
-                    }
-                  ],
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                },
-                {
-                  "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 5,
-                  "MinSlotReq": 0,
-                  "Entries": [
+                    },
                     {
                       "abilities": [
                         4,
@@ -3746,7 +3723,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_02_loss",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -3976,7 +3953,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_03_end",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -4879,6 +4856,7 @@
                       "desired_y_pos": 0
                     }
                   ],
+                  "StoryTellingID": "ecm_el_05_tutorial",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -5207,7 +5185,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 118725,
+          "Power": 118620,
           "TotalHealth": 264853,
           "CompactWave": [
             {
@@ -5228,7 +5206,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 7619,
+              "Power": 7584,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -5340,7 +5318,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 7619,
+              "Power": 7584,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -5452,7 +5430,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 7619,
+              "Power": 7584,
               "Level": 47,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -5796,7 +5774,7 @@
       "ID": "ecm_el_b_08",
       "locNameKey": "ID_ECM_EL_08_NAME",
       "locDescriptionName": "ID_ECM_EL_08_DESC",
-      "mapName": "Env_AIM_ChemLab_merged",
+      "mapName": "Env_Hydra_Lab_merged",
       "timeOfDay": "DAY",
       "Settings": [
         {
@@ -6134,8 +6112,8 @@
       "ID": "ecm_el_b_09",
       "locNameKey": "ID_ECM_EL_09_NAME",
       "locDescriptionName": "ID_ECM_EL_09_DESC",
-      "mapName": "Env_Hydra_Base_merged",
-      "timeOfDay": "SUNSET",
+      "mapName": "Env_Hydra_Lab_merged",
+      "timeOfDay": "DAY",
       "Settings": [
         {
           "Objectives": [
@@ -6221,12 +6199,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 130755,
-          "TotalHealth": 417099,
+          "Power": 130628,
+          "TotalHealth": 408909,
           "CompactWave": [
             {
               "HeroId": "MrSinister",
-              "Power": 9100,
+              "Power": 8973,
               "Level": 48,
               "GearLevel": 7,
               "Loyalty": 3,
@@ -6575,8 +6553,8 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 100791,
-          "TotalHealth": 199178,
+          "Power": 84977,
+          "TotalHealth": 183434,
           "CompactWave": [
             {
               "HeroId": "ShieldSupport_Heal",
@@ -6756,9 +6734,9 @@
             },
             {
               "HeroId": "Falcon",
-              "Power": 18950,
+              "Power": 17035,
               "Level": 65,
-              "GearLevel": 9,
+              "GearLevel": 8,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
@@ -6772,15 +6750,15 @@
             },
             {
               "HeroId": "BlackWidow",
-              "Power": 16624,
+              "Power": 8757,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
                 5,
-                5,
+                -1,
                 3,
                 0,
                 0
@@ -6788,14 +6766,14 @@
             },
             {
               "HeroId": "Quake",
-              "Power": 16337,
+              "Power": 10305,
               "Level": 60,
-              "GearLevel": 9,
+              "GearLevel": 7,
               "Loyalty": 5,
               "RedStar": 0,
               "Abilities": [
                 5,
-                5,
+                -1,
                 5,
                 3,
                 0,
@@ -6891,7 +6869,6 @@
                 },
                 {
                   "Expanded": true,
-                  "InitialTurnFill": 1000,
                   "TurnSpeed": 1000,
                   "MaxSlotFill": 3,
                   "MinSlotReq": 1,
@@ -6912,18 +6889,7 @@
                       "tier": 4,
                       "desired_x_pos": 4,
                       "desired_y_pos": 0
-                    }
-                  ],
-                  "EmptyStoryDelay": 0,
-                  "HoldSpawnStory": false
-                },
-                {
-                  "Expanded": true,
-                  "NextWaveIf": "AfterAllDead",
-                  "TurnSpeed": 1000,
-                  "MaxSlotFill": 5,
-                  "MinSlotReq": 0,
-                  "Entries": [
+                    },
                     {
                       "abilities": [
                         3,
@@ -6979,7 +6945,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_02_loss",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -7209,7 +7175,7 @@
         {
           "Objectives": [
             {
-              "ObjectiveEndStory": "",
+              "ObjectiveEndStory": "ecm_el_03_end",
               "CantPersist": false,
               "Type": "KillTarget"
             }
@@ -8112,6 +8078,7 @@
                       "desired_y_pos": 0
                     }
                   ],
+                  "StoryTellingID": "ecm_el_05_tutorial",
                   "EmptyStoryDelay": 0,
                   "HoldSpawnStory": false
                 }
@@ -8440,7 +8407,7 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 36285,
+          "Power": 36246,
           "TotalHealth": 106407,
           "CompactWave": [
             {
@@ -8461,7 +8428,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 2334,
+              "Power": 2321,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -8573,7 +8540,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 2334,
+              "Power": 2321,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -8685,7 +8652,7 @@
             },
             {
               "HeroId": "Shuri",
-              "Power": 2334,
+              "Power": 2321,
               "Level": 30,
               "GearLevel": 5,
               "Loyalty": 2,
@@ -9029,7 +8996,7 @@
       "ID": "ecm_el_c_08",
       "locNameKey": "ID_ECM_EL_08_NAME",
       "locDescriptionName": "ID_ECM_EL_08_DESC",
-      "mapName": "Env_AIM_ChemLab_merged",
+      "mapName": "Env_Hydra_Lab_merged",
       "timeOfDay": "DAY",
       "Settings": [
         {
@@ -9367,8 +9334,8 @@
       "ID": "ecm_el_c_09",
       "locNameKey": "ID_ECM_EL_09_NAME",
       "locDescriptionName": "ID_ECM_EL_09_DESC",
-      "mapName": "Env_Hydra_Base_merged",
-      "timeOfDay": "SUNSET",
+      "mapName": "Env_Hydra_Lab_merged",
+      "timeOfDay": "DAY",
       "Settings": [
         {
           "Objectives": [
@@ -9454,12 +9421,12 @@
               "Type": "KillAll"
             }
           ],
-          "Power": 44354,
-          "TotalHealth": 168751,
+          "Power": 44320,
+          "TotalHealth": 165436,
           "CompactWave": [
             {
               "HeroId": "MrSinister",
-              "Power": 3032,
+              "Power": 2998,
               "Level": 33,
               "GearLevel": 5,
               "Loyalty": 2,
