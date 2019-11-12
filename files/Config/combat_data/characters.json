@@ -7361,6 +7361,13 @@
           "exec_value": 50
         }
       ],
+      "passive_power_mul": [
+        14,
+        28,
+        43,
+        59,
+        76
+      ],
       "safety": {
         "actions": [
           {
@@ -10253,6 +10260,11 @@
               0,
               100
             ],
+            "filter": {
+              "traits": [
+                "Supernatural"
+              ]
+            },
             "revive_health": [
               {
                 "pct": [
@@ -10266,16 +10278,7 @@
                 ]
               }
             ],
-            "revive_pct": 100,
-            "target": {
-              "filter": {
-                "traits": [
-                  "Supernatural"
-                ]
-              },
-              "limit": 1,
-              "relation": "ally"
-            }
+            "revive_pct": 100
           },
           {
             "action": "revive",
